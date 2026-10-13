@@ -31,6 +31,8 @@ The analysis plan was registered before any model was fitted (30 September 2026)
 4. **Survival and binary models performed almost the same.** Their AUROCs were within 0.01 of each other in 32 of the 40 cells defined by pipeline, outcome and horizon.
 5. **Transfer costs about 0.02 AUROC and a large calibration shift.** Moving the EHR and CTPA death model between MIMIC-IV and INSPECT lost 0.022 and 0.020 AUROC at one year. However, observed/expected ratios of 0.62 and 1.64 returned to 1.03 and 1.00 after only the baseline risk was updated.
 
+How these results relate to the dissertation and the side project is set out in [How this builds on Parts 1 and 2](#how-this-builds-on-parts-1-and-2).
+
 ## Cohorts and outcomes
 
 Development used MIMIC-IV v3.1 (Beth Israel Deaconess Medical Center, 2008 to 2022) and the transfer analysis used Stanford INSPECT, with PE identified by ICD-10 I26 and ICD-9 415.1.
@@ -133,6 +135,17 @@ The S6 analysis moved the EHR and CTPA ridge-Cox death model, built on the 28 EH
 | INSPECT to MIMIC-IV | 0.869 (0.848 to 0.889) | 0.889 (0.872 to 0.907) | 0.020 (0.009 to 0.032) | 1.64 (1.49 to 1.78) | 1.00 (0.91 to 1.08) |
 
 Discrimination largely survived the move but calibration did not, because each model carried its own hospital's baseline risk. However, re-estimating only the baseline hazard in the target restored calibration.
+
+## How this builds on Parts 1 and 2
+
+The plan was registered knowing the dissertation and side project results, and several analyses re-test them directly.
+
+- **When the prediction is made.** The dissertation counted outcomes from admission but took the EHR features from the whole index admission. Therefore, this project built separate pipelines at diagnosis and at discharge. In the EHR+ECG cohort, the model limited to information available at presentation scored 0.033 (0.018 to 0.050) lower AUROC for 30-day death than a model with the same clock that used values from the whole stay (Frame A). However, in the three-modality cohort the gap was 0.017 (-0.004 to 0.035).
+- **Binary against survival outcomes.** Survival models and binary models fitted at each horizon, as in the earlier projects, were within 0.01 AUROC of each other in 32 of 40 cells. However, the survival framing also showed that the ECG's signal for death is concentrated in the first 30 days after discharge (H1).
+- **What the ECG adds.** With an EHR modality trained within MIMIC-IV, the ECG added 0.006 AUROC for 30-day death at diagnosis, and at most 0.016 for any outcome and horizon in the EHR+ECG cohort. This fits the dissertation's finding that the fusion gain shrinks as the EHR modality improves, and the side project's gap rule.
+- **Fusion architectures.** A survival version of the side project's block forest beat late fusion for death within 30 days of admission in the EHR+ECG cohort (+0.016, 0.002 to 0.029). However, it did not in the three-modality cohort (-0.004, -0.020 to 0.013). In addition, at discharge the optimised block forest's weight in the super learner was 0.31 when it was first added but 0.011 in the final model, which adds the 139-feature EHR+.
+- **Clinical scores.** The dissertation's model beat sPESI by 0.1020 AUROC for 30-day death in its three-modality cohort but could not show a specificity gain at matched sensitivity. In this project's three-modality cohort, the at-diagnosis model beat sPESI by 0.119 (0.090 to 0.152), and its specificity at sPESI's sensitivity was 0.268 (0.074 to 0.339) higher.
+- **The CTPA report.** As in the dissertation, incidental findings carried more signal than the descriptions of the PE itself. For example, on their own they reached a 30-day AUROC of 0.713, against 0.563 for the PE descriptors and 0.495 for the right-heart strain signs.
 
 ## Registration and audit trail
 
