@@ -1,0 +1,465 @@
+file,row,column,reason,now
+audit_checks.csv,17,value,count of 1 to 9 in text,<10
+audit_checks.csv,47,value,count of 1 to 9 in text,<10
+audit_checks.csv,86,value,count of 1 to 9 in text,suppressed
+audit_checks.csv,87,value,count of 1 to 9 in text,suppressed
+bq_followup_checks.csv,14,value,count of 1 to 9 in text,<10
+bq_followup_checks.csv,29,value,count of 1 to 9 in text,<10
+bq_followup_checks.csv,30,value,count of 1 to 9 in text,<10
+bq_followup_checks.csv,31,value,count of 1 to 9 in text,<10
+bq_followup_checks.csv,33,value,count of 1 to 9 in text,<10
+cal_curves.csv,,,file left out: observed risk x n gives counts of 1 to 9 in many bins; fin_cal_bins.csv merges bins to 10 or more events,(not published)
+conformal_groups.csv,2,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,4,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,5,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,6,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,18,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,20,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,21,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,22,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,34,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,36,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,37,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,38,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,50,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,52,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,53,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,54,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,66,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,68,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,69,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,70,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,82,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,84,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,85,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,86,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,98,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,100,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,101,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,102,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,114,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,116,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,117,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,118,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,130,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,132,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,133,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,134,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,146,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,148,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,149,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,150,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,162,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,164,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,165,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,166,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,178,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,180,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,181,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,182,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,183,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,188,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,189,deaths_1y,complementary suppression,suppressed
+conformal_groups.csv,194,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,196,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,197,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,198,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,199,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,204,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,205,deaths_1y,complementary suppression,suppressed
+conformal_groups.csv,210,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,212,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,213,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,214,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,215,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,220,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,221,deaths_1y,complementary suppression,suppressed
+conformal_groups.csv,226,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,228,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,229,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,230,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,231,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,236,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,237,deaths_1y,complementary suppression,suppressed
+conformal_groups.csv,242,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,244,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,245,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,246,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,247,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,252,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,253,deaths_1y,complementary suppression,suppressed
+conformal_groups.csv,258,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,260,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,261,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,262,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,263,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,268,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,269,deaths_1y,complementary suppression,suppressed
+conformal_groups.csv,274,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,276,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,277,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,278,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,279,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,284,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,285,deaths_1y,complementary suppression,suppressed
+conformal_groups.csv,290,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,292,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,293,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,294,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,295,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,300,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,301,deaths_1y,complementary suppression,suppressed
+conformal_groups.csv,306,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,308,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,309,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,310,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,311,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,316,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,317,deaths_1y,complementary suppression,suppressed
+conformal_groups.csv,322,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,324,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,325,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,326,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,327,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,332,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,333,deaths_1y,complementary suppression,suppressed
+conformal_groups.csv,338,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,340,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,341,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,342,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,343,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,348,deaths_1y,count of 1 to 9,<10
+conformal_groups.csv,349,deaths_1y,complementary suppression,suppressed
+frames_summary.csv,23,value,count of 1 to 9 in text,<10
+frames_summary.csv,45,value,count of 1 to 9 in text,"yes; <10-22, 25-33"
+lm_points.csv,,,file left out: differences in the number at risk give the hidden death counts,(not published)
+lp_diag.csv,2,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,3,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,4,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,5,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,6,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,8,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,9,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,10,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,12,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,16,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,17,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,18,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,19,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,20,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,21,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,22,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,23,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,24,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,25,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,26,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,28,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,29,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,30,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,31,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,32,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,33,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,38,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,39,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,40,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,41,n_abs_z_gt5,count of 1 to 9,<10
+lp_diag.csv,2,n_abs_z_gt10,count of 1 to 9,<10
+lp_diag.csv,3,n_abs_z_gt10,count of 1 to 9,<10
+lp_diag.csv,4,n_abs_z_gt10,count of 1 to 9,<10
+lp_diag.csv,5,n_abs_z_gt10,count of 1 to 9,<10
+lp_diag.csv,18,n_abs_z_gt10,count of 1 to 9,<10
+lp_diag.csv,20,n_abs_z_gt10,count of 1 to 9,<10
+lp_diag.csv,21,n_abs_z_gt10,count of 1 to 9,<10
+lp_diag.csv,22,n_abs_z_gt10,count of 1 to 9,<10
+lp_diag.csv,23,n_abs_z_gt10,count of 1 to 9,<10
+lp_diag.csv,24,n_abs_z_gt10,count of 1 to 9,<10
+lp_diag.csv,25,n_abs_z_gt10,count of 1 to 9,<10
+lp_extreme_features.csv,3,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,4,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,5,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,6,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,7,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,8,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,9,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,10,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,11,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,12,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,13,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,14,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,15,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,16,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,17,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,18,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,22,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,23,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,24,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,25,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,26,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,27,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,28,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,29,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,30,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,31,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,32,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,33,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,34,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,35,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,36,n_extreme_patients,count of 1 to 9,<10
+lp_extreme_features.csv,3,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,4,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,5,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,6,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,7,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,8,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,9,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,10,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,11,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,12,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,13,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,14,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,15,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,16,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,17,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,18,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,22,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,23,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,24,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,25,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,26,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,27,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,28,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,29,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,30,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,31,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,32,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,33,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,34,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,35,n_patients,count of 1 to 9,<10
+lp_extreme_features.csv,36,n_patients,count of 1 to 9,<10
+s6_deciles.csv,,,file left out: Kaplan-Meier risk x n gives counts of 1 to 9 in several MIMIC-IV deciles,(not published)
+sens_checks.csv,13,value,count of 1 to 9 in text,3461 / 40 (deaths and CV readmissions; CV <10)
+sens_checks.csv,15,value,count of 1 to 9 in text,1624 / 12 (deaths and CV readmissions; CV <10)
+spesi_distribution.csv,7,n,count of 1 to 9,<10
+spesi_distribution.csv,6,n,complementary suppression,suppressed
+spesi_distribution.csv,14,n,count of 1 to 9,<10
+spesi_distribution.csv,13,n,complementary suppression,suppressed
+spesi_distribution.csv,21,n,count of 1 to 9,<10
+spesi_distribution.csv,20,n,complementary suppression,suppressed
+spesi_distribution.csv,28,n,count of 1 to 9,<10
+spesi_distribution.csv,27,n,complementary suppression,suppressed
+spesi_distribution.csv,34,n,count of 1 to 9,<10
+spesi_distribution.csv,33,n,complementary suppression,suppressed
+spesi_distribution.csv,42,n,count of 1 to 9,<10
+spesi_distribution.csv,41,n,complementary suppression,suppressed
+spesi_distribution.csv,49,n,count of 1 to 9,<10
+spesi_distribution.csv,48,n,complementary suppression,suppressed
+spesi_distribution.csv,55,n,count of 1 to 9,<10
+spesi_distribution.csv,56,n,count of 1 to 9,<10
+spesi_distribution.csv,63,n,count of 1 to 9,<10
+spesi_distribution.csv,62,n,complementary suppression,suppressed
+spesi_distribution.csv,70,n,count of 1 to 9,<10
+spesi_distribution.csv,69,n,complementary suppression,suppressed
+spesi_distribution.csv,76,n,count of 1 to 9,<10
+spesi_distribution.csv,77,n,count of 1 to 9,<10
+spesi_distribution.csv,84,n,count of 1 to 9,<10
+spesi_distribution.csv,83,n,complementary suppression,suppressed
+spesi_distribution.csv,91,n,count of 1 to 9,<10
+spesi_distribution.csv,90,n,complementary suppression,suppressed
+spesi_distribution.csv,97,n,count of 1 to 9,<10
+spesi_distribution.csv,96,n,complementary suppression,suppressed
+spesi_distribution.csv,105,n,count of 1 to 9,<10
+spesi_distribution.csv,104,n,complementary suppression,suppressed
+spesi_distribution.csv,112,n,count of 1 to 9,<10
+spesi_distribution.csv,111,n,complementary suppression,suppressed
+spesi_distribution.csv,118,n,count of 1 to 9,<10
+spesi_distribution.csv,117,n,complementary suppression,suppressed
+spesi_distribution.csv,126,n,count of 1 to 9,<10
+spesi_distribution.csv,125,n,complementary suppression,suppressed
+spesi_distribution.csv,6,deaths,count of 1 to 9,<10
+spesi_distribution.csv,7,deaths,count of 1 to 9,<10
+spesi_distribution.csv,13,deaths,count of 1 to 9,<10
+spesi_distribution.csv,14,deaths,count of 1 to 9,<10
+spesi_distribution.csv,20,deaths,count of 1 to 9,<10
+spesi_distribution.csv,21,deaths,count of 1 to 9,<10
+spesi_distribution.csv,23,deaths,count of 1 to 9,<10
+spesi_distribution.csv,27,deaths,count of 1 to 9,<10
+spesi_distribution.csv,30,deaths,count of 1 to 9,<10
+spesi_distribution.csv,34,deaths,count of 1 to 9,<10
+spesi_distribution.csv,37,deaths,count of 1 to 9,<10
+spesi_distribution.csv,41,deaths,count of 1 to 9,<10
+spesi_distribution.csv,44,deaths,count of 1 to 9,<10
+spesi_distribution.csv,48,deaths,count of 1 to 9,<10
+spesi_distribution.csv,51,deaths,count of 1 to 9,<10
+spesi_distribution.csv,55,deaths,count of 1 to 9,<10
+spesi_distribution.csv,56,deaths,count of 1 to 9,<10
+spesi_distribution.csv,58,deaths,count of 1 to 9,<10
+spesi_distribution.csv,62,deaths,count of 1 to 9,<10
+spesi_distribution.csv,70,deaths,count of 1 to 9,<10
+spesi_distribution.csv,69,deaths,complementary suppression,suppressed
+spesi_distribution.csv,76,deaths,count of 1 to 9,<10
+spesi_distribution.csv,77,deaths,count of 1 to 9,<10
+spesi_distribution.csv,84,deaths,count of 1 to 9,<10
+spesi_distribution.csv,83,deaths,complementary suppression,suppressed
+spesi_distribution.csv,90,deaths,count of 1 to 9,<10
+spesi_distribution.csv,89,deaths,complementary suppression,suppressed
+spesi_distribution.csv,93,deaths,count of 1 to 9,<10
+spesi_distribution.csv,96,deaths,count of 1 to 9,<10
+spesi_distribution.csv,97,deaths,count of 1 to 9,<10
+spesi_distribution.csv,104,deaths,count of 1 to 9,<10
+spesi_distribution.csv,103,deaths,complementary suppression,suppressed
+spesi_distribution.csv,107,deaths,count of 1 to 9,<10
+spesi_distribution.csv,111,deaths,count of 1 to 9,<10
+spesi_distribution.csv,112,deaths,count of 1 to 9,<10
+spesi_distribution.csv,118,deaths,count of 1 to 9,<10
+spesi_distribution.csv,114,deaths,complementary suppression,suppressed
+spesi_distribution.csv,121,deaths,count of 1 to 9,<10
+spesi_distribution.csv,125,deaths,count of 1 to 9,<10
+spesi_distribution.csv,126,deaths,count of 1 to 9,<10
+spesi_distribution.csv,6,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,7,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,13,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,14,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,20,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,21,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,23,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,27,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,28,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,30,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,33,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,34,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,37,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,41,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,42,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,44,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,48,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,49,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,51,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,55,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,56,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,58,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,62,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,63,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,69,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,70,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,76,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,77,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,83,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,84,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,89,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,90,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,91,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,93,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,96,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,97,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,103,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,104,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,105,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,107,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,111,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,112,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,114,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,117,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,118,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,121,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,125,death_rate,rate from a replaced count,(blank)
+spesi_distribution.csv,126,death_rate,rate from a replaced count,(blank)
+spesi_items.csv,6,spo2_under_90,share giving 1 to 9 patients,suppressed
+spesi_items.csv,9,spo2_under_90,share giving 1 to 9 patients,suppressed
+spesi_items.csv,12,spo2_under_90,share giving 1 to 9 patients,suppressed
+spesi_items.csv,15,spo2_under_90,share giving 1 to 9 patients,suppressed
+spesi_items.csv,18,spo2_under_90,share giving 1 to 9 patients,suppressed
+stab_seed.csv,8,flip_at_10pct,share giving 1 to 9 patients,suppressed
+stab_seed.csv,11,flip_at_10pct,share giving 1 to 9 patients,suppressed
+stab_seed.csv,19,flip_at_10pct,share giving 1 to 9 patients,suppressed
+stab_seed.csv,22,flip_at_10pct,share giving 1 to 9 patients,suppressed
+stab_seed.csv,30,flip_at_10pct,share giving 1 to 9 patients,suppressed
+stab_seed.csv,34,flip_at_10pct,share giving 1 to 9 patients,suppressed
+stab_seed.csv,41,flip_at_10pct,share giving 1 to 9 patients,suppressed
+stab_seed.csv,45,flip_at_10pct,share giving 1 to 9 patients,suppressed
+stab_seed.csv,64,flip_at_10pct,share giving 1 to 9 patients,suppressed
+stab_seed.csv,67,flip_at_10pct,share giving 1 to 9 patients,suppressed
+stab_seed.csv,70,flip_at_10pct,share giving 1 to 9 patients,suppressed
+stab_seed.csv,72,flip_at_10pct,share giving 1 to 9 patients,suppressed
+stab_seed.csv,75,flip_at_10pct,share giving 1 to 9 patients,suppressed
+stab_seed.csv,86,flip_at_10pct,share giving 1 to 9 patients,suppressed
+stab_seed.csv,100,flip_at_10pct,share giving 1 to 9 patients,suppressed
+stab_seed.csv,108,flip_at_10pct,share giving 1 to 9 patients,suppressed
+stab_seed.csv,116,flip_at_10pct,share giving 1 to 9 patients,suppressed
+stab_seed.csv,119,flip_at_10pct,share giving 1 to 9 patients,suppressed
+stab_seed.csv,10,flip_at_20pct,share giving 1 to 9 patients,suppressed
+stab_seed.csv,12,flip_at_20pct,share giving 1 to 9 patients,suppressed
+stab_seed.csv,31,flip_at_20pct,share giving 1 to 9 patients,suppressed
+stab_seed.csv,74,flip_at_20pct,share giving 1 to 9 patients,suppressed
+stab_seed.csv,84,flip_at_20pct,share giving 1 to 9 patients,suppressed
+stab_seed.csv,87,flip_at_20pct,share giving 1 to 9 patients,suppressed
+stab_seed.csv,109,flip_at_20pct,share giving 1 to 9 patients,suppressed
+stab_seed.csv,118,flip_at_20pct,share giving 1 to 9 patients,suppressed
+stab_seed.csv,132,flip_at_20pct,share giving 1 to 9 patients,suppressed
+subgroup_metrics.csv,122,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,142,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,162,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,182,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,202,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,123,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,143,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,163,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,183,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,203,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,124,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,144,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,164,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,184,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,204,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,125,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,145,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,165,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,185,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,205,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,146,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,166,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,186,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,206,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,147,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,167,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,187,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,207,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,148,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,168,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,188,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,208,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,149,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,169,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,189,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,209,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,150,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,210,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,151,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,211,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,152,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,212,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,153,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,213,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,154,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,214,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,155,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,215,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,156,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,216,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,157,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,217,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,278,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,294,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,279,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,295,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,280,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,296,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,281,deaths,count of 1 to 9,<10
+subgroup_metrics.csv,297,deaths,count of 1 to 9,<10
+table1.csv,58,Died within 30 days (n = 397),complementary suppression,†
+table1.csv,58,"Alive at 30 days (n = 3,104)",complementary suppression,†
+table1.xlsx,59,C59,complementary suppression,†
+table1.xlsx,59,D59,complementary suppression,†
+table1.xlsx,79,A79,note on the dagger reworded,(text)
+table1_checks.csv,10,value,absolute path,data/inputs/index_admission_times.csv
+temporal_drift.csv,7,deaths_10,count of 1 to 9,<10
+temporal_drift.csv,6,deaths_10,complementary suppression,suppressed
