@@ -1,29 +1,29 @@
 # Results
 
-Aggregate tables written by the scripts in `scripts/`. No file here holds a row per patient.
+This folder holds the aggregate tables written by the scripts in `scripts/`, and no file here holds a row per patient.
 
-Start with [`verified_results.md`](verified_results.md). It gathers the headline numbers, and `scripts/13e_verified_results.py` reads each one from the CSV named under its table. `verified_results.csv` holds every number with its source rows.
+The best place to start is [`verified_results.md`](verified_results.md), which gathers the headline numbers that `scripts/13e_verified_results.py` reads from the CSV named under each table, and `verified_results.csv` holds every number with its source rows.
 
 ## Conventions
 
-- `*_checks.csv`: the checks a script ran, each marked PASS, WARN, FAIL or INFO. Three FAIL rows remain in the published files: two in `level1_linear_checks.csv` (below-chance CTPA scores, followed up in `06a_diag.py`, `06a_foldbias.py` and DEVIATIONS.md D2) and one in `pres_pull_summary.csv` (vital-sign coverage at presentation, DEVIATIONS.md D17).
+- `*_checks.csv`: the checks a script ran, each marked PASS, WARN, FAIL or INFO. However, three FAIL rows remain in the published files: two in `level1_linear_checks.csv` (below-chance CTPA scores, followed up in `06a_diag.py`, `06a_foldbias.py` and DEVIATIONS.md D2) and one in `pres_pull_summary.csv` (vital-sign coverage at presentation, DEVIATIONS.md D17).
 - `*_metrics.csv`, `*_summary.csv`: performance by frame, cohort, model, horizon and measure, in long format, with 95% bootstrap intervals in `lo` and `hi` where computed.
 - `*_contrasts.csv`: paired differences between models, with intervals.
 - `*_weights.csv`, `*_tuning*.csv`, `*_lambda.csv`: fitted super learner weights and chosen tuning values.
-- Frames: A and P are at diagnosis (clock at admission), B is at discharge, I is INSPECT and M is its MIMIC-IV partner. Cohorts: `EHR+ECG` and `3-mod` (with a CTPA report).
-- `table1.xlsx` and `tables_2_3.xlsx` are formatted versions of `table1.csv` and `table2.csv`, `table3.csv`, `tableS2.csv`, `tableS3.csv`.
+- Frames A and P are at diagnosis (clock at admission), B is at discharge, I is INSPECT and M is its MIMIC-IV partner, and the cohorts are `EHR+ECG` and `3-mod` (with a CTPA report).
+- `table1.xlsx` and `tables_2_3.xlsx` are formatted versions of `table1.csv` and of `table2.csv`, `table3.csv`, `tableS2.csv` and `tableS3.csv` respectively.
 
 ## Small cells and files left out
 
-Counts of 1 to 9 patients or events are shown as `<10`. Where a set of cells adds up to a known total, a second cell is shown as `suppressed` (or `†` in Table 1) so the small one cannot be worked out by subtraction. Rates from those counts are blank, and shares that would give 1 to 9 patients are shown as `suppressed`. [`docs/suppressed_cells.csv`](../docs/suppressed_cells.csv) lists every changed cell, and [`tools/suppress_small_cells.py`](../tools/suppress_small_cells.py) made the changes.
+[`tools/suppress_small_cells.py`](../tools/suppress_small_cells.py) applied the following rules to the tables in this folder, and [`docs/suppressed_cells.csv`](../docs/suppressed_cells.csv) lists every changed cell. Firstly, counts of 1 to 9 patients or events are shown as `<10`. Secondly, where a set of cells adds up to a known total, a second cell is shown as `suppressed` (or `†` in Table 1) so the small one cannot be worked out by subtraction. Finally, rates from those counts are blank, and shares that would give 1 to 9 patients are shown as `suppressed`.
 
 Three tables are not published, because small counts could be worked out from many of their rows:
 
-- `cal_curves.csv` (`11b_calibration.R`): observed risk in bins of predicted risk. The final calibration in `fin_cal_bins.csv` merges bins until each holds at least 10 events.
+- `cal_curves.csv` (`11b_calibration.R`): observed risk in bins of predicted risk. However, the final calibration in `fin_cal_bins.csv` merges bins until each holds at least 10 events.
 - `s6_deciles.csv` (`16b_transfer_s6.R`): observed and predicted risk by decile in the transfer analysis.
-- `lm_points.csv` (`14b_landmark_supermodel.R`): numbers at risk and deaths at each landmark. The fitted curve is in `lm_curve.csv`.
+- `lm_points.csv` (`14b_landmark_supermodel.R`): numbers at risk and deaths at each landmark, although the fitted curve is in `lm_curve.csv`.
 
-Terminal logs (`*_log.txt`), archived first runs of a few stages, and the output of the one-off diagnostic `18z_diag_preds.R` are not included either.
+In addition, terminal logs (`*_log.txt`), archived first runs of a few stages and the output of the one-off diagnostic `18z_diag_preds.R` are not included.
 
 ## Which script wrote which file
 

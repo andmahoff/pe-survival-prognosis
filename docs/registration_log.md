@@ -3,9 +3,9 @@
 The analyses were developed in a local git repository that was never pushed
 to a public server. The table lists its 87 commits in order, so a reader can
 see when each registration document, addendum (A1 to A38) and deviation (D1
-to D19) was committed relative to the analyses it covers. The dates are local
-commit times (UK time, UTC+1) and cannot be verified independently; they are
-given as a record, not as proof.
+to D19) was committed relative to the analyses it covers.
+However, the dates are local commit times (UK time, UTC+1) that cannot be
+verified independently, so they are given as a record, not as proof.
 
 The pre-registration (PREREGISTRATION.md) was the first commit, on
 30 September 2026 at 10:21, before any model was fitted to a P2 analysis
@@ -13,17 +13,17 @@ frame. Addenda were committed with the words "before running" when they
 preceded the analysis they specify.
 
 This public repository was created afresh from the final state of that
-local repository. Compared with the local copy, the scripts differ only in
-the following ways:
+local repository, and the scripts differ from the local copy only in the
+following ways:
 
-- personal folder paths were replaced by the `PROJECTS_DIR` environment
-  variable, and the BigQuery billing project by `GCP_PROJECT`;
-- a few printed messages and account hints were reworded;
-- header and other comments were rewritten for readability.
+- Firstly, personal folder paths were replaced by the `PROJECTS_DIR`
+  environment variable, and the BigQuery billing project by `GCP_PROJECT`.
+- Secondly, a few printed messages and account hints were reworded.
+- Finally, header and other comments were rewritten for readability.
 
 A token-level comparison (R parse tokens without comments, Python syntax
 trees without the module docstring) confirmed that nothing else in the code
-changed. The registration documents in this folder are copied unchanged.
+changed, and the registration documents in this folder are copied unchanged.
 
 | # | Committed (UK time) | Commit | Message |
 |---|---|---|---|
