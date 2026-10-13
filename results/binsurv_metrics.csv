@@ -1,0 +1,1016 @@
+frame,target,model,set,horizon,measure,estimate,lo,hi
+P,death,Binary super learner-EHR,EHR,10,auc,0.845009416832631,0.816603979857438,0.872170884866283
+P,death,Binary super learner-EHR,EHR,10,ipa,0.137037589396886,0.0965643629455804,0.176848411228769
+P,death,"Binary super learner-EHR, recalibrated",EHR,10,auc,0.844943482097874,0.816601324212934,0.872093463681299
+P,death,"Binary super learner-EHR, recalibrated",EHR,10,ipa,0.137601208401308,0.0940896968995481,0.180460227270622
+P,death,Binary super learner,EHR+ECG,10,auc,0.848066083510568,0.820608552611661,0.875072033581221
+P,death,Binary super learner,EHR+ECG,10,ipa,0.137383280323139,0.0962124741159109,0.177813985039697
+P,death,"Binary super learner, recalibrated",EHR+ECG,10,auc,0.848074536681691,0.820735210957037,0.875096041637248
+P,death,"Binary super learner, recalibrated",EHR+ECG,10,ipa,0.137875630520843,0.0931993825617812,0.181210487928978
+P,death,Survival super learner,EHR+ECG,10,auc,0.855227610085647,0.831849331895238,0.878268109257877
+P,death,Survival super learner,EHR+ECG,10,ipa,0.123460703250442,0.0821002480775933,0.162186201484751
+P,death,Binary candidate: prevalence,EHR,10,auc,0.39057369981775,,
+P,death,Binary candidate: prevalence,EHR,10,ipa,-0.00058900025737163,,
+P,death,"Binary candidate: EHR alone, ridge",EHR,10,auc,0.833154689650275,,
+P,death,"Binary candidate: EHR alone, ridge",EHR,10,ipa,0.124708035627007,,
+P,death,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,10,auc,0.84173465833973,,
+P,death,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,10,ipa,0.125405172908882,,
+P,death,"Binary candidate: EHR alone, rf",EHR,10,auc,0.834174142087663,,
+P,death,"Binary candidate: EHR alone, rf",EHR,10,ipa,0.132505100977925,,
+P,death,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,10,auc,0.838485259360196,,
+P,death,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,10,ipa,0.134349014889149,,
+P,death,Binary super learner-EHR,EHR,30,auc,0.867565861227246,0.848884627615794,0.883965934281514
+P,death,Binary super learner-EHR,EHR,30,ipa,0.236506356182602,0.196756490598151,0.273077159831563
+P,death,"Binary super learner-EHR, recalibrated",EHR,30,auc,0.86754800825781,0.848902191534081,0.883912457489914
+P,death,"Binary super learner-EHR, recalibrated",EHR,30,ipa,0.236483440420305,0.194215207683073,0.27532079820403
+P,death,Binary super learner,EHR+ECG,30,auc,0.870731517307642,0.852948678893941,0.886718311418963
+P,death,Binary super learner,EHR+ECG,30,ipa,0.242461632865189,0.202392016694345,0.280022318144134
+P,death,"Binary super learner, recalibrated",EHR+ECG,30,auc,0.870734763302085,0.852990816130057,0.886719358723045
+P,death,"Binary super learner, recalibrated",EHR+ECG,30,ipa,0.242142462725247,0.199727650975583,0.282162506998037
+P,death,Survival super learner,EHR+ECG,30,auc,0.867183645381599,0.849950633737626,0.884357395854924
+P,death,Survival super learner,EHR+ECG,30,ipa,0.237126097115248,0.196782890065642,0.276369228683062
+P,death,Binary candidate: prevalence,EHR,30,auc,0.415730738268976,,
+P,death,Binary candidate: prevalence,EHR,30,ipa,-0.00075092908223473,,
+P,death,"Binary candidate: EHR alone, ridge",EHR,30,auc,0.857350716715573,,
+P,death,"Binary candidate: EHR alone, ridge",EHR,30,ipa,0.220546169663143,,
+P,death,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,30,auc,0.861972201303592,,
+P,death,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,30,ipa,0.229045991445764,,
+P,death,"Binary candidate: EHR alone, rf",EHR,30,auc,0.860694090991716,,
+P,death,"Binary candidate: EHR alone, rf",EHR,30,ipa,0.230818955306037,,
+P,death,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,30,auc,0.86387841154016,,
+P,death,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,30,ipa,0.235913113984895,,
+P,death,Binary super learner-EHR,EHR,90,auc,0.878913751877376,0.865453506138976,0.892196575159994
+P,death,Binary super learner-EHR,EHR,90,ipa,0.325025659856769,0.290564127382109,0.358981932588414
+P,death,"Binary super learner-EHR, recalibrated",EHR,90,auc,0.878923511519088,0.865430032456155,0.89221498878053
+P,death,"Binary super learner-EHR, recalibrated",EHR,90,ipa,0.324965557879079,0.288315062264961,0.361096545663547
+P,death,Binary super learner,EHR+ECG,90,auc,0.881536384486507,0.867972870400206,0.894586462998221
+P,death,Binary super learner,EHR+ECG,90,ipa,0.330691560381932,0.295250600668859,0.364380323338948
+P,death,"Binary super learner, recalibrated",EHR+ECG,90,auc,0.881559699186154,0.867977334204119,0.894592189710112
+P,death,"Binary super learner, recalibrated",EHR+ECG,90,ipa,0.330609967047955,0.29305788185113,0.365779111660116
+P,death,Survival super learner,EHR+ECG,90,auc,0.882396859564178,0.869104758555711,0.894977204731189
+P,death,Survival super learner,EHR+ECG,90,ipa,0.33085899986604,0.295800024744734,0.366427603168443
+P,death,Binary candidate: prevalence,EHR,90,auc,0.435929307661861,,
+P,death,Binary candidate: prevalence,EHR,90,ipa,-0.000681048433924802,,
+P,death,"Binary candidate: EHR alone, ridge",EHR,90,auc,0.871211767959096,,
+P,death,"Binary candidate: EHR alone, ridge",EHR,90,ipa,0.307962557309944,,
+P,death,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,90,auc,0.874757771114714,,
+P,death,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,90,ipa,0.314251553620072,,
+P,death,"Binary candidate: EHR alone, rf",EHR,90,auc,0.872949526386276,,
+P,death,"Binary candidate: EHR alone, rf",EHR,90,ipa,0.318422483440296,,
+P,death,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,90,auc,0.876209246718321,,
+P,death,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,90,ipa,0.325255735087655,,
+P,death,Binary super learner-EHR,EHR,180,auc,0.881731631756601,0.869203240854968,0.893925166322631
+P,death,Binary super learner-EHR,EHR,180,ipa,0.357213290578708,0.323436898386346,0.389859989776388
+P,death,"Binary super learner-EHR, recalibrated",EHR,180,auc,0.881714523512276,0.869171965650754,0.893932857732847
+P,death,"Binary super learner-EHR, recalibrated",EHR,180,ipa,0.357349332494913,0.32203586423143,0.391703619605308
+P,death,Binary super learner,EHR+ECG,180,auc,0.883920099875156,0.871364022791976,0.8960413229933
+P,death,Binary super learner,EHR+ECG,180,ipa,0.362816726906029,0.328614908267448,0.395770082827381
+P,death,"Binary super learner, recalibrated",EHR+ECG,180,auc,0.883906690710686,0.87132470054846,0.896011421647412
+P,death,"Binary super learner, recalibrated",EHR+ECG,180,ipa,0.362934542553376,0.326987466277419,0.397392686874618
+P,death,Survival super learner,EHR+ECG,180,auc,0.88547417579877,0.87267810753092,0.896994866972387
+P,death,Survival super learner,EHR+ECG,180,ipa,0.367704003633945,0.333925622006098,0.401157662723625
+P,death,Binary candidate: prevalence,EHR,180,auc,0.444175567577565,,
+P,death,Binary candidate: prevalence,EHR,180,ipa,-0.00064231257936842,,
+P,death,"Binary candidate: EHR alone, ridge",EHR,180,auc,0.873036019790077,,
+P,death,"Binary candidate: EHR alone, ridge",EHR,180,ipa,0.337697674376376,,
+P,death,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,180,auc,0.875408054746382,,
+P,death,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,180,ipa,0.342984857648136,,
+P,death,"Binary candidate: EHR alone, rf",EHR,180,auc,0.878788551347852,,
+P,death,"Binary candidate: EHR alone, rf",EHR,180,ipa,0.352321350609606,,
+P,death,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,180,auc,0.881271096314792,,
+P,death,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,180,ipa,0.359218704395758,,
+P,death,Binary super learner-EHR,EHR,365,auc,0.885896533055446,0.873268196192158,0.897844710768782
+P,death,Binary super learner-EHR,EHR,365,ipa,0.397971981587999,0.365078933638378,0.429357509124883
+P,death,"Binary super learner-EHR, recalibrated",EHR,365,auc,0.885879436463774,0.873261020155327,0.897856934167518
+P,death,"Binary super learner-EHR, recalibrated",EHR,365,ipa,0.398555279772788,0.364387486711867,0.431529645176276
+P,death,Binary super learner,EHR+ECG,365,auc,0.889475419578854,0.877251093817336,0.901292119249849
+P,death,Binary super learner,EHR+ECG,365,ipa,0.408102990521217,0.37615563064165,0.438762008667461
+P,death,"Binary super learner, recalibrated",EHR+ECG,365,auc,0.889438376963564,0.87721935263251,0.901269635027109
+P,death,"Binary super learner, recalibrated",EHR+ECG,365,ipa,0.408663082182149,0.375026140682217,0.440680172043918
+P,death,Survival super learner,EHR+ECG,365,auc,0.888985724345954,0.877008805399895,0.900730121940955
+P,death,Survival super learner,EHR+ECG,365,ipa,0.4052915672386,0.373166131956486,0.436430346037327
+P,death,Binary candidate: prevalence,EHR,365,auc,0.451945958487847,,
+P,death,Binary candidate: prevalence,EHR,365,ipa,-0.00050090697761096,,
+P,death,"Binary candidate: EHR alone, ridge",EHR,365,auc,0.878481904071838,,
+P,death,"Binary candidate: EHR alone, ridge",EHR,365,ipa,0.377866816002843,,
+P,death,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,365,auc,0.881916690751151,,
+P,death,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,365,ipa,0.386790538847064,,
+P,death,"Binary candidate: EHR alone, rf",EHR,365,auc,0.882392138824324,,
+P,death,"Binary candidate: EHR alone, rf",EHR,365,ipa,0.391768634911727,,
+P,death,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,365,auc,0.886759096811486,,
+P,death,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,365,ipa,0.403747318633889,,
+P,death,Binary super learner-EHR,EHR,10,slope,1.08040626630458,,
+P,death,Binary super learner-EHR,EHR,30,slope,1.0964119929418,,
+P,death,Binary super learner-EHR,EHR,90,slope,1.09503116012647,,
+P,death,Binary super learner-EHR,EHR,180,slope,1.09105830346741,,
+P,death,Binary super learner-EHR,EHR,365,slope,1.09968231556657,,
+P,death,"Binary super learner-EHR, recalibrated",EHR,10,slope,1.02318219094121,,
+P,death,"Binary super learner-EHR, recalibrated",EHR,30,slope,1.016535340021,,
+P,death,"Binary super learner-EHR, recalibrated",EHR,90,slope,1.0159765223877,,
+P,death,"Binary super learner-EHR, recalibrated",EHR,180,slope,1.01666710455598,,
+P,death,"Binary super learner-EHR, recalibrated",EHR,365,slope,1.01678576510398,,
+P,death,Binary super learner,EHR+ECG,10,slope,1.07750655130127,,
+P,death,Binary super learner,EHR+ECG,30,slope,1.09624925959109,,
+P,death,Binary super learner,EHR+ECG,90,slope,1.09643344299543,,
+P,death,Binary super learner,EHR+ECG,180,slope,1.09150801430343,,
+P,death,Binary super learner,EHR+ECG,365,slope,1.09583733471564,,
+P,death,"Binary super learner, recalibrated",EHR+ECG,10,slope,1.01896048187208,,
+P,death,"Binary super learner, recalibrated",EHR+ECG,30,slope,1.01532805177465,,
+P,death,"Binary super learner, recalibrated",EHR+ECG,90,slope,1.01543259179137,,
+P,death,"Binary super learner, recalibrated",EHR+ECG,180,slope,1.01716580681924,,
+P,death,"Binary super learner, recalibrated",EHR+ECG,365,slope,1.01580735623295,,
+P,death,Survival super learner,EHR+ECG,10,slope,1.02270681688768,,
+P,death,Survival super learner,EHR+ECG,30,slope,1.02098832346878,,
+P,death,Survival super learner,EHR+ECG,90,slope,1.02012900628111,,
+P,death,Survival super learner,EHR+ECG,180,slope,1.02059299517146,,
+P,death,Survival super learner,EHR+ECG,365,slope,1.02026003165161,,
+P,comp,Binary super learner-EHR,EHR,10,auc,0.815196741642708,0.786095087280887,0.843593550855522
+P,comp,Binary super learner-EHR,EHR,10,ipa,0.120199422642496,0.0864873860718363,0.153524750523172
+P,comp,"Binary super learner-EHR, recalibrated",EHR,10,auc,0.815034669372569,0.785940980620786,0.843474552476362
+P,comp,"Binary super learner-EHR, recalibrated",EHR,10,ipa,0.121376195278821,0.0841381786863003,0.158018627318797
+P,comp,Binary super learner,EHR+ECG,10,auc,0.820814307458143,0.793398190958865,0.847452809772659
+P,comp,Binary super learner,EHR+ECG,10,ipa,0.120978410569267,0.0874931189564636,0.154217910590741
+P,comp,"Binary super learner, recalibrated",EHR+ECG,10,auc,0.820753706522352,0.793219795716262,0.847390573137242
+P,comp,"Binary super learner, recalibrated",EHR+ECG,10,ipa,0.121735786082143,0.0838939534329543,0.158685844946672
+P,comp,Survival super learner,EHR+ECG,10,auc,0.830012965781611,0.806642330196742,0.854344551389463
+P,comp,Survival super learner,EHR+ECG,10,ipa,0.0995459684296087,0.0665509245474087,0.130350433015149
+P,comp,Binary candidate: prevalence,EHR,10,auc,0.420252691809008,,
+P,comp,Binary candidate: prevalence,EHR,10,ipa,-0.000393416137234315,,
+P,comp,"Binary candidate: EHR alone, ridge",EHR,10,auc,0.807947178533176,,
+P,comp,"Binary candidate: EHR alone, ridge",EHR,10,ipa,0.113819748904728,,
+P,comp,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,10,auc,0.818814476577034,,
+P,comp,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,10,ipa,0.114155281636506,,
+P,comp,"Binary candidate: EHR alone, rf",EHR,10,auc,0.800345284401601,,
+P,comp,"Binary candidate: EHR alone, rf",EHR,10,ipa,0.115428255370835,,
+P,comp,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,10,auc,0.807335531878911,,
+P,comp,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,10,ipa,0.115560541075203,,
+P,comp,Binary super learner-EHR,EHR,30,auc,0.833173251278903,0.815339858103198,0.850554396585308
+P,comp,Binary super learner-EHR,EHR,30,ipa,0.214790217921025,0.182063568241035,0.246165573760041
+P,comp,"Binary super learner-EHR, recalibrated",EHR,30,auc,0.833171394657138,0.815373579423419,0.850539444812576
+P,comp,"Binary super learner-EHR, recalibrated",EHR,30,ipa,0.214882359786832,0.179485655615833,0.24863521419935
+P,comp,Binary super learner,EHR+ECG,30,auc,0.840544039687147,0.823275911628365,0.857084505526419
+P,comp,Binary super learner,EHR+ECG,30,ipa,0.222863252399256,0.188677094956811,0.254708558786678
+P,comp,"Binary super learner, recalibrated",EHR+ECG,30,auc,0.840561368156956,0.823347591241296,0.857130022063685
+P,comp,"Binary super learner, recalibrated",EHR+ECG,30,ipa,0.222651061803498,0.186019296338109,0.257050566322396
+P,comp,Survival super learner,EHR+ECG,30,auc,0.844839643578131,0.828015669528497,0.860950138341188
+P,comp,Survival super learner,EHR+ECG,30,ipa,0.223207589014736,0.188301605622934,0.25705079819717
+P,comp,Binary candidate: prevalence,EHR,30,auc,0.425352355867358,,
+P,comp,Binary candidate: prevalence,EHR,30,ipa,-0.000774706189476282,,
+P,comp,"Binary candidate: EHR alone, ridge",EHR,30,auc,0.826977704448094,,
+P,comp,"Binary candidate: EHR alone, ridge",EHR,30,ipa,0.204953512573154,,
+P,comp,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,30,auc,0.836796758090848,,
+P,comp,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,30,ipa,0.214281832735012,,
+P,comp,"Binary candidate: EHR alone, rf",EHR,30,auc,0.825101278717297,,
+P,comp,"Binary candidate: EHR alone, rf",EHR,30,ipa,0.207816308355831,,
+P,comp,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,30,auc,0.833142926456736,,
+P,comp,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,30,ipa,0.215738996963893,,
+P,comp,Binary super learner-EHR,EHR,90,auc,0.859164130474773,0.845103535939267,0.872467809523995
+P,comp,Binary super learner-EHR,EHR,90,ipa,0.325725278976455,0.29275459237824,0.356653231254068
+P,comp,"Binary super learner-EHR, recalibrated",EHR,90,auc,0.859156429920248,0.845091686223049,0.872452908188451
+P,comp,"Binary super learner-EHR, recalibrated",EHR,90,ipa,0.325809002922426,0.290838693551773,0.358786041480863
+P,comp,Binary super learner,EHR+ECG,90,auc,0.864962220223881,0.850518736086471,0.878294415654089
+P,comp,Binary super learner,EHR+ECG,90,ipa,0.338473179162709,0.30619896082638,0.370053356490923
+P,comp,"Binary super learner, recalibrated",EHR+ECG,90,auc,0.864927139919931,0.850493546426113,0.878291658496135
+P,comp,"Binary super learner, recalibrated",EHR+ECG,90,ipa,0.338627224606297,0.304689043280485,0.371775485339577
+P,comp,Survival super learner,EHR+ECG,90,auc,0.866521582515292,0.852894442791057,0.879631180390616
+P,comp,Survival super learner,EHR+ECG,90,ipa,0.343291069509364,0.309485694237636,0.376840224437388
+P,comp,Binary candidate: prevalence,EHR,90,auc,0.436310638658324,,
+P,comp,Binary candidate: prevalence,EHR,90,ipa,-0.000787009720516263,,
+P,comp,"Binary candidate: EHR alone, ridge",EHR,90,auc,0.853261655430987,,
+P,comp,"Binary candidate: EHR alone, ridge",EHR,90,ipa,0.311846611937062,,
+P,comp,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,90,auc,0.859718570400609,,
+P,comp,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,90,ipa,0.325501574812506,,
+P,comp,"Binary candidate: EHR alone, rf",EHR,90,auc,0.853227430744207,,
+P,comp,"Binary candidate: EHR alone, rf",EHR,90,ipa,0.317165461269372,,
+P,comp,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,90,auc,0.860036859987662,,
+P,comp,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,90,ipa,0.331836122385494,,
+P,comp,Binary super learner-EHR,EHR,180,auc,0.863905191018894,0.851425544442857,0.876775545855026
+P,comp,Binary super learner-EHR,EHR,180,ipa,0.360306984106111,0.330778367610251,0.390765914821214
+P,comp,"Binary super learner-EHR, recalibrated",EHR,180,auc,0.863895346635871,0.851408288140637,0.876785778638163
+P,comp,"Binary super learner-EHR, recalibrated",EHR,180,ipa,0.360973477385169,0.329965375899737,0.392781885916156
+P,comp,Binary super learner,EHR+ECG,180,auc,0.868149255991822,0.855594358506181,0.881074307818786
+P,comp,Binary super learner,EHR+ECG,180,ipa,0.371018699631071,0.34113009843194,0.401626042515297
+P,comp,"Binary super learner, recalibrated",EHR+ECG,180,auc,0.868152663662868,0.855596831876422,0.881086878669522
+P,comp,"Binary super learner, recalibrated",EHR+ECG,180,ipa,0.37169823151705,0.340410153876041,0.40366291484095
+P,comp,Survival super learner,EHR+ECG,180,auc,0.868918253757904,0.856465485517669,0.88175159834835
+P,comp,Survival super learner,EHR+ECG,180,ipa,0.373726564182733,0.34222442331323,0.405527675612624
+P,comp,Binary candidate: prevalence,EHR,180,auc,0.442990042027943,,
+P,comp,Binary candidate: prevalence,EHR,180,ipa,-0.00072259976573652,,
+P,comp,"Binary candidate: EHR alone, ridge",EHR,180,auc,0.858180303661353,,
+P,comp,"Binary candidate: EHR alone, ridge",EHR,180,ipa,0.34511521852582,,
+P,comp,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,180,auc,0.862505395479156,,
+P,comp,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,180,ipa,0.355949373386363,,
+P,comp,"Binary candidate: EHR alone, rf",EHR,180,auc,0.859321873461815,,
+P,comp,"Binary candidate: EHR alone, rf",EHR,180,ipa,0.352630305379281,,
+P,comp,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,180,auc,0.864212260043164,,
+P,comp,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,180,ipa,0.365062604054097,,
+P,comp,Binary super learner-EHR,EHR,365,auc,0.86956303822846,0.856744599612431,0.882435984943374
+P,comp,Binary super learner-EHR,EHR,365,ipa,0.394148844570874,0.365436254605525,0.423590110841212
+P,comp,"Binary super learner-EHR, recalibrated",EHR,365,auc,0.869551121407867,0.856712058224131,0.882426153544935
+P,comp,"Binary super learner-EHR, recalibrated",EHR,365,ipa,0.395487056408722,0.365689652154782,0.426311875844235
+P,comp,Binary super learner,EHR+ECG,365,auc,0.874947338167824,0.862372651218746,0.887895234376844
+P,comp,Binary super learner,EHR+ECG,365,ipa,0.408349435160519,0.37932496618458,0.438422795904165
+P,comp,"Binary super learner, recalibrated",EHR+ECG,365,auc,0.874924906505533,0.862323694132394,0.88787167812356
+P,comp,"Binary super learner, recalibrated",EHR+ECG,365,ipa,0.409779246915748,0.379631862679995,0.441690764089726
+P,comp,Survival super learner,EHR+ECG,365,auc,0.87420499034387,0.861483305899027,0.887097326840498
+P,comp,Survival super learner,EHR+ECG,365,ipa,0.407783626497296,0.377018254190678,0.440146534063741
+P,comp,Binary candidate: prevalence,EHR,365,auc,0.447350435139199,,
+P,comp,Binary candidate: prevalence,EHR,365,ipa,-0.00070800997601328,,
+P,comp,"Binary candidate: EHR alone, ridge",EHR,365,auc,0.864941064312277,,
+P,comp,"Binary candidate: EHR alone, ridge",EHR,365,ipa,0.381044913622924,,
+P,comp,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,365,auc,0.87048238588768,,
+P,comp,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,365,ipa,0.39548093684856,,
+P,comp,"Binary candidate: EHR alone, rf",EHR,365,auc,0.863892033605434,,
+P,comp,"Binary candidate: EHR alone, rf",EHR,365,ipa,0.382754045667186,,
+P,comp,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,365,auc,0.869804529092814,,
+P,comp,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,365,ipa,0.39886655722685,,
+P,comp,Binary super learner-EHR,EHR,10,slope,1.11018144171556,,
+P,comp,Binary super learner-EHR,EHR,30,slope,1.08986493590838,,
+P,comp,Binary super learner-EHR,EHR,90,slope,1.09412991408277,,
+P,comp,Binary super learner-EHR,EHR,180,slope,1.09569049469805,,
+P,comp,Binary super learner-EHR,EHR,365,slope,1.1031215562593,,
+P,comp,"Binary super learner-EHR, recalibrated",EHR,10,slope,1.02663300001223,,
+P,comp,"Binary super learner-EHR, recalibrated",EHR,30,slope,1.01565290055427,,
+P,comp,"Binary super learner-EHR, recalibrated",EHR,90,slope,1.01358702989264,,
+P,comp,"Binary super learner-EHR, recalibrated",EHR,180,slope,1.01379453748953,,
+P,comp,"Binary super learner-EHR, recalibrated",EHR,365,slope,1.01255186690814,,
+P,comp,Binary super learner,EHR+ECG,10,slope,1.10928145835072,,
+P,comp,Binary super learner,EHR+ECG,30,slope,1.09464881690116,,
+P,comp,Binary super learner,EHR+ECG,90,slope,1.08897674215568,,
+P,comp,Binary super learner,EHR+ECG,180,slope,1.09410623867748,,
+P,comp,Binary super learner,EHR+ECG,365,slope,1.09804297783214,,
+P,comp,"Binary super learner, recalibrated",EHR+ECG,10,slope,1.01874975342993,,
+P,comp,"Binary super learner, recalibrated",EHR+ECG,30,slope,1.01382043315641,,
+P,comp,"Binary super learner, recalibrated",EHR+ECG,90,slope,1.01300873491025,,
+P,comp,"Binary super learner, recalibrated",EHR+ECG,180,slope,1.01384541511732,,
+P,comp,"Binary super learner, recalibrated",EHR+ECG,365,slope,1.0122279317771,,
+P,comp,Survival super learner,EHR+ECG,10,slope,1.02210876950837,,
+P,comp,Survival super learner,EHR+ECG,30,slope,1.01557513313958,,
+P,comp,Survival super learner,EHR+ECG,90,slope,1.01585370545033,,
+P,comp,Survival super learner,EHR+ECG,180,slope,1.01596505979556,,
+P,comp,Survival super learner,EHR+ECG,365,slope,1.01599939221589,,
+P,cv,Binary super learner-EHR,EHR,10,auc,0.762090980461864,0.674259948228192,0.840914732336977
+P,cv,Binary super learner-EHR,EHR,10,ipa,0.0120915898763344,0.00031675774610154,0.0214669099815948
+P,cv,"Binary super learner-EHR, recalibrated",EHR,10,auc,0.759557984861278,0.669025754161802,0.841464740399688
+P,cv,"Binary super learner-EHR, recalibrated",EHR,10,ipa,0.0108753536421254,-0.00398364339879557,0.0225391742739471
+P,cv,Binary super learner,EHR+ECG,10,auc,0.775889140707165,0.692785322401957,0.848371985769728
+P,cv,Binary super learner,EHR+ECG,10,ipa,0.01257438405033,-0.00162848197565382,0.023595842180353
+P,cv,"Binary super learner, recalibrated",EHR+ECG,10,auc,0.773052481891303,0.687722107692505,0.847612939359509
+P,cv,"Binary super learner, recalibrated",EHR+ECG,10,ipa,0.0102662792544406,-0.00816918500745264,0.0236540388036184
+P,cv,Survival super learner,EHR+ECG,10,auc,0.736657334577612,0.649690066844001,0.818549265892746
+P,cv,Survival super learner,EHR+ECG,10,ipa,0.0111132689538503,-0.00181210258515546,0.0219824978610604
+P,cv,Binary candidate: prevalence,EHR,10,auc,0.292001807166452,,
+P,cv,Binary candidate: prevalence,EHR,10,ipa,-0.000458375416191315,,
+P,cv,"Binary candidate: EHR alone, ridge",EHR,10,auc,0.765483120769083,,
+P,cv,"Binary candidate: EHR alone, ridge",EHR,10,ipa,0.0125735855419339,,
+P,cv,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,10,auc,0.777414863203425,,
+P,cv,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,10,ipa,0.0121079997682267,,
+P,cv,"Binary candidate: EHR alone, rf",EHR,10,auc,0.700795449495623,,
+P,cv,"Binary candidate: EHR alone, rf",EHR,10,ipa,0.00461824874267847,,
+P,cv,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,10,auc,0.735946318268675,,
+P,cv,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,10,ipa,0.00445420586484635,,
+P,cv,Binary super learner-EHR,EHR,30,auc,0.75943785060113,0.72338852555913,0.794817601584425
+P,cv,Binary super learner-EHR,EHR,30,ipa,0.0419351426320286,0.0226773404394239,0.0589474109357183
+P,cv,"Binary super learner-EHR, recalibrated",EHR,30,auc,0.759320838019658,0.723329781359461,0.794412548673617
+P,cv,"Binary super learner-EHR, recalibrated",EHR,30,ipa,0.0408144036827114,0.0184925445331421,0.0605288322605486
+P,cv,Binary super learner,EHR+ECG,30,auc,0.774101098870392,0.740011107625901,0.807733823925156
+P,cv,Binary super learner,EHR+ECG,30,ipa,0.0508073770587663,0.0278619031415687,0.0717411322538242
+P,cv,"Binary super learner, recalibrated",EHR+ECG,30,auc,0.774045212264316,0.739935111821752,0.807737079068044
+P,cv,"Binary super learner, recalibrated",EHR+ECG,30,ipa,0.0500112488655847,0.0241757162108713,0.0734174748632922
+P,cv,Survival super learner,EHR+ECG,30,auc,0.790205173702558,0.757711375383542,0.820966713586266
+P,cv,Survival super learner,EHR+ECG,30,ipa,0.0586211490400738,0.029607514650685,0.0848674203352234
+P,cv,Binary candidate: prevalence,EHR,30,auc,0.382245174540857,,
+P,cv,Binary candidate: prevalence,EHR,30,ipa,-0.000674922884469797,,
+P,cv,"Binary candidate: EHR alone, ridge",EHR,30,auc,0.757539452450977,,
+P,cv,"Binary candidate: EHR alone, ridge",EHR,30,ipa,0.0389400103080193,,
+P,cv,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,30,auc,0.769258175162595,,
+P,cv,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,30,ipa,0.0490283779312182,,
+P,cv,"Binary candidate: EHR alone, rf",EHR,30,auc,0.749341585922164,,
+P,cv,"Binary candidate: EHR alone, rf",EHR,30,ipa,0.0386847353069689,,
+P,cv,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,30,auc,0.762081985651114,,
+P,cv,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,30,ipa,0.0471229299823197,,
+P,cv,Binary super learner-EHR,EHR,90,auc,0.785907769812052,0.758964234303422,0.812036747697194
+P,cv,Binary super learner-EHR,EHR,90,ipa,0.10953253939804,0.0763325222882,0.139540324761867
+P,cv,"Binary super learner-EHR, recalibrated",EHR,90,auc,0.786039527223406,0.759081867896386,0.81219299553045
+P,cv,"Binary super learner-EHR, recalibrated",EHR,90,ipa,0.10950809490469,0.0737678646571289,0.14178245433903
+P,cv,Binary super learner,EHR+ECG,90,auc,0.797701026932765,0.771843409857221,0.822685210395512
+P,cv,Binary super learner,EHR+ECG,90,ipa,0.11685364203444,0.0817535745053036,0.148004889028072
+P,cv,"Binary super learner, recalibrated",EHR+ECG,90,auc,0.797780468901376,0.77189681023543,0.822721678940739
+P,cv,"Binary super learner, recalibrated",EHR+ECG,90,ipa,0.116619388674464,0.0786640580597662,0.150136274943854
+P,cv,Survival super learner,EHR+ECG,90,auc,0.80496124782019,0.779188577324807,0.829568308817177
+P,cv,Survival super learner,EHR+ECG,90,ipa,0.129327321482962,0.0912670092881696,0.165212991049749
+P,cv,Binary candidate: prevalence,EHR,90,auc,0.402192888975005,,
+P,cv,Binary candidate: prevalence,EHR,90,ipa,-0.000873614860454008,,
+P,cv,"Binary candidate: EHR alone, ridge",EHR,90,auc,0.783790931989925,,
+P,cv,"Binary candidate: EHR alone, ridge",EHR,90,ipa,0.105916770940188,,
+P,cv,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,90,auc,0.794911838790932,,
+P,cv,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,90,ipa,0.113984610588634,,
+P,cv,"Binary candidate: EHR alone, rf",EHR,90,auc,0.776223600077504,,
+P,cv,"Binary candidate: EHR alone, rf",EHR,90,ipa,0.104454908748651,,
+P,cv,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,90,auc,0.791739972873474,,
+P,cv,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,90,ipa,0.112263442637949,,
+P,cv,Binary super learner-EHR,EHR,180,auc,0.792053815723515,0.767526997846682,0.815295081716421
+P,cv,Binary super learner-EHR,EHR,180,ipa,0.154242674330164,0.120860210948908,0.185972588569393
+P,cv,"Binary super learner-EHR, recalibrated",EHR,180,auc,0.792159348922242,0.767589337877244,0.815361213257389
+P,cv,"Binary super learner-EHR, recalibrated",EHR,180,ipa,0.155700731720407,0.119713187807803,0.190411769766562
+P,cv,Binary super learner,EHR+ECG,180,auc,0.799823697479774,0.776801306467163,0.821931036833604
+P,cv,Binary super learner,EHR+ECG,180,ipa,0.158129687281479,0.124888201452002,0.190147944850752
+P,cv,"Binary super learner, recalibrated",EHR+ECG,180,auc,0.799945526245951,0.776991998451576,0.82207744748293
+P,cv,"Binary super learner, recalibrated",EHR+ECG,180,ipa,0.159370928310446,0.123270256065063,0.194683110104253
+P,cv,Survival super learner,EHR+ECG,180,auc,0.804512165029091,0.781844223900423,0.826312562318148
+P,cv,Survival super learner,EHR+ECG,180,ipa,0.166978184321681,0.130441374792394,0.203184174756361
+P,cv,Binary candidate: prevalence,EHR,180,auc,0.405291713936745,,
+P,cv,Binary candidate: prevalence,EHR,180,ipa,-0.00107897642638033,,
+P,cv,"Binary candidate: EHR alone, ridge",EHR,180,auc,0.789984278657307,,
+P,cv,"Binary candidate: EHR alone, ridge",EHR,180,ipa,0.14984755119134,,
+P,cv,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,180,auc,0.799328622621041,,
+P,cv,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,180,ipa,0.153342559259277,,
+P,cv,"Binary candidate: EHR alone, rf",EHR,180,auc,0.777252008622683,,
+P,cv,"Binary candidate: EHR alone, rf",EHR,180,ipa,0.143185926513973,,
+P,cv,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,180,auc,0.789847706282485,,
+P,cv,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,180,ipa,0.149917013349374,,
+P,cv,Binary super learner-EHR,EHR,365,auc,0.788352628077179,0.765390813180573,0.810061908702838
+P,cv,Binary super learner-EHR,EHR,365,ipa,0.164257249324126,0.133576374986887,0.19449530751436
+P,cv,"Binary super learner-EHR, recalibrated",EHR,365,auc,0.78842248835662,0.765443080149367,0.810128332278131
+P,cv,"Binary super learner-EHR, recalibrated",EHR,365,ipa,0.165705406241954,0.132488792728802,0.198337194391662
+P,cv,Binary super learner,EHR+ECG,365,auc,0.796942115768463,0.774699116254656,0.818317629147256
+P,cv,Binary super learner,EHR+ECG,365,ipa,0.169972612085631,0.140000986327829,0.200735277509782
+P,cv,"Binary super learner, recalibrated",EHR+ECG,365,auc,0.796982701264138,0.774750067826298,0.818343219085803
+P,cv,"Binary super learner, recalibrated",EHR+ECG,365,ipa,0.171209522955796,0.138367688975663,0.205093287043798
+P,cv,Survival super learner,EHR+ECG,365,auc,0.798984697272122,0.776530912929982,0.820318240511287
+P,cv,Survival super learner,EHR+ECG,365,ipa,0.174195885815583,0.140586346454194,0.207869797475301
+P,cv,Binary candidate: prevalence,EHR,365,auc,0.415743845642049,,
+P,cv,Binary candidate: prevalence,EHR,365,ipa,-0.00094940276943789,,
+P,cv,"Binary candidate: EHR alone, ridge",EHR,365,auc,0.783262142381903,,
+P,cv,"Binary candidate: EHR alone, ridge",EHR,365,ipa,0.158487972769851,,
+P,cv,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,365,auc,0.793809048569528,,
+P,cv,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,365,ipa,0.163876726787344,,
+P,cv,"Binary candidate: EHR alone, rf",EHR,365,auc,0.776070525615436,,
+P,cv,"Binary candidate: EHR alone, rf",EHR,365,ipa,0.154689952158352,,
+P,cv,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,365,auc,0.788059214903526,,
+P,cv,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,365,ipa,0.162122416377605,,
+P,cv,Binary super learner-EHR,EHR,10,slope,1.21993198126371,,
+P,cv,Binary super learner-EHR,EHR,30,slope,1.12526278223937,,
+P,cv,Binary super learner-EHR,EHR,90,slope,1.07732831803917,,
+P,cv,Binary super learner-EHR,EHR,180,slope,1.10653921937809,,
+P,cv,Binary super learner-EHR,EHR,365,slope,1.11134274034705,,
+P,cv,"Binary super learner-EHR, recalibrated",EHR,10,slope,1.09295055707241,,
+P,cv,"Binary super learner-EHR, recalibrated",EHR,30,slope,1.02891177223853,,
+P,cv,"Binary super learner-EHR, recalibrated",EHR,90,slope,1.01330573958096,,
+P,cv,"Binary super learner-EHR, recalibrated",EHR,180,slope,1.02137939891883,,
+P,cv,"Binary super learner-EHR, recalibrated",EHR,365,slope,1.01971323337029,,
+P,cv,Binary super learner,EHR+ECG,10,slope,1.18432606294412,,
+P,cv,Binary super learner,EHR+ECG,30,slope,1.10982387079153,,
+P,cv,Binary super learner,EHR+ECG,90,slope,1.07702684275798,,
+P,cv,Binary super learner,EHR+ECG,180,slope,1.10748086315714,,
+P,cv,Binary super learner,EHR+ECG,365,slope,1.11094858372271,,
+P,cv,"Binary super learner, recalibrated",EHR+ECG,10,slope,1.05618329694886,,
+P,cv,"Binary super learner, recalibrated",EHR+ECG,30,slope,1.02758494051212,,
+P,cv,"Binary super learner, recalibrated",EHR+ECG,90,slope,1.00721116025048,,
+P,cv,"Binary super learner, recalibrated",EHR+ECG,180,slope,1.01594323934566,,
+P,cv,"Binary super learner, recalibrated",EHR+ECG,365,slope,1.01722068825157,,
+P,cv,Survival super learner,EHR+ECG,10,slope,1.06210018828885,,
+P,cv,Survival super learner,EHR+ECG,30,slope,1.00874991236856,,
+P,cv,Survival super learner,EHR+ECG,90,slope,1.00734425637326,,
+P,cv,Survival super learner,EHR+ECG,180,slope,1.01306683087995,,
+P,cv,Survival super learner,EHR+ECG,365,slope,1.01616689724968,,
+P,cv_excl,Binary super learner-EHR,EHR,10,auc,0.765437302423604,0.679886780276124,0.84268037658656
+P,cv_excl,Binary super learner-EHR,EHR,10,ipa,0.0135172797977463,0.00100210562741131,0.0238910106522061
+P,cv_excl,"Binary super learner-EHR, recalibrated",EHR,10,auc,0.763751317175975,0.675546860541037,0.842682633564531
+P,cv_excl,"Binary super learner-EHR, recalibrated",EHR,10,ipa,0.0130024189469898,-0.00185625096410427,0.0252560274971576
+P,cv_excl,Binary super learner,EHR+ECG,10,auc,0.781102915349491,0.69998835289445,0.852471972831259
+P,cv_excl,Binary super learner,EHR+ECG,10,ipa,0.0140349387597775,-0.000250667427188739,0.0253017384918617
+P,cv_excl,"Binary super learner, recalibrated",EHR+ECG,10,auc,0.778300745424033,0.69503105153008,0.851294399586211
+P,cv_excl,"Binary super learner, recalibrated",EHR+ECG,10,ipa,0.0124890232697088,-0.00500398348421441,0.0262905344976052
+P,cv_excl,Survival super learner,EHR+ECG,10,auc,0.742793583889474,0.656982933031166,0.822499409503698
+P,cv_excl,Survival super learner,EHR+ECG,10,ipa,,,
+P,cv_excl,Binary candidate: prevalence,EHR,10,auc,0.291897904226671,,
+P,cv_excl,Binary candidate: prevalence,EHR,10,ipa,-0.000472080744259751,,
+P,cv_excl,"Binary candidate: EHR alone, ridge",EHR,10,auc,0.767794559575382,,
+P,cv_excl,"Binary candidate: EHR alone, ridge",EHR,10,ipa,0.0135813258392747,,
+P,cv_excl,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,10,auc,0.784357803535886,,
+P,cv_excl,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,10,ipa,0.0136678549791985,,
+P,cv_excl,"Binary candidate: EHR alone, rf",EHR,10,auc,0.705475549311166,,
+P,cv_excl,"Binary candidate: EHR alone, rf",EHR,10,ipa,0.00534133532846415,,
+P,cv_excl,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,10,auc,0.742949693634625,,
+P,cv_excl,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,10,ipa,0.00523536487010867,,
+P,cv_excl,Binary super learner-EHR,EHR,30,auc,0.7833190313489,0.750868615413011,0.8155553158791
+P,cv_excl,Binary super learner-EHR,EHR,30,ipa,0.0542488325646133,0.0310409744277566,0.0756378281589497
+P,cv_excl,"Binary super learner-EHR, recalibrated",EHR,30,auc,0.783307222370928,0.750852133794174,0.815657646604147
+P,cv_excl,"Binary super learner-EHR, recalibrated",EHR,30,ipa,0.0522207236938601,0.0242706236402686,0.0780093905320251
+P,cv_excl,Binary super learner,EHR+ECG,30,auc,0.79782832895089,0.766989032826821,0.828052170382245
+P,cv_excl,Binary super learner,EHR+ECG,30,ipa,0.0654786728600487,0.0373369813145238,0.0910730814544637
+P,cv_excl,"Binary super learner, recalibrated",EHR+ECG,30,auc,0.797812583646927,0.766801031541821,0.827983254736022
+P,cv_excl,"Binary super learner, recalibrated",EHR+ECG,30,ipa,0.0637468141562428,0.0309502196741043,0.0932930640655689
+P,cv_excl,Survival super learner,EHR+ECG,30,auc,0.810404890491411,0.781202030170767,0.839209615188568
+P,cv_excl,Survival super learner,EHR+ECG,30,ipa,,,
+P,cv_excl,Binary candidate: prevalence,EHR,30,auc,0.379702925477476,,
+P,cv_excl,Binary candidate: prevalence,EHR,30,ipa,-0.000766630820700387,,
+P,cv_excl,"Binary candidate: EHR alone, ridge",EHR,30,auc,0.785017556013919,,
+P,cv_excl,"Binary candidate: EHR alone, ridge",EHR,30,ipa,0.0514669537535194,,
+P,cv_excl,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,30,auc,0.799359559761301,,
+P,cv_excl,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,30,ipa,0.0628529981210408,,
+P,cv_excl,"Binary candidate: EHR alone, rf",EHR,30,auc,0.769463163861378,,
+P,cv_excl,"Binary candidate: EHR alone, rf",EHR,30,ipa,0.050721332127881,,
+P,cv_excl,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,30,auc,0.784413329974335,,
+P,cv_excl,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,30,ipa,0.0645376669735395,,
+P,cv_excl,Binary super learner-EHR,EHR,90,auc,0.827957090930583,0.803724952637584,0.851233740102078
+P,cv_excl,Binary super learner-EHR,EHR,90,ipa,0.175583070652598,0.133357643063026,0.21413303901238
+P,cv_excl,"Binary super learner-EHR, recalibrated",EHR,90,auc,0.828069387393244,0.803777896480624,0.851343763562486
+P,cv_excl,"Binary super learner-EHR, recalibrated",EHR,90,ipa,0.175668370911574,0.130923396865886,0.216151074130068
+P,cv_excl,Binary super learner,EHR+ECG,90,auc,0.84047046307515,0.817615649819987,0.862171451422269
+P,cv_excl,Binary super learner,EHR+ECG,90,ipa,0.191596883097929,0.14779434652865,0.23219710169466
+P,cv_excl,"Binary super learner, recalibrated",EHR+ECG,90,auc,0.840514199592187,0.81752627540355,0.862164804009243
+P,cv_excl,"Binary super learner, recalibrated",EHR+ECG,90,ipa,0.191562660662703,0.145222907125199,0.234141192003102
+P,cv_excl,Survival super learner,EHR+ECG,90,auc,0.837886462365909,0.814002916615225,0.85966155873309
+P,cv_excl,Survival super learner,EHR+ECG,90,ipa,,,
+P,cv_excl,Binary candidate: prevalence,EHR,90,auc,0.400536067850705,,
+P,cv_excl,Binary candidate: prevalence,EHR,90,ipa,-0.00107185357093509,,
+P,cv_excl,"Binary candidate: EHR alone, ridge",EHR,90,auc,0.827907444073406,,
+P,cv_excl,"Binary candidate: EHR alone, ridge",EHR,90,ipa,0.172506575454419,,
+P,cv_excl,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,90,auc,0.839165459972221,,
+P,cv_excl,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,90,ipa,0.188910394149736,,
+P,cv_excl,"Binary candidate: EHR alone, rf",EHR,90,auc,0.81226750199474,,
+P,cv_excl,"Binary candidate: EHR alone, rf",EHR,90,ipa,0.162320725197974,,
+P,cv_excl,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,90,auc,0.828848370223706,,
+P,cv_excl,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,90,ipa,0.181677162422361,,
+P,cv_excl,Binary super learner-EHR,EHR,180,auc,0.842703100183536,0.821641182372229,0.862934589270773
+P,cv_excl,Binary super learner-EHR,EHR,180,ipa,0.249436944492626,0.207801862291504,0.29115902230181
+P,cv_excl,"Binary super learner-EHR, recalibrated",EHR,180,auc,0.842758898305929,0.821696518696375,0.863015105789377
+P,cv_excl,"Binary super learner-EHR, recalibrated",EHR,180,ipa,0.250637572758206,0.206669631678668,0.294578369338487
+P,cv_excl,Binary super learner,EHR+ECG,180,auc,0.852061242424907,0.831736985504905,0.870835876876586
+P,cv_excl,Binary super learner,EHR+ECG,180,ipa,0.261042603108868,0.217940006815013,0.302144902852975
+P,cv_excl,"Binary super learner, recalibrated",EHR+ECG,180,auc,0.852085155905932,0.831866697565068,0.870885827137152
+P,cv_excl,"Binary super learner, recalibrated",EHR+ECG,180,ipa,0.2620031821932,0.216087028891752,0.305580200482212
+P,cv_excl,Survival super learner,EHR+ECG,180,auc,0.842393221325245,0.821338844030307,0.861895385077545
+P,cv_excl,Survival super learner,EHR+ECG,180,ipa,,,
+P,cv_excl,Binary candidate: prevalence,EHR,180,auc,0.405317062866549,,
+P,cv_excl,Binary candidate: prevalence,EHR,180,ipa,-0.00128540748863193,,
+P,cv_excl,"Binary candidate: EHR alone, ridge",EHR,180,auc,0.841533332403365,,
+P,cv_excl,"Binary candidate: EHR alone, ridge",EHR,180,ipa,0.243341604873875,,
+P,cv_excl,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,180,auc,0.851710511369864,,
+P,cv_excl,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,180,ipa,0.255395794520686,,
+P,cv_excl,"Binary candidate: EHR alone, rf",EHR,180,auc,0.828014244463531,,
+P,cv_excl,"Binary candidate: EHR alone, rf",EHR,180,ipa,0.234758228097125,,
+P,cv_excl,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,180,auc,0.840155318059262,,
+P,cv_excl,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,180,ipa,0.250187499628632,,
+P,cv_excl,Binary super learner-EHR,EHR,365,auc,0.847029018885306,0.826835694904396,0.866268978024742
+P,cv_excl,Binary super learner-EHR,EHR,365,ipa,0.284134230521291,0.245346882916763,0.324389476587342
+P,cv_excl,"Binary super learner-EHR, recalibrated",EHR,365,auc,0.847078693292149,0.826895403035377,0.866342495008183
+P,cv_excl,"Binary super learner-EHR, recalibrated",EHR,365,ipa,0.285064615833784,0.244244418102828,0.32765546622913
+P,cv_excl,Binary super learner,EHR+ECG,365,auc,0.85815879553111,0.839318948194715,0.877012411224391
+P,cv_excl,Binary super learner,EHR+ECG,365,ipa,0.301945256640905,0.263287989257998,0.34266176053006
+P,cv_excl,"Binary super learner, recalibrated",EHR+ECG,365,auc,0.858196728714517,0.839372564697343,0.877060068443413
+P,cv_excl,"Binary super learner, recalibrated",EHR+ECG,365,ipa,0.302825741164438,0.261999216289692,0.344970395953633
+P,cv_excl,Survival super learner,EHR+ECG,365,auc,0.843349500094833,0.823468648636036,0.862858356396271
+P,cv_excl,Survival super learner,EHR+ECG,365,ipa,,,
+P,cv_excl,Binary candidate: prevalence,EHR,365,auc,0.415581055084401,,
+P,cv_excl,Binary candidate: prevalence,EHR,365,ipa,-0.00117573623042944,,
+P,cv_excl,"Binary candidate: EHR alone, ridge",EHR,365,auc,0.844238220391796,,
+P,cv_excl,"Binary candidate: EHR alone, ridge",EHR,365,ipa,0.278390427363131,,
+P,cv_excl,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,365,auc,0.856589084274889,,
+P,cv_excl,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,365,ipa,0.297474703954343,,
+P,cv_excl,"Binary candidate: EHR alone, rf",EHR,365,auc,0.834259986813703,,
+P,cv_excl,"Binary candidate: EHR alone, rf",EHR,365,ipa,0.268194994322199,,
+P,cv_excl,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,365,auc,0.847603435662611,,
+P,cv_excl,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,365,ipa,0.289472721752776,,
+P,cv_excl,Binary super learner-EHR,EHR,10,slope,1.26010381680916,,
+P,cv_excl,Binary super learner-EHR,EHR,30,slope,1.14193300689694,,
+P,cv_excl,Binary super learner-EHR,EHR,90,slope,1.07712574221121,,
+P,cv_excl,Binary super learner-EHR,EHR,180,slope,1.09371059174094,,
+P,cv_excl,Binary super learner-EHR,EHR,365,slope,1.09324316713506,,
+P,cv_excl,"Binary super learner-EHR, recalibrated",EHR,10,slope,1.15005904828336,,
+P,cv_excl,"Binary super learner-EHR, recalibrated",EHR,30,slope,1.01941751570236,,
+P,cv_excl,"Binary super learner-EHR, recalibrated",EHR,90,slope,1.0182134629863,,
+P,cv_excl,"Binary super learner-EHR, recalibrated",EHR,180,slope,1.02076989942144,,
+P,cv_excl,"Binary super learner-EHR, recalibrated",EHR,365,slope,1.01622686379016,,
+P,cv_excl,Binary super learner,EHR+ECG,10,slope,1.20297004347443,,
+P,cv_excl,Binary super learner,EHR+ECG,30,slope,1.11809103545827,,
+P,cv_excl,Binary super learner,EHR+ECG,90,slope,1.07389054788544,,
+P,cv_excl,Binary super learner,EHR+ECG,180,slope,1.09036693162878,,
+P,cv_excl,Binary super learner,EHR+ECG,365,slope,1.08598250440243,,
+P,cv_excl,"Binary super learner, recalibrated",EHR+ECG,10,slope,1.09272761978146,,
+P,cv_excl,"Binary super learner, recalibrated",EHR+ECG,30,slope,1.0157011112508,,
+P,cv_excl,"Binary super learner, recalibrated",EHR+ECG,90,slope,1.0148648960267,,
+P,cv_excl,"Binary super learner, recalibrated",EHR+ECG,180,slope,1.01381936956108,,
+P,cv_excl,"Binary super learner, recalibrated",EHR+ECG,365,slope,1.01389751927439,,
+P,cv_excl,Survival super learner,EHR+ECG,10,slope,,,
+P,cv_excl,Survival super learner,EHR+ECG,30,slope,,,
+P,cv_excl,Survival super learner,EHR+ECG,90,slope,,,
+P,cv_excl,Survival super learner,EHR+ECG,180,slope,,,
+P,cv_excl,Survival super learner,EHR+ECG,365,slope,,,
+B,death,Binary super learner-EHR,EHR,10,auc,0.925489374334259,0.891645943781502,0.955017834155453
+B,death,Binary super learner-EHR,EHR,10,ipa,0.264094396704214,0.178515375575706,0.335260594736397
+B,death,"Binary super learner-EHR, recalibrated",EHR,10,auc,0.925100843417675,0.890741856343133,0.954927254973039
+B,death,"Binary super learner-EHR, recalibrated",EHR,10,ipa,0.267052286066409,0.176245096306591,0.343800408478719
+B,death,Binary super learner,EHR+ECG,10,auc,0.927475684076344,0.894628412201703,0.955841238397172
+B,death,Binary super learner,EHR+ECG,10,ipa,0.263333829121336,0.176558221233887,0.336681734017238
+B,death,"Binary super learner, recalibrated",EHR+ECG,10,auc,0.92713953935076,0.89397991458478,0.955735243961811
+B,death,"Binary super learner, recalibrated",EHR+ECG,10,ipa,0.266135133193486,0.172533371641844,0.344318352392938
+B,death,Survival super learner,EHR+ECG,10,auc,0.934460509543018,0.910773599645995,0.955748094602485
+B,death,Survival super learner,EHR+ECG,10,ipa,0.248441609265248,0.159490307839113,0.323061982360846
+B,death,Survival super learner v7,EHR+ECG,10,auc,0.936018998725269,0.912997941625686,0.95667293095262
+B,death,Survival super learner v7,EHR+ECG,10,ipa,0.248955886542758,0.15983515207698,0.324070026145053
+B,death,Binary candidate: prevalence,EHR,10,auc,0.36672516457995,,
+B,death,Binary candidate: prevalence,EHR,10,ipa,-0.000744021185045352,,
+B,death,"Binary candidate: EHR alone, ridge",EHR,10,auc,0.928794069883179,,
+B,death,"Binary candidate: EHR alone, ridge",EHR,10,ipa,0.258972463255276,,
+B,death,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,10,auc,0.931627289713098,,
+B,death,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,10,ipa,0.258291140143649,,
+B,death,"Binary candidate: EHR alone, rf",EHR,10,auc,0.91297780571708,,
+B,death,"Binary candidate: EHR alone, rf",EHR,10,ipa,0.248364722348326,,
+B,death,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,10,auc,0.921211168735921,,
+B,death,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,10,ipa,0.244243143355131,,
+B,death,Binary super learner-EHR,EHR,30,auc,0.918740849194729,0.898270925752603,0.936624759017874
+B,death,Binary super learner-EHR,EHR,30,ipa,0.32454124906955,0.264651084421581,0.38105992278859
+B,death,"Binary super learner-EHR, recalibrated",EHR,30,auc,0.918585750800308,0.897917367843839,0.936559856776191
+B,death,"Binary super learner-EHR, recalibrated",EHR,30,ipa,0.325558378092556,0.263600530376677,0.385789014049019
+B,death,Binary super learner,EHR+ECG,30,auc,0.921698058581697,0.901852441853476,0.938928399968509
+B,death,Binary super learner,EHR+ECG,30,ipa,0.324641521517898,0.265073640743719,0.38106064600476
+B,death,"Binary super learner, recalibrated",EHR+ECG,30,auc,0.921578115823345,0.901675965815665,0.938691493271969
+B,death,"Binary super learner, recalibrated",EHR+ECG,30,ipa,0.325811625061983,0.263482140771611,0.384591711070736
+B,death,Survival super learner,EHR+ECG,30,auc,0.924843454020564,0.906654405661805,0.940989016031475
+B,death,Survival super learner,EHR+ECG,30,ipa,0.316132640685947,0.251585755931848,0.37396845335403
+B,death,Survival super learner v7,EHR+ECG,30,auc,0.924642860097112,0.906698852932972,0.940490038358092
+B,death,Survival super learner v7,EHR+ECG,30,ipa,0.314403586428123,0.250063784590889,0.371786253248441
+B,death,Binary candidate: prevalence,EHR,30,auc,0.414367074472045,,
+B,death,Binary candidate: prevalence,EHR,30,ipa,-0.000542670773337362,,
+B,death,"Binary candidate: EHR alone, ridge",EHR,30,auc,0.913260705925172,,
+B,death,"Binary candidate: EHR alone, ridge",EHR,30,ipa,0.32111052776948,,
+B,death,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,30,auc,0.916195167547625,,
+B,death,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,30,ipa,0.321524069658659,,
+B,death,"Binary candidate: EHR alone, rf",EHR,30,auc,0.90968517093911,,
+B,death,"Binary candidate: EHR alone, rf",EHR,30,ipa,0.303627109640595,,
+B,death,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,30,auc,0.914114781083786,,
+B,death,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,30,ipa,0.303282237578828,,
+B,death,Binary super learner-EHR,EHR,90,auc,0.903631754687267,0.888212920673052,0.91849255397891
+B,death,Binary super learner-EHR,EHR,90,ipa,0.352089327071593,0.304714840439484,0.395893847683382
+B,death,"Binary super learner-EHR, recalibrated",EHR,90,auc,0.903582749165236,0.888175971205535,0.918458661552137
+B,death,"Binary super learner-EHR, recalibrated",EHR,90,ipa,0.351938679543236,0.303267914152286,0.396792195797827
+B,death,Binary super learner,EHR+ECG,90,auc,0.90582252427444,0.890543201590541,0.920276534326564
+B,death,Binary super learner,EHR+ECG,90,ipa,0.354925035191152,0.30892215176473,0.398167483596899
+B,death,"Binary super learner, recalibrated",EHR+ECG,90,auc,0.90580470408461,0.890528710999527,0.920236309976331
+B,death,"Binary super learner, recalibrated",EHR+ECG,90,ipa,0.354854526903887,0.307733812328355,0.399782205761542
+B,death,Survival super learner,EHR+ECG,90,auc,0.909467866856452,0.894442500396971,0.923681016894407
+B,death,Survival super learner,EHR+ECG,90,ipa,0.361150616891403,0.313857353634691,0.407063658126673
+B,death,Survival super learner v7,EHR+ECG,90,auc,0.910072639548793,0.895414932520431,0.924272980711798
+B,death,Survival super learner v7,EHR+ECG,90,ipa,0.362144514051479,0.314875418044242,0.407452598410215
+B,death,Binary candidate: prevalence,EHR,90,auc,0.421714235435893,,
+B,death,Binary candidate: prevalence,EHR,90,ipa,-0.000780219517183323,,
+B,death,"Binary candidate: EHR alone, ridge",EHR,90,auc,0.902957928759336,,
+B,death,"Binary candidate: EHR alone, ridge",EHR,90,ipa,0.35261418311573,,
+B,death,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,90,auc,0.905477258096492,,
+B,death,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,90,ipa,0.355239061769363,,
+B,death,"Binary candidate: EHR alone, rf",EHR,90,auc,0.893408534534414,,
+B,death,"Binary candidate: EHR alone, rf",EHR,90,ipa,0.327898354401789,,
+B,death,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,90,auc,0.896293177763076,,
+B,death,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,90,ipa,0.328866484933402,,
+B,death,Binary super learner-EHR,EHR,180,auc,0.904830647698277,0.891699624553717,0.918272774797198
+B,death,Binary super learner-EHR,EHR,180,ipa,0.383619199422718,0.3432290294617,0.423002622311109
+B,death,"Binary super learner-EHR, recalibrated",EHR,180,auc,0.90484550316334,0.891753655764233,0.918247263412769
+B,death,"Binary super learner-EHR, recalibrated",EHR,180,ipa,0.383764471404027,0.34163967267377,0.424917066862235
+B,death,Binary super learner,EHR+ECG,180,auc,0.905761298891957,0.892677629078094,0.919077954151789
+B,death,Binary super learner,EHR+ECG,180,ipa,0.384522217982833,0.344275700691953,0.423316302940747
+B,death,"Binary super learner, recalibrated",EHR+ECG,180,auc,0.905769163549932,0.892673578448041,0.919072275830215
+B,death,"Binary super learner, recalibrated",EHR+ECG,180,ipa,0.384765125117496,0.343042796164064,0.42529079697962
+B,death,Survival super learner,EHR+ECG,180,auc,0.906219196756265,0.893370074106513,0.919234841131332
+B,death,Survival super learner,EHR+ECG,180,ipa,0.385268291957755,0.34486458512433,0.425618604826482
+B,death,Survival super learner v7,EHR+ECG,180,auc,0.906987311685134,0.894247689544724,0.920019671683256
+B,death,Survival super learner v7,EHR+ECG,180,ipa,0.386790375682242,0.346007641840294,0.427341198345222
+B,death,Binary candidate: prevalence,EHR,180,auc,0.434637701422629,,
+B,death,Binary candidate: prevalence,EHR,180,ipa,-0.000716926464867873,,
+B,death,"Binary candidate: EHR alone, ridge",EHR,180,auc,0.900697333007096,,
+B,death,"Binary candidate: EHR alone, ridge",EHR,180,ipa,0.377296350177233,,
+B,death,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,180,auc,0.901291551609633,,
+B,death,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,180,ipa,0.378725402478283,,
+B,death,"Binary candidate: EHR alone, rf",EHR,180,auc,0.899430249222273,,
+B,death,"Binary candidate: EHR alone, rf",EHR,180,ipa,0.368779785685015,,
+B,death,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,180,auc,0.901387675207103,,
+B,death,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,180,ipa,0.370333507918327,,
+B,death,Binary super learner-EHR,EHR,365,auc,0.898539297340718,0.886062002990434,0.911408840224741
+B,death,Binary super learner-EHR,EHR,365,ipa,0.404487699331929,0.370871189673253,0.439718393965731
+B,death,"Binary super learner-EHR, recalibrated",EHR,365,auc,0.898523795431165,0.886049496060146,0.91137974869715
+B,death,"Binary super learner-EHR, recalibrated",EHR,365,ipa,0.404858813583123,0.369973081395057,0.442194922665312
+B,death,Binary super learner,EHR+ECG,365,auc,0.900698995194408,0.888375482892493,0.913423609737327
+B,death,Binary super learner,EHR+ECG,365,ipa,0.410602363679587,0.377669959210177,0.445673020407743
+B,death,"Binary super learner, recalibrated",EHR+ECG,365,auc,0.900694767400893,0.888415144040041,0.913449976292513
+B,death,"Binary super learner, recalibrated",EHR+ECG,365,ipa,0.4112360085678,0.37686101891141,0.447438399745017
+B,death,Survival super learner,EHR+ECG,365,auc,0.899606815203146,0.887275795014703,0.912683160251019
+B,death,Survival super learner,EHR+ECG,365,ipa,0.407384233728363,0.372980499798989,0.444127429644989
+B,death,Survival super learner v7,EHR+ECG,365,auc,0.900321312307107,0.887965123086651,0.913201534210563
+B,death,Survival super learner v7,EHR+ECG,365,ipa,0.409140963721004,0.374559178889854,0.446239429416287
+B,death,Binary candidate: prevalence,EHR,365,auc,0.4464222297383,,
+B,death,Binary candidate: prevalence,EHR,365,ipa,-0.000515061590284249,,
+B,death,"Binary candidate: EHR alone, ridge",EHR,365,auc,0.893173522738483,,
+B,death,"Binary candidate: EHR alone, ridge",EHR,365,ipa,0.394491246806398,,
+B,death,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,365,auc,0.894669457010386,,
+B,death,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,365,ipa,0.398000460859608,,
+B,death,"Binary candidate: EHR alone, rf",EHR,365,auc,0.894205808988289,,
+B,death,"Binary candidate: EHR alone, rf",EHR,365,ipa,0.392081919526688,,
+B,death,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,365,auc,0.898194027537029,,
+B,death,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,365,ipa,0.402385481247576,,
+B,death,Binary super learner-EHR,EHR,10,slope,1.09160064473034,,
+B,death,Binary super learner-EHR,EHR,30,slope,1.08979612826713,,
+B,death,Binary super learner-EHR,EHR,90,slope,1.05106207496299,,
+B,death,Binary super learner-EHR,EHR,180,slope,1.08069094814633,,
+B,death,Binary super learner-EHR,EHR,365,slope,1.09071839372685,,
+B,death,"Binary super learner-EHR, recalibrated",EHR,10,slope,1.0280764872057,,
+B,death,"Binary super learner-EHR, recalibrated",EHR,30,slope,1.02330157453128,,
+B,death,"Binary super learner-EHR, recalibrated",EHR,90,slope,1.01404243696017,,
+B,death,"Binary super learner-EHR, recalibrated",EHR,180,slope,1.01513000450345,,
+B,death,"Binary super learner-EHR, recalibrated",EHR,365,slope,1.01305705315994,,
+B,death,Binary super learner,EHR+ECG,10,slope,1.09071944978867,,
+B,death,Binary super learner,EHR+ECG,30,slope,1.09577983190123,,
+B,death,Binary super learner,EHR+ECG,90,slope,1.05916236963431,,
+B,death,Binary super learner,EHR+ECG,180,slope,1.08237360026208,,
+B,death,Binary super learner,EHR+ECG,365,slope,1.08886026271483,,
+B,death,"Binary super learner, recalibrated",EHR+ECG,10,slope,1.02320231118014,,
+B,death,"Binary super learner, recalibrated",EHR+ECG,30,slope,1.02141296490804,,
+B,death,"Binary super learner, recalibrated",EHR+ECG,90,slope,1.01393080853354,,
+B,death,"Binary super learner, recalibrated",EHR+ECG,180,slope,1.01322863944443,,
+B,death,"Binary super learner, recalibrated",EHR+ECG,365,slope,1.01317501534815,,
+B,death,Survival super learner,EHR+ECG,10,slope,1.01881305518871,,
+B,death,Survival super learner,EHR+ECG,30,slope,1.01511945849411,,
+B,death,Survival super learner,EHR+ECG,90,slope,1.01338192170935,,
+B,death,Survival super learner,EHR+ECG,180,slope,1.01596189085028,,
+B,death,Survival super learner,EHR+ECG,365,slope,1.01596528076577,,
+B,death,Survival super learner v7,EHR+ECG,10,slope,1.02023582156054,,
+B,death,Survival super learner v7,EHR+ECG,30,slope,1.01377197302291,,
+B,death,Survival super learner v7,EHR+ECG,90,slope,1.01052006401033,,
+B,death,Survival super learner v7,EHR+ECG,180,slope,1.01301182039855,,
+B,death,Survival super learner v7,EHR+ECG,365,slope,1.01373610001939,,
+B,comp,Binary super learner-EHR,EHR,10,auc,0.849620650015676,0.821401111225095,0.875206583708689
+B,comp,Binary super learner-EHR,EHR,10,ipa,0.170060032585903,0.120932965027761,0.2149678146908
+B,comp,"Binary super learner-EHR, recalibrated",EHR,10,auc,0.849683352492423,0.821484146343979,0.875367767826542
+B,comp,"Binary super learner-EHR, recalibrated",EHR,10,ipa,0.17051169274907,0.119893238249173,0.217814222455294
+B,comp,Binary super learner,EHR+ECG,10,auc,0.852981502769359,0.825639909588505,0.878005853453603
+B,comp,Binary super learner,EHR+ECG,10,ipa,0.170056933505164,0.122512750721821,0.214392684673226
+B,comp,"Binary super learner, recalibrated",EHR+ECG,10,auc,0.853150799456579,0.825791145134875,0.878179105472244
+B,comp,"Binary super learner, recalibrated",EHR+ECG,10,ipa,0.170453210616368,0.119954137320322,0.21667621517686
+B,comp,Survival super learner,EHR+ECG,10,auc,0.865486466715435,0.84219039576732,0.888139609493079
+B,comp,Survival super learner,EHR+ECG,10,ipa,0.161114669050007,0.110480298901455,0.20659673216144
+B,comp,Binary candidate: prevalence,EHR,10,auc,0.415478106385202,,
+B,comp,Binary candidate: prevalence,EHR,10,ipa,-0.000681111775278076,,
+B,comp,"Binary candidate: EHR alone, ridge",EHR,10,auc,0.846023617932908,,
+B,comp,"Binary candidate: EHR alone, ridge",EHR,10,ipa,0.169635030526335,,
+B,comp,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,10,auc,0.856388337339325,,
+B,comp,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,10,ipa,0.165586656135885,,
+B,comp,"Binary candidate: EHR alone, rf",EHR,10,auc,0.83662242658585,,
+B,comp,"Binary candidate: EHR alone, rf",EHR,10,ipa,0.147256791685586,,
+B,comp,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,10,auc,0.847990385620232,,
+B,comp,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,10,ipa,0.146846675895911,,
+B,comp,Binary super learner-EHR,EHR,30,auc,0.862788646140719,0.843200379701244,0.881106314760097
+B,comp,Binary super learner-EHR,EHR,30,ipa,0.255177493511723,0.212701202353822,0.294202299941132
+B,comp,"Binary super learner-EHR, recalibrated",EHR,30,auc,0.862700874604473,0.843132149577549,0.881028167032128
+B,comp,"Binary super learner-EHR, recalibrated",EHR,30,ipa,0.254622889743919,0.210459447842386,0.295520961898369
+B,comp,Binary super learner,EHR+ECG,30,auc,0.865224028513528,0.846250853166,0.883204299853957
+B,comp,Binary super learner,EHR+ECG,30,ipa,0.255703585252615,0.213855406117755,0.29600478133863
+B,comp,"Binary super learner, recalibrated",EHR+ECG,30,auc,0.865204029935649,0.84631389100925,0.883246862021244
+B,comp,"Binary super learner, recalibrated",EHR+ECG,30,ipa,0.254995805058102,0.210949863944263,0.297004057046719
+B,comp,Survival super learner,EHR+ECG,30,auc,0.869955914246098,0.851222016711298,0.88745429872418
+B,comp,Survival super learner,EHR+ECG,30,ipa,0.25307455969773,0.209072403446772,0.295331049855343
+B,comp,Binary candidate: prevalence,EHR,30,auc,0.437398896078501,,
+B,comp,Binary candidate: prevalence,EHR,30,ipa,-0.000560063820373991,,
+B,comp,"Binary candidate: EHR alone, ridge",EHR,30,auc,0.85991218402247,,
+B,comp,"Binary candidate: EHR alone, ridge",EHR,30,ipa,0.252636812545326,,
+B,comp,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,30,auc,0.864700732392363,,
+B,comp,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,30,ipa,0.252262637539685,,
+B,comp,"Binary candidate: EHR alone, rf",EHR,30,auc,0.852800467522309,,
+B,comp,"Binary candidate: EHR alone, rf",EHR,30,ipa,0.23313137426077,,
+B,comp,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,30,auc,0.858716713478153,,
+B,comp,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,30,ipa,0.237950030774165,,
+B,comp,Binary super learner-EHR,EHR,90,auc,0.871343782447762,0.85638236056453,0.885700364939134
+B,comp,Binary super learner-EHR,EHR,90,ipa,0.315855781492057,0.280390717512908,0.350844944499518
+B,comp,"Binary super learner-EHR, recalibrated",EHR,90,auc,0.871310119063649,0.856401941044859,0.885670121530747
+B,comp,"Binary super learner-EHR, recalibrated",EHR,90,ipa,0.31549208243462,0.278695791613612,0.351917444986074
+B,comp,Binary super learner,EHR+ECG,90,auc,0.874183475916467,0.859387208468194,0.888384784707719
+B,comp,Binary super learner,EHR+ECG,90,ipa,0.32132051981567,0.286333251189558,0.356275717337798
+B,comp,"Binary super learner, recalibrated",EHR+ECG,90,auc,0.874161033660392,0.8593821151304,0.888349295879206
+B,comp,"Binary super learner, recalibrated",EHR+ECG,90,ipa,0.321021917522738,0.284513016076478,0.357458268395024
+B,comp,Survival super learner,EHR+ECG,90,auc,0.877041871265235,0.862412008171665,0.890474834685899
+B,comp,Survival super learner,EHR+ECG,90,ipa,0.329083412332511,0.291667568582662,0.365999842383723
+B,comp,Binary candidate: prevalence,EHR,90,auc,0.438667558372308,,
+B,comp,Binary candidate: prevalence,EHR,90,ipa,-0.00062212056766886,,
+B,comp,"Binary candidate: EHR alone, ridge",EHR,90,auc,0.865939687184873,,
+B,comp,"Binary candidate: EHR alone, ridge",EHR,90,ipa,0.304949560230787,,
+B,comp,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,90,auc,0.869217752722246,,
+B,comp,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,90,ipa,0.309875462973382,,
+B,comp,"Binary candidate: EHR alone, rf",EHR,90,auc,0.867013175100466,,
+B,comp,"Binary candidate: EHR alone, rf",EHR,90,ipa,0.308392187883285,,
+B,comp,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,90,auc,0.871037819689938,,
+B,comp,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,90,ipa,0.315755552956132,,
+B,comp,Binary super learner-EHR,EHR,180,auc,0.879537816607968,0.865592344763566,0.893144259300799
+B,comp,Binary super learner-EHR,EHR,180,ipa,0.370742124966705,0.336596956927836,0.405098992764455
+B,comp,"Binary super learner-EHR, recalibrated",EHR,180,auc,0.879513883640431,0.865564738422471,0.893129386205869
+B,comp,"Binary super learner-EHR, recalibrated",EHR,180,ipa,0.371414998044226,0.336055459138972,0.40717230627359
+B,comp,Binary super learner,EHR+ECG,180,auc,0.881210605075805,0.867720061881088,0.89447368289053
+B,comp,Binary super learner,EHR+ECG,180,ipa,0.373476508480356,0.340016348213096,0.4060397720539
+B,comp,"Binary super learner, recalibrated",EHR+ECG,180,auc,0.88121123489074,0.867732111385583,0.894463661258023
+B,comp,"Binary super learner, recalibrated",EHR+ECG,180,ipa,0.374098748771313,0.339074877131829,0.40820546837603
+B,comp,Survival super learner,EHR+ECG,180,auc,0.880130472461972,0.866527485783385,0.893264696855171
+B,comp,Survival super learner,EHR+ECG,180,ipa,0.369939834978289,0.334633152045216,0.403584036434825
+B,comp,Binary candidate: prevalence,EHR,180,auc,0.447097119982264,,
+B,comp,Binary candidate: prevalence,EHR,180,ipa,-0.000534220846239775,,
+B,comp,"Binary candidate: EHR alone, ridge",EHR,180,auc,0.871433358022079,,
+B,comp,"Binary candidate: EHR alone, ridge",EHR,180,ipa,0.352338910842471,,
+B,comp,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,180,auc,0.873631412145855,,
+B,comp,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,180,ipa,0.355400187307789,,
+B,comp,"Binary candidate: EHR alone, rf",EHR,180,auc,0.877041230204917,,
+B,comp,"Binary candidate: EHR alone, rf",EHR,180,ipa,0.365163180319292,,
+B,comp,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,180,auc,0.878881549445511,,
+B,comp,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,180,ipa,0.368591339633977,,
+B,comp,Binary super learner-EHR,EHR,365,auc,0.8784608658598,0.86577349882276,0.891090380029717
+B,comp,Binary super learner-EHR,EHR,365,ipa,0.399007732364197,0.368136679423499,0.429770839389576
+B,comp,"Binary super learner-EHR, recalibrated",EHR,365,auc,0.878475254428636,0.865777689393966,0.891085982934713
+B,comp,"Binary super learner-EHR, recalibrated",EHR,365,ipa,0.400135075367249,0.3681557116955,0.431990166077085
+B,comp,Binary super learner,EHR+ECG,365,auc,0.88143155191783,0.869126279734029,0.89373993007346
+B,comp,Binary super learner,EHR+ECG,365,ipa,0.406178657816639,0.375163895344403,0.436405811085267
+B,comp,"Binary super learner, recalibrated",EHR+ECG,365,auc,0.881452027958096,0.869107223965094,0.893736778074996
+B,comp,"Binary super learner, recalibrated",EHR+ECG,365,ipa,0.407366310398987,0.375332770067966,0.438526346276589
+B,comp,Survival super learner,EHR+ECG,365,auc,0.879043602897636,0.86642315697142,0.891591447203652
+B,comp,Survival super learner,EHR+ECG,365,ipa,0.399323872049751,0.366856733891166,0.430730074752178
+B,comp,Binary candidate: prevalence,EHR,365,auc,0.445048395397872,,
+B,comp,Binary candidate: prevalence,EHR,365,ipa,-0.000608187265158655,,
+B,comp,"Binary candidate: EHR alone, ridge",EHR,365,auc,0.873866485149337,,
+B,comp,"Binary candidate: EHR alone, ridge",EHR,365,ipa,0.386677331197906,,
+B,comp,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,365,auc,0.876724276282658,,
+B,comp,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,365,ipa,0.392769709198141,,
+B,comp,"Binary candidate: EHR alone, rf",EHR,365,auc,0.874096702250704,,
+B,comp,"Binary candidate: EHR alone, rf",EHR,365,ipa,0.388782121539797,,
+B,comp,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,365,auc,0.877832749489483,,
+B,comp,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,365,ipa,0.398549122261742,,
+B,comp,Binary super learner-EHR,EHR,10,slope,1.06938872851158,,
+B,comp,Binary super learner-EHR,EHR,30,slope,1.07231734460015,,
+B,comp,Binary super learner-EHR,EHR,90,slope,1.07976506643861,,
+B,comp,Binary super learner-EHR,EHR,180,slope,1.09040553479711,,
+B,comp,Binary super learner-EHR,EHR,365,slope,1.09137269029156,,
+B,comp,"Binary super learner-EHR, recalibrated",EHR,10,slope,1.02446280256744,,
+B,comp,"Binary super learner-EHR, recalibrated",EHR,30,slope,1.01423882107364,,
+B,comp,"Binary super learner-EHR, recalibrated",EHR,90,slope,1.01681775175031,,
+B,comp,"Binary super learner-EHR, recalibrated",EHR,180,slope,1.01945084193343,,
+B,comp,"Binary super learner-EHR, recalibrated",EHR,365,slope,1.0152535015151,,
+B,comp,Binary super learner,EHR+ECG,10,slope,1.07518664672096,,
+B,comp,Binary super learner,EHR+ECG,30,slope,1.07111437023796,,
+B,comp,Binary super learner,EHR+ECG,90,slope,1.07430052739385,,
+B,comp,Binary super learner,EHR+ECG,180,slope,1.08928452044784,,
+B,comp,Binary super learner,EHR+ECG,365,slope,1.08600587760501,,
+B,comp,"Binary super learner, recalibrated",EHR+ECG,10,slope,1.02128932272832,,
+B,comp,"Binary super learner, recalibrated",EHR+ECG,30,slope,1.00604932545185,,
+B,comp,"Binary super learner, recalibrated",EHR+ECG,90,slope,1.01367344612163,,
+B,comp,"Binary super learner, recalibrated",EHR+ECG,180,slope,1.01744682273898,,
+B,comp,"Binary super learner, recalibrated",EHR+ECG,365,slope,1.01358867822805,,
+B,comp,Survival super learner,EHR+ECG,10,slope,1.01308856789402,,
+B,comp,Survival super learner,EHR+ECG,30,slope,1.01048242445309,,
+B,comp,Survival super learner,EHR+ECG,90,slope,1.01107618149564,,
+B,comp,Survival super learner,EHR+ECG,180,slope,1.01330969130294,,
+B,comp,Survival super learner,EHR+ECG,365,slope,1.01288131157238,,
+B,cv,Binary super learner-EHR,EHR,10,auc,0.818615835942569,0.780018788695644,0.852554145444673
+B,cv,Binary super learner-EHR,EHR,10,ipa,0.0498291358213624,0.0232338090417316,0.0758799195914516
+B,cv,"Binary super learner-EHR, recalibrated",EHR,10,auc,0.818778031649319,0.779935987144999,0.852886664569915
+B,cv,"Binary super learner-EHR, recalibrated",EHR,10,ipa,0.0472197397578934,0.0150360843393167,0.0783933735706485
+B,cv,Binary super learner,EHR+ECG,10,auc,0.8245148232772,0.786245662643484,0.858485344677937
+B,cv,Binary super learner,EHR+ECG,10,ipa,0.0510058344656214,0.0231420809075534,0.0769196628635442
+B,cv,"Binary super learner, recalibrated",EHR+ECG,10,auc,0.824511297283575,0.786209086883808,0.858385656483969
+B,cv,"Binary super learner, recalibrated",EHR+ECG,10,ipa,0.0476839189729007,0.0131443754605526,0.0789027422851942
+B,cv,Survival super learner,EHR+ECG,10,auc,0.837257764237962,0.803534751251426,0.867362288034852
+B,cv,Survival super learner,EHR+ECG,10,ipa,0.0500964684661355,0.0134378073001656,0.0830824069143792
+B,cv,Binary candidate: prevalence,EHR,10,auc,0.408525147386534,,
+B,cv,Binary candidate: prevalence,EHR,10,ipa,-0.000475000133985493,,
+B,cv,"Binary candidate: EHR alone, ridge",EHR,10,auc,0.809208484951059,,
+B,cv,"Binary candidate: EHR alone, ridge",EHR,10,ipa,0.0489851861550408,,
+B,cv,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,10,auc,0.821246227186821,,
+B,cv,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,10,ipa,0.0498571515853724,,
+B,cv,"Binary candidate: EHR alone, rf",EHR,10,auc,0.822071309695072,,
+B,cv,"Binary candidate: EHR alone, rf",EHR,10,ipa,0.0378677608375778,,
+B,cv,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,10,auc,0.825054300301825,,
+B,cv,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,10,ipa,0.0405837430548659,,
+B,cv,Binary super learner-EHR,EHR,30,auc,0.829380116174657,0.803388176309737,0.854084904623232
+B,cv,Binary super learner-EHR,EHR,30,ipa,0.0993913558061536,0.0672284879604597,0.130581727546117
+B,cv,"Binary super learner-EHR, recalibrated",EHR,30,auc,0.829232941737553,0.80320170342068,0.854174982353203
+B,cv,"Binary super learner-EHR, recalibrated",EHR,30,ipa,0.0965312176295409,0.0601365525844095,0.13211499405772
+B,cv,Binary super learner,EHR+ECG,30,auc,0.83227330479267,0.806124201319458,0.85649875387008
+B,cv,Binary super learner,EHR+ECG,30,ipa,0.100276269555011,0.066845966517712,0.131905538976408
+B,cv,"Binary super learner, recalibrated",EHR+ECG,30,auc,0.832208100928131,0.806017618104722,0.856491350338677
+B,cv,"Binary super learner, recalibrated",EHR+ECG,30,ipa,0.0969244464549947,0.0587119780924066,0.133650157360709
+B,cv,Survival super learner,EHR+ECG,30,auc,0.837254880043519,0.810656050030147,0.86205403147245
+B,cv,Survival super learner,EHR+ECG,30,ipa,0.101107697945809,0.0617672508374033,0.13597810366653
+B,cv,Binary candidate: prevalence,EHR,30,auc,0.412319431869413,,
+B,cv,Binary candidate: prevalence,EHR,30,ipa,-0.000687711293948734,,
+B,cv,"Binary candidate: EHR alone, ridge",EHR,30,auc,0.823399990312569,,
+B,cv,"Binary candidate: EHR alone, ridge",EHR,30,ipa,0.0980528673042249,,
+B,cv,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,30,auc,0.829178915678362,,
+B,cv,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,30,ipa,0.0983945972340298,,
+B,cv,"Binary candidate: EHR alone, rf",EHR,30,auc,0.823511768366066,,
+B,cv,"Binary candidate: EHR alone, rf",EHR,30,ipa,0.0853948659964534,,
+B,cv,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,30,auc,0.824998416477575,,
+B,cv,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,30,ipa,0.0897137343030781,,
+B,cv,Binary super learner-EHR,EHR,90,auc,0.838305290683853,0.816416686056385,0.859403824002909
+B,cv,Binary super learner-EHR,EHR,90,ipa,0.150418717933007,0.114841487665203,0.18371815734299
+B,cv,"Binary super learner-EHR, recalibrated",EHR,90,auc,0.838247180327003,0.81641659711243,0.859433972826787
+B,cv,"Binary super learner-EHR, recalibrated",EHR,90,ipa,0.1495309599639,0.111268220823584,0.186259791195208
+B,cv,Binary super learner,EHR+ECG,90,auc,0.839838611690747,0.817850014946125,0.861102313635955
+B,cv,Binary super learner,EHR+ECG,90,ipa,0.15237535506256,0.116568246748037,0.185849356883186
+B,cv,"Binary super learner, recalibrated",EHR+ECG,90,auc,0.839736918566259,0.817572770840633,0.861058931362459
+B,cv,"Binary super learner, recalibrated",EHR+ECG,90,ipa,0.151257114444892,0.111993322131273,0.188009676118031
+B,cv,Survival super learner,EHR+ECG,90,auc,0.845287778335402,0.824247093438985,0.865912079266888
+B,cv,Survival super learner,EHR+ECG,90,ipa,0.163692357563156,0.124586638730676,0.201433402915316
+B,cv,Binary candidate: prevalence,EHR,90,auc,0.431740801394649,,
+B,cv,Binary candidate: prevalence,EHR,90,ipa,-0.000486938118771985,,
+B,cv,"Binary candidate: EHR alone, ridge",EHR,90,auc,0.829424971605167,,
+B,cv,"Binary candidate: EHR alone, ridge",EHR,90,ipa,0.134112483763427,,
+B,cv,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,90,auc,0.832916875775905,,
+B,cv,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,90,ipa,0.138601409756816,,
+B,cv,"Binary candidate: EHR alone, rf",EHR,90,auc,0.836105021263108,,
+B,cv,"Binary candidate: EHR alone, rf",EHR,90,ipa,0.149560821184818,,
+B,cv,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,90,auc,0.837108745608706,,
+B,cv,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,90,ipa,0.151527456272087,,
+B,cv,Binary super learner-EHR,EHR,180,auc,0.838728695348939,0.817063257717645,0.859368525960574
+B,cv,Binary super learner-EHR,EHR,180,ipa,0.195581043532937,0.158646735687443,0.230247351113327
+B,cv,"Binary super learner-EHR, recalibrated",EHR,180,auc,0.838593566104355,0.816840765885067,0.859278905657688
+B,cv,"Binary super learner-EHR, recalibrated",EHR,180,ipa,0.195719575015492,0.15670614205368,0.232401735548718
+B,cv,Binary super learner,EHR+ECG,180,auc,0.84037857983523,0.818963757344819,0.860879772401784
+B,cv,Binary super learner,EHR+ECG,180,ipa,0.196682131810017,0.159952169376273,0.231694568629084
+B,cv,"Binary super learner, recalibrated",EHR+ECG,180,auc,0.840236912078811,0.81876423884073,0.860825100696246
+B,cv,"Binary super learner, recalibrated",EHR+ECG,180,ipa,0.196756074058637,0.158145080054132,0.23367419724988
+B,cv,Survival super learner,EHR+ECG,180,auc,0.846074713395231,0.825578005494257,0.865581640506697
+B,cv,Survival super learner,EHR+ECG,180,ipa,0.205918075767294,0.164725434330681,0.245599331512134
+B,cv,Binary candidate: prevalence,EHR,180,auc,0.446132470249771,,
+B,cv,Binary candidate: prevalence,EHR,180,ipa,-0.000413112839231067,,
+B,cv,"Binary candidate: EHR alone, ridge",EHR,180,auc,0.833295192014298,,
+B,cv,"Binary candidate: EHR alone, ridge",EHR,180,ipa,0.175272087514709,,
+B,cv,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,180,auc,0.836373741336472,,
+B,cv,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,180,ipa,0.177522033932973,,
+B,cv,"Binary candidate: EHR alone, rf",EHR,180,auc,0.835032256658385,,
+B,cv,"Binary candidate: EHR alone, rf",EHR,180,ipa,0.193639588978866,,
+B,cv,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,180,auc,0.837148554988885,,
+B,cv,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,180,ipa,0.195447535241375,,
+B,cv,Binary super learner-EHR,EHR,365,auc,0.830729444634828,0.810652333264274,0.8501798595079
+B,cv,Binary super learner-EHR,EHR,365,ipa,0.216892995005295,0.181732930298398,0.248827762638921
+B,cv,"Binary super learner-EHR, recalibrated",EHR,365,auc,0.830712590986294,0.810645762444115,0.850206445649406
+B,cv,"Binary super learner-EHR, recalibrated",EHR,365,ipa,0.218071684161844,0.180869525111923,0.252074610046942
+B,cv,Binary super learner,EHR+ECG,365,auc,0.834065530730756,0.814480131735268,0.852937035342927
+B,cv,Binary super learner,EHR+ECG,365,ipa,0.220182190777117,0.185406150760616,0.252009285006693
+B,cv,"Binary super learner, recalibrated",EHR+ECG,365,auc,0.834053358651259,0.814501241520209,0.852946900171765
+B,cv,"Binary super learner, recalibrated",EHR+ECG,365,ipa,0.221355918060537,0.184152132298979,0.255110440051229
+B,cv,Survival super learner,EHR+ECG,365,auc,0.839092599562929,0.819345628546979,0.857182739615007
+B,cv,Survival super learner,EHR+ECG,365,ipa,0.224797875071989,0.185730057011945,0.260231725440906
+B,cv,Binary candidate: prevalence,EHR,365,auc,0.4401629935076,,
+B,cv,Binary candidate: prevalence,EHR,365,ipa,-0.00058275273052999,,
+B,cv,"Binary candidate: EHR alone, ridge",EHR,365,auc,0.826454235790034,,
+B,cv,"Binary candidate: EHR alone, ridge",EHR,365,ipa,0.195719367346548,,
+B,cv,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,365,auc,0.830517837714346,,
+B,cv,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,365,ipa,0.200549676514749,,
+B,cv,"Binary candidate: EHR alone, rf",EHR,365,auc,0.825714547882152,,
+B,cv,"Binary candidate: EHR alone, rf",EHR,365,ipa,0.213804720184316,,
+B,cv,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,365,auc,0.829040334526197,,
+B,cv,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,365,ipa,0.217182032000246,,
+B,cv,Binary super learner-EHR,EHR,10,slope,1.17667271890697,,
+B,cv,Binary super learner-EHR,EHR,30,slope,1.13569110818898,,
+B,cv,Binary super learner-EHR,EHR,90,slope,1.10744074549211,,
+B,cv,Binary super learner-EHR,EHR,180,slope,1.07687272483539,,
+B,cv,Binary super learner-EHR,EHR,365,slope,1.09018565989323,,
+B,cv,"Binary super learner-EHR, recalibrated",EHR,10,slope,1.04195340934232,,
+B,cv,"Binary super learner-EHR, recalibrated",EHR,30,slope,1.02061275364764,,
+B,cv,"Binary super learner-EHR, recalibrated",EHR,90,slope,1.0178656767667,,
+B,cv,"Binary super learner-EHR, recalibrated",EHR,180,slope,1.01566861093576,,
+B,cv,"Binary super learner-EHR, recalibrated",EHR,365,slope,1.01783346287092,,
+B,cv,Binary super learner,EHR+ECG,10,slope,1.17173132446782,,
+B,cv,Binary super learner,EHR+ECG,30,slope,1.12684987632413,,
+B,cv,Binary super learner,EHR+ECG,90,slope,1.0969010635167,,
+B,cv,Binary super learner,EHR+ECG,180,slope,1.07319886560424,,
+B,cv,Binary super learner,EHR+ECG,365,slope,1.09049488711819,,
+B,cv,"Binary super learner, recalibrated",EHR+ECG,10,slope,1.0332378990418,,
+B,cv,"Binary super learner, recalibrated",EHR+ECG,30,slope,1.01000383968359,,
+B,cv,"Binary super learner, recalibrated",EHR+ECG,90,slope,1.00957181505543,,
+B,cv,"Binary super learner, recalibrated",EHR+ECG,180,slope,1.01183070074842,,
+B,cv,"Binary super learner, recalibrated",EHR+ECG,365,slope,1.01407308603021,,
+B,cv,Survival super learner,EHR+ECG,10,slope,0.999167790624094,,
+B,cv,Survival super learner,EHR+ECG,30,slope,1.00078108236054,,
+B,cv,Survival super learner,EHR+ECG,90,slope,1.00447881425408,,
+B,cv,Survival super learner,EHR+ECG,180,slope,1.00905068154749,,
+B,cv,Survival super learner,EHR+ECG,365,slope,1.00986790556007,,
+B,cv_excl,Binary super learner-EHR,EHR,10,auc,0.825124758269536,0.786506090197512,0.858921294384627
+B,cv_excl,Binary super learner-EHR,EHR,10,ipa,0.0586006762481911,0.0288222903424613,0.0882766446313101
+B,cv_excl,"Binary super learner-EHR, recalibrated",EHR,10,auc,0.824838665285695,0.78582833075248,0.858739263040598
+B,cv_excl,"Binary super learner-EHR, recalibrated",EHR,10,ipa,0.0563549603643501,0.0207446153260184,0.091288225524197
+B,cv_excl,Binary super learner,EHR+ECG,10,auc,0.831578146841751,0.794156056027157,0.865075391270407
+B,cv_excl,Binary super learner,EHR+ECG,10,ipa,0.0597755412713223,0.0295507656624703,0.0895422269455676
+B,cv_excl,"Binary super learner, recalibrated",EHR+ECG,10,auc,0.831342753880362,0.793833163577086,0.864874286816478
+B,cv_excl,"Binary super learner, recalibrated",EHR+ECG,10,ipa,0.0569974085903422,0.0211002950573484,0.0926164420897896
+B,cv_excl,Survival super learner,EHR+ECG,10,auc,0.841754365634076,0.808342486397761,0.871587545889477
+B,cv_excl,Survival super learner,EHR+ECG,10,ipa,,,
+B,cv_excl,Binary candidate: prevalence,EHR,10,auc,0.407262416073356,,
+B,cv_excl,Binary candidate: prevalence,EHR,10,ipa,-0.000495211146138264,,
+B,cv_excl,"Binary candidate: EHR alone, ridge",EHR,10,auc,0.815629368350149,,
+B,cv_excl,"Binary candidate: EHR alone, ridge",EHR,10,ipa,0.0577326152121471,,
+B,cv_excl,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,10,auc,0.828706352712813,,
+B,cv_excl,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,10,ipa,0.058797544161836,,
+B,cv_excl,"Binary candidate: EHR alone, rf",EHR,10,auc,0.825591922762137,,
+B,cv_excl,"Binary candidate: EHR alone, rf",EHR,10,ipa,0.0475378148414416,,
+B,cv_excl,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,10,auc,0.829857967508529,,
+B,cv_excl,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,10,ipa,0.0501775938230669,,
+B,cv_excl,Binary super learner-EHR,EHR,30,auc,0.841399920203205,0.815844114622851,0.865811678430007
+B,cv_excl,Binary super learner-EHR,EHR,30,ipa,0.122605464054763,0.0861872864039652,0.157135138604522
+B,cv_excl,"Binary super learner-EHR, recalibrated",EHR,30,auc,0.841101669807184,0.815451348189443,0.865652292961654
+B,cv_excl,"Binary super learner-EHR, recalibrated",EHR,30,ipa,0.119962197491318,0.0790104921136699,0.1585680172419
+B,cv_excl,Binary super learner,EHR+ECG,30,auc,0.845048055841955,0.820084723624474,0.869348831398169
+B,cv_excl,Binary super learner,EHR+ECG,30,ipa,0.125397135055825,0.0876575352121962,0.161314160167895
+B,cv_excl,"Binary super learner, recalibrated",EHR+ECG,30,auc,0.844860414864326,0.819937482028693,0.869104631473307
+B,cv_excl,"Binary super learner, recalibrated",EHR+ECG,30,ipa,0.122588029622471,0.0797906199610832,0.162744103237451
+B,cv_excl,Survival super learner,EHR+ECG,30,auc,0.845581351252059,0.820437923726993,0.869383068088603
+B,cv_excl,Survival super learner,EHR+ECG,30,ipa,,,
+B,cv_excl,Binary candidate: prevalence,EHR,30,auc,0.411849231462059,,
+B,cv_excl,Binary candidate: prevalence,EHR,30,ipa,-0.000717983775794462,,
+B,cv_excl,"Binary candidate: EHR alone, ridge",EHR,30,auc,0.835849697601751,,
+B,cv_excl,"Binary candidate: EHR alone, ridge",EHR,30,ipa,0.120509976957039,,
+B,cv_excl,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,30,auc,0.842616623805517,,
+B,cv_excl,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,30,ipa,0.123112959209039,,
+B,cv_excl,"Binary candidate: EHR alone, rf",EHR,30,auc,0.835122835709461,,
+B,cv_excl,"Binary candidate: EHR alone, rf",EHR,30,ipa,0.110231053687345,,
+B,cv_excl,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,30,auc,0.8371434327633,,
+B,cv_excl,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,30,ipa,0.116549299612929,,
+B,cv_excl,Binary super learner-EHR,EHR,90,auc,0.856670116509943,0.835215454501234,0.876918949457645
+B,cv_excl,Binary super learner-EHR,EHR,90,ipa,0.198587034486406,0.157692218780676,0.236182384816149
+B,cv_excl,"Binary super learner-EHR, recalibrated",EHR,90,auc,0.856581279344026,0.835007722124647,0.876777552622836
+B,cv_excl,"Binary super learner-EHR, recalibrated",EHR,90,ipa,0.198513007523458,0.155090448159528,0.238519822480168
+B,cv_excl,Binary super learner,EHR+ECG,90,auc,0.859129425386405,0.838241017410971,0.879127330175755
+B,cv_excl,Binary super learner,EHR+ECG,90,ipa,0.204728496566176,0.16334479974034,0.244078137598071
+B,cv_excl,"Binary super learner, recalibrated",EHR+ECG,90,auc,0.859002092115257,0.838082291947803,0.878974147553127
+B,cv_excl,"Binary super learner, recalibrated",EHR+ECG,90,ipa,0.204381653056308,0.160558203062265,0.245923923040244
+B,cv_excl,Survival super learner,EHR+ECG,90,auc,0.860305037215369,0.840033698672499,0.879236607116006
+B,cv_excl,Survival super learner,EHR+ECG,90,ipa,,,
+B,cv_excl,Binary candidate: prevalence,EHR,90,auc,0.429817898616065,,
+B,cv_excl,Binary candidate: prevalence,EHR,90,ipa,-0.000548595930490059,,
+B,cv_excl,"Binary candidate: EHR alone, ridge",EHR,90,auc,0.850635111705333,,
+B,cv_excl,"Binary candidate: EHR alone, ridge",EHR,90,ipa,0.177802283563024,,
+B,cv_excl,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,90,auc,0.85481045850342,,
+B,cv_excl,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,90,ipa,0.18659584758632,,
+B,cv_excl,"Binary candidate: EHR alone, rf",EHR,90,auc,0.852986335363263,,
+B,cv_excl,"Binary candidate: EHR alone, rf",EHR,90,ipa,0.198933462675955,,
+B,cv_excl,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,90,auc,0.855423434948245,,
+B,cv_excl,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,90,ipa,0.205718121948757,,
+B,cv_excl,Binary super learner-EHR,EHR,180,auc,0.866392837128738,0.845892395881291,0.886443215545165
+B,cv_excl,Binary super learner-EHR,EHR,180,ipa,0.276075267873062,0.231756587593801,0.316497107200945
+B,cv_excl,"Binary super learner-EHR, recalibrated",EHR,180,auc,0.866343165724184,0.845776698383571,0.886359058374683
+B,cv_excl,"Binary super learner-EHR, recalibrated",EHR,180,ipa,0.27662798307354,0.230943219506777,0.318342148273307
+B,cv_excl,Binary super learner,EHR+ECG,180,auc,0.868075296754802,0.848340846167946,0.887415754973064
+B,cv_excl,Binary super learner,EHR+ECG,180,ipa,0.27964113572574,0.237180601956173,0.319821498698838
+B,cv_excl,"Binary super learner, recalibrated",EHR+ECG,180,auc,0.867961944062357,0.848278068389184,0.887333433506235
+B,cv_excl,"Binary super learner, recalibrated",EHR+ECG,180,ipa,0.280056385685281,0.235872576446505,0.321465730321829
+B,cv_excl,Survival super learner,EHR+ECG,180,auc,0.865167609149727,0.845318556365494,0.883599937608838
+B,cv_excl,Survival super learner,EHR+ECG,180,ipa,,,
+B,cv_excl,Binary candidate: prevalence,EHR,180,auc,0.443492409190483,,
+B,cv_excl,Binary candidate: prevalence,EHR,180,ipa,-0.000482165436536786,,
+B,cv_excl,"Binary candidate: EHR alone, ridge",EHR,180,auc,0.860892047480768,,
+B,cv_excl,"Binary candidate: EHR alone, ridge",EHR,180,ipa,0.242427542887064,,
+B,cv_excl,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,180,auc,0.865033878445158,,
+B,cv_excl,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,180,ipa,0.249438713339776,,
+B,cv_excl,"Binary candidate: EHR alone, rf",EHR,180,auc,0.863131081562994,,
+B,cv_excl,"Binary candidate: EHR alone, rf",EHR,180,ipa,0.275884548114614,,
+B,cv_excl,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,180,auc,0.865224922308829,,
+B,cv_excl,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,180,ipa,0.280171984966568,,
+B,cv_excl,Binary super learner-EHR,EHR,365,auc,0.869672519075158,0.851801848916633,0.887180034719003
+B,cv_excl,Binary super learner-EHR,EHR,365,ipa,0.327277965194253,0.286874668571416,0.364031534436439
+B,cv_excl,"Binary super learner-EHR, recalibrated",EHR,365,auc,0.869648278329928,0.851785890631779,0.88720243708812
+B,cv_excl,"Binary super learner-EHR, recalibrated",EHR,365,ipa,0.329186795024554,0.286990797315304,0.367705896117666
+B,cv_excl,Binary super learner,EHR+ECG,365,auc,0.872957717214392,0.855522538169097,0.88992227577924
+B,cv_excl,Binary super learner,EHR+ECG,365,ipa,0.333572565704125,0.293397628819838,0.370190904040911
+B,cv_excl,"Binary super learner, recalibrated",EHR+ECG,365,auc,0.872977340674816,0.855480184664138,0.889967748587649
+B,cv_excl,"Binary super learner, recalibrated",EHR+ECG,365,ipa,0.335238551435968,0.293572593339007,0.373344835546385
+B,cv_excl,Survival super learner,EHR+ECG,365,auc,0.863896295783265,0.846073330958823,0.881006777496089
+B,cv_excl,Survival super learner,EHR+ECG,365,ipa,,,
+B,cv_excl,Binary candidate: prevalence,EHR,365,auc,0.43727187727257,,
+B,cv_excl,Binary candidate: prevalence,EHR,365,ipa,-0.000718725408631826,,
+B,cv_excl,"Binary candidate: EHR alone, ridge",EHR,365,auc,0.863302974685736,,
+B,cv_excl,"Binary candidate: EHR alone, ridge",EHR,365,ipa,0.295316537994424,,
+B,cv_excl,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,365,auc,0.868373907723563,,
+B,cv_excl,"Binary candidate: EHR+ECG stack, ridge",EHR+ECG,365,ipa,0.305516710086453,,
+B,cv_excl,"Binary candidate: EHR alone, rf",EHR,365,auc,0.865205296025672,,
+B,cv_excl,"Binary candidate: EHR alone, rf",EHR,365,ipa,0.325264771859798,,
+B,cv_excl,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,365,auc,0.869027253523566,,
+B,cv_excl,"Binary candidate: EHR+ECG stack, rf",EHR+ECG,365,ipa,0.332128274013853,,
+B,cv_excl,Binary super learner-EHR,EHR,10,slope,1.16716502818412,,
+B,cv_excl,Binary super learner-EHR,EHR,30,slope,1.11786864710124,,
+B,cv_excl,Binary super learner-EHR,EHR,90,slope,1.09237231933337,,
+B,cv_excl,Binary super learner-EHR,EHR,180,slope,1.0625907072065,,
+B,cv_excl,Binary super learner-EHR,EHR,365,slope,1.08667073289371,,
+B,cv_excl,"Binary super learner-EHR, recalibrated",EHR,10,slope,1.04161361556969,,
+B,cv_excl,"Binary super learner-EHR, recalibrated",EHR,30,slope,1.01447646731334,,
+B,cv_excl,"Binary super learner-EHR, recalibrated",EHR,90,slope,1.02427094899194,,
+B,cv_excl,"Binary super learner-EHR, recalibrated",EHR,180,slope,1.02009939071433,,
+B,cv_excl,"Binary super learner-EHR, recalibrated",EHR,365,slope,1.02115238961545,,
+B,cv_excl,Binary super learner,EHR+ECG,10,slope,1.15877771762351,,
+B,cv_excl,Binary super learner,EHR+ECG,30,slope,1.11024210777437,,
+B,cv_excl,Binary super learner,EHR+ECG,90,slope,1.08041874132641,,
+B,cv_excl,Binary super learner,EHR+ECG,180,slope,1.05857869352301,,
+B,cv_excl,Binary super learner,EHR+ECG,365,slope,1.08188331933623,,
+B,cv_excl,"Binary super learner, recalibrated",EHR+ECG,10,slope,1.03317793518658,,
+B,cv_excl,"Binary super learner, recalibrated",EHR+ECG,30,slope,1.00799064356612,,
+B,cv_excl,"Binary super learner, recalibrated",EHR+ECG,90,slope,1.0177358998873,,
+B,cv_excl,"Binary super learner, recalibrated",EHR+ECG,180,slope,1.01678992673255,,
+B,cv_excl,"Binary super learner, recalibrated",EHR+ECG,365,slope,1.01730612128269,,
+B,cv_excl,Survival super learner,EHR+ECG,10,slope,,,
+B,cv_excl,Survival super learner,EHR+ECG,30,slope,,,
+B,cv_excl,Survival super learner,EHR+ECG,90,slope,,,
+B,cv_excl,Survival super learner,EHR+ECG,180,slope,,,
+B,cv_excl,Survival super learner,EHR+ECG,365,slope,,,

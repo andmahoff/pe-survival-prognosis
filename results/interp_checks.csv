@@ -1,0 +1,11 @@
+item,value,status
+"A EHR+ECG: spline Cox fit (49 s, total edf 37.2)",full convergence,PASS
+"A 3-mod: spline Cox fit (20 s, total edf 28.4)",full convergence,PASS
+"B EHR+ECG: spline Cox fit (41 s, total edf 34.8)",full convergence,PASS
+"B 3-mod: spline Cox fit (25 s, total edf 25.6)",full convergence,PASS
+"B EHR+ECG: modal settings RSF node/mtry, oblique leaf/level","5 / 6, 5 / 3",PASS
+"A EHR+ECG: modal settings RSF node/mtry, oblique leaf/level","5 / 6, 5 / 4",PASS
+"Frame B RSF, Brier-tuned: SHAP additivity (max |diff|), 160.7 min",2.2e-15,PASS
+"Frame B oblique RSF, Brier-tuned: SHAP additivity (max |diff|), 22.7 min",2.1e-15,PASS
+"Frame A RSF, Brier-tuned: SHAP additivity (max |diff|), 85.0 min",1.4e-15,PASS
+"Frame A oblique RSF, Brier-tuned: SHAP additivity (max |diff|), 20.7 min",2.3e-15,PASS

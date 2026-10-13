@@ -1,0 +1,41 @@
+evaluation,contrast,measure,horizon,estimate,lo,hi,excludes_zero
+all,"Super learner v7, recalibrated - Super learner v7nh, recalibrated",auc,10,0.0206445247699374,0.00977054184506972,0.0327625389319489,TRUE
+all,"Super learner v7, recalibrated - Super learner v7nh, recalibrated",ipa,10,0.0740129369276267,0.0291129743625484,0.11708226375213,TRUE
+all,"Super learner v7, recalibrated - Super learner v7nh, recalibrated",auc,30,0.0157352491087013,0.00857280913397562,0.0238591191650275,TRUE
+all,"Super learner v7, recalibrated - Super learner v7nh, recalibrated",ipa,30,0.0771675912839671,0.0462369136374589,0.108077678371719,TRUE
+all,"Super learner v7, recalibrated - Super learner v7nh, recalibrated",auc,90,0.00669705009032606,0.00248207058123343,0.0111213132610609,TRUE
+all,"Super learner v7, recalibrated - Super learner v7nh, recalibrated",ipa,90,0.03424921282267,0.0192241002838788,0.049862352774957,TRUE
+all,"Super learner v7, recalibrated - Super learner v7nh, recalibrated",auc,180,0.00509367681498829,0.00204644448455505,0.00843121790472469,TRUE
+all,"Super learner v7, recalibrated - Super learner v7nh, recalibrated",ipa,180,0.0214024874296569,0.0102270082955374,0.0331037672251905,TRUE
+all,"Super learner v7, recalibrated - Super learner v7nh, recalibrated",auc,365,0.00309685874941867,0.000828017100136066,0.00542887136555273,TRUE
+all,"Super learner v7, recalibrated - Super learner v7nh, recalibrated",ipa,365,0.0115511563437031,0.00373725379080527,0.0195484937156678,TRUE
+all,"Super learner v7nh, recalibrated - Super learner v6, recalibrated",auc,10,0.0112935896764279,0.00145858848004061,0.0206180991292465,TRUE
+all,"Super learner v7nh, recalibrated - Super learner v6, recalibrated",ipa,10,0.0279565003077498,-0.00942364465198248,0.062657941521639,FALSE
+all,"Super learner v7nh, recalibrated - Super learner v6, recalibrated",auc,30,0.0145213456750295,0.00693297508513952,0.0224652499119811,TRUE
+all,"Super learner v7nh, recalibrated - Super learner v6, recalibrated",ipa,30,0.0429331462604368,0.0147006489777421,0.0708875592154779,TRUE
+all,"Super learner v7nh, recalibrated - Super learner v6, recalibrated",auc,90,0.0125376173069685,0.00630732126397892,0.0185943439974185,TRUE
+all,"Super learner v7nh, recalibrated - Super learner v6, recalibrated",ipa,90,0.0428486485073493,0.0189261570732635,0.0658375021723316,TRUE
+all,"Super learner v7nh, recalibrated - Super learner v6, recalibrated",auc,180,0.0127599706386102,0.00706458711825524,0.0184447376602322,TRUE
+all,"Super learner v7nh, recalibrated - Super learner v6, recalibrated",ipa,180,0.0431844926849545,0.0234049223908627,0.0635207097037492,TRUE
+all,"Super learner v7nh, recalibrated - Super learner v6, recalibrated",auc,365,0.0131893065009371,0.00814187343564296,0.0184257039619365,TRUE
+all,"Super learner v7nh, recalibrated - Super learner v6, recalibrated",ipa,365,0.0423487515845736,0.0267005366643271,0.0591114746104538,TRUE
+hospice excluded,"Super learner v7, recalibrated - Super learner v7nh, recalibrated",auc,10,-0.00179726815240833,-0.00697874759104145,0.00322286551804381,FALSE
+hospice excluded,"Super learner v7, recalibrated - Super learner v7nh, recalibrated",ipa,10,0.0213935139213526,-0.00511677142063863,0.0602235890392699,FALSE
+hospice excluded,"Super learner v7, recalibrated - Super learner v7nh, recalibrated",auc,30,-0.000662150460958522,-0.00297098609769058,0.00196430471091003,FALSE
+hospice excluded,"Super learner v7, recalibrated - Super learner v7nh, recalibrated",ipa,30,0.00991449399850175,-0.00368597709124409,0.0267930852377109,FALSE
+hospice excluded,"Super learner v7, recalibrated - Super learner v7nh, recalibrated",auc,90,-0.00172367997196898,-0.00327023426041831,-0.000142636657126425,TRUE
+hospice excluded,"Super learner v7, recalibrated - Super learner v7nh, recalibrated",ipa,90,-0.00111832651950805,-0.00737978572133792,0.00552782088760637,FALSE
+hospice excluded,"Super learner v7, recalibrated - Super learner v7nh, recalibrated",auc,180,-0.000849920921766501,-0.00234758493175809,0.000575185083853999,FALSE
+hospice excluded,"Super learner v7, recalibrated - Super learner v7nh, recalibrated",ipa,180,-0.00136352176237509,-0.00622586914129151,0.00392524652892834,FALSE
+hospice excluded,"Super learner v7, recalibrated - Super learner v7nh, recalibrated",auc,365,-0.000227679533789771,-0.0015444316466528,0.00107946919389911,FALSE
+hospice excluded,"Super learner v7, recalibrated - Super learner v7nh, recalibrated",ipa,365,-0.000264005505835718,-0.00416487147366944,0.0039890890013617,FALSE
+hospice excluded,"Super learner v7nh, recalibrated - Super learner v6, recalibrated",auc,10,0.00901201602136181,-0.00411000529215503,0.0217077710548584,FALSE
+hospice excluded,"Super learner v7nh, recalibrated - Super learner v6, recalibrated",ipa,10,0.013525304407392,-0.0443788866922796,0.063356355645207,FALSE
+hospice excluded,"Super learner v7nh, recalibrated - Super learner v6, recalibrated",auc,30,0.0129915193806346,0.00399061474242782,0.0221382998741912,TRUE
+hospice excluded,"Super learner v7nh, recalibrated - Super learner v6, recalibrated",ipa,30,0.0258348994186387,-0.0104312671920467,0.0619086530473892,FALSE
+hospice excluded,"Super learner v7nh, recalibrated - Super learner v6, recalibrated",auc,90,0.012556019599089,0.00600338652577714,0.0200442915138868,TRUE
+hospice excluded,"Super learner v7nh, recalibrated - Super learner v6, recalibrated",ipa,90,0.035006822394503,0.00849887390984843,0.0622075766210284,TRUE
+hospice excluded,"Super learner v7nh, recalibrated - Super learner v6, recalibrated",auc,180,0.0133852078171791,0.00739457805017887,0.0195759497903364,TRUE
+hospice excluded,"Super learner v7nh, recalibrated - Super learner v6, recalibrated",ipa,180,0.0407867793533253,0.0176111989573844,0.0642361272326971,TRUE
+hospice excluded,"Super learner v7nh, recalibrated - Super learner v6, recalibrated",auc,365,0.0137721896715843,0.00834350944534421,0.0195108334857887,TRUE
+hospice excluded,"Super learner v7nh, recalibrated - Super learner v6, recalibrated",ipa,365,0.0418596737296897,0.0235987851944546,0.0601553248877641,TRUE

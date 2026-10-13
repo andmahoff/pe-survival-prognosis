@@ -1,0 +1,40 @@
+item,value,status
+found frame_P_outcomes.csv,yes,PASS
+found ehrP.csv,yes,PASS
+found ehrP_sens.csv,yes,PASS
+found scores_P.csv,yes,PASS
+found frame_B.csv,yes,PASS
+found demographics.csv,yes,PASS
+found followup_365.csv,yes,PASS
+found mimic_labels_harmonised.csv,yes,PASS
+found index_admission_times.csv,data/inputs/index_admission_times.csv,PASS
+column 'All admissions': admissions,3501,INFO
+column 'Died within 30 days': admissions,397,INFO
+column 'Alive at 30 days': admissions,3104,INFO
+column 'With a presentation CTPA': admissions,1636,INFO
+column 'Discharged alive': admissions,2909,INFO
+discharge cohort inside the at-diagnosis cohort,2909 of 2909,PASS
+race groups match the subgroup analysis (stage 22a),White 2394; Black 599; Unknown 156; Hispanic or Latino 143; Other 129; Asian 80,PASS
+race label grouped as Other: OTHER,116,INFO
+race label grouped as Other: AMERICAN INDIAN/ALASKA NATIVE,<10,INFO
+race label grouped as Other: MULTIPLE RACE/ETHNICITY,<10,INFO
+race label grouped as Other: NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER,<10,INFO
+lab column for Creatinine,creatinine_first,PASS
+lab column for Urea nitrogen,bun_first,PASS
+lab column for Sodium,sodium_first,PASS
+lab column for Potassium,potassium_first,PASS
+lab column for Bicarbonate,bicarb_first,PASS
+lab column for Glucose,glucose_first,PASS
+lab column for Haemoglobin,hgb_first,PASS
+lab column for White cell count,wbc_first,PASS
+lab column for Platelets,plt_first,PASS
+lab column for Lactate,lab_50813_lactate_first,PASS
+lab column for Troponin T,lab_51003_troponin_t_first,PASS
+lab column for NT-proBNP,lab_50963_ntprobnp_first,PASS
+"history columns for Cancer (any, incl. metastatic)",found,PASS
+history columns for Heart failure,found,PASS
+history columns for Chronic lung disease,found,PASS
+history columns for Renal disease,found,PASS
+history columns for Diabetes,found,PASS
+length of stay available,100.0%,INFO
+rows written (bands),66 (10),INFO

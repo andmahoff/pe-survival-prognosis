@@ -1,0 +1,13 @@
+item,value,status
+input files found,all,PASS
+CTPA columns assigned to a block (unmatched),46 of 46,PASS
+block sizes (PE / incidental / comorbidity / devices / metadata),13 / 7 / 16 / 8 / 2,PASS
+PE sub-blocks (right-heart strain / clot location and extent),4 / 9,PASS
+three-modality admissions with a CTPA row (missing),0,PASS
+EHR scores and folds complete (missing),0,PASS
+block scores missing,0,PASS
+block scores failing the per-fold rule (D2),0,PASS
+folds where a block had no varying feature,0,PASS
+"penalty at the least-penalised end, after extension",5.0%,PASS
+all 46 features reproduce stage 6p's CTPA ridge-Cox (max |diff|),5.1e-15,PASS
+Frame B's stage 16f results found (written side by side),yes,INFO

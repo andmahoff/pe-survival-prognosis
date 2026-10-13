@@ -1,0 +1,33 @@
+frame,cohort,variable,group,n,check
+A,EHR+ECG,race_group,White,2394,PASS
+A,EHR+ECG,race_group,Black,599,PASS
+A,EHR+ECG,race_group,Unknown,156,PASS
+A,EHR+ECG,race_group,Hispanic or Latino,143,PASS
+A,EHR+ECG,race_group,Other,129,PASS
+A,EHR+ECG,race_group,Asian,80,PASS
+A,EHR+ECG,gender,F,1811,PASS
+A,EHR+ECG,gender,M,1690,PASS
+A,3-mod,race_group,White,1097,PASS
+A,3-mod,race_group,Black,331,PASS
+A,3-mod,race_group,Hispanic or Latino,68,PASS
+A,3-mod,race_group,Other,53,PASS
+A,3-mod,race_group,Unknown,46,PASS
+A,3-mod,race_group,Asian,41,PASS
+A,3-mod,gender,F,865,PASS
+A,3-mod,gender,M,771,PASS
+B,EHR+ECG,race_group,White,2020,PASS
+B,EHR+ECG,race_group,Black,499,PASS
+B,EHR+ECG,race_group,Unknown,116,PASS
+B,EHR+ECG,race_group,Other,108,PASS
+B,EHR+ECG,race_group,Hispanic or Latino,107,PASS
+B,EHR+ECG,race_group,Asian,59,PASS
+B,EHR+ECG,gender,F,1501,PASS
+B,EHR+ECG,gender,M,1408,PASS
+B,3-mod,race_group,White,952,PASS
+B,3-mod,race_group,Black,286,PASS
+B,3-mod,race_group,Hispanic or Latino,52,PASS
+B,3-mod,race_group,Other,47,PASS
+B,3-mod,race_group,Unknown,35,PASS
+B,3-mod,race_group,Asian,33,PASS
+B,3-mod,gender,F,740,PASS
+B,3-mod,gender,M,665,PASS

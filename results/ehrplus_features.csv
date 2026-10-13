@@ -1,0 +1,144 @@
+block,feature,prevalence,kept
+1 EHR 79,temp,,TRUE
+1 EHR 79,hr,,TRUE
+1 EHR 79,sbp,,TRUE
+1 EHR 79,dbp,,TRUE
+1 EHR 79,rr,,TRUE
+1 EHR 79,creatinine,,TRUE
+1 EHR 79,sodium,,TRUE
+1 EHR 79,potassium,,TRUE
+1 EHR 79,bun,,TRUE
+1 EHR 79,glucose,,TRUE
+1 EHR 79,calcium,,TRUE
+1 EHR 79,bicarb,,TRUE
+1 EHR 79,chloride,,TRUE
+1 EHR 79,hct,,TRUE
+1 EHR 79,plt,,TRUE
+1 EHR 79,wbc,,TRUE
+1 EHR 79,hgb,,TRUE
+1 EHR 79,aniongap,,TRUE
+1 EHR 79,rbc,,TRUE
+1 EHR 79,mchc,,TRUE
+1 EHR 79,mch,,TRUE
+1 EHR 79,mcv,,TRUE
+1 EHR 79,rdw,,TRUE
+1 EHR 79,afib,,TRUE
+1 EHR 79,cancer,,TRUE
+1 EHR 79,copd,,TRUE
+1 EHR 79,heart_failure,,TRUE
+1 EHR 79,age,,TRUE
+1 EHR 79,lab_50802_base_excess,,TRUE
+1 EHR 79,lab_50804_calculated_total_co2,,TRUE
+1 EHR 79,lab_50808_free_calcium,,TRUE
+1 EHR 79,lab_50813_lactate,,TRUE
+1 EHR 79,lab_50818_pco2,,TRUE
+1 EHR 79,lab_50820_ph,,TRUE
+1 EHR 79,lab_50821_po2,,TRUE
+1 EHR 79,lab_50861_alanine_aminotransferase_alt,,TRUE
+1 EHR 79,lab_50862_albumin,,TRUE
+1 EHR 79,lab_50863_alkaline_phosphatase,,TRUE
+1 EHR 79,lab_50878_asparate_aminotransferase_as,,TRUE
+1 EHR 79,lab_50885_bilirubin_total,,TRUE
+1 EHR 79,lab_50910_creatine_kinase_ck,,TRUE
+1 EHR 79,lab_50911_creatine_kinase_mb_isoenzyme,,TRUE
+1 EHR 79,lab_50924_ferritin,,TRUE
+1 EHR 79,lab_50952_iron,,TRUE
+1 EHR 79,lab_50953_iron_binding_capacity_total,,TRUE
+1 EHR 79,lab_50954_lactate_dehydrogenase_ld,,TRUE
+1 EHR 79,lab_50960_magnesium,,TRUE
+1 EHR 79,lab_50963_ntprobnp,,TRUE
+1 EHR 79,lab_50970_phosphate,,TRUE
+1 EHR 79,lab_50993_thyroid_stimulating_hormone,,TRUE
+1 EHR 79,lab_50998_transferrin,,TRUE
+1 EHR 79,lab_51003_troponin_t,,TRUE
+1 EHR 79,lab_51082_creatinine_urine,,TRUE
+1 EHR 79,lab_51133_absolute_lymphocyte_count,,TRUE
+1 EHR 79,lab_51143_atypical_lymphocytes,,TRUE
+1 EHR 79,lab_51144_bands,,TRUE
+1 EHR 79,lab_51146_basophils,,TRUE
+1 EHR 79,lab_51200_eosinophils,,TRUE
+1 EHR 79,lab_51214_fibrinogen_functional,,TRUE
+1 EHR 79,lab_51237_inr_pt,,TRUE
+1 EHR 79,lab_51244_lymphocytes,,TRUE
+1 EHR 79,lab_51251_metamyelocytes,,TRUE
+1 EHR 79,lab_51254_monocytes,,TRUE
+1 EHR 79,lab_51255_myelocytes,,TRUE
+1 EHR 79,lab_51256_neutrophils,,TRUE
+1 EHR 79,lab_51274_pt,,TRUE
+1 EHR 79,lab_51275_ptt,,TRUE
+1 EHR 79,lab_51476_epithelial_cells,,TRUE
+1 EHR 79,lab_51491_ph,,TRUE
+1 EHR 79,lab_51492_protein,,TRUE
+1 EHR 79,lab_51493_rbc,,TRUE
+1 EHR 79,lab_51498_specific_gravity,,TRUE
+1 EHR 79,lab_51516_wbc,,TRUE
+1 EHR 79,lab_52069_absolute_basophil_count,,TRUE
+1 EHR 79,lab_52073_absolute_eosinophil_count,,TRUE
+1 EHR 79,lab_52074_absolute_monocyte_count,,TRUE
+1 EHR 79,lab_52075_absolute_neutrophil_count,,TRUE
+1 EHR 79,lab_52135_immature_granulocytes,,TRUE
+1 EHR 79,lab_52172_rdw_sd,,TRUE
+2 unused measurements,spo2,,TRUE
+2 unused measurements,nlr,,TRUE
+2 unused measurements,hr_first,,TRUE
+2 unused measurements,sbp_first,,TRUE
+2 unused measurements,spo2_first,,TRUE
+2 unused measurements,sex_f,,TRUE
+2 unused measurements,n_prior,,TRUE
+2 unused measurements,n_codes,,TRUE
+3 discharge destination,dest_home_health,0.244413887933998,TRUE
+3 discharge destination,dest_skilled_nursing,0.163630113441045,TRUE
+3 discharge destination,dest_rehab,0.0529391543485734,TRUE
+3 discharge destination,dest_long_term_care,0.0632519766242695,TRUE
+3 discharge destination,dest_hospice,0.0292196631144723,TRUE
+3 discharge destination,dest_other,0.0635957373667927,TRUE
+4 comorbidity,ch_mi,0.0773461670677209,TRUE
+4 comorbidity,ch_chf,0.161567548985906,TRUE
+4 comorbidity,ch_pvd,0.048814025438295,TRUE
+4 comorbidity,ch_cevd,0.0783774492952905,TRUE
+4 comorbidity,ch_dementia,0.0326572705397044,TRUE
+4 comorbidity,ch_cpd,0.237882433826057,TRUE
+4 comorbidity,ch_rheumd,0.0350635957373668,TRUE
+4 comorbidity,ch_pud,0.0161567548985906,TRUE
+4 comorbidity,ch_mld,0.0684083877621176,TRUE
+4 comorbidity,ch_diab,0.157786180818151,TRUE
+4 comorbidity,ch_diabwc,0.0481265039532485,TRUE
+4 comorbidity,ch_hp,0.0278446201443795,TRUE
+4 comorbidity,ch_rend,0.129597799931248,TRUE
+4 comorbidity,ch_canc,0.223788243382606,TRUE
+4 comorbidity,ch_msld,0.0137504297009282,TRUE
+4 comorbidity,ch_metacanc,0.148848401512547,TRUE
+4 comorbidity,ch_aids,0.00756273633551048,FALSE
+4 comorbidity,el_chf,0.161567548985906,TRUE
+4 comorbidity,el_carit,0.255414231694741,TRUE
+4 comorbidity,el_valv,0.0804400137504297,TRUE
+4 comorbidity,el_pcd,1,FALSE
+4 comorbidity,el_pvd,0.048814025438295,TRUE
+4 comorbidity,el_hypunc,0.401512547267102,TRUE
+4 comorbidity,el_hypc,0.137504297009282,TRUE
+4 comorbidity,el_para,0.0278446201443795,TRUE
+4 comorbidity,el_ond,0.0993468545892059,TRUE
+4 comorbidity,el_cpd,0.237882433826057,TRUE
+4 comorbidity,el_diabunc,0.134754211069096,TRUE
+4 comorbidity,el_diabc,0.0625644551392231,TRUE
+4 comorbidity,el_hypothy,0.117566173942936,TRUE
+4 comorbidity,el_rf,0.129254039188725,TRUE
+4 comorbidity,el_ld,0.0752836026125817,TRUE
+4 comorbidity,el_pud,0.0092815400481265,FALSE
+4 comorbidity,el_aids,0.00756273633551048,FALSE
+4 comorbidity,el_lymph,0.0278446201443795,TRUE
+4 comorbidity,el_metacanc,0.148848401512547,TRUE
+4 comorbidity,el_solidtum,0.185974561705053,TRUE
+4 comorbidity,el_rheumd,0.0460639394981093,TRUE
+4 comorbidity,el_coag,0.117566173942936,TRUE
+4 comorbidity,el_obes,0.134754211069096,TRUE
+4 comorbidity,el_wloss,0.0766586455826745,TRUE
+4 comorbidity,el_fed,0.248195256101753,TRUE
+4 comorbidity,el_blane,0.0127191474733585,TRUE
+4 comorbidity,el_dane,0.0525953936060502,TRUE
+4 comorbidity,el_alcohol,0.0498453076658646,TRUE
+4 comorbidity,el_drug,0.0560330010312822,TRUE
+4 comorbidity,el_psycho,0.0175317978686834,TRUE
+4 comorbidity,el_depre,0.185974561705053,TRUE
+4 comorbidity,charlson_score,,TRUE
+4 comorbidity,elixhauser_vw_score,,TRUE

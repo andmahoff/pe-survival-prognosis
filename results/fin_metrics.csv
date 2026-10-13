@@ -1,0 +1,481 @@
+frame,outcome,cohort,set,model,horizon,n,events,measure,estimate,lo,hi,source
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,3501,178,citl,-0.00589870134443625,-0.175942764585545,0.145769817750851,stage 13b bootstrap
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,3501,178,slope,1.02270681688768,0.907244907152574,1.15859479639289,stage 13b bootstrap
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,3501,178,ici,0.00827499667411697,0.00469050480110011,0.0163506406304166,stage 13b bootstrap
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,3501,178,e50,0.00436978028583558,0.0026888109215679,0.00833327393979852,stage 13b bootstrap
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,3501,178,e90,0.0197849284320559,0.00755651101689652,0.0485810577759003,stage 13b bootstrap
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,3501,178,auc,0.855227610085647,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,3501,178,ipa,0.123460703250442,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,3501,178,oe,0.995154599407711,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,3501,397,citl,-0.00223417530837544,-0.123226188114853,0.112905832420377,stage 13b bootstrap
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,3501,397,slope,1.02098832346878,0.930920588386679,1.1214812973414,stage 13b bootstrap
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,3501,397,ici,0.00801141890587124,0.00546867473226525,0.0184432052976793,stage 13b bootstrap
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,3501,397,e50,0.00625676008332276,0.00344393084817815,0.0116400971683132,stage 13b bootstrap
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,3501,397,e90,0.0151259601238727,0.00948681851402797,0.0503700891140407,stage 13b bootstrap
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,3501,397,auc,0.867183645381599,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,3501,397,ipa,0.237126097115248,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,3501,397,oe,0.99850235496549,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,3501,646,citl,-0.000824552837698361,-0.111979427003546,0.107103244450744,stage 13b bootstrap
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,3501,646,slope,1.02012900628111,0.944740322016145,1.10417086197182,stage 13b bootstrap
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,3501,646,ici,0.0117906889493189,0.00761960031621926,0.0227053095573839,stage 13b bootstrap
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,3501,646,e50,0.00864264446116708,0.00486227473926395,0.0156627161311241,stage 13b bootstrap
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,3501,646,e90,0.0294847211459595,0.0131475681008911,0.064451054604871,stage 13b bootstrap
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,3501,646,auc,0.882396859564178,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,3501,646,ipa,0.33085899986604,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,3501,646,oe,0.999554863366741,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,3501,801,citl,-3.59661688431256e-05,-0.108184019679368,0.107231152711904,stage 13b bootstrap
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,3501,801,slope,1.02059299517146,0.949848701396144,1.09981278511,stage 13b bootstrap
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,3501,801,ici,0.0148563687419239,0.00934448099411461,0.0265829636738766,stage 13b bootstrap
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,3501,801,e50,0.0126336568773608,0.00725672556438943,0.0201947959924251,stage 13b bootstrap
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,3501,801,e90,0.0297416824685511,0.0148842514033496,0.0647632394189819,stage 13b bootstrap
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,3501,801,auc,0.88547417579877,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,3501,801,ipa,0.367704003633945,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,3501,801,oe,0.99998262817977,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,3501,971,citl,-0.000119544710707899,-0.107155117463965,0.105617591329036,stage 13b bootstrap
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,3501,971,slope,1.02026003165161,0.947081976773531,1.09983990084049,stage 13b bootstrap
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,3501,971,ici,0.0179035260098171,0.0111311012517045,0.0290703893880848,stage 13b bootstrap
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,3501,971,e50,0.0119407986338962,0.00633431790659767,0.0221776164770474,stage 13b bootstrap
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,3501,971,e90,0.0399374116280797,0.0196256624773828,0.0735934857301725,stage 13b bootstrap
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,3501,971,auc,0.888985724345954,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,3501,971,ipa,0.4052915672386,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,3501,971,oe,0.99994854606,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,1636,68,citl,-0.0314373122237031,-0.319024379342059,0.211870846913761,stage 13b bootstrap
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,1636,68,slope,1.04530636848404,0.873547115631812,1.27811595139933,stage 13b bootstrap
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,1636,68,ici,0.00608896953732714,0.00588746392818651,0.0169636466002953,stage 13b bootstrap
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,1636,68,e50,0.00352370525151266,0.00331378895805873,0.00896722194427007,stage 13b bootstrap
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,1636,68,e90,0.00510334709391495,0.0073402127793932,0.0485530076359221,stage 13b bootstrap
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,1636,68,auc,0.877316551620648,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,1636,68,ipa,0.106330776089794,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,1636,68,oe,0.974056183478548,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,1636,152,citl,-0.0248622933672563,-0.22796900838766,0.153086422762562,stage 13b bootstrap
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,1636,152,slope,1.02943585875833,0.907413416823564,1.1820410358102,stage 13b bootstrap
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,1636,152,ici,0.0129508210795138,0.00876692544690194,0.0259725086147403,stage 13b bootstrap
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,1636,152,e50,0.00736156349669391,0.00502433186896713,0.0140854997105708,stage 13b bootstrap
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,1636,152,e90,0.0262410124297147,0.0131333933855954,0.0742658176962804,stage 13b bootstrap
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,1636,152,auc,0.886730387288977,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,1636,152,ipa,0.219033425131402,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,1636,152,oe,0.98302374429912,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,1636,281,citl,-0.0170752799993609,-0.183464109564259,0.140337616484204,stage 13b bootstrap
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,1636,281,slope,1.02393281015728,0.918332759028911,1.14131834287171,stage 13b bootstrap
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,1636,281,ici,0.0204536342160538,0.0125692582182885,0.0339037716292293,stage 13b bootstrap
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,1636,281,e50,0.0124554547610727,0.00749426262479189,0.0226368769983034,stage 13b bootstrap
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,1636,281,e90,0.0501188270275366,0.0242417251622614,0.0995304977035124,stage 13b bootstrap
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,1636,281,auc,0.899788577956954,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,1636,281,ipa,0.351752045400353,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,1636,281,oe,0.991062199346609,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,1636,344,citl,-0.0155958118730577,-0.174815860929069,0.130937736523659,stage 13b bootstrap
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,1636,344,slope,1.02029374045373,0.920741947379409,1.13997580912186,stage 13b bootstrap
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,1636,344,ici,0.0232258740691273,0.0148964477129913,0.0377601630201055,stage 13b bootstrap
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,1636,344,e50,0.0132260190525384,0.00816133450865562,0.0269715027151697,stage 13b bootstrap
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,1636,344,e90,0.0588355295850669,0.0307067989838638,0.113747324385661,stage 13b bootstrap
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,1636,344,auc,0.895825833393333,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,1636,344,ipa,0.37255653609728,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,1636,344,oe,0.99245721717419,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,1636,420,citl,-0.0139563985915463,-0.173945895707748,0.134337967370141,stage 13b bootstrap
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,1636,420,slope,1.02219094179942,0.920294795731374,1.13986534568472,stage 13b bootstrap
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,1636,420,ici,0.0262007490479495,0.0161314113343132,0.0417084938156667,stage 13b bootstrap
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,1636,420,e50,0.0178897029568126,0.00716664838866822,0.0320943083287072,stage 13b bootstrap
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,1636,420,e90,0.0717509126455078,0.0332203078644539,0.11954430497336,stage 13b bootstrap
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,1636,420,auc,0.904871553884712,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,1636,420,ipa,0.432059923954779,,,"point estimate (intervals: stages 18q, 18r)"
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,1636,420,oe,0.994142181702729,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,3501,216,citl,-0.00054392310380467,-0.158001617729862,0.139605333868337,stage 13b bootstrap
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,3501,216,slope,1.02210876950837,0.910084437252409,1.15414490054424,stage 13b bootstrap
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,3501,216,ici,0.00741222671888838,0.00556967180868858,0.0160452429078645,stage 13b bootstrap
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,3501,216,e50,0.00572181344718568,0.00340443867608225,0.00998439985530401,stage 13b bootstrap
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,3501,216,e90,0.0107187722969895,0.007104486022576,0.0376418356877398,stage 13b bootstrap
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,3501,216,auc,0.830012965781611,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,3501,216,ipa,0.0995459684296087,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,3501,216,oe,0.999548184113164,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,3501,547,citl,0.000369965167193336,-0.10137455623877,0.101621815499251,stage 13b bootstrap
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,3501,547,slope,1.01557513313958,0.930900923183436,1.10748853907866,stage 13b bootstrap
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,3501,547,ici,0.0155622447656275,0.00941311813153971,0.0266125951098112,stage 13b bootstrap
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,3501,547,e50,0.00993654298673255,0.00570511611145413,0.0175344391235552,stage 13b bootstrap
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,3501,547,e90,0.0293050688081521,0.0133360021070458,0.0631521125964046,stage 13b bootstrap
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,3501,547,auc,0.844839643578131,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,3501,547,ipa,0.223207589014736,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,3501,547,oe,1.00023866959515,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,3501,898,citl,0.00126902834632965,-0.0976300884085272,0.101116066816769,stage 13b bootstrap
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,3501,898,slope,1.01585370545033,0.943150672006876,1.09761544761095,stage 13b bootstrap
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,3501,898,ici,0.0150644865234739,0.00910401860282781,0.027427666097484,stage 13b bootstrap
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,3501,898,e50,0.010456934589194,0.00601087929565315,0.0201381643150828,stage 13b bootstrap
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,3501,898,e90,0.0342352910390618,0.0156932751802181,0.0694219020131463,stage 13b bootstrap
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,3501,898,auc,0.866521582515292,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,3501,898,ipa,0.343291069509364,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,3501,898,oe,1.00061805455727,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,3501,1100,citl,0.00175315157420372,-0.096907260389659,0.100625878493272,stage 13b bootstrap
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,3501,1100,slope,1.01596505979556,0.947310190012603,1.0962886733522,stage 13b bootstrap
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,3501,1100,ici,0.0181114414694422,0.0108268754102217,0.0305819575701046,stage 13b bootstrap
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,3501,1100,e50,0.0140190674482451,0.00691175673849381,0.0255088189540928,stage 13b bootstrap
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,3501,1100,e90,0.0404459793077743,0.0196661131896124,0.0766179722555378,stage 13b bootstrap
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,3501,1100,auc,0.868918253757904,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,3501,1100,ipa,0.373726564182733,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,3501,1100,oe,1.00075489711893,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,3501,1291,citl,0.002145901758483,-0.0949807489883993,0.10037368174947,stage 13b bootstrap
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,3501,1291,slope,1.01599939221589,0.943110975237124,1.10025129126363,stage 13b bootstrap
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,3501,1291,ici,0.0225381667442137,0.013568723009285,0.0347538519761595,stage 13b bootstrap
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,3501,1291,e50,0.0213833447934951,0.00876451939451721,0.0335645422063066,stage 13b bootstrap
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,3501,1291,e90,0.0475312222395544,0.0261928214827582,0.0819442556834449,stage 13b bootstrap
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,3501,1291,auc,0.87420499034387,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,3501,1291,ipa,0.407783626497296,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,3501,1291,oe,1.00081516367997,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1636,88,citl,-0.0275262040815805,-0.273053711003362,0.192256606124787,stage 13b bootstrap
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1636,88,slope,1.04367321968369,0.8670867258913,1.25867706787713,stage 13b bootstrap
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1636,88,ici,0.0077702617089842,0.00526009502980051,0.0195006686134011,stage 13b bootstrap
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1636,88,e50,0.005132656442281,0.00204278601311465,0.0123863378105394,stage 13b bootstrap
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1636,88,e90,0.0139266936945684,0.00839302684370827,0.0553839371907371,stage 13b bootstrap
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1636,88,auc,0.831688982851773,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1636,88,ipa,0.092782179701818,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1636,88,oe,0.97687327550108,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1636,219,citl,-0.018751308075204,-0.1963098876994,0.142032784350463,stage 13b bootstrap
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1636,219,slope,1.02455687303508,0.911978756792667,1.16171327670432,stage 13b bootstrap
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1636,219,ici,0.019604301113288,0.012020099741818,0.0337308509699134,stage 13b bootstrap
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1636,219,e50,0.013711899074977,0.00661429469910894,0.0236631414019216,stage 13b bootstrap
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1636,219,e90,0.034590904198187,0.0190733541764804,0.0847873289761057,stage 13b bootstrap
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1636,219,auc,0.853359241822231,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1636,219,ipa,0.208625379108512,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1636,219,oe,0.987516962970822,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1636,377,citl,-0.0122736301402959,-0.159698363584536,0.129776453123916,stage 13b bootstrap
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1636,377,slope,1.02108502269033,0.92193509095014,1.13637066703663,stage 13b bootstrap
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1636,377,ici,0.0236121117630361,0.0148356336313694,0.0395514319182922,stage 13b bootstrap
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1636,377,e50,0.0155638382640088,0.00917296903400289,0.027554405243754,stage 13b bootstrap
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1636,377,e90,0.0544664017693353,0.027970859107134,0.106046579216562,stage 13b bootstrap
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1636,377,auc,0.874469864719379,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1636,377,ipa,0.336530443498292,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1636,377,oe,0.993849687977758,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1636,469,citl,-0.0119975118002257,-0.148437530432022,0.124150949348716,stage 13b bootstrap
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1636,469,slope,1.01721200572537,0.920739597580284,1.12136931578738,stage 13b bootstrap
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1636,469,ici,0.0261331102742086,0.0167085537002427,0.041459723925231,stage 13b bootstrap
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1636,469,e50,0.0181598178311061,0.00920928408608813,0.0317047783602139,stage 13b bootstrap
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1636,469,e90,0.0630963347953815,0.0315293175496729,0.111946881778258,stage 13b bootstrap
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1636,469,auc,0.877562243866967,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1636,469,ipa,0.376395972500248,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1636,469,oe,0.994739234288207,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1636,556,citl,-0.00989919131732433,-0.15246779152651,0.129361612037562,stage 13b bootstrap
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1636,556,slope,1.01957914834797,0.922221739093351,1.13200110907985,stage 13b bootstrap
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1636,556,ici,0.0278688992444516,0.0171235180536363,0.0438630307034571,stage 13b bootstrap
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1636,556,e50,0.0246011427174278,0.00952453733914633,0.0397514971277804,stage 13b bootstrap
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1636,556,e90,0.0655670995635364,0.0342030894771701,0.110785914230799,stage 13b bootstrap
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1636,556,auc,0.888712363442579,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1636,556,ipa,0.433535769178811,,,"point estimate (intervals: stages 18q, 18r)"
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1636,556,oe,0.9962617152329,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,3501,39,citl,-0.0138796284932204,-0.376296807970089,0.264106445918733,stage 13b bootstrap
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,3501,39,slope,1.06210018828885,0.700738990223468,1.43332733777544,stage 13b bootstrap
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,3501,39,ici,0.00443577589981952,0.00272263521335851,0.00833996672791668,stage 13b bootstrap
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,3501,39,e50,0.00155353759555184,0.00124223019579329,0.00541372957060526,stage 13b bootstrap
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,3501,39,e90,0.0132416218540873,0.00578319287434501,0.0297186010741721,stage 13b bootstrap
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,3501,39,auc,0.736657334577612,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,3501,39,ipa,0.0111132689538503,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,3501,39,oe,0.986518595282984,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,3501,172,citl,-0.0165315854276527,-0.186992508097575,0.148521784466226,stage 13b bootstrap
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,3501,172,slope,1.00874991236856,0.869738877868524,1.15677875627247,stage 13b bootstrap
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,3501,172,ici,0.00606867227364002,0.00479668242939348,0.0143144460995352,stage 13b bootstrap
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,3501,172,e50,0.0032777083039491,0.00195914595471565,0.0092019665025059,stage 13b bootstrap
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,3501,172,e90,0.0139440122636678,0.00656312926407019,0.0440622584588486,stage 13b bootstrap
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,3501,172,auc,0.790205173702558,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,3501,172,ipa,0.0586211490400738,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,3501,172,oe,0.985499391094771,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,3501,325,citl,-0.0134497651552368,-0.143081259732444,0.114295940422277,stage 13b bootstrap
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,3501,325,slope,1.00734425637326,0.895157702259932,1.13178878282726,stage 13b bootstrap
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,3501,325,ici,0.00667084273531788,0.00596148227124748,0.0172797102770573,stage 13b bootstrap
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,3501,325,e50,0.00465671426567563,0.00298624034449053,0.0138282640429758,stage 13b bootstrap
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,3501,325,e90,0.009348650408267,0.009033317327495,0.0407297546178545,stage 13b bootstrap
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,3501,325,auc,0.80496124782019,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,3501,325,ipa,0.129327321482962,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,3501,325,oe,0.989537446436596,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,3501,418,citl,-0.0108034221760146,-0.132141784699997,0.100947045892141,stage 13b bootstrap
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,3501,418,slope,1.01306683087995,0.913351554577315,1.122017665511,stage 13b bootstrap
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,3501,418,ici,0.00670803009645373,0.00563541769960299,0.0183118522107126,stage 13b bootstrap
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,3501,418,e50,0.00651468823630086,0.00329034923563775,0.0163102609238883,stage 13b bootstrap
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,3501,418,e90,0.00975456181501533,0.00993614191425942,0.0466939586826757,stage 13b bootstrap
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,3501,418,auc,0.804512165029091,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,3501,418,ipa,0.166978184321681,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,3501,418,oe,0.992119681214086,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,3501,501,citl,-0.00935252463564622,-0.121461927500477,0.101217559434682,stage 13b bootstrap
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,3501,501,slope,1.01616689724968,0.925680452844798,1.11606706982369,stage 13b bootstrap
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,3501,501,ici,0.00561129966587768,0.00566724900753618,0.0183460641624506,stage 13b bootstrap
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,3501,501,e50,0.00398511790023533,0.00328261405984074,0.0160422843812135,stage 13b bootstrap
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,3501,501,e90,0.0121901791295694,0.0106716089473706,0.0483034275167058,stage 13b bootstrap
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,3501,501,auc,0.798984697272122,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,3501,501,ipa,0.174195885815583,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,3501,501,oe,0.993426286939699,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1636,21,citl,-0.00950192197318966,-0.501523439475809,0.365443075484132,stage 13b bootstrap
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1636,21,slope,1.06010787904903,-0.199396331897785,2.17008978534329,stage 13b bootstrap
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1636,21,ici,0.00447986519595047,0.00402947047158719,0.0110919189258329,stage 13b bootstrap
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1636,21,e50,0.00350539889192203,0.00254731456715262,0.00902130015264699,stage 13b bootstrap
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1636,21,e90,0.00776309866122281,0.00647486643519481,0.0251670302016487,stage 13b bootstrap
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1636,21,auc,0.612472357363998,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1636,21,ipa,0.00336163262202771,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1636,21,oe,0.990687042798221,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1636,76,citl,-0.00859701333160937,-0.260378903010713,0.213130322788072,stage 13b bootstrap
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1636,76,slope,1.04330981599081,0.826383099649996,1.28821991025568,stage 13b bootstrap
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1636,76,ici,0.00928724534804444,0.00652708273467101,0.020322715373254,stage 13b bootstrap
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1636,76,e50,0.00483906166282548,0.00239970098318367,0.012920714940841,stage 13b bootstrap
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1636,76,e90,0.0246608911318197,0.00871953765712344,0.0647802628822333,stage 13b bootstrap
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1636,76,auc,0.78182354925776,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1636,76,ipa,0.0393786557800437,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1636,76,oe,0.992257678357529,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1636,134,citl,-0.00606220390842139,-0.20218006231008,0.178790698007997,stage 13b bootstrap
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1636,134,slope,1.04113917636235,0.875182664902967,1.24063026562228,stage 13b bootstrap
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1636,134,ici,0.0119807816992925,0.00936191670013127,0.0258226641294648,stage 13b bootstrap
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1636,134,e50,0.00637224067209515,0.00431461871896161,0.0169526576522324,stage 13b bootstrap
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1636,134,e90,0.0289579074804244,0.0119309755156177,0.0793385931863258,stage 13b bootstrap
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1636,134,auc,0.807276864677942,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1636,134,ipa,0.0950543537646241,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1636,134,oe,0.995053688588918,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1636,177,citl,-0.00737866538243245,-0.179038223182458,0.165159534904321,stage 13b bootstrap
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1636,177,slope,1.03082510873958,0.890195596210468,1.1828032149533,stage 13b bootstrap
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1636,177,ici,0.0157806207975829,0.0110962388858588,0.0288690887155374,stage 13b bootstrap
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1636,177,e50,0.0132517250993086,0.00652853472000973,0.0236231425794843,stage 13b bootstrap
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1636,177,e90,0.0263294738644684,0.017676091645734,0.0784210339753987,stage 13b bootstrap
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1636,177,auc,0.813811022951251,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1636,177,ipa,0.147286760038393,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1636,177,oe,0.994448289057642,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1636,212,citl,-0.00846706778356925,-0.173180405773531,0.151363927170018,stage 13b bootstrap
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1636,212,slope,1.0272458226099,0.887381323578376,1.18537064967864,stage 13b bootstrap
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1636,212,ici,0.0112870344732961,0.00863286266522471,0.027407632782171,stage 13b bootstrap
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1636,212,e50,0.00764236915566655,0.00350754367507318,0.021435409545178,stage 13b bootstrap
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1636,212,e90,0.0305728050709394,0.0145627578409343,0.0848046593804219,stage 13b bootstrap
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1636,212,auc,0.81187725249099,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1636,212,ipa,0.172586514841859,,,"point estimate (intervals: stages 18q, 18r)"
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1636,212,oe,0.993934787900813,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",10,2909,81,citl,-0.0309214633429044,-0.310564933438434,0.19879473525495,stage 13b bootstrap
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",10,2909,81,slope,1.02023582156054,0.879190850575939,1.2052277559402,stage 13b bootstrap
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",10,2909,81,ici,0.00531535376145074,0.00340844318955391,0.020314518403164,stage 13b bootstrap
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",10,2909,81,e50,0.000988189488750281,0.00053128411424241,0.00381457755272918,stage 13b bootstrap
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",10,2909,81,e90,0.0127451574334223,0.00802364296965534,0.0542264386252442,stage 13b bootstrap
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",10,2909,81,auc,0.936018998725269,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",10,2909,81,ipa,0.248955886542758,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",10,2909,81,oe,0.977500265225735,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",30,2909,177,citl,-0.0149819891549516,-0.203687320987536,0.1636189581765,stage 13b bootstrap
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",30,2909,177,slope,1.01377197302291,0.909960985135075,1.140712287849,stage 13b bootstrap
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",30,2909,177,ici,0.00361313948410204,0.00365214469859772,0.0148051083210642,stage 13b bootstrap
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",30,2909,177,e50,0.00136606618361943,0.000615280033839079,0.00501743059740569,stage 13b bootstrap
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",30,2909,177,e90,0.00885799445429476,0.00765152277012143,0.057325838860618,stage 13b bootstrap
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",30,2909,177,auc,0.924642860097112,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",30,2909,177,ipa,0.314403586428123,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",30,2909,177,oe,0.990360658524124,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",90,2909,351,citl,-0.00715106007582686,-0.144496894851037,0.125622110012427,stage 13b bootstrap
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",90,2909,351,slope,1.01052006401033,0.921744180723501,1.11468492044127,stage 13b bootstrap
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",90,2909,351,ici,0.00448830755429573,0.0046946302244086,0.0156725732613199,stage 13b bootstrap
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",90,2909,351,e50,0.00351890445187555,0.00144574534247144,0.00984547124957854,stage 13b bootstrap
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",90,2909,351,e90,0.0109703707436578,0.0101702986310567,0.0502434101092889,stage 13b bootstrap
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",90,2909,351,auc,0.910072639548793,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",90,2909,351,ipa,0.362144514051479,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",90,2909,351,oe,0.996010341803479,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",180,2909,469,citl,-0.00669570003124847,-0.136940004888031,0.118874762676418,stage 13b bootstrap
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",180,2909,469,slope,1.01301182039855,0.93243044573253,1.10794534515145,stage 13b bootstrap
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",180,2909,469,ici,0.00775277553404767,0.00552753187382198,0.018721065325363,stage 13b bootstrap
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",180,2909,469,e50,0.00602097614619044,0.00214747518278688,0.0130849907619923,stage 13b bootstrap
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",180,2909,469,e90,0.0147132252839019,0.0110295461892896,0.0539489975019355,stage 13b bootstrap
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",180,2909,469,auc,0.906987311685134,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",180,2909,469,ipa,0.386790375682242,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",180,2909,469,oe,0.996584868569208,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",365,2909,620,citl,-0.00642704572910875,-0.127504316735341,0.107925151337993,stage 13b bootstrap
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",365,2909,620,slope,1.01373610001939,0.937158756525749,1.1127427841087,stage 13b bootstrap
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",365,2909,620,ici,0.0101184319982677,0.00658426233145675,0.0222608887913168,stage 13b bootstrap
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",365,2909,620,e50,0.00803906387443389,0.00314285276131671,0.0173305112163928,stage 13b bootstrap
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",365,2909,620,e90,0.0238820835645329,0.0127661110850758,0.061629841479717,stage 13b bootstrap
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",365,2909,620,auc,0.900321312307107,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",365,2909,620,ipa,0.409140963721004,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",365,2909,620,oe,0.997015966038246,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",10,1405,28,citl,-0.0440718111682218,-0.498720682183697,0.322840817168987,stage 13b bootstrap
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",10,1405,28,slope,1.06486496465259,0.825227579663836,1.45786120211166,stage 13b bootstrap
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",10,1405,28,ici,0.00495390784661195,0.0043462756831241,0.021472366047079,stage 13b bootstrap
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",10,1405,28,e50,0.00146461055447513,0.00123548296674409,0.00422694701221731,stage 13b bootstrap
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",10,1405,28,e90,0.00771470080808721,0.00658557713689231,0.0483790839563182,stage 13b bootstrap
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",10,1405,28,auc,0.941332088390912,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",10,1405,28,ipa,0.181015495907063,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",10,1405,28,oe,0.965070353417739,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",30,1405,79,citl,-0.0083904423924,-0.285503143820311,0.246285790729918,stage 13b bootstrap
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",30,1405,79,slope,1.0232682633867,0.860288657111811,1.23636614965287,stage 13b bootstrap
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",30,1405,79,ici,0.00374126996580201,0.00519244507767769,0.0189742697406935,stage 13b bootstrap
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",30,1405,79,e50,0.00192774307811445,0.000949706358701806,0.00760361998706371,stage 13b bootstrap
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",30,1405,79,e90,0.00658724996880679,0.0101340846580971,0.0685302042448971,stage 13b bootstrap
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",30,1405,79,auc,0.915019951505432,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",30,1405,79,ipa,0.253325462261906,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",30,1405,79,oe,0.994096761955052,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",90,1405,173,citl,0.00421435500207371,-0.201336897636123,0.198396591787672,stage 13b bootstrap
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",90,1405,173,slope,1.01889980195109,0.896614883369629,1.1705895436709,stage 13b bootstrap
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",90,1405,173,ici,0.00780572126283969,0.00702945518170082,0.0252077791330773,stage 13b bootstrap
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",90,1405,173,e50,0.00429114952068835,0.00224199304415948,0.0136020754622947,stage 13b bootstrap
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",90,1405,173,e90,0.0219938595329153,0.0149756861011575,0.0821820474517768,stage 13b bootstrap
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",90,1405,173,auc,0.906458786877862,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",90,1405,173,ipa,0.338577189953134,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",90,1405,173,oe,1.00242493744063,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",180,1405,226,citl,0.00448598019157807,-0.187645987795596,0.184301155807698,stage 13b bootstrap
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",180,1405,226,slope,1.01842729160217,0.902366546387793,1.1476932346307,stage 13b bootstrap
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",180,1405,226,ici,0.0132922415242944,0.00894725188893148,0.0303913644616641,stage 13b bootstrap
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",180,1405,226,e50,0.00656710938670074,0.00372465062426516,0.0185350659509349,stage 13b bootstrap
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",180,1405,226,e90,0.0428024769997367,0.0171377860495281,0.0997479198660517,stage 13b bootstrap
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",180,1405,226,auc,0.904182335412492,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",180,1405,226,ipa,0.364940453003773,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",180,1405,226,oe,1.0023610730565,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",365,1405,292,citl,0.00575791765440855,-0.162758991442308,0.173978573914123,stage 13b bootstrap
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",365,1405,292,slope,1.01817787135115,0.913624537264394,1.14829181652931,stage 13b bootstrap
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",365,1405,292,ici,0.0158759640951395,0.00906866326195705,0.0337375858671701,stage 13b bootstrap
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",365,1405,292,e50,0.00879433329697823,0.00474824884369705,0.021526446521297,stage 13b bootstrap
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",365,1405,292,e90,0.0372244101312202,0.0168135893618293,0.092677753547369,stage 13b bootstrap
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",365,1405,292,auc,0.903226501249246,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",365,1405,292,ipa,0.405017290591787,,,"point estimate (intervals: stages 18q, 18r)"
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",365,1405,292,oe,1.00270060418494,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,2909,175,citl,-0.00948524317957667,-0.17863097005078,0.15138586673765,stage 13b bootstrap
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,2909,175,slope,1.01308856789402,0.897039162086273,1.14403755931677,stage 13b bootstrap
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,2909,175,ici,0.00914605113273446,0.00571810551844401,0.018315127538256,stage 13b bootstrap
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,2909,175,e50,0.00531598018000015,0.0017704681803089,0.0101760654350171,stage 13b bootstrap
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,2909,175,e90,0.0255679629352667,0.0114234754067951,0.052856008881158,stage 13b bootstrap
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,2909,175,auc,0.865486466715435,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,2909,175,ipa,0.161114669050007,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,2909,175,oe,0.992629318449062,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,2909,352,citl,-0.00645700323814863,-0.139406035535732,0.11991949657647,stage 13b bootstrap
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,2909,352,slope,1.01048242445309,0.919855101144314,1.11705583738682,stage 13b bootstrap
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,2909,352,ici,0.0121473172811142,0.00710237965490229,0.0222497409007484,stage 13b bootstrap
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,2909,352,e50,0.00989516132413465,0.00356391540432425,0.0159371781900528,stage 13b bootstrap
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,2909,352,e90,0.0306155793475471,0.0143250163102383,0.0640645218884303,stage 13b bootstrap
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,2909,352,auc,0.869955914246098,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,2909,352,ipa,0.25307455969773,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,2909,352,oe,0.995826184732494,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,2909,572,citl,-0.00404557918941122,-0.121010008229471,0.108754188057495,stage 13b bootstrap
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,2909,572,slope,1.01107618149564,0.930688100932291,1.10021144927185,stage 13b bootstrap
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,2909,572,ici,0.0168915603655049,0.00996488918389035,0.0285103704701665,stage 13b bootstrap
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,2909,572,e50,0.0125545278951786,0.00456705710781451,0.0213696611602132,stage 13b bootstrap
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,2909,572,e90,0.0437541064649466,0.0190009872632313,0.0794603930715437,stage 13b bootstrap
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,2909,572,auc,0.877041871265235,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,2909,572,ipa,0.329083412332511,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,2909,572,oe,0.99785206044994,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,2909,728,citl,-0.00405695142406357,-0.117503609322292,0.101973886249583,stage 13b bootstrap
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,2909,728,slope,1.01330969130294,0.936189951390772,1.10022813935943,stage 13b bootstrap
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,2909,728,ici,0.0229663914305706,0.0145581275327155,0.0344168249156392,stage 13b bootstrap
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,2909,728,e50,0.0199851719895604,0.00804952141140136,0.029495341828664,stage 13b bootstrap
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,2909,728,e90,0.0551677081353852,0.0285969105458413,0.0903309461760168,stage 13b bootstrap
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,2909,728,auc,0.880130472461972,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,2909,728,ipa,0.369939834978289,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,2909,728,oe,0.998097036433671,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,2909,899,citl,-0.00386016501122316,-0.106925819465141,0.0936192611543077,stage 13b bootstrap
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,2909,899,slope,1.01288131157238,0.938692556142665,1.09477845835859,stage 13b bootstrap
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,2909,899,ici,0.0244118350987688,0.0150197930256925,0.0364748347975992,stage 13b bootstrap
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,2909,899,e50,0.0227092013941557,0.00894941365865991,0.0336217213927377,stage 13b bootstrap
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,2909,899,e90,0.0540447017101864,0.0299192598569626,0.0878610209650858,stage 13b bootstrap
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,2909,899,auc,0.879043602897636,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,2909,899,ipa,0.399323872049751,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,2909,899,oe,0.998386935816896,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1405,66,citl,-0.0179761729918358,-0.300624780824116,0.230747035576114,stage 13b bootstrap
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1405,66,slope,1.03611424658658,0.856035936677988,1.25297531391687,stage 13b bootstrap
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1405,66,ici,0.00751589224358779,0.00529948901231022,0.0214546573143453,stage 13b bootstrap
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1405,66,e50,0.00532470899731438,0.00152179384668249,0.0114396862296646,stage 13b bootstrap
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1405,66,e90,0.0214489669954864,0.00914863300576226,0.0772659193856757,stage 13b bootstrap
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1405,66,auc,0.855262860117229,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1405,66,ipa,0.115638124561312,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1405,66,oe,0.98507874120418,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1405,152,citl,-0.00939115299753897,-0.209459192274208,0.177070753306313,stage 13b bootstrap
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1405,152,slope,1.022689924269,0.895768188691422,1.18978732267028,stage 13b bootstrap
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1405,152,ici,0.0133726769270548,0.00801571115165771,0.0291004469264295,stage 13b bootstrap
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1405,152,e50,0.00905840492853602,0.00272865413697842,0.019910011295133,stage 13b bootstrap
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1405,152,e90,0.0298147288831998,0.0134330475817562,0.0839261151654015,stage 13b bootstrap
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1405,152,auc,0.863517032805478,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1405,152,ipa,0.211635059107985,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1405,152,oe,0.993530479489394,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1405,262,citl,-0.00641717015374582,-0.171807529086453,0.153442239981059,stage 13b bootstrap
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1405,262,slope,1.01785159288912,0.902492299470089,1.15432980871954,stage 13b bootstrap
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1405,262,ici,0.0196306997553659,0.0114056440510879,0.0368229145040644,stage 13b bootstrap
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1405,262,e50,0.0129213241692506,0.00497687571995984,0.0275435442524332,stage 13b bootstrap
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1405,262,e90,0.0440562240777093,0.0183500625264077,0.0977078621923959,stage 13b bootstrap
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1405,262,auc,0.880246839374086,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1405,262,ipa,0.322048053677908,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1405,262,oe,0.996512988798125,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1405,342,citl,-0.00526372050151469,-0.157584322013108,0.144336677352755,stage 13b bootstrap
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1405,342,slope,1.02328952077113,0.919205750906618,1.15150576206797,stage 13b bootstrap
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1405,342,ici,0.0256838275486035,0.0155314763838443,0.0429934803566934,stage 13b bootstrap
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1405,342,e50,0.0183011177152345,0.00732006082105915,0.0346772400550544,stage 13b bootstrap
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1405,342,e90,0.0654793910941899,0.0274016096323133,0.116170199219257,stage 13b bootstrap
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1405,342,auc,0.886358260027617,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1405,342,ipa,0.375053861624147,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1405,342,oe,0.997525368168196,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1405,414,citl,-0.00647118882731661,-0.159346348517701,0.136430409167903,stage 13b bootstrap
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1405,414,slope,1.02150232826479,0.911940468213336,1.14894774006539,stage 13b bootstrap
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1405,414,ici,0.0274679946915328,0.0162912064719473,0.0452798388304753,stage 13b bootstrap
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1405,414,e50,0.0237948083925957,0.0075892417545502,0.0402047799098843,stage 13b bootstrap
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1405,414,e90,0.066155264485258,0.0339285049539868,0.112447927768989,stage 13b bootstrap
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1405,414,auc,0.890882678405163,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1405,414,ipa,0.422874231179559,,,"point estimate (intervals: stages 18q, 18r)"
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1405,414,oe,0.997331422314706,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,2909,101,citl,-0.0148844387279918,-0.238075832789691,0.181020784624292,stage 13b bootstrap
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,2909,101,slope,0.999167790624094,0.852975545715438,1.16592884974759,stage 13b bootstrap
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,2909,101,ici,0.0104066560254017,0.00596416155398867,0.0188708448193541,stage 13b bootstrap
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,2909,101,e50,0.00335377826610441,0.0015469319119254,0.00837106212161613,stage 13b bootstrap
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,2909,101,e90,0.0407084748571841,0.0118861111721689,0.0769846456160426,stage 13b bootstrap
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,2909,101,auc,0.837257764237962,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,2909,101,ipa,0.0500964684661355,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,2909,101,oe,0.986857293746048,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,2909,198,citl,-0.0102219727618182,-0.178914619562155,0.142127363973356,stage 13b bootstrap
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,2909,198,slope,1.00078108236054,0.875800373069869,1.1337932319051,stage 13b bootstrap
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,2909,198,ici,0.0149924398279188,0.00952240793892059,0.0243092623115577,stage 13b bootstrap
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,2909,198,e50,0.0050504650723388,0.00206262239344618,0.012938925882847,stage 13b bootstrap
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,2909,198,e90,0.0547745683747964,0.0216029085056644,0.0916770268715411,stage 13b bootstrap
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,2909,198,auc,0.837254880043519,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,2909,198,ipa,0.101107697945809,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,2909,198,oe,0.991770052651906,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,2909,289,citl,-0.00753043256320971,-0.151483734165723,0.128949193186243,stage 13b bootstrap
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,2909,289,slope,1.00447881425408,0.900617946431084,1.11695333702293,stage 13b bootstrap
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,2909,289,ici,0.0147978187520453,0.0100561935219211,0.025016725032885,stage 13b bootstrap
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,2909,289,e50,0.00473970843024497,0.002429549347096,0.0135186916091417,stage 13b bootstrap
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,2909,289,e90,0.0500846920779528,0.0185138471365251,0.0912417799480786,stage 13b bootstrap
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,2909,289,auc,0.845287778335402,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,2909,289,ipa,0.163692357563156,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,2909,289,oe,0.994502688339146,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,2909,360,citl,-0.00730314671347472,-0.138403876137153,0.122218125863484,stage 13b bootstrap
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,2909,360,slope,1.00905068154749,0.908670659682729,1.12179204825202,stage 13b bootstrap
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,2909,360,ici,0.0156466817962128,0.0109920380536678,0.0260066043024046,stage 13b bootstrap
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,2909,360,e50,0.00533691909942995,0.0027420920282396,0.0142009114559771,stage 13b bootstrap
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,2909,360,e90,0.0480103679059184,0.0210435908069217,0.0889771442034512,stage 13b bootstrap
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,2909,360,auc,0.846074713395231,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,2909,360,ipa,0.205918075767294,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,2909,360,oe,0.995014468721584,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,2909,431,citl,-0.00577138306306283,-0.119480430533296,0.110711571276061,stage 13b bootstrap
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,2909,431,slope,1.00986790556007,0.9138752032583,1.11283135439678,stage 13b bootstrap
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,2909,431,ici,0.0164574119296244,0.0107967550424633,0.0273612873963819,stage 13b bootstrap
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,2909,431,e50,0.00741054794460298,0.00241691519678711,0.0184449528984684,stage 13b bootstrap
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,2909,431,e90,0.0481855444451171,0.0201752870117391,0.0855244090371703,stage 13b bootstrap
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,2909,431,auc,0.839092599562929,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,2909,431,ipa,0.224797875071989,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,2909,431,oe,0.996231357729086,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1405,42,citl,-0.010025790016745,-0.372945157005473,0.270322318784869,stage 13b bootstrap
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1405,42,slope,1.06445512912107,0.801895731101139,1.37601501688003,stage 13b bootstrap
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1405,42,ici,0.00604972796979701,0.00461337977489607,0.0157893141313683,stage 13b bootstrap
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1405,42,e50,0.00457490659910671,0.00169207592577407,0.0105033376243266,stage 13b bootstrap
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1405,42,e90,0.00905315024751694,0.00619137967906738,0.044155701088713,stage 13b bootstrap
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1405,42,auc,0.804457953394124,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1405,42,ipa,0.0358228054931489,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,1405,42,oe,0.990754542098535,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1405,83,citl,-0.0139819770667774,-0.287929491553733,0.212059506466669,stage 13b bootstrap
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1405,83,slope,1.01342568739153,0.835107701946373,1.21794106633717,stage 13b bootstrap
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1405,83,ici,0.016904647320168,0.0106019646058014,0.0283084277043563,stage 13b bootstrap
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1405,83,e50,0.00824821252155935,0.00300887819086207,0.0165877728787131,stage 13b bootstrap
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1405,83,e90,0.0469863702200829,0.0174692812642631,0.0956185696270906,stage 13b bootstrap
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1405,83,auc,0.826030293640523,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1405,83,ipa,0.0783518113909972,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,1405,83,oe,0.988319905029051,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1405,123,citl,-0.0111453085345278,-0.23970313077696,0.184862375892201,stage 13b bootstrap
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1405,123,slope,1.00006056690101,0.857027103766311,1.17248037231727,stage 13b bootstrap
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1405,123,ici,0.0222413902038271,0.0143208386739071,0.035738883711886,stage 13b bootstrap
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1405,123,e50,0.00805563861127589,0.00485160229246646,0.0199711545295011,stage 13b bootstrap
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1405,123,e90,0.065404184694798,0.0254296510956826,0.121862339374655,stage 13b bootstrap
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1405,123,auc,0.841368288877897,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1405,123,ipa,0.129808295285569,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,1405,123,oe,0.991546838525285,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1405,161,citl,-0.00851337058298195,-0.197915075115448,0.167674240683004,stage 13b bootstrap
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1405,161,slope,1.01771480785536,0.88343864484052,1.1837494720989,stage 13b bootstrap
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1405,161,ici,0.025931651760278,0.0175086788775281,0.0402751259053695,stage 13b bootstrap
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1405,161,e50,0.00986378351854557,0.00643653925225501,0.0223221739305345,stage 13b bootstrap
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1405,161,e90,0.083711644810125,0.0371138871238646,0.139886445642926,stage 13b bootstrap
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1405,161,auc,0.849543648019812,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1405,161,ipa,0.18378180555322,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,1405,161,oe,0.994048686639394,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1405,188,citl,-0.0102049957625888,-0.18885291116369,0.156440957587971,stage 13b bootstrap
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1405,188,slope,1.01787032902478,0.879667952172977,1.18519489292087,stage 13b bootstrap
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1405,188,ici,0.0284569956383407,0.0192087168354773,0.0433749607102791,stage 13b bootstrap
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1405,188,e50,0.00996025336409158,0.00508383563563453,0.0264464528498175,stage 13b bootstrap
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1405,188,e90,0.0897534100126287,0.0427818213626382,0.147733274521778,stage 13b bootstrap
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1405,188,auc,0.846754313886606,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1405,188,ipa,0.212538254582029,,,"point estimate (intervals: stages 18q, 18r)"
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,1405,188,oe,0.99318786719865,,,"point estimate (intervals: stages 18q, 18r)"

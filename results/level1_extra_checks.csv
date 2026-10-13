@@ -1,0 +1,23 @@
+item,value,status
+A EHR+ECG: rows / columns / missing cells,21006 / 10 / 0,PASS
+A EHR+ECG: scores failing the per-fold rule (D2),0,PASS
+A EHR+ECG: EHR ridge-Cox reproduces stage 18a (max |diff|),5.6e-16,PASS
+A 3-mod: rows / columns / missing cells,9816 / 15 / 0,PASS
+A 3-mod: scores failing the per-fold rule (D2),0,PASS
+A 3-mod: EHR ridge-Cox reproduces stage 18a (max |diff|),5.6e-16,PASS
+B EHR+ECG: rows / columns / missing cells,17454 / 16 / 0,PASS
+B EHR+ECG: scores failing the per-fold rule (D2),0,PASS
+B EHR+ECG: EHR ridge-Cox reproduces stage 18a (max |diff|),6.7e-16,PASS
+B 3-mod: rows / columns / missing cells,8430 / 24 / 0,PASS
+B 3-mod: scores failing the per-fold rule (D2),0,PASS
+B 3-mod: EHR ridge-Cox reproduces stage 18a (max |diff|),5.6e-16,PASS
+oblique forest fits that failed (first message),0,PASS
+EHR ridge-Cox: choices at the least-penalised end,2.5%,PASS
+EHR CoxBoost: optimal steps at 300 / at 0 / median,7.5% / 0.0% / 239.5,PASS
+"EHR oblique forest: leaf 5 / 60, smallest / largest mtry","0.66 / 0.01, 0.02 / 0.91",WARN
+ECG ridge-Cox: choices at the least-penalised end,0.0%,PASS
+ECG CoxBoost: optimal steps at 300 / at 0 / median,10.8% / 0.0% / 255.5,PASS
+"ECG oblique forest: leaf 5 / 60, smallest / largest mtry","0.27 / 0.28, 0.07 / 0.62",WARN
+CTPA ridge-Cox: choices at the least-penalised end,0.0%,PASS
+CTPA CoxBoost: optimal steps at 300 / at 0 / median,0.0% / 0.0% / 92,PASS
+"CTPA oblique forest: leaf 5 / 60, smallest / largest mtry","0.20 / 0.35, 0.17 / 0.52",WARN

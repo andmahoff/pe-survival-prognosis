@@ -1,0 +1,16 @@
+item,value,status
+A EHR+ECG: stage 6d and 6b files found,"oof_extra_A_ehrecg.csv, oof_forest_A_ehrecg.csv",PASS
+A 3-mod: stage 6d and 6b files found,"oof_extra_A_3mod.csv, oof_forest_A_3mod.csv",PASS
+B EHR+ECG: stage 6d and 6b files found,"oof_extra_B_ehrecg.csv, oof_forest_B_ehrecg.csv",PASS
+B 3-mod: stage 6d and 6b files found,"oof_extra_B_3mod.csv, oof_forest_B_3mod.csv",PASS
+spline fits that failed (first message),0,PASS
+spline fits short of full REML convergence (first status),0 of 120,PASS
+spline terms per fit / median total edf,24 / 29.8,INFO
+A EHR+ECG: seeds with missing scores,0,PASS
+A EHR+ECG: spline per-fold C below 0.40 (D2),mean 0.872,PASS
+A 3-mod: seeds with missing scores,0,PASS
+A 3-mod: spline per-fold C below 0.40 (D2),mean 0.863,PASS
+B EHR+ECG: seeds with missing scores,0,PASS
+B EHR+ECG: spline per-fold C below 0.40 (D2),mean 0.839,PASS
+B 3-mod: seeds with missing scores,0,PASS
+B 3-mod: spline per-fold C below 0.40 (D2),mean 0.846,PASS

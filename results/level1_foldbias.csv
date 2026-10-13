@@ -1,0 +1,7 @@
+frame,cohort,column,events_by_day10,pooled_auc_seedavg_pred,pooled_auc_mean_over_seeds,perfold_auc_mean,perfold_auc_sd,test_sets_used,corr_eventrate_vs_meanpred,verdict
+A,3-mod,ctpa.lr.cvc_h10,21,0.2835,0.3814,0.4302,0.157,30,-0.778,pooling artefact
+A,3-mod,ctpa.lr.cvu_h10,21,0.3428,0.3889,0.4548,0.1553,30,-0.752,pooling artefact
+A,3-mod,ctpa.cox.cs_cv.lp,21,0.5794,0.5768,0.5831,0.1333,30,-0.067,no pooling gap
+B,3-mod,ctpa.lr.cvc_h10,42,0.4998,0.4983,0.5185,0.1107,30,-0.9,no pooling gap
+B,3-mod,ctpa.lr.cvu_h10,42,0.5253,0.5103,0.511,0.1212,30,-0.779,no pooling gap
+B,3-mod,ctpa.cox.cs_cv.lp,42,0.5502,0.5584,0.5548,0.1045,30,-0.33,no pooling gap

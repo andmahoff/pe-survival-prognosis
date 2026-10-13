@@ -1,0 +1,4 @@
+frame,cohort,model,comparison,spearman,forest_top5,spline_top5
+P,EHR+ECG,"RSF, Brier-tuned",importance at 365 days vs spline term SD,0.44861896158961,Metastatic cancer (Elixhauser); Metastatic cancer (Charlson); Charlson score; Cancer (Charlson); Age,Charlson score; Age; Elixhauser score; Creatinine; Urea nitrogen
+P,EHR+ECG,"oblique RSF, Brier-tuned",importance at 365 days vs spline term SD,0.387031243080389,Metastatic cancer (Charlson); Metastatic cancer (Elixhauser); Charlson score; Age; Cancer (Charlson),Charlson score; Age; Elixhauser score; Creatinine; Urea nitrogen
+P,EHR+ECG,"RSF, Brier-tuned vs oblique RSF, Brier-tuned","importance at 365 days, forest vs forest",0.668553149606299,Metastatic cancer (Elixhauser); Metastatic cancer (Charlson); Charlson score; Cancer (Charlson); Age,Metastatic cancer (Charlson); Metastatic cancer (Elixhauser); Charlson score; Age; Cancer (Charlson)

@@ -1,0 +1,60 @@
+cohort,item,value,status
+EHR+ECG,missing predicted risks,0,PASS
+EHR+ECG,"bounds within [0, 366]",0.0 to 366.0,PASS
+EHR+ECG,"coverage, alpha 0.10, covariate-free, conformal (no covariates)",0.9009,PASS
+EHR+ECG,"coverage, alpha 0.10, EHR only, CDR",0.9000,PASS
+EHR+ECG,"coverage, alpha 0.10, EHR only, CQR",0.9305,PASS
+EHR+ECG,"coverage, alpha 0.10, EHR only, CDR, Mondrian by risk tertile",0.9321,PASS
+EHR+ECG,"coverage, alpha 0.10, EHR only, CDR, Mondrian by age band",0.9050,PASS
+EHR+ECG,"coverage, alpha 0.10, EHR + ECG, CDR",0.9003,PASS
+EHR+ECG,"coverage, alpha 0.10, EHR + ECG, CQR",0.9318,PASS
+EHR+ECG,"coverage, alpha 0.10, EHR + ECG, CDR, Mondrian by risk tertile",0.9319,PASS
+EHR+ECG,"coverage, alpha 0.10, EHR + ECG, CDR, Mondrian by age band",0.9052,PASS
+EHR+ECG,"coverage, alpha 0.05, covariate-free, conformal (no covariates)",0.9533,PASS
+EHR+ECG,"coverage, alpha 0.05, EHR only, CDR",0.9524,PASS
+EHR+ECG,"coverage, alpha 0.05, EHR only, CQR",0.9660,PASS
+EHR+ECG,"coverage, alpha 0.05, EHR only, CDR, Mondrian by risk tertile",0.9646,PASS
+EHR+ECG,"coverage, alpha 0.05, EHR only, CDR, Mondrian by age band",0.9553,PASS
+EHR+ECG,"coverage, alpha 0.05, EHR + ECG, CDR",0.9524,PASS
+EHR+ECG,"coverage, alpha 0.05, EHR + ECG, CQR",0.9665,PASS
+EHR+ECG,"coverage, alpha 0.05, EHR + ECG, CDR, Mondrian by risk tertile",0.9646,PASS
+EHR+ECG,"coverage, alpha 0.05, EHR + ECG, CDR, Mondrian by age band",0.9552,PASS
+EHR+ECG,"coverage, alpha 0.20, covariate-free, conformal (no covariates)",0.8049,PASS
+EHR+ECG,"coverage, alpha 0.20, EHR only, CDR",0.8051,PASS
+EHR+ECG,"coverage, alpha 0.20, EHR only, CQR",0.8748,PASS
+EHR+ECG,"coverage, alpha 0.20, EHR only, CDR, Mondrian by risk tertile",0.8894,PASS
+EHR+ECG,"coverage, alpha 0.20, EHR only, CDR, Mondrian by age band",0.8361,PASS
+EHR+ECG,"coverage, alpha 0.20, EHR + ECG, CDR",0.8049,PASS
+EHR+ECG,"coverage, alpha 0.20, EHR + ECG, CQR",0.8758,PASS
+EHR+ECG,"coverage, alpha 0.20, EHR + ECG, CDR, Mondrian by risk tertile",0.8912,PASS
+EHR+ECG,"coverage, alpha 0.20, EHR + ECG, CDR, Mondrian by age band",0.8357,PASS
+3-mod,missing predicted risks,0,PASS
+3-mod,"bounds within [0, 366]",0.0 to 366.0,PASS
+3-mod,"coverage, alpha 0.10, covariate-free, conformal (no covariates)",0.9018,PASS
+3-mod,"coverage, alpha 0.10, EHR only, CDR",0.9009,PASS
+3-mod,"coverage, alpha 0.10, EHR only, CQR",0.9332,PASS
+3-mod,"coverage, alpha 0.10, EHR only, CDR, Mondrian by risk tertile",0.9394,PASS
+3-mod,"coverage, alpha 0.10, EHR only, CDR, Mondrian by age band",0.9105,PASS
+3-mod,"coverage, alpha 0.10, EHR + ECG + CTPA, CDR",0.9018,PASS
+3-mod,"coverage, alpha 0.10, EHR + ECG + CTPA, CQR",0.9333,PASS
+3-mod,"coverage, alpha 0.10, EHR + ECG + CTPA, CDR, Mondrian by risk tertile",0.9404,PASS
+3-mod,"coverage, alpha 0.10, EHR + ECG + CTPA, CDR, Mondrian by age band",0.9105,PASS
+3-mod,"coverage, alpha 0.05, covariate-free, conformal (no covariates)",0.9507,PASS
+3-mod,"coverage, alpha 0.05, EHR only, CDR",0.9508,PASS
+3-mod,"coverage, alpha 0.05, EHR only, CQR",0.9638,PASS
+3-mod,"coverage, alpha 0.05, EHR only, CDR, Mondrian by risk tertile",0.9693,PASS
+3-mod,"coverage, alpha 0.05, EHR only, CDR, Mondrian by age band",0.9602,PASS
+3-mod,"coverage, alpha 0.05, EHR + ECG + CTPA, CDR",0.9499,PASS
+3-mod,"coverage, alpha 0.05, EHR + ECG + CTPA, CQR",0.9647,PASS
+3-mod,"coverage, alpha 0.05, EHR + ECG + CTPA, CDR, Mondrian by risk tertile",0.9695,PASS
+3-mod,"coverage, alpha 0.05, EHR + ECG + CTPA, CDR, Mondrian by age band",0.9595,PASS
+3-mod,"coverage, alpha 0.20, covariate-free, conformal (no covariates)",0.8103,PASS
+3-mod,"coverage, alpha 0.20, EHR only, CDR",0.8103,PASS
+3-mod,"coverage, alpha 0.20, EHR only, CQR",0.8798,PASS
+3-mod,"coverage, alpha 0.20, EHR only, CDR, Mondrian by risk tertile",0.8983,PASS
+3-mod,"coverage, alpha 0.20, EHR only, CDR, Mondrian by age band",0.8361,PASS
+3-mod,"coverage, alpha 0.20, EHR + ECG + CTPA, CDR",0.8103,PASS
+3-mod,"coverage, alpha 0.20, EHR + ECG + CTPA, CQR",0.8821,PASS
+3-mod,"coverage, alpha 0.20, EHR + ECG + CTPA, CDR, Mondrian by risk tertile",0.9001,PASS
+3-mod,"coverage, alpha 0.20, EHR + ECG + CTPA, CDR, Mondrian by age band",0.8364,PASS
+both,unchanged methods reproduce the first run (max diff),4.5e-13 over 30 of 30 rows,PASS

@@ -1,0 +1,33 @@
+item,value,status
+input files found,all 33,PASS
+P comp EHR+ECG: missing risks / range,0 / 0.00036 to 1.00000,PASS
+P comp 3-mod: missing risks / range,0 / 0.00036 to 1.00000,PASS
+P cv EHR+ECG: missing risks / range,0 / 0.00021 to 0.87851,PASS
+P cv 3-mod: missing risks / range,0 / 0.00047 to 0.87424,PASS
+B comp EHR+ECG: missing risks / range,0 / 0.00005 to 1.00000,PASS
+"B comp EHR+ECG: first version reproduced (n, max |diff|)","10, 6.7e-16",PASS
+B comp 3-mod: missing risks / range,0 / 0.00002 to 1.00000,PASS
+"B comp 3-mod: first version reproduced (n, max |diff|)","20, 6.7e-16",PASS
+B cv EHR+ECG: missing risks / range,0 / 0.00015 to 0.95511,PASS
+"B cv EHR+ECG: first version reproduced (n, max |diff|)","10, 5.6e-16",PASS
+B cv 3-mod: missing risks / range,0 / 0.00008 to 0.90928,PASS
+"B cv 3-mod: first version reproduced (n, max |diff|)","20, 5.6e-16",PASS
+B death EHR+ECG: missing risks / range,0 / 0.00000 to 1.00000,PASS
+"B death EHR+ECG: first version reproduced (n, max |diff|)","10, 6.1e-16",PASS
+B death EHR+ECG: Super learner v7 predictions present (missing),0,PASS
+B death 3-mod: missing risks / range,0 / 0.00000 to 1.00000,PASS
+"B death 3-mod: first version reproduced (n, max |diff|)","20, 6.7e-16",PASS
+B death 3-mod: Super learner v7 predictions present (missing),0,PASS
+B comp_nh EHR+ECG: missing risks / range,0 / 0.00007 to 1.00000,PASS
+B comp_nh 3-mod: missing risks / range,0 / 0.00005 to 1.00000,PASS
+B cv_nh EHR+ECG: missing risks / range,0 / 0.00015 to 0.93761,PASS
+B cv_nh 3-mod: missing risks / range,0 / 0.00008 to 0.90201,PASS
+B comp EHR+ECG: hospice discharges removed in the second evaluation,85 of 2909,INFO
+B comp 3-mod: hospice discharges removed in the second evaluation,39 of 1405,INFO
+B cv EHR+ECG: hospice discharges removed in the second evaluation,85 of 2909,INFO
+B cv 3-mod: hospice discharges removed in the second evaluation,39 of 1405,INFO
+B death EHR+ECG: hospice discharges removed in the second evaluation,85 of 2909,INFO
+B death 3-mod: hospice discharges removed in the second evaluation,39 of 1405,INFO
+v7-core within 0.005 AUROC of v7 at every horizon (primary cohort),max |diff| 0.0016,PASS
+"A34 rule, composite at diagnosis","Super learner, recalibrated",INFO
+"A34 rule, composite at discharge","Super learner, recalibrated",INFO

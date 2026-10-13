@@ -1,0 +1,12 @@
+quantity,estimate,lo,hi,method,note
+hospice discharges excluded,85,,,count,""
+patients analysed,2824,,,count,""
+deaths days 0-30,116,,,count,""
+deaths days 31-365,427,,,count,""
+"HR per SD, EHR, days 0-30",2.27708085292402,1.9094505959686,3.46794958074892,bootstrap percentile,""
+"HR per SD, EHR, days 31-365",2.51238612727335,2.2330471559322,3.35935067683476,bootstrap percentile,""
+"HR per SD, ECG, days 0-30",1.41282678252541,1.13715341744151,1.94796007910417,bootstrap percentile,""
+"HR per SD, ECG, days 31-365",1.07084584271041,0.919007550800788,1.3885121411728,bootstrap percentile,""
+"SENSITIVITY: ECG HR ratio, early / late, no hospice",1.31935590182561,1.06823946341901,1.64646612854157,"bootstrap percentile, 2,000 refits",consistent with H1: lower bound above 1
+"EHR HR ratio, early / late, no hospice",0.906341914646416,0.776175828246724,1.09773220572869,"bootstrap percentile, 2,000 refits",""
+bootstrap refits that failed,0,,,count,""

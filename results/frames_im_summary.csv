@@ -1,0 +1,40 @@
+section,frame,item,value,status
+check,I,persons with an index scan,3300,PASS
+check,I,tte missing or negative,0,PASS
+check,I,all times <= 366 days,yes,PASS
+info,I,deaths between day 365 and 366,0,INFO
+check,I,KM risk at 10 d vs stage 2,0.0375 vs 0.0375,PASS
+check,I,KM risk at 30 d vs stage 2,0.0779 vs 0.0779,PASS
+check,I,KM risk at 90 d vs stage 2,0.1191 vs 0.1191,PASS
+check,I,KM risk at 180 d vs stage 2,0.1436 vs 0.1436,PASS
+check,I,KM risk at 365 d vs stage 2,0.1748 vs 0.1748,PASS
+censor,I,n: died <1y / censored <1y / alive at 1y,539 / 475 / 2286,INFO
+censor,I,mean age: died/cens/alive,63.108 / 59.966 / 59.463,INFO
+censor,I,mean cancer: died/cens/alive,0.822 / 0.448 / 0.482,INFO
+censor,I,mean heart_failure: died/cens/alive,0.408 / 0.299 / 0.372,INFO
+censor,I,mean copd: died/cens/alive,0.191 / 0.141 / 0.173,INFO
+censor,I,mean afib: died/cens/alive,0.289 / 0.145 / 0.238,INFO
+censor,I,mean ehr_missing: died/cens/alive,0.096 / 0.106 / 0.113,INFO
+bounds,I,1y mortality: all survive / KM / all die,0.1633 / 0.1748 / 0.3073,INFO
+check,M,events <= 365.5 and censoring at 366.0,yes,PASS
+info,M,"first admissions, 3-mod (nested)",1490,INFO
+check,IM,EHR columns shared,28 of 28,PASS
+info,IM,CTPA columns shared,38 of 46,INFO
+info,IM,"CTPA columns not in INSPECT, by block",{'ctpa_device': 8},INFO
+check,IM,label or timing names among shared,0,PASS
+coverage,I,EHR: rows present / cells missing,1.0000 / 0.1093,PASS
+coverage,I,CTPA: rows present / cells missing,1.0000 / 0.0000,PASS
+coverage,M,EHR: rows present / cells missing,1.0000 / 0.0532,PASS
+coverage,M,CTPA: rows present / cells missing,1.0000 / 0.0000,PASS
+folds,I,seed 42: one fold/person; deaths/fold,yes; 102-112,PASS
+folds,I,seed 7: one fold/person; deaths/fold,yes; 101-113,PASS
+folds,I,seed 13: one fold/person; deaths/fold,yes; 99-116,PASS
+folds,I,seed 1: one fold/person; deaths/fold,yes; 100-115,PASS
+folds,I,seed 2: one fold/person; deaths/fold,yes; 99-114,PASS
+folds,I,seed 3: one fold/person; deaths/fold,yes; 97-115,PASS
+folds,M,seed 42: one fold/person; deaths/fold,yes; 67-80,PASS
+folds,M,seed 7: one fold/person; deaths/fold,yes; 66-83,PASS
+folds,M,seed 13: one fold/person; deaths/fold,yes; 65-86,PASS
+folds,M,seed 1: one fold/person; deaths/fold,yes; 63-86,PASS
+folds,M,seed 2: one fold/person; deaths/fold,yes; 63-86,PASS
+folds,M,seed 3: one fold/person; deaths/fold,yes; 69-79,PASS

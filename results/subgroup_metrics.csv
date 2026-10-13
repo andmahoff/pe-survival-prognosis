@@ -1,0 +1,309 @@
+frame,model,variable,group,horizon,patients,deaths,measure,estimate,lo,hi
+B,"Super learner v7, recalibrated",age,under 65,10,1471,31,auc,0.962567204301075,0.93687792826076,0.982973451417106
+B,"Super learner v7, recalibrated",age,under 65,10,1471,31,ipa,0.286208705846331,0.155363783681048,0.395839871228386
+B,"Super learner v7, recalibrated",age,under 65,10,1471,31,oe,1.19283658004286,0.854948971928785,1.54023051550124
+B,"Super learner v7, recalibrated",age,under 65,10,1471,31,slope,1.12754487033161,,
+B,"Super learner v7, recalibrated",age,under 65,30,1471,58,auc,0.953449496058765,0.925069328546385,0.974399562214827
+B,"Super learner v7, recalibrated",age,under 65,30,1471,58,ipa,0.358590939254623,0.249293098247835,0.454338435259523
+B,"Super learner v7, recalibrated",age,under 65,30,1471,58,oe,0.990970022304538,0.779103123702233,1.20195978183508
+B,"Super learner v7, recalibrated",age,under 65,30,1471,58,slope,1.11685935166048,,
+B,"Super learner v7, recalibrated",age,under 65,90,1471,100,auc,0.939525893508388,0.913295746633382,0.961196027155852
+B,"Super learner v7, recalibrated",age,under 65,90,1471,100,ipa,0.381062594827246,0.28633129088385,0.46590967715274
+B,"Super learner v7, recalibrated",age,under 65,90,1471,100,oe,0.837788203170112,0.710688537019558,0.958540549693494
+B,"Super learner v7, recalibrated",age,under 65,90,1471,100,slope,1.08082819219722,,
+B,"Super learner v7, recalibrated",age,under 65,180,1471,146,auc,0.932261566296201,0.910690757673767,0.951377904831598
+B,"Super learner v7, recalibrated",age,under 65,180,1471,146,ipa,0.400066862898239,0.321019434485744,0.474101615341617
+B,"Super learner v7, recalibrated",age,under 65,180,1471,146,oe,0.900262929818113,0.793991520224128,1.00820076124425
+B,"Super learner v7, recalibrated",age,under 65,180,1471,146,slope,1.03469405989173,,
+B,"Super learner v7, recalibrated",age,under 65,365,1471,200,auc,0.924571203776554,0.902816434223302,0.944111154987542
+B,"Super learner v7, recalibrated",age,under 65,365,1471,200,ipa,0.452196829963787,0.387197396579318,0.51206790399219
+B,"Super learner v7, recalibrated",age,under 65,365,1471,200,oe,0.927206165850066,0.838192334986508,1.01305352384541
+B,"Super learner v7, recalibrated",age,under 65,365,1471,200,slope,1.05717542338233,,
+B,"Super learner v7, recalibrated",age,65-79,10,950,25,auc,0.942832432432432,0.900106796397445,0.974149287404684
+B,"Super learner v7, recalibrated",age,65-79,10,950,25,ipa,0.200579516680734,-0.0348427741646448,0.34741670873625
+B,"Super learner v7, recalibrated",age,65-79,10,950,25,oe,0.706524403716541,0.468527562369165,0.952791872713593
+B,"Super learner v7, recalibrated",age,65-79,10,950,25,slope,1.09014742688237,,
+B,"Super learner v7, recalibrated",age,65-79,30,950,75,auc,0.915702857142857,0.885942060244497,0.944714332385138
+B,"Super learner v7, recalibrated",age,65-79,30,950,75,ipa,0.349529492228081,0.252131758426824,0.436009500036049
+B,"Super learner v7, recalibrated",age,65-79,30,950,75,oe,0.999144924853416,0.827723840855618,1.18765581793502
+B,"Super learner v7, recalibrated",age,65-79,30,950,75,slope,1.06705895518243,,
+B,"Super learner v7, recalibrated",age,65-79,90,950,156,auc,0.898711490021314,0.874696193658859,0.921243344268073
+B,"Super learner v7, recalibrated",age,65-79,90,950,156,ipa,0.366101566995089,0.298827656962268,0.431407983400034
+B,"Super learner v7, recalibrated",age,65-79,90,950,156,oe,1.07373534760028,0.957546850363095,1.19840990642541
+B,"Super learner v7, recalibrated",age,65-79,90,950,156,slope,1.03209138843823,,
+B,"Super learner v7, recalibrated",age,65-79,180,950,196,auc,0.895198397661452,0.872457724904339,0.917106118755415
+B,"Super learner v7, recalibrated",age,65-79,180,950,196,ipa,0.387057285548747,0.322784313595736,0.450044101810546
+B,"Super learner v7, recalibrated",age,65-79,180,950,196,oe,1.02018200608054,0.921874204539309,1.1190316028894
+B,"Super learner v7, recalibrated",age,65-79,180,950,196,slope,1.03981148185158,,
+B,"Super learner v7, recalibrated",age,65-79,365,950,244,auc,0.891178656016347,0.868663477100894,0.912363828187518
+B,"Super learner v7, recalibrated",age,65-79,365,950,244,ipa,0.403982883854008,0.342795536918996,0.462268294356031
+B,"Super learner v7, recalibrated",age,65-79,365,950,244,oe,0.972760441509884,0.892143414944858,1.05172629106657
+B,"Super learner v7, recalibrated",age,65-79,365,950,244,slope,1.056619884137,,
+B,"Super learner v7, recalibrated",age,80 and over,10,488,25,auc,0.860820734341253,0.768905809229085,0.934472844916311
+B,"Super learner v7, recalibrated",age,80 and over,10,488,25,ipa,0.240285491326849,0.0755846384002894,0.372420528307611
+B,"Super learner v7, recalibrated",age,80 and over,10,488,25,oe,1.1632520076957,0.770740432274412,1.57194185097564
+B,"Super learner v7, recalibrated",age,80 and over,10,488,25,slope,0.899385872912113,,
+B,"Super learner v7, recalibrated",age,80 and over,30,488,44,auc,0.842444717444718,0.778864345178172,0.895361877209364
+B,"Super learner v7, recalibrated",age,80 and over,30,488,44,ipa,0.168226959662411,0.0132951328367146,0.291540773003003
+B,"Super learner v7, recalibrated",age,80 and over,30,488,44,oe,0.974959643106201,0.73432255005387,1.23463005961855
+B,"Super learner v7, recalibrated",age,80 and over,30,488,44,slope,0.805239970536512,,
+B,"Super learner v7, recalibrated",age,80 and over,90,488,95,auc,0.82164189098701,0.767222015595137,0.868722597734746
+B,"Super learner v7, recalibrated",age,80 and over,90,488,95,ipa,0.261010907900592,0.159953849350088,0.351192275843575
+B,"Super learner v7, recalibrated",age,80 and over,90,488,95,oe,1.08253631079036,0.915008520297844,1.25610619537681
+B,"Super learner v7, recalibrated",age,80 and over,90,488,95,slope,0.859030726185179,,
+B,"Super learner v7, recalibrated",age,80 and over,180,488,127,auc,0.823827077017035,0.778988798320857,0.865713279429206
+B,"Super learner v7, recalibrated",age,80 and over,180,488,127,ipa,0.287050431394564,0.198502821428368,0.370848193309217
+B,"Super learner v7, recalibrated",age,80 and over,180,488,127,oe,1.0919117984906,0.952442300729645,1.23342979965863
+B,"Super learner v7, recalibrated",age,80 and over,180,488,127,slope,0.906694171334725,,
+B,"Super learner v7, recalibrated",age,80 and over,365,488,176,auc,0.797148164335664,0.756008501009343,0.836992767026159
+B,"Super learner v7, recalibrated",age,80 and over,365,488,176,ipa,0.240033929418113,0.161326175557284,0.318588111441551
+B,"Super learner v7, recalibrated",age,80 and over,365,488,176,oe,1.1331349047686,1.0164811673973,1.25294030719286
+B,"Super learner v7, recalibrated",age,80 and over,365,488,176,slope,0.830556825065219,,
+B,"Super learner v7, recalibrated",sex,female,10,1501,37,auc,0.935367744793974,0.897533656793679,0.965831307684545
+B,"Super learner v7, recalibrated",sex,female,10,1501,37,ipa,0.243481320854872,0.116538070906814,0.353255358974538
+B,"Super learner v7, recalibrated",sex,female,10,1501,37,oe,0.915360317711958,0.665194978109262,1.17196493264101
+B,"Super learner v7, recalibrated",sex,female,10,1501,37,slope,1.04690879412729,,
+B,"Super learner v7, recalibrated",sex,female,30,1501,81,auc,0.928177708224657,0.904440463843072,0.949282448434124
+B,"Super learner v7, recalibrated",sex,female,30,1501,81,ipa,0.284284643829222,0.18181920941927,0.369988530378819
+B,"Super learner v7, recalibrated",sex,female,30,1501,81,oe,0.904366293044767,0.744213875447443,1.08298583929724
+B,"Super learner v7, recalibrated",sex,female,30,1501,81,slope,1.02775380993742,,
+B,"Super learner v7, recalibrated",sex,female,90,1501,176,auc,0.907079759862779,0.886543508738571,0.926401366030993
+B,"Super learner v7, recalibrated",sex,female,90,1501,176,ipa,0.350996905423034,0.285461704193883,0.412867671498932
+B,"Super learner v7, recalibrated",sex,female,90,1501,176,oe,0.98079751891661,0.873458159424386,1.09237762168588
+B,"Super learner v7, recalibrated",sex,female,90,1501,176,slope,1.00129471675805,,
+B,"Super learner v7, recalibrated",sex,female,180,1501,238,auc,0.903707326160868,0.885321533154759,0.921379617492312
+B,"Super learner v7, recalibrated",sex,female,180,1501,238,ipa,0.372111632839622,0.315530407775157,0.428745844806235
+B,"Super learner v7, recalibrated",sex,female,180,1501,238,oe,0.98878635923557,0.893992023509771,1.08533072028191
+B,"Super learner v7, recalibrated",sex,female,180,1501,238,slope,0.998203553016418,,
+B,"Super learner v7, recalibrated",sex,female,365,1501,309,auc,0.897691731282987,0.880086493460653,0.915137336656712
+B,"Super learner v7, recalibrated",sex,female,365,1501,309,ipa,0.389524715796173,0.334628177690022,0.441426709639
+B,"Super learner v7, recalibrated",sex,female,365,1501,309,oe,0.970411694546086,0.892865379941013,1.04839008061661
+B,"Super learner v7, recalibrated",sex,female,365,1501,309,slope,1.00145715483115,,
+B,"Super learner v7, recalibrated",sex,male,10,1408,44,auc,0.936117035457211,0.901245143996685,0.9633380059161
+B,"Super learner v7, recalibrated",sex,male,10,1408,44,ipa,0.25303329342438,0.122499140478433,0.354273546791532
+B,"Super learner v7, recalibrated",sex,male,10,1408,44,oe,1.0366799355624,0.769475746087592,1.30688461513692
+B,"Super learner v7, recalibrated",sex,male,10,1408,44,slope,0.994968792333069,,
+B,"Super learner v7, recalibrated",sex,male,30,1408,96,auc,0.922248158028455,0.894547014534838,0.944922874405797
+B,"Super learner v7, recalibrated",sex,male,30,1408,96,ipa,0.339078632688922,0.248875857635772,0.417041235108796
+B,"Super learner v7, recalibrated",sex,male,30,1408,96,oe,1.07674873090972,0.908106070162987,1.24437516088929
+B,"Super learner v7, recalibrated",sex,male,30,1408,96,slope,1.00215302781573,,
+B,"Super learner v7, recalibrated",sex,male,90,1408,175,auc,0.913025141930251,0.891029526331937,0.931799091191906
+B,"Super learner v7, recalibrated",sex,male,90,1408,175,ipa,0.373296245590232,0.305418169314486,0.431666335123928
+B,"Super learner v7, recalibrated",sex,male,90,1408,175,oe,1.01179361242298,0.903657371947586,1.1277941018533
+B,"Super learner v7, recalibrated",sex,male,90,1408,175,slope,1.0201077590754,,
+B,"Super learner v7, recalibrated",sex,male,180,1408,231,auc,0.910448090567037,0.891002471299237,0.928166154939029
+B,"Super learner v7, recalibrated",sex,male,180,1408,231,ipa,0.401943632989508,0.339536355643617,0.459405407044818
+B,"Super learner v7, recalibrated",sex,male,180,1408,231,oe,1.004749411319,0.914013158530857,1.09597110117309
+B,"Super learner v7, recalibrated",sex,male,180,1408,231,slope,1.02909035902089,,
+B,"Super learner v7, recalibrated",sex,male,365,1408,311,auc,0.903273177065777,0.885446700238485,0.921742432696531
+B,"Super learner v7, recalibrated",sex,male,365,1408,311,ipa,0.428607186592965,0.378336362466947,0.4780636564814
+B,"Super learner v7, recalibrated",sex,male,365,1408,311,oe,1.02493429795959,0.94835287751273,1.10279481898585
+B,"Super learner v7, recalibrated",sex,male,365,1408,311,slope,1.0267716435639,,
+B,"Super learner v7, recalibrated",race,White,10,2020,61,auc,0.923924049573637,0.892914226097469,0.951107147221465
+B,"Super learner v7, recalibrated",race,White,10,2020,61,ipa,0.246210340736601,0.14904691666216,0.330319049707178
+B,"Super learner v7, recalibrated",race,White,10,2020,61,oe,0.95430070974475,0.755964317325997,1.16537146856582
+B,"Super learner v7, recalibrated",race,White,10,2020,61,slope,0.988633785529909,,
+B,"Super learner v7, recalibrated",race,White,30,2020,136,auc,0.911421256400649,0.889253711856589,0.930694447327382
+B,"Super learner v7, recalibrated",race,White,30,2020,136,ipa,0.278937176394191,0.204406186509321,0.344658652542109
+B,"Super learner v7, recalibrated",race,White,30,2020,136,oe,0.989634657927687,0.849797607732561,1.13090885062909
+B,"Super learner v7, recalibrated",race,White,30,2020,136,slope,0.936147600839589,,
+B,"Super learner v7, recalibrated",race,White,90,2020,269,auc,0.901343682526607,0.882920485223257,0.918774128291784
+B,"Super learner v7, recalibrated",race,White,90,2020,269,ipa,0.347847923683678,0.293276661337586,0.400767070839467
+B,"Super learner v7, recalibrated",race,White,90,2020,269,oe,1.00644580464592,0.920408419379148,1.09704840932115
+B,"Super learner v7, recalibrated",race,White,90,2020,269,slope,0.961235212446666,,
+B,"Super learner v7, recalibrated",race,White,180,2020,358,auc,0.897843010709316,0.881733661111745,0.913960971272408
+B,"Super learner v7, recalibrated",race,White,180,2020,358,ipa,0.369584364718969,0.319507433250118,0.417361739763147
+B,"Super learner v7, recalibrated",race,White,180,2020,358,oe,1.01166326774454,0.937579932621149,1.09156821607945
+B,"Super learner v7, recalibrated",race,White,180,2020,358,slope,0.954743992659395,,
+B,"Super learner v7, recalibrated",race,White,365,2020,471,auc,0.892914955063126,0.877722508625159,0.908715872859712
+B,"Super learner v7, recalibrated",race,White,365,2020,471,ipa,0.398397291658241,0.356183641595376,0.442672670657726
+B,"Super learner v7, recalibrated",race,White,365,2020,471,oe,1.01475028144146,0.95182115722543,1.07841700529688
+B,"Super learner v7, recalibrated",race,White,365,2020,471,slope,0.967958472103709,,
+B,"Super learner v7, recalibrated",race,Black,10,499,<10,auc,,0.966879341113302,0.990667137252014
+B,"Super learner v7, recalibrated",race,Black,10,499,<10,ipa,,0.0722499495495477,0.51486167439337
+B,"Super learner v7, recalibrated",race,Black,10,499,<10,oe,,0.751177146093796,1.46702986259009
+B,"Super learner v7, recalibrated",race,Black,10,499,<10,slope,,,
+B,"Super learner v7, recalibrated",race,Black,30,499,20,auc,0.955323590814196,0.916137045974207,0.98347319717899
+B,"Super learner v7, recalibrated",race,Black,30,499,20,ipa,0.365332237952168,0.174302737368257,0.522440991375489
+B,"Super learner v7, recalibrated",race,Black,30,499,20,oe,0.983845536003895,0.662526643115553,1.34336101514892
+B,"Super learner v7, recalibrated",race,Black,30,499,20,slope,1.182310122634,,
+B,"Super learner v7, recalibrated",race,Black,90,499,42,auc,0.938261956861519,0.901854798504565,0.96984370144607
+B,"Super learner v7, recalibrated",race,Black,90,499,42,ipa,0.417956138299571,0.286620203502079,0.538476575865423
+B,"Super learner v7, recalibrated",race,Black,90,499,42,oe,1.00325080520195,0.781068332949363,1.22778287486923
+B,"Super learner v7, recalibrated",race,Black,90,499,42,slope,1.21806450293567,,
+B,"Super learner v7, recalibrated",race,Black,180,499,55,auc,0.930671580671581,0.899197109225457,0.95888353163389
+B,"Super learner v7, recalibrated",race,Black,180,499,55,ipa,0.445259701117305,0.330604797383968,0.545348876259555
+B,"Super learner v7, recalibrated",race,Black,180,499,55,oe,0.954022573237669,0.774358573744754,1.13034038752663
+B,"Super learner v7, recalibrated",race,Black,180,499,55,slope,1.23861199302331,,
+B,"Super learner v7, recalibrated",race,Black,365,499,77,auc,0.9138302455838,0.87863198585702,0.945096422259603
+B,"Super learner v7, recalibrated",race,Black,365,499,77,ipa,0.42942458376109,0.332281334150048,0.521233824948715
+B,"Super learner v7, recalibrated",race,Black,365,499,77,oe,0.977916348619371,0.827279448784877,1.13896996516323
+B,"Super learner v7, recalibrated",race,Black,365,499,77,slope,1.13773139695369,,
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,10,107,<10,auc,,,
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,10,107,<10,ipa,,,
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,10,107,<10,oe,,,
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,10,107,<10,slope,,,
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,30,107,<10,auc,,1,1
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,30,107,<10,ipa,,0.86960183593036,0.86960183593036
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,30,107,<10,oe,,1.16229172823712,1.16229172823712
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,30,107,<10,slope,,,
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,90,107,<10,auc,,0.968584141921908,1
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,90,107,<10,ipa,,0.483203484294352,0.79209040815128
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,90,107,<10,oe,,0.833550769138009,1.39713743933679
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,90,107,<10,slope,,,
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,180,107,<10,auc,,0.989130434782609,1
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,180,107,<10,ipa,,0.598242421388993,0.81919934908361
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,180,107,<10,oe,,0.684096772599171,1.05230221981644
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,180,107,<10,slope,,,
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,365,107,10,auc,0.993814432989691,0.9777201027146,1
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,365,107,10,ipa,0.642634490018444,0.53437657956166,0.784020252020724
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,365,107,10,oe,0.655394840711972,0.57437145160959,0.924323974175801
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,365,107,10,slope,6.06329573766398,,
+B,"Super learner v7, recalibrated",race,Asian,10,59,<10,auc,,0.914171122994652,0.987721118507732
+B,"Super learner v7, recalibrated",race,Asian,10,59,<10,ipa,,0.187984358033421,0.539412834163549
+B,"Super learner v7, recalibrated",race,Asian,10,59,<10,oe,,1.32299342543991,2.46227526142303
+B,"Super learner v7, recalibrated",race,Asian,10,59,<10,slope,,,
+B,"Super learner v7, recalibrated",race,Asian,30,59,<10,auc,,0.843513097072419,1
+B,"Super learner v7, recalibrated",race,Asian,30,59,<10,ipa,,0.379512509564137,0.760900513636911
+B,"Super learner v7, recalibrated",race,Asian,30,59,<10,oe,,0.965496826470624,1.60024588208672
+B,"Super learner v7, recalibrated",race,Asian,30,59,<10,slope,,,
+B,"Super learner v7, recalibrated",race,Asian,90,59,15,auc,0.877272727272727,0.769624125874126,0.960517146524849
+B,"Super learner v7, recalibrated",race,Asian,90,59,15,ipa,0.395208150159456,0.137393132622225,0.605838997982907
+B,"Super learner v7, recalibrated",race,Asian,90,59,15,oe,1.10899968790888,0.802023737447946,1.51419436646941
+B,"Super learner v7, recalibrated",race,Asian,90,59,15,slope,0.942451282472341,,
+B,"Super learner v7, recalibrated",race,Asian,180,59,21,auc,0.870927318295739,0.770809283309283,0.9437377208629
+B,"Super learner v7, recalibrated",race,Asian,180,59,21,ipa,0.358063857606928,0.136373978746692,0.547330079130354
+B,"Super learner v7, recalibrated",race,Asian,180,59,21,oe,1.22147338101119,0.910088230664161,1.59815714931431
+B,"Super learner v7, recalibrated",race,Asian,180,59,21,slope,0.892701213565894,,
+B,"Super learner v7, recalibrated",race,Asian,365,59,24,auc,0.888095238095238,0.797281108346682,0.958333333333333
+B,"Super learner v7, recalibrated",race,Asian,365,59,24,ipa,0.426707228216585,0.214771238297787,0.611060359559185
+B,"Super learner v7, recalibrated",race,Asian,365,59,24,oe,1.13947533281533,0.878544390421931,1.423409569147
+B,"Super learner v7, recalibrated",race,Asian,365,59,24,slope,0.967513829984279,,
+B,"Super learner v7, recalibrated",race,Other,10,108,<10,auc,,,
+B,"Super learner v7, recalibrated",race,Other,10,108,<10,ipa,,,
+B,"Super learner v7, recalibrated",race,Other,10,108,<10,oe,,,
+B,"Super learner v7, recalibrated",race,Other,10,108,<10,slope,,,
+B,"Super learner v7, recalibrated",race,Other,30,108,<10,auc,,0.870201480263158,0.95563401521112
+B,"Super learner v7, recalibrated",race,Other,30,108,<10,ipa,,0.0921966425304597,0.284767839162118
+B,"Super learner v7, recalibrated",race,Other,30,108,<10,oe,,1.44267606141225,2.24318205256019
+B,"Super learner v7, recalibrated",race,Other,30,108,<10,slope,,,
+B,"Super learner v7, recalibrated",race,Other,90,108,12,auc,0.844618055555556,0.745819850138787,0.928237453722748
+B,"Super learner v7, recalibrated",race,Other,90,108,12,ipa,0.125761212881487,-0.0888943468174583,0.33315809898532
+B,"Super learner v7, recalibrated",race,Other,90,108,12,oe,1.08954271814379,0.817537057923772,1.68714730825512
+B,"Super learner v7, recalibrated",race,Other,90,108,12,slope,0.756047591738084,,
+B,"Super learner v7, recalibrated",race,Other,180,108,19,auc,0.871082199881727,0.793381358225108,0.936433319766653
+B,"Super learner v7, recalibrated",race,Other,180,108,19,ipa,0.260699510374507,0.0555733635131623,0.434458001534872
+B,"Super learner v7, recalibrated",race,Other,180,108,19,oe,1.22426892148611,0.838947185085894,1.68902083344093
+B,"Super learner v7, recalibrated",race,Other,180,108,19,slope,0.911789557835643,,
+B,"Super learner v7, recalibrated",race,Other,365,108,23,auc,0.855242966751918,0.775883702193366,0.923454381752701
+B,"Super learner v7, recalibrated",race,Other,365,108,23,ipa,0.253688564611176,0.0202742572922349,0.436888004371004
+B,"Super learner v7, recalibrated",race,Other,365,108,23,oe,1.07904160189356,0.770362516419363,1.45233052318297
+B,"Super learner v7, recalibrated",race,Other,365,108,23,slope,0.858918183279918,,
+B,"Super learner v7, recalibrated",race,Unknown,10,116,<10,auc,,0.863511222960984,0.984120661946749
+B,"Super learner v7, recalibrated",race,Unknown,10,116,<10,ipa,,0.0363586213655042,0.289222493352525
+B,"Super learner v7, recalibrated",race,Unknown,10,116,<10,oe,,3.31070774978408,6.27134409114124
+B,"Super learner v7, recalibrated",race,Unknown,10,116,<10,slope,,,
+B,"Super learner v7, recalibrated",race,Unknown,30,116,<10,auc,,0.867121212121212,0.986062488236401
+B,"Super learner v7, recalibrated",race,Unknown,30,116,<10,ipa,,0.17001696968455,0.55079368172541
+B,"Super learner v7, recalibrated",race,Unknown,30,116,<10,oe,,1.40538461545094,2.46684950272999
+B,"Super learner v7, recalibrated",race,Unknown,30,116,<10,slope,,,
+B,"Super learner v7, recalibrated",race,Unknown,90,116,<10,auc,,0.852506773690984,0.989250541125541
+B,"Super learner v7, recalibrated",race,Unknown,90,116,<10,ipa,,0.228174025931881,0.635904040115827
+B,"Super learner v7, recalibrated",race,Unknown,90,116,<10,oe,,0.68308340666185,1.08385338990707
+B,"Super learner v7, recalibrated",race,Unknown,90,116,<10,slope,,,
+B,"Super learner v7, recalibrated",race,Unknown,180,116,<10,auc,,0.847694209039548,0.9700927734375
+B,"Super learner v7, recalibrated",race,Unknown,180,116,<10,ipa,,0.0971585859900853,0.529776493864618
+B,"Super learner v7, recalibrated",race,Unknown,180,116,<10,oe,,0.529104022382582,0.905829603947878
+B,"Super learner v7, recalibrated",race,Unknown,180,116,<10,slope,,,
+B,"Super learner v7, recalibrated",race,Unknown,365,116,15,auc,0.906270627062706,0.830839549957197,0.963653689323831
+B,"Super learner v7, recalibrated",race,Unknown,365,116,15,ipa,0.318261221720847,0.0608724235925977,0.508378208612183
+B,"Super learner v7, recalibrated",race,Unknown,365,116,15,oe,0.703311414249644,0.50189311611939,0.98994336851196
+B,"Super learner v7, recalibrated",race,Unknown,365,116,15,slope,1.33908599205318,,
+A,"Super learner v4, recalibrated",age,under 65,10,1732,55,auc,0.922502303897653,0.889726362064519,0.952188575285279
+A,"Super learner v4, recalibrated",age,under 65,10,1732,55,ipa,0.25186398193681,0.127531092927694,0.358288707842229
+A,"Super learner v4, recalibrated",age,under 65,10,1732,55,oe,0.963176091705508,0.746464848893577,1.18895895236452
+A,"Super learner v4, recalibrated",age,under 65,10,1732,55,slope,0.960487822336826,,
+A,"Super learner v4, recalibrated",age,under 65,30,1732,121,auc,0.91791454412074,0.893997864222903,0.939085172755446
+A,"Super learner v4, recalibrated",age,under 65,30,1732,121,ipa,0.320757327383589,0.235828263060359,0.397072255552528
+A,"Super learner v4, recalibrated",age,under 65,30,1732,121,oe,0.922740586394597,0.789273579086651,1.0541546450966
+A,"Super learner v4, recalibrated",age,under 65,30,1732,121,slope,1.00252762235341,,
+A,"Super learner v4, recalibrated",age,65-79,10,1159,68,auc,0.892839812368577,0.847295823898396,0.930945984393396
+A,"Super learner v4, recalibrated",age,65-79,10,1159,68,ipa,0.34569497051797,0.250626038761698,0.436509373128262
+A,"Super learner v4, recalibrated",age,65-79,10,1159,68,oe,0.944069100709688,0.771408880139561,1.11929407887798
+A,"Super learner v4, recalibrated",age,65-79,10,1159,68,slope,1.08707995979624,,
+A,"Super learner v4, recalibrated",age,65-79,30,1159,166,auc,0.887222606437836,0.860466492843123,0.910411328539697
+A,"Super learner v4, recalibrated",age,65-79,30,1159,166,ipa,0.347460393647389,0.27722371008341,0.407474776025691
+A,"Super learner v4, recalibrated",age,65-79,30,1159,166,oe,1.03329310263238,0.923342235598004,1.14883446119249
+A,"Super learner v4, recalibrated",age,65-79,30,1159,166,slope,1.02997982844815,,
+A,"Super learner v4, recalibrated",age,80 and over,10,610,55,auc,0.865421785421786,0.809297856708187,0.914518859491849
+A,"Super learner v4, recalibrated",age,80 and over,10,610,55,ipa,0.30812077936992,0.19247297171276,0.416390317202492
+A,"Super learner v4, recalibrated",age,80 and over,10,610,55,oe,1.11379802442195,0.897425143488697,1.36063111441627
+A,"Super learner v4, recalibrated",age,80 and over,10,610,55,slope,0.949912573655114,,
+A,"Super learner v4, recalibrated",age,80 and over,30,610,110,auc,0.858763636363636,0.814863884025408,0.897174475251833
+A,"Super learner v4, recalibrated",age,80 and over,30,610,110,ipa,0.34786882897428,0.253467221905945,0.43203765586042
+A,"Super learner v4, recalibrated",age,80 and over,30,610,110,oe,1.04537959470493,0.910565340462163,1.19465018732719
+A,"Super learner v4, recalibrated",age,80 and over,30,610,110,slope,0.958917565077921,,
+A,"Super learner v4, recalibrated",sex,female,10,1811,93,auc,0.902330792244045,0.865961266163434,0.934715954637423
+A,"Super learner v4, recalibrated",sex,female,10,1811,93,ipa,0.347560447116003,0.262172499537559,0.43203688613581
+A,"Super learner v4, recalibrated",sex,female,10,1811,93,oe,0.993477248057218,0.836333488863949,1.15044721318227
+A,"Super learner v4, recalibrated",sex,female,10,1811,93,slope,1.03866003647635,,
+A,"Super learner v4, recalibrated",sex,female,30,1811,208,auc,0.90311135371179,0.881001823029253,0.924139712630793
+A,"Super learner v4, recalibrated",sex,female,30,1811,208,ipa,0.387933014418403,0.329603237431806,0.444578256445948
+A,"Super learner v4, recalibrated",sex,female,30,1811,208,oe,1.00646780599697,0.90929603253404,1.10757053848945
+A,"Super learner v4, recalibrated",sex,female,30,1811,208,slope,1.09528301370538,,
+A,"Super learner v4, recalibrated",sex,male,10,1690,85,auc,0.905970313358988,0.876924074399673,0.930651073521603
+A,"Super learner v4, recalibrated",sex,male,10,1690,85,ipa,0.271791794927126,0.17750914222452,0.355891882482318
+A,"Super learner v4, recalibrated",sex,male,10,1690,85,oe,1.00116181678756,0.823568575770852,1.18320492533866
+A,"Super learner v4, recalibrated",sex,male,10,1690,85,slope,0.967064298840669,,
+A,"Super learner v4, recalibrated",sex,male,30,1690,189,auc,0.897644956272538,0.876253502914521,0.91731600081671
+A,"Super learner v4, recalibrated",sex,male,30,1690,189,ipa,0.312748177320275,0.243007027312904,0.373018517972874
+A,"Super learner v4, recalibrated",sex,male,30,1690,189,oe,0.99293846174336,0.881146108882904,1.10989079853816
+A,"Super learner v4, recalibrated",sex,male,30,1690,189,slope,0.933829260539184,,
+A,"Super learner v4, recalibrated",race,White,10,2394,109,auc,0.89415614397848,0.86477447241011,0.921663489899571
+A,"Super learner v4, recalibrated",race,White,10,2394,109,ipa,0.252168127253296,0.170705147327109,0.328560778479191
+A,"Super learner v4, recalibrated",race,White,10,2394,109,oe,0.915887098142172,0.771178726029076,1.06253595347385
+A,"Super learner v4, recalibrated",race,White,10,2394,109,slope,0.964681896916419,,
+A,"Super learner v4, recalibrated",race,White,30,2394,272,auc,0.889348977102623,0.870364337399883,0.907729079379631
+A,"Super learner v4, recalibrated",race,White,30,2394,272,ipa,0.313442365621216,0.257166679586655,0.36556093552143
+A,"Super learner v4, recalibrated",race,White,30,2394,272,oe,1.00030743670024,0.914678871212521,1.0954999510122
+A,"Super learner v4, recalibrated",race,White,30,2394,272,slope,0.97030073992826,,
+A,"Super learner v4, recalibrated",race,Black,10,599,20,auc,0.897754749568221,0.812630850256769,0.968639945355191
+A,"Super learner v4, recalibrated",race,Black,10,599,20,ipa,0.300473412541229,0.101568399625409,0.471360480476636
+A,"Super learner v4, recalibrated",race,Black,10,599,20,oe,0.894941734493524,0.578154255986026,1.21745594195528
+A,"Super learner v4, recalibrated",race,Black,10,599,20,slope,0.981769064401677,,
+A,"Super learner v4, recalibrated",race,Black,30,599,45,auc,0.920136381869234,0.879890395464316,0.955585376754141
+A,"Super learner v4, recalibrated",race,Black,30,599,45,ipa,0.384748293127309,0.253804242441907,0.496143102956896
+A,"Super learner v4, recalibrated",race,Black,30,599,45,oe,0.877027468997488,0.690006551714812,1.08293523213072
+A,"Super learner v4, recalibrated",race,Black,30,599,45,slope,1.10547484779214,,
+A,"Super learner v4, recalibrated",race,Hispanic or Latino,10,143,<10,auc,,0.913602874398329,0.981339331183161
+A,"Super learner v4, recalibrated",race,Hispanic or Latino,10,143,<10,ipa,,0.181524465655713,0.628840525256001
+A,"Super learner v4, recalibrated",race,Hispanic or Latino,10,143,<10,oe,,0.872603327738221,1.82751421383301
+A,"Super learner v4, recalibrated",race,Hispanic or Latino,10,143,<10,slope,,,
+A,"Super learner v4, recalibrated",race,Hispanic or Latino,30,143,12,auc,0.96501272264631,0.928054424417269,0.988949489620651
+A,"Super learner v4, recalibrated",race,Hispanic or Latino,30,143,12,ipa,0.436269825672571,0.1752671475325,0.666081667267474
+A,"Super learner v4, recalibrated",race,Hispanic or Latino,30,143,12,oe,0.792457678656573,0.6005706216406,1.13568918608432
+A,"Super learner v4, recalibrated",race,Hispanic or Latino,30,143,12,slope,1.12707408229484,,
+A,"Super learner v4, recalibrated",race,Asian,10,80,11,auc,0.828722002635046,0.723900902484763,0.924188715513342
+A,"Super learner v4, recalibrated",race,Asian,10,80,11,ipa,0.147882984975499,-0.0157350374646426,0.308000762392083
+A,"Super learner v4, recalibrated",race,Asian,10,80,11,oe,2.19535824376686,1.67607272343199,3.44663336331923
+A,"Super learner v4, recalibrated",race,Asian,10,80,11,slope,0.960037426796492,,
+A,"Super learner v4, recalibrated",race,Asian,30,80,18,auc,0.814516129032258,0.699858958726321,0.916996442687747
+A,"Super learner v4, recalibrated",race,Asian,30,80,18,ipa,0.245890267167887,0.044820434035678,0.4559976101967
+A,"Super learner v4, recalibrated",race,Asian,30,80,18,oe,1.46368350804552,0.998833295985966,2.06703450211923
+A,"Super learner v4, recalibrated",race,Asian,30,80,18,slope,0.841677050863532,,
+A,"Super learner v4, recalibrated",race,Other,10,129,<10,auc,,0.927350917431193,0.991812576736241
+A,"Super learner v4, recalibrated",race,Other,10,129,<10,ipa,,0.302038058830205,0.620402764143624
+A,"Super learner v4, recalibrated",race,Other,10,129,<10,oe,,0.993401189406338,1.7519203467071
+A,"Super learner v4, recalibrated",race,Other,10,129,<10,slope,,,
+A,"Super learner v4, recalibrated",race,Other,30,129,11,auc,0.87211093990755,0.73351024432474,0.967934531315679
+A,"Super learner v4, recalibrated",race,Other,30,129,11,ipa,0.24492964533004,-0.00407621953532296,0.498080471857037
+A,"Super learner v4, recalibrated",race,Other,30,129,11,oe,0.775729053010147,0.600325001574169,1.2813412187338
+A,"Super learner v4, recalibrated",race,Other,30,129,11,slope,0.985531412612578,,
+A,"Super learner v4, recalibrated",race,Unknown,10,156,27,auc,0.92764857881137,0.864894396738659,0.976678613671588
+A,"Super learner v4, recalibrated",race,Unknown,10,156,27,ipa,0.520447290877999,0.338802591847743,0.683476890992946
+A,"Super learner v4, recalibrated",race,Unknown,10,156,27,oe,1.43024469489341,1.10792707509308,1.83179775647338
+A,"Super learner v4, recalibrated",race,Unknown,10,156,27,slope,1.06607777536782,,
+A,"Super learner v4, recalibrated",race,Unknown,30,156,39,auc,0.94543063773833,0.902293842296762,0.97799305080884
+A,"Super learner v4, recalibrated",race,Unknown,30,156,39,ipa,0.569056335263856,0.421175055145848,0.699119334893279
+A,"Super learner v4, recalibrated",race,Unknown,30,156,39,oe,1.21266146548253,1.00590324650815,1.44040571906544
+A,"Super learner v4, recalibrated",race,Unknown,30,156,39,slope,1.28432992940105,,

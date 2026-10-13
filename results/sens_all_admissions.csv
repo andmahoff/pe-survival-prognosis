@@ -1,0 +1,9 @@
+version,admissions,patients,deaths,quantity,estimate,lo,hi
+"first admissions (registered frame), ridge-Cox retuned (stage 6d)",2909,2909,620,ecg_early,1.50116269081195,1.28846846402531,1.76733959420543
+"first admissions (registered frame), ridge-Cox retuned (stage 6d)",2909,2909,620,ecg_late,1.21432182161973,1.08227905516338,1.35639099700384
+"first admissions (registered frame), ridge-Cox retuned (stage 6d)",2909,2909,620,ecg_ratio,1.23621486832017,1.03564489778781,1.48303049084927
+"first admissions (registered frame), ridge-Cox retuned (stage 6d)",2909,2909,620,ehr_ratio,1.08412973751706,0.906505933975016,1.29788377866397
+"all admissions, ridge-Cox retuned refitted",3226,2914,715,ecg_early,1.50356344641764,1.29949137974057,1.76531622431219
+"all admissions, ridge-Cox retuned refitted",3226,2914,715,ecg_late,1.23760479118454,1.10834128607575,1.38448090572243
+"all admissions, ridge-Cox retuned refitted",3226,2914,715,ecg_ratio,1.21489788753851,1.01351860358375,1.46404678103369
+"all admissions, ridge-Cox retuned refitted",3226,2914,715,ehr_ratio,1.10462941661261,0.91967119838969,1.3290604027141

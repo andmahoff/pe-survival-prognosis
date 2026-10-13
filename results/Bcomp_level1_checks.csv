@@ -1,0 +1,21 @@
+item,value,status
+input files found,all,PASS
+"first-event columns present (time_first, event_cr, event_comp)",yes,PASS
+EHR+ECG EHR: features (admissions missing),139 (0),PASS
+EHR+ECG ECG: features (admissions missing),264 (0),PASS
+EHR+ECG: comp events by 10 / 365 days,175 / 899,INFO
+3-mod EHR: features (admissions missing),139 (0),PASS
+3-mod ECG: features (admissions missing),264 (0),PASS
+3-mod CTPA: features (admissions missing),46 (0),PASS
+3-mod: comp events by 10 / 365 days,66 / 414,INFO
+EHR+ECG: missing scores,0,PASS
+EHR+ECG: scores failing the per-fold rule (D2),0,PASS
+3-mod: missing scores,0,PASS
+3-mod: scores failing the per-fold rule (D2),0,PASS
+forest fits that failed (best remaining one used),0,PASS
+EHR spline Cox fits: k = 5 / smaller basis / replaced by ridge-Cox,60 / 0 / 0,PASS
+ridge-Cox: folds whose path was extended,0,INFO
+share of folds still at an edge after extension: rsf node,0%,PASS
+share of folds still at an edge after extension: rsf mtry,0%,PASS
+share of folds still at an edge after extension: orsf leaf,0%,PASS
+share of folds still at an edge after extension: orsf mtry,2%,PASS

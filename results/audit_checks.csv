@@ -1,0 +1,88 @@
+section,cohort,item,value,status
+A,EHR+ECG,admissions,3501,INFO
+A,EHR+ECG,patients,3160,INFO
+A,3-mod,admissions,1636,INFO
+A,3-mod,patients,1540,INFO
+A,EHR+ECG,admissions with no label row,0,PASS
+A,EHR+ECG,missing admittime / dischtime,0 / 0,PASS
+A,EHR+ECG,median length of stay (days),5.0,INFO
+A,EHR+ECG,negative length of stay,0,INFO
+A,EHR+ECG,dod_days < 0,0,INFO
+A,EHR+ECG,inhosp_days < 0,0,INFO
+A,EHR+ECG,cv_days < 0,0,INFO
+A,EHR+ECG,in-hospital death with no dod,0,INFO
+A,EHR+ECG,dod and in-hospital death >1 d apart,0,INFO
+A,EHR+ECG,in-hospital death >1 d from discharge,0,INFO
+A,EHR+ECG,"dod BEFORE discharge, not in-hospital",0,INFO
+A,EHR+ECG,"dod ON discharge date, not in-hosp",<10,INFO
+A,EHR+ECG,CV readmission on admission day,0,INFO
+A,EHR+ECG,CV readmission dated inside stay,0,INFO
+A,EHR+ECG,CV readmission after death,0,INFO
+A,EHR+ECG,CV readmission and death same day,0,INFO
+A,EHR+ECG,deaths on day 0 or 1,39,INFO
+A,EHR+ECG,any dod recorded,1397,INFO
+A,EHR+ECG,latest dod (days after admission),5176.0,INFO
+A,EHR+ECG,deaths >365 d after admission,426,INFO
+A,EHR+ECG,deaths >365 d after index discharge,418,INFO
+A,EHR+ECG,last in-window ECG after admission,1911,INFO
+A,EHR+ECG,last in-window ECG >24 h in,685,INFO
+A,EHR+ECG,last in-window ECG after discharge,16,INFO
+B,EHR+ECG,death_30d: rows that disagree,0,PASS
+B,EHR+ECG,death_first: rows that disagree,0,PASS
+B,EHR+ECG,cv_first: rows that disagree,0,PASS
+B,EHR+ECG,composite_30d: rows that disagree,0,PASS
+C,EHR+ECG,first admissions,3160,INFO
+C,EHR+ECG,Frame B excl: died in hospital,241,INFO
+C,EHR+ECG,Frame B excl: no discharge time,0,INFO
+C,EHR+ECG,Frame B excl: dod before discharge,0,INFO
+C,EHR+ECG,Frame B cohort (alive at discharge),2919,INFO
+C,EHR+ECG,"conditional cv_first cohort, day 30",3126,INFO
+C,3-mod,first admissions,1540,INFO
+C,3-mod,Frame B excl: died in hospital,81,INFO
+C,3-mod,Frame B excl: no discharge time,0,INFO
+C,3-mod,Frame B excl: dod before discharge,0,INFO
+C,3-mod,Frame B cohort (alive at discharge),1459,INFO
+C,3-mod,"conditional cv_first cohort, day 30",1493,INFO
+C,EHR+ECG,patients with 2+ index admissions,295,INFO
+C,EHR+ECG,"most index admissions, one patient",<10,INFO
+C,EHR+ECG,next PE admission <=30 d after disch,173,INFO
+C,EHR+ECG,next PE admission <=365 d after disch,273,INFO
+D,INSPECT,copied labels_20250611.tsv,identical,PASS
+D,INSPECT,copied study_mapping_20250611.tsv,identical,PASS
+D,INSPECT,copied inspect_labels_final.csv,identical,PASS
+D,INSPECT,copied inspect_imp_features_v2.csv,identical,PASS
+D,INSPECT,label rows / columns,23248 / 28,INFO
+D,INSPECT,tte mortality column,tte_mortality,INFO
+D,INSPECT,censoring mortality column,is_censored_mortality,INFO
+D,INSPECT,persons with an index scan (of 3300),3300,PASS
+D,INSPECT,matched to side-project index file,3300,INFO
+D,INSPECT,1-month label disagreements vs side,0,PASS
+D,INSPECT,tte missing or negative,0,INFO
+D,INSPECT,persons analysed,3300,INFO
+D,INSPECT,deaths observed,729,INFO
+D,INSPECT,censored,2571,INFO
+D,INSPECT,median days to death (deaths),79.9,INFO
+D,INSPECT,median days to censoring (censored),1115.7,INFO
+D,INSPECT,"median follow-up, reverse KM (days)",1190.7,INFO
+D,INSPECT,native 1_month_mortality,"{'false': 2886, 'true': 250, 'censored': 164}",INFO
+D,INSPECT,  agreement with tte cut at 30 d,1.0,INFO
+D,INSPECT,  agreement with tte cut at 31 d,0.9964,INFO
+D,INSPECT,native 6_month_mortality,"{'false': 2498, 'true': 450, 'censored': 352}",INFO
+D,INSPECT,  agreement with tte cut at 180 d,1.0,INFO
+D,INSPECT,  agreement with tte cut at 182 d,0.9988,INFO
+D,INSPECT,  agreement with tte cut at 183 d,0.9982,INFO
+D,INSPECT,native 12_month_mortality,"{'false': 2286, 'true': 539, 'censored': 475}",INFO
+D,INSPECT,  agreement with tte cut at 365 d,1.0,INFO
+D,INSPECT,  agreement with tte cut at 366 d,1.0,INFO
+D,INSPECT,censored on or before day 10,88 (2.7%),INFO
+D,INSPECT,censored on or before day 30,164 (5.0%),INFO
+D,INSPECT,censored on or before day 90,254 (7.7%),INFO
+D,INSPECT,censored on or before day 180,352 (10.7%),INFO
+D,INSPECT,censored on or before day 365,475 (14.4%),INFO
+D,INSPECT,censored within a year,475,INFO
+D,INSPECT,mean age: censored <1y vs rest,59.966 vs 60.159,INFO
+D,INSPECT,mean cancer: censored <1y vs rest,0.448 vs 0.547,INFO
+D,INSPECT,mean heart_failure: censored <1y vs rest,0.299 vs 0.379,INFO
+D,INSPECT,deaths <=30 d: both/DISS only/native only,suppressed,INFO
+D,INSPECT,deaths <=365 d: both/DISS only/native only,suppressed,INFO
+E,compare,"1-year / 30-day mortality, MIMIC vs INSPECT",2.40 vs 2.24,INFO

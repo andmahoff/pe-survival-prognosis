@@ -1,0 +1,16 @@
+type,family,setting,N,share
+chosen setting,RSF,"node 40, mtry 36",43,0.717
+chosen setting,RSF,"node 15, mtry 12",11,0.183
+chosen setting,RSF,"node 5, mtry 12",5,0.083
+chosen setting,RSF,"node 2, mtry 12",1,0.017
+chosen setting,oblique RSF,"leaf 20, mtry 48",21,0.35
+chosen setting,oblique RSF,"leaf 20, mtry 84",14,0.233
+chosen setting,oblique RSF,"leaf 5, mtry 84",8,0.133
+chosen setting,oblique RSF,"leaf 5, mtry 48",7,0.117
+chosen setting,oblique RSF,"leaf 20, mtry 139",5,0.083
+chosen setting,oblique RSF,"leaf 5, mtry 139",4,0.067
+chosen setting,oblique RSF,"leaf 2, mtry 48",1,0.017
+extensions,RSF,mtry up,43,0
+extensions,oblique RSF,mtry up,91,0.44
+extensions,oblique RSF,leaf down,21,0.048
+extensions,RSF,node down,7,0.143

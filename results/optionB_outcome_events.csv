@@ -1,0 +1,21 @@
+frame,cohort,horizon,patients,death,composite,cv_first,death_first
+P (at diagnosis),EHR+ECG,10,3501,178,216,39,177
+P (at diagnosis),EHR+ECG,30,3501,397,547,172,375
+P (at diagnosis),EHR+ECG,90,3501,646,898,325,573
+P (at diagnosis),EHR+ECG,180,3501,801,1100,418,682
+P (at diagnosis),EHR+ECG,365,3501,971,1291,501,790
+P (at diagnosis),3-mod,10,1636,68,88,21,67
+P (at diagnosis),3-mod,30,1636,152,219,76,143
+P (at diagnosis),3-mod,90,1636,281,377,134,243
+P (at diagnosis),3-mod,180,1636,344,469,177,292
+P (at diagnosis),3-mod,365,1636,420,556,212,344
+B (at discharge),EHR+ECG,10,2909,81,175,101,74
+B (at discharge),EHR+ECG,30,2909,177,352,198,154
+B (at discharge),EHR+ECG,90,2909,351,572,289,283
+B (at discharge),EHR+ECG,180,2909,469,728,360,368
+B (at discharge),EHR+ECG,365,2909,620,899,431,468
+B (at discharge),3-mod,10,1405,28,66,42,24
+B (at discharge),3-mod,30,1405,79,152,83,69
+B (at discharge),3-mod,90,1405,173,262,123,139
+B (at discharge),3-mod,180,1405,226,342,161,181
+B (at discharge),3-mod,365,1405,292,414,188,226

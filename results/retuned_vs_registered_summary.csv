@@ -1,0 +1,17 @@
+file,rows,numeric_columns,cells_changed,max_abs_diff,text_cells_changed,compared
+cal_checks.csv,16,0,0,,4,TRUE
+cal_contrasts.csv,60,3,180,0.0348328951079686,19,TRUE
+cal_curves.csv,920,4,883,0.200103961356272,0,TRUE
+cal_metrics.csv,92,23,700,1.39653036992194,0,TRUE
+eval_s1.csv,210,4,396,0.0289492975315991,35,TRUE
+eval_s3.csv,125,4,240,0.024395805666528,7,TRUE
+eval_s3_weights.csv,34,3,23,0.1,1,TRUE
+fusion_s1.csv,54,8,135,0.0283333333333335,0,TRUE
+fusion_s3.csv,20,15,119,0.0233333333333334,0,TRUE
+fusion_weights.csv,46,12,161,0.1,0,TRUE
+primary.csv,18,3,36,7.03450551308832,3,TRUE
+primary_hospice.csv,11,3,18,0.9688095086368,0,TRUE
+s2_checks.csv,24,0,0,,2,TRUE
+s2_contrasts.csv,168,3,378,0.0417167676438474,13,TRUE
+s2_metrics.csv,56,20,448,0.17041604976374,0,TRUE
+s5_primary.csv,19,3,45,1.79604616693888,0,TRUE

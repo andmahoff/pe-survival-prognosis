@@ -1,0 +1,36 @@
+item,value,status
+previous prediction files in fusion_arch (archive them to v1),0,PASS
+A EHR+ECG: EHR features / rows without a record,28 / 0,PASS
+A EHR+ECG: ECG features / rows without a record,264 / 0,PASS
+A 3-mod: EHR features / rows without a record,28 / 0,PASS
+A 3-mod: ECG features / rows without a record,264 / 0,PASS
+A 3-mod: CTPA features / rows without a record,46 / 0,PASS
+B EHR+ECG: EHR features / rows without a record,28 / 0,PASS
+B EHR+ECG: ECG features / rows without a record,264 / 0,PASS
+B 3-mod: EHR features / rows without a record,28 / 0,PASS
+B 3-mod: ECG features / rows without a record,264 / 0,PASS
+B 3-mod: CTPA features / rows without a record,46 / 0,PASS
+A EHR+ECG: missing predictions,0,PASS
+A EHR+ECG: risks of exactly 0 or 1 (range),0 (2.91e-04 to 1.000000),PASS
+"A EHR+ECG: EHR alone AUROC at 30 d, this stage vs stage 6a",0.8695 vs 0.8550,PASS
+A 3-mod: missing predictions,0,PASS
+A 3-mod: risks of exactly 0 or 1 (range),0 (2.06e-18 to 0.999888),PASS
+"A 3-mod: EHR alone AUROC at 30 d, this stage vs stage 6a",0.8738 vs 0.8650,PASS
+B EHR+ECG: missing predictions,0,PASS
+B EHR+ECG: risks of exactly 0 or 1 (range),0 (1.82e-04 to 0.998071),PASS
+"B EHR+ECG: EHR alone AUROC at 30 d, this stage vs stage 6a",0.8552 vs 0.8485,PASS
+"B EHR+ECG: EHR alone AUROC at 365 d, this stage vs stage 6a",0.8655 vs 0.8636,PASS
+B 3-mod: missing predictions,0,PASS
+B 3-mod: risks of exactly 0 or 1 (range),1 (1.46e-04 to 1.000000),WARN
+"B 3-mod: EHR alone AUROC at 30 d, this stage vs stage 6a",0.8705 vs 0.8632,PASS
+"B 3-mod: EHR alone AUROC at 365 d, this stage vs stage 6a",0.8753 vs 0.8738,PASS
+EHR alone PH: choices at the least-penalised end,2.5%,PASS
+EHR alone TV: choices at the least-penalised end,0.7%,PASS
+Early PH plain concatenation: choices at the least-penalised end,5.0%,PASS
+Early TV plain concatenation: choices at the least-penalised end,0.0%,PASS
+Early PH block penalties: choices at the least-penalised end,10.8%,PASS
+Early PH EHR unpenalised: choices at the least-penalised end,0.0%,PASS
+"Late, modality model (inner): choices at the least-penalised end",0.1%,PASS
+"Late, modality model: choices at the least-penalised end",0.0%,PASS
+warnings from model fitting (see early_warnings.csv),77,INFO
+glmnet tie-handling notices (harmless; Breslow ties throughout),13440,INFO

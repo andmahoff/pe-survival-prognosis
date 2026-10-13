@@ -1,0 +1,17 @@
+learner,group,design,target,fits,share_node5,share_node160,share_mtry_half,share_mtry_3,ridge_least,ridge_most
+ridge-Cox,EHR,transfer,M,6,,,,,0,0
+ridge-Cox,CTPA,transfer,M,6,,,,,0,0
+RSF,EHR,transfer,M,6,0,0,0.333333333333333,0,,
+RSF,CTPA,transfer,M,6,0,0.166666666666667,1,0,,
+ridge-Cox,EHR,internal,I,30,,,,,0,0
+ridge-Cox,CTPA,internal,I,30,,,,,0,0
+RSF,EHR,internal,I,30,0,0,0.233333333333333,0,,
+RSF,CTPA,internal,I,30,0,0.0666666666666667,0.9,0,,
+ridge-Cox,EHR,transfer,I,6,,,,,0,0
+ridge-Cox,CTPA,transfer,I,6,,,,,0,0
+RSF,EHR,transfer,I,6,1,0,0,0,,
+RSF,CTPA,transfer,I,6,0,0,0,0.166666666666667,,
+ridge-Cox,EHR,internal,M,30,,,,,0,0
+ridge-Cox,CTPA,internal,M,30,,,,,0,0
+RSF,EHR,internal,M,30,0.933333333333333,0,0.166666666666667,0.0666666666666667,,
+RSF,CTPA,internal,M,30,0.0333333333333333,0,0.466666666666667,0.2,,

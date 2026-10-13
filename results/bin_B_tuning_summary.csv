@@ -1,0 +1,130 @@
+type,target,modality,setting,N,share
+chosen setting,comp,ecg,"node 20, mtry 33",29,0.193
+chosen setting,comp,ecg,"node 60, mtry 33",26,0.173
+chosen setting,comp,ecg,"node 20, mtry 17",23,0.153
+chosen setting,comp,ecg,"node 60, mtry 17",16,0.107
+chosen setting,comp,ecg,"node 60, mtry 9",14,0.093
+chosen setting,comp,ecg,"node 5, mtry 17",10,0.067
+chosen setting,comp,ecg,"node 20, mtry 9",9,0.06
+chosen setting,comp,ecg,"node 60, mtry 58",7,0.047
+chosen setting,comp,ecg,"node 5, mtry 9",6,0.04
+chosen setting,comp,ecg,"node 20, mtry 58",5,0.033
+chosen setting,comp,ecg,"node 120, mtry 33",3,0.02
+chosen setting,comp,ecg,"node 5, mtry 33",2,0.013
+chosen setting,comp,ehr,"node 5, mtry 24",44,0.293
+chosen setting,comp,ehr,"node 20, mtry 24",33,0.22
+chosen setting,comp,ehr,"node 20, mtry 42",21,0.14
+chosen setting,comp,ehr,"node 5, mtry 42",15,0.1
+chosen setting,comp,ehr,"node 2, mtry 24",15,0.1
+chosen setting,comp,ehr,"node 5, mtry 12",4,0.027
+chosen setting,comp,ehr,"node 60, mtry 42",3,0.02
+chosen setting,comp,ehr,"node 1, mtry 24",3,0.02
+chosen setting,comp,ehr,"node 20, mtry 74",3,0.02
+chosen setting,comp,ehr,"node 5, mtry 74",3,0.02
+chosen setting,comp,ehr,"node 60, mtry 24",2,0.013
+chosen setting,comp,ehr,"node 2, mtry 12",1,0.007
+chosen setting,comp,ehr,"node 60, mtry 74",1,0.007
+chosen setting,comp,ehr,"node 1, mtry 42",1,0.007
+chosen setting,comp,ehr,"node 2, mtry 42",1,0.007
+chosen setting,cv,ecg,"node 60, mtry 33",60,0.4
+chosen setting,cv,ecg,"node 60, mtry 9",20,0.133
+chosen setting,cv,ecg,"node 60, mtry 58",20,0.133
+chosen setting,cv,ecg,"node 60, mtry 17",19,0.127
+chosen setting,cv,ecg,"node 120, mtry 9",6,0.04
+chosen setting,cv,ecg,"node 20, mtry 9",5,0.033
+chosen setting,cv,ecg,"node 20, mtry 17",5,0.033
+chosen setting,cv,ecg,"node 20, mtry 33",5,0.033
+chosen setting,cv,ecg,"node 120, mtry 33",4,0.027
+chosen setting,cv,ecg,"node 120, mtry 17",3,0.02
+chosen setting,cv,ecg,"node 20, mtry 4",2,0.013
+chosen setting,cv,ecg,"node 60, mtry 102",1,0.007
+chosen setting,cv,ehr,"node 60, mtry 42",43,0.287
+chosen setting,cv,ehr,"node 20, mtry 24",40,0.267
+chosen setting,cv,ehr,"node 60, mtry 24",30,0.2
+chosen setting,cv,ehr,"node 20, mtry 42",10,0.067
+chosen setting,cv,ehr,"node 120, mtry 24",7,0.047
+chosen setting,cv,ehr,"node 120, mtry 42",6,0.04
+chosen setting,cv,ehr,"node 120, mtry 12",5,0.033
+chosen setting,cv,ehr,"node 60, mtry 74",5,0.033
+chosen setting,cv,ehr,"node 60, mtry 12",3,0.02
+chosen setting,cv,ehr,"node 5, mtry 24",1,0.007
+chosen setting,cv_excl,ecg,"node 60, mtry 33",38,0.253
+chosen setting,cv_excl,ecg,"node 20, mtry 33",27,0.18
+chosen setting,cv_excl,ecg,"node 60, mtry 58",20,0.133
+chosen setting,cv_excl,ecg,"node 60, mtry 9",15,0.1
+chosen setting,cv_excl,ecg,"node 60, mtry 17",14,0.093
+chosen setting,cv_excl,ecg,"node 20, mtry 9",8,0.053
+chosen setting,cv_excl,ecg,"node 20, mtry 17",7,0.047
+chosen setting,cv_excl,ecg,"node 20, mtry 58",6,0.04
+chosen setting,cv_excl,ecg,"node 60, mtry 102",4,0.027
+chosen setting,cv_excl,ecg,"node 120, mtry 17",3,0.02
+chosen setting,cv_excl,ecg,"node 120, mtry 9",2,0.013
+chosen setting,cv_excl,ecg,"node 5, mtry 33",2,0.013
+chosen setting,cv_excl,ecg,"node 60, mtry 4",1,0.007
+chosen setting,cv_excl,ecg,"node 60, mtry 179",1,0.007
+chosen setting,cv_excl,ecg,"node 5, mtry 9",1,0.007
+chosen setting,cv_excl,ecg,"node 5, mtry 17",1,0.007
+chosen setting,cv_excl,ehr,"node 20, mtry 24",42,0.28
+chosen setting,cv_excl,ehr,"node 20, mtry 42",37,0.247
+chosen setting,cv_excl,ehr,"node 60, mtry 24",24,0.16
+chosen setting,cv_excl,ehr,"node 60, mtry 42",20,0.133
+chosen setting,cv_excl,ehr,"node 60, mtry 74",7,0.047
+chosen setting,cv_excl,ehr,"node 120, mtry 24",6,0.04
+chosen setting,cv_excl,ehr,"node 5, mtry 24",6,0.04
+chosen setting,cv_excl,ehr,"node 120, mtry 42",2,0.013
+chosen setting,cv_excl,ehr,"node 20, mtry 74",2,0.013
+chosen setting,cv_excl,ehr,"node 120, mtry 74",1,0.007
+chosen setting,cv_excl,ehr,"node 60, mtry 12",1,0.007
+chosen setting,cv_excl,ehr,"node 20, mtry 12",1,0.007
+chosen setting,cv_excl,ehr,"node 2, mtry 24",1,0.007
+chosen setting,death,ecg,"node 20, mtry 9",39,0.26
+chosen setting,death,ecg,"node 60, mtry 17",28,0.187
+chosen setting,death,ecg,"node 20, mtry 17",26,0.173
+chosen setting,death,ecg,"node 60, mtry 33",19,0.127
+chosen setting,death,ecg,"node 60, mtry 9",18,0.12
+chosen setting,death,ecg,"node 20, mtry 33",12,0.08
+chosen setting,death,ecg,"node 120, mtry 17",2,0.013
+chosen setting,death,ecg,"node 60, mtry 58",1,0.007
+chosen setting,death,ecg,"node 5, mtry 4",1,0.007
+chosen setting,death,ecg,"node 20, mtry 4",1,0.007
+chosen setting,death,ecg,"node 5, mtry 33",1,0.007
+chosen setting,death,ecg,"node 5, mtry 17",1,0.007
+chosen setting,death,ecg,"node 5, mtry 9",1,0.007
+chosen setting,death,ehr,"node 5, mtry 24",36,0.24
+chosen setting,death,ehr,"node 5, mtry 42",35,0.233
+chosen setting,death,ehr,"node 2, mtry 24",15,0.1
+chosen setting,death,ehr,"node 2, mtry 42",12,0.08
+chosen setting,death,ehr,"node 5, mtry 12",11,0.073
+chosen setting,death,ehr,"node 5, mtry 74",10,0.067
+chosen setting,death,ehr,"node 20, mtry 42",8,0.053
+chosen setting,death,ehr,"node 20, mtry 24",8,0.053
+chosen setting,death,ehr,"node 1, mtry 42",5,0.033
+chosen setting,death,ehr,"node 1, mtry 24",5,0.033
+chosen setting,death,ehr,"node 20, mtry 74",4,0.027
+chosen setting,death,ehr,"node 20, mtry 130",1,0.007
+extensions,death,ehr,node down,166,0.283
+extensions,death,ehr,mtry up,229,0.397
+extensions,death,ecg,mtry down,62,0.032
+extensions,death,ecg,node up,70,0.029
+extensions,death,ecg,mtry up,34,0.029
+extensions,death,ecg,node down,4,0
+extensions,comp,ehr,node down,108,0.231
+extensions,comp,ehr,mtry up,200,0.275
+extensions,comp,ecg,node up,69,0.043
+extensions,comp,ecg,mtry down,29,0
+extensions,comp,ecg,mtry up,84,0.143
+extensions,comp,ecg,node down,18,0
+extensions,comp,ehr,node up,6,0
+extensions,cv,ehr,node up,117,0.154
+extensions,cv,ehr,mtry up,211,0.327
+extensions,cv,ecg,node up,146,0.089
+extensions,cv,ecg,mtry down,35,0.057
+extensions,cv,ecg,mtry up,112,0.196
+extensions,cv,ehr,node down,1,0
+extensions,cv_excl,ehr,node up,70,0.129
+extensions,cv_excl,ehr,mtry up,227,0.348
+extensions,cv_excl,ecg,node up,103,0.049
+extensions,cv_excl,ecg,mtry down,28,0.036
+extensions,cv_excl,ecg,mtry up,134,0.276
+extensions,cv_excl,ehr,node down,8,0.125
+extensions,cv_excl,ecg,node down,4,0

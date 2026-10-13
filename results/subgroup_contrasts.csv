@@ -1,0 +1,309 @@
+frame,model,variable,group,horizon,contrast,measure,estimate,lo,hi,excludes_zero
+B,"Super learner v7, recalibrated",age,under 65,10,final model - Late PH,auc,0.0286066308243728,0.013709501598795,0.0463723891016961,TRUE
+B,"Super learner v7, recalibrated",age,under 65,10,final model - EHR alone,auc,0.0350582437275986,0.0164417142299497,0.0556757194124977,TRUE
+B,"Super learner v7, recalibrated",age,under 65,10,group - rest of cohort,auc,0.0536623051656285,0.00884614432942952,0.102873814482529,TRUE
+B,"Super learner v7, recalibrated",age,under 65,10,group - rest of cohort,oe,0.313730472924401,-0.0673119277536565,0.729042164127186,FALSE
+B,"Super learner v7, recalibrated",age,under 65,30,final model - Late PH,auc,0.0339946799424068,0.0193503981293852,0.0488094442647396,TRUE
+B,"Super learner v7, recalibrated",age,under 65,30,final model - EHR alone,auc,0.0379725211704127,0.0205106760128841,0.0590638285633151,TRUE
+B,"Super learner v7, recalibrated",age,under 65,30,group - rest of cohort,auc,0.0615718958905701,0.0230705752244534,0.0975321490130202,TRUE
+B,"Super learner v7, recalibrated",age,under 65,30,group - rest of cohort,oe,0.000906093051969203,-0.251442854921393,0.235384841243413,FALSE
+B,"Super learner v7, recalibrated",age,under 65,90,final model - Late PH,auc,0.0176951130561633,0.00563918003379152,0.0290504766879979,TRUE
+B,"Super learner v7, recalibrated",age,under 65,90,final model - EHR alone,auc,0.0244128373450037,0.00986990414036699,0.0392073721478016,TRUE
+B,"Super learner v7, recalibrated",age,under 65,90,group - rest of cohort,auc,0.0659217422952121,0.0319238474568676,0.0979214406033471,TRUE
+B,"Super learner v7, recalibrated",age,under 65,90,group - rest of cohort,oe,-0.239261302983758,-0.401643210600371,-0.0790253562556988,TRUE
+B,"Super learner v7, recalibrated",age,under 65,180,final model - Late PH,auc,0.0221711036443526,0.0107647079029472,0.0338293078667589,TRUE
+B,"Super learner v7, recalibrated",age,under 65,180,final model - EHR alone,auc,0.0231584388730939,0.0109266245233687,0.0359611886011216,TRUE
+B,"Super learner v7, recalibrated",age,under 65,180,group - rest of cohort,auc,0.060223914794722,0.030487941648524,0.0875000395662445,TRUE
+B,"Super learner v7, recalibrated",age,under 65,180,group - rest of cohort,oe,-0.146968363465518,-0.281897058501606,-0.0141483387619371,TRUE
+B,"Super learner v7, recalibrated",age,under 65,365,final model - Late PH,auc,0.0221911880409127,0.0115776563853423,0.032344549715294,TRUE
+B,"Super learner v7, recalibrated",age,under 65,365,final model - EHR alone,auc,0.0254523996852871,0.0134991101148727,0.0372329377512572,TRUE
+B,"Super learner v7, recalibrated",age,under 65,365,group - rest of cohort,auc,0.0630827577105046,0.0349044159198401,0.0908059210357229,TRUE
+B,"Super learner v7, recalibrated",age,under 65,365,group - rest of cohort,oe,-0.106884656184129,-0.213633531122247,-0.00519478767972964,TRUE
+B,"Super learner v7, recalibrated",age,65-79,10,final model - Late PH,auc,0.12012972972973,0.0690226948979581,0.17456207876305,TRUE
+B,"Super learner v7, recalibrated",age,65-79,10,final model - EHR alone,auc,0.10707027027027,0.0495590122224659,0.166345719838672,TRUE
+B,"Super learner v7, recalibrated",age,65-79,10,group - rest of cohort,auc,0.00522452011353747,-0.044856419758072,0.0487744205137407,FALSE
+B,"Super learner v7, recalibrated",age,65-79,10,group - rest of cohort,oe,-0.472920921327767,-0.821667440813508,-0.118931332122385,TRUE
+B,"Super learner v7, recalibrated",age,65-79,30,final model - Late PH,auc,0.0800609523809523,0.0541623764874625,0.104375865392,TRUE
+B,"Super learner v7, recalibrated",age,65-79,30,final model - EHR alone,auc,0.075047619047619,0.0487437884274949,0.100380136209877,TRUE
+B,"Super learner v7, recalibrated",age,65-79,30,group - rest of cohort,auc,-0.0127501611134492,-0.0488885569296223,0.0241981263718849,FALSE
+B,"Super learner v7, recalibrated",age,65-79,30,group - rest of cohort,oe,0.015145377682699,-0.225678525912685,0.263323603496994,FALSE
+B,"Super learner v7, recalibrated",age,65-79,90,final model - Late PH,auc,0.0508299425176,0.032698668214626,0.0684482249247891,TRUE
+B,"Super learner v7, recalibrated",age,65-79,90,final model - EHR alone,auc,0.0405525414971258,0.0203929896398398,0.0589910546508079,TRUE
+B,"Super learner v7, recalibrated",age,65-79,90,group - rest of cohort,auc,-0.0150364022980072,-0.0465537104037311,0.0157382584104842,FALSE
+B,"Super learner v7, recalibrated",age,65-79,90,group - rest of cohort,oe,0.132246610377885,-0.021550717842999,0.29423040963516,FALSE
+B,"Super learner v7, recalibrated",age,65-79,180,final model - Late PH,auc,0.0421696530070914,0.0257054060691088,0.0585533775806787,TRUE
+B,"Super learner v7, recalibrated",age,65-79,180,final model - EHR alone,auc,0.034915823093163,0.0179110210883045,0.0518279577036568,TRUE
+B,"Super learner v7, recalibrated",age,65-79,180,group - rest of cohort,auc,-0.0157488994068417,-0.0441406411358435,0.0129450213702471,FALSE
+B,"Super learner v7, recalibrated",age,65-79,180,group - rest of cohort,oe,0.0398764681730234,-0.0866325976776781,0.171572028223297,FALSE
+B,"Super learner v7, recalibrated",age,65-79,365,final model - Late PH,auc,0.0367807551200483,0.0216713134779643,0.0523836472427796,TRUE
+B,"Super learner v7, recalibrated",age,65-79,365,final model - EHR alone,auc,0.027823573120327,0.0116030525575251,0.0456213247804133,TRUE
+B,"Super learner v7, recalibrated",age,65-79,365,group - rest of cohort,auc,-0.0122987838030102,-0.038937913463878,0.0151244109765927,FALSE
+B,"Super learner v7, recalibrated",age,65-79,365,group - rest of cohort,oe,-0.0406536302230115,-0.153742462304029,0.06496636889971,FALSE
+B,"Super learner v7, recalibrated",age,80 and over,10,final model - Late PH,auc,0.0425053995680346,-0.02366542961703,0.125659611029517,FALSE
+B,"Super learner v7, recalibrated",age,80 and over,10,final model - EHR alone,auc,0.0251403887688985,-0.041679601868199,0.0929892825726159,FALSE
+B,"Super learner v7, recalibrated",age,80 and over,10,group - rest of cohort,auc,-0.0916936117777446,-0.185241095281705,-0.0126396797369341,TRUE
+B,"Super learner v7, recalibrated",age,80 and over,10,group - rest of cohort,oe,0.250797963102785,-0.184549683144638,0.705181881021673,FALSE
+B,"Super learner v7, recalibrated",age,80 and over,30,final model - Late PH,auc,0.0612203112203113,0.00890533288960102,0.12610967873829,TRUE
+B,"Super learner v7, recalibrated",age,80 and over,30,final model - EHR alone,auc,0.078470515970516,0.0172318947101795,0.144210664122092,TRUE
+B,"Super learner v7, recalibrated",age,80 and over,30,group - rest of cohort,auc,-0.0972800314905578,-0.162528161457019,-0.0388851531022328,TRUE
+B,"Super learner v7, recalibrated",age,80 and over,30,group - rest of cohort,oe,-0.0206037620465745,-0.309553762540192,0.269836683131874,FALSE
+B,"Super learner v7, recalibrated",age,80 and over,90,final model - Late PH,auc,0.060559796437659,0.0268127602020871,0.0981604282534446,TRUE
+B,"Super learner v7, recalibrated",age,80 and over,90,final model - EHR alone,auc,0.0732020891924468,0.0341901633522727,0.114555523455822,TRUE
+B,"Super learner v7, recalibrated",age,80 and over,90,group - rest of cohort,auc,-0.10454351605687,-0.161293610503251,-0.0547572857851692,TRUE
+B,"Super learner v7, recalibrated",age,80 and over,90,group - rest of cohort,oe,0.115217727710073,-0.0721832586361223,0.304332356606278,FALSE
+B,"Super learner v7, recalibrated",age,80 and over,180,final model - Late PH,auc,0.0552926036599996,0.0277956572099186,0.0875765238378076,TRUE
+B,"Super learner v7, recalibrated",age,80 and over,180,final model - EHR alone,auc,0.0720439723427924,0.0396328102794167,0.105819976959929,TRUE
+B,"Super learner v7, recalibrated",age,80 and over,180,group - rest of cohort,auc,-0.0973633851090997,-0.145139904382419,-0.0533658941205776,TRUE
+B,"Super learner v7, recalibrated",age,80 and over,180,group - rest of cohort,oe,0.126621124110099,-0.0276818086177686,0.280563533567065,FALSE
+B,"Super learner v7, recalibrated",age,80 and over,365,final model - Late PH,auc,0.043997668997669,0.0182258359864783,0.0705976282756923,TRUE
+B,"Super learner v7, recalibrated",age,80 and over,365,final model - EHR alone,auc,0.0666703088578089,0.0364353217687269,0.0973996530880539,TRUE
+B,"Super learner v7, recalibrated",age,80 and over,365,group - rest of cohort,auc,-0.118722182490676,-0.161634949402173,-0.0777064766219824,TRUE
+B,"Super learner v7, recalibrated",age,80 and over,365,group - rest of cohort,oe,0.181436444741639,0.0499092445005598,0.312737453316155,TRUE
+B,"Super learner v7, recalibrated",sex,female,10,final model - Late PH,auc,0.0422758824398169,0.0165126799202997,0.0705020066284059,TRUE
+B,"Super learner v7, recalibrated",sex,female,10,final model - EHR alone,auc,0.0285777580859549,0.00179322281968019,0.0567248686681713,TRUE
+B,"Super learner v7, recalibrated",sex,female,10,group - rest of cohort,auc,-0.000749290663237034,-0.0507276871172629,0.0477011555563218,FALSE
+B,"Super learner v7, recalibrated",sex,female,10,group - rest of cohort,oe,-0.121319617850439,-0.478190362549572,0.241986930828551,FALSE
+B,"Super learner v7, recalibrated",sex,female,30,final model - Late PH,auc,0.0501130238219441,0.0310652387298459,0.0711933726440869,TRUE
+B,"Super learner v7, recalibrated",sex,female,30,final model - EHR alone,auc,0.0569118414188837,0.03175177978996,0.0851932046385151,TRUE
+B,"Super learner v7, recalibrated",sex,female,30,group - rest of cohort,auc,0.00592955019620134,-0.028705964585357,0.0427164592859262,FALSE
+B,"Super learner v7, recalibrated",sex,female,30,group - rest of cohort,oe,-0.172382437864954,-0.400940556788944,0.0758762609293063,FALSE
+B,"Super learner v7, recalibrated",sex,female,90,final model - Late PH,auc,0.0350900514579761,0.0224048009689778,0.0472817507498896,TRUE
+B,"Super learner v7, recalibrated",sex,female,90,final model - EHR alone,auc,0.039794168096055,0.0236266949380292,0.0565632049513629,TRUE
+B,"Super learner v7, recalibrated",sex,female,90,group - rest of cohort,auc,-0.00594538206747264,-0.0345462416418154,0.0241694720763745,FALSE
+B,"Super learner v7, recalibrated",sex,female,90,group - rest of cohort,oe,-0.0309960935063672,-0.184419296686461,0.136479331710339,FALSE
+B,"Super learner v7, recalibrated",sex,female,180,final model - Late PH,auc,0.0325788272553677,0.0208213386143055,0.0445900894425538,TRUE
+B,"Super learner v7, recalibrated",sex,female,180,final model - EHR alone,auc,0.0347711531168287,0.0208703937400496,0.0495077215340411,TRUE
+B,"Super learner v7, recalibrated",sex,female,180,group - rest of cohort,auc,-0.00674076440616889,-0.0342586651444381,0.0212882326412379,FALSE
+B,"Super learner v7, recalibrated",sex,female,180,group - rest of cohort,oe,-0.0159630520834263,-0.144379458594011,0.113217566967909,FALSE
+B,"Super learner v7, recalibrated",sex,female,365,final model - Late PH,auc,0.0311217175995308,0.020829201953949,0.0421763735090367,TRUE
+B,"Super learner v7, recalibrated",sex,female,365,final model - EHR alone,auc,0.0382213679112096,0.0255267150985337,0.0515055260619346,TRUE
+B,"Super learner v7, recalibrated",sex,female,365,group - rest of cohort,auc,-0.0055814457827903,-0.030882421019482,0.021110813739401,FALSE
+B,"Super learner v7, recalibrated",sex,female,365,group - rest of cohort,oe,-0.054522603413508,-0.161277092652119,0.0536371648861302,FALSE
+B,"Super learner v7, recalibrated",sex,male,10,final model - Late PH,auc,0.0717475339909357,0.0405200718155511,0.10515676231733,TRUE
+B,"Super learner v7, recalibrated",sex,male,10,final model - EHR alone,auc,0.0762296720874434,0.0434002266512981,0.108483095350568,TRUE
+B,"Super learner v7, recalibrated",sex,male,10,group - rest of cohort,auc,0.000749290663237034,-0.0477011555563219,0.0507276871172629,FALSE
+B,"Super learner v7, recalibrated",sex,male,10,group - rest of cohort,oe,0.121319617850439,-0.241986930828551,0.478190362549572,FALSE
+B,"Super learner v7, recalibrated",sex,male,30,final model - Late PH,auc,0.0599434705284553,0.0406605216182288,0.0806570088600404,TRUE
+B,"Super learner v7, recalibrated",sex,male,30,final model - EHR alone,auc,0.0573075457317073,0.0377846708284747,0.0765975595408644,TRUE
+B,"Super learner v7, recalibrated",sex,male,30,group - rest of cohort,auc,-0.00592955019620134,-0.0427164592859262,0.028705964585357,FALSE
+B,"Super learner v7, recalibrated",sex,male,30,group - rest of cohort,oe,0.172382437864954,-0.0758762609293063,0.400940556788944,FALSE
+B,"Super learner v7, recalibrated",sex,male,90,final model - Late PH,auc,0.0329185494148998,0.0181416365618726,0.047740385119775,TRUE
+B,"Super learner v7, recalibrated",sex,male,90,final model - EHR alone,auc,0.0299571312709999,0.0152930885752281,0.0446361591939285,TRUE
+B,"Super learner v7, recalibrated",sex,male,90,group - rest of cohort,auc,0.00594538206747264,-0.0241694720763746,0.0345462416418154,FALSE
+B,"Super learner v7, recalibrated",sex,male,90,group - rest of cohort,oe,0.0309960935063672,-0.136479331710339,0.184419296686461,FALSE
+B,"Super learner v7, recalibrated",sex,male,180,final model - Late PH,auc,0.0308804760801362,0.0182409074372873,0.043272146638713,TRUE
+B,"Super learner v7, recalibrated",sex,male,180,final model - EHR alone,auc,0.0286221849518366,0.0161062467592682,0.0409946710372774,TRUE
+B,"Super learner v7, recalibrated",sex,male,180,group - rest of cohort,auc,0.00674076440616889,-0.0212882326412379,0.0342586651444381,FALSE
+B,"Super learner v7, recalibrated",sex,male,180,group - rest of cohort,oe,0.0159630520834263,-0.113217566967909,0.144379458594011,FALSE
+B,"Super learner v7, recalibrated",sex,male,365,final model - Late PH,auc,0.0248031022930119,0.0132472471180737,0.0365696903757674,TRUE
+B,"Super learner v7, recalibrated",sex,male,365,final model - EHR alone,auc,0.0202246993407921,0.00818075036447628,0.0323638872764996,TRUE
+B,"Super learner v7, recalibrated",sex,male,365,group - rest of cohort,auc,0.0055814457827903,-0.0211108137394011,0.030882421019482,FALSE
+B,"Super learner v7, recalibrated",sex,male,365,group - rest of cohort,oe,0.054522603413508,-0.0536371648861304,0.161277092652119,FALSE
+B,"Super learner v7, recalibrated",race,White,10,final model - Late PH,auc,0.0494481125365066,0.0255005755747174,0.073686875714236,TRUE
+B,"Super learner v7, recalibrated",race,White,10,final model - EHR alone,auc,0.0419836149256479,0.0180583835725699,0.0660295573166954,TRUE
+B,"Super learner v7, recalibrated",race,White,10,group - rest of cohort,auc,-0.0411507490454658,-0.0795175947413702,-0.00107659449633803,TRUE
+B,"Super learner v7, recalibrated",race,White,10,group - rest of cohort,oe,-0.101482861039076,-0.539209638674767,0.330747523503805,FALSE
+B,"Super learner v7, recalibrated",race,White,30,final model - Late PH,auc,0.0544601598601224,0.0388364045551078,0.0708869530374192,TRUE
+B,"Super learner v7, recalibrated",race,White,30,final model - EHR alone,auc,0.056341326339453,0.0378455115310315,0.0761069708590184,TRUE
+B,"Super learner v7, recalibrated",race,White,30,group - rest of cohort,auc,-0.0437961849247073,-0.0752588205687572,-0.0113550048341215,TRUE
+B,"Super learner v7, recalibrated",race,White,30,group - rest of cohort,oe,-0.00314184312175569,-0.268589499930082,0.269088042270496,FALSE
+B,"Super learner v7, recalibrated",race,White,90,final model - Late PH,auc,0.0347629288839728,0.0228083463157678,0.0465161553936704,TRUE
+B,"Super learner v7, recalibrated",race,White,90,final model - EHR alone,auc,0.0370091227742405,0.022815174340624,0.0511709369773988,TRUE
+B,"Super learner v7, recalibrated",race,White,90,group - rest of cohort,auc,-0.0286137025491022,-0.0584407528637796,0.0014773971397331,FALSE
+B,"Super learner v7, recalibrated",race,White,90,group - rest of cohort,oe,0.0431994774974126,-0.12936078259542,0.2257305309995,FALSE
+B,"Super learner v7, recalibrated",race,White,180,final model - Late PH,auc,0.0318724831763575,0.021530695576679,0.0422938873496007,TRUE
+B,"Super learner v7, recalibrated",race,White,180,final model - EHR alone,auc,0.0313464292196922,0.0195392788879221,0.0428151090317458,TRUE
+B,"Super learner v7, recalibrated",race,White,180,group - rest of cohort,auc,-0.0299343810783589,-0.0566243918178064,-0.00346567001344098,TRUE
+B,"Super learner v7, recalibrated",race,White,180,group - rest of cohort,oe,0.0607875406180454,-0.0842344670855402,0.208948922441831,FALSE
+B,"Super learner v7, recalibrated",race,White,365,final model - Late PH,auc,0.027185541250502,0.0182429510492255,0.0368872063342303,TRUE
+B,"Super learner v7, recalibrated",race,White,365,final model - EHR alone,auc,0.0280915432050539,0.0174904896114776,0.0386782022291106,TRUE
+B,"Super learner v7, recalibrated",race,White,365,group - rest of cohort,auc,-0.0233647474581878,-0.0500568368224692,0.00446884200497166,FALSE
+B,"Super learner v7, recalibrated",race,White,365,group - rest of cohort,oe,0.0699305120030211,-0.0502717570602382,0.193202278665722,FALSE
+B,"Super learner v7, recalibrated",race,Black,10,final model - Late PH,auc,,0.010788317962231,0.118572231526302,
+B,"Super learner v7, recalibrated",race,Black,10,final model - EHR alone,auc,,0.0225409557762499,0.122696019004935,
+B,"Super learner v7, recalibrated",race,Black,10,group - rest of cohort,auc,,0.0246577209914922,0.0809179307801479,
+B,"Super learner v7, recalibrated",race,Black,10,group - rest of cohort,oe,,-0.293732006477316,0.526112022457261,
+B,"Super learner v7, recalibrated",race,Black,30,final model - Late PH,auc,0.0403966597077244,0.00516466323079188,0.0791224942861523,TRUE
+B,"Super learner v7, recalibrated",race,Black,30,final model - EHR alone,auc,0.0420668058455115,0.00843830566434574,0.0776682933767123,TRUE
+B,"Super learner v7, recalibrated",race,Black,30,group - rest of cohort,auc,0.0369387620932552,-0.00736432048130424,0.0718718426934078,FALSE
+B,"Super learner v7, recalibrated",race,Black,30,group - rest of cohort,oe,-0.00735127581912454,-0.356423740484127,0.376862887785845,FALSE
+B,"Super learner v7, recalibrated",race,Black,90,final model - Late PH,auc,0.0314160675211004,0.0103990656416827,0.0542300266282802,TRUE
+B,"Super learner v7, recalibrated",race,Black,90,final model - EHR alone,auc,0.0355319370636658,0.01176030929105,0.0598955462738246,TRUE
+B,"Super learner v7, recalibrated",race,Black,90,group - rest of cohort,auc,0.0342695599600592,-0.00482291411361517,0.0700847331409381,FALSE
+B,"Super learner v7, recalibrated",race,Black,90,group - rest of cohort,oe,0.00821654402114424,-0.231262649334184,0.247686231279756,FALSE
+B,"Super learner v7, recalibrated",race,Black,180,final model - Late PH,auc,0.0227682227682228,0.000478653629597844,0.0472964330046543,TRUE
+B,"Super learner v7, recalibrated",race,Black,180,final model - EHR alone,auc,0.0339475839475839,0.011160002558129,0.0579846856315938,TRUE
+B,"Super learner v7, recalibrated",race,Black,180,group - rest of cohort,auc,0.0292334386871286,-0.00543710387722334,0.0634933408304525,FALSE
+B,"Super learner v7, recalibrated",race,Black,180,group - rest of cohort,oe,-0.0485041867654131,-0.248871299023022,0.139752315648067,FALSE
+B,"Super learner v7, recalibrated",race,Black,365,final model - Late PH,auc,0.0250815535175725,0.00465893940132996,0.0458338814624698,TRUE
+B,"Super learner v7, recalibrated",race,Black,365,final model - EHR alone,auc,0.029728565273589,0.00839887233847546,0.0526643076802251,TRUE
+B,"Super learner v7, recalibrated",race,Black,365,group - rest of cohort,auc,0.0174522310027416,-0.0215977904528343,0.0518214727523779,FALSE
+B,"Super learner v7, recalibrated",race,Black,365,group - rest of cohort,oe,-0.0218686014551379,-0.176183407374742,0.140530238874215,FALSE
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,10,final model - Late PH,auc,,,,
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,10,final model - EHR alone,auc,,,,
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,10,group - rest of cohort,auc,,,,
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,10,group - rest of cohort,oe,,,,
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,30,final model - Late PH,auc,,0.0290909090909091,0.0290909090909091,
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,30,final model - EHR alone,auc,,0.0509090909090909,0.0509090909090909,
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,30,group - rest of cohort,auc,,0.0858557619408643,0.0858557619408643,
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,30,group - rest of cohort,oe,,0.184552912331351,0.184552912331351,
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,90,final model - Late PH,auc,,-0.00427808302808301,0.0657686719758932,
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,90,final model - EHR alone,auc,,0.00231984536082474,0.0706003519942605,
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,90,group - rest of cohort,auc,,0.0571390212264672,0.102093143831568,
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,90,group - rest of cohort,oe,,-0.179290657137789,0.374532990066528,
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,180,final model - Late PH,auc,,0.00413385353178931,0.0673085764809903,
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,180,final model - EHR alone,auc,,0.0102856090889964,0.0778542870173305,
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,180,group - rest of cohort,auc,,0.0775056960083025,0.107301757583453,
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,180,group - rest of cohort,oe,,-0.331879824757941,0.0591203006067011,
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,365,final model - Late PH,auc,0.034020618556701,0.00204768445839876,0.0769671973067302,TRUE
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,365,final model - EHR alone,auc,0.0402061855670103,0.00999001536098309,0.0799816513761468,TRUE
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,365,group - rest of cohort,auc,0.0962525088542354,0.0753816094524292,0.111830369127517,TRUE
+B,"Super learner v7, recalibrated",race,Hispanic or Latino,365,group - rest of cohort,oe,-0.35021404930667,-0.439250126657344,-0.0738855820561358,TRUE
+B,"Super learner v7, recalibrated",race,Asian,10,final model - Late PH,auc,,0.0433238636363636,0.299508196721312,
+B,"Super learner v7, recalibrated",race,Asian,10,final model - EHR alone,auc,,0.0493235930735931,0.290881147540984,
+B,"Super learner v7, recalibrated",race,Asian,10,group - rest of cohort,auc,,-0.0398720516652873,0.0533755124078948,
+B,"Super learner v7, recalibrated",race,Asian,10,group - rest of cohort,oe,,0.308486642864678,1.4883662836019,
+B,"Super learner v7, recalibrated",race,Asian,30,final model - Late PH,auc,,0.0391200382592061,0.25422138836773,
+B,"Super learner v7, recalibrated",race,Asian,30,final model - EHR alone,auc,,0.00502450980392155,0.239460784313726,
+B,"Super learner v7, recalibrated",race,Asian,30,group - rest of cohort,auc,,-0.0824375191403044,0.0881934587274281,
+B,"Super learner v7, recalibrated",race,Asian,30,group - rest of cohort,oe,,-0.0468278194424987,0.631670394069085,
+B,"Super learner v7, recalibrated",race,Asian,90,final model - Late PH,auc,0,-0.0854098883572568,0.0868960511033682,FALSE
+B,"Super learner v7, recalibrated",race,Asian,90,final model - EHR alone,auc,-0.00303030303030294,-0.0908165525346351,0.0831402831402832,FALSE
+B,"Super learner v7, recalibrated",race,Asian,90,group - rest of cohort,auc,-0.0328484512702889,-0.141356050720236,0.049432038736495,FALSE
+B,"Super learner v7, recalibrated",race,Asian,90,group - rest of cohort,oe,0.117499081256743,-0.210742454578498,0.526403053962872,FALSE
+B,"Super learner v7, recalibrated",race,Asian,180,final model - Late PH,auc,0.0100250626566416,-0.0526498538011696,0.0753046594982079,FALSE
+B,"Super learner v7, recalibrated",race,Asian,180,final model - EHR alone,auc,0.018796992481203,-0.0405405405405406,0.0811853288987436,FALSE
+B,"Super learner v7, recalibrated",race,Asian,180,group - rest of cohort,auc,-0.0356284165085904,-0.13402206230233,0.0395572991386875,FALSE
+B,"Super learner v7, recalibrated",race,Asian,180,group - rest of cohort,oe,0.23341572002284,-0.0922769919451122,0.626107513966186,FALSE
+B,"Super learner v7, recalibrated",race,Asian,365,final model - Late PH,auc,0.00476190476190475,-0.0472563650341428,0.0588235294117647,FALSE
+B,"Super learner v7, recalibrated",race,Asian,365,final model - EHR alone,auc,0.0178571428571428,-0.0280285714285713,0.0681478937728937,FALSE
+B,"Super learner v7, recalibrated",race,Asian,365,group - rest of cohort,auc,-0.0113743104478442,-0.103025774726969,0.060358402311105,FALSE
+B,"Super learner v7, recalibrated",race,Asian,365,group - rest of cohort,oe,0.147453639254792,-0.121155584724381,0.436551880936741,FALSE
+B,"Super learner v7, recalibrated",race,Other,10,final model - Late PH,auc,,,,
+B,"Super learner v7, recalibrated",race,Other,10,final model - EHR alone,auc,,,,
+B,"Super learner v7, recalibrated",race,Other,10,group - rest of cohort,auc,,,,
+B,"Super learner v7, recalibrated",race,Other,10,group - rest of cohort,oe,,,,
+B,"Super learner v7, recalibrated",race,Other,30,final model - Late PH,auc,,-0.00294040376106199,0.126139636183082,
+B,"Super learner v7, recalibrated",race,Other,30,final model - EHR alone,auc,,-0.0188185975609756,0.0884097340124504,
+B,"Super learner v7, recalibrated",race,Other,30,group - rest of cohort,auc,,-0.0552449214390541,0.0309554395405107,
+B,"Super learner v7, recalibrated",race,Other,30,group - rest of cohort,oe,,0.450339096814708,1.2158808735373,
+B,"Super learner v7, recalibrated",race,Other,90,final model - Late PH,auc,0.0460069444444444,-0.00830802180685351,0.110253297366211,FALSE
+B,"Super learner v7, recalibrated",race,Other,90,final model - EHR alone,auc,0.00607638888888895,-0.043418926702593,0.0604516806722689,FALSE
+B,"Super learner v7, recalibrated",race,Other,90,group - rest of cohort,auc,-0.0675992702150364,-0.166744269392832,0.0146280695156663,FALSE
+B,"Super learner v7, recalibrated",race,Other,90,group - rest of cohort,oe,0.0965498631294306,-0.183081508871587,0.72622972394219,FALSE
+B,"Super learner v7, recalibrated",race,Other,180,final model - Late PH,auc,0.0697811945594322,0.0238365504657639,0.119570462470501,TRUE
+B,"Super learner v7, recalibrated",race,Other,180,final model - EHR alone,auc,0.0254287403903015,-0.0185294117647059,0.0732277165558899,FALSE
+B,"Super learner v7, recalibrated",race,Other,180,group - rest of cohort,auc,-0.0373888998866934,-0.117537521450739,0.0309380629836975,FALSE
+B,"Super learner v7, recalibrated",race,Other,180,group - rest of cohort,oe,0.235448566847522,-0.162858184688879,0.706976205205222,FALSE
+B,"Super learner v7, recalibrated",race,Other,365,final model - Late PH,auc,0.0690537084398977,0.0214940577249575,0.123098531650103,TRUE
+B,"Super learner v7, recalibrated",race,Other,365,final model - EHR alone,auc,0.0521739130434782,0.00107289690069578,0.106708741416188,TRUE
+B,"Super learner v7, recalibrated",race,Other,365,group - rest of cohort,auc,-0.0466394033563364,-0.128121522672275,0.0228701470315237,FALSE
+B,"Super learner v7, recalibrated",race,Other,365,group - rest of cohort,oe,0.0849370031863765,-0.230690809618188,0.453817217072126,FALSE
+B,"Super learner v7, recalibrated",race,Unknown,10,final model - Late PH,auc,,0.0857253163503163,0.244036750483559,
+B,"Super learner v7, recalibrated",race,Unknown,10,final model - EHR alone,auc,,0.0706973866297637,0.214093462230839,
+B,"Super learner v7, recalibrated",race,Unknown,10,group - rest of cohort,auc,,-0.0818474309579459,0.0565035803746978,
+B,"Super learner v7, recalibrated",race,Unknown,10,group - rest of cohort,oe,,2.40715558571155,5.36578040626436,
+B,"Super learner v7, recalibrated",race,Unknown,30,final model - Late PH,auc,,0.083139974779319,0.243298604333398,
+B,"Super learner v7, recalibrated",race,Unknown,30,final model - EHR alone,auc,,0.0791131444313263,0.215680260333726,
+B,"Super learner v7, recalibrated",race,Unknown,30,group - rest of cohort,auc,,-0.0571887365879718,0.069723003994004,
+B,"Super learner v7, recalibrated",race,Unknown,30,group - rest of cohort,oe,,0.440448660033115,1.45075428206977,
+B,"Super learner v7, recalibrated",race,Unknown,90,final model - Late PH,auc,,0.0747631964809385,0.238919809698498,
+B,"Super learner v7, recalibrated",race,Unknown,90,final model - EHR alone,auc,,0.0709266462906362,0.19764148289829,
+B,"Super learner v7, recalibrated",race,Unknown,90,group - rest of cohort,auc,,-0.05535894638705,0.0808246098680624,
+B,"Super learner v7, recalibrated",race,Unknown,90,group - rest of cohort,oe,,-0.318372885209622,0.114666863844641,
+B,"Super learner v7, recalibrated",race,Unknown,180,final model - Late PH,auc,,0.0271722661396574,0.193531818181818,
+B,"Super learner v7, recalibrated",race,Unknown,180,final model - EHR alone,auc,,0.0425207680250783,0.177690516810467,
+B,"Super learner v7, recalibrated",race,Unknown,180,group - rest of cohort,auc,,-0.05801437324623,0.0653388010380063,
+B,"Super learner v7, recalibrated",race,Unknown,180,group - rest of cohort,oe,,-0.490637786167151,-0.088088907973604,
+B,"Super learner v7, recalibrated",race,Unknown,365,final model - Late PH,auc,0.0811881188118812,0.021722385166037,0.147345895329465,TRUE
+B,"Super learner v7, recalibrated",race,Unknown,365,final model - EHR alone,auc,0.0693069306930693,0.0189706691257361,0.129854195945705,TRUE
+B,"Super learner v7, recalibrated",race,Unknown,365,group - rest of cohort,auc,0.00590801809115593,-0.0708536782136268,0.0638322814939573,FALSE
+B,"Super learner v7, recalibrated",race,Unknown,365,group - rest of cohort,oe,-0.304135433930321,-0.512412825195497,-0.0135210108291484,TRUE
+A,"Super learner v4, recalibrated",age,under 65,10,final model - Late PH,auc,0.00171301566650406,-0.0136795928195592,0.0170041574587431,FALSE
+A,"Super learner v4, recalibrated",age,under 65,10,final model - EHR alone,auc,0.0176505664877759,0.000614555105336665,0.035683211244242,TRUE
+A,"Super learner v4, recalibrated",age,under 65,10,group - rest of cohort,auc,0.0392722018517964,-0.00609766275554567,0.0885864788675131,FALSE
+A,"Super learner v4, recalibrated",age,under 65,10,group - rest of cohort,oe,-0.049926599348492,-0.307245998800803,0.203831044252921,FALSE
+A,"Super learner v4, recalibrated",age,under 65,30,final model - Late PH,auc,0.0273635286332087,0.0128122470267387,0.0425929004979274,TRUE
+A,"Super learner v4, recalibrated",age,under 65,30,final model - EHR alone,auc,0.0063304451318672,-0.00444441459918893,0.0177238821914933,FALSE
+A,"Super learner v4, recalibrated",age,under 65,30,group - rest of cohort,auc,0.0402535755427385,0.0105989211597415,0.0734150793852388,TRUE
+A,"Super learner v4, recalibrated",age,under 65,30,group - rest of cohort,oe,-0.115335944094302,-0.273172221451933,0.0444915637803847,FALSE
+A,"Super learner v4, recalibrated",age,65-79,10,final model - Late PH,auc,0.0204210923599504,0.00241148331647124,0.0393185027913123,TRUE
+A,"Super learner v4, recalibrated",age,65-79,10,final model - EHR alone,auc,0.0174556532053701,0.00247847104087995,0.0332748781242844,TRUE
+A,"Super learner v4, recalibrated",age,65-79,10,group - rest of cohort,auc,-0.0177988321410352,-0.0687531758196687,0.0287653618036877,FALSE
+A,"Super learner v4, recalibrated",age,65-79,10,group - rest of cohort,oe,-0.0889564144202421,-0.340057118633588,0.139308075109111,FALSE
+A,"Super learner v4, recalibrated",age,65-79,30,final model - Late PH,auc,0.0293439619505211,0.0123494596935248,0.0488581360579518,TRUE
+A,"Super learner v4, recalibrated",age,65-79,30,final model - EHR alone,auc,0.00630315825234473,-0.00358077735013371,0.0159023442383997,FALSE
+A,"Super learner v4, recalibrated",age,65-79,30,group - rest of cohort,auc,-0.0186815320574916,-0.0523025480212378,0.0110534587781136,FALSE
+A,"Super learner v4, recalibrated",age,65-79,30,group - rest of cohort,oe,0.0559540331459121,-0.101740958380628,0.203054755712054,FALSE
+A,"Super learner v4, recalibrated",age,80 and over,10,final model - Late PH,auc,0.0258804258804258,0.00562789089254524,0.0470538079242634,TRUE
+A,"Super learner v4, recalibrated",age,80 and over,10,final model - EHR alone,auc,0.0287960687960688,0.00329130618901365,0.0564240321513173,TRUE
+A,"Super learner v4, recalibrated",age,80 and over,10,group - rest of cohort,auc,-0.0459756016734728,-0.103749689080319,0.0104201287085607,FALSE
+A,"Super learner v4, recalibrated",age,80 and over,10,group - rest of cohort,oe,0.16127968599852,-0.0871482167378811,0.441406944196129,FALSE
+A,"Super learner v4, recalibrated",age,80 and over,30,final model - Late PH,auc,0.0220727272727274,0.0020914747524419,0.0416930513455799,TRUE
+A,"Super learner v4, recalibrated",age,80 and over,30,final model - EHR alone,auc,0.0228,0.00539803309160831,0.0412378865822774,TRUE
+A,"Super learner v4, recalibrated",age,80 and over,30,group - rest of cohort,auc,-0.0494130095897882,-0.0949297242119895,-0.00693335669676932,TRUE
+A,"Super learner v4, recalibrated",age,80 and over,30,group - rest of cohort,oe,0.0617703252544569,-0.108174453714424,0.234991133418154,FALSE
+A,"Super learner v4, recalibrated",sex,female,10,final model - Late PH,auc,0.024334372300875,0.00908078033579477,0.0401349411004905,TRUE
+A,"Super learner v4, recalibrated",sex,female,10,final model - EHR alone,auc,0.0212237285165295,0.00486493473160573,0.0372367464360607,TRUE
+A,"Super learner v4, recalibrated",sex,female,10,group - rest of cohort,auc,-0.00363952111494381,-0.0475649593094916,0.0398526911250476,FALSE
+A,"Super learner v4, recalibrated",sex,female,10,group - rest of cohort,oe,-0.00768456873033929,-0.247920446754654,0.226876024802205,FALSE
+A,"Super learner v4, recalibrated",sex,female,30,final model - Late PH,auc,0.0315994049618504,0.0179435511900867,0.0462583458013429,TRUE
+A,"Super learner v4, recalibrated",sex,female,30,final model - EHR alone,auc,0.00907853063966602,-0.0004314387369381,0.0186524477352917,FALSE
+A,"Super learner v4, recalibrated",sex,female,30,group - rest of cohort,auc,0.00546639743925248,-0.0242431437101024,0.0342865389550329,FALSE
+A,"Super learner v4, recalibrated",sex,female,30,group - rest of cohort,oe,0.0135293442536113,-0.1414980921594,0.166751617210836,FALSE
+A,"Super learner v4, recalibrated",sex,male,10,final model - Late PH,auc,0.00270478284771858,-0.00857419900221552,0.0136690760714435,FALSE
+A,"Super learner v4, recalibrated",sex,male,10,final model - EHR alone,auc,0.0157302547187099,0.00444632086104847,0.0279055562921831,TRUE
+A,"Super learner v4, recalibrated",sex,male,10,group - rest of cohort,auc,0.00363952111494381,-0.0398526911250476,0.0475649593094916,FALSE
+A,"Super learner v4, recalibrated",sex,male,10,group - rest of cohort,oe,0.00768456873033929,-0.226876024802205,0.247920446754654,FALSE
+A,"Super learner v4, recalibrated",sex,male,30,final model - Late PH,auc,0.017163161067225,0.005490065394294,0.0301953259198492,TRUE
+A,"Super learner v4, recalibrated",sex,male,30,final model - EHR alone,auc,0.00677854974990222,-0.00132550999601279,0.0157773886191208,FALSE
+A,"Super learner v4, recalibrated",sex,male,30,group - rest of cohort,auc,-0.00546639743925248,-0.0342865389550329,0.0242431437101024,FALSE
+A,"Super learner v4, recalibrated",sex,male,30,group - rest of cohort,oe,-0.0135293442536113,-0.166751617210836,0.1414980921594,FALSE
+A,"Super learner v4, recalibrated",race,White,10,final model - Late PH,auc,0.0146548089856062,0.00225070537607594,0.0277280002489225,TRUE
+A,"Super learner v4, recalibrated",race,White,10,final model - EHR alone,auc,0.0167586774536768,0.00352371174399919,0.0310690851524483,TRUE
+A,"Super learner v4, recalibrated",race,White,10,group - rest of cohort,auc,-0.0278789848925377,-0.0692032103730128,0.0150751141908458,FALSE
+A,"Super learner v4, recalibrated",race,White,10,group - rest of cohort,oe,-0.24374447214287,-0.504979848028164,0.00391679919043063,FALSE
+A,"Super learner v4, recalibrated",race,White,30,final model - Late PH,auc,0.0263711398791373,0.0144991028478179,0.0396569929342332,TRUE
+A,"Super learner v4, recalibrated",race,White,30,final model - EHR alone,auc,0.00536743915285243,-0.00277542867994499,0.0136848463347837,FALSE
+A,"Super learner v4, recalibrated",race,White,30,group - rest of cohort,auc,-0.0335104933658094,-0.0631270054034684,-0.00374601794144067,TRUE
+A,"Super learner v4, recalibrated",race,White,30,group - rest of cohort,oe,0.00103539425646915,-0.156427804033562,0.158229675780768,FALSE
+A,"Super learner v4, recalibrated",race,Black,10,final model - Late PH,auc,0.00569948186528502,-0.0297549692954105,0.0387193243023687,FALSE
+A,"Super learner v4, recalibrated",race,Black,10,final model - EHR alone,auc,0.0152849740932642,-0.0142033868092692,0.0535252668452103,FALSE
+A,"Super learner v4, recalibrated",race,Black,10,group - rest of cohort,auc,-0.00596614204339641,-0.095783471155412,0.069582785527983,FALSE
+A,"Super learner v4, recalibrated",race,Black,10,group - rest of cohort,oe,-0.11681425987,-0.452342685858973,0.241481986934715,FALSE
+A,"Super learner v4, recalibrated",race,Black,30,final model - Late PH,auc,0.00786201363818695,-0.0122612070850371,0.0292231978154789,FALSE
+A,"Super learner v4, recalibrated",race,Black,30,final model - EHR alone,auc,0.010068190934617,-0.00702343799517821,0.0303180640925493,FALSE
+A,"Super learner v4, recalibrated",race,Black,30,group - rest of cohort,auc,0.0242584852560431,-0.0197478919077867,0.063410334365192,FALSE
+A,"Super learner v4, recalibrated",race,Black,30,group - rest of cohort,oe,-0.141202955963704,-0.346009927552063,0.0685504717755938,FALSE
+A,"Super learner v4, recalibrated",race,Hispanic or Latino,10,final model - Late PH,auc,,-0.0192483274301456,0.0240546818229005,
+A,"Super learner v4, recalibrated",race,Hispanic or Latino,10,final model - EHR alone,auc,,-0.0123900817165582,0.063448253968254,
+A,"Super learner v4, recalibrated",race,Hispanic or Latino,10,group - rest of cohort,auc,,0.00668406040455577,0.0868911475067451,
+A,"Super learner v4, recalibrated",race,Hispanic or Latino,10,group - rest of cohort,oe,,-0.16105623534611,0.863416330781141,
+A,"Super learner v4, recalibrated",race,Hispanic or Latino,30,final model - Late PH,auc,0,-0.0188983554620925,0.0197324031007752,FALSE
+A,"Super learner v4, recalibrated",race,Hispanic or Latino,30,final model - EHR alone,auc,0.00826972010178118,-0.0197267105200833,0.0409538152610442,FALSE
+A,"Super learner v4, recalibrated",race,Hispanic or Latino,30,group - rest of cohort,auc,0.067029575621791,0.027505134965089,0.0957950305453027,TRUE
+A,"Super learner v4, recalibrated",race,Hispanic or Latino,30,group - rest of cohort,oe,-0.215752822597605,-0.436581590145054,0.143271098344915,FALSE
+A,"Super learner v4, recalibrated",race,Asian,10,final model - Late PH,auc,0.0210803689064559,-0.0280217002544879,0.0707350774905922,FALSE
+A,"Super learner v4, recalibrated",race,Asian,10,final model - EHR alone,auc,0.0144927536231885,-0.0310468099423813,0.0646656217345871,FALSE
+A,"Super learner v4, recalibrated",race,Asian,10,group - rest of cohort,auc,-0.0773815861308762,-0.186728509809631,0.0199466935438402,FALSE
+A,"Super learner v4, recalibrated",race,Asian,10,group - rest of cohort,oe,1.23282991615597,0.701865746908299,2.48749152011991,TRUE
+A,"Super learner v4, recalibrated",race,Asian,30,final model - Late PH,auc,0.0582437275985663,0.0117181787969425,0.101940076403696,TRUE
+A,"Super learner v4, recalibrated",race,Asian,30,final model - EHR alone,auc,0.00358422939068104,-0.0446158008658008,0.0498654037886341,FALSE
+A,"Super learner v4, recalibrated",race,Asian,30,group - rest of cohort,auc,-0.088258396129115,-0.205122300633522,0.0171915359814996,FALSE
+A,"Super learner v4, recalibrated",race,Asian,30,group - rest of cohort,oe,0.478525148442226,0.00085744301641401,1.07691810143363,TRUE
+A,"Super learner v4, recalibrated",race,Other,10,final model - Late PH,auc,,0.0303557578478997,0.159213161965456,
+A,"Super learner v4, recalibrated",race,Other,10,final model - EHR alone,auc,,-0.0259904086738949,-0.001708101231002,
+A,"Super learner v4, recalibrated",race,Other,10,group - rest of cohort,auc,,0.0155446952132691,0.0950877181117638,
+A,"Super learner v4, recalibrated",race,Other,10,group - rest of cohort,oe,,-0.0114241645623279,0.662190710604667,
+A,"Super learner v4, recalibrated",race,Other,30,final model - Late PH,auc,0.103235747303544,0.0171739367502726,0.216326486013986,TRUE
+A,"Super learner v4, recalibrated",race,Other,30,final model - EHR alone,auc,0.00847457627118642,-0.037446836788942,0.0587263819728456,FALSE
+A,"Super learner v4, recalibrated",race,Other,30,group - rest of cohort,auc,-0.0294183036435294,-0.163226239691584,0.0701367749251223,FALSE
+A,"Super learner v4, recalibrated",race,Other,30,group - rest of cohort,oe,-0.232558614414837,-0.42234353340662,0.305890775106022,FALSE
+A,"Super learner v4, recalibrated",race,Unknown,10,final model - Late PH,auc,0.00861326442721788,-0.0141202255974983,0.0368226729011815,FALSE
+A,"Super learner v4, recalibrated",race,Unknown,10,final model - EHR alone,auc,0.0195233993683607,-0.00704268933850909,0.0485829704847868,FALSE
+A,"Super learner v4, recalibrated",race,Unknown,10,group - rest of cohort,auc,0.0282386753085269,-0.0371477436094325,0.0821297751564601,FALSE
+A,"Super learner v4, recalibrated",race,Unknown,10,group - rest of cohort,oe,0.484331333712469,0.13379476048004,0.894403368983396,TRUE
+A,"Super learner v4, recalibrated",race,Unknown,30,final model - Late PH,auc,0.0214770984001753,-0.00254485464946015,0.0490364786771629,FALSE
+A,"Super learner v4, recalibrated",race,Unknown,30,final model - EHR alone,auc,0.0184089414858646,-0.000971756946021595,0.0422083787937447,FALSE
+A,"Super learner v4, recalibrated",race,Unknown,30,group - rest of cohort,auc,0.049694365287692,0.00342595603731216,0.0855443854134125,TRUE
+A,"Super learner v4, recalibrated",race,Unknown,30,group - rest of cohort,oe,0.231427693483075,0.00804502224741853,0.468788651188485,TRUE

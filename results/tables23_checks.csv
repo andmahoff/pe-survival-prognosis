@@ -1,0 +1,6 @@
+item,value,status
+input files found,all 7,PASS
+every cell found (cells missing),0,PASS
+events agree with stage 13b (cells that differ),0,PASS
+stage 13b AUROC agrees with the sources (n; max diff),60; 0.0e+00,PASS
+v7-core: largest AUROC distance from v7 (EHR+ECG cohort),0.0016,INFO

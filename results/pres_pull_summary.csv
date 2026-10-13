@@ -1,0 +1,33 @@
+item,value,status
+Frame A index admissions,3501,INFO
+registered labs with item IDs (of 18),18,PASS
+extra labs with item IDs,51,INFO
+admissions with any first lab in the window,99.8%,PASS
+admissions with any first vital in the window,73.6%,FAIL
+coverage creatinine_first,99.6%,INFO
+coverage sodium_first,99.3%,INFO
+coverage potassium_first,99.4%,INFO
+coverage bun_first,99.5%,INFO
+coverage glucose_first,99.1%,INFO
+coverage calcium_first,85.5%,INFO
+coverage bicarb_first,99.3%,INFO
+coverage chloride_first,99.4%,INFO
+coverage hct_first,99.5%,INFO
+coverage plt_first,99.4%,INFO
+coverage wbc_first,99.4%,INFO
+coverage hgb_first,99.4%,INFO
+coverage aniongap_first,99.3%,INFO
+coverage rbc_first,99.4%,INFO
+coverage mchc_first,99.4%,INFO
+coverage mch_first,99.4%,INFO
+coverage mcv_first,99.4%,INFO
+coverage rdw_first,99.4%,INFO
+coverage dbp_first,73.4%,INFO
+coverage hr_first,73.5%,INFO
+coverage rr_first,73.5%,INFO
+coverage sbp_first,73.4%,INFO
+coverage spo2_first,73.5%,INFO
+coverage temp_first,73.0%,INFO
+extra labs: median coverage,32.1%,INFO
+admissions with any earlier diagnosis codes,52.8%,INFO
+admissions with index codes,100.0%,INFO

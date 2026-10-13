@@ -1,0 +1,16 @@
+block,item,value
+frame,admissions / deaths by 30 / by 365 days,3501 / 397 / 971
+EHR,admissions with presentation vital signs,73.6%
+EHR,first labs: median coverage (registered 18 / extra),99.4% / 32.1%
+EHR,features,128
+EHR,cancer / heart failure / chronic lung disease (main),30.7% / 19.6% / 29.4%
+EHR,"the same, strict (earlier admissions only)",18.9% / 9.4% / 15.8%
+EHR,"Charlson score median, main / strict",2 / 0
+scores,sPESI 0 / 1 / 2+ (main),29.3% / 39.8% / 30.9%
+scores,sPESI 0 / 1 / 2+ (strict),44.8% / 35.9% / 19.3%
+scores,"PESI-10 median (IQR), main",88 (69-109)
+ECG,admissions with an ECG within 24 h (D18 rule by dates),96.6% (90.9%)
+ECG,"first ECG, hours from admission: median (IQR)",-3.1 (-5.3 to -0.8)
+ECG,first ECG before admission / after admission,80.4% / 19.6%
+ECG,admissions averaging ECGs with the same time,0.0%
+CTPA,admissions with a presentation CTPA (deaths by 365 days),1636 (420)

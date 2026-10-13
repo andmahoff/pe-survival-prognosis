@@ -1,0 +1,847 @@
+frame,cohort,horizon,version,model,measure,estimate,lo,hi
+A,EHR+ECG,30,presentation vitals (main),sPESI (Cox),auc,0.712038906489392,0.68633945799435,0.7370680254703
+A,EHR+ECG,30,presentation vitals (main),sPESI (Cox),brier,0.0945455251101087,0.0873107206842156,0.102225019677408
+A,EHR+ECG,30,presentation vitals (main),sPESI (Cox),ipa,0.0595992204581013,0.0366691556124542,0.0813776796295702
+A,EHR+ECG,30,presentation vitals (main),sPESI (Cox),oe,1.00825741323724,0.921409729012224,1.09772473207461
+A,EHR+ECG,30,presentation vitals (main),sPESI (Cox),nb05,0.0775116883897834,0.0674433510735671,0.0882327333673734
+A,EHR+ECG,30,presentation vitals (main),sPESI (Cox),nb10,0.0425910057443905,0.0343972145050217,0.051047983777678
+A,EHR+ECG,30,presentation vitals (main),sPESI (Cox),nb20,0.00892602113681805,0.00380738927747582,0.014162797237738
+A,EHR+ECG,30,presentation vitals (main),EHR alone,auc,0.855016846711158,0.834749913951534,0.873638490503245
+A,EHR+ECG,30,presentation vitals (main),EHR alone,brier,0.0734910904588503,0.0672864696810232,0.0805444283603969
+A,EHR+ECG,30,presentation vitals (main),EHR alone,ipa,0.26901798179872,0.226711289488096,0.309436213635845
+A,EHR+ECG,30,presentation vitals (main),EHR alone,oe,1.0077633114022,0.931653204346487,1.08902437596256
+A,EHR+ECG,30,presentation vitals (main),EHR alone,nb05,0.0830289090335092,0.0731836129245891,0.093379367547154
+A,EHR+ECG,30,presentation vitals (main),EHR alone,nb10,0.0636643498682916,0.0541772573820301,0.0731500377928949
+A,EHR+ECG,30,presentation vitals (main),EHR alone,nb20,0.0419880034275921,0.0338317097524924,0.0498875669425879
+A,EHR+ECG,30,presentation vitals (main),Cox stack (fused),auc,0.862253791321509,0.842064421431502,0.880392272109374
+A,EHR+ECG,30,presentation vitals (main),Cox stack (fused),brier,0.0724372865028676,0.0660325333212236,0.0795200506923546
+A,EHR+ECG,30,presentation vitals (main),Cox stack (fused),ipa,0.279499684243509,0.235919479303484,0.320884573765227
+A,EHR+ECG,30,presentation vitals (main),Cox stack (fused),oe,1.00385767600583,0.928866952228906,1.0865419641294
+A,EHR+ECG,30,presentation vitals (main),Cox stack (fused),nb05,0.0831942753198334,0.073267343798112,0.093814758538465
+A,EHR+ECG,30,presentation vitals (main),Cox stack (fused),nb10,0.0667110984163255,0.0573822060333027,0.0761904367966504
+A,EHR+ECG,30,presentation vitals (main),Cox stack (fused),nb20,0.0447015138531848,0.0359562550558162,0.0530152209843373
+A,EHR+ECG,30,presentation vitals (main),binary stack (fused),auc,0.872439721883196,0.854202769652908,0.889410075002752
+A,EHR+ECG,30,presentation vitals (main),binary stack (fused),brier,0.0715721792275769,0.0654003818462091,0.0783369668769749
+A,EHR+ECG,30,presentation vitals (main),binary stack (fused),ipa,0.288104507741219,0.244197836926869,0.329263475511098
+A,EHR+ECG,30,presentation vitals (main),binary stack (fused),oe,0.999155378260933,0.925608161922771,1.08051872592114
+A,EHR+ECG,30,presentation vitals (main),binary stack (fused),nb05,0.0852688705482644,0.0754304925582807,0.0958961407761878
+A,EHR+ECG,30,presentation vitals (main),binary stack (fused),nb10,0.0686470532228887,0.0591342908059093,0.0781382565761752
+A,EHR+ECG,30,presentation vitals (main),binary stack (fused),nb20,0.0477006569551557,0.0384991722735961,0.0562916720242023
+A,EHR+ECG,30,presentation vitals (main),sPESI >= 1 rule,nb05,0.0775116883897834,0.0674433510735671,0.0882327333673734
+A,EHR+ECG,30,presentation vitals (main),sPESI >= 1 rule,nb10,0.0455742803643403,0.0350724152231474,0.0568654264566919
+A,EHR+ECG,30,presentation vitals (main),sPESI >= 1 rule,nb20,-0.0302770636960868,-0.0420228687739464,-0.0177540935784993
+A,EHR+ECG,30,presentation vitals (main),sPESI >= 1 rule,sensitivity,0.937027707808564,0.912464450764308,0.960398484292874
+A,EHR+ECG,30,presentation vitals (main),sPESI >= 1 rule,specificity,0.384020618556701,0.366144022334271,0.402571450220668
+A,EHR+ECG,30,presentation vitals (main),sPESI >= 1 rule,ppv,0.162872154115587,0.148305783674583,0.178283507606379
+A,EHR+ECG,30,presentation vitals (main),sPESI >= 1 rule,npv,0.979457682826623,0.971082007320175,0.987321945806742
+A,EHR+ECG,30,presentation vitals (main),sPESI >= 1 rule,share_low_risk,0.347614967152242,0.331514480876731,0.364946731493712
+A,EHR+ECG,30,presentation vitals (main),sPESI >= 1 rule,death_rate_low_risk,0.0205423171733772,0.0126780541932582,0.0289179926798249
+A,EHR+ECG,30,presentation vitals (main),EHR alone,death_rate_low_risk,0.00903861955628595,0.004149377593361,0.0145063613305905
+A,EHR+ECG,30,presentation vitals (main),EHR alone,specificity_at_spesi_sensitivity,0.507731958762887,0.430328824387812,0.574466851293568
+A,EHR+ECG,30,presentation vitals (main),Cox stack (fused),death_rate_low_risk,0.00739523418241578,0.00333882854521227,0.0138329477189066
+A,EHR+ECG,30,presentation vitals (main),Cox stack (fused),specificity_at_spesi_sensitivity,0.500322164948454,0.41923610394447,0.595613594839059
+A,EHR+ECG,30,presentation vitals (main),binary stack (fused),death_rate_low_risk,0.00657354149548069,0.00244100895036615,0.0115417751114276
+A,EHR+ECG,30,presentation vitals (main),binary stack (fused),specificity_at_spesi_sensitivity,0.571842783505155,0.477369923389226,0.618697156021903
+A,EHR+ECG,30,presentation vitals (main),sPESI (Cox),calibration slope,1.02349490766504,,
+A,EHR+ECG,30,presentation vitals (main),EHR alone,calibration slope,1.0802632800342,,
+A,EHR+ECG,30,presentation vitals (main),Cox stack (fused),calibration slope,1.021450346145,,
+A,EHR+ECG,30,presentation vitals (main),binary stack (fused),calibration slope,1.01285070300007,,
+A,EHR+ECG,30,averaged vitals,sPESI (Cox),auc,0.712365534680205,0.686505877918602,0.73786307284456
+A,EHR+ECG,30,averaged vitals,sPESI (Cox),brier,0.0927444363398845,0.0853151168006851,0.100482011375536
+A,EHR+ECG,30,averaged vitals,sPESI (Cox),ipa,0.077513820663351,0.05072374036135,0.101465181047903
+A,EHR+ECG,30,averaged vitals,sPESI (Cox),oe,1.00448831909059,0.920354541470767,1.0932991706985
+A,EHR+ECG,30,averaged vitals,sPESI (Cox),nb05,0.0787444188878366,0.0687189264971627,0.0895665013377731
+A,EHR+ECG,30,averaged vitals,sPESI (Cox),nb10,0.0361166650798185,0.0281032858890045,0.0441976890576813
+A,EHR+ECG,30,averaged vitals,sPESI (Cox),nb20,0.0147100828334762,0.00645054948800191,0.0231372990802498
+A,EHR+ECG,30,averaged vitals,EHR alone,auc,0.855016846711158,0.834749913951534,0.873638490503245
+A,EHR+ECG,30,averaged vitals,EHR alone,brier,0.0734910904588503,0.0672864696810232,0.0805444283603969
+A,EHR+ECG,30,averaged vitals,EHR alone,ipa,0.26901798179872,0.226711289488096,0.309436213635845
+A,EHR+ECG,30,averaged vitals,EHR alone,oe,1.0077633114022,0.931653204346487,1.08902437596256
+A,EHR+ECG,30,averaged vitals,EHR alone,nb05,0.0830289090335092,0.0731836129245891,0.093379367547154
+A,EHR+ECG,30,averaged vitals,EHR alone,nb10,0.0636643498682916,0.0541772573820301,0.0731500377928949
+A,EHR+ECG,30,averaged vitals,EHR alone,nb20,0.0419880034275921,0.0338317097524924,0.0498875669425879
+A,EHR+ECG,30,averaged vitals,Cox stack (fused),auc,0.862253791321509,0.842064421431502,0.880392272109374
+A,EHR+ECG,30,averaged vitals,Cox stack (fused),brier,0.0724372865028676,0.0660325333212236,0.0795200506923546
+A,EHR+ECG,30,averaged vitals,Cox stack (fused),ipa,0.279499684243509,0.235919479303484,0.320884573765227
+A,EHR+ECG,30,averaged vitals,Cox stack (fused),oe,1.00385767600583,0.928866952228906,1.0865419641294
+A,EHR+ECG,30,averaged vitals,Cox stack (fused),nb05,0.0831942753198334,0.073267343798112,0.093814758538465
+A,EHR+ECG,30,averaged vitals,Cox stack (fused),nb10,0.0667110984163255,0.0573822060333027,0.0761904367966504
+A,EHR+ECG,30,averaged vitals,Cox stack (fused),nb20,0.0447015138531848,0.0359562550558162,0.0530152209843373
+A,EHR+ECG,30,averaged vitals,binary stack (fused),auc,0.872439721883196,0.854202769652908,0.889410075002752
+A,EHR+ECG,30,averaged vitals,binary stack (fused),brier,0.0715721792275769,0.0654003818462091,0.0783369668769749
+A,EHR+ECG,30,averaged vitals,binary stack (fused),ipa,0.288104507741219,0.244197836926869,0.329263475511098
+A,EHR+ECG,30,averaged vitals,binary stack (fused),oe,0.999155378260933,0.925608161922771,1.08051872592114
+A,EHR+ECG,30,averaged vitals,binary stack (fused),nb05,0.0852688705482644,0.0754304925582807,0.0958961407761878
+A,EHR+ECG,30,averaged vitals,binary stack (fused),nb10,0.0686470532228887,0.0591342908059093,0.0781382565761752
+A,EHR+ECG,30,averaged vitals,binary stack (fused),nb20,0.0477006569551557,0.0384991722735961,0.0562916720242023
+A,EHR+ECG,30,averaged vitals,sPESI >= 1 rule,nb05,0.0787444188878366,0.0687189264971627,0.0895665013377731
+A,EHR+ECG,30,averaged vitals,sPESI >= 1 rule,nb10,0.0494461899774668,0.0391200262172821,0.060793053892158
+A,EHR+ECG,30,averaged vitals,sPESI >= 1 rule,nb20,-0.0201371036846615,-0.0317097630861695,-0.00771243881340198
+A,EHR+ECG,30,averaged vitals,sPESI >= 1 rule,sensitivity,0.926952141057935,0.899771638663858,0.952049910071942
+A,EHR+ECG,30,averaged vitals,sPESI >= 1 rule,specificity,0.434922680412371,0.416611694644842,0.453848314606742
+A,EHR+ECG,30,averaged vitals,sPESI >= 1 rule,ppv,0.173421300659755,0.15839243498818,0.189661672462543
+A,EHR+ECG,30,averaged vitals,sPESI >= 1 rule,npv,0.97897026831037,0.971210664335664,0.986312467545633
+A,EHR+ECG,30,averaged vitals,sPESI >= 1 rule,share_low_risk,0.393887460725507,0.377077497654496,0.411443807246862
+A,EHR+ECG,30,averaged vitals,sPESI >= 1 rule,death_rate_low_risk,0.0210297316896302,0.0136875324543674,0.0287893356643357
+A,EHR+ECG,30,averaged vitals,EHR alone,death_rate_low_risk,0.0108774474256708,0.00583494432323284,0.0166207079938778
+A,EHR+ECG,30,averaged vitals,EHR alone,specificity_at_spesi_sensitivity,0.520940721649485,0.454336413262903,0.591811273453719
+A,EHR+ECG,30,averaged vitals,Cox stack (fused),death_rate_low_risk,0.0130529369108049,0.00693307905071502,0.0193168523561482
+A,EHR+ECG,30,averaged vitals,Cox stack (fused),specificity_at_spesi_sensitivity,0.516752577319588,0.436885448289179,0.619979610393019
+A,EHR+ECG,30,averaged vitals,binary stack (fused),death_rate_low_risk,0.00942712110224801,0.00424320650136695,0.0143074353989444
+A,EHR+ECG,30,averaged vitals,binary stack (fused),specificity_at_spesi_sensitivity,0.578286082474227,0.509836850467818,0.647683825382672
+A,EHR+ECG,30,averaged vitals,sPESI (Cox),calibration slope,1.00665363329992,,
+A,EHR+ECG,30,averaged vitals,EHR alone,calibration slope,1.0802632800342,,
+A,EHR+ECG,30,averaged vitals,Cox stack (fused),calibration slope,1.021450346145,,
+A,EHR+ECG,30,averaged vitals,binary stack (fused),calibration slope,1.01285070300007,,
+A,EHR+ECG,30,"presentation vitals, complete cases",sPESI (Cox),auc,0.703995601686487,0.675519355242794,0.734337157292342
+A,EHR+ECG,30,"presentation vitals, complete cases",sPESI (Cox),brier,0.102247852238511,0.0933191307045851,0.111204837559073
+A,EHR+ECG,30,"presentation vitals, complete cases",sPESI (Cox),ipa,0.0591769667446075,0.0344262832066969,0.0847174311901268
+A,EHR+ECG,30,"presentation vitals, complete cases",sPESI (Cox),oe,1.00888865667028,0.904538060807844,1.11066169591466
+A,EHR+ECG,30,"presentation vitals, complete cases",sPESI (Cox),nb05,0.0791835225989281,0.0655173551291071,0.092887814111063
+A,EHR+ECG,30,"presentation vitals, complete cases",sPESI (Cox),nb10,0.0511119781506048,0.0399353862521125,0.0620057398358117
+A,EHR+ECG,30,"presentation vitals, complete cases",sPESI (Cox),nb20,0.0108271556769411,0.00425861401471158,0.0179136462089914
+A,EHR+ECG,30,"presentation vitals, complete cases",EHR alone,auc,0.860046784608704,0.838952580597161,0.879900834279987
+A,EHR+ECG,30,"presentation vitals, complete cases",EHR alone,brier,0.0778557288065535,0.0699088487179528,0.0859796672952632
+A,EHR+ECG,30,"presentation vitals, complete cases",EHR alone,ipa,0.283618566762398,0.23657965114813,0.330214653340625
+A,EHR+ECG,30,"presentation vitals, complete cases",EHR alone,oe,1.00468396414578,0.915502747032895,1.09370494779209
+A,EHR+ECG,30,"presentation vitals, complete cases",EHR alone,nb05,0.0937634761894983,0.0804629443881343,0.106443712927815
+A,EHR+ECG,30,"presentation vitals, complete cases",EHR alone,nb10,0.0729613733905579,0.0608370619136,0.0849055756446842
+A,EHR+ECG,30,"presentation vitals, complete cases",EHR alone,nb20,0.0501365587202497,0.0395133771438562,0.0608243853672986
+A,EHR+ECG,30,"presentation vitals, complete cases",Cox stack (fused),auc,0.868589878275973,0.848805412690228,0.888044654912733
+A,EHR+ECG,30,"presentation vitals, complete cases",Cox stack (fused),brier,0.0766582914920716,0.0686553162619704,0.0846053494099259
+A,EHR+ECG,30,"presentation vitals, complete cases",Cox stack (fused),ipa,0.294636662318245,0.244599619577115,0.344054979544716
+A,EHR+ECG,30,"presentation vitals, complete cases",Cox stack (fused),oe,0.988655460103223,0.901728496877887,1.07704189465701
+A,EHR+ECG,30,"presentation vitals, complete cases",Cox stack (fused),nb05,0.0950161200895332,0.0816368372414277,0.107916377173592
+A,EHR+ECG,30,"presentation vitals, complete cases",Cox stack (fused),nb10,0.0769931070360255,0.0644849086837623,0.0889755422537279
+A,EHR+ECG,30,"presentation vitals, complete cases",Cox stack (fused),nb20,0.0532579008973859,0.0424505560579525,0.0646016858045878
+A,EHR+ECG,30,"presentation vitals, complete cases",binary stack (fused),auc,0.876959280581586,0.857937395877264,0.895763634871295
+A,EHR+ECG,30,"presentation vitals, complete cases",binary stack (fused),brier,0.0758001274333588,0.0682414092154077,0.0835341147522051
+A,EHR+ECG,30,"presentation vitals, complete cases",binary stack (fused),ipa,0.302532970114183,0.252101007041117,0.351733189931184
+A,EHR+ECG,30,"presentation vitals, complete cases",binary stack (fused),oe,0.985000476187717,0.898208790986789,1.07326987806346
+A,EHR+ECG,30,"presentation vitals, complete cases",binary stack (fused),nb05,0.0964535803026881,0.0832315891622417,0.10956964961946
+A,EHR+ECG,30,"presentation vitals, complete cases",binary stack (fused),nb10,0.0786838340486409,0.0662098361789311,0.0907492576909619
+A,EHR+ECG,30,"presentation vitals, complete cases",binary stack (fused),nb20,0.0560866172454155,0.0444071213496123,0.0677628104278365
+A,EHR+ECG,30,"presentation vitals, complete cases",sPESI >= 1 rule,nb05,0.0873770458139105,0.0737116594199669,0.100686811713387
+A,EHR+ECG,30,"presentation vitals, complete cases",sPESI >= 1 rule,nb10,0.0544067282264707,0.0400549373706096,0.0684172769445968
+A,EHR+ECG,30,"presentation vitals, complete cases",sPESI >= 1 rule,nb20,-0.0238977760436988,-0.0398635477582846,-0.00857957284093251
+A,EHR+ECG,30,"presentation vitals, complete cases",sPESI >= 1 rule,sensitivity,0.943396226415094,0.917715774742031,0.967072228092834
+A,EHR+ECG,30,"presentation vitals, complete cases",sPESI >= 1 rule,specificity,0.356347438752784,0.334964304265726,0.377315885749337
+A,EHR+ECG,30,"presentation vitals, complete cases",sPESI >= 1 rule,ppv,0.171919770773639,0.15318843461768,0.190124858115778
+A,EHR+ECG,30,"presentation vitals, complete cases",sPESI >= 1 rule,npv,0.97799511002445,0.967618609816078,0.987531172069825
+A,EHR+ECG,30,"presentation vitals, complete cases",sPESI >= 1 rule,share_low_risk,0.319157237612173,0.30034696598767,0.338149160484186
+A,EHR+ECG,30,"presentation vitals, complete cases",sPESI >= 1 rule,death_rate_low_risk,0.0220048899755501,0.0124688279301746,0.0323813901839222
+A,EHR+ECG,30,"presentation vitals, complete cases",EHR alone,death_rate_low_risk,0.00611246943765281,0.00122549019607843,0.0118623962040332
+A,EHR+ECG,30,"presentation vitals, complete cases",EHR alone,specificity_at_spesi_sensitivity,0.492650334075724,0.423057023337737,0.568913736098587
+A,EHR+ECG,30,"presentation vitals, complete cases",Cox stack (fused),death_rate_low_risk,0.00366748166259169,0,0.00969755882028057
+A,EHR+ECG,30,"presentation vitals, complete cases",Cox stack (fused),specificity_at_spesi_sensitivity,0.53630289532294,0.431589055574577,0.600816867631241
+A,EHR+ECG,30,"presentation vitals, complete cases",binary stack (fused),death_rate_low_risk,0.00611246943765281,0.00123148922375923,0.0122100122100122
+A,EHR+ECG,30,"presentation vitals, complete cases",binary stack (fused),specificity_at_spesi_sensitivity,0.555011135857461,0.472476991239968,0.629285243153503
+A,EHR+ECG,30,"presentation vitals, complete cases",sPESI (Cox),calibration slope,1.02250570207399,,
+A,EHR+ECG,30,"presentation vitals, complete cases",EHR alone,calibration slope,1.07478236122508,,
+A,EHR+ECG,30,"presentation vitals, complete cases",Cox stack (fused),calibration slope,1.01577607289188,,
+A,EHR+ECG,30,"presentation vitals, complete cases",binary stack (fused),calibration slope,1.01531271481971,,
+A,3-mod,30,presentation vitals (main),sPESI (Cox),auc,0.73961510497943,0.702089868668117,0.776756341546403
+A,3-mod,30,presentation vitals (main),sPESI (Cox),brier,0.0788902336400594,0.0688022453256366,0.0889102230881659
+A,3-mod,30,presentation vitals (main),sPESI (Cox),ipa,0.0639213240500229,0.0256426247410219,0.0990429133264476
+A,3-mod,30,presentation vitals (main),sPESI (Cox),oe,1.01572072004841,0.869741851880242,1.15911545151287
+A,3-mod,30,presentation vitals (main),sPESI (Cox),nb05,0.060835156350534,0.0472369277891923,0.0742660869757045
+A,3-mod,30,presentation vitals (main),sPESI (Cox),nb10,0.0366748166259169,0.0247360434426538,0.0485331607124521
+A,3-mod,30,presentation vitals (main),sPESI (Cox),nb20,0.0090158924205379,0.00214195011210553,0.0163216756035271
+A,3-mod,30,presentation vitals (main),EHR alone,auc,0.865018530997305,0.83933506646878,0.888911562581661
+A,3-mod,30,presentation vitals (main),EHR alone,brier,0.0669376921929623,0.0578163402257564,0.0755846769548833
+A,3-mod,30,presentation vitals (main),EHR alone,ipa,0.205745205863887,0.151451264275683,0.255904445665851
+A,3-mod,30,presentation vitals (main),EHR alone,oe,0.991523249912969,0.856578064889325,1.11726786181382
+A,3-mod,30,presentation vitals (main),EHR alone,nb05,0.0673336764895123,0.0538128377847449,0.0812481041286059
+A,3-mod,30,presentation vitals (main),EHR alone,nb10,0.0476093452866069,0.0343812311581646,0.0606128065224827
+A,3-mod,30,presentation vitals (main),EHR alone,nb20,0.0291870415647922,0.0190512036171232,0.0401320200702007
+A,3-mod,30,presentation vitals (main),Cox stack (fused),auc,0.888849482196056,0.866617591313795,0.909980081237699
+A,3-mod,30,presentation vitals (main),Cox stack (fused),brier,0.0640577678502623,0.0553630159848652,0.072528281670584
+A,3-mod,30,presentation vitals (main),Cox stack (fused),ipa,0.239917189405608,0.181903931874732,0.295676069040932
+A,3-mod,30,presentation vitals (main),Cox stack (fused),oe,1.0196121727454,0.884726676766612,1.1486217571643
+A,3-mod,30,presentation vitals (main),Cox stack (fused),nb05,0.0713550379616523,0.0577575979246728,0.0850567155789952
+A,3-mod,30,presentation vitals (main),Cox stack (fused),nb10,0.0527709861450693,0.0401884491686017,0.0656499331372192
+A,3-mod,30,presentation vitals (main),Cox stack (fused),nb20,0.0357579462102689,0.0242911342307868,0.0476119397544688
+A,3-mod,30,presentation vitals (main),binary stack (fused),auc,0.888352957866364,0.86559592410632,0.909290803633404
+A,3-mod,30,presentation vitals (main),binary stack (fused),brier,0.0638716736511067,0.055083569412607,0.0721959552906955
+A,3-mod,30,presentation vitals (main),binary stack (fused),ipa,0.24212530571494,0.177301626733432,0.30373670877454
+A,3-mod,30,presentation vitals (main),binary stack (fused),oe,0.994139800050986,0.862137130792296,1.11927733710288
+A,3-mod,30,presentation vitals (main),binary stack (fused),nb05,0.0718376013383091,0.058392452239141,0.0854948735498051
+A,3-mod,30,presentation vitals (main),binary stack (fused),nb10,0.0540613963596849,0.041282932919824,0.0669364812636532
+A,3-mod,30,presentation vitals (main),binary stack (fused),nb20,0.0346882640586797,0.0234060407332066,0.0465372186669709
+A,3-mod,30,presentation vitals (main),sPESI >= 1 rule,nb05,0.060835156350534,0.0472369277891923,0.0742660869757045
+A,3-mod,30,presentation vitals (main),sPESI >= 1 rule,nb10,0.0292719369736485,0.014896981555595,0.0430045543510991
+A,3-mod,30,presentation vitals (main),sPESI >= 1 rule,nb20,-0.0456907090464548,-0.0618516644977877,-0.0297355233684006
+A,3-mod,30,presentation vitals (main),sPESI >= 1 rule,sensitivity,0.960526315789474,0.926375221311813,0.98710088350113
+A,3-mod,30,presentation vitals (main),sPESI >= 1 rule,specificity,0.404986522911051,0.378966307429602,0.431282918602131
+A,3-mod,30,presentation vitals (main),sPESI >= 1 rule,ppv,0.141885325558795,0.121330000347387,0.161546085232904
+A,3-mod,30,presentation vitals (main),sPESI >= 1 rule,npv,0.990115321252059,0.981480700768222,0.996748231015535
+A,3-mod,30,presentation vitals (main),sPESI >= 1 rule,share_low_risk,0.371026894865526,0.346686293398885,0.396052724856672
+A,3-mod,30,presentation vitals (main),sPESI >= 1 rule,death_rate_low_risk,0.00988467874794069,0.00325176898446456,0.0185192992317781
+A,3-mod,30,presentation vitals (main),EHR alone,death_rate_low_risk,0.00329489291598023,0,0.00843170320404722
+A,3-mod,30,presentation vitals (main),EHR alone,specificity_at_spesi_sensitivity,0.592991913746631,0.327908308950541,0.666454075611353
+A,3-mod,30,presentation vitals (main),Cox stack (fused),death_rate_low_risk,0.00164744645799012,0,0.00680330152538831
+A,3-mod,30,presentation vitals (main),Cox stack (fused),specificity_at_spesi_sensitivity,0.638140161725067,0.406342422592743,0.707549320135236
+A,3-mod,30,presentation vitals (main),binary stack (fused),death_rate_low_risk,0.00329489291598023,0,0.00955452107396458
+A,3-mod,30,presentation vitals (main),binary stack (fused),specificity_at_spesi_sensitivity,0.642857142857143,0.387794183163414,0.710986643279887
+A,3-mod,30,presentation vitals (main),sPESI (Cox),calibration slope,1.03494493141979,,
+A,3-mod,30,presentation vitals (main),EHR alone,calibration slope,1.18082388251836,,
+A,3-mod,30,presentation vitals (main),Cox stack (fused),calibration slope,1.20146762997718,,
+A,3-mod,30,presentation vitals (main),binary stack (fused),calibration slope,1.05992060074203,,
+A,3-mod,30,averaged vitals,sPESI (Cox),auc,0.720323804795006,0.683592829961644,0.75801561308176
+A,3-mod,30,averaged vitals,sPESI (Cox),brier,0.0790091011116885,0.0690365198295608,0.089101080947483
+A,3-mod,30,averaged vitals,sPESI (Cox),ipa,0.0625108921077905,0.0241862230732544,0.0974951483366157
+A,3-mod,30,averaged vitals,sPESI (Cox),oe,1.01114653179057,0.86571335375552,1.15649236843231
+A,3-mod,30,averaged vitals,sPESI (Cox),nb05,0.0625080427229443,0.0488881427609686,0.0758516986508917
+A,3-mod,30,averaged vitals,sPESI (Cox),nb10,0.0307660961695192,0.0201520370638018,0.0413971140162494
+A,3-mod,30,averaged vitals,sPESI (Cox),nb20,0.00305623471882641,-0.00182379150639186,0.00843571228161355
+A,3-mod,30,averaged vitals,EHR alone,auc,0.865018530997305,0.83933506646878,0.888911562581661
+A,3-mod,30,averaged vitals,EHR alone,brier,0.0669376921929623,0.0578163402257564,0.0755846769548833
+A,3-mod,30,averaged vitals,EHR alone,ipa,0.205745205863887,0.151451264275683,0.255904445665851
+A,3-mod,30,averaged vitals,EHR alone,oe,0.991523249912969,0.856578064889325,1.11726786181382
+A,3-mod,30,averaged vitals,EHR alone,nb05,0.0673336764895123,0.0538128377847449,0.0812481041286059
+A,3-mod,30,averaged vitals,EHR alone,nb10,0.0476093452866069,0.0343812311581646,0.0606128065224827
+A,3-mod,30,averaged vitals,EHR alone,nb20,0.0291870415647922,0.0190512036171232,0.0401320200702007
+A,3-mod,30,averaged vitals,Cox stack (fused),auc,0.888849482196056,0.866617591313795,0.909980081237699
+A,3-mod,30,averaged vitals,Cox stack (fused),brier,0.0640577678502623,0.0553630159848652,0.072528281670584
+A,3-mod,30,averaged vitals,Cox stack (fused),ipa,0.239917189405608,0.181903931874732,0.295676069040932
+A,3-mod,30,averaged vitals,Cox stack (fused),oe,1.0196121727454,0.884726676766612,1.1486217571643
+A,3-mod,30,averaged vitals,Cox stack (fused),nb05,0.0713550379616523,0.0577575979246728,0.0850567155789952
+A,3-mod,30,averaged vitals,Cox stack (fused),nb10,0.0527709861450693,0.0401884491686017,0.0656499331372192
+A,3-mod,30,averaged vitals,Cox stack (fused),nb20,0.0357579462102689,0.0242911342307868,0.0476119397544688
+A,3-mod,30,averaged vitals,binary stack (fused),auc,0.888352957866364,0.86559592410632,0.909290803633404
+A,3-mod,30,averaged vitals,binary stack (fused),brier,0.0638716736511067,0.055083569412607,0.0721959552906955
+A,3-mod,30,averaged vitals,binary stack (fused),ipa,0.24212530571494,0.177301626733432,0.30373670877454
+A,3-mod,30,averaged vitals,binary stack (fused),oe,0.994139800050986,0.862137130792296,1.11927733710288
+A,3-mod,30,averaged vitals,binary stack (fused),nb05,0.0718376013383091,0.058392452239141,0.0854948735498051
+A,3-mod,30,averaged vitals,binary stack (fused),nb10,0.0540613963596849,0.041282932919824,0.0669364812636532
+A,3-mod,30,averaged vitals,binary stack (fused),nb20,0.0346882640586797,0.0234060407332066,0.0465372186669709
+A,3-mod,30,averaged vitals,sPESI >= 1 rule,nb05,0.0625080427229443,0.0488881427609686,0.0758516986508917
+A,3-mod,30,averaged vitals,sPESI >= 1 rule,nb10,0.0334827492529204,0.0192122341066015,0.0472707716550631
+A,3-mod,30,averaged vitals,sPESI >= 1 rule,nb20,-0.0354523227383863,-0.0517833577010708,-0.0199015862684887
+A,3-mod,30,averaged vitals,sPESI >= 1 rule,sensitivity,0.953947368421053,0.917227011494253,0.984965211536304
+A,3-mod,30,averaged vitals,sPESI >= 1 rule,specificity,0.452830188679245,0.426753623188406,0.478829440446044
+A,3-mod,30,averaged vitals,sPESI >= 1 rule,ppv,0.151515151515152,0.129325473915087,0.172760484375752
+A,3-mod,30,averaged vitals,sPESI >= 1 rule,npv,0.989690721649485,0.981538461538462,0.996947028229216
+A,3-mod,30,averaged vitals,sPESI >= 1 rule,share_low_risk,0.415036674816626,0.390239033379277,0.439716199015051
+A,3-mod,30,averaged vitals,sPESI >= 1 rule,death_rate_low_risk,0.0103092783505155,0.00305297177078386,0.0184615384615385
+A,3-mod,30,averaged vitals,EHR alone,death_rate_low_risk,0.00294550810014728,0,0.00860832137733142
+A,3-mod,30,averaged vitals,EHR alone,specificity_at_spesi_sensitivity,0.595687331536388,0.341938022099575,0.676438309830534
+A,3-mod,30,averaged vitals,Cox stack (fused),death_rate_low_risk,0.00294550810014728,0,0.00747412126419806
+A,3-mod,30,averaged vitals,Cox stack (fused),specificity_at_spesi_sensitivity,0.641509433962264,0.432921624112386,0.718418485394023
+A,3-mod,30,averaged vitals,binary stack (fused),death_rate_low_risk,0.00441826215022091,0,0.0100578330439097
+A,3-mod,30,averaged vitals,binary stack (fused),specificity_at_spesi_sensitivity,0.659029649595687,0.400123576029063,0.721601102169586
+A,3-mod,30,averaged vitals,sPESI (Cox),calibration slope,1.00193519481271,,
+A,3-mod,30,averaged vitals,EHR alone,calibration slope,1.18082388251836,,
+A,3-mod,30,averaged vitals,Cox stack (fused),calibration slope,1.20146762997718,,
+A,3-mod,30,averaged vitals,binary stack (fused),calibration slope,1.05992060074203,,
+A,3-mod,30,"presentation vitals, complete cases",sPESI (Cox),auc,0.744080561613959,0.70572456725496,0.781454235779159
+A,3-mod,30,"presentation vitals, complete cases",sPESI (Cox),brier,0.0874451970821887,0.0749808366077813,0.10034409888201
+A,3-mod,30,"presentation vitals, complete cases",sPESI (Cox),ipa,0.067258581796467,0.0240538621527115,0.105814509823555
+A,3-mod,30,"presentation vitals, complete cases",sPESI (Cox),oe,1.0173077138205,0.857168774252887,1.17674334178459
+A,3-mod,30,"presentation vitals, complete cases",sPESI (Cox),nb05,0.0729942361899954,0.0553608057838667,0.0908619274263472
+A,3-mod,30,"presentation vitals, complete cases",sPESI (Cox),nb10,0.0466293631761258,0.0318809215081032,0.0622017504185611
+A,3-mod,30,"presentation vitals, complete cases",sPESI (Cox),nb20,0.0117905675459632,0.00281339192167347,0.0215098105761642
+A,3-mod,30,"presentation vitals, complete cases",EHR alone,auc,0.863396264994547,0.834029674557747,0.891509891472858
+A,3-mod,30,"presentation vitals, complete cases",EHR alone,brier,0.0738375379036437,0.0627288398281232,0.0854669404185285
+A,3-mod,30,"presentation vitals, complete cases",EHR alone,ipa,0.212405802503133,0.151050035069522,0.270852433905232
+A,3-mod,30,"presentation vitals, complete cases",EHR alone,oe,1.02849098945233,0.877476012811089,1.17779735821161
+A,3-mod,30,"presentation vitals, complete cases",EHR alone,nb05,0.0781269721065253,0.0609447815555187,0.0960856280477552
+A,3-mod,30,"presentation vitals, complete cases",EHR alone,nb10,0.0576427746691536,0.0413408643622262,0.0752370664767697
+A,3-mod,30,"presentation vitals, complete cases",EHR alone,nb20,0.0361710631494804,0.0230009840788886,0.0501586200669775
+A,3-mod,30,"presentation vitals, complete cases",Cox stack (fused),auc,0.886123227917121,0.859659386156941,0.911006623056046
+A,3-mod,30,"presentation vitals, complete cases",Cox stack (fused),brier,0.0702553003392506,0.0597638903292264,0.0814211554973569
+A,3-mod,30,"presentation vitals, complete cases",Cox stack (fused),ipa,0.250616035399213,0.183134723439761,0.312913221732259
+A,3-mod,30,"presentation vitals, complete cases",Cox stack (fused),oe,1.04503082967584,0.898002330218164,1.19362471850029
+A,3-mod,30,"presentation vitals, complete cases",Cox stack (fused),nb05,0.081913416635113,0.0648475812302219,0.0997405646798978
+A,3-mod,30,"presentation vitals, complete cases",Cox stack (fused),nb10,0.061994848565592,0.0463760960459189,0.0787942428315412
+A,3-mod,30,"presentation vitals, complete cases",Cox stack (fused),nb20,0.0447641886490807,0.0302538468052783,0.0600328229171825
+A,3-mod,30,"presentation vitals, complete cases",binary stack (fused),auc,0.887315976008724,0.860120627598384,0.91199667856724
+A,3-mod,30,"presentation vitals, complete cases",binary stack (fused),brier,0.0693312298886532,0.0594754486278589,0.08000060253583
+A,3-mod,30,"presentation vitals, complete cases",binary stack (fused),ipa,0.260472709194574,0.18582957481816,0.327543257944031
+A,3-mod,30,"presentation vitals, complete cases",binary stack (fused),oe,1.01083704896423,0.869819678487002,1.1575684654364
+A,3-mod,30,"presentation vitals, complete cases",binary stack (fused),nb05,0.0822079178762253,0.0654722627397679,0.100387345905379
+A,3-mod,30,"presentation vitals, complete cases",binary stack (fused),nb10,0.0642152944311218,0.0477333333333333,0.0812456372026979
+A,3-mod,30,"presentation vitals, complete cases",binary stack (fused),nb20,0.04396482813749,0.0292230520919556,0.0594973216053048
+A,3-mod,30,"presentation vitals, complete cases",sPESI >= 1 rule,nb05,0.0729942361899954,0.0553608057838667,0.0908619274263472
+A,3-mod,30,"presentation vitals, complete cases",sPESI >= 1 rule,nb10,0.0404121147526423,0.022201796603186,0.0592113273952495
+A,3-mod,30,"presentation vitals, complete cases",sPESI >= 1 rule,nb20,-0.0369704236610711,-0.0577226320824513,-0.0154512986476577
+A,3-mod,30,"presentation vitals, complete cases",sPESI >= 1 rule,sensitivity,0.977099236641221,0.948905109489051,1
+A,3-mod,30,"presentation vitals, complete cases",sPESI >= 1 rule,specificity,0.377678571428571,0.348248435718748,0.407376669029895
+A,3-mod,30,"presentation vitals, complete cases",sPESI >= 1 rule,ppv,0.155151515151515,0.130374739483958,0.181135586309996
+A,3-mod,30,"presentation vitals, complete cases",sPESI >= 1 rule,npv,0.992957746478873,0.984197751856429,1
+A,3-mod,30,"presentation vitals, complete cases",sPESI >= 1 rule,share_low_risk,0.34052757793765,0.312644856620595,0.368262362637363
+A,3-mod,30,"presentation vitals, complete cases",sPESI >= 1 rule,death_rate_low_risk,0.00704225352112676,0,0.0158022481435707
+A,3-mod,30,"presentation vitals, complete cases",EHR alone,death_rate_low_risk,0.00469483568075117,0,0.0121359223300971
+A,3-mod,30,"presentation vitals, complete cases",EHR alone,specificity_at_spesi_sensitivity,0.484821428571429,0.211304633334351,0.662623112725622
+A,3-mod,30,"presentation vitals, complete cases",Cox stack (fused),death_rate_low_risk,0.00234741784037559,0,0.00956995169414707
+A,3-mod,30,"presentation vitals, complete cases",Cox stack (fused),specificity_at_spesi_sensitivity,0.554464285714286,0.34440164923572,0.673723226664403
+A,3-mod,30,"presentation vitals, complete cases",binary stack (fused),death_rate_low_risk,0.00469483568075117,0,0.0116279069767442
+A,3-mod,30,"presentation vitals, complete cases",binary stack (fused),specificity_at_spesi_sensitivity,0.576785714285714,0.310496692867642,0.675869445810756
+A,3-mod,30,"presentation vitals, complete cases",sPESI (Cox),calibration slope,1.03945719491878,,
+A,3-mod,30,"presentation vitals, complete cases",EHR alone,calibration slope,1.13861245792716,,
+A,3-mod,30,"presentation vitals, complete cases",Cox stack (fused),calibration slope,1.18263407922895,,
+A,3-mod,30,"presentation vitals, complete cases",binary stack (fused),calibration slope,1.06292794074704,,
+B,EHR+ECG,30,presentation vitals (main),sPESI (Cox),auc,0.739120364625985,0.707635709987835,0.770326943316324
+B,EHR+ECG,30,presentation vitals (main),sPESI (Cox),brier,0.0557093742474109,0.0485563801278014,0.0629345690576542
+B,EHR+ECG,30,presentation vitals (main),sPESI (Cox),ipa,0.0250962039859155,0.00264035991869777,0.0471415171544873
+B,EHR+ECG,30,presentation vitals (main),sPESI (Cox),oe,1.00745744423613,0.867194781419139,1.15082422994197
+B,EHR+ECG,30,presentation vitals (main),sPESI (Cox),nb05,0.0244070127191475,0.0175118959309584,0.0319159233594471
+B,EHR+ECG,30,presentation vitals (main),sPESI (Cox),nb10,0.0133684733203468,0.00630132538864062,0.0207411863565181
+B,EHR+ECG,30,presentation vitals (main),sPESI (Cox),nb20,-0.00352354761086284,-0.00730491577861808,0.000773461670677209
+B,EHR+ECG,30,presentation vitals (main),EHR alone,auc,0.84853090800804,0.823853240650584,0.870850397471278
+B,EHR+ECG,30,presentation vitals (main),EHR alone,brier,0.0510453818347156,0.0446624431774249,0.0575418672793304
+B,EHR+ECG,30,presentation vitals (main),EHR alone,ipa,0.106715212799839,0.0704349536545118,0.138843908093325
+B,EHR+ECG,30,presentation vitals (main),EHR alone,oe,0.980576154531011,0.849543190090206,1.11689729910024
+B,EHR+ECG,30,presentation vitals (main),EHR alone,nb05,0.0372528088871198,0.0290378317743482,0.0457025384016935
+B,EHR+ECG,30,presentation vitals (main),EHR alone,nb10,0.0256292731370078,0.0185248844581949,0.0333839425537604
+B,EHR+ECG,30,presentation vitals (main),EHR alone,nb20,0.00446888965280165,-0.000687521485046408,0.00979718116191131
+B,EHR+ECG,30,presentation vitals (main),Cox stack (fused),auc,0.861174529121275,0.8397838425507,0.881985024946247
+B,EHR+ECG,30,presentation vitals (main),Cox stack (fused),brier,0.0502716035202954,0.0440123561954656,0.056774626873858
+B,EHR+ECG,30,presentation vitals (main),Cox stack (fused),ipa,0.12025619088822,0.0837244169211767,0.154772606948058
+B,EHR+ECG,30,presentation vitals (main),Cox stack (fused),oe,0.993876337291343,0.860697335547136,1.13026903922598
+B,EHR+ECG,30,presentation vitals (main),Cox stack (fused),nb05,0.0377594036655751,0.0295991568815473,0.0460458468274502
+B,EHR+ECG,30,presentation vitals (main),Cox stack (fused),nb10,0.0247125778236125,0.0176081891447997,0.0323517054352393
+B,EHR+ECG,30,presentation vitals (main),Cox stack (fused),nb20,0.00627363355104847,0.00085725335166724,0.0119478343073221
+B,EHR+ECG,30,presentation vitals (main),binary stack (fused),auc,0.867407416598423,0.845560323247564,0.887786918591702
+B,EHR+ECG,30,presentation vitals (main),binary stack (fused),brier,0.0495512987682245,0.043395814730184,0.0558989534320642
+B,EHR+ECG,30,presentation vitals (main),binary stack (fused),ipa,0.132861391477303,0.087600110865285,0.174158170074727
+B,EHR+ECG,30,presentation vitals (main),binary stack (fused),oe,0.997003956615888,0.865628139909567,1.13375095142128
+B,EHR+ECG,30,presentation vitals (main),binary stack (fused),nb05,0.0377232183242568,0.0293087695174685,0.0458468274501999
+B,EHR+ECG,30,presentation vitals (main),binary stack (fused),nb10,0.0226118177304152,0.0153918872464765,0.0299501546923341
+B,EHR+ECG,30,presentation vitals (main),binary stack (fused),nb20,0.0103987624613269,0.00429700928154005,0.0165005156411138
+B,EHR+ECG,30,presentation vitals (main),sPESI >= 1 rule,nb05,0.0302328526713828,0.0213620162472182,0.0391348989524344
+B,EHR+ECG,30,presentation vitals (main),sPESI >= 1 rule,nb10,-0.00263549902601123,-0.011993430350254,0.0066842366601734
+B,EHR+ECG,30,presentation vitals (main),sPESI >= 1 rule,nb20,-0.0806978343073221,-0.0917862667583362,-0.0698672224132004
+B,EHR+ECG,30,presentation vitals (main),sPESI >= 1 rule,sensitivity,0.983050847457627,0.96195652173913,1
+B,EHR+ECG,30,presentation vitals (main),sPESI >= 1 rule,specificity,0.401537335285505,0.384218552942096,0.420803414607575
+B,EHR+ECG,30,presentation vitals (main),sPESI >= 1 rule,ppv,0.0961857379767828,0.0827813455067736,0.109704855481333
+B,EHR+ECG,30,presentation vitals (main),sPESI >= 1 rule,npv,0.997272727272727,0.993659420289855,1
+B,EHR+ECG,30,presentation vitals (main),sPESI >= 1 rule,share_low_risk,0.378136816775524,0.362323822619457,0.3970436576143
+B,EHR+ECG,30,presentation vitals (main),sPESI >= 1 rule,death_rate_low_risk,0.00272727272727273,0,0.00634057971014493
+B,EHR+ECG,30,presentation vitals (main),EHR alone,death_rate_low_risk,0.00454545454545455,0.000898472596585804,0.00822669104204753
+B,EHR+ECG,30,presentation vitals (main),EHR alone,specificity_at_spesi_sensitivity,0.391654465592972,0.174261412829937,0.539532202789889
+B,EHR+ECG,30,presentation vitals (main),Cox stack (fused),death_rate_low_risk,0.00181818181818182,0,0.00468625561554268
+B,EHR+ECG,30,presentation vitals (main),Cox stack (fused),specificity_at_spesi_sensitivity,0.493777452415813,0.211717736875131,0.603649969252159
+B,EHR+ECG,30,presentation vitals (main),binary stack (fused),death_rate_low_risk,0.000909090909090909,0,0.00284900284900285
+B,EHR+ECG,30,presentation vitals (main),binary stack (fused),specificity_at_spesi_sensitivity,0.576500732064422,0.322339344347736,0.619570474058558
+B,EHR+ECG,30,presentation vitals (main),sPESI (Cox),calibration slope,1.0116950823178,,
+B,EHR+ECG,30,presentation vitals (main),EHR alone,calibration slope,1.12162835752416,,
+B,EHR+ECG,30,presentation vitals (main),Cox stack (fused),calibration slope,1.10517649203819,,
+B,EHR+ECG,30,presentation vitals (main),binary stack (fused),calibration slope,1.02605434765943,,
+B,EHR+ECG,30,averaged vitals,sPESI (Cox),auc,0.730455534324309,0.698426300053896,0.760552217792251
+B,EHR+ECG,30,averaged vitals,sPESI (Cox),brier,0.0550460383616297,0.0479644906880821,0.0623016372714798
+B,EHR+ECG,30,averaged vitals,sPESI (Cox),ipa,0.0367044599000537,0.0102903535212916,0.0630145321799831
+B,EHR+ECG,30,averaged vitals,sPESI (Cox),oe,1.00422902073662,0.863529279606152,1.14770254867148
+B,EHR+ECG,30,averaged vitals,sPESI (Cox),nb05,0.0318792857013624,0.0231043404316911,0.0406008575925892
+B,EHR+ECG,30,averaged vitals,sPESI (Cox),nb10,0.0107711699323937,0.00443069401474352,0.0170753599938887
+B,EHR+ECG,30,averaged vitals,sPESI (Cox),nb20,-0.00171880371261602,-0.00464077002406325,0.00137504297009282
+B,EHR+ECG,30,averaged vitals,EHR alone,auc,0.84853090800804,0.823853240650584,0.870850397471278
+B,EHR+ECG,30,averaged vitals,EHR alone,brier,0.0510453818347156,0.0446624431774249,0.0575418672793304
+B,EHR+ECG,30,averaged vitals,EHR alone,ipa,0.106715212799839,0.0704349536545118,0.138843908093325
+B,EHR+ECG,30,averaged vitals,EHR alone,oe,0.980576154531011,0.849543190090206,1.11689729910024
+B,EHR+ECG,30,averaged vitals,EHR alone,nb05,0.0372528088871198,0.0290378317743482,0.0457025384016935
+B,EHR+ECG,30,averaged vitals,EHR alone,nb10,0.0256292731370078,0.0185248844581949,0.0333839425537604
+B,EHR+ECG,30,averaged vitals,EHR alone,nb20,0.00446888965280165,-0.000687521485046408,0.00979718116191131
+B,EHR+ECG,30,averaged vitals,Cox stack (fused),auc,0.861174529121275,0.8397838425507,0.881985024946247
+B,EHR+ECG,30,averaged vitals,Cox stack (fused),brier,0.0502716035202954,0.0440123561954656,0.056774626873858
+B,EHR+ECG,30,averaged vitals,Cox stack (fused),ipa,0.12025619088822,0.0837244169211767,0.154772606948058
+B,EHR+ECG,30,averaged vitals,Cox stack (fused),oe,0.993876337291343,0.860697335547136,1.13026903922598
+B,EHR+ECG,30,averaged vitals,Cox stack (fused),nb05,0.0377594036655751,0.0295991568815473,0.0460458468274502
+B,EHR+ECG,30,averaged vitals,Cox stack (fused),nb10,0.0247125778236125,0.0176081891447997,0.0323517054352393
+B,EHR+ECG,30,averaged vitals,Cox stack (fused),nb20,0.00627363355104847,0.00085725335166724,0.0119478343073221
+B,EHR+ECG,30,averaged vitals,binary stack (fused),auc,0.867407416598423,0.845560323247564,0.887786918591702
+B,EHR+ECG,30,averaged vitals,binary stack (fused),brier,0.0495512987682245,0.043395814730184,0.0558989534320642
+B,EHR+ECG,30,averaged vitals,binary stack (fused),ipa,0.132861391477303,0.087600110865285,0.174158170074727
+B,EHR+ECG,30,averaged vitals,binary stack (fused),oe,0.997003956615888,0.865628139909567,1.13375095142128
+B,EHR+ECG,30,averaged vitals,binary stack (fused),nb05,0.0377232183242568,0.0293087695174685,0.0458468274501999
+B,EHR+ECG,30,averaged vitals,binary stack (fused),nb10,0.0226118177304152,0.0153918872464765,0.0299501546923341
+B,EHR+ECG,30,averaged vitals,binary stack (fused),nb20,0.0103987624613269,0.00429700928154005,0.0165005156411138
+B,EHR+ECG,30,averaged vitals,sPESI >= 1 rule,nb05,0.0318792857013624,0.0231043404316911,0.0406008575925892
+B,EHR+ECG,30,averaged vitals,sPESI >= 1 rule,nb10,0.00198617317902295,-0.007296321760055,0.0111158855658684
+B,EHR+ECG,30,averaged vitals,sPESI >= 1 rule,nb20,-0.0690099690615332,-0.0799265211412857,-0.0586112066002063
+B,EHR+ECG,30,averaged vitals,sPESI >= 1 rule,sensitivity,0.966101694915254,0.935828877005348,0.989304812834225
+B,EHR+ECG,30,averaged vitals,sPESI >= 1 rule,specificity,0.455710102489019,0.438076859341571,0.475040807539434
+B,EHR+ECG,30,averaged vitals,sPESI >= 1 rule,ppv,0.10313630880579,0.0885203051541634,0.117683419959427
+B,EHR+ECG,30,averaged vitals,sPESI >= 1 rule,npv,0.995203836930456,0.9910128881888,0.998436278342455
+B,EHR+ECG,30,averaged vitals,sPESI >= 1 rule,share_low_risk,0.430044688896528,0.413200412512891,0.448960123753867
+B,EHR+ECG,30,averaged vitals,sPESI >= 1 rule,death_rate_low_risk,0.00479616306954436,0.00156372165754496,0.00898711181120036
+B,EHR+ECG,30,averaged vitals,EHR alone,death_rate_low_risk,0.00399680255795364,0.00080512061761188,0.00808423788631541
+B,EHR+ECG,30,averaged vitals,EHR alone,specificity_at_spesi_sensitivity,0.496705710102489,0.351456717302306,0.565367885295025
+B,EHR+ECG,30,averaged vitals,Cox stack (fused),death_rate_low_risk,0.00159872102318145,0,0.00410509031198686
+B,EHR+ECG,30,averaged vitals,Cox stack (fused),specificity_at_spesi_sensitivity,0.556368960468521,0.459514094257447,0.63323632942254
+B,EHR+ECG,30,averaged vitals,binary stack (fused),death_rate_low_risk,0.00159872102318145,0,0.00391251637305547
+B,EHR+ECG,30,averaged vitals,binary stack (fused),specificity_at_spesi_sensitivity,0.587847730600293,0.522362169261236,0.648213634706526
+B,EHR+ECG,30,averaged vitals,sPESI (Cox),calibration slope,0.955815507574257,,
+B,EHR+ECG,30,averaged vitals,EHR alone,calibration slope,1.12162835752416,,
+B,EHR+ECG,30,averaged vitals,Cox stack (fused),calibration slope,1.10517649203819,,
+B,EHR+ECG,30,averaged vitals,binary stack (fused),calibration slope,1.02605434765943,,
+B,EHR+ECG,30,"presentation vitals, complete cases",sPESI (Cox),auc,0.740370353890422,0.703818889940654,0.773959150055814
+B,EHR+ECG,30,"presentation vitals, complete cases",sPESI (Cox),brier,0.0583997553031981,0.0500203024429208,0.0672786221473457
+B,EHR+ECG,30,"presentation vitals, complete cases",sPESI (Cox),ipa,0.0276753000802286,0.00107344959915075,0.0503157206243197
+B,EHR+ECG,30,"presentation vitals, complete cases",sPESI (Cox),oe,1.00603605738081,0.843949725072204,1.17333533946243
+B,EHR+ECG,30,"presentation vitals, complete cases",sPESI (Cox),nb05,0.0293087603387894,0.0207148356970766,0.037878467996324
+B,EHR+ECG,30,"presentation vitals, complete cases",sPESI (Cox),nb10,0.0116931466624718,0.0041922290388548,0.0197157988569031
+B,EHR+ECG,30,"presentation vitals, complete cases",sPESI (Cox),nb20,-0.0060169891458235,-0.00896944313355357,-0.00271059462010384
+B,EHR+ECG,30,"presentation vitals, complete cases",EHR alone,auc,0.846919403162173,0.817728777735377,0.873601353063058
+B,EHR+ECG,30,"presentation vitals, complete cases",EHR alone,brier,0.0535281639653686,0.0461219390928468,0.0613710114834617
+B,EHR+ECG,30,"presentation vitals, complete cases",EHR alone,ipa,0.108784691054465,0.0646057885107082,0.147429767465009
+B,EHR+ECG,30,"presentation vitals, complete cases",EHR alone,oe,1.00108197115815,0.843269387500707,1.16279286815644
+B,EHR+ECG,30,"presentation vitals, complete cases",EHR alone,nb05,0.0401629368371377,0.0303985246268101,0.050596110379772
+B,EHR+ECG,30,"presentation vitals, complete cases",EHR alone,nb10,0.0285249855802003,0.0191376959781868,0.0380682711971056
+B,EHR+ECG,30,"presentation vitals, complete cases",EHR alone,nb20,0.00495516753185465,-0.00106182161396885,0.0112081170363379
+B,EHR+ECG,30,"presentation vitals, complete cases",Cox stack (fused),auc,0.859118685295601,0.831479250214232,0.882968100519275
+B,EHR+ECG,30,"presentation vitals, complete cases",Cox stack (fused),brier,0.0528277388021033,0.04565725013927,0.0604988006368699
+B,EHR+ECG,30,"presentation vitals, complete cases",Cox stack (fused),ipa,0.120446395511142,0.0753798045050317,0.158699795396035
+B,EHR+ECG,30,"presentation vitals, complete cases",Cox stack (fused),oe,1.01243049525899,0.856870990242948,1.17501948029551
+B,EHR+ECG,30,"presentation vitals, complete cases",Cox stack (fused),nb05,0.0403864782295522,0.0305481731700653,0.0508438687563647
+B,EHR+ECG,30,"presentation vitals, complete cases",Cox stack (fused),nb10,0.0277384510513345,0.0186657752608673,0.0372830475591212
+B,EHR+ECG,30,"presentation vitals, complete cases",Cox stack (fused),nb20,0.00684285040113261,0.000468971212836242,0.0133317602642756
+B,EHR+ECG,30,"presentation vitals, complete cases",binary stack (fused),auc,0.865748568716443,0.840258376267137,0.888503379859354
+B,EHR+ECG,30,"presentation vitals, complete cases",binary stack (fused),brier,0.0522880480339886,0.0451482063104257,0.0598515765076998
+B,EHR+ECG,30,"presentation vitals, complete cases",binary stack (fused),ipa,0.129431958231948,0.0773298580054417,0.176076148940586
+B,EHR+ECG,30,"presentation vitals, complete cases",binary stack (fused),oe,1.00116396160302,0.846951072459246,1.16564467091978
+B,EHR+ECG,30,"presentation vitals, complete cases",binary stack (fused),nb05,0.0409577506768337,0.0313200119222076,0.0512425175728372
+B,EHR+ECG,30,"presentation vitals, complete cases",binary stack (fused),nb10,0.025378847464737,0.016463478580043,0.0346612657962351
+B,EHR+ECG,30,"presentation vitals, complete cases",binary stack (fused),nb20,0.0112081170363379,0.0038933459178858,0.01852288815479
+B,EHR+ECG,30,"presentation vitals, complete cases",sPESI >= 1 rule,nb05,0.0317428777228583,0.0211600556369688,0.0428212165619334
+B,EHR+ECG,30,"presentation vitals, complete cases",sPESI >= 1 rule,nb10,-0.0027266530334015,-0.0138430077080384,0.00912511142572491
+B,EHR+ECG,30,"presentation vitals, complete cases",sPESI >= 1 rule,nb20,-0.0845917885795186,-0.0975696083058046,-0.0714900896649363
+B,EHR+ECG,30,"presentation vitals, complete cases",sPESI >= 1 rule,sensitivity,0.977941176470588,0.949272291820192,1
+B,EHR+ECG,30,"presentation vitals, complete cases",sPESI >= 1 rule,specificity,0.370146243066062,0.34929435483871,0.392141556109136
+B,EHR+ECG,30,"presentation vitals, complete cases",sPESI >= 1 rule,ppv,0.0962373371924747,0.0807860262008734,0.11259595959596
+B,EHR+ECG,30,"presentation vitals, complete cases",sPESI >= 1 rule,npv,0.995929443690638,0.990476190476191,1
+B,EHR+ECG,30,"presentation vitals, complete cases",sPESI >= 1 rule,share_low_risk,0.347805568664464,0.327984898537046,0.368570080226522
+B,EHR+ECG,30,"presentation vitals, complete cases",sPESI >= 1 rule,death_rate_low_risk,0.00407055630936228,0,0.00952380952380953
+B,EHR+ECG,30,"presentation vitals, complete cases",EHR alone,death_rate_low_risk,0.00271370420624152,0,0.00714311260985081
+B,EHR+ECG,30,"presentation vitals, complete cases",EHR alone,specificity_at_spesi_sensitivity,0.392334846192637,0.16919940284302,0.546705730147837
+B,EHR+ECG,30,"presentation vitals, complete cases",Cox stack (fused),death_rate_low_risk,0.00271370420624152,0,0.00697350069735007
+B,EHR+ECG,30,"presentation vitals, complete cases",Cox stack (fused),specificity_at_spesi_sensitivity,0.484619263741805,0.205319698917003,0.617185576736715
+B,EHR+ECG,30,"presentation vitals, complete cases",binary stack (fused),death_rate_low_risk,0.00135685210312076,0,0.00427990669368713
+B,EHR+ECG,30,"presentation vitals, complete cases",binary stack (fused),specificity_at_spesi_sensitivity,0.56732223903177,0.305716960696333,0.662848248887299
+B,EHR+ECG,30,"presentation vitals, complete cases",sPESI (Cox),calibration slope,1.02588920028575,,
+B,EHR+ECG,30,"presentation vitals, complete cases",EHR alone,calibration slope,1.10474456766918,,
+B,EHR+ECG,30,"presentation vitals, complete cases",Cox stack (fused),calibration slope,1.08822715997003,,
+B,EHR+ECG,30,"presentation vitals, complete cases",binary stack (fused),calibration slope,1.01353717368271,,
+B,EHR+ECG,365,presentation vitals (main),sPESI (Cox),auc,0.754410997900196,0.734690962737638,0.773929090013495
+B,EHR+ECG,365,presentation vitals (main),sPESI (Cox),brier,0.145239824358672,0.137649684101883,0.153164565425575
+B,EHR+ECG,365,presentation vitals (main),sPESI (Cox),ipa,0.133964538597128,0.105563800810121,0.159066396968493
+B,EHR+ECG,365,presentation vitals (main),sPESI (Cox),oe,1.01586544723149,0.949415397887756,1.08431574332046
+B,EHR+ECG,365,presentation vitals (main),sPESI (Cox),nb05,0.17171753722567,0.155786940710318,0.18727723399251
+B,EHR+ECG,365,presentation vitals (main),sPESI (Cox),nb10,0.156640311676407,0.140330774225583,0.17195771742867
+B,EHR+ECG,365,presentation vitals (main),sPESI (Cox),nb20,0.0763148848401513,0.064023289790306,0.0887762117566174
+B,EHR+ECG,365,presentation vitals (main),EHR alone,auc,0.86355007821418,0.84826554556567,0.879154548131356
+B,EHR+ECG,365,presentation vitals (main),EHR alone,brier,0.118358945147244,0.110729411295871,0.12531182942125
+B,EHR+ECG,365,presentation vitals (main),EHR alone,ipa,0.294249740907027,0.2591781827965,0.328809070553873
+B,EHR+ECG,365,presentation vitals (main),EHR alone,oe,0.982318429585246,0.923310716576946,1.0399139484912
+B,EHR+ECG,365,presentation vitals (main),EHR alone,nb05,0.179099346854589,0.163304445369181,0.19428135912142
+B,EHR+ECG,365,presentation vitals (main),EHR alone,nb10,0.163209961422406,0.147656697605134,0.178490126427562
+B,EHR+ECG,365,presentation vitals (main),EHR alone,nb20,0.128652457889309,0.11378480577518,0.144035751117222
+B,EHR+ECG,365,presentation vitals (main),Cox stack (fused),auc,0.869312560774532,0.854714157652434,0.884196438989842
+B,EHR+ECG,365,presentation vitals (main),Cox stack (fused),brier,0.117124737379709,0.109308991038716,0.124176058073576
+B,EHR+ECG,365,presentation vitals (main),Cox stack (fused),ipa,0.301609070196663,0.265569112261159,0.337475996406123
+B,EHR+ECG,365,presentation vitals (main),Cox stack (fused),oe,1.01072841159721,0.951031291606651,1.06863967735715
+B,EHR+ECG,365,presentation vitals (main),Cox stack (fused),nb05,0.181433301369615,0.165852798031517,0.196758698051419
+B,EHR+ECG,365,presentation vitals (main),Cox stack (fused),nb10,0.165769069172301,0.150108857568466,0.181125625453573
+B,EHR+ECG,365,presentation vitals (main),Cox stack (fused),nb20,0.12985562048814,0.114556118941217,0.145241062220694
+B,EHR+ECG,365,presentation vitals (main),binary stack (fused),auc,0.8684761622909,0.854223070562142,0.883211256676772
+B,EHR+ECG,365,presentation vitals (main),binary stack (fused),brier,0.116179345403188,0.108480646211778,0.123095234607784
+B,EHR+ECG,365,presentation vitals (main),binary stack (fused),ipa,0.307246249807754,0.270756041779196,0.3431423633508
+B,EHR+ECG,365,presentation vitals (main),binary stack (fused),oe,0.999219583732008,0.939236098820963,1.05729207654129
+B,EHR+ECG,365,presentation vitals (main),binary stack (fused),nb05,0.183839626567278,0.168205749850735,0.19947214633352
+B,EHR+ECG,365,presentation vitals (main),binary stack (fused),nb10,0.166838547037928,0.151634773308888,0.182345976089531
+B,EHR+ECG,365,presentation vitals (main),binary stack (fused),nb20,0.131402543829495,0.116356565830182,0.146620402200069
+B,EHR+ECG,365,presentation vitals (main),sPESI >= 1 rule,nb05,0.18112572596841,0.165492753885401,0.196016446237629
+B,EHR+ECG,365,presentation vitals (main),sPESI >= 1 rule,nb10,0.156640311676407,0.140330774225583,0.17195771742867
+B,EHR+ECG,365,presentation vitals (main),sPESI >= 1 rule,nb20,0.0984874527328979,0.0809449123410107,0.115333877621176
+B,EHR+ECG,365,presentation vitals (main),sPESI >= 1 rule,sensitivity,0.953225806451613,0.935533323189288,0.96812160689095
+B,EHR+ECG,365,presentation vitals (main),sPESI >= 1 rule,specificity,0.467889908256881,0.448987716114022,0.488831218149534
+B,EHR+ECG,365,presentation vitals (main),sPESI >= 1 rule,ppv,0.326699834162521,0.304082010796619,0.348485901258275
+B,EHR+ECG,365,presentation vitals (main),sPESI >= 1 rule,npv,0.973636363636364,0.96388832429991,0.982030951332466
+B,EHR+ECG,365,presentation vitals (main),sPESI >= 1 rule,share_low_risk,0.378136816775524,0.362323822619457,0.3970436576143
+B,EHR+ECG,365,presentation vitals (main),sPESI >= 1 rule,death_rate_low_risk,0.0263636363636364,0.0179690486675345,0.0361116757000903
+B,EHR+ECG,365,presentation vitals (main),EHR alone,death_rate_low_risk,0.0218181818181818,0.0129029287708667,0.0301659149808144
+B,EHR+ECG,365,presentation vitals (main),EHR alone,specificity_at_spesi_sensitivity,0.545653123634775,0.445618325279693,0.612425093569891
+B,EHR+ECG,365,presentation vitals (main),Cox stack (fused),death_rate_low_risk,0.0163636363636364,0.00929324923615949,0.024075750541628
+B,EHR+ECG,365,presentation vitals (main),Cox stack (fused),specificity_at_spesi_sensitivity,0.574049803407602,0.497797952349583,0.643433192694355
+B,EHR+ECG,365,presentation vitals (main),binary stack (fused),death_rate_low_risk,0.0172727272727273,0.0100818019126072,0.0253283811151193
+B,EHR+ECG,365,presentation vitals (main),binary stack (fused),specificity_at_spesi_sensitivity,0.588903451288772,0.476976397848676,0.647748059089047
+B,EHR+ECG,365,presentation vitals (main),sPESI (Cox),calibration slope,1.108887824545,,
+B,EHR+ECG,365,presentation vitals (main),EHR alone,calibration slope,1.1135506268071,,
+B,EHR+ECG,365,presentation vitals (main),Cox stack (fused),calibration slope,1.05785979203776,,
+B,EHR+ECG,365,presentation vitals (main),binary stack (fused),calibration slope,1.01932816839959,,
+B,EHR+ECG,365,averaged vitals,sPESI (Cox),auc,0.761940698149636,0.74225119378388,0.780195989252798
+B,EHR+ECG,365,averaged vitals,sPESI (Cox),brier,0.142079005617258,0.134219092457494,0.149851359002276
+B,EHR+ECG,365,averaged vitals,sPESI (Cox),ipa,0.152811856329839,0.12346475949276,0.181105822277693
+B,EHR+ECG,365,averaged vitals,sPESI (Cox),oe,1.01650341158587,0.950569014296292,1.08344150292764
+B,EHR+ECG,365,averaged vitals,sPESI (Cox),nb05,0.17171753722567,0.155786940710318,0.18727723399251
+B,EHR+ECG,365,averaged vitals,sPESI (Cox),nb10,0.159352201978534,0.143537298040564,0.174592261563729
+B,EHR+ECG,365,averaged vitals,sPESI (Cox),nb20,0.107081471295978,0.090237194912341,0.123667927122723
+B,EHR+ECG,365,averaged vitals,EHR alone,auc,0.86355007821418,0.84826554556567,0.879154548131356
+B,EHR+ECG,365,averaged vitals,EHR alone,brier,0.118358945147244,0.110729411295871,0.12531182942125
+B,EHR+ECG,365,averaged vitals,EHR alone,ipa,0.294249740907027,0.2591781827965,0.328809070553873
+B,EHR+ECG,365,averaged vitals,EHR alone,oe,0.982318429585246,0.923310716576946,1.0399139484912
+B,EHR+ECG,365,averaged vitals,EHR alone,nb05,0.179099346854589,0.163304445369181,0.19428135912142
+B,EHR+ECG,365,averaged vitals,EHR alone,nb10,0.163209961422406,0.147656697605134,0.178490126427562
+B,EHR+ECG,365,averaged vitals,EHR alone,nb20,0.128652457889309,0.11378480577518,0.144035751117222
+B,EHR+ECG,365,averaged vitals,Cox stack (fused),auc,0.869312560774532,0.854714157652434,0.884196438989842
+B,EHR+ECG,365,averaged vitals,Cox stack (fused),brier,0.117124737379709,0.109308991038716,0.124176058073576
+B,EHR+ECG,365,averaged vitals,Cox stack (fused),ipa,0.301609070196663,0.265569112261159,0.337475996406123
+B,EHR+ECG,365,averaged vitals,Cox stack (fused),oe,1.01072841159721,0.951031291606651,1.06863967735715
+B,EHR+ECG,365,averaged vitals,Cox stack (fused),nb05,0.181433301369615,0.165852798031517,0.196758698051419
+B,EHR+ECG,365,averaged vitals,Cox stack (fused),nb10,0.165769069172301,0.150108857568466,0.181125625453573
+B,EHR+ECG,365,averaged vitals,Cox stack (fused),nb20,0.12985562048814,0.114556118941217,0.145241062220694
+B,EHR+ECG,365,averaged vitals,binary stack (fused),auc,0.8684761622909,0.854223070562142,0.883211256676772
+B,EHR+ECG,365,averaged vitals,binary stack (fused),brier,0.116179345403188,0.108480646211778,0.123095234607784
+B,EHR+ECG,365,averaged vitals,binary stack (fused),ipa,0.307246249807754,0.270756041779196,0.3431423633508
+B,EHR+ECG,365,averaged vitals,binary stack (fused),oe,0.999219583732008,0.939236098820963,1.05729207654129
+B,EHR+ECG,365,averaged vitals,binary stack (fused),nb05,0.183839626567278,0.168205749850735,0.19947214633352
+B,EHR+ECG,365,averaged vitals,binary stack (fused),nb10,0.166838547037928,0.151634773308888,0.182345976089531
+B,EHR+ECG,365,averaged vitals,binary stack (fused),nb20,0.131402543829495,0.116356565830182,0.146620402200069
+B,EHR+ECG,365,averaged vitals,sPESI >= 1 rule,nb05,0.180962891932478,0.165565124568038,0.195499900490311
+B,EHR+ECG,365,averaged vitals,sPESI >= 1 rule,nb10,0.159352201978534,0.143537298040564,0.174592261563729
+B,EHR+ECG,365,averaged vitals,sPESI >= 1 rule,nb20,0.108026813337917,0.0908387762117566,0.124699209350292
+B,EHR+ECG,365,averaged vitals,sPESI >= 1 rule,sensitivity,0.940322580645161,0.921415834213397,0.956937799043062
+B,EHR+ECG,365,averaged vitals,sPESI >= 1 rule,specificity,0.530362603757099,0.510770360390141,0.550643548137452
+B,EHR+ECG,365,averaged vitals,sPESI >= 1 rule,ppv,0.351628468033776,0.327808409269624,0.375232042446592
+B,EHR+ECG,365,averaged vitals,sPESI >= 1 rule,npv,0.970423661071143,0.961018297533811,0.978605714092084
+B,EHR+ECG,365,averaged vitals,sPESI >= 1 rule,share_low_risk,0.430044688896528,0.413200412512891,0.448960123753867
+B,EHR+ECG,365,averaged vitals,sPESI >= 1 rule,death_rate_low_risk,0.0295763389288569,0.0213942859079156,0.0389817024661893
+B,EHR+ECG,365,averaged vitals,EHR alone,death_rate_low_risk,0.0215827338129496,0.0140952606791887,0.0309196564133106
+B,EHR+ECG,365,averaged vitals,EHR alone,specificity_at_spesi_sensitivity,0.591961555264308,0.508105112414286,0.641155712829542
+B,EHR+ECG,365,averaged vitals,Cox stack (fused),death_rate_low_risk,0.0183852917665867,0.0112537933082814,0.0257479429812595
+B,EHR+ECG,365,averaged vitals,Cox stack (fused),specificity_at_spesi_sensitivity,0.613805155089559,0.55896991864983,0.671268363595835
+B,EHR+ECG,365,averaged vitals,binary stack (fused),death_rate_low_risk,0.0183852917665867,0.0112537933082814,0.0258068302286839
+B,EHR+ECG,365,averaged vitals,binary stack (fused),specificity_at_spesi_sensitivity,0.631716906946265,0.56244158824419,0.665069945549011
+B,EHR+ECG,365,averaged vitals,sPESI (Cox),calibration slope,1.06835541314551,,
+B,EHR+ECG,365,averaged vitals,EHR alone,calibration slope,1.1135506268071,,
+B,EHR+ECG,365,averaged vitals,Cox stack (fused),calibration slope,1.05785979203776,,
+B,EHR+ECG,365,averaged vitals,binary stack (fused),calibration slope,1.01932816839959,,
+B,EHR+ECG,365,"presentation vitals, complete cases",sPESI (Cox),auc,0.748410808042003,0.724264052724819,0.771309466970609
+B,EHR+ECG,365,"presentation vitals, complete cases",sPESI (Cox),brier,0.15020618314333,0.141464956435623,0.159295676263586
+B,EHR+ECG,365,"presentation vitals, complete cases",sPESI (Cox),ipa,0.136317139827075,0.10364432138318,0.164505324175539
+B,EHR+ECG,365,"presentation vitals, complete cases",sPESI (Cox),oe,1.01402220997748,0.937786897883935,1.08725798489843
+B,EHR+ECG,365,"presentation vitals, complete cases",sPESI (Cox),nb05,0.183328779712377,0.164948709669407,0.201224510071782
+B,EHR+ECG,365,"presentation vitals, complete cases",sPESI (Cox),nb10,0.164543023438729,0.145974254103088,0.18247601069687
+B,EHR+ECG,365,"presentation vitals, complete cases",sPESI (Cox),nb20,0.0891930155733837,0.0743216139688532,0.103589546956111
+B,EHR+ECG,365,"presentation vitals, complete cases",EHR alone,auc,0.862923549750288,0.845342161568899,0.879814616750448
+B,EHR+ECG,365,"presentation vitals, complete cases",EHR alone,brier,0.121884492172176,0.11375776919625,0.130526837804457
+B,EHR+ECG,365,"presentation vitals, complete cases",EHR alone,ipa,0.299166355159035,0.258566231309011,0.338104057085399
+B,EHR+ECG,365,"presentation vitals, complete cases",EHR alone,oe,1.00859062107013,0.944798525537813,1.07367595650401
+B,EHR+ECG,365,"presentation vitals, complete cases",EHR alone,nb05,0.190382752539679,0.172051737413378,0.208440550408584
+B,EHR+ECG,365,"presentation vitals, complete cases",EHR alone,nb10,0.173561952703057,0.155994704000839,0.191494939961198
+B,EHR+ECG,365,"presentation vitals, complete cases",EHR alone,nb20,0.13909863142992,0.121870575743275,0.156680627654554
+B,EHR+ECG,365,"presentation vitals, complete cases",Cox stack (fused),auc,0.867684722755795,0.851004615592799,0.883638423664259
+B,EHR+ECG,365,"presentation vitals, complete cases",Cox stack (fused),brier,0.120860668309766,0.112575102488142,0.129532997090538
+B,EHR+ECG,365,"presentation vitals, complete cases",Cox stack (fused),ipa,0.305053324012747,0.263179293050215,0.344814890404783
+B,EHR+ECG,365,"presentation vitals, complete cases",Cox stack (fused),oe,1.03501039786218,0.967477768359498,1.10115076639624
+B,EHR+ECG,365,"presentation vitals, complete cases",Cox stack (fused),nb05,0.192493976801371,0.174385882119172,0.210433173542634
+B,EHR+ECG,365,"presentation vitals, complete cases",Cox stack (fused),nb10,0.175869120654397,0.158826228304756,0.193906979183053
+B,EHR+ECG,365,"presentation vitals, complete cases",Cox stack (fused),nb20,0.139688532326569,0.122224516281265,0.156913638508731
+B,EHR+ECG,365,"presentation vitals, complete cases",binary stack (fused),auc,0.866899731079524,0.850394162095155,0.882891069486014
+B,EHR+ECG,365,"presentation vitals, complete cases",binary stack (fused),brier,0.119602052005959,0.111679810863617,0.128121320306297
+B,EHR+ECG,365,"presentation vitals, complete cases",binary stack (fused),ipa,0.312290345195125,0.27097352993701,0.35151940873065
+B,EHR+ECG,365,"presentation vitals, complete cases",binary stack (fused),oe,1.02430894235462,0.958292143919857,1.08975870181964
+B,EHR+ECG,365,"presentation vitals, complete cases",binary stack (fused),nb05,0.194456173468121,0.176372916718412,0.212265592012121
+B,EHR+ECG,365,"presentation vitals, complete cases",binary stack (fused),nb10,0.177337318441613,0.159927376645168,0.195532483876042
+B,EHR+ECG,365,"presentation vitals, complete cases",binary stack (fused),nb20,0.141104294478528,0.123168357715904,0.158332350165172
+B,EHR+ECG,365,"presentation vitals, complete cases",sPESI >= 1 rule,nb05,0.190208887012245,0.172324333722461,0.207403566727106
+B,EHR+ECG,365,"presentation vitals, complete cases",sPESI >= 1 rule,nb10,0.164543023438729,0.145974254103088,0.18247601069687
+B,EHR+ECG,365,"presentation vitals, complete cases",sPESI >= 1 rule,nb20,0.103586597451628,0.0836449976403964,0.12341021708353
+B,EHR+ECG,365,"presentation vitals, complete cases",sPESI >= 1 rule,sensitivity,0.951578947368421,0.930882230032595,0.969009861974951
+B,EHR+ECG,365,"presentation vitals, complete cases",sPESI >= 1 rule,specificity,0.434306569343066,0.409541360285764,0.459031054289886
+B,EHR+ECG,365,"presentation vitals, complete cases",sPESI >= 1 rule,ppv,0.327062228654124,0.302186735166956,0.351570409098099
+B,EHR+ECG,365,"presentation vitals, complete cases",sPESI >= 1 rule,npv,0.968792401628223,0.955307262569832,0.980264314531053
+B,EHR+ECG,365,"presentation vitals, complete cases",sPESI >= 1 rule,share_low_risk,0.347805568664464,0.327984898537046,0.368570080226522
+B,EHR+ECG,365,"presentation vitals, complete cases",sPESI >= 1 rule,death_rate_low_risk,0.0312075983717775,0.0197356854689466,0.0446927374301676
+B,EHR+ECG,365,"presentation vitals, complete cases",EHR alone,death_rate_low_risk,0.0176390773405699,0.00894564473918991,0.0291034275596028
+B,EHR+ECG,365,"presentation vitals, complete cases",EHR alone,specificity_at_spesi_sensitivity,0.541362530413625,0.436551957628081,0.618402784904317
+B,EHR+ECG,365,"presentation vitals, complete cases",Cox stack (fused),death_rate_low_risk,0.0176390773405699,0.00835654596100279,0.02834199843316
+B,EHR+ECG,365,"presentation vitals, complete cases",Cox stack (fused),specificity_at_spesi_sensitivity,0.567518248175183,0.475645505477905,0.64536214670075
+B,EHR+ECG,365,"presentation vitals, complete cases",binary stack (fused),death_rate_low_risk,0.0176390773405699,0.00834463375057951,0.0282261946664458
+B,EHR+ECG,365,"presentation vitals, complete cases",binary stack (fused),specificity_at_spesi_sensitivity,0.583941605839416,0.451035619749023,0.64621009822649
+B,EHR+ECG,365,"presentation vitals, complete cases",sPESI (Cox),calibration slope,1.09915760401457,,
+B,EHR+ECG,365,"presentation vitals, complete cases",EHR alone,calibration slope,1.10664432613256,,
+B,EHR+ECG,365,"presentation vitals, complete cases",Cox stack (fused),calibration slope,1.04737090016168,,
+B,EHR+ECG,365,"presentation vitals, complete cases",binary stack (fused),calibration slope,1.01412401271621,,
+B,3-mod,30,presentation vitals (main),sPESI (Cox),auc,0.741551635259751,0.698856233949609,0.785645458703794
+B,3-mod,30,presentation vitals (main),sPESI (Cox),brier,0.0515968279967601,0.0419653305307298,0.0620525853584885
+B,3-mod,30,presentation vitals (main),sPESI (Cox),ipa,0.0276893637827254,-0.0102309626447929,0.0600621262284082
+B,3-mod,30,presentation vitals (main),sPESI (Cox),oe,1.00670750360542,0.803988240898304,1.223704043895
+B,3-mod,30,presentation vitals (main),sPESI (Cox),nb05,0.022963101704439,0.0137478928638322,0.0327411500280952
+B,3-mod,30,presentation vitals (main),sPESI (Cox),nb10,0.0044286279161724,-0.00142348754448399,0.0115480427046263
+B,3-mod,30,presentation vitals (main),sPESI (Cox),nb20,-0.00320284697508897,-0.00783362989323844,0.00231316725978648
+B,3-mod,30,presentation vitals (main),EHR alone,auc,0.863184222082212,0.82806810057178,0.895313370433722
+B,3-mod,30,presentation vitals (main),EHR alone,brier,0.0474667382351474,0.0388506664718722,0.0567522457264461
+B,3-mod,30,presentation vitals (main),EHR alone,ipa,0.105518376915089,0.0489243363565708,0.156197362763848
+B,3-mod,30,presentation vitals (main),EHR alone,oe,0.982880352706309,0.78977572635356,1.18855214819695
+B,3-mod,30,presentation vitals (main),EHR alone,nb05,0.0365236935755759,0.0252846975088968,0.0485118936130362
+B,3-mod,30,presentation vitals (main),EHR alone,nb10,0.0205614867536576,0.0109134045077106,0.0306840648477659
+B,3-mod,30,presentation vitals (main),EHR alone,nb20,0.00284697508896797,-0.00374110320284698,0.0096085409252669
+B,3-mod,30,presentation vitals (main),Cox stack (fused),auc,0.88083509937568,0.847439505327296,0.910262593470451
+B,3-mod,30,presentation vitals (main),Cox stack (fused),brier,0.0454041906123627,0.0374959411856813,0.0541495272394684
+B,3-mod,30,presentation vitals (main),Cox stack (fused),ipa,0.144385824182664,0.0854436845291632,0.196453902418901
+B,3-mod,30,presentation vitals (main),Cox stack (fused),oe,0.983526319851699,0.786211006179057,1.18007999607735
+B,3-mod,30,presentation vitals (main),Cox stack (fused),nb05,0.0368982955609665,0.0254336017980895,0.0488864955984267
+B,3-mod,30,presentation vitals (main),Cox stack (fused),nb10,0.0239620403321471,0.0138374851720047,0.0347172795571372
+B,3-mod,30,presentation vitals (main),Cox stack (fused),nb20,0.0108540925266904,0.00249110320284698,0.0197553380782918
+B,3-mod,30,presentation vitals (main),binary stack (fused),auc,0.879832751016668,0.848779529486873,0.907488629980335
+B,3-mod,30,presentation vitals (main),binary stack (fused),brier,0.0457228185869441,0.0377853412827968,0.0547669412370123
+B,3-mod,30,presentation vitals (main),binary stack (fused),ipa,0.138381475064511,0.0738657112193218,0.193312752576363
+B,3-mod,30,presentation vitals (main),binary stack (fused),oe,0.994409028679947,0.800029247591167,1.20192402238601
+B,3-mod,30,presentation vitals (main),binary stack (fused),nb05,0.0376849597302866,0.0261846787787975,0.0494118748829369
+B,3-mod,30,presentation vitals (main),binary stack (fused),nb10,0.0250691973111902,0.0151838671411625,0.0359035191775405
+B,3-mod,30,presentation vitals (main),binary stack (fused),nb20,0.00640569395017794,-0.00142348754448399,0.0142348754448399
+B,3-mod,30,presentation vitals (main),sPESI >= 1 rule,nb05,0.02727102453643,0.0154691889867016,0.0404944746207155
+B,3-mod,30,presentation vitals (main),sPESI >= 1 rule,nb10,-0.00490312376433374,-0.0175563463819692,0.00877817319098458
+B,3-mod,30,presentation vitals (main),sPESI >= 1 rule,nb20,-0.0813167259786477,-0.096085409252669,-0.0653024911032029
+B,3-mod,30,presentation vitals (main),sPESI >= 1 rule,sensitivity,1,1,1
+B,3-mod,30,presentation vitals (main),sPESI >= 1 rule,specificity,0.417043740573152,0.389931432608876,0.443708925579061
+B,3-mod,30,presentation vitals (main),sPESI >= 1 rule,ppv,0.0927230046948357,0.07419624770608,0.112985888273046
+B,3-mod,30,presentation vitals (main),sPESI >= 1 rule,npv,1,1,1
+B,3-mod,30,presentation vitals (main),sPESI >= 1 rule,share_low_risk,0.393594306049822,0.36797153024911,0.419928825622776
+B,3-mod,30,presentation vitals (main),sPESI >= 1 rule,death_rate_low_risk,0,0,0
+B,3-mod,30,presentation vitals (main),EHR alone,death_rate_low_risk,0.00180831826401447,0,0.0072202166064982
+B,3-mod,30,presentation vitals (main),EHR alone,specificity_at_spesi_sensitivity,0.244343891402715,0.223642587722491,0.589224313631459
+B,3-mod,30,presentation vitals (main),Cox stack (fused),death_rate_low_risk,0.00180831826401447,0,0.00576923076923077
+B,3-mod,30,presentation vitals (main),Cox stack (fused),specificity_at_spesi_sensitivity,0.266968325791855,0.246223564954683,0.621813267995482
+B,3-mod,30,presentation vitals (main),binary stack (fused),death_rate_low_risk,0.00180831826401447,0,0.00576923076923077
+B,3-mod,30,presentation vitals (main),binary stack (fused),specificity_at_spesi_sensitivity,0.259426847662142,0.23924446888435,0.649587453381808
+B,3-mod,30,presentation vitals (main),sPESI (Cox),calibration slope,1.04153888597859,,
+B,3-mod,30,presentation vitals (main),EHR alone,calibration slope,1.02286947865617,,
+B,3-mod,30,presentation vitals (main),Cox stack (fused),calibration slope,1.16682335527172,,
+B,3-mod,30,presentation vitals (main),binary stack (fused),calibration slope,1.05625737618525,,
+B,3-mod,30,averaged vitals,sPESI (Cox),auc,0.719576340760257,0.670238322926243,0.765292257425141
+B,3-mod,30,averaged vitals,sPESI (Cox),brier,0.0515777999907429,0.0420945102533029,0.0622607560823393
+B,3-mod,30,averaged vitals,sPESI (Cox),ipa,0.0280479349072467,-0.010522365695259,0.0637192412455616
+B,3-mod,30,averaged vitals,sPESI (Cox),oe,1.00532863173071,0.7975728405211,1.22903147287182
+B,3-mod,30,averaged vitals,sPESI (Cox),nb05,0.0177186739089717,0.00824030717362802,0.0278713242180184
+B,3-mod,30,averaged vitals,sPESI (Cox),nb10,0.00830367734282325,-1.97706603400542e-06,0.017162910241202
+B,3-mod,30,averaged vitals,sPESI (Cox),nb20,-0.00249110320284698,-0.00640569395017794,0.00177935943060498
+B,3-mod,30,averaged vitals,EHR alone,auc,0.863184222082212,0.82806810057178,0.895313370433722
+B,3-mod,30,averaged vitals,EHR alone,brier,0.0474667382351474,0.0388506664718722,0.0567522457264461
+B,3-mod,30,averaged vitals,EHR alone,ipa,0.105518376915089,0.0489243363565708,0.156197362763848
+B,3-mod,30,averaged vitals,EHR alone,oe,0.982880352706309,0.78977572635356,1.18855214819695
+B,3-mod,30,averaged vitals,EHR alone,nb05,0.0365236935755759,0.0252846975088968,0.0485118936130362
+B,3-mod,30,averaged vitals,EHR alone,nb10,0.0205614867536576,0.0109134045077106,0.0306840648477659
+B,3-mod,30,averaged vitals,EHR alone,nb20,0.00284697508896797,-0.00374110320284698,0.0096085409252669
+B,3-mod,30,averaged vitals,Cox stack (fused),auc,0.88083509937568,0.847439505327296,0.910262593470451
+B,3-mod,30,averaged vitals,Cox stack (fused),brier,0.0454041906123627,0.0374959411856813,0.0541495272394684
+B,3-mod,30,averaged vitals,Cox stack (fused),ipa,0.144385824182664,0.0854436845291632,0.196453902418901
+B,3-mod,30,averaged vitals,Cox stack (fused),oe,0.983526319851699,0.786211006179057,1.18007999607735
+B,3-mod,30,averaged vitals,Cox stack (fused),nb05,0.0368982955609665,0.0254336017980895,0.0488864955984267
+B,3-mod,30,averaged vitals,Cox stack (fused),nb10,0.0239620403321471,0.0138374851720047,0.0347172795571372
+B,3-mod,30,averaged vitals,Cox stack (fused),nb20,0.0108540925266904,0.00249110320284698,0.0197553380782918
+B,3-mod,30,averaged vitals,binary stack (fused),auc,0.879832751016668,0.848779529486873,0.907488629980335
+B,3-mod,30,averaged vitals,binary stack (fused),brier,0.0457228185869441,0.0377853412827968,0.0547669412370123
+B,3-mod,30,averaged vitals,binary stack (fused),ipa,0.138381475064511,0.0738657112193218,0.193312752576363
+B,3-mod,30,averaged vitals,binary stack (fused),oe,0.994409028679947,0.800029247591167,1.20192402238601
+B,3-mod,30,averaged vitals,binary stack (fused),nb05,0.0376849597302866,0.0261846787787975,0.0494118748829369
+B,3-mod,30,averaged vitals,binary stack (fused),nb10,0.0250691973111902,0.0151838671411625,0.0359035191775405
+B,3-mod,30,averaged vitals,binary stack (fused),nb20,0.00640569395017794,-0.00142348754448399,0.0142348754448399
+B,3-mod,30,averaged vitals,sPESI >= 1 rule,nb05,0.0283199100955235,0.0162193294624461,0.0410582506087282
+B,3-mod,30,averaged vitals,sPESI >= 1 rule,nb10,-0.0011071569790431,-0.0136832740213523,0.0124179517595888
+B,3-mod,30,averaged vitals,sPESI >= 1 rule,nb20,-0.0709964412811388,-0.0855871886120997,-0.0556895017793594
+B,3-mod,30,averaged vitals,sPESI >= 1 rule,sensitivity,0.974683544303798,0.933333333333333,1
+B,3-mod,30,averaged vitals,sPESI >= 1 rule,specificity,0.466817496229261,0.439848841445021,0.493575450305909
+B,3-mod,30,averaged vitals,sPESI >= 1 rule,ppv,0.0982142857142857,0.0780008975025137,0.120001319261214
+B,3-mod,30,averaged vitals,sPESI >= 1 rule,npv,0.996779388083736,0.991721511097932,1
+B,3-mod,30,averaged vitals,sPESI >= 1 rule,share_low_risk,0.441992882562278,0.415658362989324,0.467615658362989
+B,3-mod,30,averaged vitals,sPESI >= 1 rule,death_rate_low_risk,0.00322061191626409,0,0.00827848890206803
+B,3-mod,30,averaged vitals,EHR alone,death_rate_low_risk,0.00322061191626409,0,0.00830599333337019
+B,3-mod,30,averaged vitals,EHR alone,specificity_at_spesi_sensitivity,0.539969834087481,0.409703031233811,0.707561999445345
+B,3-mod,30,averaged vitals,Cox stack (fused),death_rate_low_risk,0.00161030595813205,0,0.0050761421319797
+B,3-mod,30,averaged vitals,Cox stack (fused),specificity_at_spesi_sensitivity,0.593514328808447,0.565085691697715,0.713133156174364
+B,3-mod,30,averaged vitals,binary stack (fused),death_rate_low_risk,0.00161030595813205,0,0.0050761421319797
+B,3-mod,30,averaged vitals,binary stack (fused),specificity_at_spesi_sensitivity,0.601809954751131,0.511714475105317,0.727341389728097
+B,3-mod,30,averaged vitals,sPESI (Cox),calibration slope,0.933931233452852,,
+B,3-mod,30,averaged vitals,EHR alone,calibration slope,1.02286947865617,,
+B,3-mod,30,averaged vitals,Cox stack (fused),calibration slope,1.16682335527172,,
+B,3-mod,30,averaged vitals,binary stack (fused),calibration slope,1.05625737618525,,
+B,3-mod,30,"presentation vitals, complete cases",sPESI (Cox),auc,0.736172435075725,0.685477227920357,0.786282154203057
+B,3-mod,30,"presentation vitals, complete cases",sPESI (Cox),brier,0.0541110255283018,0.0423246647036254,0.0654125147805273
+B,3-mod,30,"presentation vitals, complete cases",sPESI (Cox),ipa,0.0268972681125055,-0.0129109829152838,0.0620291278692121
+B,3-mod,30,"presentation vitals, complete cases",sPESI (Cox),oe,1.00474384007713,0.76518848413442,1.24350903034691
+B,3-mod,30,"presentation vitals, complete cases",sPESI (Cox),nb05,0.0260195516934926,0.0144662782660215,0.0380665547546164
+B,3-mod,30,"presentation vitals, complete cases",sPESI (Cox),nb10,0.00500312695434647,-0.00156347717323327,0.0120908901396706
+B,3-mod,30,"presentation vitals, complete cases",sPESI (Cox),nb20,-0.00234521575984991,-0.00515947467166979,0.00117260787992495
+B,3-mod,30,"presentation vitals, complete cases",EHR alone,auc,0.862381110636345,0.824544181273707,0.894649082410377
+B,3-mod,30,"presentation vitals, complete cases",EHR alone,brier,0.0502252414494231,0.0394277852293822,0.0608590248797333
+B,3-mod,30,"presentation vitals, complete cases",EHR alone,ipa,0.0967770581509337,0.026169667504007,0.151287821422489
+B,3-mod,30,"presentation vitals, complete cases",EHR alone,oe,0.993758349855623,0.760248582412648,1.20835436620557
+B,3-mod,30,"presentation vitals, complete cases",EHR alone,nb05,0.0400908462525921,0.0259701787301274,0.0537671571047694
+B,3-mod,30,"presentation vitals, complete cases",EHR alone,nb10,0.0229309985407546,0.0101104857202418,0.0348160308526162
+B,3-mod,30,"presentation vitals, complete cases",EHR alone,nb20,0.00140712945590994,-0.00562851782363978,0.00914634146341463
+B,3-mod,30,"presentation vitals, complete cases",Cox stack (fused),auc,0.879187833325421,0.841480399622243,0.910079206984257
+B,3-mod,30,"presentation vitals, complete cases",Cox stack (fused),brier,0.0476310635977573,0.0377469710828574,0.0571499899590403
+B,3-mod,30,"presentation vitals, complete cases",Cox stack (fused),ipa,0.143429316721375,0.0722695233294441,0.200477647745455
+B,3-mod,30,"presentation vitals, complete cases",Cox stack (fused),oe,0.988831628961604,0.763785941925317,1.19791789764675
+B,3-mod,30,"presentation vitals, complete cases",Cox stack (fused),nb05,0.0401402192159573,0.0262170435469537,0.0538671373555841
+B,3-mod,30,"presentation vitals, complete cases",Cox stack (fused),nb10,0.026266416510319,0.0130289764436106,0.038878465707734
+B,3-mod,30,"presentation vitals, complete cases",Cox stack (fused),nb20,0.0103189493433396,0.000234521575984991,0.0204033771106942
+B,3-mod,30,"presentation vitals, complete cases",binary stack (fused),auc,0.872873443162576,0.83688546169393,0.903943948087818
+B,3-mod,30,"presentation vitals, complete cases",binary stack (fused),brier,0.0489015269738311,0.0388033924028693,0.0585845658968185
+B,3-mod,30,"presentation vitals, complete cases",binary stack (fused),ipa,0.120582006585405,0.0441100230310423,0.181281545935294
+B,3-mod,30,"presentation vitals, complete cases",binary stack (fused),oe,0.989977317224805,0.763112301623135,1.20921705377215
+B,3-mod,30,"presentation vitals, complete cases",binary stack (fused),nb05,0.0411276784832626,0.026857657746618,0.0548076923076923
+B,3-mod,30,"presentation vitals, complete cases",binary stack (fused),nb10,0.02710027100271,0.0141729205753596,0.039506462372316
+B,3-mod,30,"presentation vitals, complete cases",binary stack (fused),nb20,0.00422138836772983,-0.00515947467166979,0.0138367729831144
+B,3-mod,30,"presentation vitals, complete cases",sPESI >= 1 rule,nb05,0.0288338106053125,0.0139713143082848,0.0435469536881604
+B,3-mod,30,"presentation vitals, complete cases",sPESI >= 1 rule,nb10,-0.0047946633312487,-0.0206405044819679,0.0107384823848238
+B,3-mod,30,"presentation vitals, complete cases",sPESI >= 1 rule,nb20,-0.0846622889305816,-0.102485928705441,-0.0673076923076923
+B,3-mod,30,"presentation vitals, complete cases",sPESI >= 1 rule,sensitivity,1,1,1
+B,3-mod,30,"presentation vitals, complete cases",sPESI >= 1 rule,specificity,0.388833499501496,0.35874799452277,0.419076948438465
+B,3-mod,30,"presentation vitals, complete cases",sPESI >= 1 rule,ppv,0.0931952662721894,0.0707934659657995,0.115110570332508
+B,3-mod,30,"presentation vitals, complete cases",sPESI >= 1 rule,npv,1,1,1
+B,3-mod,30,"presentation vitals, complete cases",sPESI >= 1 rule,share_low_risk,0.365853658536585,0.336772983114447,0.393996247654784
+B,3-mod,30,"presentation vitals, complete cases",sPESI >= 1 rule,death_rate_low_risk,0,0,0
+B,3-mod,30,"presentation vitals, complete cases",EHR alone,death_rate_low_risk,0.00256410256410256,0,0.00806560592850915
+B,3-mod,30,"presentation vitals, complete cases",EHR alone,specificity_at_spesi_sensitivity,0.227318045862413,0.20362857726405,0.686452631684318
+B,3-mod,30,"presentation vitals, complete cases",Cox stack (fused),death_rate_low_risk,0.00256410256410256,0,0.00806560592850915
+B,3-mod,30,"presentation vitals, complete cases",Cox stack (fused),specificity_at_spesi_sensitivity,0.254237288135593,0.230765407554672,0.699009900990099
+B,3-mod,30,"presentation vitals, complete cases",binary stack (fused),death_rate_low_risk,0.00256410256410256,0,0.00806560592850915
+B,3-mod,30,"presentation vitals, complete cases",binary stack (fused),specificity_at_spesi_sensitivity,0.246261216350947,0.222216716220681,0.704375236675187
+B,3-mod,30,"presentation vitals, complete cases",sPESI (Cox),calibration slope,1.03887720500028,,
+B,3-mod,30,"presentation vitals, complete cases",EHR alone,calibration slope,0.963214100819966,,
+B,3-mod,30,"presentation vitals, complete cases",Cox stack (fused),calibration slope,1.15950109507093,,
+B,3-mod,30,"presentation vitals, complete cases",binary stack (fused),calibration slope,1.02066005288032,,
+B,3-mod,365,presentation vitals (main),sPESI (Cox),auc,0.755147755664685,0.727213351526021,0.781648208614613
+B,3-mod,365,presentation vitals (main),sPESI (Cox),brier,0.142227964743842,0.130965330517228,0.15382295499658
+B,3-mod,365,presentation vitals (main),sPESI (Cox),ipa,0.136107650237346,0.0951967461861691,0.174232063055618
+B,3-mod,365,presentation vitals (main),sPESI (Cox),oe,1.01945751047389,0.924324576491872,1.11671424005086
+B,3-mod,365,presentation vitals (main),sPESI (Cox),nb05,0.166135980520697,0.144409065368046,0.188612099644128
+B,3-mod,365,presentation vitals (main),sPESI (Cox),nb10,0.156425464610518,0.134519572953737,0.178886911822855
+B,3-mod,365,presentation vitals (main),sPESI (Cox),nb20,0.0717081850533808,0.0540925266903915,0.0895017793594306
+B,3-mod,365,presentation vitals (main),EHR alone,auc,0.873804600672008,0.85265735732781,0.894629530882095
+B,3-mod,365,presentation vitals (main),EHR alone,brier,0.113405551087246,0.10322208332704,0.124113021658075
+B,3-mod,365,presentation vitals (main),EHR alone,ipa,0.311174928352964,0.259723082243832,0.360656303080845
+B,3-mod,365,presentation vitals (main),EHR alone,oe,0.966389888285233,0.885239459275249,1.04934598411179
+B,3-mod,365,presentation vitals (main),EHR alone,nb05,0.172204532684023,0.150811949803334,0.194531747518262
+B,3-mod,365,presentation vitals (main),EHR alone,nb10,0.159272439699486,0.137835112692764,0.181494661921708
+B,3-mod,365,presentation vitals (main),EHR alone,nb20,0.126868327402135,0.105155693950178,0.148932384341637
+B,3-mod,365,presentation vitals (main),Cox stack (fused),auc,0.882029317283905,0.861187738532926,0.901501914538238
+B,3-mod,365,presentation vitals (main),Cox stack (fused),brier,0.109419618559603,0.0989353112188657,0.120498894400058
+B,3-mod,365,presentation vitals (main),Cox stack (fused),ipa,0.335385473891617,0.280875827113088,0.3887850245767
+B,3-mod,365,presentation vitals (main),Cox stack (fused),oe,1.00922643550868,0.924600233420167,1.09505238318142
+B,3-mod,365,presentation vitals (main),Cox stack (fused),nb05,0.176887057501405,0.155421427233564,0.198996066679153
+B,3-mod,365,presentation vitals (main),Cox stack (fused),nb10,0.162277580071174,0.14084420719652,0.184737050217477
+B,3-mod,365,presentation vitals (main),Cox stack (fused),nb20,0.127758007117438,0.106405693950178,0.148585409252669
+B,3-mod,365,presentation vitals (main),binary stack (fused),auc,0.880429297591355,0.859748855383174,0.899849627138987
+B,3-mod,365,presentation vitals (main),binary stack (fused),brier,0.109623956922105,0.0993118276262759,0.120546822819996
+B,3-mod,365,presentation vitals (main),binary stack (fused),ipa,0.334144323120412,0.277578113670706,0.388608133973212
+B,3-mod,365,presentation vitals (main),binary stack (fused),oe,0.997487318832627,0.914300659884386,1.08379504682637
+B,3-mod,365,presentation vitals (main),binary stack (fused),nb05,0.178460385840045,0.157144596366361,0.199971904851096
+B,3-mod,365,presentation vitals (main),binary stack (fused),nb10,0.161012257809411,0.139657967576117,0.18300118623962
+B,3-mod,365,presentation vitals (main),binary stack (fused),nb20,0.130071174377224,0.108536476868327,0.151783807829181
+B,3-mod,365,presentation vitals (main),sPESI >= 1 rule,nb05,0.180108634575763,0.15860460760442,0.201912343135419
+B,3-mod,365,presentation vitals (main),sPESI >= 1 rule,nb10,0.156425464610518,0.134519572953737,0.178886911822855
+B,3-mod,365,presentation vitals (main),sPESI >= 1 rule,nb20,0.100177935943061,0.0765035587188612,0.125449288256228
+B,3-mod,365,presentation vitals (main),sPESI >= 1 rule,sensitivity,0.969178082191781,0.948805460750853,0.987770364192382
+B,3-mod,365,presentation vitals (main),sPESI >= 1 rule,specificity,0.488769092542677,0.459457630012684,0.518824916270051
+B,3-mod,365,presentation vitals (main),sPESI >= 1 rule,ppv,0.332159624413146,0.300969750089896,0.363849914407476
+B,3-mod,365,presentation vitals (main),sPESI >= 1 rule,npv,0.98372513562387,0.972727272727273,0.993186842962438
+B,3-mod,365,presentation vitals (main),sPESI >= 1 rule,share_low_risk,0.393594306049822,0.36797153024911,0.419928825622776
+B,3-mod,365,presentation vitals (main),sPESI >= 1 rule,death_rate_low_risk,0.0162748643761302,0.0068131570375623,0.0272727272727273
+B,3-mod,365,presentation vitals (main),EHR alone,death_rate_low_risk,0.0144665461121157,0.00537634408602151,0.0266915808704588
+B,3-mod,365,presentation vitals (main),EHR alone,specificity_at_spesi_sensitivity,0.513027852650494,0.321822131750458,0.596869726900465
+B,3-mod,365,presentation vitals (main),Cox stack (fused),death_rate_low_risk,0.0162748643761302,0.00548396119918882,0.0276255835762777
+B,3-mod,365,presentation vitals (main),Cox stack (fused),specificity_at_spesi_sensitivity,0.515723270440252,0.335992811692719,0.630000670241287
+B,3-mod,365,presentation vitals (main),binary stack (fused),death_rate_low_risk,0.0144665461121157,0.00551470588235294,0.02713283619818
+B,3-mod,365,presentation vitals (main),binary stack (fused),specificity_at_spesi_sensitivity,0.50314465408805,0.336694558964916,0.628218253677757
+B,3-mod,365,presentation vitals (main),sPESI (Cox),calibration slope,1.11000981745068,,
+B,3-mod,365,presentation vitals (main),EHR alone,calibration slope,1.1287385648301,,
+B,3-mod,365,presentation vitals (main),Cox stack (fused),calibration slope,1.08035856874571,,
+B,3-mod,365,presentation vitals (main),binary stack (fused),calibration slope,1.03498575345985,,
+B,3-mod,365,averaged vitals,sPESI (Cox),auc,0.758537028148039,0.730005781745949,0.785913583445927
+B,3-mod,365,averaged vitals,sPESI (Cox),brier,0.139533327453243,0.12833511072338,0.150534850332202
+B,3-mod,365,averaged vitals,sPESI (Cox),ipa,0.152474871303374,0.10593320045532,0.193118087238985
+B,3-mod,365,averaged vitals,sPESI (Cox),oe,1.01801327661657,0.922670191775747,1.11551146018779
+B,3-mod,365,averaged vitals,sPESI (Cox),nb05,0.166135980520697,0.144409065368046,0.188612099644128
+B,3-mod,365,averaged vitals,sPESI (Cox),nb10,0.1570581257414,0.135231316725979,0.179361407671016
+B,3-mod,365,averaged vitals,sPESI (Cox),nb20,0.0756227758007118,0.0549777580071174,0.0964457295373665
+B,3-mod,365,averaged vitals,EHR alone,auc,0.873804600672008,0.85265735732781,0.894629530882095
+B,3-mod,365,averaged vitals,EHR alone,brier,0.113405551087246,0.10322208332704,0.124113021658075
+B,3-mod,365,averaged vitals,EHR alone,ipa,0.311174928352964,0.259723082243832,0.360656303080845
+B,3-mod,365,averaged vitals,EHR alone,oe,0.966389888285233,0.885239459275249,1.04934598411179
+B,3-mod,365,averaged vitals,EHR alone,nb05,0.172204532684023,0.150811949803334,0.194531747518262
+B,3-mod,365,averaged vitals,EHR alone,nb10,0.159272439699486,0.137835112692764,0.181494661921708
+B,3-mod,365,averaged vitals,EHR alone,nb20,0.126868327402135,0.105155693950178,0.148932384341637
+B,3-mod,365,averaged vitals,Cox stack (fused),auc,0.882029317283905,0.861187738532926,0.901501914538238
+B,3-mod,365,averaged vitals,Cox stack (fused),brier,0.109419618559603,0.0989353112188657,0.120498894400058
+B,3-mod,365,averaged vitals,Cox stack (fused),ipa,0.335385473891617,0.280875827113088,0.3887850245767
+B,3-mod,365,averaged vitals,Cox stack (fused),oe,1.00922643550868,0.924600233420167,1.09505238318142
+B,3-mod,365,averaged vitals,Cox stack (fused),nb05,0.176887057501405,0.155421427233564,0.198996066679153
+B,3-mod,365,averaged vitals,Cox stack (fused),nb10,0.162277580071174,0.14084420719652,0.184737050217477
+B,3-mod,365,averaged vitals,Cox stack (fused),nb20,0.127758007117438,0.106405693950178,0.148585409252669
+B,3-mod,365,averaged vitals,binary stack (fused),auc,0.880429297591355,0.859748855383174,0.899849627138987
+B,3-mod,365,averaged vitals,binary stack (fused),brier,0.109623956922105,0.0993118276262759,0.120546822819996
+B,3-mod,365,averaged vitals,binary stack (fused),ipa,0.334144323120412,0.277578113670706,0.388608133973212
+B,3-mod,365,averaged vitals,binary stack (fused),oe,0.997487318832627,0.914300659884386,1.08379504682637
+B,3-mod,365,averaged vitals,binary stack (fused),nb05,0.178460385840045,0.157144596366361,0.199971904851096
+B,3-mod,365,averaged vitals,binary stack (fused),nb10,0.161012257809411,0.139657967576117,0.18300118623962
+B,3-mod,365,averaged vitals,binary stack (fused),nb20,0.130071174377224,0.108536476868327,0.151783807829181
+B,3-mod,365,averaged vitals,sPESI >= 1 rule,nb05,0.178160704251733,0.156918898670163,0.199815508522195
+B,3-mod,365,averaged vitals,sPESI >= 1 rule,nb10,0.1570581257414,0.135231316725979,0.179361407671016
+B,3-mod,365,averaged vitals,sPESI >= 1 rule,nb20,0.106939501779359,0.0832740213523132,0.130431494661922
+B,3-mod,365,averaged vitals,sPESI >= 1 rule,sensitivity,0.948630136986301,0.922260502552022,0.972791093181459
+B,3-mod,365,averaged vitals,sPESI >= 1 rule,specificity,0.544474393530997,0.515803555671596,0.573453619640942
+B,3-mod,365,averaged vitals,sPESI >= 1 rule,ppv,0.353316326530612,0.320459303656025,0.387454611563426
+B,3-mod,365,averaged vitals,sPESI >= 1 rule,npv,0.975845410628019,0.963548474328982,0.987220956835889
+B,3-mod,365,averaged vitals,sPESI >= 1 rule,share_low_risk,0.441992882562278,0.415658362989324,0.467615658362989
+B,3-mod,365,averaged vitals,sPESI >= 1 rule,death_rate_low_risk,0.0241545893719807,0.0127790431641113,0.0364515256710185
+B,3-mod,365,averaged vitals,EHR alone,death_rate_low_risk,0.0193236714975845,0.00953857218563101,0.0325611795105639
+B,3-mod,365,averaged vitals,EHR alone,specificity_at_spesi_sensitivity,0.577717879604672,0.493682887739492,0.673716765597749
+B,3-mod,365,averaged vitals,Cox stack (fused),death_rate_low_risk,0.0177133655394525,0.00814332247557003,0.030258286062765
+B,3-mod,365,averaged vitals,Cox stack (fused),specificity_at_spesi_sensitivity,0.599281221922731,0.496870023594257,0.687390202702703
+B,3-mod,365,averaged vitals,binary stack (fused),death_rate_low_risk,0.0209339774557166,0.00941841525342531,0.0320619068495977
+B,3-mod,365,averaged vitals,binary stack (fused),specificity_at_spesi_sensitivity,0.609164420485175,0.491911115844567,0.69932898560188
+B,3-mod,365,averaged vitals,sPESI (Cox),calibration slope,1.06090069556563,,
+B,3-mod,365,averaged vitals,EHR alone,calibration slope,1.1287385648301,,
+B,3-mod,365,averaged vitals,Cox stack (fused),calibration slope,1.08035856874571,,
+B,3-mod,365,averaged vitals,binary stack (fused),calibration slope,1.03498575345985,,
+B,3-mod,365,"presentation vitals, complete cases",sPESI (Cox),auc,0.744056283357593,0.71187940323966,0.776566650631536
+B,3-mod,365,"presentation vitals, complete cases",sPESI (Cox),brier,0.146308875548087,0.133381038182622,0.159687206314239
+B,3-mod,365,"presentation vitals, complete cases",sPESI (Cox),ipa,0.132590565273557,0.0889839171204592,0.175665140116322
+B,3-mod,365,"presentation vitals, complete cases",sPESI (Cox),oe,1.01765465474217,0.909686863252994,1.12911472637089
+B,3-mod,365,"presentation vitals, complete cases",sPESI (Cox),nb05,0.173496593265528,0.146835193048287,0.201145452750074
+B,3-mod,365,"presentation vitals, complete cases",sPESI (Cox),nb10,0.159891598915989,0.133208255159475,0.187106524911403
+B,3-mod,365,"presentation vitals, complete cases",sPESI (Cox),nb20,0.0804409005628518,0.0595684803001876,0.101782363977486
+B,3-mod,365,"presentation vitals, complete cases",EHR alone,auc,0.868567821237211,0.843220128460037,0.892740675270011
+B,3-mod,365,"presentation vitals, complete cases",EHR alone,brier,0.116510189751916,0.104480532566607,0.128645309752284
+B,3-mod,365,"presentation vitals, complete cases",EHR alone,ipa,0.309255590585379,0.250189101354589,0.365755420011083
+B,3-mod,365,"presentation vitals, complete cases",EHR alone,oe,0.968567129298253,0.876476562208045,1.06587574570763
+B,3-mod,365,"presentation vitals, complete cases",EHR alone,nb05,0.178335143675323,0.152661202725388,0.204554655870445
+B,3-mod,365,"presentation vitals, complete cases",EHR alone,nb10,0.16447779862414,0.138727329580988,0.191890765061497
+B,3-mod,365,"presentation vitals, complete cases",EHR alone,nb20,0.13344277673546,0.108343105065666,0.159005628517824
+B,3-mod,365,"presentation vitals, complete cases",Cox stack (fused),auc,0.874651098485441,0.849861584271613,0.898680816622579
+B,3-mod,365,"presentation vitals, complete cases",Cox stack (fused),brier,0.113602108978547,0.100753632444217,0.126607690391061
+B,3-mod,365,"presentation vitals, complete cases",Cox stack (fused),ipa,0.326496490635477,0.25999329899324,0.388989479204487
+B,3-mod,365,"presentation vitals, complete cases",Cox stack (fused),oe,1.00717612208845,0.911646403734018,1.10406617303463
+B,3-mod,365,"presentation vitals, complete cases",Cox stack (fused),nb05,0.182729337414832,0.157538017181791,0.209100671472302
+B,3-mod,365,"presentation vitals, complete cases",Cox stack (fused),nb10,0.167396289347509,0.142589118198874,0.193245778611632
+B,3-mod,365,"presentation vitals, complete cases",Cox stack (fused),nb20,0.13344277673546,0.108818011257036,0.158771106941839
+B,3-mod,365,"presentation vitals, complete cases",binary stack (fused),auc,0.873597220265765,0.848532656597066,0.897440588679943
+B,3-mod,365,"presentation vitals, complete cases",binary stack (fused),brier,0.11373334151075,0.1013184180442,0.12681593776506
+B,3-mod,365,"presentation vitals, complete cases",binary stack (fused),ipa,0.325718463081445,0.260372886205524,0.388109809952555
+B,3-mod,365,"presentation vitals, complete cases",binary stack (fused),oe,0.99698295992398,0.901828583263767,1.09096625972689
+B,3-mod,365,"presentation vitals, complete cases",binary stack (fused),nb05,0.183223067048484,0.158188505974129,0.21008319344327
+B,3-mod,365,"presentation vitals, complete cases",binary stack (fused),nb10,0.166041275797373,0.141541588492808,0.191265374192203
+B,3-mod,365,"presentation vitals, complete cases",binary stack (fused),nb20,0.136491557223265,0.111163227016886,0.161819887429644
+B,3-mod,365,"presentation vitals, complete cases",sPESI >= 1 rule,nb05,0.184852374839538,0.159220400908463,0.211218771600671
+B,3-mod,365,"presentation vitals, complete cases",sPESI >= 1 rule,nb10,0.159891598915989,0.133208255159475,0.187106524911403
+B,3-mod,365,"presentation vitals, complete cases",sPESI >= 1 rule,nb20,0.100609756097561,0.0717577392120075,0.130177063789869
+B,3-mod,365,"presentation vitals, complete cases",sPESI >= 1 rule,sensitivity,0.965065502183406,0.939393939393939,0.986607142857143
+B,3-mod,365,"presentation vitals, complete cases",sPESI >= 1 rule,specificity,0.456391875746714,0.422248303437254,0.489448028838907
+B,3-mod,365,"presentation vitals, complete cases",sPESI >= 1 rule,ppv,0.326923076923077,0.290559233899619,0.363512254660829
+B,3-mod,365,"presentation vitals, complete cases",sPESI >= 1 rule,npv,0.979487179487179,0.963915194864008,0.992308673469388
+B,3-mod,365,"presentation vitals, complete cases",sPESI >= 1 rule,share_low_risk,0.365853658536585,0.336772983114447,0.393996247654784
+B,3-mod,365,"presentation vitals, complete cases",sPESI >= 1 rule,death_rate_low_risk,0.0205128205128205,0.00769132653061225,0.0360848051359919
+B,3-mod,365,"presentation vitals, complete cases",EHR alone,death_rate_low_risk,0.0205128205128205,0.00707341008048555,0.0345744680851064
+B,3-mod,365,"presentation vitals, complete cases",EHR alone,specificity_at_spesi_sensitivity,0.485065710872163,0.289654017857143,0.614410420645739
+B,3-mod,365,"presentation vitals, complete cases",Cox stack (fused),death_rate_low_risk,0.0179487179487179,0.00543224637681159,0.0355375271936185
+B,3-mod,365,"presentation vitals, complete cases",Cox stack (fused),specificity_at_spesi_sensitivity,0.459976105137396,0.30410681121237,0.64182734929078
+B,3-mod,365,"presentation vitals, complete cases",binary stack (fused),death_rate_low_risk,0.0205128205128205,0.00746222362134736,0.0361804087385482
+B,3-mod,365,"presentation vitals, complete cases",binary stack (fused),specificity_at_spesi_sensitivity,0.480286738351254,0.310513447432763,0.623659468052109
+B,3-mod,365,"presentation vitals, complete cases",sPESI (Cox),calibration slope,1.09651554554566,,
+B,3-mod,365,"presentation vitals, complete cases",EHR alone,calibration slope,1.08831379889452,,
+B,3-mod,365,"presentation vitals, complete cases",Cox stack (fused),calibration slope,1.03431332652372,,
+B,3-mod,365,"presentation vitals, complete cases",binary stack (fused),calibration slope,0.99674531615064,,

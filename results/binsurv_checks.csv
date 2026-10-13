@@ -1,0 +1,19 @@
+item,value,status
+input files found,all 17,PASS
+P death: binary risks missing / range,0 / 0.00012 to 0.99733,PASS
+P death: survival predictions present (missing),0,PASS
+P comp: binary risks missing / range,0 / 0.00031 to 0.99762,PASS
+P comp: survival predictions present (missing),0,PASS
+P cv: binary risks missing / range,0 / 0.00028 to 0.88926,PASS
+P cv: survival predictions present (missing),0,PASS
+P cv_excl: binary risks missing / range,0 / 0.00034 to 0.97065,PASS
+P cv_excl: survival predictions present (missing),0,PASS
+B death: binary risks missing / range,0 / 0.00000 to 0.99323,PASS
+B death: survival predictions present (missing),0,PASS
+B comp: binary risks missing / range,0 / 0.00011 to 0.99676,PASS
+B comp: survival predictions present (missing),0,PASS
+B cv: binary risks missing / range,0 / 0.00061 to 0.91917,PASS
+B cv: survival predictions present (missing),0,PASS
+B cv_excl: binary risks missing / range,0 / 0.00025 to 0.97795,PASS
+B cv_excl: survival predictions present (missing),0,PASS
+A33: survival and binary within 0.01 AUROC (cells),32 of 40,INFO

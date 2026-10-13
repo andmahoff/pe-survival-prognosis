@@ -1,0 +1,30 @@
+item,value,status
+A EHR+ECG: binary labels / columns in the file,8 / 16,PASS
+A 3-mod: binary labels / columns in the file,8 / 24,PASS
+B EHR+ECG: binary labels / columns in the file,20 / 40,PASS
+B 3-mod: binary labels / columns in the file,20 / 60,PASS
+fits replaced by the training event rate (first reason),0 of 4200,PASS
+A EHR+ECG: binary columns replaced / unchanged / missing,16 / 0 / 0,PASS
+A EHR+ECG: ridge-Cox and other columns unchanged (20),TRUE,PASS
+A EHR+ECG: binary scores failing the per-fold AUROC rule,0,PASS
+A 3-mod: binary columns replaced / unchanged / missing,24 / 0 / 0,PASS
+A 3-mod: ridge-Cox and other columns unchanged (28),TRUE,PASS
+A 3-mod: binary scores failing the per-fold AUROC rule,0,PASS
+B EHR+ECG: binary columns replaced / unchanged / missing,40 / 0 / 0,PASS
+B EHR+ECG: ridge-Cox and other columns unchanged (32),TRUE,PASS
+B EHR+ECG: binary scores failing the per-fold AUROC rule,0,PASS
+B 3-mod: binary columns replaced / unchanged / missing,60 / 0 / 0,PASS
+B 3-mod: ridge-Cox and other columns unchanged (46),TRUE,PASS
+B 3-mod: binary scores failing the per-fold AUROC rule,0,PASS
+ECG composite: penalty at the least-penalised end,0.0%,PASS
+ECG cvc: penalty at the least-penalised end,0.0%,PASS
+ECG cvu: penalty at the least-penalised end,0.0%,PASS
+ECG death: penalty at the least-penalised end,0.0%,PASS
+EHR composite: penalty at the least-penalised end,0.7%,PASS
+EHR cvc: penalty at the least-penalised end,0.0%,PASS
+EHR cvu: penalty at the least-penalised end,0.0%,PASS
+EHR death: penalty at the least-penalised end,1.0%,PASS
+CTPA composite: penalty at the least-penalised end,0.0%,PASS
+CTPA cvc: penalty at the least-penalised end,0.0%,PASS
+CTPA cvu: penalty at the least-penalised end,0.0%,PASS
+CTPA death: penalty at the least-penalised end,0.0%,PASS

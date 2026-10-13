@@ -1,0 +1,31 @@
+frame,contrast,model,quantity,estimate,lo,hi,excludes_null
+P,PE descriptors over All CTPA,alone,ratio of early/late ratios,0.864562197575844,0.694745055515679,1.08613855021344,FALSE
+P,PE descriptors over All CTPA,with EHR,ratio of early/late ratios,0.776862547401447,0.605209227929361,1.00368562234952,FALSE
+P,Incidental findings over All CTPA,alone,ratio of early/late ratios,0.907437690738923,0.817426442181293,1.00306425433248,FALSE
+P,Incidental findings over All CTPA,with EHR,ratio of early/late ratios,0.855555109855056,0.746312836550798,0.972518926348672,TRUE
+P,Incidental findings over PE descriptors,alone,ratio of early/late ratios,1.04959214418962,0.805023997690756,1.35725651405451,FALSE
+P,Incidental findings over PE descriptors,with EHR,ratio of early/late ratios,1.10129534847166,0.821442133641074,1.47616681859526,FALSE
+P,Incidental findings minus PE descriptors,alone,"AUROC, deaths in days 31-365 among day-30 survivors",0.106983073939513,0.0519435284530029,0.161297712359855,TRUE
+P,Incidental findings minus PE descriptors,alone,"AUROC, death by day 30",0.149305309263725,0.0801658584330368,0.219433996838755,TRUE
+P,Comorbidity over All CTPA,alone,ratio of early/late ratios,0.88258472359452,0.812785356953462,0.95582335674248,TRUE
+P,Comorbidity over All CTPA,with EHR,ratio of early/late ratios,0.840319602047494,0.751192252079122,0.937616763262007,TRUE
+P,Comorbidity over PE descriptors,alone,ratio of early/late ratios,1.02084584089983,0.787338628876644,1.30296642210668,FALSE
+P,Comorbidity over PE descriptors,with EHR,ratio of early/late ratios,1.08168376099261,0.804941131619127,1.41903707115009,FALSE
+P,Comorbidity minus PE descriptors,alone,"AUROC, deaths in days 31-365 among day-30 survivors",0.109289080911233,0.0502906557326459,0.167881155782129,TRUE
+P,Comorbidity minus PE descriptors,alone,"AUROC, death by day 30",0.119691179599943,0.0472320703051759,0.191879242306613,TRUE
+P,Support devices over All CTPA,alone,ratio of early/late ratios,1.01267044224636,0.895783786185694,1.24600937647251,FALSE
+P,Support devices over All CTPA,with EHR,ratio of early/late ratios,1.13022443750918,0.90691837279394,1.45433460909875,FALSE
+P,Support devices over PE descriptors,alone,ratio of early/late ratios,1.17131010942393,0.938259627437811,1.54643759108331,FALSE
+P,Support devices over PE descriptors,with EHR,ratio of early/late ratios,1.45485767242829,1.08707398149238,1.98037984996971,TRUE
+P,Support devices minus PE descriptors,alone,"AUROC, deaths in days 31-365 among day-30 survivors",-0.0690559333267872,-0.122568300588771,-0.0155392028694548,TRUE
+P,Support devices minus PE descriptors,alone,"AUROC, death by day 30",0.0427454248829621,-0.02882256419833,0.112629976659757,FALSE
+P,Report metadata over All CTPA,alone,ratio of early/late ratios,0.856047053498036,0.700964573453479,1.04943287785166,FALSE
+P,Report metadata over All CTPA,with EHR,ratio of early/late ratios,0.807468708074979,0.653558772881827,0.99983192492177,TRUE
+P,Report metadata over PE descriptors,alone,ratio of early/late ratios,0.990150917884586,0.723854326194148,1.35509474880005,FALSE
+P,Report metadata over PE descriptors,with EHR,ratio of early/late ratios,1.03939713759649,0.757794787163785,1.42267982109635,FALSE
+P,Report metadata minus PE descriptors,alone,"AUROC, deaths in days 31-365 among day-30 survivors",-0.00716810683424984,-0.0715622254640756,0.0550860337069678,FALSE
+P,Report metadata minus PE descriptors,alone,"AUROC, death by day 30",-0.000421159029649676,-0.0711300514232966,0.0773809173854508,FALSE
+P,PE: right-heart strain signs over PE: clot location and extent,alone,ratio of early/late ratios,0.877644230535285,0.651268305925257,1.15222578652524,FALSE
+P,PE: right-heart strain signs over PE: clot location and extent,with EHR,ratio of early/late ratios,0.968410331807255,0.688425505110566,1.29076535435144,FALSE
+P,PE: right-heart strain signs minus PE: clot location and extent,alone,"AUROC, death by day 30",-0.071878546602355,-0.126262950325345,-0.0163147236343857,TRUE
+P,PE: right-heart strain signs minus PE: clot location and extent,alone,"AUROC, deaths in days 31-365 among day-30 survivors",-0.0495170119795758,-0.101063598937288,0.0040718618010389,FALSE

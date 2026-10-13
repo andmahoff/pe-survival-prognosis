@@ -1,0 +1,449 @@
+frame,cohort,unit,endpoint,family,contrast,horizon,folds,mean_diff,sd_diff
+A,EHR+ECG,ECG,composite,binary,random forest - L2 logistic,10,30,-0.00174297043869694,0.0178428765651637
+A,EHR+ECG,ECG,composite,binary,rank average - L2 logistic,10,30,0.00511554248244343,0.00852339057819708
+A,EHR+ECG,ECG,composite,binary,random forest - L2 logistic,30,30,0.0016435602817967,0.0133907288010714
+A,EHR+ECG,ECG,composite,binary,rank average - L2 logistic,30,30,0.00577524698961205,0.00676591706701096
+A,EHR+ECG,ECG,composite,survival,RSF - ridge-Cox,10,30,-0.00271640668307608,0.0121147410198947
+A,EHR+ECG,ECG,composite,survival,rank average - ridge-Cox,10,30,0.00406244855784064,0.00634264795345164
+A,EHR+ECG,ECG,composite,survival,RSF - ridge-Cox,30,30,-0.000130933765976449,0.0148654559963092
+A,EHR+ECG,ECG,composite,survival,rank average - ridge-Cox,30,30,0.00515979366887135,0.00753959073857914
+A,EHR+ECG,ECG,cv,binary,random forest - L2 logistic,10,30,-0.0300748918030092,0.048667475462238
+A,EHR+ECG,ECG,cv,binary,rank average - L2 logistic,10,30,-0.00652614890610436,0.0264888960143126
+A,EHR+ECG,ECG,cv,binary,random forest - L2 logistic,30,30,-0.0143561906174092,0.0202307843689239
+A,EHR+ECG,ECG,cv,binary,rank average - L2 logistic,30,30,-0.00391066526535427,0.0106340667896721
+A,EHR+ECG,ECG,cv,survival,RSF - ridge-Cox,10,30,-0.00434777160213833,0.0524358618946643
+A,EHR+ECG,ECG,cv,survival,rank average - ridge-Cox,10,30,0.00413525767509889,0.027857621688143
+A,EHR+ECG,ECG,cv,survival,RSF - ridge-Cox,30,30,-0.0143898684889851,0.0199690869525977
+A,EHR+ECG,ECG,cv,survival,rank average - ridge-Cox,30,30,-0.00359472803556984,0.0104767689816261
+A,EHR+ECG,ECG,death,binary,random forest - L2 logistic,10,30,0.00106737011965118,0.0169274579310136
+A,EHR+ECG,ECG,death,binary,rank average - L2 logistic,10,30,0.0075299453537009,0.00868165401016008
+A,EHR+ECG,ECG,death,binary,random forest - L2 logistic,30,30,0.00154165795295785,0.0161234915465284
+A,EHR+ECG,ECG,death,binary,rank average - L2 logistic,30,30,0.0075643933646773,0.00826361214354171
+A,EHR+ECG,ECG,death,survival,RSF - ridge-Cox,10,30,0.000285819253228636,0.0167908326793899
+A,EHR+ECG,ECG,death,survival,rank average - ridge-Cox,10,30,0.00753975678437368,0.00923952657236274
+A,EHR+ECG,ECG,death,survival,RSF - ridge-Cox,30,30,-0.000934889868612269,0.0151792905478128
+A,EHR+ECG,ECG,death,survival,rank average - ridge-Cox,30,30,0.0065689197231888,0.00839285836690706
+A,EHR+ECG,EHR,composite,binary,random forest - L2 logistic,10,30,0.0347780427300576,0.0203555338128697
+A,EHR+ECG,EHR,composite,binary,rank average - L2 logistic,10,30,0.0310313565849848,0.0116254339476956
+A,EHR+ECG,EHR,composite,binary,random forest - L2 logistic,30,30,0.014788204144259,0.0132496337405689
+A,EHR+ECG,EHR,composite,binary,rank average - L2 logistic,30,30,0.0167388644925411,0.00678939123502607
+A,EHR+ECG,EHR,composite,survival,RSF - ridge-Cox,10,30,0.0253424020140183,0.0127652470697287
+A,EHR+ECG,EHR,composite,survival,rank average - ridge-Cox,10,30,0.0217353739043916,0.00647978149020904
+A,EHR+ECG,EHR,composite,survival,RSF - ridge-Cox,30,30,0.0215105666390053,0.0150437093234652
+A,EHR+ECG,EHR,composite,survival,rank average - ridge-Cox,30,30,0.022732573671,0.00732508265462787
+A,EHR+ECG,EHR,cv,binary,random forest - L2 logistic,10,30,0.0108917943686205,0.0801576784226055
+A,EHR+ECG,EHR,cv,binary,rank average - L2 logistic,10,30,0.0252944256647076,0.050249199104025
+A,EHR+ECG,EHR,cv,binary,random forest - L2 logistic,30,30,-0.00527576072662629,0.0179545575039336
+A,EHR+ECG,EHR,cv,binary,rank average - L2 logistic,30,30,0.00190040066874054,0.0107376498075378
+A,EHR+ECG,EHR,cv,survival,RSF - ridge-Cox,10,30,0.0120720529870055,0.0392155550923757
+A,EHR+ECG,EHR,cv,survival,rank average - ridge-Cox,10,30,0.0109829405220047,0.0217665104650654
+A,EHR+ECG,EHR,cv,survival,RSF - ridge-Cox,30,30,-0.00947326051994839,0.0150124501796834
+A,EHR+ECG,EHR,cv,survival,rank average - ridge-Cox,30,30,-0.000341917808447297,0.00812380400178101
+A,EHR+ECG,EHR,death,binary,random forest - L2 logistic,10,30,0.0343457508889985,0.0224930346496001
+A,EHR+ECG,EHR,death,binary,rank average - L2 logistic,10,30,0.0293568341638655,0.0131554268279116
+A,EHR+ECG,EHR,death,binary,random forest - L2 logistic,30,30,0.027921015233923,0.0153018695182184
+A,EHR+ECG,EHR,death,binary,rank average - L2 logistic,30,30,0.0244979110310039,0.00797286848386982
+A,EHR+ECG,EHR,death,survival,RSF - ridge-Cox,10,30,0.0304495453936179,0.0178675875328486
+A,EHR+ECG,EHR,death,survival,rank average - ridge-Cox,10,30,0.0254108655955191,0.00955964630651168
+A,EHR+ECG,EHR,death,survival,RSF - ridge-Cox,30,30,0.0367723176037678,0.0198348601138392
+A,EHR+ECG,EHR,death,survival,rank average - ridge-Cox,30,30,0.0314013222591204,0.00987237574858861
+A,EHR+ECG,fused EHR+ECG,death,fused,RSF - ridge-Cox,10,30,0.0265789485077813,0.0159834434858556
+A,EHR+ECG,fused EHR+ECG,death,fused,rank average - ridge-Cox,10,30,0.021782008104022,0.00828331826627935
+A,EHR+ECG,fused EHR+ECG,death,fused,RSF - ridge-Cox,30,30,0.0337893909601835,0.0182047811803218
+A,EHR+ECG,fused EHR+ECG,death,fused,rank average - ridge-Cox,30,30,0.028216684842832,0.00904809944272371
+A,3-mod,CTPA,composite,binary,random forest - L2 logistic,10,30,-0.00203972488760235,0.0306067229105221
+A,3-mod,CTPA,composite,binary,rank average - L2 logistic,10,30,0.00264180448481602,0.0200622825006153
+A,3-mod,CTPA,composite,binary,random forest - L2 logistic,30,30,0.00258916678223777,0.0162630734133381
+A,3-mod,CTPA,composite,binary,rank average - L2 logistic,30,30,0.00517016989252844,0.00833672930286767
+A,3-mod,CTPA,composite,survival,RSF - ridge-Cox,10,30,0.00457218600658035,0.0244737670317883
+A,3-mod,CTPA,composite,survival,rank average - ridge-Cox,10,30,0.00602304631642508,0.0135801243770378
+A,3-mod,CTPA,composite,survival,RSF - ridge-Cox,30,30,0.00281475976527681,0.0165782881924594
+A,3-mod,CTPA,composite,survival,rank average - ridge-Cox,30,30,0.00559715908017894,0.00793159650468562
+A,3-mod,CTPA,cv,binary,random forest - L2 logistic,10,30,0.00099728050823912,0.135771329745893
+A,3-mod,CTPA,cv,binary,rank average - L2 logistic,10,30,-0.0143657956859151,0.100209948095202
+A,3-mod,CTPA,cv,binary,random forest - L2 logistic,30,30,-0.0172697220732025,0.0529325393251065
+A,3-mod,CTPA,cv,binary,rank average - L2 logistic,30,30,-0.000647736569677165,0.0389380519380524
+A,3-mod,CTPA,cv,survival,RSF - ridge-Cox,10,30,-0.0846038102185792,0.110437407376718
+A,3-mod,CTPA,cv,survival,rank average - ridge-Cox,10,30,-0.0378400316903879,0.0658703144306015
+A,3-mod,CTPA,cv,survival,RSF - ridge-Cox,30,30,-0.0380368403961847,0.0470490976756888
+A,3-mod,CTPA,cv,survival,rank average - ridge-Cox,30,30,-0.0105909474713929,0.0312343744598052
+A,3-mod,CTPA,death,binary,random forest - L2 logistic,10,30,0.00403091048663528,0.0283921636961392
+A,3-mod,CTPA,death,binary,rank average - L2 logistic,10,30,0.0075884084782511,0.0179850030631519
+A,3-mod,CTPA,death,binary,random forest - L2 logistic,30,30,0.0128255672934075,0.0143316052492716
+A,3-mod,CTPA,death,binary,rank average - L2 logistic,30,30,0.0132964215695117,0.00882370674154438
+A,3-mod,CTPA,death,survival,RSF - ridge-Cox,10,30,0.00984231888400793,0.0271924596905136
+A,3-mod,CTPA,death,survival,rank average - ridge-Cox,10,30,0.00985920963063633,0.0147350739681622
+A,3-mod,CTPA,death,survival,RSF - ridge-Cox,30,30,0.00619449630165355,0.0166054835466793
+A,3-mod,CTPA,death,survival,rank average - ridge-Cox,30,30,0.00831326014296305,0.00870594332828045
+A,3-mod,ECG,composite,binary,random forest - L2 logistic,10,30,0.0212384026310982,0.0389444097637368
+A,3-mod,ECG,composite,binary,rank average - L2 logistic,10,30,0.0174119611247745,0.0294410727517251
+A,3-mod,ECG,composite,binary,random forest - L2 logistic,30,30,0.0041484129733669,0.0208115635589238
+A,3-mod,ECG,composite,binary,rank average - L2 logistic,30,30,0.0107667766242781,0.0123457197296982
+A,3-mod,ECG,composite,survival,RSF - ridge-Cox,10,30,0.00540528349583441,0.0390219691953926
+A,3-mod,ECG,composite,survival,rank average - ridge-Cox,10,30,0.0116279201162789,0.0215784949134794
+A,3-mod,ECG,composite,survival,RSF - ridge-Cox,30,30,0.000960130878644994,0.0221683365542309
+A,3-mod,ECG,composite,survival,rank average - ridge-Cox,30,30,0.00930328044688789,0.0134222578562203
+A,3-mod,ECG,cv,binary,random forest - L2 logistic,10,30,0.031422528734276,0.120506463051837
+A,3-mod,ECG,cv,binary,rank average - L2 logistic,10,30,0.0320436606263632,0.0837149584205359
+A,3-mod,ECG,cv,binary,random forest - L2 logistic,30,30,0.00143019803175546,0.0525017758019147
+A,3-mod,ECG,cv,binary,rank average - L2 logistic,30,30,0.0106589475912087,0.0334313571065
+A,3-mod,ECG,cv,survival,RSF - ridge-Cox,10,30,0.0144925696672202,0.0775331277591195
+A,3-mod,ECG,cv,survival,rank average - ridge-Cox,10,30,0.0185128873395541,0.0436993855182977
+A,3-mod,ECG,cv,survival,RSF - ridge-Cox,30,30,0.00870167074333393,0.0393617527441229
+A,3-mod,ECG,cv,survival,rank average - ridge-Cox,30,30,0.012174605459551,0.0241805410588932
+A,3-mod,ECG,death,binary,random forest - L2 logistic,10,30,0.0126189218425896,0.0473628454063653
+A,3-mod,ECG,death,binary,rank average - L2 logistic,10,30,0.0129392024909983,0.0283946994338995
+A,3-mod,ECG,death,binary,random forest - L2 logistic,30,30,-0.010499865971007,0.0344084419348981
+A,3-mod,ECG,death,binary,rank average - L2 logistic,30,30,0.00517518437696114,0.0159555522598381
+A,3-mod,ECG,death,survival,RSF - ridge-Cox,10,30,-0.00122756450654361,0.0539579918631436
+A,3-mod,ECG,death,survival,rank average - ridge-Cox,10,30,0.011311888139827,0.0284602178776095
+A,3-mod,ECG,death,survival,RSF - ridge-Cox,30,30,-0.0171180883721677,0.034222408278362
+A,3-mod,ECG,death,survival,rank average - ridge-Cox,30,30,0.00376524074701128,0.0163101497081217
+A,3-mod,EHR,composite,binary,random forest - L2 logistic,10,30,0.0480793202568001,0.0466555241211954
+A,3-mod,EHR,composite,binary,rank average - L2 logistic,10,30,0.0388171718891819,0.0272766124979825
+A,3-mod,EHR,composite,binary,random forest - L2 logistic,30,30,0.018970163086277,0.0244004211283726
+A,3-mod,EHR,composite,binary,rank average - L2 logistic,30,30,0.0176460349389264,0.0117341226137131
+A,3-mod,EHR,composite,survival,RSF - ridge-Cox,10,30,0.0451543557501526,0.0356700883629336
+A,3-mod,EHR,composite,survival,rank average - ridge-Cox,10,30,0.0341322466479113,0.0185213142964879
+A,3-mod,EHR,composite,survival,RSF - ridge-Cox,30,30,0.0196576391632451,0.0227529654682554
+A,3-mod,EHR,composite,survival,rank average - ridge-Cox,30,30,0.0217500709726569,0.0117754083133196
+A,3-mod,EHR,cv,binary,random forest - L2 logistic,10,30,0.0248710338653925,0.169810912983938
+A,3-mod,EHR,cv,binary,rank average - L2 logistic,10,30,0.0235355109020531,0.117173274243106
+A,3-mod,EHR,cv,binary,random forest - L2 logistic,30,30,0.0197386206101124,0.0346677768058775
+A,3-mod,EHR,cv,binary,rank average - L2 logistic,30,30,0.0193074750708876,0.0202377199297526
+A,3-mod,EHR,cv,survival,RSF - ridge-Cox,10,30,0.0732548413294386,0.0985677237483795
+A,3-mod,EHR,cv,survival,rank average - ridge-Cox,10,30,0.0494216323546428,0.06605966123261
+A,3-mod,EHR,cv,survival,RSF - ridge-Cox,30,30,0.0219420328799125,0.0363527547196298
+A,3-mod,EHR,cv,survival,rank average - ridge-Cox,30,30,0.0208367075908814,0.0217937088930892
+A,3-mod,EHR,death,binary,random forest - L2 logistic,10,30,0.0107551235890055,0.0466976105009101
+A,3-mod,EHR,death,binary,rank average - L2 logistic,10,30,0.0143480766127747,0.02884187440331
+A,3-mod,EHR,death,binary,random forest - L2 logistic,30,30,0.0227101899255481,0.0274877015211588
+A,3-mod,EHR,death,binary,rank average - L2 logistic,30,30,0.0206947062621127,0.0136047051917263
+A,3-mod,EHR,death,survival,RSF - ridge-Cox,10,30,0.0217302505972073,0.03938290063596
+A,3-mod,EHR,death,survival,rank average - ridge-Cox,10,30,0.0208593287286389,0.0198310624612843
+A,3-mod,EHR,death,survival,RSF - ridge-Cox,30,30,0.0175597767281382,0.0251055898110444
+A,3-mod,EHR,death,survival,rank average - ridge-Cox,30,30,0.0201282863802455,0.0118238125513678
+A,3-mod,fused EHR+ECG+CTPA,death,fused,RSF - ridge-Cox,10,30,0.0173450750409088,0.0358004698066619
+A,3-mod,fused EHR+ECG+CTPA,death,fused,rank average - ridge-Cox,10,30,0.0182061889488289,0.0193012615542662
+A,3-mod,fused EHR+ECG+CTPA,death,fused,RSF - ridge-Cox,30,30,0.0122325548244426,0.0226408387329874
+A,3-mod,fused EHR+ECG+CTPA,death,fused,rank average - ridge-Cox,30,30,0.0151727379837093,0.0116682337779276
+B,EHR+ECG,ECG,composite,binary,random forest - L2 logistic,10,30,0.00145663678991161,0.0208946436311751
+B,EHR+ECG,ECG,composite,binary,rank average - L2 logistic,10,30,0.00807746104251205,0.0101633226739464
+B,EHR+ECG,ECG,composite,binary,random forest - L2 logistic,30,30,0.00302755403903162,0.0194948083042271
+B,EHR+ECG,ECG,composite,binary,rank average - L2 logistic,30,30,0.00695662304160236,0.0100987122754531
+B,EHR+ECG,ECG,composite,binary,random forest - L2 logistic,90,30,0.00295946642227118,0.0182058372106154
+B,EHR+ECG,ECG,composite,binary,rank average - L2 logistic,90,30,0.00871840657765634,0.00969018613893453
+B,EHR+ECG,ECG,composite,binary,random forest - L2 logistic,180,30,-0.00258888901671808,0.0128618006132577
+B,EHR+ECG,ECG,composite,binary,rank average - L2 logistic,180,30,0.00481057160350263,0.00652118090069763
+B,EHR+ECG,ECG,composite,binary,random forest - L2 logistic,365,30,-0.00193351800817762,0.0094758909208325
+B,EHR+ECG,ECG,composite,binary,rank average - L2 logistic,365,30,0.00640924401841843,0.00566076120657126
+B,EHR+ECG,ECG,composite,survival,RSF - ridge-Cox,10,30,-0.00515259009056658,0.0254939789581619
+B,EHR+ECG,ECG,composite,survival,rank average - ridge-Cox,10,30,0.00478011628501968,0.0140825066481979
+B,EHR+ECG,ECG,composite,survival,RSF - ridge-Cox,30,30,-0.00207120897403168,0.021295770786961
+B,EHR+ECG,ECG,composite,survival,rank average - ridge-Cox,30,30,0.00579923769320268,0.0114357486958097
+B,EHR+ECG,ECG,composite,survival,RSF - ridge-Cox,90,30,-0.00530732324316159,0.0171753489120862
+B,EHR+ECG,ECG,composite,survival,rank average - ridge-Cox,90,30,0.00381286792617357,0.0094249404284178
+B,EHR+ECG,ECG,composite,survival,RSF - ridge-Cox,180,30,-0.0059177954885133,0.0134467435959404
+B,EHR+ECG,ECG,composite,survival,rank average - ridge-Cox,180,30,0.00354840715295577,0.00732860908294429
+B,EHR+ECG,ECG,composite,survival,RSF - ridge-Cox,365,30,-0.00739452388447759,0.0130413431445349
+B,EHR+ECG,ECG,composite,survival,rank average - ridge-Cox,365,30,0.00275213787942585,0.00711087144963591
+B,EHR+ECG,ECG,cv,binary,random forest - L2 logistic,10,30,-0.0196242272651492,0.0224615085265595
+B,EHR+ECG,ECG,cv,binary,rank average - L2 logistic,10,30,-0.00337819888501915,0.0105009464957997
+B,EHR+ECG,ECG,cv,binary,random forest - L2 logistic,30,30,-0.0144551043734459,0.0187788077421231
+B,EHR+ECG,ECG,cv,binary,rank average - L2 logistic,30,30,-0.00354379882972593,0.00972911454519468
+B,EHR+ECG,ECG,cv,binary,random forest - L2 logistic,90,30,-0.00948317158639294,0.0172395000978789
+B,EHR+ECG,ECG,cv,binary,rank average - L2 logistic,90,30,0.000387170408741651,0.00869740934373061
+B,EHR+ECG,ECG,cv,binary,random forest - L2 logistic,180,30,-0.00444013775512956,0.0163806069222597
+B,EHR+ECG,ECG,cv,binary,rank average - L2 logistic,180,30,0.0031604417969716,0.00848329990964573
+B,EHR+ECG,ECG,cv,binary,random forest - L2 logistic,365,30,-0.00667888783075771,0.0137381336794232
+B,EHR+ECG,ECG,cv,binary,rank average - L2 logistic,365,30,0.000894288079852446,0.00753406899974714
+B,EHR+ECG,ECG,cv,survival,RSF - ridge-Cox,10,30,-0.00678102985686977,0.0162791889183356
+B,EHR+ECG,ECG,cv,survival,rank average - ridge-Cox,10,30,0.00193992621522962,0.0081959090572199
+B,EHR+ECG,ECG,cv,survival,RSF - ridge-Cox,30,30,-0.00659339427811592,0.0173404467089598
+B,EHR+ECG,ECG,cv,survival,rank average - ridge-Cox,30,30,0.00184938919153357,0.00928563243475048
+B,EHR+ECG,ECG,cv,survival,RSF - ridge-Cox,90,30,-0.008127582950248,0.017317826613019
+B,EHR+ECG,ECG,cv,survival,rank average - ridge-Cox,90,30,0.000907891301111441,0.00855726298369192
+B,EHR+ECG,ECG,cv,survival,RSF - ridge-Cox,180,30,-0.00727417863618972,0.0157863050317584
+B,EHR+ECG,ECG,cv,survival,rank average - ridge-Cox,180,30,0.00151676762266265,0.00815366157331097
+B,EHR+ECG,ECG,cv,survival,RSF - ridge-Cox,365,30,-0.00875235764862803,0.0157632000499111
+B,EHR+ECG,ECG,cv,survival,rank average - ridge-Cox,365,30,0.000536625845029489,0.00803682248306467
+B,EHR+ECG,ECG,death,binary,random forest - L2 logistic,10,30,0.0433403353161838,0.0466275310433498
+B,EHR+ECG,ECG,death,binary,rank average - L2 logistic,10,30,0.0359745072859723,0.0234936361204999
+B,EHR+ECG,ECG,death,binary,random forest - L2 logistic,30,30,-0.00628092785580913,0.0421456680518669
+B,EHR+ECG,ECG,death,binary,rank average - L2 logistic,30,30,0.00958641549012557,0.0207570882059056
+B,EHR+ECG,ECG,death,binary,random forest - L2 logistic,90,30,-0.0110761809544657,0.0253669990590811
+B,EHR+ECG,ECG,death,binary,rank average - L2 logistic,90,30,0.00451402028758648,0.0132586146971718
+B,EHR+ECG,ECG,death,binary,random forest - L2 logistic,180,30,-0.00606926440741133,0.019788666091555
+B,EHR+ECG,ECG,death,binary,rank average - L2 logistic,180,30,0.00548247527457042,0.0104544751014577
+B,EHR+ECG,ECG,death,binary,random forest - L2 logistic,365,30,0.00174981046660311,0.0185407652636369
+B,EHR+ECG,ECG,death,binary,rank average - L2 logistic,365,30,0.00908892285213937,0.00994659133957856
+B,EHR+ECG,ECG,death,survival,RSF - ridge-Cox,10,30,-0.0025802353938733,0.0362165743999058
+B,EHR+ECG,ECG,death,survival,rank average - ridge-Cox,10,30,0.00915758755306004,0.0174404009984996
+B,EHR+ECG,ECG,death,survival,RSF - ridge-Cox,30,30,-0.0169377903460761,0.0300412674131187
+B,EHR+ECG,ECG,death,survival,rank average - ridge-Cox,30,30,0.00123189196739487,0.0151693261898897
+B,EHR+ECG,ECG,death,survival,RSF - ridge-Cox,90,30,-0.0160430161249145,0.0224819292968733
+B,EHR+ECG,ECG,death,survival,rank average - ridge-Cox,90,30,0.000729226249640954,0.0121890719521189
+B,EHR+ECG,ECG,death,survival,RSF - ridge-Cox,180,30,-0.00859877461445969,0.0198753557166677
+B,EHR+ECG,ECG,death,survival,rank average - ridge-Cox,180,30,0.00415195837773424,0.0109284027517766
+B,EHR+ECG,ECG,death,survival,RSF - ridge-Cox,365,30,-0.00261126946047291,0.018714451936549
+B,EHR+ECG,ECG,death,survival,rank average - ridge-Cox,365,30,0.00724208688907022,0.0104814181965128
+B,EHR+ECG,EHR,composite,binary,random forest - L2 logistic,10,30,0.00613964149585437,0.019808259235725
+B,EHR+ECG,EHR,composite,binary,rank average - L2 logistic,10,30,0.00914990737457736,0.0104430229463012
+B,EHR+ECG,EHR,composite,binary,random forest - L2 logistic,30,30,0.00717271493048588,0.0102544158231588
+B,EHR+ECG,EHR,composite,binary,rank average - L2 logistic,30,30,0.00806635667123155,0.00530865710250148
+B,EHR+ECG,EHR,composite,binary,random forest - L2 logistic,90,30,0.00854699552332596,0.00541584622616466
+B,EHR+ECG,EHR,composite,binary,rank average - L2 logistic,90,30,0.00783668336843309,0.00279530417340833
+B,EHR+ECG,EHR,composite,binary,random forest - L2 logistic,180,30,0.00546780904431319,0.00564913932954215
+B,EHR+ECG,EHR,composite,binary,rank average - L2 logistic,180,30,0.0060449731198383,0.0025638815066303
+B,EHR+ECG,EHR,composite,binary,random forest - L2 logistic,365,30,0.00589880756964328,0.00590646904201761
+B,EHR+ECG,EHR,composite,binary,rank average - L2 logistic,365,30,0.00649533552456333,0.00311129411272442
+B,EHR+ECG,EHR,composite,survival,RSF - ridge-Cox,10,30,0.0132384770961635,0.0130320296518807
+B,EHR+ECG,EHR,composite,survival,rank average - ridge-Cox,10,30,0.00945089697647617,0.00645607702973798
+B,EHR+ECG,EHR,composite,survival,RSF - ridge-Cox,30,30,0.0100090598006803,0.00876985260846481
+B,EHR+ECG,EHR,composite,survival,rank average - ridge-Cox,30,30,0.00804037271371983,0.00444476829886813
+B,EHR+ECG,EHR,composite,survival,RSF - ridge-Cox,90,30,0.00634322558435409,0.00666944368157794
+B,EHR+ECG,EHR,composite,survival,rank average - ridge-Cox,90,30,0.00660246214942254,0.00328401752715059
+B,EHR+ECG,EHR,composite,survival,RSF - ridge-Cox,180,30,0.00726692806314599,0.00645999329027438
+B,EHR+ECG,EHR,composite,survival,rank average - ridge-Cox,180,30,0.00721762172098637,0.00337310030507872
+B,EHR+ECG,EHR,composite,survival,RSF - ridge-Cox,365,30,0.00497676120219118,0.00602598744217591
+B,EHR+ECG,EHR,composite,survival,rank average - ridge-Cox,365,30,0.00629709586076982,0.0033225421437757
+B,EHR+ECG,EHR,cv,binary,random forest - L2 logistic,10,30,-0.00530804495057043,0.0208058028096486
+B,EHR+ECG,EHR,cv,binary,rank average - L2 logistic,10,30,0.00393962870157856,0.0108063805913836
+B,EHR+ECG,EHR,cv,binary,random forest - L2 logistic,30,30,-0.00251073642713641,0.0126342314039018
+B,EHR+ECG,EHR,cv,binary,rank average - L2 logistic,30,30,0.00178386039836847,0.00646251761556618
+B,EHR+ECG,EHR,cv,binary,random forest - L2 logistic,90,30,0.00293459513816557,0.00855171433864015
+B,EHR+ECG,EHR,cv,binary,rank average - L2 logistic,90,30,0.00456121480324686,0.00461653445205144
+B,EHR+ECG,EHR,cv,binary,random forest - L2 logistic,180,30,-0.000182754499191803,0.00712025140245909
+B,EHR+ECG,EHR,cv,binary,rank average - L2 logistic,180,30,0.00311200827645545,0.00399268894804236
+B,EHR+ECG,EHR,cv,binary,random forest - L2 logistic,365,30,0.00157885913411478,0.0107124314413182
+B,EHR+ECG,EHR,cv,binary,rank average - L2 logistic,365,30,0.00423673707946282,0.00562534682147676
+B,EHR+ECG,EHR,cv,survival,RSF - ridge-Cox,10,30,0.00232137445624324,0.0153664654317146
+B,EHR+ECG,EHR,cv,survival,rank average - ridge-Cox,10,30,0.00447290721689283,0.00747631413751767
+B,EHR+ECG,EHR,cv,survival,RSF - ridge-Cox,30,30,0.00105171194282809,0.0105628359647351
+B,EHR+ECG,EHR,cv,survival,rank average - ridge-Cox,30,30,0.0034726496352772,0.00524068657492594
+B,EHR+ECG,EHR,cv,survival,RSF - ridge-Cox,90,30,0.0017373413686188,0.00899402776082014
+B,EHR+ECG,EHR,cv,survival,rank average - ridge-Cox,90,30,0.0041298556370132,0.00455024111016326
+B,EHR+ECG,EHR,cv,survival,RSF - ridge-Cox,180,30,0.00318245842452563,0.00832106523340312
+B,EHR+ECG,EHR,cv,survival,rank average - ridge-Cox,180,30,0.00495546434900089,0.00435073717941274
+B,EHR+ECG,EHR,cv,survival,RSF - ridge-Cox,365,30,0.00365262471176904,0.00860981459299917
+B,EHR+ECG,EHR,cv,survival,rank average - ridge-Cox,365,30,0.00528530925272434,0.00434402334894654
+B,EHR+ECG,EHR,death,binary,random forest - L2 logistic,10,30,0.00158442612000653,0.0340902475194438
+B,EHR+ECG,EHR,death,binary,rank average - L2 logistic,10,30,0.00998936668369487,0.0168202234629568
+B,EHR+ECG,EHR,death,binary,random forest - L2 logistic,30,30,0.00830293821490071,0.01740545161875
+B,EHR+ECG,EHR,death,binary,rank average - L2 logistic,30,30,0.0128185256675059,0.00864689982010386
+B,EHR+ECG,EHR,death,binary,random forest - L2 logistic,90,30,0.0112759726460064,0.00884954670179491
+B,EHR+ECG,EHR,death,binary,rank average - L2 logistic,90,30,0.0120309310792155,0.0048880753080015
+B,EHR+ECG,EHR,death,binary,random forest - L2 logistic,180,30,0.007753680274806,0.00707465712855759
+B,EHR+ECG,EHR,death,binary,rank average - L2 logistic,180,30,0.00928495038693398,0.00354304279307224
+B,EHR+ECG,EHR,death,binary,random forest - L2 logistic,365,30,0.00855212330397992,0.00605679895640637
+B,EHR+ECG,EHR,death,binary,rank average - L2 logistic,365,30,0.00896667120135184,0.00323100306936603
+B,EHR+ECG,EHR,death,survival,RSF - ridge-Cox,10,30,0.0193924587165664,0.0261359457379108
+B,EHR+ECG,EHR,death,survival,rank average - ridge-Cox,10,30,0.0144823339559582,0.0128246063409851
+B,EHR+ECG,EHR,death,survival,RSF - ridge-Cox,30,30,0.0187992352189761,0.0141874014961804
+B,EHR+ECG,EHR,death,survival,rank average - ridge-Cox,30,30,0.0139681357042597,0.00729099197617564
+B,EHR+ECG,EHR,death,survival,RSF - ridge-Cox,90,30,0.00909830855198783,0.00940293905147662
+B,EHR+ECG,EHR,death,survival,rank average - ridge-Cox,90,30,0.00943537741440799,0.00457643396715836
+B,EHR+ECG,EHR,death,survival,RSF - ridge-Cox,180,30,0.00895264332994281,0.00636351970884293
+B,EHR+ECG,EHR,death,survival,rank average - ridge-Cox,180,30,0.00928510524330578,0.00319096653440356
+B,EHR+ECG,EHR,death,survival,RSF - ridge-Cox,365,30,0.0078139112182266,0.00655484006060957
+B,EHR+ECG,EHR,death,survival,rank average - ridge-Cox,365,30,0.00911004226492068,0.00343070074992623
+B,EHR+ECG,fused EHR+ECG,death,fused,RSF - ridge-Cox,10,30,0.0179016152035897,0.0264730562778237
+B,EHR+ECG,fused EHR+ECG,death,fused,rank average - ridge-Cox,10,30,0.0136801415667285,0.0130986133053902
+B,EHR+ECG,fused EHR+ECG,death,fused,RSF - ridge-Cox,30,30,0.0177590468629106,0.0149182053786931
+B,EHR+ECG,fused EHR+ECG,death,fused,rank average - ridge-Cox,30,30,0.0141093647564781,0.00767937125981466
+B,EHR+ECG,fused EHR+ECG,death,fused,RSF - ridge-Cox,90,30,0.00847849367229977,0.00948212224599175
+B,EHR+ECG,fused EHR+ECG,death,fused,rank average - ridge-Cox,90,30,0.00949751341438748,0.00527476458907859
+B,EHR+ECG,fused EHR+ECG,death,fused,RSF - ridge-Cox,180,30,0.00952468896402799,0.00784219062995005
+B,EHR+ECG,fused EHR+ECG,death,fused,rank average - ridge-Cox,180,30,0.00982664612812427,0.00447794867673536
+B,EHR+ECG,fused EHR+ECG,death,fused,RSF - ridge-Cox,365,30,0.0099050657095778,0.00776768132291844
+B,EHR+ECG,fused EHR+ECG,death,fused,rank average - ridge-Cox,365,30,0.0103613956713633,0.00434246964102375
+B,3-mod,CTPA,composite,binary,random forest - L2 logistic,10,30,0.0257720524570121,0.0673744730598624
+B,3-mod,CTPA,composite,binary,rank average - L2 logistic,10,30,0.0212027227814456,0.0421069649013887
+B,3-mod,CTPA,composite,binary,random forest - L2 logistic,30,30,-0.000144730854891273,0.0206850054502684
+B,3-mod,CTPA,composite,binary,rank average - L2 logistic,30,30,0.003789003462329,0.0129943261688651
+B,3-mod,CTPA,composite,binary,random forest - L2 logistic,90,30,0.00186977545607602,0.0190064508614194
+B,3-mod,CTPA,composite,binary,rank average - L2 logistic,90,30,0.00573525718107996,0.0109170031898873
+B,3-mod,CTPA,composite,binary,random forest - L2 logistic,180,30,-0.00202333508919278,0.0156731012154124
+B,3-mod,CTPA,composite,binary,rank average - L2 logistic,180,30,0.00408595520993975,0.00882359507067494
+B,3-mod,CTPA,composite,binary,random forest - L2 logistic,365,30,-0.00186729012395999,0.0176594129157204
+B,3-mod,CTPA,composite,binary,rank average - L2 logistic,365,30,0.00324042518636916,0.00818696811387488
+B,3-mod,CTPA,composite,survival,RSF - ridge-Cox,10,30,0.0126860721186618,0.0424865440426646
+B,3-mod,CTPA,composite,survival,rank average - ridge-Cox,10,30,0.0108512782613464,0.0228559001714572
+B,3-mod,CTPA,composite,survival,RSF - ridge-Cox,30,30,-0.00320204159611886,0.0184949842302417
+B,3-mod,CTPA,composite,survival,rank average - ridge-Cox,30,30,0.00257910551769323,0.00938604972934783
+B,3-mod,CTPA,composite,survival,RSF - ridge-Cox,90,30,-0.00344366364640139,0.0167415400327534
+B,3-mod,CTPA,composite,survival,rank average - ridge-Cox,90,30,0.00300887337092285,0.00845397411754604
+B,3-mod,CTPA,composite,survival,RSF - ridge-Cox,180,30,-0.00257783343728508,0.0183298975164955
+B,3-mod,CTPA,composite,survival,rank average - ridge-Cox,180,30,0.00312684061483022,0.00940720684343707
+B,3-mod,CTPA,composite,survival,RSF - ridge-Cox,365,30,0.00211381852518678,0.0177817215808258
+B,3-mod,CTPA,composite,survival,rank average - ridge-Cox,365,30,0.00533214940390876,0.00878609070924034
+B,3-mod,CTPA,cv,binary,random forest - L2 logistic,10,30,0.0140120215534711,0.129093533987272
+B,3-mod,CTPA,cv,binary,rank average - L2 logistic,10,30,0.0186270320956438,0.0810741443476851
+B,3-mod,CTPA,cv,binary,random forest - L2 logistic,30,30,-0.0123239751726311,0.0614115031870333
+B,3-mod,CTPA,cv,binary,rank average - L2 logistic,30,30,-0.00807011484626472,0.0455836006090885
+B,3-mod,CTPA,cv,binary,random forest - L2 logistic,90,30,0.0141404184891592,0.0508589272519466
+B,3-mod,CTPA,cv,binary,rank average - L2 logistic,90,30,0.0166420192199221,0.034738408519407
+B,3-mod,CTPA,cv,binary,random forest - L2 logistic,180,30,0.0107101318625562,0.0440357089340134
+B,3-mod,CTPA,cv,binary,rank average - L2 logistic,180,30,0.0122418159749429,0.0305578249814404
+B,3-mod,CTPA,cv,binary,random forest - L2 logistic,365,30,0.00536631747907665,0.0348550448565249
+B,3-mod,CTPA,cv,binary,rank average - L2 logistic,365,30,0.0122067871963351,0.0207260089446245
+B,3-mod,CTPA,cv,survival,RSF - ridge-Cox,10,30,-0.0135475217479374,0.116497928663667
+B,3-mod,CTPA,cv,survival,rank average - ridge-Cox,10,30,-0.00273432238453878,0.0637688535861137
+B,3-mod,CTPA,cv,survival,RSF - ridge-Cox,30,30,-0.0119074732267985,0.0584989722612874
+B,3-mod,CTPA,cv,survival,rank average - ridge-Cox,30,30,0.000606081524630016,0.0342830940550069
+B,3-mod,CTPA,cv,survival,RSF - ridge-Cox,90,30,0.00445030400214584,0.0456787188181832
+B,3-mod,CTPA,cv,survival,rank average - ridge-Cox,90,30,0.00981519525873323,0.0266383103903503
+B,3-mod,CTPA,cv,survival,RSF - ridge-Cox,180,30,0.0078318433974835,0.0451301717376035
+B,3-mod,CTPA,cv,survival,rank average - ridge-Cox,180,30,0.0120407207363134,0.0274641070853409
+B,3-mod,CTPA,cv,survival,RSF - ridge-Cox,365,30,-0.00215062379956895,0.0378231810675567
+B,3-mod,CTPA,cv,survival,rank average - ridge-Cox,365,30,0.00618519564352919,0.0218719553731462
+B,3-mod,CTPA,death,binary,random forest - L2 logistic,10,30,0.0118383310901167,0.0529230192868389
+B,3-mod,CTPA,death,binary,rank average - L2 logistic,10,30,0.00708510453538957,0.036906744187751
+B,3-mod,CTPA,death,binary,random forest - L2 logistic,30,30,0.0187985344313882,0.0343592959717861
+B,3-mod,CTPA,death,binary,rank average - L2 logistic,30,30,0.015616970318639,0.0253032029103029
+B,3-mod,CTPA,death,binary,random forest - L2 logistic,90,30,0.0060753094931727,0.0213070251300914
+B,3-mod,CTPA,death,binary,rank average - L2 logistic,90,30,0.00644501845652569,0.0142391416901935
+B,3-mod,CTPA,death,binary,random forest - L2 logistic,180,30,0.00401169063198912,0.0205356635767305
+B,3-mod,CTPA,death,binary,rank average - L2 logistic,180,30,0.0057985646606494,0.0135029736228298
+B,3-mod,CTPA,death,binary,random forest - L2 logistic,365,30,0.0120319133309635,0.0161035276918063
+B,3-mod,CTPA,death,binary,rank average - L2 logistic,365,30,0.0103991710582052,0.011375436746321
+B,3-mod,CTPA,death,survival,RSF - ridge-Cox,10,30,0.0110379456343734,0.0517814909239186
+B,3-mod,CTPA,death,survival,rank average - ridge-Cox,10,30,0.00988484007784281,0.0351636299796092
+B,3-mod,CTPA,death,survival,RSF - ridge-Cox,30,30,0.00413141141657732,0.0297335559269361
+B,3-mod,CTPA,death,survival,rank average - ridge-Cox,30,30,0.00721722379129655,0.0181443833065351
+B,3-mod,CTPA,death,survival,RSF - ridge-Cox,90,30,3.43868949456779e-05,0.0211986702715769
+B,3-mod,CTPA,death,survival,rank average - ridge-Cox,90,30,0.00358031721363951,0.0120238484998622
+B,3-mod,CTPA,death,survival,RSF - ridge-Cox,180,30,0.00115815079049484,0.0194511841420574
+B,3-mod,CTPA,death,survival,rank average - ridge-Cox,180,30,0.00404466074304829,0.0111562975171614
+B,3-mod,CTPA,death,survival,RSF - ridge-Cox,365,30,0.0102680569201496,0.0204206002652024
+B,3-mod,CTPA,death,survival,rank average - ridge-Cox,365,30,0.00932155284405326,0.0119639420419435
+B,3-mod,ECG,composite,binary,random forest - L2 logistic,10,30,-0.00568605411316681,0.06136790207967
+B,3-mod,ECG,composite,binary,rank average - L2 logistic,10,30,0.00890215156066098,0.0385217795081834
+B,3-mod,ECG,composite,binary,random forest - L2 logistic,30,30,0.010359370952545,0.0264739307234969
+B,3-mod,ECG,composite,binary,rank average - L2 logistic,30,30,0.0109790516121796,0.0148465623073283
+B,3-mod,ECG,composite,binary,random forest - L2 logistic,90,30,0.00843051071358199,0.0242046784552544
+B,3-mod,ECG,composite,binary,rank average - L2 logistic,90,30,0.0138950109623767,0.0117109495396015
+B,3-mod,ECG,composite,binary,random forest - L2 logistic,180,30,0.00503262381032963,0.0238744784178111
+B,3-mod,ECG,composite,binary,rank average - L2 logistic,180,30,0.0101100117043422,0.0127606771067679
+B,3-mod,ECG,composite,binary,random forest - L2 logistic,365,30,0.00592204882253301,0.0217717866941413
+B,3-mod,ECG,composite,binary,rank average - L2 logistic,365,30,0.0108004052288131,0.011660258835047
+B,3-mod,ECG,composite,survival,RSF - ridge-Cox,10,30,-0.0276753603233377,0.0422841638543554
+B,3-mod,ECG,composite,survival,rank average - ridge-Cox,10,30,-0.00703902690208955,0.0203552285949438
+B,3-mod,ECG,composite,survival,RSF - ridge-Cox,30,30,-0.0129957146912231,0.031043892815222
+B,3-mod,ECG,composite,survival,rank average - ridge-Cox,30,30,0.000275745220632998,0.0147210874759308
+B,3-mod,ECG,composite,survival,RSF - ridge-Cox,90,30,-0.00791073040660091,0.0254913736178338
+B,3-mod,ECG,composite,survival,rank average - ridge-Cox,90,30,0.00331029037801028,0.0119523577426173
+B,3-mod,ECG,composite,survival,RSF - ridge-Cox,180,30,-0.00422561321925449,0.018885208755675
+B,3-mod,ECG,composite,survival,rank average - ridge-Cox,180,30,0.00495232816870815,0.00904073111996838
+B,3-mod,ECG,composite,survival,RSF - ridge-Cox,365,30,-0.00131043913929545,0.018808194051267
+B,3-mod,ECG,composite,survival,rank average - ridge-Cox,365,30,0.00696736803438194,0.00922946408079658
+B,3-mod,ECG,cv,binary,random forest - L2 logistic,10,30,-0.0157528243888941,0.0864726137766056
+B,3-mod,ECG,cv,binary,rank average - L2 logistic,10,30,0.0030354793311899,0.0515733478571221
+B,3-mod,ECG,cv,binary,random forest - L2 logistic,30,30,0.00093846751343577,0.0347284580010238
+B,3-mod,ECG,cv,binary,rank average - L2 logistic,30,30,0.00509097822087324,0.0186134119308824
+B,3-mod,ECG,cv,binary,random forest - L2 logistic,90,30,-0.00793403627228539,0.0249942516644807
+B,3-mod,ECG,cv,binary,rank average - L2 logistic,90,30,2.11494184978419e-05,0.0137377046089191
+B,3-mod,ECG,cv,binary,random forest - L2 logistic,180,30,0.0013779546311566,0.0212380075465809
+B,3-mod,ECG,cv,binary,rank average - L2 logistic,180,30,0.00497892165272408,0.0112128723577477
+B,3-mod,ECG,cv,binary,random forest - L2 logistic,365,30,0.00193586124367214,0.0184703512486544
+B,3-mod,ECG,cv,binary,rank average - L2 logistic,365,30,0.00454942674914567,0.00918281325310478
+B,3-mod,ECG,cv,survival,RSF - ridge-Cox,10,30,-0.012304972714988,0.0336292576173712
+B,3-mod,ECG,cv,survival,rank average - ridge-Cox,10,30,-0.00179469131721523,0.01905349637712
+B,3-mod,ECG,cv,survival,RSF - ridge-Cox,30,30,-0.0046628323162971,0.0244876625794117
+B,3-mod,ECG,cv,survival,rank average - ridge-Cox,30,30,0.00142120989195785,0.0135154888318541
+B,3-mod,ECG,cv,survival,RSF - ridge-Cox,90,30,-0.00575440745561517,0.0243733584635825
+B,3-mod,ECG,cv,survival,rank average - ridge-Cox,90,30,0.000821321667234864,0.0130325125420039
+B,3-mod,ECG,cv,survival,RSF - ridge-Cox,180,30,0.0017013962820865,0.0199893130166475
+B,3-mod,ECG,cv,survival,rank average - ridge-Cox,180,30,0.00515554891474674,0.0104806784229133
+B,3-mod,ECG,cv,survival,RSF - ridge-Cox,365,30,-0.000163170278659482,0.0189664432397057
+B,3-mod,ECG,cv,survival,rank average - ridge-Cox,365,30,0.00465335601261195,0.0094531035337719
+B,3-mod,ECG,death,binary,random forest - L2 logistic,10,30,0.00882101673708515,0.0986207008047534
+B,3-mod,ECG,death,binary,rank average - L2 logistic,10,30,0.0194221704024039,0.0616930861939909
+B,3-mod,ECG,death,binary,random forest - L2 logistic,30,30,-0.0143814880472076,0.0308134540222851
+B,3-mod,ECG,death,binary,rank average - L2 logistic,30,30,0.00601203358239582,0.0178385403190502
+B,3-mod,ECG,death,binary,random forest - L2 logistic,90,30,0.00525668769130752,0.02997535737705
+B,3-mod,ECG,death,binary,rank average - L2 logistic,90,30,0.015961035411118,0.0147854522919682
+B,3-mod,ECG,death,binary,random forest - L2 logistic,180,30,-0.000688677061827055,0.026531356997618
+B,3-mod,ECG,death,binary,rank average - L2 logistic,180,30,0.0118814677705702,0.0138490746701889
+B,3-mod,ECG,death,binary,random forest - L2 logistic,365,30,-0.00383568834436422,0.0283923909752127
+B,3-mod,ECG,death,binary,rank average - L2 logistic,365,30,0.0112877677038294,0.0145288885307982
+B,3-mod,ECG,death,survival,RSF - ridge-Cox,10,30,-0.0293977310010485,0.065721981918319
+B,3-mod,ECG,death,survival,rank average - ridge-Cox,10,30,-0.000508281088513211,0.0366797231395986
+B,3-mod,ECG,death,survival,RSF - ridge-Cox,30,30,-0.0171871642721627,0.0448673161011533
+B,3-mod,ECG,death,survival,rank average - ridge-Cox,30,30,0.00503646611026476,0.0231556160916318
+B,3-mod,ECG,death,survival,RSF - ridge-Cox,90,30,-0.0158714238251033,0.0284015310137535
+B,3-mod,ECG,death,survival,rank average - ridge-Cox,90,30,0.00458910072239193,0.0133711656578982
+B,3-mod,ECG,death,survival,RSF - ridge-Cox,180,30,-0.0157474887471818,0.0295252262368217
+B,3-mod,ECG,death,survival,rank average - ridge-Cox,180,30,0.00431060771401966,0.0145631786544235
+B,3-mod,ECG,death,survival,RSF - ridge-Cox,365,30,-0.00869337475795503,0.0265018955523649
+B,3-mod,ECG,death,survival,rank average - ridge-Cox,365,30,0.00852406611697452,0.013705465235537
+B,3-mod,EHR,composite,binary,random forest - L2 logistic,10,30,0.0174160950730618,0.0319807465268803
+B,3-mod,EHR,composite,binary,rank average - L2 logistic,10,30,0.0189172996471322,0.0174834814555055
+B,3-mod,EHR,composite,binary,random forest - L2 logistic,30,30,0.0177944865676534,0.0153319281103393
+B,3-mod,EHR,composite,binary,rank average - L2 logistic,30,30,0.0148156504593025,0.0076706649662934
+B,3-mod,EHR,composite,binary,random forest - L2 logistic,90,30,0.00791960946447536,0.0137780832585597
+B,3-mod,EHR,composite,binary,rank average - L2 logistic,90,30,0.00856104187427901,0.00665563720848956
+B,3-mod,EHR,composite,binary,random forest - L2 logistic,180,30,0.00702270023745684,0.0101071927063557
+B,3-mod,EHR,composite,binary,rank average - L2 logistic,180,30,0.00857051853717002,0.00502292003205955
+B,3-mod,EHR,composite,binary,random forest - L2 logistic,365,30,0.00407210211952822,0.0100136869709652
+B,3-mod,EHR,composite,binary,rank average - L2 logistic,365,30,0.00682328934003005,0.00473156992955044
+B,3-mod,EHR,composite,survival,RSF - ridge-Cox,10,30,0.00901375738607073,0.0262620331392164
+B,3-mod,EHR,composite,survival,rank average - ridge-Cox,10,30,0.00872831893301309,0.0133071363308548
+B,3-mod,EHR,composite,survival,RSF - ridge-Cox,30,30,0.00800565179803046,0.0187001831748214
+B,3-mod,EHR,composite,survival,rank average - ridge-Cox,30,30,0.00843612260705685,0.00941031914992362
+B,3-mod,EHR,composite,survival,RSF - ridge-Cox,90,30,0.0047625819570073,0.0164374453705911
+B,3-mod,EHR,composite,survival,rank average - ridge-Cox,90,30,0.00715147889749576,0.00783529209563692
+B,3-mod,EHR,composite,survival,RSF - ridge-Cox,180,30,0.00626385482304928,0.0135226476895256
+B,3-mod,EHR,composite,survival,rank average - ridge-Cox,180,30,0.00841225493636036,0.00647942193232289
+B,3-mod,EHR,composite,survival,RSF - ridge-Cox,365,30,0.00383032439015741,0.0134961252119015
+B,3-mod,EHR,composite,survival,rank average - ridge-Cox,365,30,0.00718632367640488,0.00637729123771838
+B,3-mod,EHR,cv,binary,random forest - L2 logistic,10,30,0.0201338913477753,0.0520644759968074
+B,3-mod,EHR,cv,binary,rank average - L2 logistic,10,30,0.0225514485036809,0.0267127463289824
+B,3-mod,EHR,cv,binary,random forest - L2 logistic,30,30,0.0268155905822121,0.0227148352559379
+B,3-mod,EHR,cv,binary,rank average - L2 logistic,30,30,0.0201789620551341,0.0119449431733931
+B,3-mod,EHR,cv,binary,random forest - L2 logistic,90,30,0.0208966785637775,0.0167689176672647
+B,3-mod,EHR,cv,binary,rank average - L2 logistic,90,30,0.0167285642116574,0.00987372383293014
+B,3-mod,EHR,cv,binary,random forest - L2 logistic,180,30,0.00265883340511355,0.0111107280627368
+B,3-mod,EHR,cv,binary,rank average - L2 logistic,180,30,0.00508325437181669,0.00633281165598473
+B,3-mod,EHR,cv,binary,random forest - L2 logistic,365,30,0.00148397017476598,0.0124415504235697
+B,3-mod,EHR,cv,binary,rank average - L2 logistic,365,30,0.0048719677097259,0.00704804509030483
+B,3-mod,EHR,cv,survival,RSF - ridge-Cox,10,30,0.00931843189325008,0.0294523344001242
+B,3-mod,EHR,cv,survival,rank average - ridge-Cox,10,30,0.00907228616390565,0.0150152444731322
+B,3-mod,EHR,cv,survival,RSF - ridge-Cox,30,30,0.0128170959947692,0.0197751543399413
+B,3-mod,EHR,cv,survival,rank average - ridge-Cox,30,30,0.0107292700360542,0.00996871014314608
+B,3-mod,EHR,cv,survival,RSF - ridge-Cox,90,30,0.00637634894414361,0.013598690805366
+B,3-mod,EHR,cv,survival,rank average - ridge-Cox,90,30,0.00778852402472333,0.00666266077437182
+B,3-mod,EHR,cv,survival,RSF - ridge-Cox,180,30,0.00467164343704344,0.0130324132567945
+B,3-mod,EHR,cv,survival,rank average - ridge-Cox,180,30,0.0072403870656406,0.00629406761447817
+B,3-mod,EHR,cv,survival,RSF - ridge-Cox,365,30,0.00576622694187126,0.014350460560161
+B,3-mod,EHR,cv,survival,rank average - ridge-Cox,365,30,0.00765281586768072,0.00729570346323012
+B,3-mod,EHR,death,binary,random forest - L2 logistic,10,30,0.000932853144512783,0.0610846238749871
+B,3-mod,EHR,death,binary,rank average - L2 logistic,10,30,0.014419373728217,0.0284598946236972
+B,3-mod,EHR,death,binary,random forest - L2 logistic,30,30,0.00491627976649679,0.0268284991150513
+B,3-mod,EHR,death,binary,rank average - L2 logistic,30,30,0.00913860190108591,0.0122166359557665
+B,3-mod,EHR,death,binary,random forest - L2 logistic,90,30,0.00595826122124672,0.0181425827577982
+B,3-mod,EHR,death,binary,rank average - L2 logistic,90,30,0.0088835724036214,0.00992839648470739
+B,3-mod,EHR,death,binary,random forest - L2 logistic,180,30,0.00554842977641665,0.0129374978786471
+B,3-mod,EHR,death,binary,rank average - L2 logistic,180,30,0.0101496932305306,0.00773128260124806
+B,3-mod,EHR,death,binary,random forest - L2 logistic,365,30,0.00460420944819136,0.00938782471998767
+B,3-mod,EHR,death,binary,rank average - L2 logistic,365,30,0.00798142650517779,0.00504244887454849
+B,3-mod,EHR,death,survival,RSF - ridge-Cox,10,30,0.00228690389089778,0.0245772035705767
+B,3-mod,EHR,death,survival,rank average - ridge-Cox,10,30,0.00574131330290428,0.0129133189475755
+B,3-mod,EHR,death,survival,RSF - ridge-Cox,30,30,0.00692494200684335,0.0199889597565399
+B,3-mod,EHR,death,survival,rank average - ridge-Cox,30,30,0.00862417231466387,0.01071420470916
+B,3-mod,EHR,death,survival,RSF - ridge-Cox,90,30,0.00241602247870946,0.0145496894776467
+B,3-mod,EHR,death,survival,rank average - ridge-Cox,90,30,0.00693073415644058,0.00799899331933398
+B,3-mod,EHR,death,survival,RSF - ridge-Cox,180,30,0.00482163435098969,0.0108017572932261
+B,3-mod,EHR,death,survival,rank average - ridge-Cox,180,30,0.00818749107549153,0.00595977929375652
+B,3-mod,EHR,death,survival,RSF - ridge-Cox,365,30,0.00383918887527809,0.0101037810436949
+B,3-mod,EHR,death,survival,rank average - ridge-Cox,365,30,0.00805123733560777,0.00550802294965863
+B,3-mod,fused EHR+ECG+CTPA,death,fused,RSF - ridge-Cox,10,30,0.00528851338052824,0.0271900984207968
+B,3-mod,fused EHR+ECG+CTPA,death,fused,rank average - ridge-Cox,10,30,0.00781442089098548,0.0149396153481004
+B,3-mod,fused EHR+ECG+CTPA,death,fused,RSF - ridge-Cox,30,30,0.00581239130062352,0.0231351697520278
+B,3-mod,fused EHR+ECG+CTPA,death,fused,rank average - ridge-Cox,30,30,0.00855932638397526,0.0118981798619939
+B,3-mod,fused EHR+ECG+CTPA,death,fused,RSF - ridge-Cox,90,30,0.0020563397119724,0.0168713319153427
+B,3-mod,fused EHR+ECG+CTPA,death,fused,rank average - ridge-Cox,90,30,0.00646689524947938,0.00864593485639468
+B,3-mod,fused EHR+ECG+CTPA,death,fused,RSF - ridge-Cox,180,30,0.00327955073429416,0.0160832106167443
+B,3-mod,fused EHR+ECG+CTPA,death,fused,rank average - ridge-Cox,180,30,0.00705991667766444,0.00793730523912592
+B,3-mod,fused EHR+ECG+CTPA,death,fused,RSF - ridge-Cox,365,30,0.00742177569458139,0.0140418254504834
+B,3-mod,fused EHR+ECG+CTPA,death,fused,rank average - ridge-Cox,365,30,0.00997695735214513,0.00702490806258928

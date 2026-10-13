@@ -1,0 +1,33 @@
+item,value,status
+A EHR+ECG: ridge-Cox targets / columns in stage 6a's file,"composite, cs_cv, cs_death, death / 16",PASS
+A 3-mod: ridge-Cox targets / columns in stage 6a's file,"composite, cs_cv, cs_death, death / 24",PASS
+B EHR+ECG: ridge-Cox targets / columns in stage 6a's file,"composite, cs_cv, cs_death, death / 28",PASS
+B 3-mod: ridge-Cox targets / columns in stage 6a's file,"composite, cs_cv, cs_death, death / 42",PASS
+A EHR+ECG: ridge-Cox columns replaced / unchanged / missing,16 / 0 / 0,PASS
+A EHR+ECG: other columns copied unchanged (20),TRUE,PASS
+A EHR+ECG: death columns equal stage 6d (max |diff|),5.3e-15,PASS
+A EHR+ECG: scores failing the per-fold rule (D2),0,PASS
+A 3-mod: ridge-Cox columns replaced / unchanged / missing,24 / 0 / 0,PASS
+A 3-mod: other columns copied unchanged (28),TRUE,PASS
+A 3-mod: death columns equal stage 6d (max |diff|),5.3e-15,PASS
+A 3-mod: scores failing the per-fold rule (D2),0,PASS
+B EHR+ECG: ridge-Cox columns replaced / unchanged / missing,28 / 0 / 0,PASS
+B EHR+ECG: other columns copied unchanged (44),TRUE,PASS
+B EHR+ECG: death columns equal stage 6d (max |diff|),5.3e-15,PASS
+B EHR+ECG: scores failing the per-fold rule (D2),0,PASS
+B 3-mod: ridge-Cox columns replaced / unchanged / missing,42 / 0 / 0,PASS
+B 3-mod: other columns copied unchanged (64),TRUE,PASS
+B 3-mod: death columns equal stage 6d (max |diff|),5.3e-15,PASS
+B 3-mod: scores failing the per-fold rule (D2),0,PASS
+ECG composite: penalty at the least / most penalised end,0.0% / 0.0%,PASS
+ECG cs_cv: penalty at the least / most penalised end,0.0% / 0.0%,PASS
+ECG cs_death: penalty at the least / most penalised end,0.0% / 0.0%,PASS
+ECG death: penalty at the least / most penalised end,0.0% / 0.0%,PASS
+EHR composite: penalty at the least / most penalised end,0.0% / 0.0%,PASS
+EHR cs_cv: penalty at the least / most penalised end,0.0% / 0.0%,PASS
+EHR cs_death: penalty at the least / most penalised end,0.0% / 0.0%,PASS
+EHR death: penalty at the least / most penalised end,2.5% / 0.0%,PASS
+CTPA composite: penalty at the least / most penalised end,0.0% / 0.0%,PASS
+CTPA cs_cv: penalty at the least / most penalised end,0.0% / 0.0%,PASS
+CTPA cs_death: penalty at the least / most penalised end,0.0% / 0.0%,PASS
+CTPA death: penalty at the least / most penalised end,0.0% / 0.0%,PASS

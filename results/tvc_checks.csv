@@ -1,0 +1,23 @@
+item,value,status
+previous stage 18e prediction files (archive them),0,PASS
+A EHR+ECG: stage 18a predictions found,arch_preds_linear_A_ehrecg.csv,PASS
+A 3-mod: stage 18a predictions found,arch_preds_linear_A_3mod.csv,PASS
+B EHR+ECG: stage 18a predictions found,arch_preds_linear_B_ehrecg.csv,PASS
+B 3-mod: stage 18a predictions found,arch_preds_linear_B_3mod.csv,PASS
+"A EHR+ECG: stage 18a Late PH rebuilt (rows, max |diff|)","7002, 5.6e-16",PASS
+"A EHR+ECG: stage 18a Late TV rebuilt (rows, max |diff|)","7002, 5.6e-16",PASS
+A EHR+ECG: missing predictions,0,PASS
+A EHR+ECG: risks of exactly 0 or 1 (range),0 (5.96e-04 to 0.999087),PASS
+"A 3-mod: stage 18a Late PH rebuilt (rows, max |diff|)","9816, 5.6e-16",PASS
+"A 3-mod: stage 18a Late TV rebuilt (rows, max |diff|)","9816, 5.6e-16",PASS
+A 3-mod: missing predictions,0,PASS
+A 3-mod: risks of exactly 0 or 1 (range),0 (6.19e-04 to 0.998265),PASS
+"B EHR+ECG: stage 18a Late PH rebuilt (rows, max |diff|)","14545, 5.6e-16",PASS
+"B EHR+ECG: stage 18a Late TV rebuilt (rows, max |diff|)","14545, 5.6e-16",PASS
+B EHR+ECG: missing predictions,0,PASS
+B EHR+ECG: risks of exactly 0 or 1 (range),0 (2.56e-04 to 0.990899),PASS
+"B 3-mod: stage 18a Late PH rebuilt (rows, max |diff|)","21075, 5.6e-16",PASS
+"B 3-mod: stage 18a Late TV rebuilt (rows, max |diff|)","21075, 6.7e-16",PASS
+B 3-mod: missing predictions,0,PASS
+B 3-mod: risks of exactly 0 or 1 (range),0 (2.42e-04 to 0.994094),PASS
+warnings from model fitting (see tvc_warnings.csv),5,INFO

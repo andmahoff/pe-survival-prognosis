@@ -1,0 +1,841 @@
+frame,outcome,cohort,set,model,horizon,threshold,quantity,strategy,estimate,lo,hi,excludes_zero
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,0.05,net benefit,Model,0.0271200709571701,0.0205779252377753,0.0335919127488919,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,0.05,net benefit,Treat all,0.000886964626648018,-0.00643577146429815,0.00851241879041601,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,0.05,net benefit,sPESI 1 or more,0.0138907680512335,0.00667039992181084,0.0210817271321523,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,0.05,net benefit,PESI-10 class III to V,0.019663554773824,0.012726348538643,0.026843155404653,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,0.05,model minus strategy,Treat none,0.0271200709571701,0.0205779252377753,0.0335919127488919,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,0.05,model minus strategy,Treat all,0.0262331063305221,0.0224999931609742,0.0297703656658314,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,0.05,model minus strategy,sPESI 1 or more,0.0132293029059367,0.00985699249832449,0.0167023174759928,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,0.05,model minus strategy,PESI-10 class III to V,0.00745651618334611,0.0039755612878191,0.0108158991107349,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,0.1,net benefit,Model,0.01602716684122,0.0104743418922196,0.0216683874495425,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,0.1,net benefit,Treat all,-0.054619315116316,-0.0623488698789814,-0.0465702246101164,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,0.1,net benefit,sPESI 1 or more,-0.0246278840966073,-0.0321843175882316,-0.0168690083945913,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,0.1,net benefit,PESI-10 class III to V,-0.00894982385984957,-0.0162542971298108,-0.00136753343178971,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,0.1,model minus strategy,Treat none,0.01602716684122,0.0104743418922196,0.0216683874495425,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,0.1,model minus strategy,Treat all,0.0706464819575359,0.0654441142902845,0.0762370188351976,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,0.1,model minus strategy,sPESI 1 or more,0.0406550509378273,0.0355262694830958,0.0460918445382836,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,0.1,model minus strategy,PESI-10 class III to V,0.0249769907010695,0.0196781314800764,0.0301981804430095,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,0.2,net benefit,Model,0.00828334761496715,0.00357487886964461,0.0133687265653316,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,0.2,net benefit,Treat all,-0.186446729505855,-0.195142478613854,-0.177391502686381,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,0.2,net benefit,sPESI 1 or more,-0.116109682947729,-0.125143738549851,-0.107102189829026,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,0.2,net benefit,PESI-10 class III to V,-0.0769065981148243,-0.0854595476889386,-0.0682050075193384,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,0.2,model minus strategy,Treat none,0.00828334761496715,0.00357487886964461,0.0133687265653316,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,0.2,model minus strategy,Treat all,0.194730077120823,0.187481154403625,0.201994515975203,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,0.2,model minus strategy,sPESI 1 or more,0.124393030562696,0.116938290651957,0.132101132356681,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",10,0.2,model minus strategy,PESI-10 class III to V,0.0851899457297915,0.0777212425370153,0.0927096248979091,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,0.05,net benefit,Model,0.0873284324779386,0.0774570614813472,0.0980389092935756,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,0.05,net benefit,Treat all,0.0667328131811963,0.0562391470220663,0.077935287868006,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,0.05,net benefit,sPESI 1 or more,0.0761286249041627,0.0660500244495341,0.0869663344536167,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,0.05,net benefit,PESI-10 class III to V,0.0758880921240548,0.0660453165971316,0.0863484471487998,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,0.05,model minus strategy,Treat none,0.0873284324779386,0.0774570614813472,0.0980389092935756,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,0.05,model minus strategy,Treat all,0.0205956192967423,0.0175285887022165,0.0232412401911717,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,0.05,model minus strategy,sPESI 1 or more,0.0111998075737759,0.0081633146571471,0.0140506388565218,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,0.05,model minus strategy,PESI-10 class III to V,0.0114403403538838,0.00784039952244818,0.0152156257967933,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,0.1,net benefit,Model,0.0681075248341744,0.0584325362340238,0.0784045732949115,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,0.1,net benefit,Treat all,0.0148846361357073,0.00380798852329219,0.0267094705273396,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,0.1,net benefit,sPESI 1 or more,0.0410676314703735,0.0304432102281718,0.0522405896178579,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,0.1,net benefit,PESI-10 class III to V,0.0503982988987274,0.0402407367461905,0.0610393615743244,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,0.1,model minus strategy,Treat none,0.0681075248341744,0.0584325362340238,0.0784045732949115,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,0.1,model minus strategy,Treat all,0.0532228886984671,0.0477322658893996,0.058247318356608,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,0.1,model minus strategy,sPESI 1 or more,0.0270398933638008,0.0219193740102539,0.0318364225403744,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,0.1,model minus strategy,PESI-10 class III to V,0.017709225935447,0.0126577995078527,0.0226382373059548,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,0.2,net benefit,Model,0.0436303913167666,0.0348832630730707,0.0531371307527,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,0.2,net benefit,Treat all,-0.108254784347329,-0.120716012911296,-0.094951845656743,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,0.2,net benefit,sPESI 1 or more,-0.0422022279348758,-0.0541319148263988,-0.0295170342141025,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,0.2,net benefit,PESI-10 class III to V,-0.0101399600114253,-0.0216000328287027,0.00170036765076362,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,0.2,model minus strategy,Treat none,0.0436303913167666,0.0348832630730707,0.0531371307527,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,0.2,model minus strategy,Treat all,0.151885175664096,0.142476626109743,0.16025824616003,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,0.2,model minus strategy,sPESI 1 or more,0.0858326192516424,0.0768563334280034,0.0942415073770623,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",30,0.2,model minus strategy,PESI-10 class III to V,0.0537703513281919,0.0453617773805565,0.0618925446600241,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,0.05,net benefit,Model,0.158420902298591,0.144586506409505,0.172224858887598,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,0.05,net benefit,Treat all,0.141598640989792,0.127438735686812,0.156042805553524,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,0.05,net benefit,sPESI 1 or more,0.148288458936544,0.134468587304948,0.162092697007102,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,0.05,net benefit,PESI-10 class III to V,0.144439934454817,0.131349701535371,0.157820350299347,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,0.05,model minus strategy,Treat none,0.158420902298591,0.144586506409505,0.172224858887598,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,0.05,model minus strategy,Treat all,0.016822261308799,0.0143535195383925,0.0191156869879787,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,0.05,model minus strategy,sPESI 1 or more,0.0101324433620469,0.00719531738108136,0.0130151536425492,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,0.05,model minus strategy,PESI-10 class III to V,0.013980967843774,0.00965714527675937,0.0183186971789188,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,0.1,net benefit,Model,0.139579167856803,0.126148001672353,0.153573978003407,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,0.1,net benefit,Treat all,0.0939096766003364,0.0789631098916346,0.109156294750942,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,0.1,net benefit,sPESI 1 or more,0.117236345171221,0.102648709386552,0.131544735307626,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,0.1,net benefit,PESI-10 class III to V,0.122758576914532,0.109100539991001,0.136642395310607,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,0.1,model minus strategy,Treat none,0.139579167856803,0.126148001672353,0.153573978003407,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,0.1,model minus strategy,Treat all,0.0456694912564664,0.0410251113375468,0.0500321661577893,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,0.1,model minus strategy,sPESI 1 or more,0.0223428226855819,0.0177798355574509,0.0266736287755527,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,0.1,model minus strategy,PESI-10 class III to V,0.0168205909422704,0.0117118663074852,0.0218911581078837,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,0.2,net benefit,Model,0.10811196800914,0.0952888943086783,0.121741407534298,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,0.2,net benefit,Treat all,-0.0193516138246215,-0.0361665013719111,-0.00219916840519008,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,0.2,net benefit,sPESI 1 or more,0.0434875749785776,0.0270985628495439,0.0590905630976438,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,0.2,net benefit,PESI-10 class III to V,0.0712653527563553,0.0564163860970874,0.0864414760854423,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,0.2,model minus strategy,Treat none,0.10811196800914,0.0952888943086783,0.121741407534298,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,0.2,model minus strategy,Treat all,0.127463581833762,0.118822471695017,0.135583173375902,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,0.2,model minus strategy,sPESI 1 or more,0.0646243930305627,0.0565001897795391,0.0725229222083061,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",90,0.2,model minus strategy,PESI-10 class III to V,0.0368466152527849,0.0292960587718584,0.0442714495249499,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,0.05,net benefit,Model,0.203746298050181,0.188365952383689,0.219641779333655,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,0.05,net benefit,Treat all,0.188201867135706,0.172203579923103,0.204493277706159,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,0.05,net benefit,sPESI 1 or more,0.192185691306243,0.176699099315904,0.207914706916458,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,0.05,net benefit,PESI-10 class III to V,0.183225845247223,0.168773076115406,0.198335414687578,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,0.05,model minus strategy,Treat none,0.203746298050181,0.188365952383689,0.219641779333655,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,0.05,model minus strategy,Treat all,0.0155444309144756,0.0134512309372372,0.0172770505840811,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,0.05,model minus strategy,sPESI 1 or more,0.0115606067439378,0.00832441881038824,0.0149628260119476,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,0.05,model minus strategy,PESI-10 class III to V,0.0205204528029585,0.0153202775569997,0.025959144805478,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,0.1,net benefit,Model,0.183280967342664,0.167898206273269,0.199100945008245,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,0.1,net benefit,Treat all,0.143101970865467,0.126214889918831,0.160298459800946,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,0.1,net benefit,sPESI 1 or more,0.16357231267257,0.147431235198186,0.180041740470689,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,0.1,net benefit,PESI-10 class III to V,0.163699260528738,0.148714205746812,0.179160244735543,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,0.1,model minus strategy,Treat none,0.183280967342664,0.167898206273269,0.199100945008245,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,0.1,model minus strategy,Treat all,0.040178996477197,0.0361211557108533,0.0441129834801776,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,0.1,model minus strategy,sPESI 1 or more,0.0197086546700943,0.0156772775069305,0.0239559698375608,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,0.1,model minus strategy,PESI-10 class III to V,0.0195817068139262,0.0140589394853596,0.0253208599866914,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,0.2,net benefit,Model,0.146386746643816,0.132024022278183,0.162390052721305,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,0.2,net benefit,Treat all,0.0359897172236504,0.016991751158685,0.0553357672760639,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,0.2,net benefit,sPESI 1 or more,0.095615538417595,0.0782261910690315,0.113879109348264,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,0.2,net benefit,PESI-10 class III to V,0.117323621822337,0.101265587117308,0.134245429718548,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,0.2,model minus strategy,Treat none,0.146386746643816,0.132024022278183,0.162390052721305,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,0.2,model minus strategy,Treat all,0.110397029420166,0.101655032996379,0.118643614424609,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,0.2,model minus strategy,sPESI 1 or more,0.0507712082262211,0.0426403960604099,0.0588697897245391,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",180,0.2,model minus strategy,PESI-10 class III to V,0.0290631248214796,0.0215088473284846,0.037026883313002,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,0.05,net benefit,Model,0.249718125648311,0.23288518212952,0.267028386109453,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,0.05,net benefit,Treat all,0.239315082908643,0.221702739131767,0.256793593854424,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,0.05,net benefit,sPESI 1 or more,0.239991581352696,0.223497920655276,0.257323971669831,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,0.05,net benefit,PESI-10 class III to V,0.226221079691517,0.210298444428986,0.24223305302772,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,0.05,model minus strategy,Treat none,0.249718125648311,0.23288518212952,0.267028386109453,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,0.05,model minus strategy,Treat all,0.0104030427396684,0.00777700401639161,0.0127512301062134,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,0.05,model minus strategy,sPESI 1 or more,0.00972654429561481,0.00594936600571818,0.0137446803262982,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,0.05,model minus strategy,PESI-10 class III to V,0.0234970459567943,0.0175883600805797,0.0298477606810042,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,0.1,net benefit,Model,0.231425941794408,0.214294491694811,0.248394670340516,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,0.1,net benefit,Treat all,0.197054809736901,0.178464002416865,0.215504349068558,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,0.1,net benefit,sPESI 1 or more,0.214034085499381,0.196403485189591,0.231853171580088,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,0.1,net benefit,PESI-10 class III to V,0.209083119108826,0.19271556962835,0.225677162280917,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,0.1,model minus strategy,Treat none,0.231425941794408,0.214294491694811,0.248394670340516,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,0.1,model minus strategy,Treat all,0.0343711320575074,0.0302209715654215,0.0381409928087082,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,0.1,model minus strategy,sPESI 1 or more,0.0173918562950268,0.0132836985643128,0.0215538102512668,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,0.1,model minus strategy,PESI-10 class III to V,0.0223428226855819,0.0163682031503808,0.0284781575398673,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,0.2,net benefit,Model,0.198014852899172,0.181467180144302,0.215807420532601,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,0.2,net benefit,Treat all,0.0966866609540131,0.0757720027189734,0.117442392702128,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,0.2,net benefit,sPESI 1 or more,0.152385032847758,0.13297675446908,0.171946555211688,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,0.2,net benefit,PESI-10 class III to V,0.168380462724936,0.150785680626064,0.186423895878967,
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,0.2,model minus strategy,Treat none,0.198014852899172,0.181467180144302,0.215807420532601,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,0.2,model minus strategy,Treat all,0.101328191945159,0.0930919243607921,0.109259352197049,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,0.2,model minus strategy,sPESI 1 or more,0.0456298200514139,0.0382950675298733,0.0533677592333255,TRUE
+P,death,EHR+ECG,EHR+ECG,"Super learner P, recalibrated",365,0.2,model minus strategy,PESI-10 class III to V,0.0296343901742359,0.0217232286279381,0.0375956304304361,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,0.05,net benefit,Model,0.0212649594646764,0.0128336886245621,0.0302611029957157,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,0.05,net benefit,Treat all,-0.00887916613048515,-0.019235601093688,0.00110053732116268,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,0.05,net benefit,sPESI 1 or more,0.00627332389653841,-0.00368105430991569,0.0161998756945835,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,0.05,net benefit,PESI-10 class III to V,0.0142517050572642,0.0043869133288156,0.0239476280515537,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,0.05,model minus strategy,Treat none,0.0212649594646764,0.0128336886245621,0.0302611029957157,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,0.05,model minus strategy,Treat all,0.0301441255951615,0.0251740008963042,0.034884113372041,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,0.05,model minus strategy,sPESI 1 or more,0.0149916355681379,0.0103777281057998,0.019455598302582,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,0.05,model minus strategy,PESI-10 class III to V,0.00701325440741217,0.00169963028728544,0.0123564347188372,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,0.1,net benefit,Model,0.0125645205107308,0.00527274231454256,0.0200917501155271,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,0.1,net benefit,Treat all,-0.0649280086932899,-0.0758598011544484,-0.0543938772721061,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,0.1,net benefit,sPESI 1 or more,-0.0315810920945395,-0.0418389043709297,-0.0209088240756382,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,0.1,net benefit,PESI-10 class III to V,-0.0140586797066015,-0.0243672314086158,-0.0038946215396018,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,0.1,model minus strategy,Treat none,0.0125645205107308,0.00527274231454256,0.0200917501155271,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,0.1,model minus strategy,Treat all,0.0774925292040206,0.070036285045387,0.0846953093495594,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,0.1,model minus strategy,sPESI 1 or more,0.0441456126052703,0.0365638710933528,0.0511364859759297,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,0.1,model minus strategy,PESI-10 class III to V,0.0266232002173322,0.0191493798860297,0.0336044927399974,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,0.2,net benefit,Model,0.00427872860635697,-0.00136134781485554,0.0103205861742913,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,0.2,net benefit,Treat all,-0.198044009779951,-0.210342276298754,-0.186193111931119,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,0.2,net benefit,sPESI 1 or more,-0.12148533007335,-0.13373355806858,-0.108761585823242,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,0.2,net benefit,PESI-10 class III to V,-0.0812958435207824,-0.0936927960927961,-0.0692140029588554,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,0.2,model minus strategy,Treat none,0.00427872860635697,-0.00136134781485554,0.0103205861742913,FALSE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,0.2,model minus strategy,Treat all,0.202322738386308,0.191615354161733,0.212759462759463,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,0.2,model minus strategy,sPESI 1 or more,0.125764058679707,0.114678583066007,0.137127878661,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",10,0.2,model minus strategy,PESI-10 class III to V,0.0855745721271394,0.0747716081113296,0.0965993810381078,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,0.05,net benefit,Model,0.0707116201261099,0.0571272603758936,0.0842314439455184,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,0.05,net benefit,Treat all,0.0451679320550766,0.0305213728128689,0.0594355883585264,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,0.05,net benefit,sPESI 1 or more,0.0590335864110153,0.0455070184401873,0.0727004588288457,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,0.05,net benefit,PESI-10 class III to V,0.0625080427229443,0.0490145363201376,0.0759523607546853,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,0.05,model minus strategy,Treat none,0.0707116201261099,0.0571272603758936,0.0842314439455184,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,0.05,model minus strategy,Treat all,0.0255436880710333,0.0211230552734481,0.0292867863888301,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,0.05,model minus strategy,sPESI 1 or more,0.0116780337150946,0.00678680388925144,0.0158152521041083,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,0.05,model minus strategy,PESI-10 class III to V,0.00820357740316562,0.00254753507558379,0.0137329981625645,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,0.1,net benefit,Model,0.0561668024993208,0.0434278959810875,0.0693189029082208,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,0.1,net benefit,Treat all,-0.00787829394186362,-0.0233385509197495,0.00718200993400012,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,0.1,net benefit,sPESI 1 or more,0.0241102961151861,0.00978736645936087,0.0386247993808098,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,0.1,net benefit,PESI-10 class III to V,0.036878565607172,0.0229543188158043,0.0507880476822284,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,0.1,model minus strategy,Treat none,0.0561668024993208,0.0434278959810875,0.0693189029082208,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,0.1,model minus strategy,Treat all,0.0640450964411845,0.0574826326946083,0.0707630222640818,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,0.1,model minus strategy,sPESI 1 or more,0.0320565063841348,0.0255203066619886,0.0384511457630008,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,0.1,model minus strategy,PESI-10 class III to V,0.0192882368921489,0.0128658212022183,0.0260797965377445,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,0.2,net benefit,Model,0.0327017114914425,0.0215708542929218,0.0441275887774159,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,0.2,net benefit,Treat all,-0.133863080684597,-0.151255869784718,-0.11692023882425,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,0.2,net benefit,sPESI 1 or more,-0.0588325183374083,-0.0750500436589823,-0.0429690609421273,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,0.2,net benefit,PESI-10 class III to V,-0.0239914425427873,-0.0399408589541851,-0.00783602843945875,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,0.2,model minus strategy,Treat none,0.0327017114914425,0.0215708542929218,0.0441275887774159,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,0.2,model minus strategy,Treat all,0.166564792176039,0.155000149978324,0.178442547643894,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,0.2,model minus strategy,sPESI 1 or more,0.0915342298288509,0.0797665079615195,0.10312908700896,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",30,0.2,model minus strategy,PESI-10 class III to V,0.0566931540342298,0.0454111977796643,0.0680285959380787,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,0.05,net benefit,Model,0.149305108737614,0.130709598928972,0.167886131386861,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,0.05,net benefit,Treat all,0.128168832840046,0.108412610799052,0.147689670426897,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,0.05,net benefit,sPESI 1 or more,0.140104233689358,0.121525658328058,0.158638595328574,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,0.05,net benefit,PESI-10 class III to V,0.13907476515249,0.121335040054557,0.157897938276348,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,0.05,model minus strategy,Treat none,0.149305108737614,0.130709598928972,0.167886131386861,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,0.05,model minus strategy,Treat all,0.0211362758975679,0.0179008477513991,0.0239468817085405,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,0.05,model minus strategy,sPESI 1 or more,0.00920087504825634,0.00580427781452159,0.0131995450649211,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,0.05,model minus strategy,PESI-10 class III to V,0.0102303435851242,0.00483067861217489,0.0162303031900242,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,0.1,net benefit,Model,0.133727248030427,0.115839689448064,0.151873732514916,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,0.1,net benefit,Treat all,0.0797337679978267,0.0588799780656659,0.100339096561724,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,0.1,net benefit,sPESI 1 or more,0.109684868242325,0.0903278640034213,0.128913443830571,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,0.1,net benefit,PESI-10 class III to V,0.117698994838359,0.099357505946402,0.136891646353557,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,0.1,model minus strategy,Treat none,0.133727248030427,0.115839689448064,0.151873732514916,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,0.1,model minus strategy,Treat all,0.0539934800325998,0.0474427856886703,0.0599287008594838,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,0.1,model minus strategy,sPESI 1 or more,0.0240423797881011,0.0178751608409781,0.0300452582976577,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,0.1,model minus strategy,PESI-10 class III to V,0.0160282531920674,0.0085935943611846,0.0233456856741208,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,0.2,net benefit,Model,0.103759168704156,0.0852860418673088,0.12137273509441,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,0.2,net benefit,Treat all,-0.035299511002445,-0.0587600246761259,-0.0121185163680601,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,0.2,net benefit,sPESI 1 or more,0.0374388753056235,0.0157576720624795,0.0585629313577869,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,0.2,net benefit,PESI-10 class III to V,0.0669315403422983,0.0469514840657016,0.0874621608314186,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,0.2,model minus strategy,Treat none,0.103759168704156,0.0852860418673088,0.12137273509441,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,0.2,model minus strategy,Treat all,0.139058679706601,0.127904934579705,0.150247079393056,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,0.2,model minus strategy,sPESI 1 or more,0.066320293398533,0.0551179896909702,0.077190944163758,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",90,0.2,model minus strategy,PESI-10 class III to V,0.0368276283618582,0.0260071559525623,0.0469319702345899,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,0.05,net benefit,Model,0.187234590142839,0.166980951759375,0.208199143178243,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,0.05,net benefit,Treat all,0.168704156479218,0.147405810215386,0.190187765693648,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,0.05,net benefit,sPESI 1 or more,0.178709303821902,0.157959384933069,0.199466930294845,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,0.05,net benefit,PESI-10 class III to V,0.17381932827178,0.154150719716608,0.193986073738648,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,0.05,model minus strategy,Treat none,0.187234590142839,0.166980951759375,0.208199143178243,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,0.05,model minus strategy,Treat all,0.0185304336636212,0.0157984640640622,0.0207150356785311,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,0.05,model minus strategy,sPESI 1 or more,0.00852528632093685,0.00459152726187686,0.0128376127127267,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,0.05,model minus strategy,PESI-10 class III to V,0.0134152618710591,0.00663066737196449,0.0205059070856795,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,0.1,net benefit,Model,0.168364574843792,0.147625650896633,0.189167910864673,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,0.1,net benefit,Treat all,0.122521054061396,0.100039466338463,0.145198197121073,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,0.1,net benefit,sPESI 1 or more,0.150434664493344,0.129017582417582,0.171806692003381,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,0.1,net benefit,PESI-10 class III to V,0.154373811464276,0.134159170610513,0.175339848757769,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,0.1,model minus strategy,Treat none,0.168364574843792,0.147625650896633,0.189167910864673,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,0.1,model minus strategy,Treat all,0.0458435207823961,0.0394414801347662,0.0517859682044232,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,0.1,model minus strategy,sPESI 1 or more,0.0179299103504482,0.0119982741489257,0.0238871138437105,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,0.1,model minus strategy,PESI-10 class III to V,0.0139907633795164,0.00644852460399838,0.0222368240377748,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,0.2,net benefit,Model,0.139975550122249,0.120256221455383,0.159825828904017,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,0.2,net benefit,Treat all,0.0128361858190709,-0.0124556003692291,0.0383479717612069,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,0.2,net benefit,sPESI 1 or more,0.0832823960880196,0.0599813759859772,0.106660579525141,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,0.2,net benefit,PESI-10 class III to V,0.108190709046455,0.0864435519358729,0.130595416591585,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,0.2,model minus strategy,Treat none,0.139975550122249,0.120256221455383,0.159825828904017,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,0.2,model minus strategy,Treat all,0.127139364303179,0.115763262073825,0.138346814219189,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,0.2,model minus strategy,sPESI 1 or more,0.0566931540342298,0.0461835494968979,0.0674191580231849,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",180,0.2,model minus strategy,PESI-10 class III to V,0.0317848410757946,0.0208710605860441,0.0427089688834655,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,0.05,net benefit,Model,0.233657186977223,0.211478736148257,0.255262820810025,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,0.05,net benefit,Treat all,0.21760391198044,0.194442174566417,0.24020506087485,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,0.05,net benefit,sPESI 1 or more,0.225678805816497,0.203814392974789,0.24753530972968,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,0.05,net benefit,PESI-10 class III to V,0.216284905417578,0.194443796954206,0.237021562090926,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,0.05,model minus strategy,Treat none,0.233657186977223,0.211478736148257,0.255262820810025,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,0.05,model minus strategy,Treat all,0.0160532749967829,0.0124668082846522,0.0185232498722534,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,0.05,model minus strategy,sPESI 1 or more,0.00797838116072574,0.00435845874582321,0.0121963251706402,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,0.05,model minus strategy,PESI-10 class III to V,0.0173722815596448,0.0102092170831694,0.0247396502943093,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,0.1,net benefit,Model,0.213868513990763,0.191407457047627,0.235899411010813,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,0.1,net benefit,Treat all,0.17413746264602,0.14968896204233,0.197994230923453,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,0.1,net benefit,sPESI 1 or more,0.200013583265417,0.177411076663883,0.222498233494605,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,0.1,net benefit,PESI-10 class III to V,0.199198587340397,0.177172273079714,0.220519471295656,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,0.1,model minus strategy,Treat none,0.213868513990763,0.191407457047627,0.235899411010813,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,0.1,model minus strategy,Treat all,0.0397310513447433,0.0332170854413186,0.0456455272912833,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,0.1,model minus strategy,sPESI 1 or more,0.0138549307253464,0.00834728838357444,0.0196250358533087,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,0.1,model minus strategy,PESI-10 class III to V,0.0146699266503668,0.00677905635019149,0.022813776699491,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,0.2,net benefit,Model,0.189944987775061,0.168046685082873,0.211648074572127,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,0.2,net benefit,Treat all,0.0709046454767726,0.0434000822976206,0.0977435097888848,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,0.2,net benefit,sPESI 1 or more,0.139058679706601,0.114108343972553,0.163255687925305,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,0.2,net benefit,PESI-10 class III to V,0.15861858190709,0.134834187404374,0.181403048405484,
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,0.2,model minus strategy,Treat none,0.189944987775061,0.168046685082873,0.211648074572127,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,0.2,model minus strategy,Treat all,0.119040342298289,0.108041317099789,0.129671833174275,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,0.2,model minus strategy,sPESI 1 or more,0.0508863080684596,0.0412032023252661,0.0605284762737151,TRUE
+P,death,3-mod,EHR+ECG+CTPA,"Super learner P, recalibrated",365,0.2,model minus strategy,PESI-10 class III to V,0.0313264058679707,0.0211786372007367,0.04224934714671,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.05,net benefit,Model,0.034411220854192,0.0272111709920172,0.0421237365652506,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.05,net benefit,Treat all,0.0123122716817751,0.00400604178841619,0.0208427050532314,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.05,model minus strategy,Treat none,0.034411220854192,0.0272111709920172,0.0421237365652506,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.05,model minus strategy,Treat all,0.0220989491724169,0.0183535827444312,0.0256887358502,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.1,net benefit,Model,0.0200260243105145,0.01362685250536,0.0268742007702435,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.1,net benefit,Treat all,-0.0425592687803485,-0.0513269558900051,-0.0335549224438113,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.1,model minus strategy,Treat none,0.0200260243105145,0.01362685250536,0.0268742007702435,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.1,model minus strategy,Treat all,0.0625852930908629,0.0569360607002553,0.0683323404307655,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.2,net benefit,Model,0.00799771493858898,0.00335410053490984,0.0130254247918932,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.2,net benefit,Treat all,-0.172879177377892,-0.182742825376256,-0.162749287749288,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.2,model minus strategy,Treat none,0.00799771493858898,0.00335410053490984,0.0130254247918932,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.2,model minus strategy,Treat all,0.180876892316481,0.172308879138128,0.189044309304316,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.05,net benefit,Model,0.126550308934289,0.11455084267645,0.138959859118442,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.05,net benefit,Treat all,0.111832709451435,0.0995341940508642,0.124950812045023,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.05,model minus strategy,Treat none,0.126550308934289,0.11455084267645,0.138959859118442,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.05,model minus strategy,Treat all,0.0147175994828545,0.0122415413148352,0.0169351946766624,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.1,net benefit,Model,0.104890666158875,0.0930698535310965,0.11772789128169,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.1,net benefit,Treat all,0.0624900821987369,0.0495083159425789,0.0763369682697466,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.1,model minus strategy,Treat none,0.104890666158875,0.0930698535310965,0.11772789128169,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.1,model minus strategy,Treat all,0.0424005839601384,0.0377141469182527,0.0469697758515732,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.2,net benefit,Model,0.0701942302199372,0.058794550035543,0.0818186356284922,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.2,net benefit,Treat all,-0.054698657526421,-0.0693031445645987,-0.039120910696535,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.2,model minus strategy,Treat none,0.0701942302199372,0.058794550035543,0.0818186356284922,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.2,model minus strategy,Treat all,0.124892887746358,0.115296042283599,0.13398511153142,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.05,net benefit,Model,0.226927644733084,0.211245422097664,0.243258437180209,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.05,net benefit,Treat all,0.217366466723793,0.200945778348084,0.234147720114145,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.05,model minus strategy,Treat none,0.226927644733084,0.211245422097664,0.243258437180209,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.05,model minus strategy,Treat all,0.00956117800929057,0.00725116161661766,0.0117407814062625,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.1,net benefit,Model,0.20568726395633,0.189185324774015,0.222350364985471,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.1,net benefit,Treat all,0.173886825986226,0.156553877145199,0.191600371231598,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.1,model minus strategy,Treat none,0.20568726395633,0.189185324774015,0.222350364985471,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.1,model minus strategy,Treat all,0.0318004379701038,0.0273088331392291,0.0359443172237777,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.2,net benefit,Model,0.169522993430448,0.153799638972902,0.186712489279659,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.2,net benefit,Treat all,0.0706226792345044,0.0511231117883493,0.0905504176355473,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.2,model minus strategy,Treat none,0.169522993430448,0.153799638972902,0.186712489279659,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.2,model minus strategy,Treat all,0.098900314195944,0.0906237278343421,0.107104054397063,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.05,net benefit,Model,0.28474571175153,0.267239316523,0.302650595601029,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.05,net benefit,Treat all,0.278100993701048,0.260506039672268,0.29624195862857,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.05,model minus strategy,Treat none,0.28474571175153,0.267239316523,0.302650595601029,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.05,model minus strategy,Treat all,0.00664471805048178,0.00433639292062951,0.00871944194613798,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.1,net benefit,Model,0.262369481735377,0.244833617375215,0.280610150519046,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.1,net benefit,Treat all,0.237995493351106,0.219423041876283,0.257144289663491,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.1,model minus strategy,Treat none,0.262369481735377,0.244833617375215,0.280610150519046,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.1,model minus strategy,Treat all,0.0243739883842712,0.020369009936926,0.0284279137921126,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.2,net benefit,Model,0.2264353041988,0.20849938850967,0.245096851131951,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.2,net benefit,Treat all,0.142744930019994,0.121850922110819,0.164287325871427,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.2,model minus strategy,Treat none,0.2264353041988,0.20849938850967,0.245096851131951,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.2,model minus strategy,Treat all,0.0836903741788061,0.0761332130843606,0.0912280632531034,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.05,net benefit,Model,0.339286519641005,0.320700693783881,0.357823316923827,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.05,net benefit,Treat all,0.335528194951818,0.316417071079779,0.354152709927802,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.05,model minus strategy,Treat none,0.339286519641005,0.320700693783881,0.357823316923827,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.05,model minus strategy,Treat all,0.00375832468918652,0.00129233916859199,0.00611686654900315,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.1,net benefit,Model,0.317496588276366,0.298281492352307,0.336315930395148,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.1,net benefit,Treat all,0.298613094671364,0.278440241695322,0.318272304923791,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.1,model minus strategy,Treat none,0.317496588276366,0.298281492352307,0.336315930395148,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.1,model minus strategy,Treat all,0.0188834936050018,0.0148716019185322,0.0226777222297903,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.2,net benefit,Model,0.279562982005141,0.259395259418889,0.299153120513389,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.2,net benefit,Treat all,0.210939731505284,0.188245271907237,0.233056343039265,
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.2,model minus strategy,Treat none,0.279562982005141,0.259395259418889,0.299153120513389,TRUE
+P,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.2,model minus strategy,Treat all,0.0686232504998572,0.0610276036959506,0.0759325437440276,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.05,net benefit,Model,0.0283103847638657,0.017904033720207,0.0387561975323469,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.05,net benefit,Treat all,0.00398919058036288,-0.00777027067703574,0.0157969087035989,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.05,model minus strategy,Treat none,0.0283103847638657,0.017904033720207,0.0387561975323469,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.05,model minus strategy,Treat all,0.0243211941835028,0.0190648634052813,0.0292691033561083,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.1,net benefit,Model,0.0148057593045368,0.00610498726239467,0.0237511414960583,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.1,net benefit,Treat all,-0.0513447432762836,-0.0637575079368711,-0.0388810408128678,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.1,model minus strategy,Treat none,0.0148057593045368,0.00610498726239467,0.0237511414960583,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.1,model minus strategy,Treat all,0.0661505025808204,0.0578038209697231,0.0744852811130298,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.2,net benefit,Model,0.00443154034229829,-0.00154569897538304,0.0110505742590425,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.2,net benefit,Treat all,-0.182762836185819,-0.19672719642898,-0.168741170914476,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.2,model minus strategy,Treat none,0.00443154034229829,-0.00154569897538304,0.0110505742590425,FALSE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.2,model minus strategy,Treat all,0.187194376528117,0.175182763960543,0.199210695445861,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.05,net benefit,Model,0.106067430189165,0.0891836395214863,0.122572788740088,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.05,net benefit,Treat all,0.0882769270364175,0.0703669404793392,0.105613089321855,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.05,model minus strategy,Treat none,0.106067430189165,0.0891836395214863,0.122572788740088,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.05,model minus strategy,Treat all,0.0177905031527474,0.0138384441287072,0.0212408437617981,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.1,net benefit,Model,0.089038304808476,0.0725870495639352,0.105082355657451,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.1,net benefit,Treat all,0.0376256452051073,0.018720659394858,0.0559249276175132,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.1,model minus strategy,Treat none,0.089038304808476,0.0725870495639352,0.105082355657451,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.1,model minus strategy,Treat all,0.0514126596033687,0.0443759657411634,0.057746243514588,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.2,net benefit,Model,0.0550122249388753,0.0403046012269939,0.0704036901143763,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.2,net benefit,Treat all,-0.0826711491442543,-0.103939258180785,-0.0620844564302977,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.2,model minus strategy,Treat none,0.0550122249388753,0.0403046012269939,0.0704036901143763,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.2,model minus strategy,Treat all,0.13768337408313,0.125,0.149722861475187,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.05,net benefit,Model,0.202419251061639,0.182032493141433,0.224065795955406,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.05,net benefit,Treat all,0.189936945052117,0.169281443603003,0.211822740119776,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.05,model minus strategy,Treat none,0.202419251061639,0.182032493141433,0.224065795955406,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.05,model minus strategy,Treat all,0.0124823060095226,0.00877715440096882,0.0153920680607842,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.1,net benefit,Model,0.1846644933442,0.163873203534305,0.206418353067371,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.1,net benefit,Treat all,0.144933441999457,0.123130412692059,0.168035114570875,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.1,model minus strategy,Treat none,0.1846644933442,0.163873203534305,0.206418353067371,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.1,model minus strategy,Treat all,0.0397310513447433,0.0338420556022322,0.0454343990841771,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.2,net benefit,Model,0.146240831295844,0.12614083867665,0.167755680527024,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.2,net benefit,Treat all,0.0380501222493888,0.0135217142785662,0.0640395038922338,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.2,model minus strategy,Treat none,0.146240831295844,0.12614083867665,0.167755680527024,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.2,model minus strategy,Treat all,0.108190709046455,0.095586428674664,0.120037255859466,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.05,net benefit,Model,0.259136533264702,0.237279643034748,0.282271209875535,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.05,net benefit,Treat all,0.249131385922018,0.226740586853219,0.273153584217142,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.05,model minus strategy,Treat none,0.259136533264702,0.237279643034748,0.282271209875535,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.05,model minus strategy,Treat all,0.0100051473426843,0.0065544293402876,0.0126701067682472,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.1,net benefit,Model,0.239269220320565,0.217212171865848,0.262744096485958,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.1,net benefit,Treat all,0.207416462917685,0.183781730567286,0.232773227784761,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.1,model minus strategy,Treat none,0.239269220320565,0.217212171865848,0.262744096485958,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.1,model minus strategy,Treat all,0.0318527574028797,0.0259410331597845,0.0371730597269873,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.2,net benefit,Model,0.204156479217604,0.180994537701433,0.227246003259492,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.2,net benefit,Treat all,0.108343520782396,0.081754446888197,0.136869881257856,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.2,model minus strategy,Treat none,0.204156479217604,0.180994537701433,0.227246003259492,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.2,model minus strategy,Treat all,0.0958129584352078,0.0843014868741184,0.106588295735037,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.05,net benefit,Model,0.312701068073607,0.289612505162958,0.337545330323152,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.05,net benefit,Treat all,0.305108737614207,0.281413088963072,0.330667181378275,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.05,model minus strategy,Treat none,0.312701068073607,0.289612505162958,0.337545330323152,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.05,model minus strategy,Treat all,0.00759233045940033,0.00428126033210204,0.0102286806997625,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.1,net benefit,Model,0.289663135017658,0.26554706489212,0.314496946287446,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.1,net benefit,Treat all,0.266503667481663,0.241491593905465,0.293482024788179,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.1,model minus strategy,Treat none,0.289663135017658,0.26554706489212,0.314496946287446,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.1,model minus strategy,Treat all,0.0231594675359957,0.0163796591368107,0.0295810100185865,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.2,net benefit,Model,0.259627139364303,0.234504658637312,0.285041279318527,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.2,net benefit,Treat all,0.17481662591687,0.146678043143648,0.205167277886701,
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.2,model minus strategy,Treat none,0.259627139364303,0.234504658637312,0.285041279318527,TRUE
+P,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.2,model minus strategy,Treat all,0.0848105134474328,0.073555833574216,0.0953411901714448,TRUE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.05,net benefit,Model,0.000120266390053969,-0.000741956341547251,0.00121033013506701,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.05,net benefit,Treat all,-0.0409056059171064,-0.044497682385701,-0.0372049473571644,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.05,model minus strategy,Treat none,0.000120266390053969,-0.000741956341547251,0.00121033013506701,FALSE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.05,model minus strategy,Treat all,0.0410258723071604,0.0374695374152448,0.0444413565735358,TRUE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.1,net benefit,Model,-3.17369640420197e-05,-9.64869400206436e-05,0,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.1,net benefit,Treat all,-0.0987336951347234,-0.102525331407129,-0.0948274444325624,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.1,model minus strategy,Treat none,-3.17369640420197e-05,-9.64869400206436e-05,0,FALSE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.1,model minus strategy,Treat all,0.0987019581706814,0.0947942211146786,0.102512720426019,TRUE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.2,net benefit,Model,0,0,0,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.2,net benefit,Treat all,-0.236075407026564,-0.24034099783302,-0.231680874986633,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.2,model minus strategy,Treat none,0,0,0,FALSE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.2,model minus strategy,Treat all,0.236075407026564,0.231680874986633,0.24034099783302,TRUE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.05,net benefit,Model,0.020670785790526,0.0143648696323543,0.0278524688748039,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.05,net benefit,Treat all,-0.000917031224161528,-0.00867220567020685,0.00741671536952547,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.05,model minus strategy,Treat none,0.020670785790526,0.0143648696323543,0.0278524688748039,TRUE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.05,model minus strategy,Treat all,0.0215878170146875,0.0174480464159245,0.0254842928902527,TRUE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.1,net benefit,Model,0.0115839918753372,0.00631034160986826,0.0173623254542741,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.1,net benefit,Treat all,-0.0565235329588372,-0.0647095504296628,-0.0477268004432787,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.1,model minus strategy,Treat none,0.0115839918753372,0.00631034160986826,0.0173623254542741,TRUE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.1,model minus strategy,Treat all,0.0681075248341744,0.0619002525664106,0.0736860872277591,TRUE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.2,net benefit,Model,0.00121393887460726,-0.00209248072092701,0.00470641960720398,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.2,net benefit,Treat all,-0.188588974578692,-0.197798244233371,-0.178692650498689,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.2,model minus strategy,Treat none,0.00121393887460726,-0.00209248072092701,0.00470641960720398,FALSE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.2,model minus strategy,Treat all,0.189802913453299,0.180670542321793,0.198268274869555,TRUE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.05,net benefit,Model,0.0585847652550399,0.0490128120771887,0.0686150586174223,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.05,net benefit,Treat all,0.0450848629714818,0.0345787420495908,0.0564282999400218,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.05,model minus strategy,Treat none,0.0585847652550399,0.0490128120771887,0.0686150586174223,TRUE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.05,model minus strategy,Treat all,0.0134999022835581,0.0093384737293751,0.0171861850958275,TRUE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.1,net benefit,Model,0.0388460439874322,0.0300008010645533,0.048153611702174,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.1,net benefit,Treat all,-0.00796597797454696,-0.0190557722809875,0.00400764993668962,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.1,model minus strategy,Treat none,0.0388460439874322,0.0300008010645533,0.048153611702174,TRUE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.1,model minus strategy,Treat all,0.0468120219619791,0.0400006631140454,0.0531149463465408,TRUE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.2,net benefit,Model,0.0211368180519851,0.0131426633124381,0.0293995757838414,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.2,net benefit,Treat all,-0.133961725221365,-0.146437743816111,-0.120491393821224,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.2,model minus strategy,Treat none,0.0211368180519851,0.0131426633124381,0.0293995757838414,TRUE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.2,model minus strategy,Treat all,0.15509854327335,0.145268287656157,0.164553813057019,TRUE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.05,net benefit,Model,0.0826681098633473,0.0713599187600077,0.0943960646034955,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.05,net benefit,Treat all,0.0730467986590297,0.0606810907687598,0.0853902987283889,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.05,model minus strategy,Treat none,0.0826681098633473,0.0713599187600077,0.0943960646034955,TRUE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.05,model minus strategy,Treat all,0.00962131120431757,0.00617140064533698,0.0128943473247567,TRUE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.1,net benefit,Model,0.0589990161541147,0.0479545700052784,0.0697241417694857,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.1,net benefit,Treat all,0.0215493985845314,0.00849670692257983,0.0345786486577438,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.1,model minus strategy,Treat none,0.0589990161541147,0.0479545700052784,0.0697241417694857,TRUE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.1,model minus strategy,Treat all,0.0374496175695833,0.0308759769884502,0.0435608372942293,TRUE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.2,net benefit,Model,0.0372036560982576,0.0274108971798185,0.0474772145589674,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.2,net benefit,Treat all,-0.100756926592402,-0.115441204712098,-0.0860990202600382,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.2,model minus strategy,Treat none,0.0372036560982576,0.0274108971798185,0.0474772145589674,TRUE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.2,model minus strategy,Treat all,0.13796058269066,0.127477172038719,0.147539616423882,TRUE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.05,net benefit,Model,0.105082758309656,0.0929516470235508,0.117948845284116,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.05,net benefit,Treat all,0.0980020745952284,0.0848767801649809,0.110917975359333,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.05,model minus strategy,Treat none,0.105082758309656,0.0929516470235508,0.117948845284116,TRUE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.05,model minus strategy,Treat all,0.00708068371442745,0.00379998548672191,0.0100168740257033,TRUE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.1,net benefit,Model,0.0791837252848393,0.0673424887232976,0.0915547803044688,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.1,net benefit,Treat all,0.0478910787394078,0.0340366012852576,0.0615245295459629,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.1,model minus strategy,Treat none,0.0791837252848393,0.0673424887232976,0.0915547803044688,TRUE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.1,model minus strategy,Treat all,0.0312926465454315,0.0246835655390003,0.0375214864062175,TRUE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.2,net benefit,Model,0.0501285347043702,0.0393147425749499,0.0612568253391884,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.2,net benefit,Treat all,-0.0711225364181662,-0.0867088235540853,-0.0557849042607918,
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.2,model minus strategy,Treat none,0.0501285347043702,0.0393147425749499,0.0612568253391884,TRUE
+P,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.2,model minus strategy,Treat all,0.121251071122536,0.110953027735002,0.131289308176101,TRUE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.05,net benefit,Model,0.000546905160211041,-0.000128998968008256,0.00184278015793074,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.05,net benefit,Treat all,-0.039119804400978,-0.0443081027639386,-0.0332079314547618,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.05,model minus strategy,Treat none,0.000546905160211041,-0.000128998968008256,0.00184278015793074,FALSE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.05,model minus strategy,Treat all,0.039666709561189,0.0337976106154251,0.0448652778884564,TRUE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.1,net benefit,Model,0,0,0,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.1,net benefit,Treat all,-0.0968486824232545,-0.102325219584157,-0.0906083720911375,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.1,model minus strategy,Treat none,0,0,0,FALSE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.1,model minus strategy,Treat all,0.0968486824232545,0.0906083720911375,0.102325219584157,TRUE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.2,net benefit,Model,0,0,0,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.2,net benefit,Treat all,-0.233954767726161,-0.240115872032177,-0.22693441860253,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.2,model minus strategy,Treat none,0,0,0,FALSE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.2,model minus strategy,Treat all,0.233954767726161,0.22693441860253,0.240115872032177,TRUE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.05,net benefit,Model,0.0191738514991636,0.0103666183601806,0.0282861883202982,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.05,net benefit,Treat all,-0.00373182344614593,-0.0139318885448916,0.00748455444521188,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.05,model minus strategy,Treat none,0.0191738514991636,0.0103666183601806,0.0282861883202982,TRUE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.05,model minus strategy,Treat all,0.0229056749453095,0.0170069723756189,0.0283355429945676,TRUE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.1,net benefit,Model,0.00753871230643847,0.00142530643006491,0.014674342479762,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.1,net benefit,Treat all,-0.0594947025264874,-0.0702614379084968,-0.0476551925300541,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.1,model minus strategy,Treat none,0.00753871230643847,0.00142530643006491,0.014674342479762,TRUE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.1,model minus strategy,Treat all,0.0670334148329258,0.0579797246068433,0.0754802047843629,TRUE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.2,net benefit,Model,-0.00168092909535452,-0.00444792102121442,0.00137046894777552,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.2,net benefit,Treat all,-0.191931540342298,-0.204044117647059,-0.178612091596311,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.2,model minus strategy,Treat none,-0.00168092909535452,-0.00444792102121442,0.00137046894777552,FALSE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.2,model minus strategy,Treat all,0.190250611246944,0.177573328140648,0.202653002469881,TRUE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.05,net benefit,Model,0.0505726418736327,0.0375975443958288,0.0643857195063472,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.05,net benefit,Treat all,0.0335864110153133,0.0198282207153963,0.0481456996148908,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.05,model minus strategy,Treat none,0.0505726418736327,0.0375975443958288,0.0643857195063472,TRUE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.05,model minus strategy,Treat all,0.0169862308583194,0.011865950222956,0.0215272424433002,TRUE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.1,net benefit,Model,0.0320565063841347,0.0200161376431761,0.044947964621662,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.1,net benefit,Treat all,-0.0201032328171693,-0.0346257670226373,-0.00473509485094856,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.1,model minus strategy,Treat none,0.0320565063841347,0.0200161376431761,0.044947964621662,TRUE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.1,model minus strategy,Treat all,0.052159739201304,0.0433114155943807,0.0605259044137721,TRUE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.2,net benefit,Model,0.0126833740831296,0.00348208310094813,0.0232948581682102,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.2,net benefit,Treat all,-0.147616136919315,-0.163953987900467,-0.130326981707317,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.2,model minus strategy,Treat none,0.0126833740831296,0.00348208310094813,0.0232948581682102,TRUE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.2,model minus strategy,Treat all,0.160299511002445,0.146633187149242,0.173491695074347,TRUE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.05,net benefit,Model,0.0756981083515635,0.0604550483721103,0.0919354232303352,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.05,net benefit,Treat all,0.0612533779436366,0.045768343463789,0.0791107200711026,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.05,model minus strategy,Treat none,0.0756981083515635,0.0604550483721103,0.0919354232303352,TRUE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.05,model minus strategy,Treat all,0.0144447304079269,0.00970351410440997,0.0185424290781142,TRUE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.1,net benefit,Model,0.0508693289866884,0.0371502052052126,0.0657038479723097,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.1,net benefit,Treat all,0.00910078782939418,-0.00724452634377829,0.0279502045194972,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.1,model minus strategy,Treat none,0.0508693289866884,0.0371502052052126,0.0657038479723097,TRUE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.1,model minus strategy,Treat all,0.0417685411572942,0.0322675247930093,0.0500514512053541,TRUE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.2,net benefit,Model,0.0340770171149144,0.0213243046726309,0.0482383566684483,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.2,net benefit,Treat all,-0.114761613691932,-0.133150092136751,-0.0935560199155656,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.2,model minus strategy,Treat none,0.0340770171149144,0.0213243046726309,0.0482383566684483,TRUE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.2,model minus strategy,Treat all,0.148838630806846,0.135122599035133,0.161801405402,TRUE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.05,net benefit,Model,0.0947111053918415,0.0779674452522274,0.112777027198019,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.05,net benefit,Treat all,0.0837730021876206,0.0671480001100177,0.103148216001457,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.05,model minus strategy,Treat none,0.0947111053918415,0.0779674452522274,0.112777027198019,TRUE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.05,model minus strategy,Treat all,0.0109381032042208,0.0064133768529465,0.014743475103405,TRUE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.1,net benefit,Model,0.0687313230100516,0.0522914840301739,0.0856935810631835,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.1,net benefit,Treat all,0.0328715023091551,0.0153228890050187,0.0533231168904268,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.1,model minus strategy,Treat none,0.0687313230100516,0.0522914840301739,0.0856935810631835,TRUE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.1,model minus strategy,Treat all,0.0358598207008965,0.0268593171303679,0.0440625369469598,TRUE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.2,net benefit,Model,0.0463019559902201,0.0313445944820926,0.0621184834808772,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.2,net benefit,Treat all,-0.0880195599022005,-0.107761749869354,-0.0650114934982698,
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.2,model minus strategy,Treat none,0.0463019559902201,0.0313445944820926,0.0621184834808772,TRUE
+P,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.2,model minus strategy,Treat all,0.134321515892421,0.119601873994279,0.147798380365251,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",10,0.05,net benefit,Model,0.0176041685513199,0.0119230699643574,0.0230514193700132,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",10,0.05,net benefit,Treat all,-0.0233214524796005,-0.0298348139168823,-0.0171608981201716,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",10,0.05,model minus strategy,Treat none,0.0176041685513199,0.0119230699643574,0.0230514193700132,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",10,0.05,model minus strategy,Treat all,0.0409256210309204,0.0380841671039062,0.0435309656058331,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",10,0.1,net benefit,Model,0.0130629082158817,0.0079819334631985,0.0182584698827394,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",10,0.1,net benefit,Treat all,-0.0801726442840228,-0.0870478591344869,-0.0736698369046256,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",10,0.1,model minus strategy,Treat none,0.0130629082158817,0.0079819334631985,0.0182584698827394,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",10,0.1,model minus strategy,Treat all,0.0932355524999045,0.0895296207173141,0.0970169206676598,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",10,0.2,net benefit,Model,0.0101409419044345,0.00541423169474046,0.0149535922997594,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",10,0.2,net benefit,Treat all,-0.215194224819526,-0.222928841526298,-0.207878566517704,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",10,0.2,model minus strategy,Treat none,0.0101409419044345,0.00541423169474046,0.0149535922997594,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",10,0.2,model minus strategy,Treat all,0.22533516672396,0.220436576143004,0.230233757304916,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",30,0.05,net benefit,Model,0.0435490582764922,0.0352988004559353,0.051872139096452,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",30,0.05,net benefit,Treat all,0.0114164751859022,0.00236109352101464,0.0208246639286425,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",30,0.05,model minus strategy,Treat none,0.0435490582764922,0.0352988004559353,0.051872139096452,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",30,0.05,model minus strategy,Treat all,0.03213258309059,0.0288216243599718,0.0352449747607244,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",30,0.1,net benefit,Model,0.03540735647989,0.0274235132347886,0.0435048317482144,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",30,0.1,net benefit,Treat all,-0.0435048317482144,-0.0530632901722623,-0.0335739658530996,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",30,0.1,model minus strategy,Treat none,0.03540735647989,0.0274235132347886,0.0435048317482144,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",30,0.1,model minus strategy,Treat all,0.0789121882281044,0.0741749742179443,0.0835720560711967,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",30,0.2,net benefit,Model,0.0252664145754555,0.0179614987968374,0.0330869714678584,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",30,0.2,net benefit,Treat all,-0.173942935716741,-0.184696201443795,-0.162770711584737,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",30,0.2,model minus strategy,Treat none,0.0252664145754555,0.0179614987968374,0.0330869714678584,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",30,0.2,model minus strategy,Treat all,0.199209350292197,0.192417927122723,0.206084565142661,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",90,0.05,net benefit,Model,0.0994735032838197,0.0883980749398419,0.11031101300863,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",90,0.05,net benefit,Treat all,0.0743789690796258,0.0627996598577916,0.0859673246367896,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",90,0.05,model minus strategy,Treat none,0.0994735032838197,0.0883980749398419,0.11031101300863,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",90,0.05,model minus strategy,Treat all,0.0250945342041939,0.0218559461562121,0.0278627128150386,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",90,0.1,net benefit,Model,0.083075512776441,0.0720350635957374,0.0940004201520186,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",90,0.1,net benefit,Treat all,0.0229555784729384,0.0107329742943356,0.0351877315610557,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",90,0.1,model minus strategy,Treat none,0.083075512776441,0.0720350635957374,0.0940004201520186,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",90,0.1,model minus strategy,Treat all,0.0601199343035026,0.0549243726366449,0.064971735227837,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",90,0.2,net benefit,Model,0.0636816775524235,0.0531088862151942,0.0740804400137504,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",90,0.2,net benefit,Treat all,-0.0991749742179443,-0.112925403918872,-0.0854138019938124,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",90,0.2,model minus strategy,Treat none,0.0636816775524235,0.0531088862151942,0.0740804400137504,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",90,0.2,model minus strategy,Treat all,0.162856651770368,0.15460424544517,0.170935029219663,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",180,0.05,net benefit,Model,0.138083262470373,0.124947078938322,0.151761773805431,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",180,0.05,net benefit,Treat all,0.11707767183514,0.103680049212064,0.13119900128458,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",180,0.05,model minus strategy,Treat none,0.138083262470373,0.124947078938322,0.151761773805431,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",180,0.05,model minus strategy,Treat all,0.0210055906352337,0.0180189430261801,0.0236109352101464,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",180,0.1,net benefit,Model,0.122760780718842,0.109772353997174,0.136284901264276,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",180,0.1,net benefit,Treat all,0.0680264313815362,0.0538844963905122,0.0829322791337229,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",180,0.1,model minus strategy,Treat none,0.122760780718842,0.109772353997174,0.136284901264276,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",180,0.1,model minus strategy,Treat all,0.0547343493373057,0.0496915702226806,0.0595088040945724,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",180,0.2,net benefit,Model,0.0945342041938811,0.0820707287727741,0.107685201100034,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",180,0.2,net benefit,Treat all,-0.0484702646957717,-0.0643799415606738,-0.0317011859745618,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",180,0.2,model minus strategy,Treat none,0.0945342041938811,0.0820707287727741,0.107685201100034,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",180,0.2,model minus strategy,Treat all,0.143004468889653,0.134494242007563,0.151426607081471,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",365,0.05,net benefit,Model,0.188579906279966,0.172820285502343,0.203494599337808,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",365,0.05,net benefit,Treat all,0.17171753722567,0.155786940710318,0.18727723399251,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",365,0.05,model minus strategy,Treat none,0.188579906279966,0.172820285502343,0.203494599337808,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",365,0.05,model minus strategy,Treat all,0.0168623690542961,0.0142389318087243,0.0192506015812994,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",365,0.1,net benefit,Model,0.169512241701998,0.153812879569153,0.184446736182728,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",365,0.1,net benefit,Treat all,0.125701844849318,0.108886215194225,0.142125969214316,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",365,0.1,model minus strategy,Treat none,0.169512241701998,0.153812879569153,0.184446736182728,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",365,0.1,model minus strategy,Treat all,0.0438103968526794,0.0391113784805775,0.0482802413964325,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",365,0.2,net benefit,Model,0.140684083877621,0.125556462701959,0.155981436919904,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",365,0.2,net benefit,Treat all,0.016414575455483,-0.00250300790649708,0.0348917153661052,
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",365,0.2,model minus strategy,Treat none,0.140684083877621,0.125556462701959,0.155981436919904,TRUE
+B,death,EHR+ECG,EHR+ECG,"Super learner v7, recalibrated",365,0.2,model minus strategy,Treat all,0.124269508422138,0.11593116191131,0.133037555861121,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",10,0.05,net benefit,Model,0.0113129799587938,0.00513111069488668,0.0180558156958232,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",10,0.05,net benefit,Treat all,-0.0316538677654992,-0.0391459074733096,-0.0241430979584193,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",10,0.05,model minus strategy,Treat none,0.0113129799587938,0.00513111069488668,0.0180558156958232,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",10,0.05,model minus strategy,Treat all,0.0429668477242929,0.0389192732721483,0.0462633451957295,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",10,0.1,net benefit,Model,0.00743376828786082,0.00181692368525109,0.0136812969553183,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",10,0.1,net benefit,Treat all,-0.0889679715302491,-0.0968762356662713,-0.081039936733887,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",10,0.1,model minus strategy,Treat none,0.00743376828786082,0.00181692368525109,0.0136812969553183,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",10,0.1,model minus strategy,Treat all,0.0964017398181099,0.0911012257809411,0.101383946223804,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",10,0.2,net benefit,Model,0.00444839857651246,-0.000355871886120996,0.0097864768683274,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",10,0.2,net benefit,Treat all,-0.22508896797153,-0.233985765124555,-0.216169928825623,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",10,0.2,model minus strategy,Treat none,0.00444839857651246,-0.000355871886120996,0.0097864768683274,FALSE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",10,0.2,model minus strategy,Treat all,0.229537366548043,0.222059608540925,0.236120996441281,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",30,0.05,net benefit,Model,0.0395579696572392,0.0282440531934819,0.051620153586814,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",30,0.05,net benefit,Treat all,0.00655553474433415,-0.00543172878816259,0.0193107323468813,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",30,0.05,model minus strategy,Treat none,0.0395579696572392,0.0282440531934819,0.051620153586814,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",30,0.05,model minus strategy,Treat all,0.033002434912905,0.0280951489042892,0.0370490728600862,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",30,0.1,net benefit,Model,0.0294978252273626,0.0192170818505338,0.0402530644523527,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",30,0.1,net benefit,Treat all,-0.0486358244365362,-0.0612890470541716,-0.0351720047449586,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",30,0.1,model minus strategy,Treat none,0.0294978252273626,0.0192170818505338,0.0402530644523527,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",30,0.1,model minus strategy,Treat all,0.0781336496638988,0.0704626334519573,0.0849347568208778,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",30,0.2,net benefit,Model,0.0192170818505338,0.00978202846975089,0.0286521352313167,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",30,0.2,net benefit,Treat all,-0.179715302491103,-0.193950177935943,-0.164568505338078,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",30,0.2,model minus strategy,Treat none,0.0192170818505338,0.00978202846975089,0.0286521352313167,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",30,0.2,model minus strategy,Treat all,0.198932384341637,0.187362099644128,0.20854537366548,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",90,0.05,net benefit,Model,0.100693013672972,0.083796591121933,0.118411687581944,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",90,0.05,net benefit,Treat all,0.0769807079977524,0.0597302865705188,0.0957108072672785,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",90,0.05,model minus strategy,Treat none,0.100693013672972,0.083796591121933,0.118411687581944,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",90,0.05,model minus strategy,Treat all,0.0237123056752201,0.0190672410563776,0.0279462446150965,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",90,0.1,net benefit,Model,0.0858837485172005,0.0693554764729142,0.103125741399763,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",90,0.1,net benefit,Treat all,0.025701858442072,0.00749308026888099,0.0454725187821273,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",90,0.1,model minus strategy,Treat none,0.0858837485172005,0.0693554764729142,0.103125741399763,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",90,0.1,model minus strategy,Treat all,0.0601818900751285,0.0527461447212337,0.067143139580862,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",90,0.2,net benefit,Model,0.0635231316725979,0.0473309608540925,0.0806049822064057,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",90,0.2,net benefit,Treat all,-0.096085409252669,-0.116570284697509,-0.0738434163701068,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",90,0.2,model minus strategy,Treat none,0.0635231316725979,0.0473309608540925,0.0806049822064057,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",90,0.2,model minus strategy,Treat all,0.159608540925267,0.147508896797153,0.171708185053381,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",180,0.05,net benefit,Model,0.137516388836861,0.117999625398015,0.15797153024911,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",180,0.05,net benefit,Treat all,0.116688518449148,0.0964600112380596,0.137666229631017,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",180,0.05,model minus strategy,Treat none,0.137516388836861,0.117999625398015,0.15797153024911,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",180,0.05,model minus strategy,Treat all,0.0208278703877131,0.0163701067615658,0.0245364300430792,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",180,0.1,net benefit,Model,0.121945432977461,0.102807433768288,0.14132265717675,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",180,0.1,net benefit,Treat all,0.0676156583629893,0.0462633451957295,0.0897587979438513,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",180,0.1,model minus strategy,Treat none,0.121945432977461,0.102807433768288,0.14132265717675,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",180,0.1,model minus strategy,Treat all,0.0543297746144721,0.0472123368920522,0.0611328588374852,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",180,0.2,net benefit,Model,0.0962633451957295,0.0779314946619217,0.115836298932384,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",180,0.2,net benefit,Treat all,-0.048932384341637,-0.0729537366548043,-0.0240213523131673,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",180,0.2,model minus strategy,Treat none,0.0962633451957295,0.0779314946619217,0.115836298932384,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",180,0.2,model minus strategy,Treat all,0.145195729537367,0.132201957295374,0.15711743772242,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",365,0.05,net benefit,Model,0.183742273834051,0.162315040269713,0.205431728788163,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",365,0.05,net benefit,Treat all,0.166135980520697,0.144409065368046,0.188612099644128,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",365,0.05,model minus strategy,Treat none,0.183742273834051,0.162315040269713,0.205431728788163,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",365,0.05,model minus strategy,Treat all,0.0176062933133546,0.0134847349690953,0.0210526315789474,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",365,0.1,net benefit,Model,0.166310794780546,0.144084618426255,0.18798141557928,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",365,0.1,net benefit,Treat all,0.119810201660735,0.0968762356662713,0.143534994068802,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",365,0.1,model minus strategy,Treat none,0.166310794780546,0.144084618426255,0.18798141557928,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",365,0.1,model minus strategy,Treat all,0.0465005931198102,0.0393831553973903,0.0529853697113484,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",365,0.2,net benefit,Model,0.134697508896797,0.113340747330961,0.156588078291815,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",365,0.2,net benefit,Treat all,0.0097864768683274,-0.0160142348754448,0.0364768683274021,
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",365,0.2,model minus strategy,Treat none,0.134697508896797,0.113340747330961,0.156588078291815,TRUE
+B,death,3-mod,EHR+ECG+CTPA,"Super learner v7, recalibrated",365,0.2,model minus strategy,Treat all,0.12491103202847,0.112099644128114,0.137544483985765,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.05,net benefit,Model,0.0372347162164607,0.0294345135785493,0.0456491650232491,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.05,net benefit,Treat all,0.0106927683595375,0.00199924010783232,0.0197391036890955,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.05,model minus strategy,Treat none,0.0372347162164607,0.0294345135785493,0.0456491650232491,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.05,model minus strategy,Treat all,0.0265419478569232,0.0229048687376744,0.0300700186354508,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.1,net benefit,Model,0.0212367747603224,0.014285168633742,0.0286858790726099,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.1,net benefit,Treat all,-0.044268744509377,-0.0534452465528437,-0.0347198349948436,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.1,model minus strategy,Treat none,0.0212367747603224,0.014285168633742,0.0286858790726099,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.1,model minus strategy,Treat all,0.0655055192696994,0.0595068943126695,0.0715031893357778,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.2,net benefit,Model,0.0131488484015125,0.00713303540735648,0.0195084221381918,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.2,net benefit,Treat all,-0.174802337573049,-0.185125902371949,-0.164059814369199,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.2,model minus strategy,Treat none,0.0131488484015125,0.00713303540735648,0.0195084221381918,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.2,model minus strategy,Treat all,0.187951185974562,0.179529047782743,0.196117652114129,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.05,net benefit,Model,0.0951674476669501,0.0835515007870312,0.106386712742668,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.05,net benefit,Treat all,0.0747408224928082,0.0624378064446093,0.0866819851278247,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.05,model minus strategy,Treat none,0.0951674476669501,0.0835515007870312,0.106386712742668,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.05,model minus strategy,Treat all,0.020426625174142,0.0172599554920302,0.0233033598089414,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.1,net benefit,Model,0.075971124097628,0.0647396967266338,0.0870526335892441,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.1,net benefit,Treat all,0.0233375348535197,0.0103510179137542,0.0359420954127039,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.1,model minus strategy,Treat none,0.075971124097628,0.0647396967266338,0.0870526335892441,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.1,model minus strategy,Treat all,0.0526335892441083,0.0470952217256789,0.0580974752683244,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.2,net benefit,Model,0.0488999656239258,0.0383271742866965,0.0596446373324166,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.2,net benefit,Treat all,-0.0987452732897903,-0.113355104847026,-0.0845651426607082,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.2,model minus strategy,Treat none,0.0488999656239258,0.0383271742866965,0.0596446373324166,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.2,model minus strategy,Treat all,0.147645238913716,0.138191818494328,0.157272688209007,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.05,net benefit,Model,0.169094099980098,0.153715329919849,0.183261113422952,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.05,net benefit,Treat all,0.154348573392919,0.138788876626079,0.169184563333394,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.05,model minus strategy,Treat none,0.169094099980098,0.153715329919849,0.183261113422952,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.05,model minus strategy,Treat all,0.0147455265871795,0.0116516799044707,0.0172789527962223,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.1,net benefit,Model,0.150185248844582,0.134294908521447,0.164013024712578,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.1,net benefit,Treat all,0.107367938581414,0.0909438142164165,0.123028150185249,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.1,model minus strategy,Treat none,0.150185248844582,0.134294908521447,0.164013024712578,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.1,model minus strategy,Treat all,0.042817310263168,0.0377372904014362,0.0472861999159696,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.2,net benefit,Model,0.116706772086628,0.102011000343761,0.131060931591612,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.2,net benefit,Treat all,-0.00421106909590925,-0.0226882090065315,0.013406668958405,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.2,model minus strategy,Treat none,0.116706772086628,0.102011000343761,0.131060931591612,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.2,model minus strategy,Treat all,0.120917841182537,0.112147645238914,0.129941560673771,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.05,net benefit,Model,0.220784860053193,0.204608203216877,0.236311085379313,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.05,net benefit,Treat all,0.21079770584936,0.193790595429791,0.227081109442565,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.05,model minus strategy,Treat none,0.220784860053193,0.204608203216877,0.236311085379313,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.05,model minus strategy,Treat all,0.00998715420383206,0.00692949286244141,0.0125938557290442,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.1,net benefit,Model,0.202284099155876,0.185515259157404,0.218174439479011,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.1,net benefit,Treat all,0.166953133952103,0.14900118406478,0.184141171078263,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.1,model minus strategy,Treat none,0.202284099155876,0.185515259157404,0.218174439479011,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.1,model minus strategy,Treat all,0.0353309652037737,0.0304791642794393,0.0397616592185173,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.2,net benefit,Model,0.170247507734617,0.153145410794087,0.185976710209694,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.2,net benefit,Treat all,0.0628222756961155,0.0426263320728773,0.0821588174630457,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.2,model minus strategy,Treat none,0.170247507734617,0.153145410794087,0.185976710209694,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.2,model minus strategy,Treat all,0.107425232038501,0.0990030938466827,0.115419817806806,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.05,net benefit,Model,0.279043259575546,0.261019793381701,0.295401295435219,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.05,net benefit,Treat all,0.272674639503537,0.254572922509092,0.289319896509924,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.05,model minus strategy,Treat none,0.279043259575546,0.261019793381701,0.295401295435219,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.05,model minus strategy,Treat all,0.00636862007200883,0.00338242477972174,0.00897441696368799,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.1,net benefit,Model,0.25766777434017,0.239752110309003,0.274515870287613,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.1,net benefit,Treat all,0.232267675031511,0.21316030709293,0.249837668538253,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.1,model minus strategy,Treat none,0.25766777434017,0.239752110309003,0.274515870287613,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.1,model minus strategy,Treat all,0.0254000993086589,0.0207774722126733,0.0297925976853443,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.2,net benefit,Model,0.223100721897559,0.204958748710897,0.24037469920935,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.2,net benefit,Treat all,0.13630113441045,0.114805345479546,0.156067377105535,
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.2,model minus strategy,Treat none,0.223100721897559,0.204958748710897,0.24037469920935,TRUE
+B,comp,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.2,model minus strategy,Treat all,0.086799587487109,0.0784633894809213,0.094880113441045,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.05,net benefit,Model,0.0248735718299307,0.0153184116875819,0.0349513017418992,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.05,net benefit,Treat all,-0.00318411687581944,-0.0144221764375351,0.00880314665667728,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.05,model minus strategy,Treat none,0.0248735718299307,0.0153184116875819,0.0349513017418992,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.05,model minus strategy,Treat all,0.0280576887057501,0.0221764375351189,0.0333030530061809,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.1,net benefit,Model,0.0157374456306841,0.00711743772241993,0.024992091735864,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.1,net benefit,Treat all,-0.058916567813365,-0.0707789640173982,-0.0462633451957295,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.1,model minus strategy,Treat none,0.0157374456306841,0.00711743772241993,0.024992091735864,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.1,model minus strategy,Treat all,0.074654013444049,0.0660320284697509,0.0820877817319098,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.2,net benefit,Model,0.00622775800711744,-0.000355871886120996,0.0131717081850534,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.2,net benefit,Treat all,-0.191281138790036,-0.204626334519573,-0.177046263345196,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.2,model minus strategy,Treat none,0.00622775800711744,-0.000355871886120996,0.0131717081850534,FALSE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.2,model minus strategy,Treat all,0.197508896797153,0.185053380782918,0.208362989323843,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.05,net benefit,Model,0.080314665667728,0.064842667166136,0.0970247237310358,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.05,net benefit,Treat all,0.0612474246113504,0.0447649372541674,0.0792283199100955,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.05,model minus strategy,Treat none,0.080314665667728,0.064842667166136,0.0970247237310358,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.05,model minus strategy,Treat all,0.0190672410563776,0.0141974152463008,0.0234884809889492,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.1,net benefit,Model,0.0646896006326611,0.0499011466982997,0.0805852115460657,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.1,net benefit,Treat all,0.00909450375642546,-0.00830367734282324,0.0280743376828786,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.1,model minus strategy,Treat none,0.0646896006326611,0.0499011466982997,0.0805852115460657,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.1,model minus strategy,Treat all,0.0555950968762357,0.0473705021747727,0.0634242783708976,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.2,net benefit,Model,0.0379003558718861,0.0252624555160142,0.052317615658363,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.2,net benefit,Treat all,-0.114768683274021,-0.134341637010676,-0.0934163701067616,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.2,model minus strategy,Treat none,0.0379003558718861,0.0252624555160142,0.052317615658363,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.2,model minus strategy,Treat all,0.152669039145907,0.138607651245552,0.166192170818505,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.05,net benefit,Model,0.157070612474246,0.136578010863458,0.178349878254355,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.05,net benefit,Treat all,0.143659861397265,0.122663420116127,0.165386776549916,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.05,model minus strategy,Treat none,0.157070612474246,0.136578010863458,0.178349878254355,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.05,model minus strategy,Treat all,0.0134107510769807,0.00846600486982582,0.0177935943060498,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.1,net benefit,Model,0.13910636615263,0.118384737050217,0.16053776196125,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.1,net benefit,Treat all,0.096085409252669,0.073922499011467,0.119019375247133,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.1,model minus strategy,Treat none,0.13910636615263,0.118384737050217,0.16053776196125,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.1,model minus strategy,Treat all,0.0430209568999605,0.035349940688019,0.0500593119810202,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.2,net benefit,Model,0.10729537366548,0.0884341637010676,0.128830071174377,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.2,net benefit,Treat all,-0.0169039145907473,-0.0418371886120996,0.00889679715302491,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.2,model minus strategy,Treat none,0.10729537366548,0.0884341637010676,0.128830071174377,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.2,model minus strategy,Treat all,0.124199288256228,0.111209964412811,0.1368371886121,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.05,net benefit,Model,0.216145345570332,0.192803895860648,0.238513766622963,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.05,net benefit,Treat all,0.203596179059749,0.179602921895486,0.226821502153961,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.05,model minus strategy,Treat none,0.216145345570332,0.192803895860648,0.238513766622963,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.05,model minus strategy,Treat all,0.0125491665105825,0.00899044764937257,0.0156209027907848,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.1,net benefit,Model,0.196204033214709,0.172394226967181,0.219849742981416,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.1,net benefit,Treat all,0.159351522340846,0.134025306445235,0.183867141162515,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.1,model minus strategy,Treat none,0.196204033214709,0.172394226967181,0.219849742981416,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.1,model minus strategy,Treat all,0.0368525108738632,0.0302095689996046,0.0429418742586002,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.2,net benefit,Model,0.168505338078292,0.145017793594306,0.192175266903915,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.2,net benefit,Treat all,0.054270462633452,0.0257784697508897,0.0818505338078292,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.2,model minus strategy,Treat none,0.168505338078292,0.145017793594306,0.192175266903915,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.2,model minus strategy,Treat all,0.11423487544484,0.101957295373665,0.125983096085409,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.05,net benefit,Model,0.268327402135231,0.244314478366735,0.293277767372167,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.05,net benefit,Treat all,0.257538864955984,0.23281513392021,0.282262595991759,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.05,model minus strategy,Treat none,0.268327402135231,0.244314478366735,0.293277767372167,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.05,model minus strategy,Treat all,0.010788537179247,0.00752856340138602,0.0134856714740588,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.1,net benefit,Model,0.244128113879004,0.219137999209174,0.26856860419138,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.1,net benefit,Treat all,0.216291024120206,0.190193752471333,0.242388295769079,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.1,model minus strategy,Treat none,0.244128113879004,0.219137999209174,0.26856860419138,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.1,model minus strategy,Treat all,0.027837089758798,0.0208778173190985,0.0344820086990905,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.2,net benefit,Model,0.212811387900356,0.188069395017794,0.237375444839858,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.2,net benefit,Treat all,0.118327402135231,0.0889679715302491,0.147686832740213,
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.2,model minus strategy,Treat none,0.212811387900356,0.188069395017794,0.237375444839858,TRUE
+B,comp,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.2,model minus strategy,Treat all,0.0944839857651245,0.0816725978647687,0.106227758007117,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.05,net benefit,Model,0.0151073800003619,0.00960630348645763,0.0209517649400228,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.05,net benefit,Treat all,-0.0160843842159541,-0.0229595990664182,-0.00920012303016054,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.05,model minus strategy,Treat none,0.0151073800003619,0.00960630348645763,0.0209517649400228,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.05,model minus strategy,Treat all,0.031191764216316,0.0271932840006513,0.0348112029816721,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.1,net benefit,Model,0.00420152018639471,0.000190978190290668,0.00851762728696383,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.1,net benefit,Treat all,-0.072533516672396,-0.0797906879034414,-0.0652667965318361,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.1,model minus strategy,Treat none,0.00420152018639471,0.000190978190290668,0.00851762728696383,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.1,model minus strategy,Treat all,0.0767350368587907,0.0705845842404798,0.0824653374584622,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.2,net benefit,Model,-0.000515641113784806,-0.00292196631144723,0.00206256445513922,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.2,net benefit,Treat all,-0.206600206256446,-0.214764523891372,-0.198425146098316,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.2,model minus strategy,Treat none,-0.000515641113784806,-0.00292196631144723,0.00206256445513922,FALSE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",10,0.2,model minus strategy,Treat all,0.206084565142661,0.198092127878996,0.213905122035064,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.05,net benefit,Model,0.0412512891027845,0.0328201045756364,0.0501347903964104,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.05,net benefit,Treat all,0.0190153968627309,0.00960720811999059,0.0287854390186535,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.05,model minus strategy,Treat none,0.0412512891027845,0.0328201045756364,0.0501347903964104,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.05,model minus strategy,Treat all,0.0222358922400536,0.0183821533896619,0.0258910640299615,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.1,net benefit,Model,0.0295252282189374,0.0215404300828845,0.0376618540162713,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.1,net benefit,Treat all,-0.0354837477560063,-0.045414613651121,-0.0251709254803102,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.1,model minus strategy,Treat none,0.0295252282189374,0.0215404300828845,0.0376618540162713,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.1,model minus strategy,Treat all,0.0650089759749437,0.0594324128184561,0.0705091478553149,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.2,net benefit,Model,0.00799243726366449,0.00232038501203163,0.0140941904434514,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.2,net benefit,Treat all,-0.164919216225507,-0.176091440357511,-0.153317291165349,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.2,model minus strategy,Treat none,0.00799243726366449,0.00232038501203163,0.0140941904434514,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",30,0.2,model minus strategy,Treat all,0.172911653489172,0.163112323822619,0.18245101409419,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.05,net benefit,Model,0.0702357474986883,0.059650178212806,0.0816345823306978,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.05,net benefit,Treat all,0.051944057462322,0.0403647482404878,0.0638852200973386,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.05,model minus strategy,Treat none,0.0702357474986883,0.059650178212806,0.0816345823306978,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.05,model minus strategy,Treat all,0.0182916900363663,0.0147817119284978,0.0217116571077057,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.1,net benefit,Model,0.0551545013559452,0.0448407241892976,0.0656592567128834,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.1,net benefit,Treat all,-0.000725717123104533,-0.0129483213017073,0.0118788434360796,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.1,model minus strategy,Treat none,0.0551545013559452,0.0448407241892976,0.0656592567128834,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.1,model minus strategy,Treat all,0.0558802184790497,0.0501862037355334,0.0614959321645468,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.2,net benefit,Model,0.0322275696115504,0.0233735819869371,0.0410794087315229,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.2,net benefit,Treat all,-0.125816431763493,-0.139566861464421,-0.11163630113441,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.2,model minus strategy,Treat none,0.0322275696115504,0.0233735819869371,0.0410794087315229,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",90,0.2,model minus strategy,Treat all,0.158044001375043,0.148332760398762,0.166895840495015,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.05,net benefit,Model,0.0908975773913988,0.0788659514030866,0.103437155108466,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.05,net benefit,Treat all,0.0776356497982667,0.0653326337500679,0.0906623726728302,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.05,model minus strategy,Treat none,0.0908975773913988,0.0788659514030866,0.103437155108466,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.05,model minus strategy,Treat all,0.013261927593132,0.00964294114454236,0.0169528324075917,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.1,net benefit,Model,0.0736029945380238,0.0622970856728162,0.085253619036706,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.1,net benefit,Treat all,0.0263931858981704,0.013406668958405,0.0401436155990986,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.1,model minus strategy,Treat none,0.0736029945380238,0.0622970856728162,0.085253619036706,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.1,model minus strategy,Treat all,0.0472098086398533,0.0409829647454261,0.0528255223253505,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.2,net benefit,Model,0.0508765898934342,0.0404756789274665,0.0618790821588175,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.2,net benefit,Treat all,-0.0953076658645583,-0.109917497421794,-0.0798384324510141,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.2,model minus strategy,Treat none,0.0508765898934342,0.0404756789274665,0.0618790821588175,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",180,0.2,model minus strategy,Treat all,0.146184255757992,0.136642746648333,0.155293915434857,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.05,net benefit,Model,0.113603879068589,0.100918655352717,0.12679660219645,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.05,net benefit,Treat all,0.103327242134211,0.0903005192596479,0.116715818421957,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.05,model minus strategy,Treat none,0.113603879068589,0.100918655352717,0.12679660219645,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.05,model minus strategy,Treat all,0.0102766369343779,0.00676620650974289,0.0133523909464276,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.1,net benefit,Model,0.0942668347274741,0.0821559527901914,0.107024177838891,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.1,net benefit,Treat all,0.0535120889194454,0.0397616592185173,0.0676444750009549,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.1,model minus strategy,Treat none,0.0942668347274741,0.0821559527901914,0.107024177838891,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.1,model minus strategy,Treat all,0.0407547458080287,0.0347198349948436,0.0465996333218746,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.2,net benefit,Model,0.0676349260914404,0.0561167927122723,0.0798427294602956,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.2,net benefit,Treat all,-0.0647988999656239,-0.0802681333791681,-0.0488999656239258,
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.2,model minus strategy,Treat none,0.0676349260914404,0.0561167927122723,0.0798427294602956,TRUE
+B,cv,EHR+ECG,EHR+ECG,"Super learner, recalibrated",365,0.2,model minus strategy,Treat all,0.132433826057064,0.122894465452045,0.141373753867308,TRUE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.05,net benefit,Model,0.00895298745083349,0.00228413560591871,0.0160713616782169,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.05,net benefit,Treat all,-0.0211650121745645,-0.0301554598239371,-0.0114253605544109,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.05,model minus strategy,Treat none,0.00895298745083349,0.00228413560591871,0.0160713616782169,TRUE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.05,model minus strategy,Treat all,0.030117999625398,0.0234866079790223,0.0358868702004121,TRUE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.1,net benefit,Model,0.00268880980624753,-0.0018208778173191,0.00767299327797547,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.1,net benefit,Treat all,-0.0778964017398181,-0.0873863187030447,-0.0676156583629893,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.1,model minus strategy,Treat none,0.00268880980624753,-0.0018208778173191,0.00767299327797547,FALSE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.1,model minus strategy,Treat all,0.0805852115460657,0.0717279557137209,0.0888117833135627,TRUE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.2,net benefit,Model,-0.00177935943060498,-0.00302491103202847,-0.000711743772241993,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.2,net benefit,Treat all,-0.212633451957295,-0.223309608540925,-0.201067615658363,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.2,model minus strategy,Treat none,-0.00177935943060498,-0.00302491103202847,-0.000711743772241993,TRUE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",10,0.2,model minus strategy,Treat all,0.21085409252669,0.199288256227758,0.22153024911032,TRUE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.05,net benefit,Model,0.0335643378909908,0.0219882000374602,0.0452537928451021,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.05,net benefit,Treat all,0.00955235062745831,-0.00320284697508897,0.0230380221015171,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.05,model minus strategy,Treat none,0.0335643378909908,0.0219882000374602,0.0452537928451021,TRUE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.05,model minus strategy,Treat all,0.0240119872635325,0.0181672597864769,0.0291824311668852,TRUE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.1,net benefit,Model,0.0187425860023725,0.00956702253855279,0.0286279161724002,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.1,net benefit,Treat all,-0.0454725187821273,-0.058936338473705,-0.0312376433372875,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.1,model minus strategy,Treat none,0.0187425860023725,0.00956702253855279,0.0286279161724002,TRUE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.1,model minus strategy,Treat all,0.0642151047844998,0.0541716093317517,0.0729161724001582,TRUE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.2,net benefit,Model,0.00462633451957295,-0.00249110320284698,0.0122775800711744,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.2,net benefit,Treat all,-0.176156583629893,-0.191303380782918,-0.160142348754448,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.2,model minus strategy,Treat none,0.00462633451957295,-0.00249110320284698,0.0122775800711744,FALSE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",30,0.2,model minus strategy,Treat all,0.180782918149466,0.166725978647687,0.194488434163701,TRUE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.05,net benefit,Model,0.0590372728975464,0.0452875070237872,0.0742105263157895,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.05,net benefit,Treat all,0.0395205094587001,0.0237872260722982,0.0560029968158831,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.05,model minus strategy,Treat none,0.0590372728975464,0.0452875070237872,0.0742105263157895,TRUE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.05,model minus strategy,Treat all,0.0195167634388462,0.0142339389398764,0.0244615096460011,TRUE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.1,net benefit,Model,0.0468960063266113,0.0335290628706999,0.0615302491103203,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.1,net benefit,Treat all,-0.0138394622380388,-0.0304468169236853,0.00355871886120996,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.1,model minus strategy,Treat none,0.0468960063266113,0.0335290628706999,0.0615302491103203,TRUE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.1,model minus strategy,Treat all,0.0607354685646501,0.0524298141557928,0.0683313562672993,TRUE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.2,net benefit,Model,0.0206405693950178,0.0101423487544484,0.0329181494661922,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.2,net benefit,Treat all,-0.140569395017794,-0.159252669039146,-0.120996441281139,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.2,model minus strategy,Treat none,0.0206405693950178,0.0101423487544484,0.0329181494661922,TRUE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",90,0.2,model minus strategy,Treat all,0.161209964412811,0.146792704626335,0.175622775800712,TRUE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.05,net benefit,Model,0.0832740213523132,0.0673899606667915,0.100431728788163,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.05,net benefit,Treat all,0.0679902603483799,0.0507398389211463,0.0859711556471249,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.05,model minus strategy,Treat none,0.0832740213523132,0.0673899606667915,0.100431728788163,TRUE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.05,model minus strategy,Treat all,0.0152837610039333,0.00985015920584379,0.0201545233189736,TRUE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.1,net benefit,Model,0.069988137603796,0.054638196915777,0.086439304072756,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.1,net benefit,Treat all,0.0162119414788454,-0.00199683669434559,0.0351917754052985,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.1,model minus strategy,Treat none,0.069988137603796,0.054638196915777,0.086439304072756,TRUE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.1,model minus strategy,Treat all,0.0537761961249506,0.0454705417160933,0.0615262949782523,TRUE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.2,net benefit,Model,0.0446619217081851,0.0304225978647687,0.0597864768683274,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.2,net benefit,Treat all,-0.106761565836299,-0.127246441281139,-0.0854092526690392,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.2,model minus strategy,Treat none,0.0446619217081851,0.0304225978647687,0.0597864768683274,TRUE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",180,0.2,model minus strategy,Treat all,0.151423487544484,0.137717971530249,0.164599644128114,TRUE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.05,net benefit,Model,0.0991196853343323,0.0813991384154336,0.116653867765499,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.05,net benefit,Treat all,0.0882187675594681,0.0694886682899419,0.106218392957483,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.05,model minus strategy,Treat none,0.0991196853343323,0.0813991384154336,0.116653867765499,TRUE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.05,model minus strategy,Treat all,0.0109009177748642,0.00531841168758195,0.0158456639820191,TRUE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.1,net benefit,Model,0.0823250296559905,0.0656385923289838,0.0997232107552392,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.1,net benefit,Treat all,0.0375642546461052,0.0177935943060498,0.0565638592328983,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.1,model minus strategy,Treat none,0.0823250296559905,0.0656385923289838,0.0997232107552392,TRUE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.1,model minus strategy,Treat all,0.0447607750098853,0.0357453538948201,0.0534598655595097,TRUE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.2,net benefit,Model,0.0622775800711744,0.046085409252669,0.0788256227758007,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.2,net benefit,Treat all,-0.0827402135231317,-0.104982206405694,-0.0613656583629895,
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.2,model minus strategy,Treat none,0.0622775800711744,0.046085409252669,0.0788256227758007,TRUE
+B,cv,3-mod,EHR+ECG+CTPA,"Super learner, recalibrated",365,0.2,model minus strategy,Treat all,0.145017793594306,0.131672597864769,0.15836743772242,TRUE

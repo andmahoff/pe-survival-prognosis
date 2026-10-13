@@ -1,0 +1,17 @@
+item,value,status
+INSPECT: patients / deaths within 366 d,3300 / 539,INFO
+MIMIC: patients / deaths within 366 d,1490 / 369,INFO
+S6 rerun (D12) results found,s6_performance.csv,PASS
+tasks that failed,0,PASS
+missing predictions,0,PASS
+risk range,0.00020 to 1.00000,PASS
+warnings from model fitting (see a12_warnings.csv),0,INFO
+glmnet tie-handling notices (harmless),3744,INFO
+ridge-Cox choices at the least-penalised end,0.0%,PASS
+RSF EHR: node size 160 / 5 share; smallest mtry share,0.00 / 0.47; 0.19,PASS
+RSF CTPA: node size 160 / 5 share; smallest mtry share,0.04 / 0.01; 0.65,PASS
+"IPCW AUC and Brier match riskRegression (INSPECT, max |diff|)",5.1e-08,PASS
+INSPECT: S6 ridge-Cox EHR AUC at 30 d reproduced,0.771669 vs 0.771669,PASS
+INSPECT: S6 ridge-Cox EHR AUC at 365 d reproduced,0.783014 vs 0.783014,PASS
+MIMIC: S6 ridge-Cox EHR AUC at 30 d reproduced,0.876780 vs 0.876780,PASS
+MIMIC: S6 ridge-Cox EHR AUC at 365 d reproduced,0.882011 vs 0.882011,PASS

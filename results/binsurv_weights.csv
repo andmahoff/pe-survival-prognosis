@@ -1,0 +1,321 @@
+job,model,horizon,candidate,mean_weight,share_nonzero
+B comp,Binary super learner,10,"EHR alone, ridge",0.585007632628401,1
+B comp,Binary super learner,10,"EHR+ECG stack, ridge",0.190997281658307,0.9
+B comp,Binary super learner,10,"EHR alone, rf",0.161457882808678,0.833333333333333
+B comp,Binary super learner,10,"EHR+ECG stack, rf",0.062502096076445,0.366666666666667
+B comp,Binary super learner,10,prevalence,3.51068281685006e-05,0.0333333333333333
+B comp,Binary super learner,30,"EHR alone, ridge",0.384314934989818,0.933333333333333
+B comp,Binary super learner,30,"EHR+ECG stack, ridge",0.291279527421052,0.733333333333333
+B comp,Binary super learner,30,"EHR+ECG stack, rf",0.197792717368038,0.766666666666667
+B comp,Binary super learner,30,"EHR alone, rf",0.126612820221092,0.566666666666667
+B comp,Binary super learner,30,prevalence,0,0
+B comp,Binary super learner,90,"EHR+ECG stack, rf",0.473162112326932,1
+B comp,Binary super learner,90,"EHR+ECG stack, ridge",0.338198314741265,1
+B comp,Binary super learner,90,"EHR alone, ridge",0.128965424619322,0.7
+B comp,Binary super learner,90,"EHR alone, rf",0.059674148312481,0.433333333333333
+B comp,Binary super learner,90,prevalence,0,0
+B comp,Binary super learner,180,"EHR+ECG stack, ridge",0.382875178875313,1
+B comp,Binary super learner,180,"EHR+ECG stack, rf",0.313451877625922,0.933333333333333
+B comp,Binary super learner,180,"EHR alone, rf",0.291292348423051,1
+B comp,Binary super learner,180,"EHR alone, ridge",0.0123805950757144,0.133333333333333
+B comp,Binary super learner,180,prevalence,0,0
+B comp,Binary super learner,365,"EHR+ECG stack, rf",0.448033774814391,1
+B comp,Binary super learner,365,"EHR+ECG stack, ridge",0.426702580678141,1
+B comp,Binary super learner,365,"EHR alone, rf",0.0988660254270135,0.8
+B comp,Binary super learner,365,"EHR alone, ridge",0.0263976190804536,0.3
+B comp,Binary super learner,365,prevalence,0,0
+B comp,Binary super learner-EHR,10,"EHR alone, ridge",0.786808201543641,1
+B comp,Binary super learner-EHR,10,"EHR alone, rf",0.212919210252659,1
+B comp,Binary super learner-EHR,10,prevalence,0.000272588203700554,0.0333333333333333
+B comp,Binary super learner-EHR,30,"EHR alone, ridge",0.709971210936114,1
+B comp,Binary super learner-EHR,30,"EHR alone, rf",0.289965619937315,1
+B comp,Binary super learner-EHR,30,prevalence,6.31691265716323e-05,0.0333333333333333
+B comp,Binary super learner-EHR,90,"EHR alone, ridge",0.501398641279074,1
+B comp,Binary super learner-EHR,90,"EHR alone, rf",0.498560327591413,1
+B comp,Binary super learner-EHR,90,prevalence,4.10311295137581e-05,0.0333333333333333
+B comp,Binary super learner-EHR,180,"EHR alone, rf",0.593058254388757,1
+B comp,Binary super learner-EHR,180,"EHR alone, ridge",0.406941745611243,1
+B comp,Binary super learner-EHR,180,prevalence,0,0
+B comp,Binary super learner-EHR,365,"EHR alone, rf",0.509552869869748,1
+B comp,Binary super learner-EHR,365,"EHR alone, ridge",0.490447130130252,1
+B comp,Binary super learner-EHR,365,prevalence,0,0
+B cv,Binary super learner,10,"EHR+ECG stack, ridge",0.403341864677606,0.866666666666667
+B cv,Binary super learner,10,"EHR alone, ridge",0.289391032122733,0.866666666666667
+B cv,Binary super learner,10,"EHR alone, rf",0.144406123355465,0.8
+B cv,Binary super learner,10,prevalence,0.0938532831121367,1
+B cv,Binary super learner,10,"EHR+ECG stack, rf",0.0690076967320591,0.4
+B cv,Binary super learner,30,"EHR alone, ridge",0.351728127625742,0.866666666666667
+B cv,Binary super learner,30,"EHR+ECG stack, ridge",0.307171705028543,0.866666666666667
+B cv,Binary super learner,30,"EHR+ECG stack, rf",0.186750729376848,0.7
+B cv,Binary super learner,30,"EHR alone, rf",0.0960202948539546,0.5
+B cv,Binary super learner,30,prevalence,0.0583291431149124,0.966666666666667
+B cv,Binary super learner,90,"EHR alone, rf",0.346047029862454,1
+B cv,Binary super learner,90,"EHR+ECG stack, ridge",0.320533432257882,0.966666666666667
+B cv,Binary super learner,90,"EHR+ECG stack, rf",0.293334781795259,0.9
+B cv,Binary super learner,90,prevalence,0.0252394636023862,0.966666666666667
+B cv,Binary super learner,90,"EHR alone, ridge",0.0148452924820191,0.133333333333333
+B cv,Binary super learner,180,"EHR alone, rf",0.440316996601381,1
+B cv,Binary super learner,180,"EHR+ECG stack, ridge",0.274223920427418,0.866666666666667
+B cv,Binary super learner,180,"EHR+ECG stack, rf",0.23388921286704,0.9
+B cv,Binary super learner,180,"EHR alone, ridge",0.0504249435917818,0.233333333333333
+B cv,Binary super learner,180,prevalence,0.00114492651237981,0.1
+B cv,Binary super learner,365,"EHR alone, rf",0.442766772530542,1
+B cv,Binary super learner,365,"EHR+ECG stack, ridge",0.345909864380737,1
+B cv,Binary super learner,365,"EHR+ECG stack, rf",0.210784828506049,0.933333333333333
+B cv,Binary super learner,365,"EHR alone, ridge",0.000538534582672,0.0333333333333333
+B cv,Binary super learner,365,prevalence,0,0
+B cv,Binary super learner-EHR,10,"EHR alone, ridge",0.670954089588993,1
+B cv,Binary super learner-EHR,10,"EHR alone, rf",0.234572992183916,0.966666666666667
+B cv,Binary super learner-EHR,10,prevalence,0.0944729182270913,1
+B cv,Binary super learner-EHR,30,"EHR alone, ridge",0.689049483505159,1
+B cv,Binary super learner-EHR,30,"EHR alone, rf",0.250989674634002,0.966666666666667
+B cv,Binary super learner-EHR,30,prevalence,0.0599608418608394,0.966666666666667
+B cv,Binary super learner-EHR,90,"EHR alone, rf",0.651527305814744,1
+B cv,Binary super learner-EHR,90,"EHR alone, ridge",0.322158920455251,1
+B cv,Binary super learner-EHR,90,prevalence,0.0263137737300057,0.966666666666667
+B cv,Binary super learner-EHR,180,"EHR alone, rf",0.667290177776995,1
+B cv,Binary super learner-EHR,180,"EHR alone, ridge",0.331761632042784,1
+B cv,Binary super learner-EHR,180,prevalence,0.000948190180221192,0.1
+B cv,Binary super learner-EHR,365,"EHR alone, rf",0.671716169229505,1
+B cv,Binary super learner-EHR,365,"EHR alone, ridge",0.328283830770495,1
+B cv,Binary super learner-EHR,365,prevalence,0,0
+B cv_excl,Binary super learner,10,"EHR+ECG stack, ridge",0.386211146961164,0.966666666666667
+B cv_excl,Binary super learner,10,"EHR alone, ridge",0.251289343840989,0.9
+B cv_excl,Binary super learner,10,"EHR alone, rf",0.182770100989881,0.833333333333333
+B cv_excl,Binary super learner,10,"EHR+ECG stack, rf",0.103616053234526,0.466666666666667
+B cv_excl,Binary super learner,10,prevalence,0.07611335497344,1
+B cv_excl,Binary super learner,30,"EHR+ECG stack, ridge",0.369512482655923,1
+B cv_excl,Binary super learner,30,"EHR+ECG stack, rf",0.250955422219206,0.866666666666667
+B cv_excl,Binary super learner,30,"EHR alone, ridge",0.248015737439242,0.8
+B cv_excl,Binary super learner,30,"EHR alone, rf",0.0944944294090186,0.5
+B cv_excl,Binary super learner,30,prevalence,0.0370219282766107,0.966666666666667
+B cv_excl,Binary super learner,90,"EHR+ECG stack, rf",0.55592223589017,1
+B cv_excl,Binary super learner,90,"EHR+ECG stack, ridge",0.248852809975591,0.933333333333333
+B cv_excl,Binary super learner,90,"EHR alone, rf",0.146646005666647,0.866666666666667
+B cv_excl,Binary super learner,90,"EHR alone, ridge",0.0323616110514462,0.166666666666667
+B cv_excl,Binary super learner,90,prevalence,0.0162173374161467,0.933333333333333
+B cv_excl,Binary super learner,180,"EHR+ECG stack, rf",0.515152992173636,0.966666666666667
+B cv_excl,Binary super learner,180,"EHR alone, rf",0.294216282198385,1
+B cv_excl,Binary super learner,180,"EHR+ECG stack, ridge",0.180199901222641,0.966666666666667
+B cv_excl,Binary super learner,180,"EHR alone, ridge",0.00982092122345362,0.133333333333333
+B cv_excl,Binary super learner,180,prevalence,0.000609903181884181,0.0666666666666667
+B cv_excl,Binary super learner,365,"EHR+ECG stack, rf",0.451567818361454,1
+B cv_excl,Binary super learner,365,"EHR alone, rf",0.280993237313049,1
+B cv_excl,Binary super learner,365,"EHR+ECG stack, ridge",0.265284314334242,1
+B cv_excl,Binary super learner,365,"EHR alone, ridge",0.00215462999125549,0.0333333333333333
+B cv_excl,Binary super learner,365,prevalence,0,0
+B cv_excl,Binary super learner-EHR,10,"EHR alone, ridge",0.623777037295594,1
+B cv_excl,Binary super learner-EHR,10,"EHR alone, rf",0.297806839033252,1
+B cv_excl,Binary super learner-EHR,10,prevalence,0.0784161236711541,1
+B cv_excl,Binary super learner-EHR,30,"EHR alone, ridge",0.647470631754211,1
+B cv_excl,Binary super learner-EHR,30,"EHR alone, rf",0.316178104295361,1
+B cv_excl,Binary super learner-EHR,30,prevalence,0.0363512639504275,0.966666666666667
+B cv_excl,Binary super learner-EHR,90,"EHR alone, rf",0.689036488134302,1
+B cv_excl,Binary super learner-EHR,90,"EHR alone, ridge",0.29618463127674,1
+B cv_excl,Binary super learner-EHR,90,prevalence,0.0147788805889577,0.933333333333333
+B cv_excl,Binary super learner-EHR,180,"EHR alone, rf",0.804120262637542,1
+B cv_excl,Binary super learner-EHR,180,"EHR alone, ridge",0.195435591918248,1
+B cv_excl,Binary super learner-EHR,180,prevalence,0.000444145444209748,0.0333333333333333
+B cv_excl,Binary super learner-EHR,365,"EHR alone, rf",0.736609514490799,1
+B cv_excl,Binary super learner-EHR,365,"EHR alone, ridge",0.263390485509201,1
+B cv_excl,Binary super learner-EHR,365,prevalence,0,0
+B death,Binary super learner,10,"EHR alone, ridge",0.493632506405732,0.933333333333333
+B death,Binary super learner,10,"EHR+ECG stack, rf",0.2340054118528,0.733333333333333
+B death,Binary super learner,10,"EHR alone, rf",0.167627073047846,0.633333333333333
+B death,Binary super learner,10,"EHR+ECG stack, ridge",0.104224420705192,0.366666666666667
+B death,Binary super learner,10,prevalence,0.000510587988430503,0.0333333333333333
+B death,Binary super learner,30,"EHR+ECG stack, ridge",0.42109620341554,0.933333333333333
+B death,Binary super learner,30,"EHR alone, ridge",0.2374459481756,0.8
+B death,Binary super learner,30,"EHR alone, rf",0.211187778519369,0.766666666666667
+B death,Binary super learner,30,"EHR+ECG stack, rf",0.130270069889491,0.633333333333333
+B death,Binary super learner,30,prevalence,0,0
+B death,Binary super learner,90,"EHR+ECG stack, ridge",0.617281878639135,0.933333333333333
+B death,Binary super learner,90,"EHR alone, rf",0.2001636374316,0.966666666666667
+B death,Binary super learner,90,"EHR alone, ridge",0.162805229965239,0.7
+B death,Binary super learner,90,"EHR+ECG stack, rf",0.019749253964026,0.133333333333333
+B death,Binary super learner,90,prevalence,0,0
+B death,Binary super learner,180,"EHR+ECG stack, ridge",0.485677929648636,0.9
+B death,Binary super learner,180,"EHR alone, rf",0.272892487571445,0.966666666666667
+B death,Binary super learner,180,"EHR+ECG stack, rf",0.134009275967591,0.666666666666667
+B death,Binary super learner,180,"EHR alone, ridge",0.107420306812327,0.333333333333333
+B death,Binary super learner,180,prevalence,0,0
+B death,Binary super learner,365,"EHR+ECG stack, rf",0.462620525391788,1
+B death,Binary super learner,365,"EHR+ECG stack, ridge",0.384393136213377,0.933333333333333
+B death,Binary super learner,365,"EHR alone, ridge",0.0806917017809026,0.433333333333333
+B death,Binary super learner,365,"EHR alone, rf",0.0722946366139322,0.533333333333333
+B death,Binary super learner,365,prevalence,0,0
+B death,Binary super learner-EHR,10,"EHR alone, ridge",0.611176040957731,1
+B death,Binary super learner-EHR,10,"EHR alone, rf",0.387915484179481,1
+B death,Binary super learner-EHR,10,prevalence,0.000908474862787249,0.0666666666666667
+B death,Binary super learner-EHR,30,"EHR alone, ridge",0.668918646695347,1
+B death,Binary super learner-EHR,30,"EHR alone, rf",0.331081353304653,1
+B death,Binary super learner-EHR,30,prevalence,0,0
+B death,Binary super learner-EHR,90,"EHR alone, ridge",0.786911739814098,1
+B death,Binary super learner-EHR,90,"EHR alone, rf",0.213088260185902,1
+B death,Binary super learner-EHR,90,prevalence,0,0
+B death,Binary super learner-EHR,180,"EHR alone, ridge",0.600535232300728,1
+B death,Binary super learner-EHR,180,"EHR alone, rf",0.399464767699272,1
+B death,Binary super learner-EHR,180,prevalence,0,0
+B death,Binary super learner-EHR,365,"EHR alone, ridge",0.528820703530004,1
+B death,Binary super learner-EHR,365,"EHR alone, rf",0.471179296469996,1
+B death,Binary super learner-EHR,365,prevalence,0,0
+P comp,Binary super learner,10,"EHR alone, rf",0.393292013771077,0.9
+P comp,Binary super learner,10,"EHR+ECG stack, ridge",0.313566477796478,0.866666666666667
+P comp,Binary super learner,10,"EHR alone, ridge",0.147058484460121,0.633333333333333
+P comp,Binary super learner,10,"EHR+ECG stack, rf",0.146083023972324,0.6
+P comp,Binary super learner,10,prevalence,0,0
+P comp,Binary super learner,30,"EHR+ECG stack, ridge",0.461462518564731,1
+P comp,Binary super learner,30,"EHR+ECG stack, rf",0.256290454617638,1
+P comp,Binary super learner,30,"EHR alone, rf",0.24072833278075,0.933333333333333
+P comp,Binary super learner,30,"EHR alone, ridge",0.0415186940368812,0.3
+P comp,Binary super learner,30,prevalence,0,0
+P comp,Binary super learner,90,"EHR+ECG stack, ridge",0.454165503145068,1
+P comp,Binary super learner,90,"EHR+ECG stack, rf",0.437800403507435,1
+P comp,Binary super learner,90,"EHR alone, rf",0.108034093347497,1
+P comp,Binary super learner,90,prevalence,0,0
+P comp,Binary super learner,90,"EHR alone, ridge",0,0
+P comp,Binary super learner,180,"EHR+ECG stack, rf",0.427893207540763,1
+P comp,Binary super learner,180,"EHR+ECG stack, ridge",0.424525220212555,1
+P comp,Binary super learner,180,"EHR alone, rf",0.147128240405039,1
+P comp,Binary super learner,180,"EHR alone, ridge",0.000453331841642745,0.0333333333333333
+P comp,Binary super learner,180,prevalence,0,0
+P comp,Binary super learner,365,"EHR+ECG stack, ridge",0.480208549563481,1
+P comp,Binary super learner,365,"EHR+ECG stack, rf",0.434048031027468,1
+P comp,Binary super learner,365,"EHR alone, rf",0.0857434194090504,1
+P comp,Binary super learner,365,prevalence,0,0
+P comp,Binary super learner,365,"EHR alone, ridge",0,0
+P comp,Binary super learner-EHR,10,"EHR alone, rf",0.558507287801246,1
+P comp,Binary super learner-EHR,10,"EHR alone, ridge",0.441492712198754,1
+P comp,Binary super learner-EHR,10,prevalence,0,0
+P comp,Binary super learner-EHR,30,"EHR alone, rf",0.513198717569077,1
+P comp,Binary super learner-EHR,30,"EHR alone, ridge",0.486801282430923,1
+P comp,Binary super learner-EHR,30,prevalence,0,0
+P comp,Binary super learner-EHR,90,"EHR alone, rf",0.532405045323742,1
+P comp,Binary super learner-EHR,90,"EHR alone, ridge",0.467594954676258,1
+P comp,Binary super learner-EHR,90,prevalence,0,0
+P comp,Binary super learner-EHR,180,"EHR alone, rf",0.554680729168315,1
+P comp,Binary super learner-EHR,180,"EHR alone, ridge",0.445319270831685,1
+P comp,Binary super learner-EHR,180,prevalence,0,0
+P comp,Binary super learner-EHR,365,"EHR alone, rf",0.503717473092731,1
+P comp,Binary super learner-EHR,365,"EHR alone, ridge",0.496282526907269,1
+P comp,Binary super learner-EHR,365,prevalence,0,0
+P cv,Binary super learner,10,"EHR+ECG stack, ridge",0.47694017239504,1
+P cv,Binary super learner,10,"EHR alone, ridge",0.245464344383002,0.7
+P cv,Binary super learner,10,prevalence,0.147972743531682,0.9
+P cv,Binary super learner,10,"EHR alone, rf",0.110576464402129,0.633333333333333
+P cv,Binary super learner,10,"EHR+ECG stack, rf",0.0190462752881478,0.2
+P cv,Binary super learner,30,"EHR+ECG stack, ridge",0.558687038929736,1
+P cv,Binary super learner,30,"EHR+ECG stack, rf",0.236282395225852,0.833333333333333
+P cv,Binary super learner,30,"EHR alone, rf",0.152254441426484,0.8
+P cv,Binary super learner,30,prevalence,0.0386195205247986,0.933333333333333
+P cv,Binary super learner,30,"EHR alone, ridge",0.0141566038931292,0.1
+P cv,Binary super learner,90,"EHR+ECG stack, ridge",0.518343525205916,1
+P cv,Binary super learner,90,"EHR+ECG stack, rf",0.221848101327403,0.933333333333333
+P cv,Binary super learner,90,"EHR alone, rf",0.214135639925889,0.933333333333333
+P cv,Binary super learner,90,"EHR alone, ridge",0.0454465316588076,0.3
+P cv,Binary super learner,90,prevalence,0.000226201881984392,0.0666666666666667
+P cv,Binary super learner,180,"EHR+ECG stack, ridge",0.358948477515466,1
+P cv,Binary super learner,180,"EHR+ECG stack, rf",0.269118969258156,0.8
+P cv,Binary super learner,180,"EHR alone, ridge",0.218591496683261,0.833333333333333
+P cv,Binary super learner,180,"EHR alone, rf",0.153341056543116,0.6
+P cv,Binary super learner,180,prevalence,0,0
+P cv,Binary super learner,365,"EHR+ECG stack, ridge",0.407147351129499,1
+P cv,Binary super learner,365,"EHR+ECG stack, rf",0.270177150175896,0.933333333333333
+P cv,Binary super learner,365,"EHR alone, rf",0.174204188902689,0.8
+P cv,Binary super learner,365,"EHR alone, ridge",0.148471309791916,0.7
+P cv,Binary super learner,365,prevalence,0,0
+P cv,Binary super learner-EHR,10,"EHR alone, ridge",0.702973224318726,1
+P cv,Binary super learner-EHR,10,"EHR alone, rf",0.152568857815318,0.666666666666667
+P cv,Binary super learner-EHR,10,prevalence,0.144457917865956,0.9
+P cv,Binary super learner-EHR,30,"EHR alone, ridge",0.493127423943086,1
+P cv,Binary super learner-EHR,30,"EHR alone, rf",0.45505169690443,1
+P cv,Binary super learner-EHR,30,prevalence,0.0518208791524835,0.966666666666667
+P cv,Binary super learner-EHR,90,"EHR alone, ridge",0.54719132674761,1
+P cv,Binary super learner-EHR,90,"EHR alone, rf",0.452295167820356,1
+P cv,Binary super learner-EHR,90,prevalence,0.000513505432034248,0.1
+P cv,Binary super learner-EHR,180,"EHR alone, ridge",0.609419901021325,1
+P cv,Binary super learner-EHR,180,"EHR alone, rf",0.390580098978676,1
+P cv,Binary super learner-EHR,180,prevalence,0,0
+P cv,Binary super learner-EHR,365,"EHR alone, ridge",0.570890826169338,1
+P cv,Binary super learner-EHR,365,"EHR alone, rf",0.429109173830662,1
+P cv,Binary super learner-EHR,365,prevalence,0,0
+P cv_excl,Binary super learner,10,"EHR+ECG stack, ridge",0.534213418127237,0.966666666666667
+P cv_excl,Binary super learner,10,"EHR alone, ridge",0.212008221230322,0.7
+P cv_excl,Binary super learner,10,prevalence,0.197065830863591,0.933333333333333
+P cv_excl,Binary super learner,10,"EHR alone, rf",0.0430100126313356,0.433333333333333
+P cv_excl,Binary super learner,10,"EHR+ECG stack, rf",0.0137025171475139,0.2
+P cv_excl,Binary super learner,30,"EHR+ECG stack, rf",0.41961878151878,0.966666666666667
+P cv_excl,Binary super learner,30,"EHR+ECG stack, ridge",0.412041652601382,0.933333333333333
+P cv_excl,Binary super learner,30,prevalence,0.0584432487183566,1
+P cv_excl,Binary super learner,30,"EHR alone, rf",0.0569005947784614,0.533333333333333
+P cv_excl,Binary super learner,30,"EHR alone, ridge",0.0529957223830202,0.433333333333333
+P cv_excl,Binary super learner,90,"EHR+ECG stack, ridge",0.554637134879152,1
+P cv_excl,Binary super learner,90,"EHR+ECG stack, rf",0.312212933298149,1
+P cv_excl,Binary super learner,90,"EHR alone, rf",0.0770288722097768,0.733333333333333
+P cv_excl,Binary super learner,90,"EHR alone, ridge",0.055009564541012,0.466666666666667
+P cv_excl,Binary super learner,90,prevalence,0.00111149507190959,0.1
+P cv_excl,Binary super learner,180,"EHR+ECG stack, ridge",0.49473199482993,1
+P cv_excl,Binary super learner,180,"EHR+ECG stack, rf",0.30192647578971,0.933333333333333
+P cv_excl,Binary super learner,180,"EHR alone, rf",0.123749687691893,0.833333333333333
+P cv_excl,Binary super learner,180,"EHR alone, ridge",0.0795918416884669,0.5
+P cv_excl,Binary super learner,180,prevalence,0,0
+P cv_excl,Binary super learner,365,"EHR+ECG stack, ridge",0.560106436538106,1
+P cv_excl,Binary super learner,365,"EHR+ECG stack, rf",0.310175747324801,1
+P cv_excl,Binary super learner,365,"EHR alone, rf",0.0845767519605179,0.733333333333333
+P cv_excl,Binary super learner,365,"EHR alone, ridge",0.0451410641765747,0.4
+P cv_excl,Binary super learner,365,prevalence,0,0
+P cv_excl,Binary super learner-EHR,10,"EHR alone, ridge",0.729489271733395,1
+P cv_excl,Binary super learner-EHR,10,prevalence,0.199619628213416,0.933333333333333
+P cv_excl,Binary super learner-EHR,10,"EHR alone, rf",0.0708911000531897,0.6
+P cv_excl,Binary super learner-EHR,30,"EHR alone, ridge",0.51801598703521,1
+P cv_excl,Binary super learner-EHR,30,"EHR alone, rf",0.409057938834544,1
+P cv_excl,Binary super learner-EHR,30,prevalence,0.072926074130246,1
+P cv_excl,Binary super learner-EHR,90,"EHR alone, ridge",0.636957432139643,1
+P cv_excl,Binary super learner-EHR,90,"EHR alone, rf",0.361924466371365,1
+P cv_excl,Binary super learner-EHR,90,prevalence,0.00111810148899235,0.0666666666666667
+P cv_excl,Binary super learner-EHR,180,"EHR alone, ridge",0.594384668451464,1
+P cv_excl,Binary super learner-EHR,180,"EHR alone, rf",0.405615331548536,1
+P cv_excl,Binary super learner-EHR,180,prevalence,0,0
+P cv_excl,Binary super learner-EHR,365,"EHR alone, ridge",0.614580125623158,1
+P cv_excl,Binary super learner-EHR,365,"EHR alone, rf",0.385419874376842,1
+P cv_excl,Binary super learner-EHR,365,prevalence,0,0
+P death,Binary super learner,10,"EHR+ECG stack, rf",0.380345553637727,0.833333333333333
+P death,Binary super learner,10,"EHR alone, rf",0.261734663611912,0.666666666666667
+P death,Binary super learner,10,"EHR alone, ridge",0.204339031035976,0.766666666666667
+P death,Binary super learner,10,"EHR+ECG stack, ridge",0.152754836770914,0.633333333333333
+P death,Binary super learner,10,prevalence,0.000825914943471528,0.0666666666666667
+P death,Binary super learner,30,"EHR+ECG stack, ridge",0.42814447404864,1
+P death,Binary super learner,30,"EHR+ECG stack, rf",0.335827044456437,1
+P death,Binary super learner,30,"EHR alone, rf",0.222059627059697,0.966666666666667
+P death,Binary super learner,30,"EHR alone, ridge",0.0138273238529559,0.133333333333333
+P death,Binary super learner,30,prevalence,0.00014153058226957,0.0333333333333333
+P death,Binary super learner,90,"EHR+ECG stack, ridge",0.4031537001291,1
+P death,Binary super learner,90,"EHR+ECG stack, rf",0.392406696168765,1
+P death,Binary super learner,90,"EHR alone, rf",0.181456078245086,0.9
+P death,Binary super learner,90,"EHR alone, ridge",0.0229835254570489,0.2
+P death,Binary super learner,90,prevalence,0,0
+P death,Binary super learner,180,"EHR+ECG stack, rf",0.4679818126568,1
+P death,Binary super learner,180,"EHR+ECG stack, ridge",0.330741814504259,0.966666666666667
+P death,Binary super learner,180,"EHR alone, rf",0.168365537951773,0.866666666666667
+P death,Binary super learner,180,"EHR alone, ridge",0.0329108348871682,0.266666666666667
+P death,Binary super learner,180,prevalence,0,0
+P death,Binary super learner,365,"EHR+ECG stack, rf",0.532553476878621,1
+P death,Binary super learner,365,"EHR+ECG stack, ridge",0.359267904055512,1
+P death,Binary super learner,365,"EHR alone, rf",0.107689564693198,0.966666666666667
+P death,Binary super learner,365,"EHR alone, ridge",0.000489054372669672,0.0666666666666667
+P death,Binary super learner,365,prevalence,0,0
+P death,Binary super learner-EHR,10,"EHR alone, rf",0.642884024323296,1
+P death,Binary super learner-EHR,10,"EHR alone, ridge",0.356396304196351,0.933333333333333
+P death,Binary super learner-EHR,10,prevalence,0.000719671480353168,0.0666666666666667
+P death,Binary super learner-EHR,30,"EHR alone, rf",0.58053781706474,1
+P death,Binary super learner-EHR,30,"EHR alone, ridge",0.419327040874114,1
+P death,Binary super learner-EHR,30,prevalence,0.000135142061146155,0.0333333333333333
+P death,Binary super learner-EHR,90,"EHR alone, rf",0.569349810884954,1
+P death,Binary super learner-EHR,90,"EHR alone, ridge",0.430650189115046,1
+P death,Binary super learner-EHR,90,prevalence,0,0
+P death,Binary super learner-EHR,180,"EHR alone, rf",0.615115169818798,1
+P death,Binary super learner-EHR,180,"EHR alone, ridge",0.384884830181202,1
+P death,Binary super learner-EHR,180,prevalence,0,0
+P death,Binary super learner-EHR,365,"EHR alone, rf",0.606332829850873,1
+P death,Binary super learner-EHR,365,"EHR alone, ridge",0.393667170149127,1
+P death,Binary super learner-EHR,365,prevalence,0,0

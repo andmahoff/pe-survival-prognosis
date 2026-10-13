@@ -1,0 +1,17 @@
+frame,cohort,item,value,status
+A,EHR+ECG,failed fits,0,PASS
+A,EHR+ECG,missing predictions,0,PASS
+A,EHR+ECG,risk range (all seeds),0.000018 to 0.999992,PASS
+A,3-mod,failed fits,0,PASS
+A,3-mod,missing predictions,0,PASS
+A,3-mod,risk range (all seeds),0.000022 to 0.999913,PASS
+B,EHR+ECG,failed fits,0,PASS
+B,EHR+ECG,missing predictions,0,PASS
+B,EHR+ECG,risk range (all seeds),0.000026 to 0.999779,PASS
+B,EHR+ECG,death Cox-stack risk falls 30 -> 365 d,0,PASS
+B,EHR+ECG,composite Cox-stack risk falls 30 -> 365 d,0,PASS
+B,3-mod,failed fits,0,PASS
+B,3-mod,missing predictions,0,PASS
+B,3-mod,risk range (all seeds),0.000108 to 0.999675,PASS
+B,3-mod,death Cox-stack risk falls 30 -> 365 d,0,PASS
+B,3-mod,composite Cox-stack risk falls 30 -> 365 d,0,PASS

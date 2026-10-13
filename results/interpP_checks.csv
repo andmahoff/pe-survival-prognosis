@@ -1,0 +1,11 @@
+item,value,status
+input files found,all,PASS
+EHR at presentation: features (admissions without a row),128 (0),PASS
+features by domain (demog / vitals / labs / history / care),2 / 7 / 69 / 48 / 2,INFO
+"EHR+ECG: spline Cox fit, k = 5 (0.3 min, total edf 105.6)",full convergence,PASS
+"3-mod: spline Cox fit, k = 5 (0.2 min, total edf 75.8)",full convergence,PASS
+"stage 6p modal settings: RSF node/mtry, oblique leaf/mtry","15 / 12, 5 / 46",PASS
+"RSF, Brier-tuned: admissions explained",300 of 300,PASS
+"RSF, Brier-tuned: SHAP additivity (max |diff|)",2.1e-15,PASS
+"oblique RSF, Brier-tuned: admissions explained",300 of 300,PASS
+"oblique RSF, Brier-tuned: SHAP additivity (max |diff|)",2.1e-15,PASS

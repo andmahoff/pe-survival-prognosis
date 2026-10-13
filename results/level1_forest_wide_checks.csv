@@ -1,0 +1,28 @@
+frame,cohort,item,value,status
+A,EHR+ECG,rows (admissions x seeds),21006 = 3501 x 6,PASS
+A,EHR+ECG,prediction columns / missing cells,20 / 0,PASS
+A,EHR+ECG,scores failing the per-fold rule (D2),0,PASS
+A,3-mod,rows (admissions x seeds),9816 = 1636 x 6,PASS
+A,3-mod,prediction columns / missing cells,30 / 0,PASS
+A,3-mod,scores failing the per-fold rule (D2),0,PASS
+B,EHR+ECG,rows (admissions x seeds),17454 = 2909 x 6,PASS
+B,EHR+ECG,prediction columns / missing cells,38 / 0,PASS
+B,EHR+ECG,scores failing the per-fold rule (D2),0,PASS
+B,3-mod,rows (admissions x seeds),8430 = 1405 x 6,PASS
+B,3-mod,prediction columns / missing cells,57 / 0,PASS
+B,3-mod,scores failing the per-fold rule (D2),0,PASS
+-,-,fits that failed,0,PASS
+-,-,scope (D13),2: all four survival targets and the death labels,INFO
+-,-,workers / tasks resumed from checkpoints,7 / 0,INFO
+-,-,rsf ehr: node size 5 / 160 share,0.34 / 0.07,INFO
+-,-,rsf ehr: smallest / largest mtry share,0.34 / 0.09,INFO
+-,-,rsf ecg: node size 5 / 160 share,0.07 / 0.05,INFO
+-,-,rsf ecg: smallest / largest mtry share,0.63 / 0.04,WARN
+-,-,rsf ctpa: node size 5 / 160 share,0.08 / 0.07,INFO
+-,-,rsf ctpa: smallest / largest mtry share,0.50 / 0.07,INFO
+-,-,rf ehr: node size 5 / 160 share,0.45 / 0.00,INFO
+-,-,rf ehr: smallest / largest mtry share,0.19 / 0.27,INFO
+-,-,rf ecg: node size 5 / 160 share,0.15 / 0.09,INFO
+-,-,rf ecg: smallest / largest mtry share,0.55 / 0.14,WARN
+-,-,rf ctpa: node size 5 / 160 share,0.05 / 0.06,INFO
+-,-,rf ctpa: smallest / largest mtry share,0.60 / 0.04,WARN

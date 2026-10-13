@@ -1,0 +1,2 @@
+cohort,modality,fold,family,setting,message
+3-mod,ehr,2,spline Cox,k = 5,incorrect number of dimensions

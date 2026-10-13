@@ -1,0 +1,115 @@
+cohort,pair,stack,test,statistic,estimate,lo,hi,excludes_zero
+EHR+ECG,EHR+ECG,Cox-stack score,incident gain on incident gap,slope,-0.183438791034657,-0.243188728568993,-0.0879550107451467,TRUE
+EHR+ECG,EHR+ECG,Cox-stack score,incident gain on incident gap,r,-0.935940494960083,-0.98971844763932,-0.563463718800314,TRUE
+3-mod,EHR+ECG,Cox-stack score,incident gain on incident gap,slope,-0.14974109705515,-0.183304046791978,-0.0534392679078251,TRUE
+3-mod,EHR+ECG,Cox-stack score,incident gain on incident gap,r,-0.94029820276044,-0.985667560767638,-0.495338453421552,TRUE
+3-mod,EHR+CTPA,Cox-stack score,incident gain on incident gap,slope,-0.0872909764296566,-0.15655810446703,-0.00867198484515886,TRUE
+3-mod,EHR+CTPA,Cox-stack score,incident gain on incident gap,r,-0.870550986679538,-0.984272990554132,-0.0884862202044317,TRUE
+3-mod,ECG+CTPA,Cox-stack score,incident gain on incident gap,slope,-0.637648039364742,-1.04390929655103,-0.0659356025284446,TRUE
+3-mod,ECG+CTPA,Cox-stack score,incident gain on incident gap,r,-0.873069274455815,-0.98242998333642,-0.106050487631171,TRUE
+EHR+ECG,EHR+ECG,logistic stack per horizon (main),auc gain on AUROC gap,slope,-0.189787647281124,-0.252343373257841,-0.118079664325874,TRUE
+EHR+ECG,EHR+ECG,logistic stack per horizon (main),auc gain on AUROC gap,r,-0.997053162418738,-0.997923387139569,-0.890946258765184,TRUE
+3-mod,EHR+ECG,logistic stack per horizon (main),auc gain on AUROC gap,slope,-0.201470303573692,-0.273580151191167,-0.0866350580912325,TRUE
+3-mod,EHR+ECG,logistic stack per horizon (main),auc gain on AUROC gap,r,-0.984927517670768,-0.99413473555669,-0.641603815327363,TRUE
+3-mod,EHR+CTPA,logistic stack per horizon (main),auc gain on AUROC gap,slope,-0.18344990533935,-0.275522590123129,-0.0370385214940716,TRUE
+3-mod,EHR+CTPA,logistic stack per horizon (main),auc gain on AUROC gap,r,-0.934094209938217,-0.986329446462166,-0.242047103162393,TRUE
+3-mod,ECG+CTPA,logistic stack per horizon (main),auc gain on AUROC gap,slope,-0.988290602633536,-1.11561601679954,0.09938619319328,FALSE
+3-mod,ECG+CTPA,logistic stack per horizon (main),auc gain on AUROC gap,r,-0.726956901737344,-0.962547293034258,0.137207770691397,FALSE
+pooled,all pairs,logistic stack per horizon (main),auc gain on AUROC gap,slope,-0.292504399954997,-0.406892118490862,-0.120810008595469,TRUE
+pooled,all pairs,logistic stack per horizon (main),auc gain on AUROC gap,r,-0.85455409713282,-0.942347828260331,-0.555676402333128,TRUE
+EHR+ECG,EHR+ECG,logistic stack per horizon (main),ipa gain on AUROC gap,slope,0.00120374456205245,-0.200500841005625,0.281909638876206,FALSE
+EHR+ECG,EHR+ECG,logistic stack per horizon (main),ipa gain on AUROC gap,r,0.016671297445247,-0.945330503237205,0.833303819970815,FALSE
+3-mod,EHR+ECG,logistic stack per horizon (main),ipa gain on AUROC gap,slope,0.13866097491659,-0.381888497749491,0.333996269080704,FALSE
+3-mod,EHR+ECG,logistic stack per horizon (main),ipa gain on AUROC gap,r,0.729746235001961,-0.831968569343197,0.812247073147525,FALSE
+3-mod,EHR+CTPA,logistic stack per horizon (main),ipa gain on AUROC gap,slope,-0.165104162648428,-0.578828514591298,0.177799158008298,FALSE
+3-mod,EHR+CTPA,logistic stack per horizon (main),ipa gain on AUROC gap,r,-0.576123785059027,-0.947323221590331,0.444282754394992,FALSE
+3-mod,ECG+CTPA,logistic stack per horizon (main),ipa gain on AUROC gap,slope,0.0487502079357889,-1.09621831517323,0.480658201024142,FALSE
+3-mod,ECG+CTPA,logistic stack per horizon (main),ipa gain on AUROC gap,r,0.0382280573220155,-0.942314507871592,0.594568235951316,FALSE
+pooled,all pairs,logistic stack per horizon (main),ipa gain on AUROC gap,slope,-0.189969507704138,-0.353779124156513,-0.0949826654675462,TRUE
+pooled,all pairs,logistic stack per horizon (main),ipa gain on AUROC gap,r,-0.704719009065548,-0.864317209122713,-0.348628009581478,TRUE
+EHR+ECG,EHR+ECG,logistic stack per horizon (main),ll gain on AUROC gap,slope,-0.182585727403225,-0.296919479572291,-0.0164290826897571,TRUE
+EHR+ECG,EHR+ECG,logistic stack per horizon (main),ll gain on AUROC gap,r,-0.979196633400703,-0.99377865855395,-0.0935357871556287,TRUE
+3-mod,EHR+ECG,logistic stack per horizon (main),ll gain on AUROC gap,slope,-0.133461248768758,-0.33523082168232,-0.0242597083095385,TRUE
+3-mod,EHR+ECG,logistic stack per horizon (main),ll gain on AUROC gap,r,-0.898951163355054,-0.985298894280138,-0.12792662847666,TRUE
+3-mod,EHR+CTPA,logistic stack per horizon (main),ll gain on AUROC gap,slope,-0.288918864463108,-0.538402564524963,-0.0442457876713121,TRUE
+3-mod,EHR+CTPA,logistic stack per horizon (main),ll gain on AUROC gap,r,-0.903995839309519,-0.975260646407734,-0.161994588276695,TRUE
+3-mod,ECG+CTPA,logistic stack per horizon (main),ll gain on AUROC gap,slope,-0.199234516027336,-0.96590299548838,0.215908968784873,FALSE
+3-mod,ECG+CTPA,logistic stack per horizon (main),ll gain on AUROC gap,r,-0.430586690699323,-0.944543834980072,0.329719238350647,FALSE
+pooled,all pairs,logistic stack per horizon (main),ll gain on AUROC gap,slope,-0.307764988351468,-0.44060665143158,-0.211204587700104,TRUE
+pooled,all pairs,logistic stack per horizon (main),ll gain on AUROC gap,r,-0.936438265517226,-0.949134602335098,-0.741185271230615,TRUE
+EHR+ECG,EHR+ECG,logistic stack per horizon (main),nri gain on AUROC gap,slope,-1.45299066950201,-2.95892887993625,0.576149127959835,FALSE
+EHR+ECG,EHR+ECG,logistic stack per horizon (main),nri gain on AUROC gap,r,-0.860849838651572,-0.980539593447497,0.265102812380167,FALSE
+3-mod,EHR+ECG,logistic stack per horizon (main),nri gain on AUROC gap,slope,-0.119790368367929,-4.77888482338114,2.25397405420871,FALSE
+3-mod,EHR+ECG,logistic stack per horizon (main),nri gain on AUROC gap,r,-0.0725047733808718,-0.945131944038511,0.581469359563698,FALSE
+3-mod,EHR+CTPA,logistic stack per horizon (main),nri gain on AUROC gap,slope,-6.41726017280391,-9.2373789078982,0.176279387913954,FALSE
+3-mod,EHR+CTPA,logistic stack per horizon (main),nri gain on AUROC gap,r,-0.964288459165479,-0.9873004110754,0.0212232182460948,FALSE
+3-mod,ECG+CTPA,logistic stack per horizon (main),nri gain on AUROC gap,slope,0.491034583895689,-5.746282200807,3.0157239445639,FALSE
+3-mod,ECG+CTPA,logistic stack per horizon (main),nri gain on AUROC gap,r,0.093082307186305,-0.90314933385882,0.619593532011798,FALSE
+pooled,all pairs,logistic stack per horizon (main),nri gain on AUROC gap,slope,-2.17958416306851,-3.2944982123748,-1.4915807440097,TRUE
+pooled,all pairs,logistic stack per horizon (main),nri gain on AUROC gap,r,-0.812923625205648,-0.876216613378651,-0.59709100932507,TRUE
+EHR+ECG,EHR+ECG,logistic stack per horizon (main),theory gain on AUROC gap,slope,-0.103413365369897,-0.187277727744397,-0.042711626958367,TRUE
+EHR+ECG,EHR+ECG,logistic stack per horizon (main),theory gain on AUROC gap,r,-0.984777993581587,-0.991069472608237,-0.858945007422354,TRUE
+3-mod,EHR+ECG,logistic stack per horizon (main),theory gain on AUROC gap,slope,-0.0827736570296383,-0.20525277202946,-0.0326510224539226,TRUE
+3-mod,EHR+ECG,logistic stack per horizon (main),theory gain on AUROC gap,r,-0.962463863939109,-0.985924071486066,-0.61881205178066,TRUE
+3-mod,EHR+CTPA,logistic stack per horizon (main),theory gain on AUROC gap,slope,-0.130184104560422,-0.244163056558866,-0.0680830685402917,TRUE
+3-mod,EHR+CTPA,logistic stack per horizon (main),theory gain on AUROC gap,r,-0.951175090195312,-0.989252810834784,-0.588201712057312,TRUE
+3-mod,ECG+CTPA,logistic stack per horizon (main),theory gain on AUROC gap,slope,-0.378117149378773,-0.505692615358626,-0.243141617370528,TRUE
+3-mod,ECG+CTPA,logistic stack per horizon (main),theory gain on AUROC gap,r,-0.972219739044947,-0.995371891745092,-0.872253769300477,TRUE
+pooled,all pairs,logistic stack per horizon (main),theory gain on AUROC gap,slope,-0.295814298108867,-0.369477791315261,-0.180845034778015,TRUE
+pooled,all pairs,logistic stack per horizon (main),theory gain on AUROC gap,r,-0.918742847942633,-0.962152321911951,-0.847329797710667,TRUE
+pooled,all pairs,logistic stack per horizon (main),observed on theoretical AUROC gain,slope,0.978463057486585,0.528844851646837,1.25090981360831,TRUE
+pooled,all pairs,logistic stack per horizon (main),observed on theoretical AUROC gain,r,0.920400362558133,0.587738812582464,0.972838969287137,TRUE
+pooled,all pairs,logistic stack per horizon (main),observed on theoretical AUROC gain,ratio,1.16722649464504,0.791242832041392,1.40508384388614,TRUE
+EHR+ECG,EHR+ECG,single Cox stack (sensitivity),auc gain on AUROC gap,slope,-0.128504040692805,-0.170436465290014,-0.0942093530988478,TRUE
+EHR+ECG,EHR+ECG,single Cox stack (sensitivity),auc gain on AUROC gap,r,-0.991335859399181,-0.996761513314243,-0.920715179849457,TRUE
+3-mod,EHR+ECG,single Cox stack (sensitivity),auc gain on AUROC gap,slope,-0.128704793094372,-0.175704003649788,-0.0414182596532804,TRUE
+3-mod,EHR+ECG,single Cox stack (sensitivity),auc gain on AUROC gap,r,-0.976575610682053,-0.993606376783225,-0.443903081855025,TRUE
+3-mod,EHR+CTPA,single Cox stack (sensitivity),auc gain on AUROC gap,slope,-0.143908486540853,-0.214078122717927,-0.0183903405432436,TRUE
+3-mod,EHR+CTPA,single Cox stack (sensitivity),auc gain on AUROC gap,r,-0.919888818684454,-0.985978285750371,-0.150484182683903,TRUE
+3-mod,ECG+CTPA,single Cox stack (sensitivity),auc gain on AUROC gap,slope,-0.815570100352915,-1.10179938647781,0.124111398856548,FALSE
+3-mod,ECG+CTPA,single Cox stack (sensitivity),auc gain on AUROC gap,r,-0.596130029103922,-0.962975118960114,0.1951785248212,FALSE
+pooled,all pairs,single Cox stack (sensitivity),auc gain on AUROC gap,slope,-0.286265087417182,-0.401854846086958,-0.100928353238523,TRUE
+pooled,all pairs,single Cox stack (sensitivity),auc gain on AUROC gap,r,-0.838248452263833,-0.932788670112297,-0.504207549539348,TRUE
+EHR+ECG,EHR+ECG,single Cox stack (sensitivity),ipa gain on AUROC gap,slope,-0.0255282121099508,-0.146606500022992,0.128776395914738,FALSE
+EHR+ECG,EHR+ECG,single Cox stack (sensitivity),ipa gain on AUROC gap,r,-0.550662836867513,-0.957862569935383,0.751457157839979,FALSE
+3-mod,EHR+ECG,single Cox stack (sensitivity),ipa gain on AUROC gap,slope,0.0441975249624575,-0.190770040550422,0.149591596370544,FALSE
+3-mod,EHR+ECG,single Cox stack (sensitivity),ipa gain on AUROC gap,r,0.513155485259675,-0.885969283475734,0.747673158985681,FALSE
+3-mod,EHR+CTPA,single Cox stack (sensitivity),ipa gain on AUROC gap,slope,-0.0706758870544132,-0.348768003715659,0.155434846835583,FALSE
+3-mod,EHR+CTPA,single Cox stack (sensitivity),ipa gain on AUROC gap,r,-0.394104868225223,-0.913939070571084,0.526096185000507,FALSE
+3-mod,ECG+CTPA,single Cox stack (sensitivity),ipa gain on AUROC gap,slope,-0.153966649027081,-0.97553070455528,0.387446804697894,FALSE
+3-mod,ECG+CTPA,single Cox stack (sensitivity),ipa gain on AUROC gap,r,-0.131290627204951,-0.946073851184772,0.572750722272144,FALSE
+pooled,all pairs,single Cox stack (sensitivity),ipa gain on AUROC gap,slope,-0.199784256716473,-0.329408963173856,-0.111493382709357,TRUE
+pooled,all pairs,single Cox stack (sensitivity),ipa gain on AUROC gap,r,-0.787230666383308,-0.890805075559909,-0.516486959439585,TRUE
+EHR+ECG,EHR+ECG,single Cox stack (sensitivity),ll gain on AUROC gap,slope,-0.12868788726872,-0.196470534638886,-0.045495441291623,TRUE
+EHR+ECG,EHR+ECG,single Cox stack (sensitivity),ll gain on AUROC gap,r,-0.990911880316205,-0.99539115539119,-0.431391319313155,TRUE
+3-mod,EHR+ECG,single Cox stack (sensitivity),ll gain on AUROC gap,slope,-0.113871261283351,-0.201459093923405,-0.0532111475802873,TRUE
+3-mod,EHR+ECG,single Cox stack (sensitivity),ll gain on AUROC gap,r,-0.973286693647684,-0.993024385452032,-0.485589733195632,TRUE
+3-mod,EHR+CTPA,single Cox stack (sensitivity),ll gain on AUROC gap,slope,-0.196566659242898,-0.374264364131371,-0.0264754486842104,TRUE
+3-mod,EHR+CTPA,single Cox stack (sensitivity),ll gain on AUROC gap,r,-0.897107182273589,-0.97499011196772,-0.143804129634429,TRUE
+3-mod,ECG+CTPA,single Cox stack (sensitivity),ll gain on AUROC gap,slope,-0.0980526455662895,-0.78113461002149,0.166339315780665,FALSE
+3-mod,ECG+CTPA,single Cox stack (sensitivity),ll gain on AUROC gap,r,-0.363879810197043,-0.950854402868849,0.27367716744205,FALSE
+pooled,all pairs,single Cox stack (sensitivity),ll gain on AUROC gap,slope,-0.304514870572204,-0.412792684135066,-0.201515239828319,TRUE
+pooled,all pairs,single Cox stack (sensitivity),ll gain on AUROC gap,r,-0.936331999650358,-0.960547317018269,-0.738666710348664,TRUE
+EHR+ECG,EHR+ECG,single Cox stack (sensitivity),nri gain on AUROC gap,slope,-2.30215220123177,-3.68562752855053,-0.661391092121196,TRUE
+EHR+ECG,EHR+ECG,single Cox stack (sensitivity),nri gain on AUROC gap,r,-0.944069547768537,-0.990229595597649,-0.364451489870433,TRUE
+3-mod,EHR+ECG,single Cox stack (sensitivity),nri gain on AUROC gap,slope,-1.71158116337919,-5.17506888127848,0.809438386723084,FALSE
+3-mod,EHR+ECG,single Cox stack (sensitivity),nri gain on AUROC gap,r,-0.714688176570736,-0.977963046169845,0.26231743371539,FALSE
+3-mod,EHR+CTPA,single Cox stack (sensitivity),nri gain on AUROC gap,slope,-4.79013796202431,-7.25878731162743,-0.0721334993642688,TRUE
+3-mod,EHR+CTPA,single Cox stack (sensitivity),nri gain on AUROC gap,r,-0.901366088565636,-0.984753161621573,-0.0163643017972125,TRUE
+3-mod,ECG+CTPA,single Cox stack (sensitivity),nri gain on AUROC gap,slope,-1.07996124549083,-5.47730465713903,2.30980946665591,FALSE
+3-mod,ECG+CTPA,single Cox stack (sensitivity),nri gain on AUROC gap,r,-0.229369748073745,-0.936516559883275,0.572595145169959,FALSE
+pooled,all pairs,single Cox stack (sensitivity),nri gain on AUROC gap,slope,-2.76624346380761,-3.89085520631055,-1.90731664012993,TRUE
+pooled,all pairs,single Cox stack (sensitivity),nri gain on AUROC gap,r,-0.896222705224755,-0.938964755591775,-0.722255021240523,TRUE
+EHR+ECG,EHR+ECG,single Cox stack (sensitivity),theory gain on AUROC gap,slope,-0.102314570085785,-0.18499748059202,-0.0425111857664788,TRUE
+EHR+ECG,EHR+ECG,single Cox stack (sensitivity),theory gain on AUROC gap,r,-0.985224199117778,-0.991053565855423,-0.856608643342662,TRUE
+3-mod,EHR+ECG,single Cox stack (sensitivity),theory gain on AUROC gap,slope,-0.0757973039038051,-0.194337783899335,-0.030429328285191,TRUE
+3-mod,EHR+ECG,single Cox stack (sensitivity),theory gain on AUROC gap,r,-0.963116399391237,-0.986471404104307,-0.587116011628293,TRUE
+3-mod,EHR+CTPA,single Cox stack (sensitivity),theory gain on AUROC gap,slope,-0.130577603233922,-0.24294203779229,-0.0685181956574263,TRUE
+3-mod,EHR+CTPA,single Cox stack (sensitivity),theory gain on AUROC gap,r,-0.945398697940431,-0.989729122415576,-0.611039128343046,TRUE
+3-mod,ECG+CTPA,single Cox stack (sensitivity),theory gain on AUROC gap,slope,-0.362081455437145,-0.50283942761387,-0.239189856718446,TRUE
+3-mod,ECG+CTPA,single Cox stack (sensitivity),theory gain on AUROC gap,r,-0.970589902786508,-0.995435756646665,-0.868386484013668,TRUE
+pooled,all pairs,single Cox stack (sensitivity),theory gain on AUROC gap,slope,-0.2960564186612,-0.368963515901988,-0.180286810360719,TRUE
+pooled,all pairs,single Cox stack (sensitivity),theory gain on AUROC gap,r,-0.919936162682609,-0.962356751300785,-0.846466802263396,TRUE
+pooled,all pairs,single Cox stack (sensitivity),observed on theoretical AUROC gain,slope,0.981583336749257,0.472421203208804,1.2414974246873,TRUE
+pooled,all pairs,single Cox stack (sensitivity),observed on theoretical AUROC gain,r,0.925014077662768,0.554225970493739,0.975116070289287,TRUE
+pooled,all pairs,single Cox stack (sensitivity),observed on theoretical AUROC gain,ratio,1.10742004789856,0.740680858405344,1.35061891222412,TRUE

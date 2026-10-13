@@ -1,0 +1,4 @@
+item,value,status
+admissions with codes,100.0%,PASS
+codes per admission (median),13,INFO
+admissions coded in ICD-9 / ICD-10,1873 / 1036,INFO

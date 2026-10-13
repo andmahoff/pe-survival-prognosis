@@ -1,0 +1,23 @@
+item,value,status
+input files found,all,PASS
+Frame A's deaths and times to day 30 reproduced,397 vs 397 deaths,PASS
+deaths within 365 days of admission,971,INFO
+admissions with presentation vital signs (D17),73.6%,INFO
+index codes for acute right heart failure not counted (admissions),10,INFO
+admissions with earlier-admission codes,52.8%,INFO
+admissions with index-admission codes,100.0%,PASS
+"history categories kept (1%-99%, main history)",46,INFO
+EHR at presentation: features (main = strict columns),128 (same),PASS
+"cancer / heart failure / chronic lung disease, main vs strict",30.7% vs 18.9% / 19.6% vs 9.4% / 29.4% vs 15.8%,INFO
+scores computed (missing),0,PASS
+admission dates found,"SurvivalProject/data/inputs/index_admission_times.csv, 100.0% of admissions",PASS
+ECG records with a real acquisition time (stage 0r),100.0% of 5993 records,PASS
+ECG columns found in a per-ECG file (_worst duplicates left out),"169 of 169, 95 left out",PASS
+single-ECG admissions: per-ECG features reproduce ecg_opt,"1950 admissions, 0.00% of values differ",PASS
+admissions with an ECG within 24 h of admission (D18 by dates),96.6% (90.9%),INFO
+CTPA report hours measured from,ctpa_notes_index.csv's own admission times,INFO
+ctpa46 admissions with a report in the presentation window,100.0% (1636 of 1636),PASS
+presentation-CTPA admissions without a three-modality fold,0,PASS
+frame_P_outcomes.csv: rows match frame P,3501 of 3501,PASS
+frame_P_outcomes.csv: deaths and times unchanged,yes,PASS
+frame_P_outcomes.csv: presentation flags updated,"has_pres_ecg, has_pres_vitals, in_three_mod_p",PASS

@@ -1,0 +1,11 @@
+item,value,status
+index admissions with an approximate year,100.0% of 2909,PASS
+EHR+ECG: development / test patients (deaths by 365 days),1392 (278) / 1517 (342),PASS
+3-mod: development / test patients (deaths by 365 days),688 (143) / 717 (149),PASS
+level-1 tasks with a family that has no scores,0,PASS
+forest tuning candidates that failed (best remaining one used),0,PASS
+spline Cox fits: k = 5 / smaller basis / replaced by ridge-Cox,9 / 1 / 0,WARN
+EHR+ECG: missing level-1 scores,0,PASS
+EHR+ECG: development scores failing the per-fold rule (D2),0,PASS
+3-mod: missing level-1 scores,0,PASS
+3-mod: development scores failing the per-fold rule (D2),0,PASS

@@ -1,0 +1,27 @@
+item,value,status
+A EHR+ECG: stage 18b predictions found,arch_preds_blockstd_A_ehrecg.csv,PASS
+A 3-mod: stage 18b predictions found,arch_preds_blockstd_A_3mod.csv,PASS
+B EHR+ECG: stage 18b predictions found,arch_preds_blockstd_B_ehrecg.csv,PASS
+B 3-mod: stage 18b predictions found,arch_preds_blockstd_B_3mod.csv,PASS
+previous stage 18d prediction files (archive them to v1),0,PASS
+A EHR+ECG: penalty path identical to cv.glmnet's,100% of patient x set rows,PASS
+"A EHR+ECG: stage 18b Early PH reproduced (rows, max |diff|)","7002, 5.6e-16",PASS
+A EHR+ECG: missing predictions,0,PASS
+A EHR+ECG: risks of exactly 0 or 1 (range),0 (7.00e-04 to 1.000000),PASS
+A 3-mod: penalty path identical to cv.glmnet's,100% of patient x set rows,PASS
+"A 3-mod: stage 18b Early PH reproduced (rows, max |diff|)","9816, 5.6e-16",PASS
+A 3-mod: missing predictions,0,PASS
+A 3-mod: risks of exactly 0 or 1 (range),0 (9.25e-04 to 0.999904),PASS
+B EHR+ECG: penalty path identical to cv.glmnet's,100% of patient x set rows,PASS
+"B EHR+ECG: stage 18b Early PH reproduced (rows, max |diff|)","14545, 6.7e-16",PASS
+B EHR+ECG: missing predictions,0,PASS
+B EHR+ECG: risks of exactly 0 or 1 (range),0 (4.72e-04 to 0.995183),PASS
+B 3-mod: penalty path identical to cv.glmnet's,100% of patient x set rows,PASS
+"B 3-mod: stage 18b Early PH reproduced (rows, max |diff|)","21075, 6.7e-16",PASS
+B 3-mod: missing predictions,0,PASS
+B 3-mod: risks of exactly 0 or 1 (range),0 (3.43e-04 to 0.993373),PASS
+EHR alone PH horizon-tuned: choices at the least-penalised end,19.3%,PASS
+Early PH horizon-tuned: choices at the least-penalised end,0.0%,PASS
+Early PH block penalties horizon-tuned: choices at the least-penalised end,0.0%,PASS
+warnings from model fitting (see htune_warnings.csv),19,INFO
+glmnet tie-handling notices (harmless; Breslow ties throughout),13920,INFO

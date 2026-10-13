@@ -1,0 +1,5 @@
+"gate","item","r_value","py_value","status"
+"G3","binary AUROC death by 30.5 d",0.732236295411462,0.732236,"PASS"
+"G3","time-dependent AUC at 30.5 d (Score)",0.732236295411462,0.732236,"PASS"
+"G4","Harrell C (concordance, reverse)",0.722236575973044,0.722237,"PASS"
+"G5","Uno C (n/G2 weights, ymax 31)",0.722236575973044,0.722237,"PASS"

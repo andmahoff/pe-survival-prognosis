@@ -1,0 +1,79 @@
+frame,cohort,model,set,horizon,fits,median_path_length,share_least_penalised,share_most_penalised
+A,3-mod,EHR alone PH,EHR,,30,80,0,0
+A,3-mod,EHR alone TV,EHR,10,30,80,0,0
+A,3-mod,EHR alone TV,EHR,30,30,80,0,0
+A,3-mod,Early PH EHR unpenalised,EHR+ECG+CTPA,,30,80,0,0
+A,3-mod,Early PH block penalties,EHR+ECG+CTPA,,30,80,0.433333333333333,0
+A,3-mod,Early PH plain concatenation,EHR+CTPA,,30,80,0,0
+A,3-mod,Early PH plain concatenation,EHR+ECG,,30,80,0,0
+A,3-mod,Early PH plain concatenation,EHR+ECG+CTPA,,30,80,0.4,0
+A,3-mod,Early TV plain concatenation,EHR+CTPA,10,30,80,0,0
+A,3-mod,Early TV plain concatenation,EHR+CTPA,30,30,80,0,0
+A,3-mod,Early TV plain concatenation,EHR+ECG,10,30,80,0,0
+A,3-mod,Early TV plain concatenation,EHR+ECG,30,30,80,0,0
+A,3-mod,Early TV plain concatenation,EHR+ECG+CTPA,10,30,80,0,0
+A,3-mod,Early TV plain concatenation,EHR+ECG+CTPA,30,30,80,0,0
+A,3-mod,"Late, modality model",CTPA,,30,64,0,0
+A,3-mod,"Late, modality model",ECG,,30,80,0,0
+A,3-mod,"Late, modality model (inner)",CTPA,,90,67,0,0
+A,3-mod,"Late, modality model (inner)",ECG,,90,80,0,0
+A,3-mod,"Late, modality model (inner)",EHR,,90,80,0,0
+A,EHR+ECG,EHR alone PH,EHR,,30,63,0,0
+A,EHR+ECG,EHR alone TV,EHR,10,30,80,0,0
+A,EHR+ECG,EHR alone TV,EHR,30,30,80,0,0
+A,EHR+ECG,Early PH EHR unpenalised,EHR+ECG,,30,80,0,0
+A,EHR+ECG,Early PH block penalties,EHR+ECG,,30,80,0,0
+A,EHR+ECG,Early PH plain concatenation,EHR+ECG,,30,80,0,0
+A,EHR+ECG,Early TV plain concatenation,EHR+ECG,10,30,80,0,0
+A,EHR+ECG,Early TV plain concatenation,EHR+ECG,30,30,80,0,0
+A,EHR+ECG,"Late, modality model",ECG,,30,80,0,0
+A,EHR+ECG,"Late, modality model (inner)",ECG,,90,80,0,0
+A,EHR+ECG,"Late, modality model (inner)",EHR,,90,67,0,0
+B,3-mod,EHR alone PH,EHR,,30,80,0,0
+B,3-mod,EHR alone TV,EHR,10,30,80,0,0
+B,3-mod,EHR alone TV,EHR,30,30,80,0,0
+B,3-mod,EHR alone TV,EHR,90,30,80,0,0
+B,3-mod,EHR alone TV,EHR,180,30,80,0,0
+B,3-mod,EHR alone TV,EHR,365,30,80,0,0
+B,3-mod,Early PH EHR unpenalised,EHR+ECG+CTPA,,30,80,0,0.133333333333333
+B,3-mod,Early PH block penalties,EHR+ECG+CTPA,,30,80,0,0
+B,3-mod,Early PH plain concatenation,EHR+CTPA,,30,80,0,0
+B,3-mod,Early PH plain concatenation,EHR+ECG,,30,80,0,0
+B,3-mod,Early PH plain concatenation,EHR+ECG+CTPA,,30,80,0,0
+B,3-mod,Early TV plain concatenation,EHR+CTPA,10,30,80,0,0
+B,3-mod,Early TV plain concatenation,EHR+CTPA,30,30,80,0,0
+B,3-mod,Early TV plain concatenation,EHR+CTPA,90,30,80,0,0
+B,3-mod,Early TV plain concatenation,EHR+CTPA,180,30,80,0,0
+B,3-mod,Early TV plain concatenation,EHR+CTPA,365,30,80,0,0
+B,3-mod,Early TV plain concatenation,EHR+ECG,10,30,80,0,0
+B,3-mod,Early TV plain concatenation,EHR+ECG,30,30,80,0,0
+B,3-mod,Early TV plain concatenation,EHR+ECG,90,30,80,0,0
+B,3-mod,Early TV plain concatenation,EHR+ECG,180,30,80,0,0
+B,3-mod,Early TV plain concatenation,EHR+ECG,365,30,80,0,0
+B,3-mod,Early TV plain concatenation,EHR+ECG+CTPA,10,30,80,0,0
+B,3-mod,Early TV plain concatenation,EHR+ECG+CTPA,30,30,80,0,0
+B,3-mod,Early TV plain concatenation,EHR+ECG+CTPA,90,30,80,0,0
+B,3-mod,Early TV plain concatenation,EHR+ECG+CTPA,180,30,80,0,0
+B,3-mod,Early TV plain concatenation,EHR+ECG+CTPA,365,30,80,0,0
+B,3-mod,"Late, modality model",CTPA,,30,64,0,0
+B,3-mod,"Late, modality model",ECG,,30,80,0,0
+B,3-mod,"Late, modality model (inner)",CTPA,,90,66,0,0
+B,3-mod,"Late, modality model (inner)",ECG,,90,80,0,0
+B,3-mod,"Late, modality model (inner)",EHR,,90,80,0,0
+B,EHR+ECG,EHR alone PH,EHR,,30,80,0.1,0
+B,EHR+ECG,EHR alone TV,EHR,10,30,80,0,0
+B,EHR+ECG,EHR alone TV,EHR,30,30,80,0,0
+B,EHR+ECG,EHR alone TV,EHR,90,30,80,0.0666666666666667,0
+B,EHR+ECG,EHR alone TV,EHR,180,30,80,0,0
+B,EHR+ECG,EHR alone TV,EHR,365,30,80,0.0333333333333333,0
+B,EHR+ECG,Early PH EHR unpenalised,EHR+ECG,,30,80,0,0
+B,EHR+ECG,Early PH block penalties,EHR+ECG,,30,80,0,0
+B,EHR+ECG,Early PH plain concatenation,EHR+ECG,,30,80,0,0
+B,EHR+ECG,Early TV plain concatenation,EHR+ECG,10,30,80,0,0
+B,EHR+ECG,Early TV plain concatenation,EHR+ECG,30,30,80,0,0
+B,EHR+ECG,Early TV plain concatenation,EHR+ECG,90,30,80,0,0
+B,EHR+ECG,Early TV plain concatenation,EHR+ECG,180,30,80,0,0
+B,EHR+ECG,Early TV plain concatenation,EHR+ECG,365,30,80,0,0
+B,EHR+ECG,"Late, modality model",ECG,,30,80,0,0
+B,EHR+ECG,"Late, modality model (inner)",ECG,,90,80,0,0
+B,EHR+ECG,"Late, modality model (inner)",EHR,,90,80,0.0111111111111111,0

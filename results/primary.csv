@@ -1,0 +1,19 @@
+quantity,estimate,lo,hi,method,note
+patients,2909,,,count,""
+deaths days 0-30,177,,,count,""
+deaths days 31-365,443,,,count,""
+"HR per SD, EHR, days 0-30",2.3728675567303,2.08317394385426,2.702846998636,Wald (model-based),""
+"HR per SD, EHR, days 0-30",2.3728675567303,2.01264500510234,3.56833776825983,bootstrap percentile,""
+"HR per SD, EHR, days 31-365",2.50901427422197,2.31139255131607,2.7235324543489,Wald (model-based),""
+"HR per SD, EHR, days 31-365",2.50901427422197,2.23097159397987,3.35841502641818,bootstrap percentile,""
+"HR per SD, ECG, days 0-30",1.35813697277422,1.16911584466138,1.57771879086163,Wald (model-based),""
+"HR per SD, ECG, days 0-30",1.35813697277422,1.11861783938475,1.83224317241095,bootstrap percentile,""
+"HR per SD, ECG, days 31-365",1.07814230121232,0.979540790525852,1.18666913405351,Wald (model-based),""
+"HR per SD, ECG, days 31-365",1.07814230121232,0.937700924123574,1.37036447964917,bootstrap percentile,""
+"PRIMARY: ECG HR ratio, early / late",1.25970103505544,1.06129057055828,1.51050526876305,"bootstrap percentile, 2,000 refits",H1 SUPPORTED: ECG prognostic signal concentrated in days 0-30
+"ECG HR ratio, early / late",1.25970103505544,1.05437204419738,1.50501590634235,Wald (information only),""
+"EHR HR ratio, early / late (no decision rule)",0.94573696973729,0.832310867356682,1.12863521287068,"bootstrap percentile, 2,000 refits",""
+bootstrap refits that failed,0,,,count,""
+cox.zph ehr_z (unsplit model),3.96717272832298,,,chi-square,p = 0.0464
+cox.zph ecg_z (unsplit model),5.78635587022372,,,chi-square,p = 0.0162
+cox.zph GLOBAL (unsplit model),6.24352348417584,,,chi-square,p = 0.0441

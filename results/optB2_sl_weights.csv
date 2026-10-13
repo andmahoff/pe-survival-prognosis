@@ -1,0 +1,799 @@
+job,model,set,candidate,folds,mean_weight,share_nonzero
+B comp 3-mod,Super learner,EHR+CTPA,ridge-Cox retuned TV,30,0.576210226772509,1
+B comp 3-mod,Super learner,EHR+CTPA,"RSF, Brier-tuned TV",30,0.170296836017046,0.766666666666667
+B comp 3-mod,Super learner,EHR+CTPA,"oblique RSF, Brier-tuned TV",30,0.0907829875904964,0.6
+B comp 3-mod,Super learner,EHR+CTPA,spline Cox TV,30,0.0698636449219419,0.633333333333333
+B comp 3-mod,Super learner,EHR+CTPA,"EHR alone, RSF, Brier-tuned",30,0.0367683882119788,0.3
+B comp 3-mod,Super learner,EHR+CTPA,"EHR alone, spline Cox",30,0.01561637160885,0.1
+B comp 3-mod,Super learner,EHR+CTPA,"EHR alone, oblique RSF, Brier-tuned",30,0.0149854938372599,0.166666666666667
+B comp 3-mod,Super learner,EHR+CTPA,"EHR alone, ridge-Cox retuned",30,0.0147506658548586,0.133333333333333
+B comp 3-mod,Super learner,EHR+CTPA,spline Cox PH,30,0.0102406247987423,0.0333333333333333
+B comp 3-mod,Super learner,EHR+CTPA,"RSF, Brier-tuned PH",30,0.000484760386317348,0.0333333333333333
+B comp 3-mod,Super learner,EHR+CTPA,Kaplan-Meier,30,0,0
+B comp 3-mod,Super learner,EHR+CTPA,ridge-Cox retuned PH,30,0,0
+B comp 3-mod,Super learner,EHR+CTPA,ridge-Cox retuned TVC,30,0,0
+B comp 3-mod,Super learner,EHR+CTPA,spline Cox TVC,30,0,0
+B comp 3-mod,Super learner,EHR+CTPA,"RSF, Brier-tuned TVC",30,0,0
+B comp 3-mod,Super learner,EHR+CTPA,"oblique RSF, Brier-tuned PH",30,0,0
+B comp 3-mod,Super learner,EHR+CTPA,"oblique RSF, Brier-tuned TVC",30,0,0
+B comp 3-mod,Super learner,EHR+ECG,ridge-Cox retuned TV,30,0.574175357842088,1
+B comp 3-mod,Super learner,EHR+ECG,"RSF, Brier-tuned TV",30,0.232872783263735,0.966666666666667
+B comp 3-mod,Super learner,EHR+ECG,spline Cox TV,30,0.0870937279560536,0.733333333333333
+B comp 3-mod,Super learner,EHR+ECG,"oblique RSF, Brier-tuned TV",30,0.0446618166635712,0.366666666666667
+B comp 3-mod,Super learner,EHR+ECG,"EHR alone, RSF, Brier-tuned",30,0.0202732234813362,0.333333333333333
+B comp 3-mod,Super learner,EHR+ECG,"EHR alone, ridge-Cox retuned",30,0.0146410313985601,0.133333333333333
+B comp 3-mod,Super learner,EHR+ECG,"EHR alone, oblique RSF, Brier-tuned",30,0.00939512923800966,0.1
+B comp 3-mod,Super learner,EHR+ECG,"RSF, Brier-tuned PH",30,0.00929798006770067,0.0666666666666667
+B comp 3-mod,Super learner,EHR+ECG,"EHR alone, spline Cox",30,0.00758895008894507,0.2
+B comp 3-mod,Super learner,EHR+ECG,Kaplan-Meier,30,0,0
+B comp 3-mod,Super learner,EHR+ECG,ridge-Cox retuned PH,30,0,0
+B comp 3-mod,Super learner,EHR+ECG,ridge-Cox retuned TVC,30,0,0
+B comp 3-mod,Super learner,EHR+ECG,spline Cox PH,30,0,0
+B comp 3-mod,Super learner,EHR+ECG,spline Cox TVC,30,0,0
+B comp 3-mod,Super learner,EHR+ECG,"RSF, Brier-tuned TVC",30,0,0
+B comp 3-mod,Super learner,EHR+ECG,"oblique RSF, Brier-tuned PH",30,0,0
+B comp 3-mod,Super learner,EHR+ECG,"oblique RSF, Brier-tuned TVC",30,0,0
+B comp 3-mod,Super learner,EHR+ECG+CTPA,ridge-Cox retuned TV,30,0.543665935524808,1
+B comp 3-mod,Super learner,EHR+ECG+CTPA,"RSF, Brier-tuned TV",30,0.20885778370327,0.933333333333333
+B comp 3-mod,Super learner,EHR+ECG+CTPA,spline Cox TV,30,0.0695249730227177,0.7
+B comp 3-mod,Super learner,EHR+ECG+CTPA,"oblique RSF, Brier-tuned TV",30,0.0409196974820409,0.3
+B comp 3-mod,Super learner,EHR+ECG+CTPA,"EHR alone, RSF, Brier-tuned",30,0.0381936588972376,0.433333333333333
+B comp 3-mod,Super learner,EHR+ECG+CTPA,"EHR alone, ridge-Cox retuned",30,0.0330398174463431,0.3
+B comp 3-mod,Super learner,EHR+ECG+CTPA,"EHR alone, oblique RSF, Brier-tuned",30,0.0239515319512039,0.266666666666667
+B comp 3-mod,Super learner,EHR+ECG+CTPA,"EHR alone, spline Cox",30,0.0200853961051821,0.266666666666667
+B comp 3-mod,Super learner,EHR+ECG+CTPA,"RSF, Brier-tuned PH",30,0.0131453587169326,0.166666666666667
+B comp 3-mod,Super learner,EHR+ECG+CTPA,spline Cox PH,30,0.0073627545737411,0.0666666666666667
+B comp 3-mod,Super learner,EHR+ECG+CTPA,"oblique RSF, Brier-tuned TVC",30,0.00121586683929533,0.0333333333333333
+B comp 3-mod,Super learner,EHR+ECG+CTPA,"RSF, Brier-tuned TVC",30,3.72257372272442e-05,0.0333333333333333
+B comp 3-mod,Super learner,EHR+ECG+CTPA,Kaplan-Meier,30,0,0
+B comp 3-mod,Super learner,EHR+ECG+CTPA,ridge-Cox retuned PH,30,0,0
+B comp 3-mod,Super learner,EHR+ECG+CTPA,ridge-Cox retuned TVC,30,0,0
+B comp 3-mod,Super learner,EHR+ECG+CTPA,spline Cox TVC,30,0,0
+B comp 3-mod,Super learner,EHR+ECG+CTPA,"oblique RSF, Brier-tuned PH",30,0,0
+B comp 3-mod,Super learner+,EHR+CTPA,ridge-Cox retuned TV,30,0.490153879624173,1
+B comp 3-mod,Super learner+,EHR+CTPA,"RSF, Brier-tuned TV",30,0.153138794926379,0.766666666666667
+B comp 3-mod,Super learner+,EHR+CTPA,"oblique RSF, Brier-tuned TV",30,0.0750250984567887,0.566666666666667
+B comp 3-mod,Super learner+,EHR+CTPA,spline Cox TV,30,0.0576515450355942,0.6
+B comp 3-mod,Super learner+,EHR+CTPA,ridge-Cox retuned TV (components),30,0.0445890286288845,0.266666666666667
+B comp 3-mod,Super learner+,EHR+CTPA,"oblique RSF, Brier-tuned TV (components)",30,0.0245037319054104,0.2
+B comp 3-mod,Super learner+,EHR+CTPA,"EHR alone, RSF, Brier-tuned",30,0.0224332140075284,0.3
+B comp 3-mod,Super learner+,EHR+CTPA,"EHR alone, ridge-Cox retuned (components)",30,0.0199279332727328,0.166666666666667
+B comp 3-mod,Super learner+,EHR+CTPA,"RSF, Brier-tuned TV (components)",30,0.0180831069125258,0.233333333333333
+B comp 3-mod,Super learner+,EHR+CTPA,"EHR alone, spline Cox",30,0.0154417311932303,0.133333333333333
+B comp 3-mod,Super learner+,EHR+CTPA,spline Cox TV (components),30,0.0110509746314471,0.2
+B comp 3-mod,Super learner+,EHR+CTPA,"EHR alone, spline Cox (components)",30,0.0108019270254082,0.233333333333333
+B comp 3-mod,Super learner+,EHR+CTPA,"EHR alone, oblique RSF, Brier-tuned",30,0.0101532996952722,0.1
+B comp 3-mod,Super learner+,EHR+CTPA,"EHR alone, ridge-Cox retuned",30,0.0101378548074908,0.1
+B comp 3-mod,Super learner+,EHR+CTPA,"EHR alone, RSF, Brier-tuned (components)",30,0.00943223269004644,0.1
+B comp 3-mod,Super learner+,EHR+CTPA,spline Cox PH,30,0.00888354576625028,0.0333333333333333
+B comp 3-mod,Super learner+,EHR+CTPA,ridge-Cox retuned PH (components),30,0.00868199882054374,0.0666666666666667
+B comp 3-mod,Super learner+,EHR+CTPA,"EHR alone, oblique RSF, Brier-tuned (components)",30,0.00630052846498107,0.0666666666666667
+B comp 3-mod,Super learner+,EHR+CTPA,"oblique RSF, Brier-tuned PH (components)",30,0.00358273321143337,0.0333333333333333
+B comp 3-mod,Super learner+,EHR+CTPA,"RSF, Brier-tuned PH",30,2.68409238801493e-05,0.0333333333333333
+B comp 3-mod,Super learner+,EHR+CTPA,Kaplan-Meier,30,0,0
+B comp 3-mod,Super learner+,EHR+CTPA,ridge-Cox retuned PH,30,0,0
+B comp 3-mod,Super learner+,EHR+CTPA,ridge-Cox retuned TVC,30,0,0
+B comp 3-mod,Super learner+,EHR+CTPA,spline Cox TVC,30,0,0
+B comp 3-mod,Super learner+,EHR+CTPA,"RSF, Brier-tuned TVC",30,0,0
+B comp 3-mod,Super learner+,EHR+CTPA,"oblique RSF, Brier-tuned PH",30,0,0
+B comp 3-mod,Super learner+,EHR+CTPA,"oblique RSF, Brier-tuned TVC",30,0,0
+B comp 3-mod,Super learner+,EHR+CTPA,spline Cox PH (components),30,0,0
+B comp 3-mod,Super learner+,EHR+CTPA,"RSF, Brier-tuned PH (components)",30,0,0
+B comp 3-mod,Super learner+,EHR+ECG,ridge-Cox retuned TV,30,0.490250440361752,1
+B comp 3-mod,Super learner+,EHR+ECG,"RSF, Brier-tuned TV",30,0.192927795362236,0.866666666666667
+B comp 3-mod,Super learner+,EHR+ECG,spline Cox TV,30,0.0699750777129289,0.666666666666667
+B comp 3-mod,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned TV",30,0.0373921562218801,0.3
+B comp 3-mod,Super learner+,EHR+ECG,spline Cox TV (components),30,0.0343421783469395,0.433333333333333
+B comp 3-mod,Super learner+,EHR+ECG,ridge-Cox retuned TV (components),30,0.0283536538869614,0.2
+B comp 3-mod,Super learner+,EHR+ECG,"RSF, Brier-tuned TV (components)",30,0.0224356976258679,0.233333333333333
+B comp 3-mod,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned TV (components)",30,0.0185965268470117,0.2
+B comp 3-mod,Super learner+,EHR+ECG,"EHR alone, ridge-Cox retuned (components)",30,0.0182799248847492,0.166666666666667
+B comp 3-mod,Super learner+,EHR+ECG,"RSF, Brier-tuned PH (components)",30,0.018090265744948,0.166666666666667
+B comp 3-mod,Super learner+,EHR+ECG,"EHR alone, ridge-Cox retuned",30,0.0128845602299829,0.133333333333333
+B comp 3-mod,Super learner+,EHR+ECG,"EHR alone, RSF, Brier-tuned",30,0.00907417349346154,0.166666666666667
+B comp 3-mod,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned PH (components)",30,0.00817527701049046,0.1
+B comp 3-mod,Super learner+,EHR+ECG,"EHR alone, oblique RSF, Brier-tuned",30,0.00781091630325211,0.0666666666666667
+B comp 3-mod,Super learner+,EHR+ECG,"RSF, Brier-tuned PH",30,0.0076986614373898,0.0333333333333333
+B comp 3-mod,Super learner+,EHR+ECG,spline Cox PH (components),30,0.00661459568279254,0.133333333333333
+B comp 3-mod,Super learner+,EHR+ECG,"EHR alone, RSF, Brier-tuned (components)",30,0.00503031366679389,0.0666666666666667
+B comp 3-mod,Super learner+,EHR+ECG,"EHR alone, spline Cox",30,0.00448611053952162,0.1
+B comp 3-mod,Super learner+,EHR+ECG,"EHR alone, spline Cox (components)",30,0.0042215636476449,0.133333333333333
+B comp 3-mod,Super learner+,EHR+ECG,"EHR alone, oblique RSF, Brier-tuned (components)",30,0.0033601109933953,0.0333333333333333
+B comp 3-mod,Super learner+,EHR+ECG,Kaplan-Meier,30,0,0
+B comp 3-mod,Super learner+,EHR+ECG,ridge-Cox retuned PH,30,0,0
+B comp 3-mod,Super learner+,EHR+ECG,ridge-Cox retuned TVC,30,0,0
+B comp 3-mod,Super learner+,EHR+ECG,spline Cox PH,30,0,0
+B comp 3-mod,Super learner+,EHR+ECG,spline Cox TVC,30,0,0
+B comp 3-mod,Super learner+,EHR+ECG,"RSF, Brier-tuned TVC",30,0,0
+B comp 3-mod,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned PH",30,0,0
+B comp 3-mod,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned TVC",30,0,0
+B comp 3-mod,Super learner+,EHR+ECG,ridge-Cox retuned PH (components),30,0,0
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,ridge-Cox retuned TV,30,0.439376423460855,1
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,"RSF, Brier-tuned TV",30,0.171073663528997,0.8
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,spline Cox TV,30,0.0634093517820033,0.666666666666667
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,"oblique RSF, Brier-tuned TV (components)",30,0.0427596733171373,0.333333333333333
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,"EHR alone, ridge-Cox retuned (components)",30,0.0409092137944702,0.4
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,"oblique RSF, Brier-tuned TV",30,0.0374080389243621,0.233333333333333
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,"RSF, Brier-tuned TV (components)",30,0.0263285811075749,0.3
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,"EHR alone, RSF, Brier-tuned",30,0.0239947669604543,0.3
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,"EHR alone, ridge-Cox retuned",30,0.0228941864494196,0.2
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,spline Cox TV (components),30,0.022426085553953,0.3
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,"EHR alone, oblique RSF, Brier-tuned",30,0.017093569244211,0.2
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,ridge-Cox retuned TV (components),30,0.0150101064069208,0.166666666666667
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,ridge-Cox retuned PH (components),30,0.011380548046988,0.0333333333333333
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,"RSF, Brier-tuned PH (components)",30,0.0111483499606188,0.133333333333333
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,"EHR alone, spline Cox (components)",30,0.00997478328807041,0.266666666666667
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,"oblique RSF, Brier-tuned PH (components)",30,0.00990050456521826,0.0666666666666667
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,spline Cox PH,30,0.00863889386819992,0.0666666666666667
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,"EHR alone, spline Cox",30,0.00748450857148088,0.0666666666666667
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,"RSF, Brier-tuned PH",30,0.00680021145297299,0.133333333333333
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,spline Cox PH (components),30,0.00569527600979775,0.133333333333333
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,"EHR alone, RSF, Brier-tuned (components)",30,0.00566249792509926,0.0666666666666667
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,"EHR alone, oblique RSF, Brier-tuned (components)",30,0.000630765781195361,0.0333333333333333
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,Kaplan-Meier,30,0,0
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,ridge-Cox retuned PH,30,0,0
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,ridge-Cox retuned TVC,30,0,0
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,spline Cox TVC,30,0,0
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,"RSF, Brier-tuned TVC",30,0,0
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,"oblique RSF, Brier-tuned PH",30,0,0
+B comp 3-mod,Super learner+,EHR+ECG+CTPA,"oblique RSF, Brier-tuned TVC",30,0,0
+B comp 3-mod,Super learner-EHR,EHR,"EHR alone, ridge-Cox retuned",30,0.587359481955963,1
+B comp 3-mod,Super learner-EHR,EHR,"EHR alone, RSF, Brier-tuned",30,0.211927888880612,0.966666666666667
+B comp 3-mod,Super learner-EHR,EHR,"EHR alone, oblique RSF, Brier-tuned",30,0.129458058748778,0.6
+B comp 3-mod,Super learner-EHR,EHR,"EHR alone, spline Cox",30,0.0712545704146471,0.666666666666667
+B comp 3-mod,Super learner-EHR,EHR,Kaplan-Meier,30,0,0
+B comp EHR+ECG,Super learner,EHR+ECG,"RSF, Brier-tuned TV",30,0.389936960614442,1
+B comp EHR+ECG,Super learner,EHR+ECG,ridge-Cox retuned TV,30,0.271524934114102,0.966666666666667
+B comp EHR+ECG,Super learner,EHR+ECG,spline Cox TV,30,0.234265993294686,1
+B comp EHR+ECG,Super learner,EHR+ECG,"oblique RSF, Brier-tuned TV",30,0.0376771885690817,0.433333333333333
+B comp EHR+ECG,Super learner,EHR+ECG,"EHR alone, oblique RSF, Brier-tuned",30,0.0260769325842444,0.4
+B comp EHR+ECG,Super learner,EHR+ECG,"EHR alone, spline Cox",30,0.0183216725571322,0.3
+B comp EHR+ECG,Super learner,EHR+ECG,"EHR alone, ridge-Cox retuned",30,0.0113566567991731,0.233333333333333
+B comp EHR+ECG,Super learner,EHR+ECG,"EHR alone, RSF, Brier-tuned",30,0.0108396614671387,0.233333333333333
+B comp EHR+ECG,Super learner,EHR+ECG,Kaplan-Meier,30,0,0
+B comp EHR+ECG,Super learner,EHR+ECG,ridge-Cox retuned PH,30,0,0
+B comp EHR+ECG,Super learner,EHR+ECG,ridge-Cox retuned TVC,30,0,0
+B comp EHR+ECG,Super learner,EHR+ECG,spline Cox PH,30,0,0
+B comp EHR+ECG,Super learner,EHR+ECG,spline Cox TVC,30,0,0
+B comp EHR+ECG,Super learner,EHR+ECG,"RSF, Brier-tuned PH",30,0,0
+B comp EHR+ECG,Super learner,EHR+ECG,"RSF, Brier-tuned TVC",30,0,0
+B comp EHR+ECG,Super learner,EHR+ECG,"oblique RSF, Brier-tuned PH",30,0,0
+B comp EHR+ECG,Super learner,EHR+ECG,"oblique RSF, Brier-tuned TVC",30,0,0
+B comp EHR+ECG,Super learner+,EHR+ECG,"RSF, Brier-tuned TV",30,0.343821276491474,1
+B comp EHR+ECG,Super learner+,EHR+ECG,spline Cox TV,30,0.225389148636619,1
+B comp EHR+ECG,Super learner+,EHR+ECG,ridge-Cox retuned TV,30,0.221437317197478,0.966666666666667
+B comp EHR+ECG,Super learner+,EHR+ECG,"RSF, Brier-tuned TV (components)",30,0.0336896146540018,0.5
+B comp EHR+ECG,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned TV (components)",30,0.0324019060583957,0.433333333333333
+B comp EHR+ECG,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned TV",30,0.0320203009643356,0.4
+B comp EHR+ECG,Super learner+,EHR+ECG,"EHR alone, oblique RSF, Brier-tuned",30,0.0212715730688909,0.366666666666667
+B comp EHR+ECG,Super learner+,EHR+ECG,"EHR alone, spline Cox",30,0.0194125493475672,0.266666666666667
+B comp EHR+ECG,Super learner+,EHR+ECG,ridge-Cox retuned TV (components),30,0.015254980000148,0.1
+B comp EHR+ECG,Super learner+,EHR+ECG,"EHR alone, oblique RSF, Brier-tuned (components)",30,0.00934478247566785,0.2
+B comp EHR+ECG,Super learner+,EHR+ECG,"EHR alone, RSF, Brier-tuned (components)",30,0.0089158822332183,0.166666666666667
+B comp EHR+ECG,Super learner+,EHR+ECG,"EHR alone, ridge-Cox retuned",30,0.00886195984409868,0.166666666666667
+B comp EHR+ECG,Super learner+,EHR+ECG,"EHR alone, spline Cox (components)",30,0.00592908998048454,0.2
+B comp EHR+ECG,Super learner+,EHR+ECG,"EHR alone, RSF, Brier-tuned",30,0.00555363830441374,0.133333333333333
+B comp EHR+ECG,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned PH (components)",30,0.00535715834162375,0.133333333333333
+B comp EHR+ECG,Super learner+,EHR+ECG,spline Cox PH (components),30,0.00358103084779065,0.0666666666666667
+B comp EHR+ECG,Super learner+,EHR+ECG,ridge-Cox retuned PH (components),30,0.003115526545985,0.0333333333333333
+B comp EHR+ECG,Super learner+,EHR+ECG,spline Cox TV (components),30,0.00260997879659986,0.1
+B comp EHR+ECG,Super learner+,EHR+ECG,"RSF, Brier-tuned PH (components)",30,0.00203228621120749,0.0666666666666667
+B comp EHR+ECG,Super learner+,EHR+ECG,Kaplan-Meier,30,0,0
+B comp EHR+ECG,Super learner+,EHR+ECG,ridge-Cox retuned PH,30,0,0
+B comp EHR+ECG,Super learner+,EHR+ECG,ridge-Cox retuned TVC,30,0,0
+B comp EHR+ECG,Super learner+,EHR+ECG,spline Cox PH,30,0,0
+B comp EHR+ECG,Super learner+,EHR+ECG,spline Cox TVC,30,0,0
+B comp EHR+ECG,Super learner+,EHR+ECG,"RSF, Brier-tuned PH",30,0,0
+B comp EHR+ECG,Super learner+,EHR+ECG,"RSF, Brier-tuned TVC",30,0,0
+B comp EHR+ECG,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned PH",30,0,0
+B comp EHR+ECG,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned TVC",30,0,0
+B comp EHR+ECG,Super learner+,EHR+ECG,"EHR alone, ridge-Cox retuned (components)",30,0,0
+B comp EHR+ECG,Super learner-EHR,EHR,"EHR alone, ridge-Cox retuned",30,0.317628102511337,0.966666666666667
+B comp EHR+ECG,Super learner-EHR,EHR,"EHR alone, RSF, Brier-tuned",30,0.293321815707876,1
+B comp EHR+ECG,Super learner-EHR,EHR,"EHR alone, spline Cox",30,0.247799657015902,1
+B comp EHR+ECG,Super learner-EHR,EHR,"EHR alone, oblique RSF, Brier-tuned",30,0.141250424764885,0.833333333333333
+B comp EHR+ECG,Super learner-EHR,EHR,Kaplan-Meier,30,0,0
+B comp_nh 3-mod,Super learner,EHR+CTPA,ridge-Cox retuned TV,30,0.689896159284782,1
+B comp_nh 3-mod,Super learner,EHR+CTPA,"RSF, Brier-tuned TV",30,0.157545411947373,0.9
+B comp_nh 3-mod,Super learner,EHR+CTPA,spline Cox TV,30,0.0905321414962662,0.8
+B comp_nh 3-mod,Super learner,EHR+CTPA,"oblique RSF, Brier-tuned TV",30,0.0436164404023128,0.333333333333333
+B comp_nh 3-mod,Super learner,EHR+CTPA,"EHR alone, spline Cox",30,0.014336274085503,0.133333333333333
+B comp_nh 3-mod,Super learner,EHR+CTPA,"EHR alone, ridge-Cox retuned",30,0.00330922208795751,0.0333333333333333
+B comp_nh 3-mod,Super learner,EHR+CTPA,Kaplan-Meier,30,0.00076435069580576,0.233333333333333
+B comp_nh 3-mod,Super learner,EHR+CTPA,"EHR alone, RSF, Brier-tuned",30,0,0
+B comp_nh 3-mod,Super learner,EHR+CTPA,"EHR alone, oblique RSF, Brier-tuned",30,0,0
+B comp_nh 3-mod,Super learner,EHR+CTPA,ridge-Cox retuned PH,30,0,0
+B comp_nh 3-mod,Super learner,EHR+CTPA,ridge-Cox retuned TVC,30,0,0
+B comp_nh 3-mod,Super learner,EHR+CTPA,spline Cox PH,30,0,0
+B comp_nh 3-mod,Super learner,EHR+CTPA,spline Cox TVC,30,0,0
+B comp_nh 3-mod,Super learner,EHR+CTPA,"RSF, Brier-tuned PH",30,0,0
+B comp_nh 3-mod,Super learner,EHR+CTPA,"RSF, Brier-tuned TVC",30,0,0
+B comp_nh 3-mod,Super learner,EHR+CTPA,"oblique RSF, Brier-tuned PH",30,0,0
+B comp_nh 3-mod,Super learner,EHR+CTPA,"oblique RSF, Brier-tuned TVC",30,0,0
+B comp_nh 3-mod,Super learner,EHR+ECG,ridge-Cox retuned TV,30,0.662327317023049,1
+B comp_nh 3-mod,Super learner,EHR+ECG,"RSF, Brier-tuned TV",30,0.22030392959048,1
+B comp_nh 3-mod,Super learner,EHR+ECG,spline Cox TV,30,0.0959459106825977,0.9
+B comp_nh 3-mod,Super learner,EHR+ECG,"oblique RSF, Brier-tuned TV",30,0.0111664074522596,0.133333333333333
+B comp_nh 3-mod,Super learner,EHR+ECG,"EHR alone, ridge-Cox retuned",30,0.00657991916476668,0.0666666666666667
+B comp_nh 3-mod,Super learner,EHR+ECG,"EHR alone, spline Cox",30,0.00249387750361881,0.133333333333333
+B comp_nh 3-mod,Super learner,EHR+ECG,Kaplan-Meier,30,0.00118263858322842,0.133333333333333
+B comp_nh 3-mod,Super learner,EHR+ECG,"EHR alone, RSF, Brier-tuned",30,0,0
+B comp_nh 3-mod,Super learner,EHR+ECG,"EHR alone, oblique RSF, Brier-tuned",30,0,0
+B comp_nh 3-mod,Super learner,EHR+ECG,ridge-Cox retuned PH,30,0,0
+B comp_nh 3-mod,Super learner,EHR+ECG,ridge-Cox retuned TVC,30,0,0
+B comp_nh 3-mod,Super learner,EHR+ECG,spline Cox PH,30,0,0
+B comp_nh 3-mod,Super learner,EHR+ECG,spline Cox TVC,30,0,0
+B comp_nh 3-mod,Super learner,EHR+ECG,"RSF, Brier-tuned PH",30,0,0
+B comp_nh 3-mod,Super learner,EHR+ECG,"RSF, Brier-tuned TVC",30,0,0
+B comp_nh 3-mod,Super learner,EHR+ECG,"oblique RSF, Brier-tuned PH",30,0,0
+B comp_nh 3-mod,Super learner,EHR+ECG,"oblique RSF, Brier-tuned TVC",30,0,0
+B comp_nh 3-mod,Super learner,EHR+ECG+CTPA,ridge-Cox retuned TV,30,0.639826029135492,1
+B comp_nh 3-mod,Super learner,EHR+ECG+CTPA,"RSF, Brier-tuned TV",30,0.223628962868513,1
+B comp_nh 3-mod,Super learner,EHR+ECG+CTPA,spline Cox TV,30,0.0819639970634501,0.733333333333333
+B comp_nh 3-mod,Super learner,EHR+ECG+CTPA,"EHR alone, spline Cox",30,0.0191249027341244,0.4
+B comp_nh 3-mod,Super learner,EHR+ECG+CTPA,"oblique RSF, Brier-tuned TV",30,0.0150500874427765,0.2
+B comp_nh 3-mod,Super learner,EHR+ECG+CTPA,"EHR alone, ridge-Cox retuned",30,0.0131313222818677,0.233333333333333
+B comp_nh 3-mod,Super learner,EHR+ECG+CTPA,"EHR alone, RSF, Brier-tuned",30,0.00505344254685889,0.1
+B comp_nh 3-mod,Super learner,EHR+ECG+CTPA,Kaplan-Meier,30,0.00147043789828624,0.233333333333333
+B comp_nh 3-mod,Super learner,EHR+ECG+CTPA,"EHR alone, oblique RSF, Brier-tuned",30,0.000750818028631446,0.0333333333333333
+B comp_nh 3-mod,Super learner,EHR+ECG+CTPA,ridge-Cox retuned PH,30,0,0
+B comp_nh 3-mod,Super learner,EHR+ECG+CTPA,ridge-Cox retuned TVC,30,0,0
+B comp_nh 3-mod,Super learner,EHR+ECG+CTPA,spline Cox PH,30,0,0
+B comp_nh 3-mod,Super learner,EHR+ECG+CTPA,spline Cox TVC,30,0,0
+B comp_nh 3-mod,Super learner,EHR+ECG+CTPA,"RSF, Brier-tuned PH",30,0,0
+B comp_nh 3-mod,Super learner,EHR+ECG+CTPA,"RSF, Brier-tuned TVC",30,0,0
+B comp_nh 3-mod,Super learner,EHR+ECG+CTPA,"oblique RSF, Brier-tuned PH",30,0,0
+B comp_nh 3-mod,Super learner,EHR+ECG+CTPA,"oblique RSF, Brier-tuned TVC",30,0,0
+B comp_nh 3-mod,Super learner+,EHR+CTPA,ridge-Cox retuned TV,30,0.449646661009271,0.966666666666667
+B comp_nh 3-mod,Super learner+,EHR+CTPA,ridge-Cox retuned TV (components),30,0.152099508001767,0.666666666666667
+B comp_nh 3-mod,Super learner+,EHR+CTPA,"oblique RSF, Brier-tuned TV (components)",30,0.113105978249965,0.6
+B comp_nh 3-mod,Super learner+,EHR+CTPA,spline Cox TV,30,0.083335343497274,0.733333333333333
+B comp_nh 3-mod,Super learner+,EHR+CTPA,"RSF, Brier-tuned TV (components)",30,0.066732311062717,0.6
+B comp_nh 3-mod,Super learner+,EHR+CTPA,"RSF, Brier-tuned TV",30,0.0536318106151833,0.566666666666667
+B comp_nh 3-mod,Super learner+,EHR+CTPA,"EHR alone, ridge-Cox retuned (components)",30,0.0243913154735888,0.2
+B comp_nh 3-mod,Super learner+,EHR+CTPA,"oblique RSF, Brier-tuned TV",30,0.0194175604358329,0.2
+B comp_nh 3-mod,Super learner+,EHR+CTPA,"EHR alone, oblique RSF, Brier-tuned (components)",30,0.0147417175740081,0.1
+B comp_nh 3-mod,Super learner+,EHR+CTPA,ridge-Cox retuned PH (components),30,0.0114808693535086,0.0666666666666667
+B comp_nh 3-mod,Super learner+,EHR+CTPA,"EHR alone, spline Cox",30,0.00742523220923844,0.0666666666666667
+B comp_nh 3-mod,Super learner+,EHR+CTPA,spline Cox TV (components),30,0.00252083230120762,0.1
+B comp_nh 3-mod,Super learner+,EHR+CTPA,"EHR alone, spline Cox (components)",30,0.000945715642525175,0.0666666666666667
+B comp_nh 3-mod,Super learner+,EHR+CTPA,"EHR alone, RSF, Brier-tuned (components)",30,0.000444488465018437,0.0333333333333333
+B comp_nh 3-mod,Super learner+,EHR+CTPA,Kaplan-Meier,30,8.06561088948207e-05,0.0333333333333333
+B comp_nh 3-mod,Super learner+,EHR+CTPA,"EHR alone, ridge-Cox retuned",30,0,0
+B comp_nh 3-mod,Super learner+,EHR+CTPA,"EHR alone, RSF, Brier-tuned",30,0,0
+B comp_nh 3-mod,Super learner+,EHR+CTPA,"EHR alone, oblique RSF, Brier-tuned",30,0,0
+B comp_nh 3-mod,Super learner+,EHR+CTPA,ridge-Cox retuned PH,30,0,0
+B comp_nh 3-mod,Super learner+,EHR+CTPA,ridge-Cox retuned TVC,30,0,0
+B comp_nh 3-mod,Super learner+,EHR+CTPA,spline Cox PH,30,0,0
+B comp_nh 3-mod,Super learner+,EHR+CTPA,spline Cox TVC,30,0,0
+B comp_nh 3-mod,Super learner+,EHR+CTPA,"RSF, Brier-tuned PH",30,0,0
+B comp_nh 3-mod,Super learner+,EHR+CTPA,"RSF, Brier-tuned TVC",30,0,0
+B comp_nh 3-mod,Super learner+,EHR+CTPA,"oblique RSF, Brier-tuned PH",30,0,0
+B comp_nh 3-mod,Super learner+,EHR+CTPA,"oblique RSF, Brier-tuned TVC",30,0,0
+B comp_nh 3-mod,Super learner+,EHR+CTPA,spline Cox PH (components),30,0,0
+B comp_nh 3-mod,Super learner+,EHR+CTPA,"RSF, Brier-tuned PH (components)",30,0,0
+B comp_nh 3-mod,Super learner+,EHR+CTPA,"oblique RSF, Brier-tuned PH (components)",30,0,0
+B comp_nh 3-mod,Super learner+,EHR+ECG,ridge-Cox retuned TV,30,0.47496749107023,1
+B comp_nh 3-mod,Super learner+,EHR+ECG,"RSF, Brier-tuned TV",30,0.143309480441871,0.9
+B comp_nh 3-mod,Super learner+,EHR+ECG,ridge-Cox retuned TV (components),30,0.111679917934178,0.4
+B comp_nh 3-mod,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned TV (components)",30,0.0945401814358681,0.6
+B comp_nh 3-mod,Super learner+,EHR+ECG,spline Cox TV,30,0.08213940748632,0.733333333333333
+B comp_nh 3-mod,Super learner+,EHR+ECG,"RSF, Brier-tuned TV (components)",30,0.0269936131621109,0.3
+B comp_nh 3-mod,Super learner+,EHR+ECG,"EHR alone, ridge-Cox retuned (components)",30,0.0269005808612504,0.266666666666667
+B comp_nh 3-mod,Super learner+,EHR+ECG,spline Cox TV (components),30,0.0174188112562552,0.266666666666667
+B comp_nh 3-mod,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned PH (components)",30,0.00835110846341496,0.1
+B comp_nh 3-mod,Super learner+,EHR+ECG,"EHR alone, oblique RSF, Brier-tuned (components)",30,0.00500222389002022,0.0666666666666667
+B comp_nh 3-mod,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned TV",30,0.00379717511766742,0.0666666666666667
+B comp_nh 3-mod,Super learner+,EHR+ECG,"EHR alone, spline Cox (components)",30,0.00276997370923852,0.133333333333333
+B comp_nh 3-mod,Super learner+,EHR+ECG,"EHR alone, ridge-Cox retuned",30,0.000974560878150932,0.0333333333333333
+B comp_nh 3-mod,Super learner+,EHR+ECG,"EHR alone, spline Cox",30,0.00092565956348723,0.0333333333333333
+B comp_nh 3-mod,Super learner+,EHR+ECG,Kaplan-Meier,30,0.000229814729936302,0.0333333333333333
+B comp_nh 3-mod,Super learner+,EHR+ECG,"EHR alone, RSF, Brier-tuned",30,0,0
+B comp_nh 3-mod,Super learner+,EHR+ECG,"EHR alone, oblique RSF, Brier-tuned",30,0,0
+B comp_nh 3-mod,Super learner+,EHR+ECG,ridge-Cox retuned PH,30,0,0
+B comp_nh 3-mod,Super learner+,EHR+ECG,ridge-Cox retuned TVC,30,0,0
+B comp_nh 3-mod,Super learner+,EHR+ECG,spline Cox PH,30,0,0
+B comp_nh 3-mod,Super learner+,EHR+ECG,spline Cox TVC,30,0,0
+B comp_nh 3-mod,Super learner+,EHR+ECG,"RSF, Brier-tuned PH",30,0,0
+B comp_nh 3-mod,Super learner+,EHR+ECG,"RSF, Brier-tuned TVC",30,0,0
+B comp_nh 3-mod,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned PH",30,0,0
+B comp_nh 3-mod,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned TVC",30,0,0
+B comp_nh 3-mod,Super learner+,EHR+ECG,"EHR alone, RSF, Brier-tuned (components)",30,0,0
+B comp_nh 3-mod,Super learner+,EHR+ECG,ridge-Cox retuned PH (components),30,0,0
+B comp_nh 3-mod,Super learner+,EHR+ECG,spline Cox PH (components),30,0,0
+B comp_nh 3-mod,Super learner+,EHR+ECG,"RSF, Brier-tuned PH (components)",30,0,0
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,ridge-Cox retuned TV,30,0.427563700078542,1
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,"oblique RSF, Brier-tuned TV (components)",30,0.13179716176974,0.633333333333333
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,"RSF, Brier-tuned TV",30,0.123423615596908,0.766666666666667
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,spline Cox TV,30,0.0837730265138057,0.7
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,ridge-Cox retuned TV (components),30,0.0831840441843505,0.433333333333333
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,"EHR alone, ridge-Cox retuned (components)",30,0.0535615899167622,0.533333333333333
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,"RSF, Brier-tuned TV (components)",30,0.0410102846323293,0.5
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,ridge-Cox retuned PH (components),30,0.0116642409032709,0.0333333333333333
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,"oblique RSF, Brier-tuned PH (components)",30,0.00913785856863545,0.1
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,"EHR alone, spline Cox (components)",30,0.00763052706148154,0.266666666666667
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,"oblique RSF, Brier-tuned TV",30,0.00667144302964071,0.1
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,"EHR alone, spline Cox",30,0.00598628140808412,0.133333333333333
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,"EHR alone, oblique RSF, Brier-tuned (components)",30,0.00592748691773601,0.133333333333333
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,spline Cox TV (components),30,0.0043323346221307,0.1
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,"EHR alone, ridge-Cox retuned",30,0.00199165656162202,0.0666666666666667
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,spline Cox PH (components),30,0.00165034423206302,0.0333333333333333
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,Kaplan-Meier,30,0.000483038880069981,0.133333333333333
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,"EHR alone, RSF, Brier-tuned",30,0.000211365122827027,0.0333333333333333
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,"EHR alone, oblique RSF, Brier-tuned",30,0,0
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,ridge-Cox retuned PH,30,0,0
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,ridge-Cox retuned TVC,30,0,0
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,spline Cox PH,30,0,0
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,spline Cox TVC,30,0,0
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,"RSF, Brier-tuned PH",30,0,0
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,"RSF, Brier-tuned TVC",30,0,0
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,"oblique RSF, Brier-tuned PH",30,0,0
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,"oblique RSF, Brier-tuned TVC",30,0,0
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,"EHR alone, RSF, Brier-tuned (components)",30,0,0
+B comp_nh 3-mod,Super learner+,EHR+ECG+CTPA,"RSF, Brier-tuned PH (components)",30,0,0
+B comp_nh 3-mod,Super learner-EHR,EHR,"EHR alone, ridge-Cox retuned",30,0.75532233803911,1
+B comp_nh 3-mod,Super learner-EHR,EHR,"EHR alone, RSF, Brier-tuned",30,0.112159629921093,0.9
+B comp_nh 3-mod,Super learner-EHR,EHR,"EHR alone, spline Cox",30,0.0839142916943003,0.733333333333333
+B comp_nh 3-mod,Super learner-EHR,EHR,"EHR alone, oblique RSF, Brier-tuned",30,0.0486037403454974,0.366666666666667
+B comp_nh 3-mod,Super learner-EHR,EHR,Kaplan-Meier,30,0,0
+B comp_nh EHR+ECG,Super learner,EHR+ECG,"RSF, Brier-tuned TV",30,0.397518995080429,1
+B comp_nh EHR+ECG,Super learner,EHR+ECG,spline Cox TV,30,0.272653627491723,1
+B comp_nh EHR+ECG,Super learner,EHR+ECG,ridge-Cox retuned TV,30,0.227624625857523,1
+B comp_nh EHR+ECG,Super learner,EHR+ECG,"oblique RSF, Brier-tuned TV",30,0.084480359409819,0.6
+B comp_nh EHR+ECG,Super learner,EHR+ECG,"EHR alone, oblique RSF, Brier-tuned",30,0.0147621563192739,0.266666666666667
+B comp_nh EHR+ECG,Super learner,EHR+ECG,"EHR alone, spline Cox",30,0.00251495204035368,0.0666666666666667
+B comp_nh EHR+ECG,Super learner,EHR+ECG,"EHR alone, RSF, Brier-tuned",30,0.000445283800879363,0.0333333333333333
+B comp_nh EHR+ECG,Super learner,EHR+ECG,Kaplan-Meier,30,0,0
+B comp_nh EHR+ECG,Super learner,EHR+ECG,"EHR alone, ridge-Cox retuned",30,0,0
+B comp_nh EHR+ECG,Super learner,EHR+ECG,ridge-Cox retuned PH,30,0,0
+B comp_nh EHR+ECG,Super learner,EHR+ECG,ridge-Cox retuned TVC,30,0,0
+B comp_nh EHR+ECG,Super learner,EHR+ECG,spline Cox PH,30,0,0
+B comp_nh EHR+ECG,Super learner,EHR+ECG,spline Cox TVC,30,0,0
+B comp_nh EHR+ECG,Super learner,EHR+ECG,"RSF, Brier-tuned PH",30,0,0
+B comp_nh EHR+ECG,Super learner,EHR+ECG,"RSF, Brier-tuned TVC",30,0,0
+B comp_nh EHR+ECG,Super learner,EHR+ECG,"oblique RSF, Brier-tuned PH",30,0,0
+B comp_nh EHR+ECG,Super learner,EHR+ECG,"oblique RSF, Brier-tuned TVC",30,0,0
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,spline Cox TV,30,0.25518164108815,1
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,"RSF, Brier-tuned TV",30,0.215472975012266,0.9
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,"RSF, Brier-tuned TV (components)",30,0.159537307248639,0.733333333333333
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,ridge-Cox retuned TV,30,0.148488383223038,0.866666666666667
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,ridge-Cox retuned TV (components),30,0.0683143223323622,0.5
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned TV",30,0.0485424861587121,0.466666666666667
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned TV (components)",30,0.0410980690812876,0.5
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,"EHR alone, RSF, Brier-tuned (components)",30,0.0290512374881995,0.433333333333333
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,"EHR alone, oblique RSF, Brier-tuned",30,0.00747781808808013,0.2
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,spline Cox PH (components),30,0.00640861581043037,0.0666666666666667
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,spline Cox TV (components),30,0.00562798601797018,0.2
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned PH (components)",30,0.00388859716619445,0.0666666666666667
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,"EHR alone, spline Cox (components)",30,0.00318127628166573,0.133333333333333
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,"EHR alone, ridge-Cox retuned (components)",30,0.00284345534238222,0.0666666666666667
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,"EHR alone, spline Cox",30,0.00245500726152546,0.0666666666666667
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,"EHR alone, oblique RSF, Brier-tuned (components)",30,0.00215042220578535,0.133333333333333
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,ridge-Cox retuned PH (components),30,0.000242998380732977,0.0333333333333333
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,"EHR alone, RSF, Brier-tuned",30,3.74018125795559e-05,0.0333333333333333
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,Kaplan-Meier,30,0,0
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,"EHR alone, ridge-Cox retuned",30,0,0
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,ridge-Cox retuned PH,30,0,0
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,ridge-Cox retuned TVC,30,0,0
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,spline Cox PH,30,0,0
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,spline Cox TVC,30,0,0
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,"RSF, Brier-tuned PH",30,0,0
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,"RSF, Brier-tuned TVC",30,0,0
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned PH",30,0,0
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned TVC",30,0,0
+B comp_nh EHR+ECG,Super learner+,EHR+ECG,"RSF, Brier-tuned PH (components)",30,0,0
+B comp_nh EHR+ECG,Super learner-EHR,EHR,"EHR alone, ridge-Cox retuned",30,0.260587225487149,1
+B comp_nh EHR+ECG,Super learner-EHR,EHR,"EHR alone, spline Cox",30,0.258740470998822,1
+B comp_nh EHR+ECG,Super learner-EHR,EHR,"EHR alone, oblique RSF, Brier-tuned",30,0.250192023115855,0.966666666666667
+B comp_nh EHR+ECG,Super learner-EHR,EHR,"EHR alone, RSF, Brier-tuned",30,0.230480280398174,1
+B comp_nh EHR+ECG,Super learner-EHR,EHR,Kaplan-Meier,30,0,0
+B cv 3-mod,Super learner,EHR+CTPA,"EHR alone, ridge-Cox retuned TV",30,0.264159095049398,0.733333333333333
+B cv 3-mod,Super learner,EHR+CTPA,"EHR alone, RSF, Brier-tuned TV",30,0.17599291355353,0.7
+B cv 3-mod,Super learner,EHR+CTPA,"RSF, Brier-tuned TV",30,0.14352976736412,0.466666666666667
+B cv 3-mod,Super learner,EHR+CTPA,"EHR alone, oblique RSF, Brier-tuned TV",30,0.142107620825378,0.533333333333333
+B cv 3-mod,Super learner,EHR+CTPA,ridge-Cox retuned TV,30,0.137097389928544,0.4
+B cv 3-mod,Super learner,EHR+CTPA,"oblique RSF, Brier-tuned TV",30,0.0936158701883417,0.366666666666667
+B cv 3-mod,Super learner,EHR+CTPA,marginal incidence,30,0.0226688589258157,0.8
+B cv 3-mod,Super learner,EHR+CTPA,"EHR alone, spline Cox TV",30,0.0114193111625517,0.2
+B cv 3-mod,Super learner,EHR+CTPA,spline Cox TV,30,0.00940917300232168,0.1
+B cv 3-mod,Super learner,EHR+ECG,"EHR alone, ridge-Cox retuned TV",30,0.336469058281151,0.9
+B cv 3-mod,Super learner,EHR+ECG,"RSF, Brier-tuned TV",30,0.214049002617584,0.766666666666667
+B cv 3-mod,Super learner,EHR+ECG,"EHR alone, oblique RSF, Brier-tuned TV",30,0.171306591641406,0.6
+B cv 3-mod,Super learner,EHR+ECG,"EHR alone, RSF, Brier-tuned TV",30,0.133033896227417,0.566666666666667
+B cv 3-mod,Super learner,EHR+ECG,"oblique RSF, Brier-tuned TV",30,0.0474337554160371,0.233333333333333
+B cv 3-mod,Super learner,EHR+ECG,spline Cox TV,30,0.0416637562728547,0.433333333333333
+B cv 3-mod,Super learner,EHR+ECG,ridge-Cox retuned TV,30,0.0316934318625565,0.2
+B cv 3-mod,Super learner,EHR+ECG,marginal incidence,30,0.0212122236552139,0.7
+B cv 3-mod,Super learner,EHR+ECG,"EHR alone, spline Cox TV",30,0.00313828402578002,0.1
+B cv 3-mod,Super learner,EHR+ECG+CTPA,"EHR alone, ridge-Cox retuned TV",30,0.335189270738438,0.9
+B cv 3-mod,Super learner,EHR+ECG+CTPA,"RSF, Brier-tuned TV",30,0.208504545744561,0.833333333333333
+B cv 3-mod,Super learner,EHR+ECG+CTPA,"EHR alone, oblique RSF, Brier-tuned TV",30,0.164542964449289,0.6
+B cv 3-mod,Super learner,EHR+ECG+CTPA,"EHR alone, RSF, Brier-tuned TV",30,0.134098822254991,0.566666666666667
+B cv 3-mod,Super learner,EHR+ECG+CTPA,"oblique RSF, Brier-tuned TV",30,0.0596210465086227,0.333333333333333
+B cv 3-mod,Super learner,EHR+ECG+CTPA,ridge-Cox retuned TV,30,0.0412649571669218,0.233333333333333
+B cv 3-mod,Super learner,EHR+ECG+CTPA,spline Cox TV,30,0.0275206003343975,0.3
+B cv 3-mod,Super learner,EHR+ECG+CTPA,marginal incidence,30,0.0230487570967186,0.733333333333333
+B cv 3-mod,Super learner,EHR+ECG+CTPA,"EHR alone, spline Cox TV",30,0.00620903570606044,0.133333333333333
+B cv 3-mod,Super learner-EHR,EHR,"EHR alone, ridge-Cox retuned TV",30,0.41313973658613,0.933333333333333
+B cv 3-mod,Super learner-EHR,EHR,"EHR alone, RSF, Brier-tuned TV",30,0.313273272792794,0.9
+B cv 3-mod,Super learner-EHR,EHR,"EHR alone, oblique RSF, Brier-tuned TV",30,0.229751473528421,0.666666666666667
+B cv 3-mod,Super learner-EHR,EHR,marginal incidence,30,0.0252649424145017,0.833333333333333
+B cv 3-mod,Super learner-EHR,EHR,"EHR alone, spline Cox TV",30,0.0185705746781535,0.266666666666667
+B cv EHR+ECG,Super learner,EHR+ECG,"EHR alone, RSF, Brier-tuned TV",30,0.384769789793109,1
+B cv EHR+ECG,Super learner,EHR+ECG,"RSF, Brier-tuned TV",30,0.340353908586039,0.933333333333333
+B cv EHR+ECG,Super learner,EHR+ECG,spline Cox TV,30,0.0843346974603279,0.8
+B cv EHR+ECG,Super learner,EHR+ECG,"oblique RSF, Brier-tuned TV",30,0.0821893899146494,0.566666666666667
+B cv EHR+ECG,Super learner,EHR+ECG,ridge-Cox retuned TV,30,0.0380390041432683,0.333333333333333
+B cv EHR+ECG,Super learner,EHR+ECG,"EHR alone, oblique RSF, Brier-tuned TV",30,0.0260748926850689,0.233333333333333
+B cv EHR+ECG,Super learner,EHR+ECG,"EHR alone, ridge-Cox retuned TV",30,0.0252457003485521,0.3
+B cv EHR+ECG,Super learner,EHR+ECG,"EHR alone, spline Cox TV",30,0.0119495463993708,0.1
+B cv EHR+ECG,Super learner,EHR+ECG,marginal incidence,30,0.00704307066961425,0.5
+B cv EHR+ECG,Super learner-EHR,EHR,"EHR alone, RSF, Brier-tuned TV",30,0.714726826615104,1
+B cv EHR+ECG,Super learner-EHR,EHR,"EHR alone, ridge-Cox retuned TV",30,0.131081353606073,0.833333333333333
+B cv EHR+ECG,Super learner-EHR,EHR,"EHR alone, oblique RSF, Brier-tuned TV",30,0.0862550150347228,0.6
+B cv EHR+ECG,Super learner-EHR,EHR,"EHR alone, spline Cox TV",30,0.0594165425530499,0.633333333333333
+B cv EHR+ECG,Super learner-EHR,EHR,marginal incidence,30,0.00852026219105052,0.5
+B cv_nh 3-mod,Super learner,EHR+CTPA,"EHR alone, ridge-Cox retuned TV",30,0.308106362987825,0.833333333333333
+B cv_nh 3-mod,Super learner,EHR+CTPA,"EHR alone, RSF, Brier-tuned TV",30,0.199123601552047,0.733333333333333
+B cv_nh 3-mod,Super learner,EHR+CTPA,ridge-Cox retuned TV,30,0.175180275150374,0.466666666666667
+B cv_nh 3-mod,Super learner,EHR+CTPA,"EHR alone, oblique RSF, Brier-tuned TV",30,0.116560945742752,0.466666666666667
+B cv_nh 3-mod,Super learner,EHR+CTPA,"RSF, Brier-tuned TV",30,0.114903765757058,0.533333333333333
+B cv_nh 3-mod,Super learner,EHR+CTPA,"oblique RSF, Brier-tuned TV",30,0.0427842613743947,0.266666666666667
+B cv_nh 3-mod,Super learner,EHR+CTPA,marginal incidence,30,0.0223799201688273,0.833333333333333
+B cv_nh 3-mod,Super learner,EHR+CTPA,"EHR alone, spline Cox TV",30,0.0116282072546049,0.2
+B cv_nh 3-mod,Super learner,EHR+CTPA,spline Cox TV,30,0.00933266001211757,0.0666666666666667
+B cv_nh 3-mod,Super learner,EHR+ECG,"EHR alone, ridge-Cox retuned TV",30,0.424699433614867,0.933333333333333
+B cv_nh 3-mod,Super learner,EHR+ECG,"RSF, Brier-tuned TV",30,0.231842184360139,0.8
+B cv_nh 3-mod,Super learner,EHR+ECG,"EHR alone, oblique RSF, Brier-tuned TV",30,0.121427873123218,0.466666666666667
+B cv_nh 3-mod,Super learner,EHR+ECG,"EHR alone, RSF, Brier-tuned TV",30,0.0948482551010919,0.466666666666667
+B cv_nh 3-mod,Super learner,EHR+ECG,spline Cox TV,30,0.0414147506589331,0.366666666666667
+B cv_nh 3-mod,Super learner,EHR+ECG,"oblique RSF, Brier-tuned TV",30,0.0330822155002127,0.3
+B cv_nh 3-mod,Super learner,EHR+ECG,ridge-Cox retuned TV,30,0.0284515541251298,0.3
+B cv_nh 3-mod,Super learner,EHR+ECG,marginal incidence,30,0.0220640822950553,0.8
+B cv_nh 3-mod,Super learner,EHR+ECG,"EHR alone, spline Cox TV",30,0.00216965122135302,0.133333333333333
+B cv_nh 3-mod,Super learner,EHR+ECG+CTPA,"EHR alone, ridge-Cox retuned TV",30,0.407659607451274,0.966666666666667
+B cv_nh 3-mod,Super learner,EHR+ECG+CTPA,"RSF, Brier-tuned TV",30,0.2020098143663,0.8
+B cv_nh 3-mod,Super learner,EHR+ECG+CTPA,"EHR alone, oblique RSF, Brier-tuned TV",30,0.122170053758455,0.466666666666667
+B cv_nh 3-mod,Super learner,EHR+ECG+CTPA,"EHR alone, RSF, Brier-tuned TV",30,0.116255541052521,0.6
+B cv_nh 3-mod,Super learner,EHR+ECG+CTPA,ridge-Cox retuned TV,30,0.0498019753091508,0.333333333333333
+B cv_nh 3-mod,Super learner,EHR+ECG+CTPA,"oblique RSF, Brier-tuned TV",30,0.0458831334578808,0.333333333333333
+B cv_nh 3-mod,Super learner,EHR+ECG+CTPA,spline Cox TV,30,0.0270633327499333,0.3
+B cv_nh 3-mod,Super learner,EHR+ECG+CTPA,marginal incidence,30,0.0236605816481766,0.766666666666667
+B cv_nh 3-mod,Super learner,EHR+ECG+CTPA,"EHR alone, spline Cox TV",30,0.00549596020630766,0.166666666666667
+B cv_nh 3-mod,Super learner-EHR,EHR,"EHR alone, ridge-Cox retuned TV",30,0.498921701352472,1
+B cv_nh 3-mod,Super learner-EHR,EHR,"EHR alone, RSF, Brier-tuned TV",30,0.309446960266364,0.966666666666667
+B cv_nh 3-mod,Super learner-EHR,EHR,"EHR alone, oblique RSF, Brier-tuned TV",30,0.146894940518214,0.533333333333333
+B cv_nh 3-mod,Super learner-EHR,EHR,marginal incidence,30,0.0254868620883337,0.833333333333333
+B cv_nh 3-mod,Super learner-EHR,EHR,"EHR alone, spline Cox TV",30,0.0192495357746155,0.266666666666667
+B cv_nh EHR+ECG,Super learner,EHR+ECG,"EHR alone, RSF, Brier-tuned TV",30,0.396525893801899,1
+B cv_nh EHR+ECG,Super learner,EHR+ECG,"RSF, Brier-tuned TV",30,0.291208204834262,0.9
+B cv_nh EHR+ECG,Super learner,EHR+ECG,"oblique RSF, Brier-tuned TV",30,0.0825385966119392,0.433333333333333
+B cv_nh EHR+ECG,Super learner,EHR+ECG,spline Cox TV,30,0.079151940965296,0.8
+B cv_nh EHR+ECG,Super learner,EHR+ECG,ridge-Cox retuned TV,30,0.0773215226327775,0.5
+B cv_nh EHR+ECG,Super learner,EHR+ECG,"EHR alone, ridge-Cox retuned TV",30,0.043225022255838,0.3
+B cv_nh EHR+ECG,Super learner,EHR+ECG,"EHR alone, oblique RSF, Brier-tuned TV",30,0.0159078873846946,0.133333333333333
+B cv_nh EHR+ECG,Super learner,EHR+ECG,"EHR alone, spline Cox TV",30,0.00892591798711189,0.133333333333333
+B cv_nh EHR+ECG,Super learner,EHR+ECG,marginal incidence,30,0.00519501352618165,0.466666666666667
+B cv_nh EHR+ECG,Super learner-EHR,EHR,"EHR alone, RSF, Brier-tuned TV",30,0.682410373639671,1
+B cv_nh EHR+ECG,Super learner-EHR,EHR,"EHR alone, ridge-Cox retuned TV",30,0.181214893134343,0.833333333333333
+B cv_nh EHR+ECG,Super learner-EHR,EHR,"EHR alone, oblique RSF, Brier-tuned TV",30,0.0791220965261914,0.5
+B cv_nh EHR+ECG,Super learner-EHR,EHR,"EHR alone, spline Cox TV",30,0.0498622160285915,0.566666666666667
+B cv_nh EHR+ECG,Super learner-EHR,EHR,marginal incidence,30,0.00739042067120319,0.566666666666667
+B death 3-mod,Super learner,EHR+CTPA,ridge-Cox retuned TV,30,0.279752400041403,0.9
+B death 3-mod,Super learner,EHR+CTPA,"oblique RSF, Brier-tuned TV",30,0.186974647003184,0.833333333333333
+B death 3-mod,Super learner,EHR+CTPA,"RSF, Brier-tuned TV",30,0.159814224283515,0.633333333333333
+B death 3-mod,Super learner,EHR+CTPA,spline Cox TV,30,0.118812358498675,0.9
+B death 3-mod,Super learner,EHR+CTPA,"EHR alone, RSF, Brier-tuned",30,0.0995419700051631,0.433333333333333
+B death 3-mod,Super learner,EHR+CTPA,"EHR alone, oblique RSF, Brier-tuned",30,0.0397332045600102,0.166666666666667
+B death 3-mod,Super learner,EHR+CTPA,"RSF, Brier-tuned TVC",30,0.0316811372012032,0.2
+B death 3-mod,Super learner,EHR+CTPA,"RSF, Brier-tuned PH",30,0.024404805467636,0.1
+B death 3-mod,Super learner,EHR+CTPA,"EHR alone, ridge-Cox retuned",30,0.0160997299329824,0.166666666666667
+B death 3-mod,Super learner,EHR+CTPA,"EHR alone, spline Cox",30,0.0137550901786636,0.2
+B death 3-mod,Super learner,EHR+CTPA,ridge-Cox retuned PH,30,0.0111910218399259,0.0666666666666667
+B death 3-mod,Super learner,EHR+CTPA,spline Cox PH,30,0.00884854246713793,0.0333333333333333
+B death 3-mod,Super learner,EHR+CTPA,ridge-Cox retuned TVC,30,0.00844936906616085,0.0666666666666667
+B death 3-mod,Super learner,EHR+CTPA,"oblique RSF, Brier-tuned TVC",30,0.000446613619274178,0.0333333333333333
+B death 3-mod,Super learner,EHR+CTPA,Kaplan-Meier,30,0.000340824144476757,0.0333333333333333
+B death 3-mod,Super learner,EHR+CTPA,spline Cox TVC,30,0.000154061690588717,0.0333333333333333
+B death 3-mod,Super learner,EHR+CTPA,"oblique RSF, Brier-tuned PH",30,0,0
+B death 3-mod,Super learner,EHR+ECG,ridge-Cox retuned TV,30,0.258821290498573,0.9
+B death 3-mod,Super learner,EHR+ECG,"RSF, Brier-tuned TV",30,0.218233033906152,0.8
+B death 3-mod,Super learner,EHR+ECG,"oblique RSF, Brier-tuned TV",30,0.186387998315016,0.7
+B death 3-mod,Super learner,EHR+ECG,spline Cox TV,30,0.121563250486357,0.866666666666667
+B death 3-mod,Super learner,EHR+ECG,"EHR alone, RSF, Brier-tuned",30,0.114249666694428,0.666666666666667
+B death 3-mod,Super learner,EHR+ECG,"EHR alone, ridge-Cox retuned",30,0.0447943823434013,0.3
+B death 3-mod,Super learner,EHR+ECG,"EHR alone, oblique RSF, Brier-tuned",30,0.0263805388103381,0.133333333333333
+B death 3-mod,Super learner,EHR+ECG,spline Cox PH,30,0.0196198195363779,0.133333333333333
+B death 3-mod,Super learner,EHR+ECG,"RSF, Brier-tuned TVC",30,0.00488811790137877,0.0333333333333333
+B death 3-mod,Super learner,EHR+ECG,"EHR alone, spline Cox",30,0.00477858218971323,0.133333333333333
+B death 3-mod,Super learner,EHR+ECG,Kaplan-Meier,30,0.000283319318264852,0.0333333333333333
+B death 3-mod,Super learner,EHR+ECG,ridge-Cox retuned PH,30,0,0
+B death 3-mod,Super learner,EHR+ECG,ridge-Cox retuned TVC,30,0,0
+B death 3-mod,Super learner,EHR+ECG,spline Cox TVC,30,0,0
+B death 3-mod,Super learner,EHR+ECG,"RSF, Brier-tuned PH",30,0,0
+B death 3-mod,Super learner,EHR+ECG,"oblique RSF, Brier-tuned PH",30,0,0
+B death 3-mod,Super learner,EHR+ECG,"oblique RSF, Brier-tuned TVC",30,0,0
+B death 3-mod,Super learner,EHR+ECG+CTPA,ridge-Cox retuned TV,30,0.215146080666519,0.866666666666667
+B death 3-mod,Super learner,EHR+ECG+CTPA,"oblique RSF, Brier-tuned TV",30,0.177969453724756,0.9
+B death 3-mod,Super learner,EHR+ECG+CTPA,"RSF, Brier-tuned TV",30,0.166111776944532,0.633333333333333
+B death 3-mod,Super learner,EHR+ECG+CTPA,"EHR alone, RSF, Brier-tuned",30,0.157875214146361,0.733333333333333
+B death 3-mod,Super learner,EHR+ECG+CTPA,spline Cox TV,30,0.121804161405136,0.866666666666667
+B death 3-mod,Super learner,EHR+ECG+CTPA,"EHR alone, ridge-Cox retuned",30,0.058904833041423,0.366666666666667
+B death 3-mod,Super learner,EHR+ECG+CTPA,"EHR alone, oblique RSF, Brier-tuned",30,0.0446807811035854,0.233333333333333
+B death 3-mod,Super learner,EHR+ECG+CTPA,spline Cox PH,30,0.0267236303173199,0.133333333333333
+B death 3-mod,Super learner,EHR+ECG+CTPA,"EHR alone, spline Cox",30,0.0134723518048498,0.133333333333333
+B death 3-mod,Super learner,EHR+ECG+CTPA,ridge-Cox retuned TVC,30,0.0090070577928177,0.0666666666666667
+B death 3-mod,Super learner,EHR+ECG+CTPA,"RSF, Brier-tuned PH",30,0.00423515374900053,0.0666666666666667
+B death 3-mod,Super learner,EHR+ECG+CTPA,"RSF, Brier-tuned TVC",30,0.00275756397441735,0.0666666666666667
+B death 3-mod,Super learner,EHR+ECG+CTPA,ridge-Cox retuned PH,30,0.000880082107620873,0.0333333333333333
+B death 3-mod,Super learner,EHR+ECG+CTPA,Kaplan-Meier,30,0.000385120767429634,0.0333333333333333
+B death 3-mod,Super learner,EHR+ECG+CTPA,spline Cox TVC,30,4.67384542311684e-05,0.0333333333333333
+B death 3-mod,Super learner,EHR+ECG+CTPA,"oblique RSF, Brier-tuned PH",30,0,0
+B death 3-mod,Super learner,EHR+ECG+CTPA,"oblique RSF, Brier-tuned TVC",30,0,0
+B death 3-mod,Super learner-EHR,EHR,"EHR alone, RSF, Brier-tuned",30,0.337941186940714,0.9
+B death 3-mod,Super learner-EHR,EHR,"EHR alone, ridge-Cox retuned",30,0.308385799540061,0.933333333333333
+B death 3-mod,Super learner-EHR,EHR,"EHR alone, oblique RSF, Brier-tuned",30,0.251524884608405,0.633333333333333
+B death 3-mod,Super learner-EHR,EHR,"EHR alone, spline Cox",30,0.10214812891082,0.766666666666667
+B death 3-mod,Super learner-EHR,EHR,Kaplan-Meier,30,0,0
+B death EHR+ECG,Super learner,EHR+ECG,ridge-Cox retuned TV,30,0.289647268095368,1
+B death EHR+ECG,Super learner,EHR+ECG,"oblique RSF, Brier-tuned TV",30,0.256247348340213,0.966666666666667
+B death EHR+ECG,Super learner,EHR+ECG,"RSF, Brier-tuned TV",30,0.193537797665879,1
+B death EHR+ECG,Super learner,EHR+ECG,spline Cox TV,30,0.141051233691253,0.8
+B death EHR+ECG,Super learner,EHR+ECG,"EHR alone, RSF, Brier-tuned",30,0.0360455663148405,0.6
+B death EHR+ECG,Super learner,EHR+ECG,"EHR alone, spline Cox",30,0.0257451302472868,0.366666666666667
+B death EHR+ECG,Super learner,EHR+ECG,"EHR alone, oblique RSF, Brier-tuned",30,0.0247816649156435,0.266666666666667
+B death EHR+ECG,Super learner,EHR+ECG,"EHR alone, ridge-Cox retuned",30,0.0212537721519186,0.166666666666667
+B death EHR+ECG,Super learner,EHR+ECG,spline Cox TVC,30,0.00540508454743525,0.1
+B death EHR+ECG,Super learner,EHR+ECG,spline Cox PH,30,0.00433474703556745,0.133333333333333
+B death EHR+ECG,Super learner,EHR+ECG,"oblique RSF, Brier-tuned TVC",30,0.00195038699459541,0.0333333333333333
+B death EHR+ECG,Super learner,EHR+ECG,Kaplan-Meier,30,0,0
+B death EHR+ECG,Super learner,EHR+ECG,ridge-Cox retuned PH,30,0,0
+B death EHR+ECG,Super learner,EHR+ECG,ridge-Cox retuned TVC,30,0,0
+B death EHR+ECG,Super learner,EHR+ECG,"RSF, Brier-tuned PH",30,0,0
+B death EHR+ECG,Super learner,EHR+ECG,"RSF, Brier-tuned TVC",30,0,0
+B death EHR+ECG,Super learner,EHR+ECG,"oblique RSF, Brier-tuned PH",30,0,0
+B death EHR+ECG,Super learner-EHR,EHR,"EHR alone, ridge-Cox retuned",30,0.327627720624855,0.933333333333333
+B death EHR+ECG,Super learner-EHR,EHR,"EHR alone, oblique RSF, Brier-tuned",30,0.29027264411938,0.966666666666667
+B death EHR+ECG,Super learner-EHR,EHR,"EHR alone, spline Cox",30,0.212818316088134,0.966666666666667
+B death EHR+ECG,Super learner-EHR,EHR,"EHR alone, RSF, Brier-tuned",30,0.169281319167631,1
+B death EHR+ECG,Super learner-EHR,EHR,Kaplan-Meier,30,0,0
+P comp 3-mod,Super learner,EHR+CTPA,spline Cox TV,30,0.357709252097792,1
+P comp 3-mod,Super learner,EHR+CTPA,ridge-Cox retuned TV,30,0.300118419108684,1
+P comp 3-mod,Super learner,EHR+CTPA,"RSF, Brier-tuned TV",30,0.189371341455208,0.9
+P comp 3-mod,Super learner,EHR+CTPA,"oblique RSF, Brier-tuned TV",30,0.0871996787981822,0.5
+P comp 3-mod,Super learner,EHR+CTPA,"EHR alone, spline Cox",30,0.0633780231935847,0.8
+P comp 3-mod,Super learner,EHR+CTPA,spline Cox PH,30,0.00222328534654955,0.0333333333333333
+P comp 3-mod,Super learner,EHR+CTPA,Kaplan-Meier,30,0,0
+P comp 3-mod,Super learner,EHR+CTPA,"EHR alone, ridge-Cox retuned",30,0,0
+P comp 3-mod,Super learner,EHR+CTPA,"EHR alone, RSF, Brier-tuned",30,0,0
+P comp 3-mod,Super learner,EHR+CTPA,"EHR alone, oblique RSF, Brier-tuned",30,0,0
+P comp 3-mod,Super learner,EHR+CTPA,ridge-Cox retuned PH,30,0,0
+P comp 3-mod,Super learner,EHR+CTPA,ridge-Cox retuned TVC,30,0,0
+P comp 3-mod,Super learner,EHR+CTPA,spline Cox TVC,30,0,0
+P comp 3-mod,Super learner,EHR+CTPA,"RSF, Brier-tuned PH",30,0,0
+P comp 3-mod,Super learner,EHR+CTPA,"RSF, Brier-tuned TVC",30,0,0
+P comp 3-mod,Super learner,EHR+CTPA,"oblique RSF, Brier-tuned PH",30,0,0
+P comp 3-mod,Super learner,EHR+CTPA,"oblique RSF, Brier-tuned TVC",30,0,0
+P comp 3-mod,Super learner,EHR+ECG,spline Cox TV,30,0.322404635540147,1
+P comp 3-mod,Super learner,EHR+ECG,ridge-Cox retuned TV,30,0.282452927174653,0.966666666666667
+P comp 3-mod,Super learner,EHR+ECG,"RSF, Brier-tuned TV",30,0.268122018397907,0.966666666666667
+P comp 3-mod,Super learner,EHR+ECG,"oblique RSF, Brier-tuned TV",30,0.0652125626897848,0.4
+P comp 3-mod,Super learner,EHR+ECG,"EHR alone, spline Cox",30,0.0561349937738451,0.8
+P comp 3-mod,Super learner,EHR+ECG,"EHR alone, ridge-Cox retuned",30,0.00464379128290574,0.1
+P comp 3-mod,Super learner,EHR+ECG,spline Cox PH,30,0.000613240159481782,0.0333333333333333
+P comp 3-mod,Super learner,EHR+ECG,"EHR alone, RSF, Brier-tuned",30,0.000415830981276129,0.0666666666666667
+P comp 3-mod,Super learner,EHR+ECG,Kaplan-Meier,30,0,0
+P comp 3-mod,Super learner,EHR+ECG,"EHR alone, oblique RSF, Brier-tuned",30,0,0
+P comp 3-mod,Super learner,EHR+ECG,ridge-Cox retuned PH,30,0,0
+P comp 3-mod,Super learner,EHR+ECG,ridge-Cox retuned TVC,30,0,0
+P comp 3-mod,Super learner,EHR+ECG,spline Cox TVC,30,0,0
+P comp 3-mod,Super learner,EHR+ECG,"RSF, Brier-tuned PH",30,0,0
+P comp 3-mod,Super learner,EHR+ECG,"RSF, Brier-tuned TVC",30,0,0
+P comp 3-mod,Super learner,EHR+ECG,"oblique RSF, Brier-tuned PH",30,0,0
+P comp 3-mod,Super learner,EHR+ECG,"oblique RSF, Brier-tuned TVC",30,0,0
+P comp 3-mod,Super learner,EHR+ECG+CTPA,ridge-Cox retuned TV,30,0.298432060730007,1
+P comp 3-mod,Super learner,EHR+ECG+CTPA,spline Cox TV,30,0.260479037458621,0.933333333333333
+P comp 3-mod,Super learner,EHR+ECG+CTPA,"RSF, Brier-tuned TV",30,0.232490249311743,0.933333333333333
+P comp 3-mod,Super learner,EHR+ECG+CTPA,"EHR alone, spline Cox",30,0.101886477231446,1
+P comp 3-mod,Super learner,EHR+ECG+CTPA,"oblique RSF, Brier-tuned TV",30,0.092361955363779,0.566666666666667
+P comp 3-mod,Super learner,EHR+ECG+CTPA,spline Cox PH,30,0.0123941616312835,0.1
+P comp 3-mod,Super learner,EHR+ECG+CTPA,"EHR alone, ridge-Cox retuned",30,0.00172750672066805,0.0333333333333333
+P comp 3-mod,Super learner,EHR+ECG+CTPA,"EHR alone, RSF, Brier-tuned",30,0.000228551552452551,0.0333333333333333
+P comp 3-mod,Super learner,EHR+ECG+CTPA,Kaplan-Meier,30,0,0
+P comp 3-mod,Super learner,EHR+ECG+CTPA,"EHR alone, oblique RSF, Brier-tuned",30,0,0
+P comp 3-mod,Super learner,EHR+ECG+CTPA,ridge-Cox retuned PH,30,0,0
+P comp 3-mod,Super learner,EHR+ECG+CTPA,ridge-Cox retuned TVC,30,0,0
+P comp 3-mod,Super learner,EHR+ECG+CTPA,spline Cox TVC,30,0,0
+P comp 3-mod,Super learner,EHR+ECG+CTPA,"RSF, Brier-tuned PH",30,0,0
+P comp 3-mod,Super learner,EHR+ECG+CTPA,"RSF, Brier-tuned TVC",30,0,0
+P comp 3-mod,Super learner,EHR+ECG+CTPA,"oblique RSF, Brier-tuned PH",30,0,0
+P comp 3-mod,Super learner,EHR+ECG+CTPA,"oblique RSF, Brier-tuned TVC",30,0,0
+P comp 3-mod,Super learner+,EHR+CTPA,spline Cox TV,30,0.29164131956629,1
+P comp 3-mod,Super learner+,EHR+CTPA,ridge-Cox retuned TV,30,0.177481858445585,0.833333333333333
+P comp 3-mod,Super learner+,EHR+CTPA,"RSF, Brier-tuned TV",30,0.12303233580569,0.7
+P comp 3-mod,Super learner+,EHR+CTPA,"EHR alone, spline Cox (components)",30,0.0968111504237661,0.766666666666667
+P comp 3-mod,Super learner+,EHR+CTPA,"RSF, Brier-tuned TV (components)",30,0.0753849042715068,0.6
+P comp 3-mod,Super learner+,EHR+CTPA,ridge-Cox retuned TV (components),30,0.0702226982897176,0.633333333333333
+P comp 3-mod,Super learner+,EHR+CTPA,"oblique RSF, Brier-tuned TV",30,0.0564278032749954,0.3
+P comp 3-mod,Super learner+,EHR+CTPA,"oblique RSF, Brier-tuned TV (components)",30,0.0563654130890773,0.466666666666667
+P comp 3-mod,Super learner+,EHR+CTPA,"EHR alone, spline Cox",30,0.0239138199428892,0.366666666666667
+P comp 3-mod,Super learner+,EHR+CTPA,spline Cox TV (components),30,0.0209507589064556,0.366666666666667
+P comp 3-mod,Super learner+,EHR+CTPA,spline Cox PH (components),30,0.0029110311797877,0.0666666666666667
+P comp 3-mod,Super learner+,EHR+CTPA,spline Cox PH,30,0.00243511509221101,0.0333333333333333
+P comp 3-mod,Super learner+,EHR+CTPA,"EHR alone, ridge-Cox retuned (components)",30,0.00160822268941883,0.0333333333333333
+P comp 3-mod,Super learner+,EHR+CTPA,"EHR alone, RSF, Brier-tuned (components)",30,0.000532721785369084,0.0666666666666667
+P comp 3-mod,Super learner+,EHR+CTPA,spline Cox TVC,30,0.000280847237240607,0.0333333333333333
+P comp 3-mod,Super learner+,EHR+CTPA,Kaplan-Meier,30,0,0
+P comp 3-mod,Super learner+,EHR+CTPA,"EHR alone, ridge-Cox retuned",30,0,0
+P comp 3-mod,Super learner+,EHR+CTPA,"EHR alone, RSF, Brier-tuned",30,0,0
+P comp 3-mod,Super learner+,EHR+CTPA,"EHR alone, oblique RSF, Brier-tuned",30,0,0
+P comp 3-mod,Super learner+,EHR+CTPA,ridge-Cox retuned PH,30,0,0
+P comp 3-mod,Super learner+,EHR+CTPA,ridge-Cox retuned TVC,30,0,0
+P comp 3-mod,Super learner+,EHR+CTPA,"RSF, Brier-tuned PH",30,0,0
+P comp 3-mod,Super learner+,EHR+CTPA,"RSF, Brier-tuned TVC",30,0,0
+P comp 3-mod,Super learner+,EHR+CTPA,"oblique RSF, Brier-tuned PH",30,0,0
+P comp 3-mod,Super learner+,EHR+CTPA,"oblique RSF, Brier-tuned TVC",30,0,0
+P comp 3-mod,Super learner+,EHR+CTPA,"EHR alone, oblique RSF, Brier-tuned (components)",30,0,0
+P comp 3-mod,Super learner+,EHR+CTPA,ridge-Cox retuned PH (components),30,0,0
+P comp 3-mod,Super learner+,EHR+CTPA,"RSF, Brier-tuned PH (components)",30,0,0
+P comp 3-mod,Super learner+,EHR+CTPA,"oblique RSF, Brier-tuned PH (components)",30,0,0
+P comp 3-mod,Super learner+,EHR+ECG,spline Cox TV,30,0.212383833797633,0.933333333333333
+P comp 3-mod,Super learner+,EHR+ECG,"RSF, Brier-tuned TV",30,0.150722010896202,0.766666666666667
+P comp 3-mod,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned TV (components)",30,0.122976585058849,0.633333333333333
+P comp 3-mod,Super learner+,EHR+ECG,ridge-Cox retuned TV,30,0.103697375380603,0.566666666666667
+P comp 3-mod,Super learner+,EHR+ECG,ridge-Cox retuned TV (components),30,0.0957384059406488,0.6
+P comp 3-mod,Super learner+,EHR+ECG,"RSF, Brier-tuned TV (components)",30,0.0905751032153272,0.633333333333333
+P comp 3-mod,Super learner+,EHR+ECG,spline Cox TV (components),30,0.0830616977366045,0.666666666666667
+P comp 3-mod,Super learner+,EHR+ECG,"EHR alone, spline Cox (components)",30,0.0732000473304913,0.833333333333333
+P comp 3-mod,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned TV",30,0.03491403588005,0.2
+P comp 3-mod,Super learner+,EHR+ECG,"EHR alone, spline Cox",30,0.0248381590096469,0.366666666666667
+P comp 3-mod,Super learner+,EHR+ECG,"EHR alone, ridge-Cox retuned (components)",30,0.0037820108212972,0.0333333333333333
+P comp 3-mod,Super learner+,EHR+ECG,spline Cox PH (components),30,0.00250359053106652,0.0333333333333333
+P comp 3-mod,Super learner+,EHR+ECG,spline Cox PH,30,0.0011831355099668,0.0666666666666667
+P comp 3-mod,Super learner+,EHR+ECG,"EHR alone, ridge-Cox retuned",30,0.000424008891614248,0.0333333333333333
+P comp 3-mod,Super learner+,EHR+ECG,Kaplan-Meier,30,0,0
+P comp 3-mod,Super learner+,EHR+ECG,"EHR alone, RSF, Brier-tuned",30,0,0
+P comp 3-mod,Super learner+,EHR+ECG,"EHR alone, oblique RSF, Brier-tuned",30,0,0
+P comp 3-mod,Super learner+,EHR+ECG,ridge-Cox retuned PH,30,0,0
+P comp 3-mod,Super learner+,EHR+ECG,ridge-Cox retuned TVC,30,0,0
+P comp 3-mod,Super learner+,EHR+ECG,spline Cox TVC,30,0,0
+P comp 3-mod,Super learner+,EHR+ECG,"RSF, Brier-tuned PH",30,0,0
+P comp 3-mod,Super learner+,EHR+ECG,"RSF, Brier-tuned TVC",30,0,0
+P comp 3-mod,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned PH",30,0,0
+P comp 3-mod,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned TVC",30,0,0
+P comp 3-mod,Super learner+,EHR+ECG,"EHR alone, RSF, Brier-tuned (components)",30,0,0
+P comp 3-mod,Super learner+,EHR+ECG,"EHR alone, oblique RSF, Brier-tuned (components)",30,0,0
+P comp 3-mod,Super learner+,EHR+ECG,ridge-Cox retuned PH (components),30,0,0
+P comp 3-mod,Super learner+,EHR+ECG,"RSF, Brier-tuned PH (components)",30,0,0
+P comp 3-mod,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned PH (components)",30,0,0
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,spline Cox TV,30,0.231368803262249,0.933333333333333
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,ridge-Cox retuned TV,30,0.158912831201088,0.833333333333333
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,"RSF, Brier-tuned TV",30,0.157475618721821,0.8
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,"EHR alone, spline Cox (components)",30,0.100036687359061,0.9
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,"oblique RSF, Brier-tuned TV (components)",30,0.0900638533854336,0.466666666666667
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,ridge-Cox retuned TV (components),30,0.0716904062153859,0.533333333333333
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,"oblique RSF, Brier-tuned TV",30,0.0616986320104938,0.466666666666667
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,"RSF, Brier-tuned TV (components)",30,0.061592286204179,0.466666666666667
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,"EHR alone, spline Cox",30,0.0299792123247101,0.433333333333333
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,spline Cox TV (components),30,0.0137084580255056,0.233333333333333
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,spline Cox PH,30,0.0124952886875312,0.1
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,"EHR alone, ridge-Cox retuned (components)",30,0.00633081631934852,0.0666666666666667
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,spline Cox PH (components),30,0.00296619416980941,0.0333333333333333
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,"EHR alone, RSF, Brier-tuned (components)",30,0.00125998851058971,0.0333333333333333
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,"RSF, Brier-tuned PH (components)",30,0.000391742278882464,0.0333333333333333
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,"EHR alone, oblique RSF, Brier-tuned (components)",30,2.91813239111771e-05,0.0333333333333333
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,Kaplan-Meier,30,0,0
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,"EHR alone, ridge-Cox retuned",30,0,0
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,"EHR alone, RSF, Brier-tuned",30,0,0
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,"EHR alone, oblique RSF, Brier-tuned",30,0,0
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,ridge-Cox retuned PH,30,0,0
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,ridge-Cox retuned TVC,30,0,0
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,spline Cox TVC,30,0,0
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,"RSF, Brier-tuned PH",30,0,0
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,"RSF, Brier-tuned TVC",30,0,0
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,"oblique RSF, Brier-tuned PH",30,0,0
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,"oblique RSF, Brier-tuned TVC",30,0,0
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,ridge-Cox retuned PH (components),30,0,0
+P comp 3-mod,Super learner+,EHR+ECG+CTPA,"oblique RSF, Brier-tuned PH (components)",30,0,0
+P comp 3-mod,Super learner-EHR,EHR,"EHR alone, spline Cox",30,0.479327023233335,1
+P comp 3-mod,Super learner-EHR,EHR,"EHR alone, ridge-Cox retuned",30,0.282706634903607,1
+P comp 3-mod,Super learner-EHR,EHR,"EHR alone, RSF, Brier-tuned",30,0.179322949528809,0.9
+P comp 3-mod,Super learner-EHR,EHR,"EHR alone, oblique RSF, Brier-tuned",30,0.0586433923342487,0.333333333333333
+P comp 3-mod,Super learner-EHR,EHR,Kaplan-Meier,30,0,0
+P comp EHR+ECG,Super learner,EHR+ECG,spline Cox TV,30,0.431184082107692,1
+P comp EHR+ECG,Super learner,EHR+ECG,"RSF, Brier-tuned TV",30,0.353703525285774,1
+P comp EHR+ECG,Super learner,EHR+ECG,ridge-Cox retuned TV,30,0.18589631689196,0.966666666666667
+P comp EHR+ECG,Super learner,EHR+ECG,"oblique RSF, Brier-tuned TV",30,0.0271381025483186,0.266666666666667
+P comp EHR+ECG,Super learner,EHR+ECG,"EHR alone, RSF, Brier-tuned",30,0.00172663751788188,0.133333333333333
+P comp EHR+ECG,Super learner,EHR+ECG,"EHR alone, spline Cox",30,0.000351335648373022,0.0666666666666667
+P comp EHR+ECG,Super learner,EHR+ECG,Kaplan-Meier,30,0,0
+P comp EHR+ECG,Super learner,EHR+ECG,"EHR alone, ridge-Cox retuned",30,0,0
+P comp EHR+ECG,Super learner,EHR+ECG,"EHR alone, oblique RSF, Brier-tuned",30,0,0
+P comp EHR+ECG,Super learner,EHR+ECG,ridge-Cox retuned PH,30,0,0
+P comp EHR+ECG,Super learner,EHR+ECG,ridge-Cox retuned TVC,30,0,0
+P comp EHR+ECG,Super learner,EHR+ECG,spline Cox PH,30,0,0
+P comp EHR+ECG,Super learner,EHR+ECG,spline Cox TVC,30,0,0
+P comp EHR+ECG,Super learner,EHR+ECG,"RSF, Brier-tuned PH",30,0,0
+P comp EHR+ECG,Super learner,EHR+ECG,"RSF, Brier-tuned TVC",30,0,0
+P comp EHR+ECG,Super learner,EHR+ECG,"oblique RSF, Brier-tuned PH",30,0,0
+P comp EHR+ECG,Super learner,EHR+ECG,"oblique RSF, Brier-tuned TVC",30,0,0
+P comp EHR+ECG,Super learner+,EHR+ECG,spline Cox TV,30,0.248755130356198,0.966666666666667
+P comp EHR+ECG,Super learner+,EHR+ECG,spline Cox TV (components),30,0.219896255947285,1
+P comp EHR+ECG,Super learner+,EHR+ECG,"RSF, Brier-tuned TV (components)",30,0.186712190712825,0.866666666666667
+P comp EHR+ECG,Super learner+,EHR+ECG,"RSF, Brier-tuned TV",30,0.144038276034408,0.7
+P comp EHR+ECG,Super learner+,EHR+ECG,ridge-Cox retuned TV (components),30,0.091087086453778,0.833333333333333
+P comp EHR+ECG,Super learner+,EHR+ECG,ridge-Cox retuned TV,30,0.0425836195852832,0.5
+P comp EHR+ECG,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned TV (components)",30,0.0338625897630753,0.3
+P comp EHR+ECG,Super learner+,EHR+ECG,"EHR alone, RSF, Brier-tuned (components)",30,0.016115217349648,0.633333333333333
+P comp EHR+ECG,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned TV",30,0.0156656339626029,0.233333333333333
+P comp EHR+ECG,Super learner+,EHR+ECG,"EHR alone, RSF, Brier-tuned",30,0.00117540103186822,0.133333333333333
+P comp EHR+ECG,Super learner+,EHR+ECG,"EHR alone, spline Cox",30,0.000108598803028871,0.0333333333333333
+P comp EHR+ECG,Super learner+,EHR+ECG,Kaplan-Meier,30,0,0
+P comp EHR+ECG,Super learner+,EHR+ECG,"EHR alone, ridge-Cox retuned",30,0,0
+P comp EHR+ECG,Super learner+,EHR+ECG,"EHR alone, oblique RSF, Brier-tuned",30,0,0
+P comp EHR+ECG,Super learner+,EHR+ECG,ridge-Cox retuned PH,30,0,0
+P comp EHR+ECG,Super learner+,EHR+ECG,ridge-Cox retuned TVC,30,0,0
+P comp EHR+ECG,Super learner+,EHR+ECG,spline Cox PH,30,0,0
+P comp EHR+ECG,Super learner+,EHR+ECG,spline Cox TVC,30,0,0
+P comp EHR+ECG,Super learner+,EHR+ECG,"RSF, Brier-tuned PH",30,0,0
+P comp EHR+ECG,Super learner+,EHR+ECG,"RSF, Brier-tuned TVC",30,0,0
+P comp EHR+ECG,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned PH",30,0,0
+P comp EHR+ECG,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned TVC",30,0,0
+P comp EHR+ECG,Super learner+,EHR+ECG,"EHR alone, ridge-Cox retuned (components)",30,0,0
+P comp EHR+ECG,Super learner+,EHR+ECG,"EHR alone, spline Cox (components)",30,0,0
+P comp EHR+ECG,Super learner+,EHR+ECG,"EHR alone, oblique RSF, Brier-tuned (components)",30,0,0
+P comp EHR+ECG,Super learner+,EHR+ECG,ridge-Cox retuned PH (components),30,0,0
+P comp EHR+ECG,Super learner+,EHR+ECG,spline Cox PH (components),30,0,0
+P comp EHR+ECG,Super learner+,EHR+ECG,"RSF, Brier-tuned PH (components)",30,0,0
+P comp EHR+ECG,Super learner+,EHR+ECG,"oblique RSF, Brier-tuned PH (components)",30,0,0
+P comp EHR+ECG,Super learner-EHR,EHR,"EHR alone, spline Cox",30,0.469292404543521,1
+P comp EHR+ECG,Super learner-EHR,EHR,"EHR alone, RSF, Brier-tuned",30,0.303706205068134,1
+P comp EHR+ECG,Super learner-EHR,EHR,"EHR alone, ridge-Cox retuned",30,0.159812071088885,0.9
+P comp EHR+ECG,Super learner-EHR,EHR,"EHR alone, oblique RSF, Brier-tuned",30,0.0671893192994596,0.566666666666667
+P comp EHR+ECG,Super learner-EHR,EHR,Kaplan-Meier,30,0,0
+P cv 3-mod,Super learner,EHR+CTPA,"EHR alone, RSF, Brier-tuned TV",30,0.366676395469398,0.966666666666667
+P cv 3-mod,Super learner,EHR+CTPA,"EHR alone, ridge-Cox retuned TV",30,0.185917215276142,0.766666666666667
+P cv 3-mod,Super learner,EHR+CTPA,"EHR alone, spline Cox TV",30,0.162390621287055,0.8
+P cv 3-mod,Super learner,EHR+CTPA,"EHR alone, oblique RSF, Brier-tuned TV",30,0.154448489190498,0.5
+P cv 3-mod,Super learner,EHR+CTPA,"RSF, Brier-tuned TV",30,0.0528469166867879,0.2
+P cv 3-mod,Super learner,EHR+CTPA,spline Cox TV,30,0.0412189339766601,0.2
+P cv 3-mod,Super learner,EHR+CTPA,ridge-Cox retuned TV,30,0.0204941264590388,0.166666666666667
+P cv 3-mod,Super learner,EHR+CTPA,"oblique RSF, Brier-tuned TV",30,0.0126069916427558,0.1
+P cv 3-mod,Super learner,EHR+CTPA,marginal incidence,30,0.0034003100116651,0.133333333333333
+P cv 3-mod,Super learner,EHR+ECG,"RSF, Brier-tuned TV",30,0.350871545024535,0.966666666666667
+P cv 3-mod,Super learner,EHR+ECG,spline Cox TV,30,0.223890600182453,1
+P cv 3-mod,Super learner,EHR+ECG,"EHR alone, ridge-Cox retuned TV",30,0.108470527496152,0.566666666666667
+P cv 3-mod,Super learner,EHR+ECG,"EHR alone, RSF, Brier-tuned TV",30,0.100852976845254,0.633333333333333
+P cv 3-mod,Super learner,EHR+ECG,"EHR alone, oblique RSF, Brier-tuned TV",30,0.0771651026664028,0.366666666666667
+P cv 3-mod,Super learner,EHR+ECG,"oblique RSF, Brier-tuned TV",30,0.0657680273824535,0.2
+P cv 3-mod,Super learner,EHR+ECG,ridge-Cox retuned TV,30,0.0640325361298288,0.366666666666667
+P cv 3-mod,Super learner,EHR+ECG,"EHR alone, spline Cox TV",30,0.00804023446431124,0.1
+P cv 3-mod,Super learner,EHR+ECG,marginal incidence,30,0.000908449808609243,0.1
+P cv 3-mod,Super learner,EHR+ECG+CTPA,"RSF, Brier-tuned TV",30,0.30299574886412,0.9
+P cv 3-mod,Super learner,EHR+ECG+CTPA,spline Cox TV,30,0.211299349840814,1
+P cv 3-mod,Super learner,EHR+ECG+CTPA,"EHR alone, RSF, Brier-tuned TV",30,0.14674851227465,0.766666666666667
+P cv 3-mod,Super learner,EHR+ECG+CTPA,"EHR alone, ridge-Cox retuned TV",30,0.116987218446445,0.6
+P cv 3-mod,Super learner,EHR+ECG+CTPA,"EHR alone, oblique RSF, Brier-tuned TV",30,0.101288201373168,0.533333333333333
+P cv 3-mod,Super learner,EHR+ECG+CTPA,ridge-Cox retuned TV,30,0.0632518732868953,0.4
+P cv 3-mod,Super learner,EHR+ECG+CTPA,"oblique RSF, Brier-tuned TV",30,0.0365671195788232,0.2
+P cv 3-mod,Super learner,EHR+ECG+CTPA,"EHR alone, spline Cox TV",30,0.0198618269665014,0.2
+P cv 3-mod,Super learner,EHR+ECG+CTPA,marginal incidence,30,0.00100014936858268,0.0666666666666667
+P cv 3-mod,Super learner-EHR,EHR,"EHR alone, RSF, Brier-tuned TV",30,0.420139945947304,1
+P cv 3-mod,Super learner-EHR,EHR,"EHR alone, ridge-Cox retuned TV",30,0.215089024527336,0.766666666666667
+P cv 3-mod,Super learner-EHR,EHR,"EHR alone, spline Cox TV",30,0.20103575867118,0.933333333333333
+P cv 3-mod,Super learner-EHR,EHR,"EHR alone, oblique RSF, Brier-tuned TV",30,0.160425573648961,0.566666666666667
+P cv 3-mod,Super learner-EHR,EHR,marginal incidence,30,0.00330969720521997,0.133333333333333
+P cv EHR+ECG,Super learner,EHR+ECG,"EHR alone, RSF, Brier-tuned TV",30,0.235322762119193,0.833333333333333
+P cv EHR+ECG,Super learner,EHR+ECG,spline Cox TV,30,0.230605677890408,0.866666666666667
+P cv EHR+ECG,Super learner,EHR+ECG,"RSF, Brier-tuned TV",30,0.200362977810078,0.866666666666667
+P cv EHR+ECG,Super learner,EHR+ECG,ridge-Cox retuned TV,30,0.17222122428306,0.7
+P cv EHR+ECG,Super learner,EHR+ECG,"EHR alone, ridge-Cox retuned TV",30,0.0590455513499302,0.533333333333333
+P cv EHR+ECG,Super learner,EHR+ECG,"oblique RSF, Brier-tuned TV",30,0.0482434418114752,0.3
+P cv EHR+ECG,Super learner,EHR+ECG,"EHR alone, oblique RSF, Brier-tuned TV",30,0.0338134060375307,0.266666666666667
+P cv EHR+ECG,Super learner,EHR+ECG,"EHR alone, spline Cox TV",30,0.0203849586983257,0.1
+P cv EHR+ECG,Super learner,EHR+ECG,marginal incidence,30,0,0
+P cv EHR+ECG,Super learner-EHR,EHR,"EHR alone, RSF, Brier-tuned TV",30,0.439163733275913,1
+P cv EHR+ECG,Super learner-EHR,EHR,"EHR alone, ridge-Cox retuned TV",30,0.269061193483887,0.933333333333333
+P cv EHR+ECG,Super learner-EHR,EHR,"EHR alone, spline Cox TV",30,0.229617411796578,0.933333333333333
+P cv EHR+ECG,Super learner-EHR,EHR,"EHR alone, oblique RSF, Brier-tuned TV",30,0.0621576614436219,0.433333333333333
+P cv EHR+ECG,Super learner-EHR,EHR,marginal incidence,30,0,0

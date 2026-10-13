@@ -1,0 +1,27 @@
+item,value,status
+input files found,all,PASS
+admissions with an approximate year,100.0% of 2909,PASS
+test admissions left out (patient also in development),0,INFO
+patients in both development and test,0,PASS
+EHR+ECG EHR: features (admissions missing),139 (0),PASS
+EHR+ECG ECG: features (admissions missing),264 (0),PASS
+3-mod EHR: features (admissions missing),139 (0),PASS
+3-mod ECG: features (admissions missing),264 (0),PASS
+3-mod CTPA: features (admissions missing),46 (0),PASS
+missing level-1 scores,0,PASS
+development scores failing the per-fold rule (D2),0,PASS
+forest fits that failed (best remaining one used),0,PASS
+EHR spline Cox fits: k = 5 / smaller / replaced by ridge-Cox,108 / 0 / 0,PASS
+forest tunings still at a grid edge (share of fits),2%,INFO
+death EHR+ECG: test risks missing / range,0 / 0.00020 to 0.99985,PASS
+death EHR+ECG: main cross-validated predictions (missing),0,PASS
+comp EHR+ECG: test risks missing / range,0 / 0.00200 to 0.99998,PASS
+comp EHR+ECG: main cross-validated predictions (missing),0,PASS
+cv EHR+ECG: test risks missing / range,0 / 0.00190 to 0.91297,PASS
+cv EHR+ECG: main cross-validated predictions (missing),0,PASS
+death 3-mod: test risks missing / range,0 / 0.00048 to 0.98583,PASS
+death 3-mod: main cross-validated predictions (missing),0,PASS
+comp 3-mod: test risks missing / range,0 / 0.00337 to 0.99994,PASS
+comp 3-mod: main cross-validated predictions (missing),0,PASS
+cv 3-mod: test risks missing / range,0 / 0.00225 to 0.83570,PASS
+cv 3-mod: main cross-validated predictions (missing),0,PASS

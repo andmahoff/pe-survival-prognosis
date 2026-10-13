@@ -1,0 +1,37 @@
+set,choice,value,N,share
+EHR+CTPA,mtry factor,1,36,0.6
+EHR+CTPA,mtry factor,2,22,0.367
+EHR+CTPA,mtry factor,3,2,0.033
+EHR+CTPA,node size,5,31,0.517
+EHR+CTPA,node size,10,23,0.383
+EHR+CTPA,node size,20,6,0.1
+EHR+CTPA,weights (other modalities),0.25,17,0.283
+EHR+CTPA,weights (other modalities),0.1,15,0.25
+EHR+CTPA,weights (other modalities),0.05,14,0.233
+EHR+CTPA,weights (other modalities),0.5,11,0.183
+EHR+CTPA,weights (other modalities),1,3,0.05
+EHR+ECG,mtry factor,1,118,0.983
+EHR+ECG,mtry factor,2,2,0.017
+EHR+ECG,node size,10,69,0.575
+EHR+ECG,node size,5,30,0.25
+EHR+ECG,node size,20,21,0.175
+EHR+ECG,weights (other modalities),0.25,32,0.267
+EHR+ECG,weights (other modalities),0.5,29,0.242
+EHR+ECG,weights (other modalities),0.05,26,0.217
+EHR+ECG,weights (other modalities),0.1,19,0.158
+EHR+ECG,weights (other modalities),1,14,0.117
+EHR+ECG+CTPA,mtry factor,1,56,0.933
+EHR+ECG+CTPA,mtry factor,2,3,0.05
+EHR+ECG+CTPA,mtry factor,3,1,0.017
+EHR+ECG+CTPA,node size,10,42,0.7
+EHR+ECG+CTPA,node size,5,14,0.233
+EHR+ECG+CTPA,node size,20,4,0.067
+EHR+ECG+CTPA,weights (other modalities),0.25/0.5,15,0.25
+EHR+ECG+CTPA,weights (other modalities),0.05/0.5,13,0.217
+EHR+ECG+CTPA,weights (other modalities),0.05/0.25,7,0.117
+EHR+ECG+CTPA,weights (other modalities),0.1/0.25,7,0.117
+EHR+ECG+CTPA,weights (other modalities),0.1/0.5,7,0.117
+EHR+ECG+CTPA,weights (other modalities),0.25/0.1,5,0.083
+EHR+ECG+CTPA,weights (other modalities),0.1/0.1,3,0.05
+EHR+ECG+CTPA,weights (other modalities),0.25/0.25,2,0.033
+EHR+ECG+CTPA,weights (other modalities),0.05/0.1,1,0.017

@@ -1,0 +1,193 @@
+part,cohort,subset,analysis,horizon_or_endpoint,model,measure,type,estimate,lo,hi,excludes_zero
+landmark,EHR+ECG,full cohort,S1,death,fused lr,auc30,score,0.871741833077982,0.853286279555401,0.888352741818062,FALSE
+landmark,EHR+ECG,full cohort,S1,death,fused lr,unoC,score,0.856261284468749,0.838548283108942,0.873054969935618,FALSE
+landmark,EHR+ECG,full cohort,S1,death,fused cox,auc30,score,0.860027444883014,0.840322718488624,0.878162918841111,FALSE
+landmark,EHR+ECG,full cohort,S1,death,fused cox,unoC,score,0.845565404436889,0.826636956422027,0.863666427821664,FALSE
+landmark,EHR+ECG,full cohort,S1,death,EHR lr,auc30,score,0.867897764159028,0.848886104344019,0.885019428878542,FALSE
+landmark,EHR+ECG,full cohort,S1,death,EHR lr,unoC,score,0.85301946011891,0.834611998893986,0.869816952364489,FALSE
+landmark,EHR+ECG,full cohort,S1,death,EHR cox,auc30,score,0.855542697810901,0.835224203855031,0.874073767377528,FALSE
+landmark,EHR+ECG,full cohort,S1,death,EHR cox,unoC,score,0.841878316544541,0.82228557670044,0.86008016139721,FALSE
+landmark,EHR+ECG,full cohort,S1,composite,fused lr,auc30,score,0.842125262557261,0.824947216016464,0.858987837036912,FALSE
+landmark,EHR+ECG,full cohort,S1,composite,fused lr,unoC,score,0.820021826519505,0.803438185310582,0.836219633369053,FALSE
+landmark,EHR+ECG,full cohort,S1,composite,fused cox,auc30,score,0.834190061132366,0.81573077551748,0.851489851251027,FALSE
+landmark,EHR+ECG,full cohort,S1,composite,fused cox,unoC,score,0.813166810964844,0.795746976245384,0.830237236187502,FALSE
+landmark,EHR+ECG,full cohort,S1,composite,EHR lr,auc30,score,0.83543152221943,0.817452062432973,0.852499352525263,FALSE
+landmark,EHR+ECG,full cohort,S1,composite,EHR lr,unoC,score,0.814812605525143,0.797762325822873,0.831563880675531,FALSE
+landmark,EHR+ECG,full cohort,S1,composite,EHR cox,auc30,score,0.82581669697086,0.806782957634498,0.843728459870235,FALSE
+landmark,EHR+ECG,full cohort,S1,composite,EHR cox,unoC,score,0.806617718907152,0.788396476013052,0.824193714301091,FALSE
+landmark,EHR+ECG,full cohort,S1,cv,fused lr,auc30,score,0.799548715655934,0.766934010730761,0.828665035697103,FALSE
+landmark,EHR+ECG,full cohort,S1,cv,fused lr,unoC,score,0.800748183735609,0.769882918737629,0.828538675434754,FALSE
+landmark,EHR+ECG,full cohort,S1,cv,fused cox,auc30,score,0.802728139604742,0.770435977525535,0.830658294131281,FALSE
+landmark,EHR+ECG,full cohort,S1,cv,fused cox,unoC,score,0.807632637120159,0.778407666982116,0.834456768939447,FALSE
+landmark,EHR+ECG,full cohort,S1,cv,EHR lr,auc30,score,0.789850643045261,0.754561275255118,0.821227090010365,FALSE
+landmark,EHR+ECG,full cohort,S1,cv,EHR lr,unoC,score,0.790214339644304,0.755623744987429,0.820608564756523,FALSE
+landmark,EHR+ECG,full cohort,S1,cv,EHR cox,auc30,score,0.796890608954431,0.763830455032694,0.825523995063718,FALSE
+landmark,EHR+ECG,full cohort,S1,cv,EHR cox,unoC,score,0.801126268847339,0.770121670766725,0.828352321804676,FALSE
+landmark,EHR+ECG,full cohort,S1,death,fused lr - fused cox,auc30,contrast,0.0117143881949674,0.00742929463228459,0.0160659234914581,TRUE
+landmark,EHR+ECG,full cohort,S1,death,fused cox - EHR cox,auc30,contrast,0.0044847470721131,0.000584925255645491,0.0083408842792061,TRUE
+landmark,EHR+ECG,full cohort,S1,death,fused lr - EHR lr,auc30,contrast,0.00384406891895406,0.00027328406029731,0.00735234169818107,TRUE
+landmark,EHR+ECG,full cohort,S1,death,EHR lr - EHR cox,auc30,contrast,0.0123550663481264,0.0076936906159072,0.0171442475937351,TRUE
+landmark,EHR+ECG,full cohort,S1,death,fused lr - fused cox,unoC,contrast,0.0106958800318602,0.00658021645217047,0.0148540474456242,TRUE
+landmark,EHR+ECG,full cohort,S1,death,fused cox - EHR cox,unoC,contrast,0.00368708789234784,-0.000114825003187863,0.00741345868056567,FALSE
+landmark,EHR+ECG,full cohort,S1,death,fused lr - EHR lr,unoC,contrast,0.00324182434983866,-0.000362268628591073,0.00673697885135324,FALSE
+landmark,EHR+ECG,full cohort,S1,death,EHR lr - EHR cox,unoC,contrast,0.0111411435743694,0.00663708887505915,0.0157802419466641,TRUE
+landmark,EHR+ECG,full cohort,S1,composite,fused lr - fused cox,auc30,contrast,0.00793520142489523,0.00477532843629004,0.0113471634735663,TRUE
+landmark,EHR+ECG,full cohort,S1,composite,fused cox - EHR cox,auc30,contrast,0.00837336416150636,0.00325911479508701,0.0135489639841182,TRUE
+landmark,EHR+ECG,full cohort,S1,composite,fused lr - EHR lr,auc30,contrast,0.00669374033783088,0.0019639657695001,0.0113987582621838,TRUE
+landmark,EHR+ECG,full cohort,S1,composite,EHR lr - EHR cox,auc30,contrast,0.00961482524857071,0.00582282430577503,0.0135758071975422,TRUE
+landmark,EHR+ECG,full cohort,S1,composite,fused lr - fused cox,unoC,contrast,0.00685501555466161,0.00385032478919325,0.0100794283273388,TRUE
+landmark,EHR+ECG,full cohort,S1,composite,fused cox - EHR cox,unoC,contrast,0.00654909205769205,0.00166124053719944,0.0113774619727003,TRUE
+landmark,EHR+ECG,full cohort,S1,composite,fused lr - EHR lr,unoC,contrast,0.00520922099436205,0.000616673134868057,0.00965838557002944,TRUE
+landmark,EHR+ECG,full cohort,S1,composite,EHR lr - EHR cox,unoC,contrast,0.00819488661799161,0.0046761898285583,0.0118793238279483,TRUE
+landmark,EHR+ECG,full cohort,S1,cv,fused lr - fused cox,auc30,contrast,-0.00317942394880788,-0.00937741007876362,0.00325219069577406,FALSE
+landmark,EHR+ECG,full cohort,S1,cv,fused cox - EHR cox,auc30,contrast,0.00583753065031056,-0.00231578452472675,0.0145829170686098,FALSE
+landmark,EHR+ECG,full cohort,S1,cv,fused lr - EHR lr,auc30,contrast,0.0096980726106729,0.000430837438898016,0.0197532583450463,TRUE
+landmark,EHR+ECG,full cohort,S1,cv,EHR lr - EHR cox,auc30,contrast,-0.00703996590917022,-0.0147116099166087,0.000652454259312608,FALSE
+landmark,EHR+ECG,full cohort,S1,cv,fused lr - fused cox,unoC,contrast,-0.00688445338454957,-0.0131419869345592,-0.000601352154549001,TRUE
+landmark,EHR+ECG,full cohort,S1,cv,fused cox - EHR cox,unoC,contrast,0.00650636827281892,-0.00110019371012513,0.0147016792205308,FALSE
+landmark,EHR+ECG,full cohort,S1,cv,fused lr - EHR lr,unoC,contrast,0.0105338440913049,0.00155553538249985,0.0201110440263544,TRUE
+landmark,EHR+ECG,full cohort,S1,cv,EHR lr - EHR cox,unoC,contrast,-0.0109119292030355,-0.0185105960874718,-0.00318390336675248,TRUE
+landmark,EHR+ECG,48-hour landmark,S1,death,fused lr,auc30,score,0.864601205897339,0.844648857816099,0.884354996581734,FALSE
+landmark,EHR+ECG,48-hour landmark,S1,death,fused lr,unoC,score,0.8500921108742,0.830779020122072,0.86924950138047,FALSE
+landmark,EHR+ECG,48-hour landmark,S1,death,fused cox,auc30,score,0.852016070229387,0.830851162960336,0.872693252454307,FALSE
+landmark,EHR+ECG,48-hour landmark,S1,death,fused cox,unoC,score,0.838455863539446,0.818128079523961,0.858510204010726,FALSE
+landmark,EHR+ECG,48-hour landmark,S1,death,EHR lr,auc30,score,0.860724078518356,0.840932679315082,0.880697521126517,FALSE
+landmark,EHR+ECG,48-hour landmark,S1,death,EHR lr,unoC,score,0.846252452025586,0.827125829657292,0.865525520784695,FALSE
+landmark,EHR+ECG,48-hour landmark,S1,death,EHR cox,auc30,score,0.847381431197418,0.826302941183279,0.868838099721366,FALSE
+landmark,EHR+ECG,48-hour landmark,S1,death,EHR cox,unoC,score,0.834,0.813297149975201,0.854784100280194,FALSE
+landmark,EHR+ECG,48-hour landmark,S1,composite,fused lr,auc30,score,0.835655594860845,0.817907801910063,0.852704354588039,FALSE
+landmark,EHR+ECG,48-hour landmark,S1,composite,fused lr,unoC,score,0.814128130756797,0.79691953723847,0.830324526340705,FALSE
+landmark,EHR+ECG,48-hour landmark,S1,composite,fused cox,auc30,score,0.826646315162538,0.807669528526531,0.844536403198374,FALSE
+landmark,EHR+ECG,48-hour landmark,S1,composite,fused cox,unoC,score,0.806041864919921,0.788232472919784,0.82310210245456,FALSE
+landmark,EHR+ECG,48-hour landmark,S1,composite,EHR lr,auc30,score,0.828915160668715,0.810799135757684,0.847024018346822,FALSE
+landmark,EHR+ECG,48-hour landmark,S1,composite,EHR lr,unoC,score,0.808413811562839,0.790961835768577,0.825594137471263,FALSE
+landmark,EHR+ECG,48-hour landmark,S1,composite,EHR cox,auc30,score,0.81806770213624,0.798436515405587,0.837112369684461,FALSE
+landmark,EHR+ECG,48-hour landmark,S1,composite,EHR cox,unoC,score,0.79873052132871,0.78008404271796,0.817040211603848,FALSE
+landmark,EHR+ECG,48-hour landmark,S1,cv,fused lr,auc30,score,0.799642723830854,0.76784215207076,0.830933952532635,FALSE
+landmark,EHR+ECG,48-hour landmark,S1,cv,fused lr,unoC,score,0.800322585168743,0.76988904092315,0.83060108486699,FALSE
+landmark,EHR+ECG,48-hour landmark,S1,cv,fused cox,auc30,score,0.803895376739722,0.77385677182717,0.83295047217531,FALSE
+landmark,EHR+ECG,48-hour landmark,S1,cv,fused cox,unoC,score,0.807126683366752,0.778912403746118,0.835504436017636,FALSE
+landmark,EHR+ECG,48-hour landmark,S1,cv,EHR lr,auc30,score,0.78920883769708,0.755476755677734,0.821700269943704,FALSE
+landmark,EHR+ECG,48-hour landmark,S1,cv,EHR lr,unoC,score,0.789565757988484,0.757240368373018,0.821119824692843,FALSE
+landmark,EHR+ECG,48-hour landmark,S1,cv,EHR cox,auc30,score,0.797465294441778,0.766981438614373,0.827778708822805,FALSE
+landmark,EHR+ECG,48-hour landmark,S1,cv,EHR cox,unoC,score,0.800493840385813,0.77132853817066,0.829818482205283,FALSE
+landmark,EHR+ECG,48-hour landmark,S1,death,fused lr - fused cox,auc30,contrast,0.0125851356679515,0.00776396472563432,0.017166546100511,TRUE
+landmark,EHR+ECG,48-hour landmark,S1,death,fused cox - EHR cox,auc30,contrast,0.00463463903196948,0.000547666465809579,0.00866827598245769,TRUE
+landmark,EHR+ECG,48-hour landmark,S1,death,fused lr - EHR lr,auc30,contrast,0.0038771273789826,6.15140682177246e-05,0.00770393802963732,TRUE
+landmark,EHR+ECG,48-hour landmark,S1,death,EHR lr - EHR cox,auc30,contrast,0.0133426473209384,0.00822137619311796,0.018380046892994,TRUE
+landmark,EHR+ECG,48-hour landmark,S1,death,fused lr - fused cox,unoC,contrast,0.0116362473347548,0.00709937999426127,0.0160741822045093,TRUE
+landmark,EHR+ECG,48-hour landmark,S1,death,fused cox - EHR cox,unoC,contrast,0.0044558635394456,0.000502205714529069,0.00837163756228215,TRUE
+landmark,EHR+ECG,48-hour landmark,S1,death,fused lr - EHR lr,unoC,contrast,0.00383965884861415,0.000237032928457778,0.00747240179605936,TRUE
+landmark,EHR+ECG,48-hour landmark,S1,death,EHR lr - EHR cox,unoC,contrast,0.0122524520255862,0.00742464369664904,0.0170929458458579,TRUE
+landmark,EHR+ECG,48-hour landmark,S1,composite,fused lr - fused cox,auc30,contrast,0.00900927969830634,0.0055170411432306,0.012510747808086,TRUE
+landmark,EHR+ECG,48-hour landmark,S1,composite,fused cox - EHR cox,auc30,contrast,0.00857861302629803,0.00289365722845854,0.0139094063727453,TRUE
+landmark,EHR+ECG,48-hour landmark,S1,composite,fused lr - EHR lr,auc30,contrast,0.00674043419212944,0.00157657453159373,0.0116002314309789,TRUE
+landmark,EHR+ECG,48-hour landmark,S1,composite,EHR lr - EHR cox,auc30,contrast,0.0108474585324749,0.0070315116883134,0.0149356817354145,TRUE
+landmark,EHR+ECG,48-hour landmark,S1,composite,fused lr - fused cox,unoC,contrast,0.00808626583687588,0.00488390623688101,0.0113756790895453,TRUE
+landmark,EHR+ECG,48-hour landmark,S1,composite,fused cox - EHR cox,unoC,contrast,0.00731134359121111,0.00198159222411489,0.0123170273948211,TRUE
+landmark,EHR+ECG,48-hour landmark,S1,composite,fused lr - EHR lr,unoC,contrast,0.00571431919395748,0.000884044196944878,0.0102125115735046,TRUE
+landmark,EHR+ECG,48-hour landmark,S1,composite,EHR lr - EHR cox,unoC,contrast,0.0096832902341295,0.00605117662354063,0.0135403071064172,TRUE
+landmark,EHR+ECG,48-hour landmark,S1,cv,fused lr - fused cox,auc30,contrast,-0.00425265290886789,-0.0111440371539763,0.00223509431968567,FALSE
+landmark,EHR+ECG,48-hour landmark,S1,cv,fused cox - EHR cox,auc30,contrast,0.00643008229794351,-0.00274028911645525,0.0147014012131542,FALSE
+landmark,EHR+ECG,48-hour landmark,S1,cv,fused lr - EHR lr,auc30,contrast,0.0104338861337742,0.000236336669423906,0.0204976213209182,TRUE
+landmark,EHR+ECG,48-hour landmark,S1,cv,EHR lr - EHR cox,auc30,contrast,-0.00825645674469855,-0.0166732563933532,-0.000304225695986444,TRUE
+landmark,EHR+ECG,48-hour landmark,S1,cv,fused lr - fused cox,unoC,contrast,-0.00680409819800865,-0.0136357509694963,-0.000437606716379912,TRUE
+landmark,EHR+ECG,48-hour landmark,S1,cv,fused cox - EHR cox,unoC,contrast,0.00663284298093825,-0.00192900074947008,0.0144455473456757,FALSE
+landmark,EHR+ECG,48-hour landmark,S1,cv,fused lr - EHR lr,unoC,contrast,0.0107568271802593,0.00110952258803503,0.0204761179136692,TRUE
+landmark,EHR+ECG,48-hour landmark,S1,cv,EHR lr - EHR cox,unoC,contrast,-0.0109280823973297,-0.0191993587315021,-0.00323127497600144,TRUE
+landmark,3-mod,full cohort,S1,death,fused lr,auc30,score,0.886952049936161,0.864668133355129,0.907656049095625,FALSE
+landmark,3-mod,full cohort,S1,death,fused lr,unoC,score,0.870583910454951,0.848882538691568,0.891469061854975,FALSE
+landmark,3-mod,full cohort,S1,death,fused cox,auc30,score,0.885650890197191,0.863087157821735,0.906656119305316,FALSE
+landmark,3-mod,full cohort,S1,death,fused cox,unoC,score,0.869931083439321,0.848154795820445,0.890920900684175,FALSE
+landmark,3-mod,full cohort,S1,death,EHR lr,auc30,score,0.868984075755426,0.84372294496749,0.892896541485634,FALSE
+landmark,3-mod,full cohort,S1,death,EHR lr,unoC,score,0.853568153872807,0.828377493784908,0.87719807202363,FALSE
+landmark,3-mod,full cohort,S1,death,EHR cox,auc30,score,0.867179741807349,0.841794808724734,0.891228242322697,FALSE
+landmark,3-mod,full cohort,S1,death,EHR cox,unoC,score,0.852389262368854,0.827502216615707,0.875744791296832,FALSE
+landmark,3-mod,full cohort,S1,composite,fused lr,auc30,score,0.850270524582451,0.827296139673568,0.872858175925854,FALSE
+landmark,3-mod,full cohort,S1,composite,fused lr,unoC,score,0.828806686800647,0.806936508226223,0.850871136595898,FALSE
+landmark,3-mod,full cohort,S1,composite,fused cox,auc30,score,0.850355919477448,0.827333877835847,0.872590143081397,FALSE
+landmark,3-mod,full cohort,S1,composite,fused cox,unoC,score,0.828967138825491,0.807221404367181,0.850655513660759,FALSE
+landmark,3-mod,full cohort,S1,composite,EHR lr,auc30,score,0.835735668964273,0.81026403771975,0.859727109573437,FALSE
+landmark,3-mod,full cohort,S1,composite,EHR lr,unoC,score,0.814769383954198,0.791404440097518,0.837729446302476,FALSE
+landmark,3-mod,full cohort,S1,composite,EHR cox,auc30,score,0.833776420052655,0.808120561424072,0.857819223874641,FALSE
+landmark,3-mod,full cohort,S1,composite,EHR cox,unoC,score,0.813380799141057,0.789227972998282,0.836385025183611,FALSE
+landmark,3-mod,full cohort,S1,cv,fused lr,auc30,score,0.783864709851552,0.735696685387723,0.827492329140166,FALSE
+landmark,3-mod,full cohort,S1,cv,fused lr,unoC,score,0.788701952775238,0.743458383440294,0.830429220785414,FALSE
+landmark,3-mod,full cohort,S1,cv,fused cox,auc30,score,0.791114203778677,0.742979842771082,0.833987520182625,FALSE
+landmark,3-mod,full cohort,S1,cv,fused cox,unoC,score,0.797978123312347,0.752117338561904,0.838527499028888,FALSE
+landmark,3-mod,full cohort,S1,cv,EHR lr,auc30,score,0.787162618083671,0.737401254563899,0.831238491825995,FALSE
+landmark,3-mod,full cohort,S1,cv,EHR lr,unoC,score,0.790833448366008,0.743419120933094,0.833908694385654,FALSE
+landmark,3-mod,full cohort,S1,cv,EHR cox,auc30,score,0.792113697705803,0.743928275480096,0.835257152521675,FALSE
+landmark,3-mod,full cohort,S1,cv,EHR cox,unoC,score,0.79675257979583,0.750067302742106,0.837417456125776,FALSE
+landmark,3-mod,full cohort,S1,death,fused lr - fused cox,auc30,contrast,0.00130115973897005,-0.00239039102871393,0.00484423105802096,FALSE
+landmark,3-mod,full cohort,S1,death,fused cox - EHR cox,auc30,contrast,0.0184711483898425,0.00557899194776425,0.0317499076627143,TRUE
+landmark,3-mod,full cohort,S1,death,fused lr - EHR lr,auc30,contrast,0.0179679741807348,0.0057294105896115,0.0309527269686394,TRUE
+landmark,3-mod,full cohort,S1,death,EHR lr - EHR cox,auc30,contrast,0.00180433394807777,-0.00233123430947654,0.00589996977590714,FALSE
+landmark,3-mod,full cohort,S1,death,fused lr - fused cox,unoC,contrast,0.000652827015629742,-0.00287670446890739,0.00406192729559226,FALSE
+landmark,3-mod,full cohort,S1,death,fused cox - EHR cox,unoC,contrast,0.0175418210704673,0.00486134636181661,0.0302269297920392,TRUE
+landmark,3-mod,full cohort,S1,death,fused lr - EHR lr,unoC,contrast,0.0170157565821442,0.00504559311793867,0.029508319508058,TRUE
+landmark,3-mod,full cohort,S1,death,EHR lr - EHR cox,unoC,contrast,0.00117889150395289,-0.00281386768518409,0.00503614875481078,FALSE
+landmark,3-mod,full cohort,S1,composite,fused lr - fused cox,auc30,contrast,-8.53948949964822e-05,-0.00249093535042864,0.0023734391613151,FALSE
+landmark,3-mod,full cohort,S1,composite,fused cox - EHR cox,auc30,contrast,0.0165794994247929,0.00582260366462838,0.0277726862775493,TRUE
+landmark,3-mod,full cohort,S1,composite,fused lr - EHR lr,auc30,contrast,0.0145348556181785,0.0047769274668773,0.0254124859925324,TRUE
+landmark,3-mod,full cohort,S1,composite,EHR lr - EHR cox,auc30,contrast,0.00195924891161792,-0.00101027426016241,0.00501772479830863,FALSE
+landmark,3-mod,full cohort,S1,composite,fused lr - fused cox,unoC,contrast,-0.000160452024844493,-0.00247900191254201,0.00229873227838234,FALSE
+landmark,3-mod,full cohort,S1,composite,fused cox - EHR cox,unoC,contrast,0.0155863396844342,0.00510254439124332,0.0263115554369418,TRUE
+landmark,3-mod,full cohort,S1,composite,fused lr - EHR lr,unoC,contrast,0.014037302846449,0.00467799179713965,0.0244353920132884,TRUE
+landmark,3-mod,full cohort,S1,composite,EHR lr - EHR cox,unoC,contrast,0.00138858481314075,-0.00152051232678642,0.00439810688613875,FALSE
+landmark,3-mod,full cohort,S1,cv,fused lr - fused cox,auc30,contrast,-0.00724949392712548,-0.0191011019530633,0.0039406043026992,FALSE
+landmark,3-mod,full cohort,S1,cv,fused cox - EHR cox,auc30,contrast,-0.000999493927125505,-0.0151392602619999,0.0131559572681323,FALSE
+landmark,3-mod,full cohort,S1,cv,fused lr - EHR lr,auc30,contrast,-0.00329790823211873,-0.0130758120414139,0.00703940157738316,FALSE
+landmark,3-mod,full cohort,S1,cv,EHR lr - EHR cox,auc30,contrast,-0.00495107962213226,-0.0159139864207765,0.00662247923746827,FALSE
+landmark,3-mod,full cohort,S1,cv,fused lr - fused cox,unoC,contrast,-0.00927617053710927,-0.0210669092826559,0.00177474786787903,FALSE
+landmark,3-mod,full cohort,S1,cv,fused cox - EHR cox,unoC,contrast,0.00122554351651749,-0.0121787373093994,0.0148297803186736,FALSE
+landmark,3-mod,full cohort,S1,cv,fused lr - EHR lr,unoC,contrast,-0.0021314955907703,-0.0115166971966973,0.00774300819727586,FALSE
+landmark,3-mod,full cohort,S1,cv,EHR lr - EHR cox,unoC,contrast,-0.00591913142982148,-0.0171443230230536,0.00550749144661686,FALSE
+landmark,3-mod,48-hour landmark,S1,death,fused lr,auc30,score,0.885974854497544,0.860334586743703,0.908342197598628,FALSE
+landmark,3-mod,48-hour landmark,S1,death,fused lr,unoC,score,0.87096729927408,0.845843236371744,0.893747668136203,FALSE
+landmark,3-mod,48-hour landmark,S1,death,fused cox,auc30,score,0.884489940364318,0.858935054693862,0.907373614474431,FALSE
+landmark,3-mod,48-hour landmark,S1,death,fused cox,unoC,score,0.870036456117721,0.844487004081253,0.892582680126642,FALSE
+landmark,3-mod,48-hour landmark,S1,death,EHR lr,auc30,score,0.867515052390449,0.841246742681808,0.893086508848153,FALSE
+landmark,3-mod,48-hour landmark,S1,death,EHR lr,unoC,score,0.852693498735243,0.827369767467989,0.877645510914098,FALSE
+landmark,3-mod,48-hour landmark,S1,death,EHR cox,auc30,score,0.865382132250613,0.838522994652919,0.890670894647738,FALSE
+landmark,3-mod,48-hour landmark,S1,death,EHR cox,unoC,score,0.851078817486129,0.825601485592076,0.875714268919003,FALSE
+landmark,3-mod,48-hour landmark,S1,composite,fused lr,auc30,score,0.846793081934685,0.821835612922618,0.870259053360713,FALSE
+landmark,3-mod,48-hour landmark,S1,composite,fused lr,unoC,score,0.826322898382673,0.802249970904594,0.8486948286478,FALSE
+landmark,3-mod,48-hour landmark,S1,composite,fused cox,auc30,score,0.846665234778518,0.821752962334315,0.869864316646099,FALSE
+landmark,3-mod,48-hour landmark,S1,composite,fused cox,unoC,score,0.826212995320359,0.802353923663373,0.848797651335992,FALSE
+landmark,3-mod,48-hour landmark,S1,composite,EHR lr,auc30,score,0.832861151169887,0.80596639784002,0.857421811218776,FALSE
+landmark,3-mod,48-hour landmark,S1,composite,EHR lr,unoC,score,0.812677397877756,0.787154925991622,0.836511686819037,FALSE
+landmark,3-mod,48-hour landmark,S1,composite,EHR cox,auc30,score,0.830324663591516,0.804444446520663,0.85498686327548,FALSE
+landmark,3-mod,48-hour landmark,S1,composite,EHR cox,unoC,score,0.810466594247451,0.78496053784815,0.834173408998811,FALSE
+landmark,3-mod,48-hour landmark,S1,cv,fused lr,auc30,score,0.782397245534754,0.734857182999719,0.824788370507378,FALSE
+landmark,3-mod,48-hour landmark,S1,cv,fused lr,unoC,score,0.78694293328629,0.742387090507408,0.827618489879011,FALSE
+landmark,3-mod,48-hour landmark,S1,cv,fused cox,auc30,score,0.790501398751883,0.74314752720455,0.831449873580468,FALSE
+landmark,3-mod,48-hour landmark,S1,cv,fused cox,unoC,score,0.796474110079406,0.752349811880876,0.835387994348481,FALSE
+landmark,3-mod,48-hour landmark,S1,cv,EHR lr,auc30,score,0.785211964708414,0.737272328306903,0.830134609626,FALSE
+landmark,3-mod,48-hour landmark,S1,cv,EHR lr,unoC,score,0.788871852635845,0.743275397563673,0.832023269668671,FALSE
+landmark,3-mod,48-hour landmark,S1,cv,EHR cox,auc30,score,0.790324940822036,0.743312864975511,0.832929278701845,FALSE
+landmark,3-mod,48-hour landmark,S1,cv,EHR cox,unoC,score,0.794812049265829,0.750434440688967,0.835802086818665,FALSE
+landmark,3-mod,48-hour landmark,S1,death,fused lr - fused cox,auc30,contrast,0.00148491413322627,-0.00224940747476025,0.00517419862567724,FALSE
+landmark,3-mod,48-hour landmark,S1,death,fused cox - EHR cox,auc30,contrast,0.0191078081137047,0.00617381106242899,0.032225048998588,TRUE
+landmark,3-mod,48-hour landmark,S1,death,fused lr - EHR lr,auc30,contrast,0.0184598021070956,0.00605353624703476,0.0313467827213208,TRUE
+landmark,3-mod,48-hour landmark,S1,death,EHR lr - EHR cox,auc30,contrast,0.00213292013983535,-0.00223593770690963,0.00658783476042705,FALSE
+landmark,3-mod,48-hour landmark,S1,death,fused lr - fused cox,unoC,contrast,0.000930843156358829,-0.00271997921173453,0.00459130622381699,FALSE
+landmark,3-mod,48-hour landmark,S1,death,fused cox - EHR cox,unoC,contrast,0.0189576386315919,0.00666592441244893,0.0314826934726423,TRUE
+landmark,3-mod,48-hour landmark,S1,death,fused lr - EHR lr,unoC,contrast,0.018273800538837,0.00633513611384304,0.0308101221616161,TRUE
+landmark,3-mod,48-hour landmark,S1,death,EHR lr - EHR cox,unoC,contrast,0.00161468124911379,-0.00253406228681826,0.00595578691191981,FALSE
+landmark,3-mod,48-hour landmark,S1,composite,fused lr - fused cox,auc30,contrast,0.000127847156167871,-0.00237567927439791,0.00269026483613397,FALSE
+landmark,3-mod,48-hour landmark,S1,composite,fused cox - EHR cox,auc30,contrast,0.0163405711870013,0.00548247332622108,0.0273790232101457,TRUE
+landmark,3-mod,48-hour landmark,S1,composite,fused lr - EHR lr,auc30,contrast,0.0139319307647988,0.00376977386849812,0.0243266721034989,TRUE
+landmark,3-mod,48-hour landmark,S1,composite,EHR lr - EHR cox,auc30,contrast,0.00253648757837033,-0.000428344797151378,0.00560894781509957,FALSE
+landmark,3-mod,48-hour landmark,S1,composite,fused lr - fused cox,unoC,contrast,0.00010990306231351,-0.00233739152609792,0.00250947338395101,FALSE
+landmark,3-mod,48-hour landmark,S1,composite,fused cox - EHR cox,unoC,contrast,0.0157464010729087,0.00548835468941145,0.0263849523735431,TRUE
+landmark,3-mod,48-hour landmark,S1,composite,fused lr - EHR lr,unoC,contrast,0.013645500504917,0.00407644742137138,0.0233593647642457,TRUE
+landmark,3-mod,48-hour landmark,S1,composite,EHR lr - EHR cox,unoC,contrast,0.00221080363030524,-0.000674937659842864,0.0051661646736186,FALSE
+landmark,3-mod,48-hour landmark,S1,cv,fused lr - fused cox,auc30,contrast,-0.00810415321712932,-0.0197123462660547,0.00282583982296549,FALSE
+landmark,3-mod,48-hour landmark,S1,cv,fused cox - EHR cox,auc30,contrast,0.000176457929847218,-0.0136827382748492,0.0147635640139012,FALSE
+landmark,3-mod,48-hour landmark,S1,cv,fused lr - EHR lr,auc30,contrast,-0.00281471917366039,-0.0130663407934592,0.00745639679676341,FALSE
+landmark,3-mod,48-hour landmark,S1,cv,EHR lr - EHR cox,auc30,contrast,-0.00511297611362171,-0.0163299993299941,0.00630094355099645,FALSE
+landmark,3-mod,48-hour landmark,S1,cv,fused lr - fused cox,unoC,contrast,-0.00953117679311588,-0.0208133283178242,0.00111363008114758,FALSE
+landmark,3-mod,48-hour landmark,S1,cv,fused cox - EHR cox,unoC,contrast,0.00166206081357734,-0.0120050960816966,0.0155681737796494,FALSE
+landmark,3-mod,48-hour landmark,S1,cv,fused lr - EHR lr,unoC,contrast,-0.00192891934955441,-0.0118645447122699,0.00818320255749568,FALSE
+landmark,3-mod,48-hour landmark,S1,cv,EHR lr - EHR cox,unoC,contrast,-0.00594019662998413,-0.0170972102430078,0.00558880789238666,FALSE

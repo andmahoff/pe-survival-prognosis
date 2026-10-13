@@ -1,0 +1,19 @@
+type,family,modality,setting,N,share
+chosen setting,RSF,ehr,"node 15, mtry 12",50,0.833
+chosen setting,RSF,ehr,"node 5, mtry 6",5,0.083
+chosen setting,RSF,ehr,"node 40, mtry 36",3,0.05
+chosen setting,RSF,ehr,"node 5, mtry 12",1,0.017
+chosen setting,RSF,ehr,"node 2, mtry 6",1,0.017
+chosen setting,oblique RSF,ehr,"leaf 20, mtry 47",23,0.383
+chosen setting,oblique RSF,ehr,"leaf 60, mtry 47",23,0.383
+chosen setting,oblique RSF,ehr,"leaf 20, mtry 24",7,0.117
+chosen setting,oblique RSF,ehr,"leaf 60, mtry 83",3,0.05
+chosen setting,oblique RSF,ehr,"leaf 5, mtry 24",2,0.033
+chosen setting,oblique RSF,ehr,"leaf 20, mtry 138",1,0.017
+chosen setting,oblique RSF,ehr,"leaf 20, mtry 83",1,0.017
+extensions,oblique RSF,ehr,mtry up,56,0.107
+extensions,oblique RSF,ehr,leaf up,26,0
+extensions,RSF,ehr,mtry up,3,0
+extensions,RSF,ehr,node down,8,0.125
+extensions,RSF,ehr,mtry down,6,0
+extensions,oblique RSF,ehr,leaf down,2,0

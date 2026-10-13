@@ -1,0 +1,17 @@
+item,value,status
+input files found,all,PASS
+EHR+ECG: patients kept / removed (CV events by 365 removed),2376 / 533 (66),INFO
+EHR+ECG: composite models in stage 11b's file,absent: latefusion,PASS
+EHR+ECG: missing S2 or composite predictions,0,PASS
+3-mod: patients kept / removed (CV events by 365 removed),1169 / 236 (28),INFO
+3-mod: composite models in stage 11b's file,absent: latefusion,PASS
+3-mod: missing S2 or composite predictions,0,PASS
+all admissions: no follow-up row (discharge location unknown),0,INFO
+"rebuilt first admissions reproduce frame_B.csv (rows, times)","2909 vs 2909, TRUE",PASS
+all-admission Frame B: admissions / patients / deaths by 365,3226 / 2914 / 715,INFO
+EHR+ECG: missing S1 scores,0,PASS
+EHR+ECG: admissions kept / removed by the landmark,3461 / 40 (deaths and CV readmissions; CV <10),INFO
+3-mod: missing S1 scores,0,PASS
+3-mod: admissions kept / removed by the landmark,1624 / 12 (deaths and CV readmissions; CV <10),INFO
+all-admission scores failing the per-fold rule (D2),0,PASS
+all-admission scores missing,0,PASS

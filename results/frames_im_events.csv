@@ -1,0 +1,11 @@
+frame,cohort,endpoint,horizon_days,n,events,censored_by_h,risk,method
+I,INSPECT,death,10,3300,122,88,0.0375,kaplan_meier
+I,INSPECT,death,30,3300,250,164,0.0779,kaplan_meier
+I,INSPECT,death,90,3300,377,254,0.1191,kaplan_meier
+I,INSPECT,death,180,3300,450,352,0.1436,kaplan_meier
+I,INSPECT,death,365,3300,539,475,0.1748,kaplan_meier
+M,3-mod,death,10,1490,58,0,0.0389,empirical
+M,3-mod,death,30,1490,132,0,0.0886,empirical
+M,3-mod,death,90,1490,246,0,0.1651,empirical
+M,3-mod,death,180,1490,301,0,0.202,empirical
+M,3-mod,death,365,1490,369,0,0.2477,empirical

@@ -1,0 +1,52 @@
+section,item,value
+frame A,rows / columns,3501 / 9
+frame A,column names,subject_id hadm_id in_three_mod first_adm time_death event_death time_first event_cr event_comp
+frame A,time_death max / deaths,31.0 / 397
+labels,column names,subject_id hadm_id dod_days inhosp_days cv_days death_days death_30d death_30d_inhosp cv_30d death_first cv_first composite_30d composite_inhosp
+labels,dod_days: non-missing / max / <= 365,1397 / 5176 / 971
+labels,inhosp_days: non-missing / max / <= 365,264 / 149 / 264
+ehr28,temp,"1512 distinct values, 18.9% missing"
+ehr28,hr,"1885 distinct values, 18.3% missing"
+ehr28,sbp,"2234 distinct values, 10.7% missing"
+ehr28,dbp,"2198 distinct values, 10.7% missing"
+ehr28,rr,"1660 distinct values, 18.5% missing"
+ehr28,creatinine,"1222 distinct values, 3.5% missing"
+ehr28,sodium,"1170 distinct values, 3.7% missing"
+ehr28,potassium,"1221 distinct values, 3.7% missing"
+ehr28,bun,"1441 distinct values, 3.6% missing"
+ehr28,glucose,"1843 distinct values, 3.9% missing"
+ehr28,calcium,"1264 distinct values, 9.0% missing"
+ehr28,bicarb,"1139 distinct values, 3.8% missing"
+ehr28,chloride,"1182 distinct values, 3.7% missing"
+ehr28,hct,"2370 distinct values, 2.9% missing"
+ehr28,plt,"2488 distinct values, 3.0% missing"
+ehr28,wbc,"2116 distinct values, 3.0% missing"
+ehr28,hgb,"1821 distinct values, 3.0% missing"
+ehr28,aniongap,"1039 distinct values, 3.8% missing"
+ehr28,rbc,"2401 distinct values, 3.0% missing"
+ehr28,mchc,"1771 distinct values, 3.0% missing"
+ehr28,mch,"2008 distinct values, 3.0% missing"
+ehr28,mcv,"1400 distinct values, 3.0% missing"
+ehr28,rdw,"1789 distinct values, 3.0% missing"
+ehr28,afib,"binary, distinct values, 0.0% missing"
+ehr28,cancer,"binary, distinct values, 0.0% missing"
+ehr28,copd,"binary, distinct values, 0.0% missing"
+ehr28,heart_failure,"binary, distinct values, 0.0% missing"
+ehr28,age,"82 distinct values, 0.0% missing"
+ehr_extra,non-lab columns,hadm_id spo2 nlr hr_first hr_first_src sbp_first sbp_first_src spo2_first spo2_first_src sex_f n_prior n_codes
+ecg_opt.csv,rows / distinct hadm_id,3501 / 3501
+ecg_opt.csv,first 15 column names,subject_id hadm_id scp_1AVB scp_2AVB scp_3AVB scp_ABQRS scp_AFIB scp_AFLT scp_ALMI scp_AMI scp_ANEUR scp_ASMI scp_BIGU scp_CLBBB scp_CRBBB
+ecg_timing.csv,rows / distinct hadm_id,3501 / 3501
+ecg_timing.csv,first 15 column names,subject_id hadm_id n_ecg ecg_h_first ecg_h_last
+ctpa46,rows / distinct hadm_id,1639 / 1639
+ctpa46,non-feature columns,subject_id hadm_id
+search,matching files,9
+search,Dissertation/figwork/data/ctpa_notes_index.csv,7.6 MB; columns: note_id subject_id hadm_id charttime text idx_hadm admittime dischtime
+search,Dissertation/figwork/data/ctpa_window_results.csv,0.0 MB; columns: window outcome set n ev auc ap
+search,GitHub/pe-multimodal-prognosis-msc/results/ctpa_window_results.csv,0.0 MB; columns: window outcome set n ev auc ap
+search,SurvivalProject/results/ecg_features_blocks.csv,0.0 MB; columns: block features whole_year_q05 front_loaded_q05 late_loaded_q05 front_loaded_logt_q05 median_ratio median_ratio_if_year_q05
+search,SurvivalProject/results/ecg_features_tv.csv,0.1 MB; columns: feature n deaths orientation hr_year hr_year_lo hr_year_hi p_year
+search,SurvivalProject_retuned/results/ecg_features_blocks.csv,0.0 MB; columns: block features whole_year_q05 front_loaded_q05 late_loaded_q05 front_loaded_logt_q05 median_ratio median_ratio_if_year_q05
+search,SurvivalProject_retuned/results/ecg_features_tv.csv,0.1 MB; columns: feature n deaths orientation hr_year hr_year_lo hr_year_hi p_year
+search,SurvivalProject_retuned2/results/ecg_features_blocks.csv,0.0 MB; columns: block features whole_year_q05 front_loaded_q05 late_loaded_q05 front_loaded_logt_q05 median_ratio median_ratio_if_year_q05
+search,SurvivalProject_retuned2/results/ecg_features_tv.csv,0.1 MB; columns: feature n deaths orientation hr_year hr_year_lo hr_year_hi p_year

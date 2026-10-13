@@ -1,0 +1,161 @@
+frame,target,contrast,horizon,measure,estimate,lo,hi,excludes_zero
+P,death,"Survival super learner - Binary super learner, recalibrated",10,auc,0.00715307340395677,-0.00965563377310845,0.0230029008280235,FALSE
+P,death,"Survival super learner - Binary super learner, recalibrated",10,ipa,-0.0144149272704012,-0.0473832733803797,0.015960124640712,FALSE
+P,death,"Survival super learner - Binary super learner, recalibrated",30,auc,-0.00355111792048612,-0.0105858236349766,0.00385596922040078,FALSE
+P,death,"Survival super learner - Binary super learner, recalibrated",30,ipa,-0.00501636560999885,-0.0220658841497945,0.0130433768217321,FALSE
+P,death,"Survival super learner - Binary super learner, recalibrated",90,auc,0.000837160378023505,-0.00237553033325443,0.00418636127818434,FALSE
+P,death,"Survival super learner - Binary super learner, recalibrated",90,ipa,0.000249032818085304,-0.00951537198174462,0.00990354596800629,FALSE
+P,death,"Survival super learner - Binary super learner, recalibrated",180,auc,0.00156748508808435,-0.00114528063063491,0.004266015557747,FALSE
+P,death,"Survival super learner - Binary super learner, recalibrated",180,ipa,0.00476946108056919,-0.00338218027485212,0.0132549017578938,FALSE
+P,death,"Survival super learner - Binary super learner, recalibrated",365,auc,-0.000452652617610294,-0.00313583516350897,0.00226254800136624,FALSE
+P,death,"Survival super learner - Binary super learner, recalibrated",365,ipa,-0.0033715149435497,-0.011854966153639,0.00490362593799879,FALSE
+P,death,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",10,auc,0.00313105458381657,-0.000207571047323432,0.0068209299286605,FALSE
+P,death,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",10,ipa,0.000274422119535211,-0.00561704555277701,0.00625261601557382,FALSE
+P,death,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",30,auc,0.00318675504427535,-0.000132049835142714,0.00637408401156902,FALSE
+P,death,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",30,ipa,0.00565902230494209,-0.00156445774433973,0.0130373304653196,FALSE
+P,death,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",90,auc,0.00263618766706608,0.000203206072307052,0.00499625278733349,TRUE
+P,death,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",90,ipa,0.00564440916887599,-0.000456735988813076,0.0118279845706311,FALSE
+P,death,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",180,auc,0.00219216719840942,6.88453622995633e-05,0.00423690777381116,TRUE
+P,death,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",180,ipa,0.0055852100584628,-0.000288400243651596,0.0114198034563591,FALSE
+P,death,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",365,auc,0.00355894049979033,0.000756578395244198,0.00629123998029135,TRUE
+P,death,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",365,ipa,0.0101078024093616,0.00248914875131006,0.0177233917313411,TRUE
+P,comp,"Survival super learner - Binary super learner, recalibrated",10,auc,0.00925925925925919,-0.00593118850310853,0.0241651761981566,FALSE
+P,comp,"Survival super learner - Binary super learner, recalibrated",10,ipa,-0.0221898176525347,-0.0493510580236427,0.00138051783876871,FALSE
+P,comp,"Survival super learner - Binary super learner, recalibrated",30,auc,0.00427827542117465,-0.0012251995624584,0.0102073074377317,FALSE
+P,comp,"Survival super learner - Binary super learner, recalibrated",30,ipa,0.000556527211237223,-0.0123739965367354,0.0144156128538425,FALSE
+P,comp,"Survival super learner - Binary super learner, recalibrated",90,auc,0.00159444259536068,-0.00111159771250156,0.00442491455380088,FALSE
+P,comp,"Survival super learner - Binary super learner, recalibrated",90,ipa,0.00466384490306626,-0.00255772856999853,0.0123079888702032,FALSE
+P,comp,"Survival super learner - Binary super learner, recalibrated",180,auc,0.000765590095036184,-0.00195125143462251,0.00346408433255842,FALSE
+P,comp,"Survival super learner - Binary super learner, recalibrated",180,ipa,0.00202833266568325,-0.00518525375226083,0.00910153327783859,FALSE
+P,comp,"Survival super learner - Binary super learner, recalibrated",365,auc,-0.000719916161662226,-0.00348613383715166,0.00200273196110067,FALSE
+P,comp,"Survival super learner - Binary super learner, recalibrated",365,ipa,-0.00199562041845236,-0.00949704861162199,0.00539967274567316,FALSE
+P,comp,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",10,auc,0.00571903714978295,0.00120567070479693,0.0105917799861245,TRUE
+P,comp,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",10,ipa,0.000359590803322818,-0.00516311839050694,0.00593349835086948,FALSE
+P,comp,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",30,auc,0.00738997349981874,0.00330111033253344,0.0115164530642663,TRUE
+P,comp,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",30,ipa,0.00776870201666668,0.000116715373287654,0.0154295113828668,TRUE
+P,comp,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",90,auc,0.00577070999968343,0.002364542685058,0.00907890131856822,TRUE
+P,comp,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",90,ipa,0.0128182216838716,0.00450850267575208,0.0210462845095512,TRUE
+P,comp,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",180,auc,0.00425731702699628,0.00138279228948868,0.00692174724639482,TRUE
+P,comp,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",180,ipa,0.0107247541318815,0.00395117869557997,0.0177126617285415,TRUE
+P,comp,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",365,auc,0.0053737850976654,0.00236058131976275,0.00830642044322831,TRUE
+P,comp,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",365,ipa,0.0142921905070268,0.00678828612622812,0.0218582581570068,TRUE
+P,cv,"Survival super learner - Binary super learner, recalibrated",10,auc,-0.0363951473136915,-0.0877580465972525,0.0109035150015552,FALSE
+P,cv,"Survival super learner - Binary super learner, recalibrated",10,ipa,0.000846989699409773,-0.00897721897434214,0.0114542301252415,FALSE
+P,cv,"Survival super learner - Binary super learner, recalibrated",30,auc,0.0161599614382418,0.00484625172015665,0.0265439073302256,TRUE
+P,cv,"Survival super learner - Binary super learner, recalibrated",30,ipa,0.00860990017448904,0.000268163854380527,0.0165591588144981,TRUE
+P,cv,"Survival super learner - Binary super learner, recalibrated",90,auc,0.00718077891881419,0.00142696248643698,0.0125701730927955,TRUE
+P,cv,"Survival super learner - Binary super learner, recalibrated",90,ipa,0.0127079328084978,0.00520788666186919,0.0206120951289705,TRUE
+P,cv,"Survival super learner - Binary super learner, recalibrated",180,auc,0.00456663878314023,0.000119339228347049,0.00899089771183123,TRUE
+P,cv,"Survival super learner - Binary super learner, recalibrated",180,ipa,0.00760725601123469,0.00010390986769778,0.014699414899664,TRUE
+P,cv,"Survival super learner - Binary super learner, recalibrated",365,auc,0.00200199600798401,-0.00176633271458877,0.00580547868897665,FALSE
+P,cv,"Survival super learner - Binary super learner, recalibrated",365,ipa,0.00298636285978748,-0.00337330935790079,0.00947728671083164,FALSE
+P,cv,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",10,auc,0.0134944970300256,-0.00545505061592479,0.0328442875057324,FALSE
+P,cv,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",10,ipa,-0.000609074387684871,-0.00759201273569152,0.00519543462239861,FALSE
+P,cv,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",30,auc,0.0147243742446576,-0.000851908949268193,0.0318232161201606,FALSE
+P,cv,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",30,ipa,0.00919684518287334,-0.000666195852949697,0.0187923706059257,FALSE
+P,cv,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",90,auc,0.0117409416779694,0.00368536629115371,0.020106300614581,TRUE
+P,cv,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",90,ipa,0.00711129376977393,-0.00235147237887447,0.016623495319084,FALSE
+P,cv,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",180,auc,0.00778617732370912,0.00261477470621274,0.0133778130031755,TRUE
+P,cv,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",180,ipa,0.00367019659003875,-0.00300175064377431,0.0108650137294307,FALSE
+P,cv,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",365,auc,0.0085602129075183,0.00357199204516534,0.0138786732745574,TRUE
+P,cv,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",365,ipa,0.00550411671384221,-0.0014532157195885,0.0130252395866664,FALSE
+P,cv_excl,"Survival super learner - Binary super learner, recalibrated",10,auc,-0.0355071615345588,-0.0878920431924134,0.0135037682870325,FALSE
+P,cv_excl,"Survival super learner - Binary super learner, recalibrated",30,auc,0.0125923068444836,0.00227135419152942,0.0223723913406341,TRUE
+P,cv_excl,"Survival super learner - Binary super learner, recalibrated",90,auc,-0.0026277372262774,-0.00869208189091191,0.00318352370499026,FALSE
+P,cv_excl,"Survival super learner - Binary super learner, recalibrated",180,auc,-0.00969193458068707,-0.0159223965314923,-0.0034833008892733,TRUE
+P,cv_excl,"Survival super learner - Binary super learner, recalibrated",365,auc,-0.0148472286196837,-0.0215121348811686,-0.00832753019792382,TRUE
+P,cv_excl,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",10,auc,0.0145494282480584,-0.010373777642063,0.0375689561924986,FALSE
+P,cv_excl,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",10,ipa,-0.000513395677281037,-0.00813185342825011,0.00636863981230948,FALSE
+P,cv_excl,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",30,auc,0.0145053612759994,-0.000828911943894978,0.0312334720475618,FALSE
+P,cv_excl,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",30,ipa,0.0115260904623827,-0.00200332155330436,0.0246171032094918,FALSE
+P,cv_excl,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",90,auc,0.0124448121989421,0.0039062231003401,0.0212952647384723,TRUE
+P,cv_excl,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",90,ipa,0.0158942897511284,0.00168840521615677,0.0302685877847592,TRUE
+P,cv_excl,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",180,auc,0.00932625760000327,0.00340925121253337,0.0155403878606338,TRUE
+P,cv_excl,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",180,ipa,0.0113656094349938,-0.000116737743127196,0.0232635027949159,FALSE
+P,cv_excl,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",365,auc,0.011118035422368,0.00497211523330728,0.0172684088929854,TRUE
+P,cv_excl,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",365,ipa,0.0177611253306548,0.00482122922942511,0.031538623231631,TRUE
+B,death,"Survival super learner - Binary super learner, recalibrated",10,auc,0.00732097019225741,-0.0109636038628771,0.0268970650554582,FALSE
+B,death,"Survival super learner - Binary super learner, recalibrated",10,ipa,-0.0176935239282383,-0.0557999374699279,0.0219335816137724,FALSE
+B,death,"Survival super learner - Binary super learner, recalibrated",30,auc,0.00326533819721897,-0.00328805530952973,0.0103373663145785,FALSE
+B,death,"Survival super learner - Binary super learner, recalibrated",30,ipa,-0.0096789843760362,-0.0267369260035908,0.00738567734589032,FALSE
+B,death,"Survival super learner - Binary super learner, recalibrated",90,auc,0.00366316277184142,-7.7001701425472e-05,0.00756260578874578,FALSE
+B,death,"Survival super learner - Binary super learner, recalibrated",90,ipa,0.00629608998751563,-0.00347682159542643,0.016299850284963,FALSE
+B,death,"Survival super learner - Binary super learner, recalibrated",180,auc,0.000450033206333633,-0.00232823038935656,0.0032387437102656,FALSE
+B,death,"Survival super learner - Binary super learner, recalibrated",180,ipa,0.000503166840258307,-0.00754800880569144,0.00915407381435293,FALSE
+B,death,"Survival super learner - Binary super learner, recalibrated",365,auc,-0.00108795219774804,-0.00331171981091088,0.00123979561924746,FALSE
+B,death,"Survival super learner - Binary super learner, recalibrated",365,ipa,-0.00385177483943755,-0.0116102528116815,0.00418042242446142,FALSE
+B,death,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",10,auc,0.00203869593308537,0.000129229249090757,0.00455719867449837,TRUE
+B,death,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",10,ipa,-0.000917152872922711,-0.00828979460397441,0.00578270899843146,FALSE
+B,death,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",30,auc,0.00299236502303735,0.00040429075699604,0.00567169276456494,TRUE
+B,death,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",30,ipa,0.000253246969427079,-0.00667407139744967,0.00708952230589279,FALSE
+B,death,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",90,auc,0.00222195491937471,0.000307060280590305,0.00406092577520821,TRUE
+B,death,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",90,ipa,0.00291584736065165,-0.00289938939316691,0.00871197688857551,FALSE
+B,death,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",180,auc,0.00092366038659164,-0.000219429485236242,0.00206228550734613,FALSE
+B,death,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",180,ipa,0.00100065371346947,-0.00279151104034674,0.00428153838724005,FALSE
+B,death,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",365,auc,0.00217097196972904,0.000126379572139185,0.00410380848814882,TRUE
+B,death,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",365,ipa,0.00637719498467759,0.000353616981098878,0.0122435423249273,TRUE
+B,death,"Survival super learner v7 - Binary super learner, recalibrated",10,auc,0.00887945937450896,-0.0101400913278852,0.0291595786193148,FALSE
+B,death,"Survival super learner v7 - Binary super learner, recalibrated",10,ipa,-0.0171792466507279,-0.0558683136670223,0.0240950409727242,FALSE
+B,death,"Survival super learner v7 - Binary super learner, recalibrated",30,auc,0.00306474427376724,-0.0038402994210487,0.0103818310036962,FALSE
+B,death,"Survival super learner v7 - Binary super learner, recalibrated",30,ipa,-0.0114080386338605,-0.0297886916935642,0.00691416309198635,FALSE
+B,death,"Survival super learner v7 - Binary super learner, recalibrated",90,auc,0.00426793546418258,0.000455132636434535,0.0083203999371444,TRUE
+B,death,"Survival super learner v7 - Binary super learner, recalibrated",90,ipa,0.00728998714759155,-0.00311611289446846,0.0177634597234288,FALSE
+B,death,"Survival super learner v7 - Binary super learner, recalibrated",180,auc,0.00121814813520216,-0.00151649466786388,0.00410224125767791,FALSE
+B,death,"Survival super learner v7 - Binary super learner, recalibrated",180,ipa,0.00202525056474523,-0.00612464905834986,0.010643449680888,FALSE
+B,death,"Survival super learner v7 - Binary super learner, recalibrated",365,auc,-0.000373455093786612,-0.00258802067436812,0.00201087673214817,FALSE
+B,death,"Survival super learner v7 - Binary super learner, recalibrated",365,ipa,-0.00209504484679623,-0.00999686943351608,0.00588252593366987,FALSE
+B,comp,"Survival super learner - Binary super learner, recalibrated",10,auc,0.0123356672588567,0.000770275327528308,0.0231122878588467,TRUE
+B,comp,"Survival super learner - Binary super learner, recalibrated",10,ipa,-0.00933854156636094,-0.0311580125476597,0.0112041579600017,FALSE
+B,comp,"Survival super learner - Binary super learner, recalibrated",30,auc,0.00475188431044904,-0.000712505463925467,0.0105666414611886,FALSE
+B,comp,"Survival super learner - Binary super learner, recalibrated",30,ipa,-0.00192124536037264,-0.0140996491335042,0.0115691494392481,FALSE
+B,comp,"Survival super learner - Binary super learner, recalibrated",90,auc,0.00288083760484281,0.000158599900788431,0.0057288050178608,TRUE
+B,comp,"Survival super learner - Binary super learner, recalibrated",90,ipa,0.00806149480977325,0.000809738590484113,0.01520175778323,TRUE
+B,comp,"Survival super learner - Binary super learner, recalibrated",180,auc,-0.00108076242876798,-0.00386371601002191,0.00158470890114405,FALSE
+B,comp,"Survival super learner - Binary super learner, recalibrated",180,ipa,-0.0041589137930238,-0.012498050700792,0.00401572188216877,FALSE
+B,comp,"Survival super learner - Binary super learner, recalibrated",365,auc,-0.00240842506045968,-0.00485232283312657,0.000121847968476,FALSE
+B,comp,"Survival super learner - Binary super learner, recalibrated",365,ipa,-0.00804243834923624,-0.0154127738611429,-0.000553374400888027,TRUE
+B,comp,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",10,auc,0.00346744696415513,0.00142435356663016,0.00560568141995385,TRUE
+B,comp,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",10,ipa,-5.84821327014318e-05,-0.00325436933833119,0.00294391635681097,FALSE
+B,comp,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",30,auc,0.00250315533117651,0.000293281648145952,0.00471617314153363,TRUE
+B,comp,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",30,ipa,0.000372915314183708,-0.0042952838347028,0.00526010785779027,FALSE
+B,comp,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",90,auc,0.00285091459674258,0.00018222963143287,0.00554239768257533,TRUE
+B,comp,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",90,ipa,0.00552983508811755,-0.00127747169870495,0.0123038434240908,FALSE
+B,comp,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",180,auc,0.00169735125030857,1.73881488838845e-05,0.00346523751976551,TRUE
+B,comp,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",180,ipa,0.00268375072708682,-0.00175656143980075,0.00745034027982162,FALSE
+B,comp,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",365,auc,0.00297677352946057,0.000470280110549359,0.00534554177806229,TRUE
+B,comp,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",365,ipa,0.00723123503173895,0.00101158634346083,0.0137049307643891,TRUE
+B,cv,"Survival super learner - Binary super learner, recalibrated",10,auc,0.0127464669543877,-0.00420913102321835,0.0296591164660175,FALSE
+B,cv,"Survival super learner - Binary super learner, recalibrated",10,ipa,0.00241254949323477,-0.0146303216608407,0.0185621225252685,FALSE
+B,cv,"Survival super learner - Binary super learner, recalibrated",30,auc,0.00504677911538842,-0.00389757457015357,0.0141567170614567,FALSE
+B,cv,"Survival super learner - Binary super learner, recalibrated",30,ipa,0.00418325149081433,-0.0100600266655999,0.0189144156685748,FALSE
+B,cv,"Survival super learner - Binary super learner, recalibrated",90,auc,0.00555085976914338,-0.000467886356559169,0.0118176511720233,FALSE
+B,cv,"Survival super learner - Binary super learner, recalibrated",90,ipa,0.0124352431182635,-0.000545374525809078,0.0260586611945714,FALSE
+B,cv,"Survival super learner - Binary super learner, recalibrated",180,auc,0.00583780131642031,0.000854446967348813,0.0110174961106533,TRUE
+B,cv,"Survival super learner - Binary super learner, recalibrated",180,ipa,0.00916200170865766,-0.00275752162423285,0.0212435132862027,FALSE
+B,cv,"Survival super learner - Binary super learner, recalibrated",365,auc,0.00503924091166996,9.88628053221919e-05,0.00981294659819529,TRUE
+B,cv,"Survival super learner - Binary super learner, recalibrated",365,ipa,0.00344195701145145,-0.00782863636348946,0.014872608515396,FALSE
+B,cv,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",10,auc,0.0057332656342558,-0.00119080085736646,0.0127403308896909,FALSE
+B,cv,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",10,ipa,0.000464179215007299,-0.00566080003408986,0.00646089744505601,FALSE
+B,cv,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",30,auc,0.00297515919057789,-0.00117521566880922,0.00698320881982202,FALSE
+B,cv,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",30,ipa,0.000393228825453784,-0.00560979315091957,0.00611991894961081,FALSE
+B,cv,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",90,auc,0.00148973823925613,-0.00194737761977443,0.00485569997259253,FALSE
+B,cv,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",90,ipa,0.00172615448099256,-0.00416485303031448,0.00746036752666493,FALSE
+B,cv,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",180,auc,0.00164334597445626,-0.000653051707610977,0.00386227942487116,FALSE
+B,cv,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",180,ipa,0.00103649904314473,-0.00298141067337504,0.00518877617825609,FALSE
+B,cv,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",365,auc,0.00334076766496449,0.000411556710413472,0.00616796881583827,TRUE
+B,cv,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",365,ipa,0.00328423389869315,-0.00180408578463141,0.00842399812001326,FALSE
+B,cv_excl,"Survival super learner - Binary super learner, recalibrated",10,auc,0.0104116117537139,-0.00547363716965175,0.0263739927028089,FALSE
+B,cv_excl,"Survival super learner - Binary super learner, recalibrated",30,auc,0.000720936387733406,-0.00780090406371554,0.00930856860102438,FALSE
+B,cv_excl,"Survival super learner - Binary super learner, recalibrated",90,auc,0.00130294510011209,-0.00375658233573843,0.00647878534182807,FALSE
+B,cv_excl,"Survival super learner - Binary super learner, recalibrated",180,auc,-0.00279433491262926,-0.00678230715463394,0.000948805093239863,FALSE
+B,cv_excl,"Survival super learner - Binary super learner, recalibrated",365,auc,-0.00908104489155148,-0.0130577183319512,-0.00506464984552696,TRUE
+B,cv_excl,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",10,auc,0.00650408859466778,-0.000703781456639718,0.0136568053348933,FALSE
+B,cv_excl,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",10,ipa,0.000642448225992132,-0.00606646021306205,0.00708806655412222,FALSE
+B,cv_excl,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",30,auc,0.00375874505714169,-0.00110416568059611,0.00850523647398328,FALSE
+B,cv_excl,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",30,ipa,0.00262583213115297,-0.00521067658111945,0.0105234511127436,FALSE
+B,cv_excl,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",90,auc,0.00242081277123096,-0.00239514454824331,0.00687404832930692,FALSE
+B,cv_excl,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",90,ipa,0.00586864553284916,-0.0033975057444336,0.0150538032578627,FALSE
+B,cv_excl,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",180,auc,0.00161877833817314,-0.00132250949933846,0.00454617401242214,FALSE
+B,cv_excl,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",180,ipa,0.00342840261174104,-0.0033318738545445,0.00999055839076755,FALSE
+B,cv_excl,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",365,auc,0.00332906234488806,0.000155790061399891,0.00644131668976734,TRUE
+B,cv_excl,"Binary super learner, recalibrated - Binary super learner-EHR, recalibrated",365,ipa,0.00605175641141331,-0.00144771526069766,0.0134614108321642,FALSE

@@ -1,0 +1,13 @@
+item,value,status
+input files found,all,PASS
+final Frame B model (from stage 18o),"Super learner v7, recalibrated",INFO
+"Frame B: Super learner v7, recalibrated, Late PH and EHR alone present (missing)",0,PASS
+Frame B: demographics found,100.0%,PASS
+Frame B age: patients (deaths by 365 days),under 65 1471 (200); 65-79 950 (244); 80 and over 488 (176),INFO
+Frame B sex: patients (deaths by 365 days),female 1501 (309); male 1408 (311),INFO
+Frame B race: patients (deaths by 365 days),White 2020 (471); Black 499 (77); Hispanic or Latino 107 (10); Asian 59 (24); Other 108 (23); Unknown 116 (15),INFO
+"Frame A: Super learner v4, recalibrated, Late PH and EHR alone present (missing)",0,PASS
+Frame A: demographics found,100.0%,PASS
+Frame A age: patients (deaths by 30 days),under 65 1732 (121); 65-79 1159 (166); 80 and over 610 (110),INFO
+Frame A sex: patients (deaths by 30 days),female 1811 (208); male 1690 (189),INFO
+Frame A race: patients (deaths by 30 days),White 2394 (272); Black 599 (45); Hispanic or Latino 143 (12); Asian 80 (18); Other 129 (11); Unknown 156 (39),INFO

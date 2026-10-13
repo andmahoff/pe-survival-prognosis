@@ -1,0 +1,22 @@
+item,value,status
+ehr28 admissions without an ehr_extra row,0,PASS
+median SpO2 at presentation / averaged (percent scale),98.0 / 97.0,PASS
+admissions with all three presentation vitals,0.732,INFO
+A EHR+ECG 30d | presentation vitals (main): missing sPESI / predictions,0 / 0,PASS
+A EHR+ECG 30d | averaged vitals: missing sPESI / predictions,0 / 0,PASS
+"A EHR+ECG 30d | presentation vitals, complete cases: missing sPESI / predictions",0 / 0,PASS
+A 3-mod 30d | presentation vitals (main): missing sPESI / predictions,0 / 0,PASS
+A 3-mod 30d | averaged vitals: missing sPESI / predictions,0 / 0,PASS
+"A 3-mod 30d | presentation vitals, complete cases: missing sPESI / predictions",0 / 0,PASS
+B EHR+ECG 30d | presentation vitals (main): missing sPESI / predictions,0 / 0,PASS
+B EHR+ECG 30d | averaged vitals: missing sPESI / predictions,0 / 0,PASS
+"B EHR+ECG 30d | presentation vitals, complete cases: missing sPESI / predictions",0 / 0,PASS
+B EHR+ECG 365d | presentation vitals (main): missing sPESI / predictions,0 / 0,PASS
+B EHR+ECG 365d | averaged vitals: missing sPESI / predictions,0 / 0,PASS
+"B EHR+ECG 365d | presentation vitals, complete cases: missing sPESI / predictions",0 / 0,PASS
+B 3-mod 30d | presentation vitals (main): missing sPESI / predictions,0 / 0,PASS
+B 3-mod 30d | averaged vitals: missing sPESI / predictions,0 / 0,PASS
+"B 3-mod 30d | presentation vitals, complete cases: missing sPESI / predictions",0 / 0,PASS
+B 3-mod 365d | presentation vitals (main): missing sPESI / predictions,0 / 0,PASS
+B 3-mod 365d | averaged vitals: missing sPESI / predictions,0 / 0,PASS
+"B 3-mod 365d | presentation vitals, complete cases: missing sPESI / predictions",0 / 0,PASS

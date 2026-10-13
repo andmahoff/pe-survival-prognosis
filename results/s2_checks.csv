@@ -1,0 +1,25 @@
+frame,cohort,item,value,status
+A,EHR+ECG,failed fits,0,PASS
+A,EHR+ECG,largest level-2 input after winsorising,5.09,INFO
+A,EHR+ECG,missing predictions,0,PASS
+A,EHR+ECG,risk range (all seeds),0.000170 to 0.688471,PASS
+A,EHR+ECG,F3 risk falls as horizon lengthens,0,PASS
+A,EHR+ECG,F4 risk falls as horizon lengthens,0,PASS
+A,3-mod,failed fits,0,PASS
+A,3-mod,largest level-2 input after winsorising,6.49,INFO
+A,3-mod,missing predictions,0,PASS
+A,3-mod,risk range (all seeds),0.000044 to 0.882492,PASS
+A,3-mod,F3 risk falls as horizon lengthens,0,PASS
+A,3-mod,F4 risk falls as horizon lengthens,0,PASS
+B,EHR+ECG,failed fits,0,PASS
+B,EHR+ECG,largest level-2 input after winsorising,3.79,INFO
+B,EHR+ECG,missing predictions,0,PASS
+B,EHR+ECG,risk range (all seeds),0.002719 to 0.955284,PASS
+B,EHR+ECG,F3 risk falls as horizon lengthens,0,PASS
+B,EHR+ECG,F4 risk falls as horizon lengthens,0,PASS
+B,3-mod,failed fits,0,PASS
+B,3-mod,largest level-2 input after winsorising,6.55,INFO
+B,3-mod,missing predictions,0,PASS
+B,3-mod,risk range (all seeds),0.000635 to 0.970442,PASS
+B,3-mod,F3 risk falls as horizon lengthens,0,PASS
+B,3-mod,F4 risk falls as horizon lengthens,0,PASS

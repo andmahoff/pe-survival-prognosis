@@ -1,0 +1,531 @@
+﻿table,pipeline,outcome,cohort,row,horizon,estimate,lo,hi,excludes_zero,source
+2,At diagnosis,Death,EHR+ECG,Events,10,178.0,,,,optionB_outcome_events
+2,At diagnosis,Death,EHR+ECG,Events,30,397.0,,,,optionB_outcome_events
+2,At diagnosis,Death,EHR+ECG,Events,90,646.0,,,,optionB_outcome_events
+2,At diagnosis,Death,EHR+ECG,Events,180,801.0,,,,optionB_outcome_events
+2,At diagnosis,Death,EHR+ECG,Events,365,971.0,,,,optionB_outcome_events
+2,At diagnosis,Death,EHR+ECG,AUROC (95% CI),10,0.855227610085647,0.831849331895238,0.878268109257877,,stage 18q (slP_metrics)
+2,At diagnosis,Death,EHR+ECG,AUROC (95% CI),30,0.867183645381599,0.849950633737626,0.884357395854924,,stage 18q (slP_metrics)
+2,At diagnosis,Death,EHR+ECG,AUROC (95% CI),90,0.882396859564178,0.869104758555711,0.894977204731189,,stage 18q (slP_metrics)
+2,At diagnosis,Death,EHR+ECG,AUROC (95% CI),180,0.88547417579877,0.87267810753092,0.896994866972387,,stage 18q (slP_metrics)
+2,At diagnosis,Death,EHR+ECG,AUROC (95% CI),365,0.888985724345954,0.877008805399895,0.900730121940955,,stage 18q (slP_metrics)
+2,At diagnosis,Death,EHR+ECG,IPA (95% CI),10,0.123460703250442,0.0821002480775933,0.162186201484751,,stage 18q (slP_metrics)
+2,At diagnosis,Death,EHR+ECG,IPA (95% CI),30,0.237126097115248,0.196782890065642,0.276369228683062,,stage 18q (slP_metrics)
+2,At diagnosis,Death,EHR+ECG,IPA (95% CI),90,0.33085899986604,0.295800024744734,0.366427603168443,,stage 18q (slP_metrics)
+2,At diagnosis,Death,EHR+ECG,IPA (95% CI),180,0.367704003633945,0.333925622006098,0.401157662723625,,stage 18q (slP_metrics)
+2,At diagnosis,Death,EHR+ECG,IPA (95% CI),365,0.4052915672386,0.373166131956486,0.436430346037327,,stage 18q (slP_metrics)
+2,At diagnosis,Death,EHR+ECG,Observed / expected (95% CI),10,0.995154599407711,0.864199252511126,1.12666876536541,,stage 18q (slP_metrics)
+2,At diagnosis,Death,EHR+ECG,Observed / expected (95% CI),30,0.99850235496549,0.919911497160333,1.07838754789243,,stage 18q (slP_metrics)
+2,At diagnosis,Death,EHR+ECG,Observed / expected (95% CI),90,0.999554863366741,0.940667561162108,1.05890178385194,,stage 18q (slP_metrics)
+2,At diagnosis,Death,EHR+ECG,Observed / expected (95% CI),180,0.99998262817977,0.948759324264178,1.05259413762631,,stage 18q (slP_metrics)
+2,At diagnosis,Death,EHR+ECG,Observed / expected (95% CI),365,0.99994854606,0.953967849057799,1.04569629870269,,stage 18q (slP_metrics)
+2,At diagnosis,Death,EHR+ECG,Calibration slope (95% CI),10,1.02270681688768,0.907244907152574,1.15859479639289,,stage 13b
+2,At diagnosis,Death,EHR+ECG,Calibration slope (95% CI),30,1.02098832346878,0.930920588386679,1.1214812973414,,stage 13b
+2,At diagnosis,Death,EHR+ECG,Calibration slope (95% CI),90,1.02012900628111,0.944740322016145,1.10417086197182,,stage 13b
+2,At diagnosis,Death,EHR+ECG,Calibration slope (95% CI),180,1.02059299517146,0.949848701396144,1.09981278511,,stage 13b
+2,At diagnosis,Death,EHR+ECG,Calibration slope (95% CI),365,1.02026003165161,0.947081976773531,1.09983990084049,,stage 13b
+2,At diagnosis,Death,EHR+ECG,ICI,10,0.0082749966741169,,,,stage 13b
+2,At diagnosis,Death,EHR+ECG,ICI,30,0.0080114189058712,,,,stage 13b
+2,At diagnosis,Death,EHR+ECG,ICI,90,0.0117906889493189,,,,stage 13b
+2,At diagnosis,Death,EHR+ECG,ICI,180,0.0148563687419239,,,,stage 13b
+2,At diagnosis,Death,EHR+ECG,ICI,365,0.0179035260098171,,,,stage 13b
+2,At diagnosis,Death or CV readmission,EHR+ECG,Events,10,216.0,,,,optionB_outcome_events
+2,At diagnosis,Death or CV readmission,EHR+ECG,Events,30,547.0,,,,optionB_outcome_events
+2,At diagnosis,Death or CV readmission,EHR+ECG,Events,90,898.0,,,,optionB_outcome_events
+2,At diagnosis,Death or CV readmission,EHR+ECG,Events,180,1100.0,,,,optionB_outcome_events
+2,At diagnosis,Death or CV readmission,EHR+ECG,Events,365,1291.0,,,,optionB_outcome_events
+2,At diagnosis,Death or CV readmission,EHR+ECG,AUROC (95% CI),10,0.830012965781611,0.806642330196742,0.854344551389463,,stage 18r (optB2_sl_summary)
+2,At diagnosis,Death or CV readmission,EHR+ECG,AUROC (95% CI),30,0.844839643578131,0.828015669528497,0.860950138341188,,stage 18r (optB2_sl_summary)
+2,At diagnosis,Death or CV readmission,EHR+ECG,AUROC (95% CI),90,0.866521582515292,0.852894442791057,0.879631180390616,,stage 18r (optB2_sl_summary)
+2,At diagnosis,Death or CV readmission,EHR+ECG,AUROC (95% CI),180,0.868918253757904,0.856465485517669,0.88175159834835,,stage 18r (optB2_sl_summary)
+2,At diagnosis,Death or CV readmission,EHR+ECG,AUROC (95% CI),365,0.87420499034387,0.861483305899027,0.887097326840498,,stage 18r (optB2_sl_summary)
+2,At diagnosis,Death or CV readmission,EHR+ECG,IPA (95% CI),10,0.0995459684296086,0.0665509245474087,0.130350433015149,,stage 18r (optB2_sl_summary)
+2,At diagnosis,Death or CV readmission,EHR+ECG,IPA (95% CI),30,0.223207589014736,0.188301605622934,0.25705079819717,,stage 18r (optB2_sl_summary)
+2,At diagnosis,Death or CV readmission,EHR+ECG,IPA (95% CI),90,0.343291069509364,0.309485694237636,0.376840224437388,,stage 18r (optB2_sl_summary)
+2,At diagnosis,Death or CV readmission,EHR+ECG,IPA (95% CI),180,0.373726564182733,0.34222442331323,0.405527675612624,,stage 18r (optB2_sl_summary)
+2,At diagnosis,Death or CV readmission,EHR+ECG,IPA (95% CI),365,0.407783626497296,0.377018254190678,0.440146534063741,,stage 18r (optB2_sl_summary)
+2,At diagnosis,Death or CV readmission,EHR+ECG,Observed / expected (95% CI),10,0.999548184113164,0.875072308864922,1.12180200725621,,stage 18r (optB2_sl_summary)
+2,At diagnosis,Death or CV readmission,EHR+ECG,Observed / expected (95% CI),30,1.00023866959515,0.936346461982916,1.06724468010376,,stage 18r (optB2_sl_summary)
+2,At diagnosis,Death or CV readmission,EHR+ECG,Observed / expected (95% CI),90,1.00061805455727,0.953030398891361,1.05051011963234,,stage 18r (optB2_sl_summary)
+2,At diagnosis,Death or CV readmission,EHR+ECG,Observed / expected (95% CI),180,1.00075489711893,0.958949247006367,1.04388307889522,,stage 18r (optB2_sl_summary)
+2,At diagnosis,Death or CV readmission,EHR+ECG,Observed / expected (95% CI),365,1.00081516367997,0.964192961234227,1.03818759354848,,stage 18r (optB2_sl_summary)
+2,At diagnosis,Death or CV readmission,EHR+ECG,Calibration slope (95% CI),10,1.02210876950837,0.910084437252409,1.15414490054424,,stage 13b
+2,At diagnosis,Death or CV readmission,EHR+ECG,Calibration slope (95% CI),30,1.01557513313958,0.930900923183436,1.10748853907866,,stage 13b
+2,At diagnosis,Death or CV readmission,EHR+ECG,Calibration slope (95% CI),90,1.01585370545033,0.943150672006876,1.09761544761095,,stage 13b
+2,At diagnosis,Death or CV readmission,EHR+ECG,Calibration slope (95% CI),180,1.01596505979556,0.947310190012603,1.0962886733522,,stage 13b
+2,At diagnosis,Death or CV readmission,EHR+ECG,Calibration slope (95% CI),365,1.01599939221589,0.943110975237124,1.10025129126363,,stage 13b
+2,At diagnosis,Death or CV readmission,EHR+ECG,ICI,10,0.0074122267188883,,,,stage 13b
+2,At diagnosis,Death or CV readmission,EHR+ECG,ICI,30,0.0155622447656275,,,,stage 13b
+2,At diagnosis,Death or CV readmission,EHR+ECG,ICI,90,0.0150644865234739,,,,stage 13b
+2,At diagnosis,Death or CV readmission,EHR+ECG,ICI,180,0.0181114414694422,,,,stage 13b
+2,At diagnosis,Death or CV readmission,EHR+ECG,ICI,365,0.0225381667442137,,,,stage 13b
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,Events,10,39.0,,,,optionB_outcome_events
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,Events,30,172.0,,,,optionB_outcome_events
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,Events,90,325.0,,,,optionB_outcome_events
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,Events,180,418.0,,,,optionB_outcome_events
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,Events,365,501.0,,,,optionB_outcome_events
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,AUROC (95% CI),10,0.736657334577612,0.649690066844001,0.818549265892746,,stage 18r (optB2_sl_summary)
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,AUROC (95% CI),30,0.790205173702558,0.757711375383542,0.820966713586266,,stage 18r (optB2_sl_summary)
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,AUROC (95% CI),90,0.80496124782019,0.779188577324807,0.829568308817177,,stage 18r (optB2_sl_summary)
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,AUROC (95% CI),180,0.804512165029091,0.781844223900423,0.826312562318148,,stage 18r (optB2_sl_summary)
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,AUROC (95% CI),365,0.798984697272122,0.776530912929982,0.820318240511287,,stage 18r (optB2_sl_summary)
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,AUROC excluding earlier deaths (95% CI),10,0.742793583889474,0.656982933031166,0.822499409503698,,stage 18r (optB2_sl_summary)
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,AUROC excluding earlier deaths (95% CI),30,0.810404890491411,0.781202030170767,0.839209615188568,,stage 18r (optB2_sl_summary)
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,AUROC excluding earlier deaths (95% CI),90,0.837886462365909,0.814002916615225,0.85966155873309,,stage 18r (optB2_sl_summary)
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,AUROC excluding earlier deaths (95% CI),180,0.842393221325245,0.821338844030307,0.861895385077545,,stage 18r (optB2_sl_summary)
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,AUROC excluding earlier deaths (95% CI),365,0.843349500094833,0.823468648636036,0.862858356396271,,stage 18r (optB2_sl_summary)
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,IPA (95% CI),10,0.0111132689538503,-0.0018121025851554,0.0219824978610605,,stage 18r (optB2_sl_summary)
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,IPA (95% CI),30,0.0586211490400739,0.029607514650685,0.0848674203352235,,stage 18r (optB2_sl_summary)
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,IPA (95% CI),90,0.129327321482962,0.0912670092881696,0.165212991049749,,stage 18r (optB2_sl_summary)
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,IPA (95% CI),180,0.166978184321681,0.130441374792394,0.203184174756361,,stage 18r (optB2_sl_summary)
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,IPA (95% CI),365,0.174195885815584,0.140586346454194,0.207869797475301,,stage 18r (optB2_sl_summary)
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,Observed / expected (95% CI),10,0.986518595282984,0.691184290496995,1.29388630355263,,stage 18r (optB2_sl_summary)
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,Observed / expected (95% CI),30,0.985499391094771,0.846504492243324,1.13941604828535,,stage 18r (optB2_sl_summary)
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,Observed / expected (95% CI),90,0.989537446436596,0.893384972666023,1.0920736974852,,stage 18r (optB2_sl_summary)
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,Observed / expected (95% CI),180,0.992119681214086,0.90661271167332,1.07605693356601,,stage 18r (optB2_sl_summary)
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,Observed / expected (95% CI),365,0.993426286939699,0.916967400054678,1.07305697127008,,stage 18r (optB2_sl_summary)
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,Calibration slope (95% CI),10,1.06210018828885,0.700738990223468,1.43332733777544,,stage 13b
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,Calibration slope (95% CI),30,1.00874991236856,0.869738877868524,1.15677875627247,,stage 13b
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,Calibration slope (95% CI),90,1.00734425637326,0.895157702259932,1.13178878282726,,stage 13b
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,Calibration slope (95% CI),180,1.01306683087995,0.913351554577315,1.122017665511,,stage 13b
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,Calibration slope (95% CI),365,1.01616689724968,0.925680452844798,1.11606706982369,,stage 13b
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,ICI,10,0.0044357758998195,,,,stage 13b
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,ICI,30,0.00606867227364,,,,stage 13b
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,ICI,90,0.0066708427353178,,,,stage 13b
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,ICI,180,0.0067080300964537,,,,stage 13b
+2,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,ICI,365,0.0056112996658776,,,,stage 13b
+2,At discharge,Death,EHR+ECG,Events,10,81.0,,,,optionB_outcome_events
+2,At discharge,Death,EHR+ECG,Events,30,177.0,,,,optionB_outcome_events
+2,At discharge,Death,EHR+ECG,Events,90,351.0,,,,optionB_outcome_events
+2,At discharge,Death,EHR+ECG,Events,180,469.0,,,,optionB_outcome_events
+2,At discharge,Death,EHR+ECG,Events,365,620.0,,,,optionB_outcome_events
+2,At discharge,Death,EHR+ECG,AUROC (95% CI),10,0.936018998725269,0.912997941625686,0.95667293095262,,stage 18r (optB2_sl_summary)
+2,At discharge,Death,EHR+ECG,AUROC (95% CI),30,0.924642860097112,0.906698852932972,0.940490038358092,,stage 18r (optB2_sl_summary)
+2,At discharge,Death,EHR+ECG,AUROC (95% CI),90,0.910072639548793,0.895414932520431,0.924272980711798,,stage 18r (optB2_sl_summary)
+2,At discharge,Death,EHR+ECG,AUROC (95% CI),180,0.906987311685134,0.894247689544724,0.920019671683256,,stage 18r (optB2_sl_summary)
+2,At discharge,Death,EHR+ECG,AUROC (95% CI),365,0.900321312307107,0.887965123086651,0.913201534210563,,stage 18r (optB2_sl_summary)
+2,At discharge,Death,EHR+ECG,IPA (95% CI),10,0.248955886542758,0.15983515207698,0.324070026145053,,stage 18r (optB2_sl_summary)
+2,At discharge,Death,EHR+ECG,IPA (95% CI),30,0.314403586428123,0.250063784590889,0.371786253248441,,stage 18r (optB2_sl_summary)
+2,At discharge,Death,EHR+ECG,IPA (95% CI),90,0.362144514051479,0.314875418044242,0.407452598410215,,stage 18r (optB2_sl_summary)
+2,At discharge,Death,EHR+ECG,IPA (95% CI),180,0.386790375682242,0.346007641840294,0.427341198345222,,stage 18r (optB2_sl_summary)
+2,At discharge,Death,EHR+ECG,IPA (95% CI),365,0.409140963721004,0.374559178889854,0.446239429416287,,stage 18r (optB2_sl_summary)
+2,At discharge,Death,EHR+ECG,Observed / expected (95% CI),10,0.977500265225735,0.79030647359183,1.15570201187463,,stage 18r (optB2_sl_summary)
+2,At discharge,Death,EHR+ECG,Observed / expected (95% CI),30,0.990360658524124,0.874818506287128,1.1090942172455,,stage 18r (optB2_sl_summary)
+2,At discharge,Death,EHR+ECG,Observed / expected (95% CI),90,0.996010341803479,0.920426673270158,1.07351476895429,,stage 18r (optB2_sl_summary)
+2,At discharge,Death,EHR+ECG,Observed / expected (95% CI),180,0.996584868569208,0.932300857208691,1.06204435523372,,stage 18r (optB2_sl_summary)
+2,At discharge,Death,EHR+ECG,Observed / expected (95% CI),365,0.997015966038246,0.941273814267609,1.05064844515909,,stage 18r (optB2_sl_summary)
+2,At discharge,Death,EHR+ECG,Calibration slope (95% CI),10,1.02023582156054,0.879190850575939,1.2052277559402,,stage 13b
+2,At discharge,Death,EHR+ECG,Calibration slope (95% CI),30,1.01377197302291,0.909960985135075,1.140712287849,,stage 13b
+2,At discharge,Death,EHR+ECG,Calibration slope (95% CI),90,1.01052006401033,0.921744180723501,1.11468492044127,,stage 13b
+2,At discharge,Death,EHR+ECG,Calibration slope (95% CI),180,1.01301182039855,0.93243044573253,1.10794534515145,,stage 13b
+2,At discharge,Death,EHR+ECG,Calibration slope (95% CI),365,1.01373610001939,0.937158756525749,1.1127427841087,,stage 13b
+2,At discharge,Death,EHR+ECG,ICI,10,0.0053153537614507,,,,stage 13b
+2,At discharge,Death,EHR+ECG,ICI,30,0.003613139484102,,,,stage 13b
+2,At discharge,Death,EHR+ECG,ICI,90,0.0044883075542957,,,,stage 13b
+2,At discharge,Death,EHR+ECG,ICI,180,0.0077527755340476,,,,stage 13b
+2,At discharge,Death,EHR+ECG,ICI,365,0.0101184319982677,,,,stage 13b
+2,At discharge,Death or CV readmission,EHR+ECG,Events,10,175.0,,,,optionB_outcome_events
+2,At discharge,Death or CV readmission,EHR+ECG,Events,30,352.0,,,,optionB_outcome_events
+2,At discharge,Death or CV readmission,EHR+ECG,Events,90,572.0,,,,optionB_outcome_events
+2,At discharge,Death or CV readmission,EHR+ECG,Events,180,728.0,,,,optionB_outcome_events
+2,At discharge,Death or CV readmission,EHR+ECG,Events,365,899.0,,,,optionB_outcome_events
+2,At discharge,Death or CV readmission,EHR+ECG,AUROC (95% CI),10,0.865486466715435,0.84219039576732,0.888139609493079,,stage 18r (optB2_sl_summary)
+2,At discharge,Death or CV readmission,EHR+ECG,AUROC (95% CI),30,0.869955914246098,0.851222016711298,0.88745429872418,,stage 18r (optB2_sl_summary)
+2,At discharge,Death or CV readmission,EHR+ECG,AUROC (95% CI),90,0.877041871265235,0.862412008171665,0.890474834685899,,stage 18r (optB2_sl_summary)
+2,At discharge,Death or CV readmission,EHR+ECG,AUROC (95% CI),180,0.880130472461972,0.866527485783385,0.893264696855171,,stage 18r (optB2_sl_summary)
+2,At discharge,Death or CV readmission,EHR+ECG,AUROC (95% CI),365,0.879043602897636,0.86642315697142,0.891591447203652,,stage 18r (optB2_sl_summary)
+2,At discharge,Death or CV readmission,EHR+ECG,IPA (95% CI),10,0.161114669050007,0.110480298901455,0.20659673216144,,stage 18r (optB2_sl_summary)
+2,At discharge,Death or CV readmission,EHR+ECG,IPA (95% CI),30,0.25307455969773,0.209072403446772,0.295331049855343,,stage 18r (optB2_sl_summary)
+2,At discharge,Death or CV readmission,EHR+ECG,IPA (95% CI),90,0.329083412332511,0.291667568582662,0.365999842383723,,stage 18r (optB2_sl_summary)
+2,At discharge,Death or CV readmission,EHR+ECG,IPA (95% CI),180,0.369939834978289,0.334633152045216,0.403584036434825,,stage 18r (optB2_sl_summary)
+2,At discharge,Death or CV readmission,EHR+ECG,IPA (95% CI),365,0.399323872049751,0.366856733891166,0.430730074752178,,stage 18r (optB2_sl_summary)
+2,At discharge,Death or CV readmission,EHR+ECG,Observed / expected (95% CI),10,0.992629318449062,0.868175746381951,1.12336858615859,,stage 18r (optB2_sl_summary)
+2,At discharge,Death or CV readmission,EHR+ECG,Observed / expected (95% CI),30,0.995826184732494,0.912913296057524,1.08070758278944,,stage 18r (optB2_sl_summary)
+2,At discharge,Death or CV readmission,EHR+ECG,Observed / expected (95% CI),90,0.99785206044994,0.937211091095993,1.0588687461341,,stage 18r (optB2_sl_summary)
+2,At discharge,Death or CV readmission,EHR+ECG,Observed / expected (95% CI),180,0.998097036433671,0.945733924444131,1.04888066109651,,stage 18r (optB2_sl_summary)
+2,At discharge,Death or CV readmission,EHR+ECG,Observed / expected (95% CI),365,0.998386935816896,0.955901798220485,1.03989348873753,,stage 18r (optB2_sl_summary)
+2,At discharge,Death or CV readmission,EHR+ECG,Calibration slope (95% CI),10,1.01308856789402,0.897039162086273,1.14403755931677,,stage 13b
+2,At discharge,Death or CV readmission,EHR+ECG,Calibration slope (95% CI),30,1.01048242445309,0.919855101144314,1.11705583738682,,stage 13b
+2,At discharge,Death or CV readmission,EHR+ECG,Calibration slope (95% CI),90,1.01107618149564,0.930688100932291,1.10021144927185,,stage 13b
+2,At discharge,Death or CV readmission,EHR+ECG,Calibration slope (95% CI),180,1.01330969130294,0.936189951390772,1.10022813935943,,stage 13b
+2,At discharge,Death or CV readmission,EHR+ECG,Calibration slope (95% CI),365,1.01288131157238,0.938692556142665,1.09477845835859,,stage 13b
+2,At discharge,Death or CV readmission,EHR+ECG,ICI,10,0.0091460511327344,,,,stage 13b
+2,At discharge,Death or CV readmission,EHR+ECG,ICI,30,0.0121473172811142,,,,stage 13b
+2,At discharge,Death or CV readmission,EHR+ECG,ICI,90,0.0168915603655049,,,,stage 13b
+2,At discharge,Death or CV readmission,EHR+ECG,ICI,180,0.0229663914305706,,,,stage 13b
+2,At discharge,Death or CV readmission,EHR+ECG,ICI,365,0.0244118350987688,,,,stage 13b
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,Events,10,101.0,,,,optionB_outcome_events
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,Events,30,198.0,,,,optionB_outcome_events
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,Events,90,289.0,,,,optionB_outcome_events
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,Events,180,360.0,,,,optionB_outcome_events
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,Events,365,431.0,,,,optionB_outcome_events
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,AUROC (95% CI),10,0.837257764237962,0.803534751251426,0.867362288034852,,stage 18r (optB2_sl_summary)
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,AUROC (95% CI),30,0.837254880043519,0.810656050030147,0.86205403147245,,stage 18r (optB2_sl_summary)
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,AUROC (95% CI),90,0.845287778335402,0.824247093438985,0.865912079266888,,stage 18r (optB2_sl_summary)
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,AUROC (95% CI),180,0.846074713395231,0.825578005494257,0.865581640506697,,stage 18r (optB2_sl_summary)
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,AUROC (95% CI),365,0.839092599562929,0.819345628546979,0.857182739615007,,stage 18r (optB2_sl_summary)
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,AUROC excluding earlier deaths (95% CI),10,0.841754365634076,0.808342486397761,0.871587545889477,,stage 18r (optB2_sl_summary)
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,AUROC excluding earlier deaths (95% CI),30,0.845581351252059,0.820437923726993,0.869383068088603,,stage 18r (optB2_sl_summary)
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,AUROC excluding earlier deaths (95% CI),90,0.860305037215369,0.840033698672499,0.879236607116006,,stage 18r (optB2_sl_summary)
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,AUROC excluding earlier deaths (95% CI),180,0.865167609149727,0.845318556365494,0.883599937608838,,stage 18r (optB2_sl_summary)
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,AUROC excluding earlier deaths (95% CI),365,0.863896295783265,0.846073330958823,0.881006777496089,,stage 18r (optB2_sl_summary)
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,IPA (95% CI),10,0.0500964684661355,0.0134378073001656,0.0830824069143792,,stage 18r (optB2_sl_summary)
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,IPA (95% CI),30,0.101107697945809,0.0617672508374032,0.13597810366653,,stage 18r (optB2_sl_summary)
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,IPA (95% CI),90,0.163692357563155,0.124586638730676,0.201433402915316,,stage 18r (optB2_sl_summary)
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,IPA (95% CI),180,0.205918075767294,0.164725434330681,0.245599331512134,,stage 18r (optB2_sl_summary)
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,IPA (95% CI),365,0.224797875071989,0.185730057011945,0.260231725440906,,stage 18r (optB2_sl_summary)
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,Observed / expected (95% CI),10,0.986857293746048,0.808096138954765,1.17369873412467,,stage 18r (optB2_sl_summary)
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,Observed / expected (95% CI),30,0.991770052651906,0.863882523807637,1.12124107491899,,stage 18r (optB2_sl_summary)
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,Observed / expected (95% CI),90,0.994502688339146,0.894542514815209,1.0977421280081,,stage 18r (optB2_sl_summary)
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,Observed / expected (95% CI),180,0.995014468721584,0.908323309730728,1.08613964381617,,stage 18r (optB2_sl_summary)
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,Observed / expected (95% CI),365,0.996231357729086,0.924516899543377,1.07425200767579,,stage 18r (optB2_sl_summary)
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,Calibration slope (95% CI),10,0.999167790624094,0.852975545715438,1.16592884974759,,stage 13b
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,Calibration slope (95% CI),30,1.00078108236054,0.875800373069869,1.1337932319051,,stage 13b
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,Calibration slope (95% CI),90,1.00447881425408,0.900617946431084,1.11695333702293,,stage 13b
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,Calibration slope (95% CI),180,1.00905068154749,0.908670659682729,1.12179204825202,,stage 13b
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,Calibration slope (95% CI),365,1.00986790556007,0.9138752032583,1.11283135439678,,stage 13b
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,ICI,10,0.0104066560254017,,,,stage 13b
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,ICI,30,0.0149924398279188,,,,stage 13b
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,ICI,90,0.0147978187520453,,,,stage 13b
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,ICI,180,0.0156466817962128,,,,stage 13b
+2,At discharge,"CV readmission, with death as a competing event",EHR+ECG,ICI,365,0.0164574119296244,,,,stage 13b
+S2,At diagnosis,Death,3-mod,Events,10,68.0,,,,optionB_outcome_events
+S2,At diagnosis,Death,3-mod,Events,30,152.0,,,,optionB_outcome_events
+S2,At diagnosis,Death,3-mod,Events,90,281.0,,,,optionB_outcome_events
+S2,At diagnosis,Death,3-mod,Events,180,344.0,,,,optionB_outcome_events
+S2,At diagnosis,Death,3-mod,Events,365,420.0,,,,optionB_outcome_events
+S2,At diagnosis,Death,3-mod,AUROC (95% CI),10,0.877316551620648,0.843221885276333,0.908104474921383,,stage 18q (slP_metrics)
+S2,At diagnosis,Death,3-mod,AUROC (95% CI),30,0.886730387288977,0.864710863247976,0.908168752727404,,stage 18q (slP_metrics)
+S2,At diagnosis,Death,3-mod,AUROC (95% CI),90,0.899788577956954,0.883428759646741,0.915954868460839,,stage 18q (slP_metrics)
+S2,At diagnosis,Death,3-mod,AUROC (95% CI),180,0.895825833393333,0.87867986348565,0.912576721771481,,stage 18q (slP_metrics)
+S2,At diagnosis,Death,3-mod,AUROC (95% CI),365,0.904871553884712,0.888705301151919,0.919890073316307,,stage 18q (slP_metrics)
+S2,At diagnosis,Death,3-mod,IPA (95% CI),10,0.106330776089794,0.0369242959129,0.166819577883738,,stage 18q (slP_metrics)
+S2,At diagnosis,Death,3-mod,IPA (95% CI),30,0.219033425131402,0.15455764353729,0.27547923904951,,stage 18q (slP_metrics)
+S2,At diagnosis,Death,3-mod,IPA (95% CI),90,0.351752045400353,0.297652571845533,0.402231251141101,,stage 18q (slP_metrics)
+S2,At diagnosis,Death,3-mod,IPA (95% CI),180,0.37255653609728,0.31983846188375,0.421826792689472,,stage 18q (slP_metrics)
+S2,At diagnosis,Death,3-mod,IPA (95% CI),365,0.432059923954779,0.383469144783106,0.476679910527276,,stage 18q (slP_metrics)
+S2,At diagnosis,Death,3-mod,Observed / expected (95% CI),10,0.974056183478548,0.762663284466223,1.19176506154196,,stage 18q (slP_metrics)
+S2,At diagnosis,Death,3-mod,Observed / expected (95% CI),30,0.98302374429912,0.852028005020603,1.1102887744869,,stage 18q (slP_metrics)
+S2,At diagnosis,Death,3-mod,Observed / expected (95% CI),90,0.991062199346609,0.906785784395614,1.07504735603585,,stage 18q (slP_metrics)
+S2,At diagnosis,Death,3-mod,Observed / expected (95% CI),180,0.99245721717419,0.917911642511794,1.06558576356359,,stage 18q (slP_metrics)
+S2,At diagnosis,Death,3-mod,Observed / expected (95% CI),365,0.994142181702729,0.928917507145627,1.05692380062757,,stage 18q (slP_metrics)
+S2,At diagnosis,Death,3-mod,Calibration slope (95% CI),10,1.04530636848404,0.873547115631812,1.27811595139933,,stage 13b
+S2,At diagnosis,Death,3-mod,Calibration slope (95% CI),30,1.02943585875833,0.907413416823564,1.1820410358102,,stage 13b
+S2,At diagnosis,Death,3-mod,Calibration slope (95% CI),90,1.02393281015728,0.918332759028911,1.14131834287171,,stage 13b
+S2,At diagnosis,Death,3-mod,Calibration slope (95% CI),180,1.02029374045373,0.920741947379409,1.13997580912186,,stage 13b
+S2,At diagnosis,Death,3-mod,Calibration slope (95% CI),365,1.02219094179942,0.920294795731374,1.13986534568472,,stage 13b
+S2,At diagnosis,Death,3-mod,ICI,10,0.0060889695373271,,,,stage 13b
+S2,At diagnosis,Death,3-mod,ICI,30,0.0129508210795138,,,,stage 13b
+S2,At diagnosis,Death,3-mod,ICI,90,0.0204536342160538,,,,stage 13b
+S2,At diagnosis,Death,3-mod,ICI,180,0.0232258740691273,,,,stage 13b
+S2,At diagnosis,Death,3-mod,ICI,365,0.0262007490479495,,,,stage 13b
+S2,At diagnosis,Death or CV readmission,3-mod,Events,10,88.0,,,,optionB_outcome_events
+S2,At diagnosis,Death or CV readmission,3-mod,Events,30,219.0,,,,optionB_outcome_events
+S2,At diagnosis,Death or CV readmission,3-mod,Events,90,377.0,,,,optionB_outcome_events
+S2,At diagnosis,Death or CV readmission,3-mod,Events,180,469.0,,,,optionB_outcome_events
+S2,At diagnosis,Death or CV readmission,3-mod,Events,365,556.0,,,,optionB_outcome_events
+S2,At diagnosis,Death or CV readmission,3-mod,AUROC (95% CI),10,0.831688982851773,0.791798487359551,0.868382695886011,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,Death or CV readmission,3-mod,AUROC (95% CI),30,0.853359241822231,0.8306749458589,0.874936939566034,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,Death or CV readmission,3-mod,AUROC (95% CI),90,0.874469864719379,0.855792520784636,0.891932102607616,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,Death or CV readmission,3-mod,AUROC (95% CI),180,0.877562243866967,0.859267909617877,0.893784681886071,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,Death or CV readmission,3-mod,AUROC (95% CI),365,0.888712363442579,0.871572064590876,0.903832410067235,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,Death or CV readmission,3-mod,IPA (95% CI),10,0.092782179701818,0.0429107627711518,0.138792438641347,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,Death or CV readmission,3-mod,IPA (95% CI),30,0.208625379108512,0.158894185395831,0.25521349438218,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,Death or CV readmission,3-mod,IPA (95% CI),90,0.336530443498292,0.287636488662309,0.382634227082123,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,Death or CV readmission,3-mod,IPA (95% CI),180,0.376395972500248,0.329872193336708,0.41862886492034,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,Death or CV readmission,3-mod,IPA (95% CI),365,0.433535769178811,0.387580362120362,0.474909447203584,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,Death or CV readmission,3-mod,Observed / expected (95% CI),10,0.97687327550108,0.788842834234367,1.17589377445663,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,Death or CV readmission,3-mod,Observed / expected (95% CI),30,0.987516962970822,0.874557721807308,1.09795362379962,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,Death or CV readmission,3-mod,Observed / expected (95% CI),90,0.993849687977758,0.922555995894297,1.06683749587297,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,Death or CV readmission,3-mod,Observed / expected (95% CI),180,0.994739234288207,0.935917144029147,1.05586918940036,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,Death or CV readmission,3-mod,Observed / expected (95% CI),365,0.9962617152329,0.943139171621259,1.04938701428449,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,Death or CV readmission,3-mod,Calibration slope (95% CI),10,1.04367321968369,0.8670867258913,1.25867706787713,,stage 13b
+S2,At diagnosis,Death or CV readmission,3-mod,Calibration slope (95% CI),30,1.02455687303508,0.911978756792667,1.16171327670432,,stage 13b
+S2,At diagnosis,Death or CV readmission,3-mod,Calibration slope (95% CI),90,1.02108502269033,0.92193509095014,1.13637066703663,,stage 13b
+S2,At diagnosis,Death or CV readmission,3-mod,Calibration slope (95% CI),180,1.01721200572537,0.920739597580284,1.12136931578738,,stage 13b
+S2,At diagnosis,Death or CV readmission,3-mod,Calibration slope (95% CI),365,1.01957914834797,0.922221739093351,1.13200110907985,,stage 13b
+S2,At diagnosis,Death or CV readmission,3-mod,ICI,10,0.0077702617089842,,,,stage 13b
+S2,At diagnosis,Death or CV readmission,3-mod,ICI,30,0.019604301113288,,,,stage 13b
+S2,At diagnosis,Death or CV readmission,3-mod,ICI,90,0.0236121117630361,,,,stage 13b
+S2,At diagnosis,Death or CV readmission,3-mod,ICI,180,0.0261331102742086,,,,stage 13b
+S2,At diagnosis,Death or CV readmission,3-mod,ICI,365,0.0278688992444516,,,,stage 13b
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,Events,10,21.0,,,,optionB_outcome_events
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,Events,30,76.0,,,,optionB_outcome_events
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,Events,90,134.0,,,,optionB_outcome_events
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,Events,180,177.0,,,,optionB_outcome_events
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,Events,365,212.0,,,,optionB_outcome_events
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,AUROC (95% CI),10,0.612472357363998,0.469649041114948,0.744289756967274,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,AUROC (95% CI),30,0.78182354925776,0.733708122538205,0.826617365603403,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,AUROC (95% CI),90,0.807276864677942,0.771080974470637,0.84127005554838,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,AUROC (95% CI),180,0.813811022951251,0.78145035647746,0.842374968367151,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,AUROC (95% CI),365,0.81187725249099,0.780761625246213,0.839761434686921,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,AUROC excluding earlier deaths (95% CI),10,0.619601328903655,0.478105906551981,0.750972342664181,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,AUROC excluding earlier deaths (95% CI),30,0.803003008580025,0.757168871998484,0.84453840117459,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,AUROC excluding earlier deaths (95% CI),90,0.843485116119166,0.81130156725722,0.873548721942399,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,AUROC excluding earlier deaths (95% CI),180,0.853092820937359,0.824991821545224,0.878655353078731,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,AUROC excluding earlier deaths (95% CI),365,0.856472746331237,0.827620567159249,0.88278782477975,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,IPA (95% CI),10,0.0033616326220277,-0.0058010640718004,0.0122314830873735,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,IPA (95% CI),30,0.0393786557800436,0.0078216050057958,0.0659969246870586,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,IPA (95% CI),90,0.0950543537646239,0.0489887780966893,0.138642591393813,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,IPA (95% CI),180,0.147286760038393,0.0972307950087757,0.191838588511662,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,IPA (95% CI),365,0.172586514841859,0.121100705956318,0.221654336332456,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,Observed / expected (95% CI),10,0.990687042798221,0.609316956940737,1.43147618244534,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,Observed / expected (95% CI),30,0.992257678357529,0.788241573650469,1.21126414060668,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,Observed / expected (95% CI),90,0.995053688588919,0.845552248331982,1.15537484068151,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,Observed / expected (95% CI),180,0.994448289057642,0.871946698688285,1.13074804940465,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,Observed / expected (95% CI),365,0.993934787900813,0.881750773145096,1.1137940577901,,stage 18r (optB2_sl_summary)
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,Calibration slope (95% CI),10,1.06010787904903,-0.199396331897785,2.17008978534329,,stage 13b
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,Calibration slope (95% CI),30,1.04330981599081,0.826383099649996,1.28821991025568,,stage 13b
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,Calibration slope (95% CI),90,1.04113917636235,0.875182664902967,1.24063026562228,,stage 13b
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,Calibration slope (95% CI),180,1.03082510873958,0.890195596210468,1.1828032149533,,stage 13b
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,Calibration slope (95% CI),365,1.0272458226099,0.887381323578376,1.18537064967864,,stage 13b
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,ICI,10,0.0044798651959504,,,,stage 13b
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,ICI,30,0.0092872453480444,,,,stage 13b
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,ICI,90,0.0119807816992925,,,,stage 13b
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,ICI,180,0.0157806207975829,,,,stage 13b
+S2,At diagnosis,"CV readmission, with death as a competing event",3-mod,ICI,365,0.0112870344732961,,,,stage 13b
+S2,At discharge,Death,3-mod,Events,10,28.0,,,,optionB_outcome_events
+S2,At discharge,Death,3-mod,Events,30,79.0,,,,optionB_outcome_events
+S2,At discharge,Death,3-mod,Events,90,173.0,,,,optionB_outcome_events
+S2,At discharge,Death,3-mod,Events,180,226.0,,,,optionB_outcome_events
+S2,At discharge,Death,3-mod,Events,365,292.0,,,,optionB_outcome_events
+S2,At discharge,Death,3-mod,AUROC (95% CI),10,0.941332088390912,0.907532393344516,0.970868158353147,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death,3-mod,AUROC (95% CI),30,0.915019951505432,0.886140046393913,0.93998121279579,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death,3-mod,AUROC (95% CI),90,0.906458786877862,0.88575939867648,0.926002583755491,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death,3-mod,AUROC (95% CI),180,0.904182335412492,0.884587980527844,0.9215412031482,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death,3-mod,AUROC (95% CI),365,0.903226501249246,0.884986791876622,0.920095733710011,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death,3-mod,IPA (95% CI),10,0.181015495907063,0.0403124683254647,0.289997174132389,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death,3-mod,IPA (95% CI),30,0.253325462261906,0.164774920449621,0.334262720650111,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death,3-mod,IPA (95% CI),90,0.338577189953134,0.270480569489713,0.399773334400015,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death,3-mod,IPA (95% CI),180,0.364940453003773,0.302806351583986,0.419905356096859,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death,3-mod,IPA (95% CI),365,0.405017290591787,0.349055059088746,0.458018593554259,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death,3-mod,Observed / expected (95% CI),10,0.965070353417739,0.664182597547635,1.29038000990092,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death,3-mod,Observed / expected (95% CI),30,0.994096761955052,0.812023003976215,1.18542948618217,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death,3-mod,Observed / expected (95% CI),90,1.00242493744063,0.887790237686883,1.11877490557526,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death,3-mod,Observed / expected (95% CI),180,1.0023610730565,0.906548722896143,1.10172297285689,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death,3-mod,Observed / expected (95% CI),365,1.00270060418494,0.9254117272934,1.08300564933502,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death,3-mod,Calibration slope (95% CI),10,1.06486496465259,0.825227579663836,1.45786120211166,,stage 13b
+S2,At discharge,Death,3-mod,Calibration slope (95% CI),30,1.0232682633867,0.860288657111811,1.23636614965287,,stage 13b
+S2,At discharge,Death,3-mod,Calibration slope (95% CI),90,1.01889980195109,0.896614883369629,1.1705895436709,,stage 13b
+S2,At discharge,Death,3-mod,Calibration slope (95% CI),180,1.01842729160217,0.902366546387793,1.1476932346307,,stage 13b
+S2,At discharge,Death,3-mod,Calibration slope (95% CI),365,1.01817787135115,0.913624537264394,1.14829181652931,,stage 13b
+S2,At discharge,Death,3-mod,ICI,10,0.0049539078466119,,,,stage 13b
+S2,At discharge,Death,3-mod,ICI,30,0.003741269965802,,,,stage 13b
+S2,At discharge,Death,3-mod,ICI,90,0.0078057212628396,,,,stage 13b
+S2,At discharge,Death,3-mod,ICI,180,0.0132922415242944,,,,stage 13b
+S2,At discharge,Death,3-mod,ICI,365,0.0158759640951395,,,,stage 13b
+S2,At discharge,Death or CV readmission,3-mod,Events,10,66.0,,,,optionB_outcome_events
+S2,At discharge,Death or CV readmission,3-mod,Events,30,152.0,,,,optionB_outcome_events
+S2,At discharge,Death or CV readmission,3-mod,Events,90,262.0,,,,optionB_outcome_events
+S2,At discharge,Death or CV readmission,3-mod,Events,180,342.0,,,,optionB_outcome_events
+S2,At discharge,Death or CV readmission,3-mod,Events,365,414.0,,,,optionB_outcome_events
+S2,At discharge,Death or CV readmission,3-mod,AUROC (95% CI),10,0.855262860117229,0.813050677304686,0.893006005447833,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death or CV readmission,3-mod,AUROC (95% CI),30,0.863517032805478,0.838516343035639,0.889819639737928,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death or CV readmission,3-mod,AUROC (95% CI),90,0.880246839374086,0.859449109783026,0.899513563449245,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death or CV readmission,3-mod,AUROC (95% CI),180,0.886358260027617,0.868327284235753,0.903980917290551,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death or CV readmission,3-mod,AUROC (95% CI),365,0.890882678405163,0.872832311917986,0.907899116103339,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death or CV readmission,3-mod,IPA (95% CI),10,0.115638124561313,0.0514112853915998,0.173024130125702,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death or CV readmission,3-mod,IPA (95% CI),30,0.211635059107985,0.152242571210163,0.267945829793915,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death or CV readmission,3-mod,IPA (95% CI),90,0.322048053677908,0.266120945392598,0.377677108947582,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death or CV readmission,3-mod,IPA (95% CI),180,0.375053861624147,0.325588533625931,0.422484597590538,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death or CV readmission,3-mod,IPA (95% CI),365,0.422874231179559,0.375019773174168,0.470739705262128,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death or CV readmission,3-mod,Observed / expected (95% CI),10,0.98507874120418,0.772165542941213,1.2092864475353,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death or CV readmission,3-mod,Observed / expected (95% CI),30,0.993530479489394,0.863417373078663,1.12727673211565,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death or CV readmission,3-mod,Observed / expected (95% CI),90,0.996512988798125,0.90860685918141,1.08602859492798,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death or CV readmission,3-mod,Observed / expected (95% CI),180,0.997525368168196,0.926824100814363,1.06906317160185,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death or CV readmission,3-mod,Observed / expected (95% CI),365,0.997331422314706,0.935008619413493,1.05691412447385,,stage 18r (optB2_sl_summary)
+S2,At discharge,Death or CV readmission,3-mod,Calibration slope (95% CI),10,1.03611424658658,0.856035936677988,1.25297531391687,,stage 13b
+S2,At discharge,Death or CV readmission,3-mod,Calibration slope (95% CI),30,1.022689924269,0.895768188691422,1.18978732267028,,stage 13b
+S2,At discharge,Death or CV readmission,3-mod,Calibration slope (95% CI),90,1.01785159288912,0.902492299470089,1.15432980871954,,stage 13b
+S2,At discharge,Death or CV readmission,3-mod,Calibration slope (95% CI),180,1.02328952077113,0.919205750906618,1.15150576206797,,stage 13b
+S2,At discharge,Death or CV readmission,3-mod,Calibration slope (95% CI),365,1.02150232826479,0.911940468213336,1.14894774006539,,stage 13b
+S2,At discharge,Death or CV readmission,3-mod,ICI,10,0.0075158922435877,,,,stage 13b
+S2,At discharge,Death or CV readmission,3-mod,ICI,30,0.0133726769270548,,,,stage 13b
+S2,At discharge,Death or CV readmission,3-mod,ICI,90,0.0196306997553659,,,,stage 13b
+S2,At discharge,Death or CV readmission,3-mod,ICI,180,0.0256838275486035,,,,stage 13b
+S2,At discharge,Death or CV readmission,3-mod,ICI,365,0.0274679946915328,,,,stage 13b
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,Events,10,42.0,,,,optionB_outcome_events
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,Events,30,83.0,,,,optionB_outcome_events
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,Events,90,123.0,,,,optionB_outcome_events
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,Events,180,161.0,,,,optionB_outcome_events
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,Events,365,188.0,,,,optionB_outcome_events
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,AUROC (95% CI),10,0.804457953394124,0.741599797905681,0.858653068971048,,stage 18r (optB2_sl_summary)
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,AUROC (95% CI),30,0.826030293640523,0.785329066030857,0.866336778199008,,stage 18r (optB2_sl_summary)
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,AUROC (95% CI),90,0.841368288877897,0.808616123415314,0.872361996606194,,stage 18r (optB2_sl_summary)
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,AUROC (95% CI),180,0.849543648019812,0.820076279730786,0.877619363586898,,stage 18r (optB2_sl_summary)
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,AUROC (95% CI),365,0.846754313886606,0.817566722002422,0.874750256816727,,stage 18r (optB2_sl_summary)
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,AUROC excluding earlier deaths (95% CI),10,0.810608485365767,0.748736822220431,0.864558903618299,,stage 18r (optB2_sl_summary)
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,AUROC excluding earlier deaths (95% CI),30,0.836431119529996,0.796201304457954,0.874981338392738,,stage 18r (optB2_sl_summary)
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,AUROC excluding earlier deaths (95% CI),90,0.861788617886179,0.831993172248986,0.890601617189331,,stage 18r (optB2_sl_summary)
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,AUROC excluding earlier deaths (95% CI),180,0.87464284253519,0.848482064680359,0.899527119740228,,stage 18r (optB2_sl_summary)
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,AUROC excluding earlier deaths (95% CI),365,0.877095991583829,0.850555901668943,0.902992917353346,,stage 18r (optB2_sl_summary)
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,IPA (95% CI),10,0.0358228054931489,-0.001651525514157,0.0648988196707304,,stage 18r (optB2_sl_summary)
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,IPA (95% CI),30,0.0783518113909971,0.0240918068393602,0.129706551549932,,stage 18r (optB2_sl_summary)
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,IPA (95% CI),90,0.12980829528557,0.0720628124548744,0.184927525840873,,stage 18r (optB2_sl_summary)
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,IPA (95% CI),180,0.18378180555322,0.122945515465017,0.238939509996824,,stage 18r (optB2_sl_summary)
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,IPA (95% CI),365,0.212538254582029,0.154000951674274,0.268184931339838,,stage 18r (optB2_sl_summary)
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,Observed / expected (95% CI),10,0.990754542098535,0.70523789389875,1.28275941388174,,stage 18r (optB2_sl_summary)
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,Observed / expected (95% CI),30,0.988319905029051,0.783493214387133,1.1934749350036,,stage 18r (optB2_sl_summary)
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,Observed / expected (95% CI),90,0.991546838525285,0.832998010107788,1.15050900717845,,stage 18r (optB2_sl_summary)
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,Observed / expected (95% CI),180,0.994048686639394,0.868972437015607,1.12279224594675,,stage 18r (optB2_sl_summary)
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,Observed / expected (95% CI),365,0.99318786719865,0.880535479564351,1.10972400779249,,stage 18r (optB2_sl_summary)
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,Calibration slope (95% CI),10,1.06445512912107,0.801895731101139,1.37601501688003,,stage 13b
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,Calibration slope (95% CI),30,1.01342568739153,0.835107701946373,1.21794106633717,,stage 13b
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,Calibration slope (95% CI),90,1.00006056690101,0.857027103766311,1.17248037231727,,stage 13b
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,Calibration slope (95% CI),180,1.01771480785536,0.88343864484052,1.1837494720989,,stage 13b
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,Calibration slope (95% CI),365,1.01787032902478,0.879667952172977,1.18519489292087,,stage 13b
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,ICI,10,0.006049727969797,,,,stage 13b
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,ICI,30,0.016904647320168,,,,stage 13b
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,ICI,90,0.0222413902038271,,,,stage 13b
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,ICI,180,0.025931651760278,,,,stage 13b
+S2,At discharge,"CV readmission, with death as a competing event",3-mod,ICI,365,0.0284569956383407,,,,stage 13b
+3,At diagnosis,Death,EHR+ECG,AUROC gain over sPESI,10,0.150283857486297,0.119355830941536,0.183416353477858,True,stage 18q (slP_contrasts)
+3,At diagnosis,Death,EHR+ECG,AUROC gain over sPESI,30,0.146988366355917,0.126124909415289,0.16935236407452,True,stage 18q (slP_contrasts)
+3,At diagnosis,Death,EHR+ECG,AUROC gain over sPESI,90,0.14211664940656,0.125158099752504,0.15991821782549,True,stage 18q (slP_contrasts)
+3,At diagnosis,Death,EHR+ECG,AUROC gain over sPESI,180,0.144013501641467,0.128175145996365,0.160427095207623,True,stage 18q (slP_contrasts)
+3,At diagnosis,Death,EHR+ECG,AUROC gain over sPESI,365,0.1406961976366,0.124974953962995,0.156640058827544,True,stage 18q (slP_contrasts)
+3,At diagnosis,Death,EHR+ECG,AUROC gain over PESI-10,10,0.10120643658262,0.0750527133436778,0.130491946809208,True,stage 18q (slP_contrasts)
+3,At diagnosis,Death,EHR+ECG,AUROC gain over PESI-10,30,0.102025662832065,0.0835334865317845,0.120846957356314,True,stage 18q (slP_contrasts)
+3,At diagnosis,Death,EHR+ECG,AUROC gain over PESI-10,90,0.0876453779963455,0.0723071176201775,0.102880747566343,True,stage 18q (slP_contrasts)
+3,At diagnosis,Death,EHR+ECG,AUROC gain over PESI-10,180,0.0874961853239007,0.0734202836333495,0.10205989664585,True,stage 18q (slP_contrasts)
+3,At diagnosis,Death,EHR+ECG,AUROC gain over PESI-10,365,0.082242950708898,0.0689284246244395,0.0957114743553823,True,stage 18q (slP_contrasts)
+3,At diagnosis,Death,EHR+ECG,Specificity gain at sPESI's sensitivity,10,0.242250978031899,0.150918110293311,0.302513309483029,True,stage 18q (slP_contrasts)
+3,At diagnosis,Death,EHR+ECG,Specificity gain at sPESI's sensitivity,30,0.24645618556701,0.151290861248861,0.295714734128521,True,stage 18q (slP_contrasts)
+3,At diagnosis,Death,EHR+ECG,Specificity gain at sPESI's sensitivity,90,0.231873905429072,0.169958253803883,0.28723292083019,True,stage 18q (slP_contrasts)
+3,At diagnosis,Death,EHR+ECG,Specificity gain at sPESI's sensitivity,180,0.231111111111111,0.186515254836112,0.283010950168685,True,stage 18q (slP_contrasts)
+3,At diagnosis,Death,EHR+ECG,Specificity gain at sPESI's sensitivity,365,0.211462450592885,0.167125425632607,0.276949143894187,True,stage 18q (slP_contrasts)
+3,At diagnosis,Death,EHR+ECG,AUROC gain over the EHR alone,10,0.0065309200093323,-0.0015612219078644,0.0157469256037744,False,stage 18q (slP_contrasts)
+3,At diagnosis,Death,EHR+ECG,AUROC gain over the EHR alone,30,0.0059937287387363,0.0008310193677339,0.0114126075485114,True,stage 18q (slP_contrasts)
+3,At diagnosis,Death,EHR+ECG,AUROC gain over the EHR alone,90,0.0027289042633368,-0.000251948912236,0.005846855907415,False,stage 18q (slP_contrasts)
+3,At diagnosis,Death,EHR+ECG,AUROC gain over the EHR alone,180,0.0016238960558561,-0.0008708418787397,0.0040735952490236,False,stage 18q (slP_contrasts)
+3,At diagnosis,Death,EHR+ECG,AUROC gain over the EHR alone,365,0.0028596084880506,0.0001130501026524,0.0056197381708216,True,stage 18q (slP_contrasts)
+3,At diagnosis,Death,EHR+ECG,IPA gain over the EHR alone,10,0.0056878069178424,-0.0089722072079418,0.0203978755635994,False,stage 18q (slP_contrasts)
+3,At diagnosis,Death,EHR+ECG,IPA gain over the EHR alone,30,0.0130160492858268,0.0015809605459328,0.0253072957559782,True,stage 18q (slP_contrasts)
+3,At diagnosis,Death,EHR+ECG,IPA gain over the EHR alone,90,0.0081098578943859,-0.000352326258679,0.0164109248191701,False,stage 18q (slP_contrasts)
+3,At diagnosis,Death,EHR+ECG,IPA gain over the EHR alone,180,0.0075736314687069,0.0008288780691847,0.0143031226553525,True,stage 18q (slP_contrasts)
+3,At diagnosis,Death,EHR+ECG,IPA gain over the EHR alone,365,0.0118948689640978,0.0038155231992007,0.0199277551474223,True,stage 18q (slP_contrasts)
+3,At diagnosis,Death or CV readmission,EHR+ECG,AUROC gain over the EHR alone,10,0.0107009978014544,0.0020225210448985,0.0201838923744757,True,stage 18r (optB2_sl_contrasts)
+3,At diagnosis,Death or CV readmission,EHR+ECG,AUROC gain over the EHR alone,30,0.0101464379473686,0.0041425281668063,0.0161304261795136,True,stage 18r (optB2_sl_contrasts)
+3,At diagnosis,Death or CV readmission,EHR+ECG,AUROC gain over the EHR alone,90,0.0057022606261235,0.0016256415088623,0.0096518125464505,True,stage 18r (optB2_sl_contrasts)
+3,At diagnosis,Death or CV readmission,EHR+ECG,AUROC gain over the EHR alone,180,0.0041285827874748,0.0006487344654568,0.0073923983377959,True,stage 18r (optB2_sl_contrasts)
+3,At diagnosis,Death or CV readmission,EHR+ECG,AUROC gain over the EHR alone,365,0.0046454570626438,0.0013267443809264,0.0078119079953968,True,stage 18r (optB2_sl_contrasts)
+3,At diagnosis,Death or CV readmission,EHR+ECG,IPA gain over the EHR alone,10,0.0026955955803825,-0.0107461410022425,0.0162932681010004,False,stage 18r (optB2_sl_contrasts)
+3,At diagnosis,Death or CV readmission,EHR+ECG,IPA gain over the EHR alone,30,0.014588336034688,0.0021788385339982,0.0273702608628713,True,stage 18r (optB2_sl_contrasts)
+3,At diagnosis,Death or CV readmission,EHR+ECG,IPA gain over the EHR alone,90,0.0158561294814106,0.0057665740189873,0.0254813188467237,True,stage 18r (optB2_sl_contrasts)
+3,At diagnosis,Death or CV readmission,EHR+ECG,IPA gain over the EHR alone,180,0.014986428769055,0.0066835113065378,0.0233493251325096,True,stage 18r (optB2_sl_contrasts)
+3,At diagnosis,Death or CV readmission,EHR+ECG,IPA gain over the EHR alone,365,0.0177013731720648,0.0091072613053068,0.0260536387395938,True,stage 18r (optB2_sl_contrasts)
+3,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,AUROC gain over the EHR alone,10,0.015546075338103,-0.0127654971425336,0.0522282872227599,False,stage 18r (optB2_sl_contrasts)
+3,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,AUROC gain over the EHR alone,30,0.0104560347055823,-0.0002399898327476,0.0222694342051544,False,stage 18r (optB2_sl_contrasts)
+3,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,AUROC gain over the EHR alone,90,0.0097364851772912,0.0026927946994021,0.0170142081742436,True,stage 18r (optB2_sl_contrasts)
+3,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,AUROC gain over the EHR alone,180,0.007647277010679,0.0019600155048481,0.0134963216836908,True,stage 18r (optB2_sl_contrasts)
+3,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,AUROC gain over the EHR alone,365,0.0079467731204258,0.0024387794285667,0.013501359737696,True,stage 18r (optB2_sl_contrasts)
+3,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,IPA gain over the EHR alone,10,0.0029524124142607,-0.0021645392256802,0.0078575410492114,False,stage 18r (optB2_sl_contrasts)
+3,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,IPA gain over the EHR alone,30,0.0073920692909994,-0.0011215184137777,0.0159600792893041,False,stage 18r (optB2_sl_contrasts)
+3,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,IPA gain over the EHR alone,90,0.0055783458130792,-0.0029560243304804,0.0142260613313012,False,stage 18r (optB2_sl_contrasts)
+3,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,IPA gain over the EHR alone,180,0.0033983376285391,-0.0039219351254068,0.0108288488452659,False,stage 18r (optB2_sl_contrasts)
+3,At diagnosis,"CV readmission, with death as a competing event",EHR+ECG,IPA gain over the EHR alone,365,0.0049245170698633,-0.002157959588071,0.0124847924430066,False,stage 18r (optB2_sl_contrasts)
+3,At discharge,Death,EHR+ECG,AUROC gain over the EHR alone,10,0.0083730595281751,0.0019390736930031,0.0158413148870757,True,stage 18r (optB2_sl_contrasts)
+3,At discharge,Death,EHR+ECG,AUROC gain over the EHR alone,30,0.0050727514868765,0.0008877014040546,0.0093607940359409,True,stage 18r (optB2_sl_contrasts)
+3,At discharge,Death,EHR+ECG,AUROC gain over the EHR alone,90,0.0021228301134477,-0.0001555915060445,0.0042866160503679,False,stage 18r (optB2_sl_contrasts)
+3,At discharge,Death,EHR+ECG,AUROC gain over the EHR alone,180,0.000742773253172,-0.0007158549357739,0.0022504419780244,False,stage 18r (optB2_sl_contrasts)
+3,At discharge,Death,EHR+ECG,AUROC gain over the EHR alone,365,0.0019278738426414,-8.1765723173674e-05,0.0037434112381705,False,stage 18r (optB2_sl_contrasts)
+3,At discharge,Death,EHR+ECG,IPA gain over the EHR alone,10,0.0055936036524971,-0.0199436372368782,0.029673856885329,False,stage 18r (optB2_sl_contrasts)
+3,At discharge,Death,EHR+ECG,IPA gain over the EHR alone,30,0.0063944068709368,-0.0067590957631261,0.0191123666892697,False,stage 18r (optB2_sl_contrasts)
+3,At discharge,Death,EHR+ECG,IPA gain over the EHR alone,90,0.0031696295830115,-0.0048858953641571,0.0108568902756283,False,stage 18r (optB2_sl_contrasts)
+3,At discharge,Death,EHR+ECG,IPA gain over the EHR alone,180,0.003639947251698,-0.0019616074939803,0.0089511984153744,False,stage 18r (optB2_sl_contrasts)
+3,At discharge,Death,EHR+ECG,IPA gain over the EHR alone,365,0.0071844615499556,0.0007733178723903,0.0135247236126012,True,stage 18r (optB2_sl_contrasts)
+3,At discharge,Death or CV readmission,EHR+ECG,AUROC gain over the EHR alone,10,0.0150339638415717,0.0074744900514792,0.0231272928302146,True,stage 18r (optB2_sl_contrasts)
+3,At discharge,Death or CV readmission,EHR+ECG,AUROC gain over the EHR alone,30,0.0071828225548406,0.0024497878043314,0.0120844974133164,True,stage 18r (optB2_sl_contrasts)
+3,At discharge,Death or CV readmission,EHR+ECG,AUROC gain over the EHR alone,90,0.003691751124357,0.0004120169604704,0.0069673783083813,True,stage 18r (optB2_sl_contrasts)
+3,At discharge,Death or CV readmission,EHR+ECG,AUROC gain over the EHR alone,180,0.0021464092990914,-0.0002793721251162,0.0046212558714478,False,stage 18r (optB2_sl_contrasts)
+3,At discharge,Death or CV readmission,EHR+ECG,AUROC gain over the EHR alone,365,0.0026624386410549,3.30209047815611e-05,0.0052637423350264,True,stage 18r (optB2_sl_contrasts)
+3,At discharge,Death or CV readmission,EHR+ECG,IPA gain over the EHR alone,10,-0.0020117544005461,-0.0181110356525062,0.0134175319444284,False,stage 18r (optB2_sl_contrasts)
+3,At discharge,Death or CV readmission,EHR+ECG,IPA gain over the EHR alone,30,0.0052654477876609,-0.005493392360625,0.016968505243206,False,stage 18r (optB2_sl_contrasts)
+3,At discharge,Death or CV readmission,EHR+ECG,IPA gain over the EHR alone,90,0.0103882745481367,0.00145181025703,0.0193868825572375,True,stage 18r (optB2_sl_contrasts)
+3,At discharge,Death or CV readmission,EHR+ECG,IPA gain over the EHR alone,180,0.0091693412303146,0.0023325758060256,0.0160835712748949,True,stage 18r (optB2_sl_contrasts)
+3,At discharge,Death or CV readmission,EHR+ECG,IPA gain over the EHR alone,365,0.0123538425860145,0.0049877951176251,0.0196433624874799,True,stage 18r (optB2_sl_contrasts)
+3,At discharge,"CV readmission, with death as a competing event",EHR+ECG,AUROC gain over the EHR alone,10,0.0052361005331302,-0.001513466168418,0.0121797798112154,False,stage 18r (optB2_sl_contrasts)
+3,At discharge,"CV readmission, with death as a competing event",EHR+ECG,AUROC gain over the EHR alone,30,0.002252327777964,-0.0025097886456262,0.0070494210595087,False,stage 18r (optB2_sl_contrasts)
+3,At discharge,"CV readmission, with death as a competing event",EHR+ECG,AUROC gain over the EHR alone,90,0.0018700969386407,-0.0015950204441643,0.0051512080417602,False,stage 18r (optB2_sl_contrasts)
+3,At discharge,"CV readmission, with death as a competing event",EHR+ECG,AUROC gain over the EHR alone,180,0.0016902053092715,-0.0010312419807578,0.0044299207501908,False,stage 18r (optB2_sl_contrasts)
+3,At discharge,"CV readmission, with death as a competing event",EHR+ECG,AUROC gain over the EHR alone,365,0.0029231717068438,-0.0001070541271761,0.0059565247619853,False,stage 18r (optB2_sl_contrasts)
+3,At discharge,"CV readmission, with death as a competing event",EHR+ECG,IPA gain over the EHR alone,10,0.0012164002919775,-0.0064385097103469,0.0087479317795381,False,stage 18r (optB2_sl_contrasts)
+3,At discharge,"CV readmission, with death as a competing event",EHR+ECG,IPA gain over the EHR alone,30,0.002181440763469,-0.0049591191072023,0.0092420492981085,False,stage 18r (optB2_sl_contrasts)
+3,At discharge,"CV readmission, with death as a competing event",EHR+ECG,IPA gain over the EHR alone,90,0.0024218555614345,-0.0038369715050665,0.0086933804928796,False,stage 18r (optB2_sl_contrasts)
+3,At discharge,"CV readmission, with death as a competing event",EHR+ECG,IPA gain over the EHR alone,180,0.0012124370924739,-0.0039793616306031,0.0063663872163895,False,stage 18r (optB2_sl_contrasts)
+3,At discharge,"CV readmission, with death as a competing event",EHR+ECG,IPA gain over the EHR alone,365,0.0033557166365886,-0.0020843658512292,0.0089806516824981,False,stage 18r (optB2_sl_contrasts)
+S3,At diagnosis,Death,3-mod,AUROC gain over sPESI,10,0.12875150060024,0.0814390486517951,0.175256776932283,True,stage 18q (slP_contrasts)
+S3,At diagnosis,Death,3-mod,AUROC gain over sPESI,30,0.119030624911335,0.0895847437303122,0.152232073014055,True,stage 18q (slP_contrasts)
+S3,At diagnosis,Death,3-mod,AUROC gain over sPESI,90,0.130289818912424,0.106988502305899,0.153752619808833,True,stage 18q (slP_contrasts)
+S3,At diagnosis,Death,3-mod,AUROC gain over sPESI,180,0.129953335373317,0.107749306405737,0.15360901321504,True,stage 18q (slP_contrasts)
+S3,At diagnosis,Death,3-mod,AUROC gain over sPESI,365,0.131075736215539,0.11061227681597,0.151392995935427,True,stage 18q (slP_contrasts)
+S3,At diagnosis,Death,3-mod,AUROC gain over PESI-10,10,0.0778201905762305,0.0408144869895274,0.115590421955272,True,stage 18q (slP_contrasts)
+S3,At diagnosis,Death,3-mod,AUROC gain over PESI-10,30,0.0761788019577244,0.0487237034483065,0.105400320355736,True,stage 18q (slP_contrasts)
+S3,At diagnosis,Death,3-mod,AUROC gain over PESI-10,90,0.0753726149361138,0.0547372680848097,0.0968232442243834,True,stage 18q (slP_contrasts)
+S3,At diagnosis,Death,3-mod,AUROC gain over PESI-10,180,0.0755667704658363,0.055386421313004,0.0964574057819654,True,stage 18q (slP_contrasts)
+S3,At diagnosis,Death,3-mod,AUROC gain over PESI-10,365,0.0769727052005013,0.0575467101723857,0.0962182783387117,True,stage 18q (slP_contrasts)
+S3,At diagnosis,Death,3-mod,Specificity gain at sPESI's sensitivity,10,0.249362244897959,0.202537244460766,0.345526651266364,True,stage 18q (slP_contrasts)
+S3,At diagnosis,Death,3-mod,Specificity gain at sPESI's sensitivity,30,0.267520215633423,0.0741505145308615,0.339160721988348,True,stage 18q (slP_contrasts)
+S3,At diagnosis,Death,3-mod,Specificity gain at sPESI's sensitivity,90,0.227306273062731,0.138461249059443,0.32502114583624,True,stage 18q (slP_contrasts)
+S3,At diagnosis,Death,3-mod,Specificity gain at sPESI's sensitivity,180,0.16640866873065,0.12518823999184,0.273288381982883,True,stage 18q (slP_contrasts)
+S3,At diagnosis,Death,3-mod,Specificity gain at sPESI's sensitivity,365,0.167763157894737,0.123669992474885,0.25905369183948,True,stage 18q (slP_contrasts)
+S3,At diagnosis,Death,3-mod,AUROC gain over the EHR alone,10,0.0049894957983193,-0.009711723457989,0.0202303171162604,False,stage 18q (slP_contrasts)
+S3,At diagnosis,Death,3-mod,AUROC gain over the EHR alone,30,0.011371293800539,-5.93686668599407e-05,0.0227060684752284,False,stage 18q (slP_contrasts)
+S3,At diagnosis,Death,3-mod,AUROC gain over the EHR alone,90,0.0044017806726109,-0.0017584636526401,0.0103234124647707,False,stage 18q (slP_contrasts)
+S3,At diagnosis,Death,3-mod,AUROC gain over the EHR alone,180,0.003406472748218,-0.0017229450326063,0.0085335935010053,False,stage 18q (slP_contrasts)
+S3,At diagnosis,Death,3-mod,AUROC gain over the EHR alone,365,0.0048460996240601,-0.0003981671898688,0.0100168372813792,False,stage 18q (slP_contrasts)
+S3,At diagnosis,Death,3-mod,IPA gain over the EHR alone,10,0.0100440351281347,-0.016976936429034,0.0387085791925666,False,stage 18q (slP_contrasts)
+S3,At diagnosis,Death,3-mod,IPA gain over the EHR alone,30,0.029575256664802,0.0035406014293162,0.0551112520734502,True,stage 18q (slP_contrasts)
+S3,At diagnosis,Death,3-mod,IPA gain over the EHR alone,90,0.0185110577254709,0.0003077558051724,0.0359980432626561,True,stage 18q (slP_contrasts)
+S3,At diagnosis,Death,3-mod,IPA gain over the EHR alone,180,0.0167155868218991,0.0009614192879869,0.0318281334994381,True,stage 18q (slP_contrasts)
+S3,At diagnosis,Death,3-mod,IPA gain over the EHR alone,365,0.0219471385266321,0.0057966042531706,0.0376558050416295,True,stage 18q (slP_contrasts)
+S3,At diagnosis,Death or CV readmission,3-mod,AUROC gain over the EHR alone,10,0.0119509043927648,-0.0041300685322672,0.0280990453624654,False,stage 18r (optB2_sl_contrasts)
+S3,At diagnosis,Death or CV readmission,3-mod,AUROC gain over the EHR alone,30,0.0169500810445891,0.0061934388543873,0.0280734353207141,True,stage 18r (optB2_sl_contrasts)
+S3,At diagnosis,Death or CV readmission,3-mod,AUROC gain over the EHR alone,90,0.0079933760742284,0.0011521388964551,0.0153566577246648,True,stage 18r (optB2_sl_contrasts)
+S3,At diagnosis,Death or CV readmission,3-mod,AUROC gain over the EHR alone,180,0.0099703465777977,0.003165181532015,0.016797811695567,True,stage 18r (optB2_sl_contrasts)
+S3,At diagnosis,Death or CV readmission,3-mod,AUROC gain over the EHR alone,365,0.0112876365574208,0.0050486589761599,0.0177030004662882,True,stage 18r (optB2_sl_contrasts)
+S3,At diagnosis,Death or CV readmission,3-mod,IPA gain over the EHR alone,10,0.0055632744844703,-0.0170577266754391,0.0283735700844996,False,stage 18r (optB2_sl_contrasts)
+S3,At diagnosis,Death or CV readmission,3-mod,IPA gain over the EHR alone,30,0.0209282557397757,-0.0019101306717848,0.0421385892933631,False,stage 18r (optB2_sl_contrasts)
+S3,At diagnosis,Death or CV readmission,3-mod,IPA gain over the EHR alone,90,0.0224847463018142,0.004616504801873,0.0408272425752314,True,stage 18r (optB2_sl_contrasts)
+S3,At diagnosis,Death or CV readmission,3-mod,IPA gain over the EHR alone,180,0.0299290628064955,0.012723367675106,0.0469788371045547,True,stage 18r (optB2_sl_contrasts)
+S3,At diagnosis,Death or CV readmission,3-mod,IPA gain over the EHR alone,365,0.0369729467219117,0.0202283016710364,0.0539401417990155,True,stage 18r (optB2_sl_contrasts)
+S3,At diagnosis,"CV readmission, with death as a competing event",3-mod,AUROC gain over the EHR alone,10,0.0674038036267138,-0.0070885615738104,0.155889966179401,False,stage 18r (optB2_sl_contrasts)
+S3,At diagnosis,"CV readmission, with death as a competing event",3-mod,AUROC gain over the EHR alone,30,0.0146339406207827,-0.0040396403683277,0.0347530954201147,False,stage 18r (optB2_sl_contrasts)
+S3,At diagnosis,"CV readmission, with death as a competing event",3-mod,AUROC gain over the EHR alone,90,0.0143539956674682,0.0012567292823814,0.0290673597451733,True,stage 18r (optB2_sl_contrasts)
+S3,At diagnosis,"CV readmission, with death as a competing event",3-mod,AUROC gain over the EHR alone,180,0.0160469015617073,0.0045977734902665,0.0282520391927992,True,stage 18r (optB2_sl_contrasts)
+S3,At diagnosis,"CV readmission, with death as a competing event",3-mod,AUROC gain over the EHR alone,365,0.0193979224083104,0.0079933625546862,0.031785060015121,True,stage 18r (optB2_sl_contrasts)
+S3,At diagnosis,"CV readmission, with death as a competing event",3-mod,IPA gain over the EHR alone,10,0.0025455251723218,-0.0013344648439873,0.0073516458017428,False,stage 18r (optB2_sl_contrasts)
+S3,At diagnosis,"CV readmission, with death as a competing event",3-mod,IPA gain over the EHR alone,30,0.0037693202173134,-0.006971334168574,0.0153444374514496,False,stage 18r (optB2_sl_contrasts)
+S3,At diagnosis,"CV readmission, with death as a competing event",3-mod,IPA gain over the EHR alone,90,0.0079605878423415,-0.0055417469536234,0.0225283412393005,False,stage 18r (optB2_sl_contrasts)
+S3,At diagnosis,"CV readmission, with death as a competing event",3-mod,IPA gain over the EHR alone,180,0.0117626340821967,-0.0017385956464695,0.0258084828539482,False,stage 18r (optB2_sl_contrasts)
+S3,At diagnosis,"CV readmission, with death as a competing event",3-mod,IPA gain over the EHR alone,365,0.0178185693542872,0.0025939528986234,0.0331567673264878,True,stage 18r (optB2_sl_contrasts)
+S3,At discharge,Death,3-mod,AUROC gain over the EHR alone,10,0.0071843552235709,-0.0061715334607266,0.0276012956751617,False,stage 18r (optB2_sl_contrasts)
+S3,At discharge,Death,3-mod,AUROC gain over the EHR alone,30,0.0034461691200335,-0.0038940831651585,0.0111589579450615,False,stage 18r (optB2_sl_contrasts)
+S3,At discharge,Death,3-mod,AUROC gain over the EHR alone,90,0.0012058028676525,-0.0017120670464676,0.0041678204430499,False,stage 18r (optB2_sl_contrasts)
+S3,At discharge,Death,3-mod,AUROC gain over the EHR alone,180,0.0007505986023853,-0.0014260527257939,0.0029667963969441,False,stage 18r (optB2_sl_contrasts)
+S3,At discharge,Death,3-mod,AUROC gain over the EHR alone,365,0.0025384927814495,-0.0001370582917258,0.0054489716442294,False,stage 18r (optB2_sl_contrasts)
+S3,At discharge,Death,3-mod,IPA gain over the EHR alone,10,0.0023357151791223,-0.0247629222865323,0.0288978750290643,False,stage 18r (optB2_sl_contrasts)
+S3,At discharge,Death,3-mod,IPA gain over the EHR alone,30,0.0134812068188551,-0.0050539584201576,0.0328619475678207,False,stage 18r (optB2_sl_contrasts)
+S3,At discharge,Death,3-mod,IPA gain over the EHR alone,90,0.0020718467202299,-0.0069834535212645,0.0109636653166648,False,stage 18r (optB2_sl_contrasts)
+S3,At discharge,Death,3-mod,IPA gain over the EHR alone,180,0.0042692298842697,-0.0023611355174215,0.0112794960417323,False,stage 18r (optB2_sl_contrasts)
+S3,At discharge,Death,3-mod,IPA gain over the EHR alone,365,0.0087289119191652,-5.17016047525714e-05,0.0176820709481195,False,stage 18r (optB2_sl_contrasts)
+S3,At discharge,Death or CV readmission,3-mod,AUROC gain over the EHR alone,10,0.0084979745173919,-0.0024181774997653,0.0211841152375134,False,stage 18r (optB2_sl_contrasts)
+S3,At discharge,Death or CV readmission,3-mod,AUROC gain over the EHR alone,30,0.006563195698744,-0.0012220859928208,0.0144498003734745,False,stage 18r (optB2_sl_contrasts)
+S3,At discharge,Death or CV readmission,3-mod,AUROC gain over the EHR alone,90,0.0034561519504718,-0.0011491622985384,0.0084300394231664,False,stage 18r (optB2_sl_contrasts)
+S3,At discharge,Death or CV readmission,3-mod,AUROC gain over the EHR alone,180,0.0019062236965885,-0.001691154049557,0.0056257349755933,False,stage 18r (optB2_sl_contrasts)
+S3,At discharge,Death or CV readmission,3-mod,AUROC gain over the EHR alone,365,0.0038754588397022,-0.0003890310340307,0.0083291815222244,False,stage 18r (optB2_sl_contrasts)
+S3,At discharge,Death or CV readmission,3-mod,IPA gain over the EHR alone,10,-0.0088194346646391,-0.0252509369096745,0.0074800011846573,False,stage 18r (optB2_sl_contrasts)
+S3,At discharge,Death or CV readmission,3-mod,IPA gain over the EHR alone,30,0.0027067937529259,-0.0125059063744682,0.0183303548075689,False,stage 18r (optB2_sl_contrasts)
+S3,At discharge,Death or CV readmission,3-mod,IPA gain over the EHR alone,90,0.01099386648381,-0.0011068217158008,0.0231136134603359,False,stage 18r (optB2_sl_contrasts)
+S3,At discharge,Death or CV readmission,3-mod,IPA gain over the EHR alone,180,0.0105440240189233,0.0007286706100874,0.0209484812330714,True,stage 18r (optB2_sl_contrasts)
+S3,At discharge,Death or CV readmission,3-mod,IPA gain over the EHR alone,365,0.0172274767263475,0.0053229705573139,0.0296148663964532,True,stage 18r (optB2_sl_contrasts)
+S3,At discharge,"CV readmission, with death as a competing event",3-mod,AUROC gain over the EHR alone,10,0.0057645949061943,-0.0055597052947053,0.0180609453208363,False,stage 18r (optB2_sl_contrasts)
+S3,At discharge,"CV readmission, with death as a competing event",3-mod,AUROC gain over the EHR alone,30,0.0029710369465759,-0.0027103165078368,0.0094262353245265,False,stage 18r (optB2_sl_contrasts)
+S3,At discharge,"CV readmission, with death as a competing event",3-mod,AUROC gain over the EHR alone,90,0.0022322844133277,-0.0026310041846123,0.0075490760633255,False,stage 18r (optB2_sl_contrasts)
+S3,At discharge,"CV readmission, with death as a competing event",3-mod,AUROC gain over the EHR alone,180,0.0015078588404465,-0.0015877454015298,0.0048359268966013,False,stage 18r (optB2_sl_contrasts)
+S3,At discharge,"CV readmission, with death as a competing event",3-mod,AUROC gain over the EHR alone,365,0.0037762897952761,9.18470963227364e-05,0.0075376083631128,True,stage 18r (optB2_sl_contrasts)
+S3,At discharge,"CV readmission, with death as a competing event",3-mod,IPA gain over the EHR alone,10,0.0032493961581541,-0.0025742746554252,0.0093367783069814,False,stage 18r (optB2_sl_contrasts)
+S3,At discharge,"CV readmission, with death as a competing event",3-mod,IPA gain over the EHR alone,30,-0.004502156410862,-0.0115314891691966,0.0022198400016322,False,stage 18r (optB2_sl_contrasts)
+S3,At discharge,"CV readmission, with death as a competing event",3-mod,IPA gain over the EHR alone,90,0.0004458090066599,-0.0072211096867916,0.0086040960711338,False,stage 18r (optB2_sl_contrasts)
+S3,At discharge,"CV readmission, with death as a competing event",3-mod,IPA gain over the EHR alone,180,-0.0006398827864209,-0.0069784637902579,0.0058927229173913,False,stage 18r (optB2_sl_contrasts)
+S3,At discharge,"CV readmission, with death as a competing event",3-mod,IPA gain over the EHR alone,365,0.0045145442527786,-0.0032868421305107,0.012311460582977,False,stage 18r (optB2_sl_contrasts)

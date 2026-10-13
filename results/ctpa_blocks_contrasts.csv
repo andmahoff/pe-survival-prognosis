@@ -1,0 +1,23 @@
+contrast,model,quantity,estimate,lo,hi,excludes_null
+PE descriptors over All CTPA,alone,ratio of early/late ratios,0.957910045379494,0.694386921439516,1.3399392794542,FALSE
+PE descriptors over All CTPA,with EHR,ratio of early/late ratios,0.871533019626282,0.618092875861985,1.25375354410558,FALSE
+Incidental findings over All CTPA,alone,ratio of early/late ratios,1.05240498271549,0.944925046026195,1.17604990670781,FALSE
+Incidental findings over All CTPA,with EHR,ratio of early/late ratios,1.02128075671374,0.904261389723374,1.15992327490636,FALSE
+Incidental findings over PE descriptors,alone,ratio of early/late ratios,1.09864698443428,0.751725311121347,1.59451283818968,FALSE
+Incidental findings over PE descriptors,with EHR,ratio of early/late ratios,1.17182107127928,0.786238917334459,1.72971659613785,FALSE
+Incidental findings minus PE descriptors,alone,"AUROC, deaths in days 31-365 among day-30 survivors",0.10947867498492,0.0513117658917009,0.171358957534858,TRUE
+Comorbidity over All CTPA,alone,ratio of early/late ratios,0.918483534763754,0.854602915472413,0.98593478846287,TRUE
+Comorbidity over All CTPA,with EHR,ratio of early/late ratios,0.893202954231166,0.810773514833967,0.980497515678176,TRUE
+Comorbidity over PE descriptors,alone,ratio of early/late ratios,0.958841113728877,0.671994107955728,1.36052186460898,FALSE
+Comorbidity over PE descriptors,with EHR,ratio of early/late ratios,1.02486415788833,0.699234193917201,1.4630288777988,FALSE
+Comorbidity minus PE descriptors,alone,"AUROC, deaths in days 31-365 among day-30 survivors",0.123411327503807,0.0596664957851321,0.188674287382235,TRUE
+Support devices over All CTPA,alone,ratio of early/late ratios,0.829136185748763,0.644292683507714,1.06012468000788,FALSE
+Support devices over All CTPA,with EHR,ratio of early/late ratios,0.794612532823538,0.59675846080511,1.02914958647694,FALSE
+Support devices over PE descriptors,alone,ratio of early/late ratios,0.865567899353519,0.60855779215411,1.19637223500613,FALSE
+Support devices over PE descriptors,with EHR,ratio of early/late ratios,0.911741167493886,0.644304204866937,1.2378565043683,FALSE
+Support devices minus PE descriptors,alone,"AUROC, deaths in days 31-365 among day-30 survivors",-0.0292298866574711,-0.0874592980848478,0.0302767722904437,FALSE
+Report metadata over All CTPA,alone,ratio of early/late ratios,0.766086507085648,0.576765821826104,1.02185265537994,FALSE
+Report metadata over All CTPA,with EHR,ratio of early/late ratios,0.748426149302701,0.561901519559628,1.00169929262203,FALSE
+Report metadata over PE descriptors,alone,ratio of early/late ratios,0.799747858142722,0.476740223362319,1.27659395796044,FALSE
+Report metadata over PE descriptors,with EHR,ratio of early/late ratios,0.858746751355021,0.525307677796029,1.3556228130774,FALSE
+Report metadata minus PE descriptors,alone,"AUROC, deaths in days 31-365 among day-30 survivors",0.00980938039136292,-0.0563981584788583,0.0807822685041414,FALSE

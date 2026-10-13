@@ -1,0 +1,2 @@
+frame,cohort,message,count
+A,3-mod,from glmnet C++ code (error code -80); Convergence for 80th lambda value not reached after maxit=100000 iterations; solutions for larger lambdas retur,3

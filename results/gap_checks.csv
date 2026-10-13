@@ -1,0 +1,8 @@
+item,value,status
+EHR+ECG: missing level-1 scores or folds,0,PASS
+EHR+ECG: n / deaths at 10 and 365 days,2909 / 81 and 620,PASS
+3-mod: missing level-1 scores or folds,0,PASS
+3-mod: n / deaths at 10 and 365 days,1405 / 28 and 292,PASS
+missing stacked predictions,0,PASS
+range of stacked risks,0.00021 to 0.98618,PASS
+EHR the better single modality in its pairs (share of cells),1.00,INFO

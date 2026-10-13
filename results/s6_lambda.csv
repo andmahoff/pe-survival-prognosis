@@ -1,0 +1,41 @@
+type,target,strategy,group,fit,fits,median_path_length,share_least_penalised,share_most_penalised
+internal,I,median (source),EHR,inner,150,63,0,0
+internal,I,median (source),EHR,full,30,62,0,0
+internal,I,median (source),CTPA,inner,150,62,0,0.00666666666666667
+internal,I,median (source),CTPA,full,30,62,0,0
+internal,M,median (source),EHR,inner,150,80,0,0
+internal,M,median (source),EHR,full,30,80,0,0
+internal,M,median (source),CTPA,inner,150,62,0,0
+internal,M,median (source),CTPA,full,30,61.5,0,0
+transfer,I,median (source),EHR,inner,30,80,0,0
+transfer,I,median (source),EHR,full,6,80,0,0
+transfer,I,median (source),CTPA,inner,30,61,0,0
+transfer,I,median (source),CTPA,full,6,61,0,0
+transfer,I,median + missing indicators,EHR,inner,30,80,0,0
+transfer,I,median + missing indicators,EHR,full,6,80,0,0
+transfer,I,median + missing indicators,CTPA,inner,30,61,0,0
+transfer,I,median + missing indicators,CTPA,full,6,61,0,0
+transfer,I,regression imputation (source),EHR,inner,30,80,0,0
+transfer,I,regression imputation (source),EHR,full,6,80,0,0
+transfer,I,regression imputation (source),CTPA,inner,30,61,0,0
+transfer,I,regression imputation (source),CTPA,full,6,61,0,0
+transfer,I,median (target's own),EHR,inner,30,80,0,0
+transfer,I,median (target's own),EHR,full,6,80,0,0
+transfer,I,median (target's own),CTPA,inner,30,61,0,0
+transfer,I,median (target's own),CTPA,full,6,61,0,0
+transfer,M,median (source),EHR,inner,30,62,0,0
+transfer,M,median (source),EHR,full,6,62,0,0
+transfer,M,median (source),CTPA,inner,30,62,0,0
+transfer,M,median (source),CTPA,full,6,62,0,0
+transfer,M,median + missing indicators,EHR,inner,30,74,0,0
+transfer,M,median + missing indicators,EHR,full,6,71,0,0
+transfer,M,median + missing indicators,CTPA,inner,30,62,0,0
+transfer,M,median + missing indicators,CTPA,full,6,62,0,0
+transfer,M,regression imputation (source),EHR,inner,30,62,0,0
+transfer,M,regression imputation (source),EHR,full,6,62,0,0
+transfer,M,regression imputation (source),CTPA,inner,30,62,0,0
+transfer,M,regression imputation (source),CTPA,full,6,62,0,0
+transfer,M,median (target's own),EHR,inner,30,62,0,0
+transfer,M,median (target's own),EHR,full,6,62,0,0
+transfer,M,median (target's own),CTPA,inner,30,62,0,0
+transfer,M,median (target's own),CTPA,full,6,62,0,0

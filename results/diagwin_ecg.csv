@@ -1,0 +1,7 @@
+window,admissions_with_ecg,share_of_cohort,first_ecg_hours_median,first_ecg_hours_q75,records_used
+D18 (dates: day before or day of admission),3184,0.9095,-3.28,-1.25,4187
+-24 h to +24 h,3381,0.9657,-3.07,-0.77,5177
+-12 h to +24 h,3380,0.9654,-3.05,-0.76,5170
+-24 h to +12 h,3230,0.9226,-3.23,-1.13,4468
+-24 h to +48 h,3501,1.0,-2.92,-0.45,5984
+-12 h to +48 h (side project),3501,1.0,-2.9,-0.43,5977

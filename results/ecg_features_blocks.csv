@@ -1,0 +1,5 @@
+block,features,whole_year_q05,front_loaded_q05,late_loaded_q05,front_loaded_logt_q05,median_ratio,median_ratio_if_year_q05
+SCP statement,71,12,0,0,0,1.04574900396416,1.14317727442977
+measurement,193,18,0,0,0,1.00759933426078,1.03128101523861
+right-ventricular-strain statements,8,0,0,0,0,1.04017899499788,
+all features,264,30,0,0,0,1.01713163213783,1.05001308558024

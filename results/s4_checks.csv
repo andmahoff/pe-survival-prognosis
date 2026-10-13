@@ -1,0 +1,29 @@
+item,value,status
+A EHR+ECG: stage 6a and 6b files found,"oof_linear_A_ehrecg.csv, oof_forest_A_ehrecg.csv",PASS
+A EHR+ECG: columns needed / missing,52 / 0,PASS
+A EHR+ECG: seeds in 6a / 6b / folds,"1,2,3,7,13,42 / 1,2,3,7,13,42 / 1,2,3,7,13,42",PASS
+"A EHR+ECG: rows = admissions x seeds (6a, 6b)","21006, 21006 = 3501 x 6",PASS
+A EHR+ECG: missing scores after averaging / missing folds,0 / 0,PASS
+A EHR+ECG: fused risks missing,0,PASS
+A EHR+ECG: death scores at or below chance at 30 d,0,PASS
+A 3-mod: stage 6a and 6b files found,"oof_linear_A_3mod.csv, oof_forest_A_3mod.csv",PASS
+A 3-mod: columns needed / missing,78 / 0,PASS
+A 3-mod: seeds in 6a / 6b / folds,"1,2,3,7,13,42 / 1,2,3,7,13,42 / 1,2,3,7,13,42",PASS
+"A 3-mod: rows = admissions x seeds (6a, 6b)","9816, 9816 = 1636 x 6",PASS
+A 3-mod: missing scores after averaging / missing folds,0 / 0,PASS
+A 3-mod: fused risks missing,0,PASS
+A 3-mod: death scores at or below chance at 30 d,0,PASS
+B EHR+ECG: stage 6a and 6b files found,"oof_linear_B_ehrecg.csv, oof_forest_B_ehrecg.csv",PASS
+B EHR+ECG: columns needed / missing,112 / 0,PASS
+B EHR+ECG: seeds in 6a / 6b / folds,"1,2,3,7,13,42 / 1,2,3,7,13,42 / 1,2,3,7,13,42",PASS
+"B EHR+ECG: rows = admissions x seeds (6a, 6b)","17454, 17454 = 2909 x 6",PASS
+B EHR+ECG: missing scores after averaging / missing folds,0 / 0,PASS
+B EHR+ECG: fused risks missing,0,PASS
+B EHR+ECG: death scores at or below chance at 365 d,0,PASS
+B 3-mod: stage 6a and 6b files found,"oof_linear_B_3mod.csv, oof_forest_B_3mod.csv",PASS
+B 3-mod: columns needed / missing,168 / 0,PASS
+B 3-mod: seeds in 6a / 6b / folds,"1,2,3,7,13,42 / 1,2,3,7,13,42 / 1,2,3,7,13,42",PASS
+"B 3-mod: rows = admissions x seeds (6a, 6b)","8430, 8430 = 1405 x 6",PASS
+B 3-mod: missing scores after averaging / missing folds,0 / 0,PASS
+B 3-mod: fused risks missing,0,PASS
+B 3-mod: death scores at or below chance at 365 d,0,PASS

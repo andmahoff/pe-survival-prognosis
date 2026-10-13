@@ -1,0 +1,22 @@
+﻿Measure,10 days,30 days,90 days,180 days,365 days
+"At diagnosis (3,501 admissions): Death",,,,,
+AUROC gain over sPESI,0.150 (0.119 to 0.183),0.147 (0.126 to 0.169),0.142 (0.125 to 0.160),0.144 (0.128 to 0.160),0.141 (0.125 to 0.157)
+AUROC gain over PESI-10,0.101 (0.075 to 0.130),0.102 (0.084 to 0.121),0.088 (0.072 to 0.103),0.087 (0.073 to 0.102),0.082 (0.069 to 0.096)
+Specificity gain at sPESI's sensitivity,0.242 (0.151 to 0.303),0.246 (0.151 to 0.296),0.232 (0.170 to 0.287),0.231 (0.187 to 0.283),0.211 (0.167 to 0.277)
+AUROC gain over the EHR alone,0.007 (−0.002 to 0.016),0.006 (0.001 to 0.011),0.003 (0.000 to 0.006),0.002 (−0.001 to 0.004),0.003 (0.000 to 0.006)
+IPA gain over the EHR alone,0.006 (−0.009 to 0.020),0.013 (0.002 to 0.025),0.008 (0.000 to 0.016),0.008 (0.001 to 0.014),0.012 (0.004 to 0.020)
+"At diagnosis (3,501 admissions): Death or CV readmission",,,,,
+AUROC gain over the EHR alone,0.011 (0.002 to 0.020),0.010 (0.004 to 0.016),0.006 (0.002 to 0.010),0.004 (0.001 to 0.007),0.005 (0.001 to 0.008)
+IPA gain over the EHR alone,0.003 (−0.011 to 0.016),0.015 (0.002 to 0.027),0.016 (0.006 to 0.025),0.015 (0.007 to 0.023),0.018 (0.009 to 0.026)
+"At diagnosis (3,501 admissions): CV readmission, with death as a competing event",,,,,
+AUROC gain over the EHR alone,0.016 (−0.013 to 0.052),0.010 (0.000 to 0.022),0.010 (0.003 to 0.017),0.008 (0.002 to 0.013),0.008 (0.002 to 0.014)
+IPA gain over the EHR alone,0.003 (−0.002 to 0.008),0.007 (−0.001 to 0.016),0.006 (−0.003 to 0.014),0.003 (−0.004 to 0.011),0.005 (−0.002 to 0.012)
+"At discharge (2,909 discharges): Death †",,,,,
+AUROC gain over the EHR alone,0.008 (0.002 to 0.016),0.005 (0.001 to 0.009),0.002 (0.000 to 0.004),0.001 (−0.001 to 0.002),0.002 (0.000 to 0.004)
+IPA gain over the EHR alone,0.006 (−0.020 to 0.030),0.006 (−0.007 to 0.019),0.003 (−0.005 to 0.011),0.004 (−0.002 to 0.009),0.007 (0.001 to 0.014)
+"At discharge (2,909 discharges): Death or CV readmission",,,,,
+AUROC gain over the EHR alone,0.015 (0.007 to 0.023),0.007 (0.002 to 0.012),0.004 (0.000 to 0.007),0.002 (0.000 to 0.005),0.003 (0.000 to 0.005)
+IPA gain over the EHR alone,−0.002 (−0.018 to 0.013),0.005 (−0.005 to 0.017),0.010 (0.001 to 0.019),0.009 (0.002 to 0.016),0.012 (0.005 to 0.020)
+"At discharge (2,909 discharges): CV readmission, with death as a competing event",,,,,
+AUROC gain over the EHR alone,0.005 (−0.002 to 0.012),0.002 (−0.003 to 0.007),0.002 (−0.002 to 0.005),0.002 (−0.001 to 0.004),0.003 (0.000 to 0.006)
+IPA gain over the EHR alone,0.001 (−0.006 to 0.009),0.002 (−0.005 to 0.009),0.002 (−0.004 to 0.009),0.001 (−0.004 to 0.006),0.003 (−0.002 to 0.009)

@@ -1,0 +1,9 @@
+item,value,status
+"A EHR+ECG: stage 6a, 6d and 10 files found","oof_linear_A_ehrecg.csv, oof_extra_A_ehrecg.csv, oof_deep_A_ehrecg.csv",PASS
+A EHR+ECG: patients / missing scores,3501 / 0,PASS
+"A 3-mod: stage 6a, 6d and 10 files found","oof_linear_A_3mod.csv, oof_extra_A_3mod.csv, oof_deep_A_3mod.csv",PASS
+A 3-mod: patients / missing scores,1636 / 0,PASS
+"B EHR+ECG: stage 6a, 6d and 10 files found","oof_linear_B_ehrecg.csv, oof_extra_B_ehrecg.csv, oof_deep_B_ehrecg.csv",PASS
+B EHR+ECG: patients / missing scores,2909 / 0,PASS
+"B 3-mod: stage 6a, 6d and 10 files found","oof_linear_B_3mod.csv, oof_extra_B_3mod.csv, oof_deep_B_3mod.csv",PASS
+B 3-mod: patients / missing scores,1405 / 0,PASS

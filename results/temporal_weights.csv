@@ -1,0 +1,69 @@
+cohort,set,candidate,weight
+EHR+ECG,EHR+ECG,Kaplan-Meier,0
+EHR+ECG,EHR+ECG,"EHR alone, ridge-Cox retuned",0
+EHR+ECG,EHR+ECG,"EHR alone, spline Cox",0
+EHR+ECG,EHR+ECG,"EHR alone, RSF, Brier-tuned",0.0237540834216822
+EHR+ECG,EHR+ECG,"EHR alone, oblique RSF, Brier-tuned",0
+EHR+ECG,EHR+ECG,ridge-Cox retuned PH,0
+EHR+ECG,EHR+ECG,ridge-Cox retuned TV,0
+EHR+ECG,EHR+ECG,ridge-Cox retuned TVC,0
+EHR+ECG,EHR+ECG,spline Cox PH,0
+EHR+ECG,EHR+ECG,spline Cox TV,0.213757077303686
+EHR+ECG,EHR+ECG,spline Cox TVC,0
+EHR+ECG,EHR+ECG,"RSF, Brier-tuned PH",0
+EHR+ECG,EHR+ECG,"RSF, Brier-tuned TV",0.22476612623296
+EHR+ECG,EHR+ECG,"RSF, Brier-tuned TVC",0
+EHR+ECG,EHR+ECG,"oblique RSF, Brier-tuned PH",0
+EHR+ECG,EHR+ECG,"oblique RSF, Brier-tuned TV",0.537722713041672
+EHR+ECG,EHR+ECG,"oblique RSF, Brier-tuned TVC",0
+3-mod,EHR+ECG,Kaplan-Meier,0
+3-mod,EHR+ECG,"EHR alone, ridge-Cox retuned",0
+3-mod,EHR+ECG,"EHR alone, spline Cox",0.0403728923529678
+3-mod,EHR+ECG,"EHR alone, RSF, Brier-tuned",0
+3-mod,EHR+ECG,"EHR alone, oblique RSF, Brier-tuned",0
+3-mod,EHR+ECG,ridge-Cox retuned PH,0
+3-mod,EHR+ECG,ridge-Cox retuned TV,0
+3-mod,EHR+ECG,ridge-Cox retuned TVC,0
+3-mod,EHR+ECG,spline Cox PH,0
+3-mod,EHR+ECG,spline Cox TV,0.00861361264422128
+3-mod,EHR+ECG,spline Cox TVC,0
+3-mod,EHR+ECG,"RSF, Brier-tuned PH",0
+3-mod,EHR+ECG,"RSF, Brier-tuned TV",0.393253448294109
+3-mod,EHR+ECG,"RSF, Brier-tuned TVC",0
+3-mod,EHR+ECG,"oblique RSF, Brier-tuned PH",0
+3-mod,EHR+ECG,"oblique RSF, Brier-tuned TV",0.557760046708702
+3-mod,EHR+ECG,"oblique RSF, Brier-tuned TVC",0
+3-mod,EHR+CTPA,Kaplan-Meier,0
+3-mod,EHR+CTPA,"EHR alone, ridge-Cox retuned",0.0232921328433616
+3-mod,EHR+CTPA,"EHR alone, spline Cox",0.0651592431740272
+3-mod,EHR+CTPA,"EHR alone, RSF, Brier-tuned",0
+3-mod,EHR+CTPA,"EHR alone, oblique RSF, Brier-tuned",0
+3-mod,EHR+CTPA,ridge-Cox retuned PH,0
+3-mod,EHR+CTPA,ridge-Cox retuned TV,0.0312010608965387
+3-mod,EHR+CTPA,ridge-Cox retuned TVC,0
+3-mod,EHR+CTPA,spline Cox PH,0
+3-mod,EHR+CTPA,spline Cox TV,0
+3-mod,EHR+CTPA,spline Cox TVC,0
+3-mod,EHR+CTPA,"RSF, Brier-tuned PH",0
+3-mod,EHR+CTPA,"RSF, Brier-tuned TV",0.524308125019463
+3-mod,EHR+CTPA,"RSF, Brier-tuned TVC",0
+3-mod,EHR+CTPA,"oblique RSF, Brier-tuned PH",0
+3-mod,EHR+CTPA,"oblique RSF, Brier-tuned TV",0.35603943806661
+3-mod,EHR+CTPA,"oblique RSF, Brier-tuned TVC",0
+3-mod,EHR+ECG+CTPA,Kaplan-Meier,0
+3-mod,EHR+ECG+CTPA,"EHR alone, ridge-Cox retuned",0
+3-mod,EHR+ECG+CTPA,"EHR alone, spline Cox",0.0802151328789868
+3-mod,EHR+ECG+CTPA,"EHR alone, RSF, Brier-tuned",0
+3-mod,EHR+ECG+CTPA,"EHR alone, oblique RSF, Brier-tuned",0
+3-mod,EHR+ECG+CTPA,ridge-Cox retuned PH,0
+3-mod,EHR+ECG+CTPA,ridge-Cox retuned TV,0
+3-mod,EHR+ECG+CTPA,ridge-Cox retuned TVC,0
+3-mod,EHR+ECG+CTPA,spline Cox PH,0
+3-mod,EHR+ECG+CTPA,spline Cox TV,0
+3-mod,EHR+ECG+CTPA,spline Cox TVC,0
+3-mod,EHR+ECG+CTPA,"RSF, Brier-tuned PH",0
+3-mod,EHR+ECG+CTPA,"RSF, Brier-tuned TV",0.47405011729191
+3-mod,EHR+ECG+CTPA,"RSF, Brier-tuned TVC",0
+3-mod,EHR+ECG+CTPA,"oblique RSF, Brier-tuned PH",0
+3-mod,EHR+ECG+CTPA,"oblique RSF, Brier-tuned TV",0.445734749829103
+3-mod,EHR+ECG+CTPA,"oblique RSF, Brier-tuned TVC",0

@@ -1,0 +1,13 @@
+item,value,status
+INSPECT EHR: extra rows for the same person,0,PASS
+INSPECT CTPA: extra rows for the same person,0,PASS
+INSPECT: patients / deaths within 366 d,3300 / 539,INFO
+INSPECT: patients with no feature row at all,0,PASS
+"INSPECT: cells missing, EHR / CTPA",0.109 / 0.000,INFO
+MIMIC: patients / deaths within 366 d,1490 / 369,INFO
+MIMIC: patients with no feature row at all,0,PASS
+"MIMIC: cells missing, EHR / CTPA",0.053 / 0.000,INFO
+tasks that failed,0,PASS
+CTPA models: choices at the least-penalised end,0.0%,PASS
+EHR models: choices at the least-penalised end,0.0%,PASS
+risk range across all predictions,0.00337 to 0.99982,PASS

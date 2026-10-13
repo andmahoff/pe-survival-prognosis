@@ -1,0 +1,18 @@
+item,value,status
+input files found,all,PASS
+EHR features: registered / extra labs (excluded),"28 / 51 (lab_50825_temperature, lab_51009_vancomycin)",PASS
+EHR+ECG: missing scores,0,PASS
+EHR+ECG: scores failing the per-fold rule (D2),0,PASS
+3-mod: missing scores,0,PASS
+3-mod: scores failing the per-fold rule (D2),0,PASS
+forest fits that failed (best remaining one used),0,PASS
+spline Cox fits: k = 5 / smaller basis / replaced by ridge-Cox,60 / 0 / 0,PASS
+ridge-Cox: folds whose path was extended,0,INFO
+share of folds still at an edge after extension: rsf node,0%,PASS
+share of folds still at an edge after extension: rsf mtry,0%,PASS
+share of folds still at an edge after extension: orsf leaf,0%,PASS
+share of folds still at an edge after extension: orsf mtry,18%,PASS
+extensions RSF mtry up: tried / kept,60 / 0,INFO
+extensions oblique RSF leaf down: tried / kept,21 / 0,INFO
+extensions oblique RSF mtry up: tried / kept,101 / 52,INFO
+extensions oblique RSF leaf up: tried / kept,2 / 0,INFO

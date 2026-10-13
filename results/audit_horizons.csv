@@ -1,0 +1,65 @@
+dataset,frame,cohort,endpoint,horizon_days,n,events,risk,method
+MIMIC,A_admission_all,EHR+ECG,death,10,3501,178,0.0508,empirical
+MIMIC,A_admission_all,EHR+ECG,composite,10,3501,216,0.0617,empirical
+MIMIC,A_admission_all,EHR+ECG,cv_first_competing,10,3501,39,0.0111,empirical
+MIMIC,A_admission_all,EHR+ECG,death_first,10,3501,177,0.0506,empirical
+MIMIC,A_admission_all,EHR+ECG,death,30,3501,397,0.1134,empirical
+MIMIC,A_admission_all,EHR+ECG,composite,30,3501,547,0.1562,empirical
+MIMIC,A_admission_all,EHR+ECG,cv_first_competing,30,3501,172,0.0491,empirical
+MIMIC,A_admission_all,EHR+ECG,death_first,30,3501,375,0.1071,empirical
+MIMIC,A_admission_all,EHR+ECG,death,90,3501,646,0.1845,empirical
+MIMIC,A_admission_all,EHR+ECG,death,180,3501,801,0.2288,empirical
+MIMIC,A_admission_all,EHR+ECG,death,365,3501,971,0.2773,empirical
+MIMIC,A_admission_first,EHR+ECG,death,10,3160,158,0.05,empirical
+MIMIC,A_admission_first,EHR+ECG,composite,10,3160,193,0.0611,empirical
+MIMIC,A_admission_first,EHR+ECG,cv_first_competing,10,3160,36,0.0114,empirical
+MIMIC,A_admission_first,EHR+ECG,death_first,10,3160,157,0.0497,empirical
+MIMIC,A_admission_first,EHR+ECG,death,30,3160,356,0.1127,empirical
+MIMIC,A_admission_first,EHR+ECG,composite,30,3160,489,0.1547,empirical
+MIMIC,A_admission_first,EHR+ECG,cv_first_competing,30,3160,151,0.0478,empirical
+MIMIC,A_admission_first,EHR+ECG,death_first,30,3160,338,0.107,empirical
+MIMIC,A_admission_first,EHR+ECG,death,90,3160,572,0.181,empirical
+MIMIC,A_admission_first,EHR+ECG,death,180,3160,700,0.2215,empirical
+MIMIC,A_admission_first,EHR+ECG,death,365,3160,854,0.2703,empirical
+MIMIC,B_discharge_first,EHR+ECG,death,10,2919,81,0.0277,empirical
+MIMIC,B_discharge_first,EHR+ECG,death,30,2919,177,0.0606,empirical
+MIMIC,B_discharge_first,EHR+ECG,death,90,2919,351,0.1202,empirical
+MIMIC,B_discharge_first,EHR+ECG,death,180,2919,469,0.1607,empirical
+MIMIC,B_discharge_first,EHR+ECG,death,365,2919,620,0.2124,empirical
+MIMIC,A_admission_all,3-mod,death,10,1636,68,0.0416,empirical
+MIMIC,A_admission_all,3-mod,composite,10,1636,88,0.0538,empirical
+MIMIC,A_admission_all,3-mod,cv_first_competing,10,1636,21,0.0128,empirical
+MIMIC,A_admission_all,3-mod,death_first,10,1636,67,0.041,empirical
+MIMIC,A_admission_all,3-mod,death,30,1636,152,0.0929,empirical
+MIMIC,A_admission_all,3-mod,composite,30,1636,219,0.1339,empirical
+MIMIC,A_admission_all,3-mod,cv_first_competing,30,1636,76,0.0465,empirical
+MIMIC,A_admission_all,3-mod,death_first,30,1636,143,0.0874,empirical
+MIMIC,A_admission_all,3-mod,death,90,1636,281,0.1718,empirical
+MIMIC,A_admission_all,3-mod,death,180,1636,344,0.2103,empirical
+MIMIC,A_admission_all,3-mod,death,365,1636,420,0.2567,empirical
+MIMIC,A_admission_first,3-mod,death,10,1540,61,0.0396,empirical
+MIMIC,A_admission_first,3-mod,composite,10,1540,81,0.0526,empirical
+MIMIC,A_admission_first,3-mod,cv_first_competing,10,1540,21,0.0136,empirical
+MIMIC,A_admission_first,3-mod,death_first,10,1540,60,0.039,empirical
+MIMIC,A_admission_first,3-mod,death,30,1540,140,0.0909,empirical
+MIMIC,A_admission_first,3-mod,composite,30,1540,205,0.1331,empirical
+MIMIC,A_admission_first,3-mod,cv_first_competing,30,1540,74,0.0481,empirical
+MIMIC,A_admission_first,3-mod,death_first,30,1540,131,0.0851,empirical
+MIMIC,A_admission_first,3-mod,death,90,1540,258,0.1675,empirical
+MIMIC,A_admission_first,3-mod,death,180,1540,315,0.2045,empirical
+MIMIC,A_admission_first,3-mod,death,365,1540,389,0.2526,empirical
+MIMIC,B_discharge_first,3-mod,death,10,1459,29,0.0199,empirical
+MIMIC,B_discharge_first,3-mod,death,30,1459,86,0.0589,empirical
+MIMIC,B_discharge_first,3-mod,death,90,1459,182,0.1247,empirical
+MIMIC,B_discharge_first,3-mod,death,180,1459,237,0.1624,empirical
+MIMIC,B_discharge_first,3-mod,death,365,1459,309,0.2118,empirical
+INSPECT,scan_origin,PE persons,death,10,3300,122,0.0375,kaplan_meier
+INSPECT,scan_origin,PE persons,death,10,3212,122,0.038,binary_censored_dropped
+INSPECT,scan_origin,PE persons,death,30,3300,250,0.0779,kaplan_meier
+INSPECT,scan_origin,PE persons,death,30,3136,250,0.0797,binary_censored_dropped
+INSPECT,scan_origin,PE persons,death,90,3300,377,0.1191,kaplan_meier
+INSPECT,scan_origin,PE persons,death,90,3046,377,0.1238,binary_censored_dropped
+INSPECT,scan_origin,PE persons,death,180,3300,450,0.1436,kaplan_meier
+INSPECT,scan_origin,PE persons,death,180,2948,450,0.1526,binary_censored_dropped
+INSPECT,scan_origin,PE persons,death,365,3300,539,0.1748,kaplan_meier
+INSPECT,scan_origin,PE persons,death,365,2825,539,0.1908,binary_censored_dropped

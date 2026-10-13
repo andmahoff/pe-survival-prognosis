@@ -1,0 +1,12 @@
+item,value
+ECG times (ecg_charttime),100.0% contain a clock time; lengths 19 / 10
+admission times (admittime),99.5% contain a clock time; lengths 19 / 10
+ECG times at exactly midnight,100.0%
+ECG minus admission (h): share exactly 0,61.7%
+ECG minus admission (h): share a whole multiple of 24,100.0%
+"ECG minus admission (h): 5%, 25%, 50%, 75%, 95%","-24, 0, 0, 24, 48"
+ECG times identical to the admission time,61.7%
+unmatched columns,98
+their suffixes (count),worst 95; circ 3
+unmatched columns whose base name is matched under another suffix,95 of 98
+unmatched columns with no matched sibling (first 10),qrs_axis_circ t_axis_circ p_axis_circ

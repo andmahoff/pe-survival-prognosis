@@ -1,0 +1,24 @@
+item,value,status
+forest fits that failed,0,PASS
+A EHR+ECG: missing / risk range,0 / 0.0000 to 0.9748,PASS
+A EHR+ECG: patients whose risk falls with the horizon,0,PASS
+A EHR+ECG: seed-level scores failing the per-fold rule (D2),0,PASS
+A 3-mod: missing / risk range,0 / 0.0000 to 0.8510,PASS
+A 3-mod: patients whose risk falls with the horizon,0,PASS
+A 3-mod: seed-level scores failing the per-fold rule (D2),0,PASS
+B EHR+ECG: missing / risk range,0 / 0.0000 to 0.8780,PASS
+B EHR+ECG: patients whose risk falls with the horizon,0,PASS
+B EHR+ECG: seed-level scores failing the per-fold rule (D2),0,PASS
+B 3-mod: missing / risk range,0 / 0.0000 to 0.8988,PASS
+B 3-mod: patients whose risk falls with the horizon,0,PASS
+B 3-mod: seed-level scores failing the per-fold rule (D2),0,PASS
+share of folds with two-modality sets: weight at 0.05 (lowest),22%,PASS
+share of folds with two-modality sets: weight at 1 (highest),9%,PASS
+share of folds with EHR+ECG+CTPA: ECG weight at 0.05 (lowest),35%,PASS
+share of folds with EHR+ECG+CTPA: ECG weight at 0.25 (highest),37%,PASS
+share of folds with EHR+ECG+CTPA: CTPA weight at 0.1 (lowest),15%,PASS
+share of folds with EHR+ECG+CTPA: CTPA weight at 0.5 (highest),58%,WARN
+share of folds with node size at 5 (lowest),31%,PASS
+share of folds with node size at 20 (highest),13%,PASS
+share of folds with mtry factor at 1 (lowest),88%,WARN
+share of folds with mtry factor at 3 (highest),1%,PASS

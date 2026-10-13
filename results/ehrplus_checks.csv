@@ -1,0 +1,25 @@
+item,value,status
+input files found,all,PASS
+EHR 79: registered / extra labs (excluded),"28 / 51 (lab_50825_temperature, lab_51009_vancomycin)",PASS
+"block 2, unused measurements found","8 of 8 (spo2, nlr, hr_first, sbp_first, spo2_first, sex_f, n_prior, n_codes)",PASS
+"block 3, discharge destination (home / other share)",38.3% / 6.4%,INFO
+"block 4, admissions with diagnosis codes",100.0%,PASS
+"block 4, Charlson / Elixhauser categories kept (1%-99%)",16 of 17 / 28 of 31,INFO
+"block 4, median Charlson / Elixhauser score",2 / 11,INFO
+EHR+ features in total,139,INFO
+first-run checkpoints found for the spline refit,12 of 12,PASS
+EHR+ECG: missing scores,0,PASS
+EHR+ECG: scores failing the per-fold rule (D2),0,PASS
+3-mod: missing scores,0,PASS
+3-mod: scores failing the per-fold rule (D2),0,PASS
+forest fits that failed (best remaining one used),0,PASS
+spline Cox fits: k = 5 / smaller basis / replaced by ridge-Cox,60 / 0 / 0,PASS
+ridge-Cox: folds whose path was extended,0,INFO
+share of folds still at an edge after extension: rsf node,0%,PASS
+share of folds still at an edge after extension: rsf mtry,0%,PASS
+share of folds still at an edge after extension: orsf leaf,0%,PASS
+share of folds still at an edge after extension: orsf mtry,15%,PASS
+extensions RSF mtry up: tried / kept,43 / 0,INFO
+extensions oblique RSF mtry up: tried / kept,91 / 40,INFO
+extensions oblique RSF leaf down: tried / kept,21 / 1,INFO
+extensions RSF node down: tried / kept,7 / 1,INFO

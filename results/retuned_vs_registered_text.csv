@@ -1,0 +1,85 @@
+file,row,row_key,column,registered,retuned
+cal_checks.csv,3,A | EHR+ECG | risk range (all seeds) | PASS,value,0.000018 to 0.999992,0.000014 to 0.999965
+cal_checks.csv,6,A | 3-mod | risk range (all seeds) | PASS,value,0.000022 to 0.999913,0.000065 to 0.999918
+cal_checks.csv,9,B | EHR+ECG | risk range (all seeds) | PASS,value,0.000026 to 0.999779,0.000012 to 0.999597
+cal_checks.csv,14,B | 3-mod | risk range (all seeds) | PASS,value,0.000108 to 0.999675,0.000049 to 0.999933
+cal_contrasts.csv,1,A | EHR+ECG | death | brier | Cox stack minus binary stack | negative | 30,excludes_zero,FALSE,TRUE
+cal_contrasts.csv,2,A | EHR+ECG | death | ipa | Cox stack minus binary stack | positive | 30,excludes_zero,FALSE,TRUE
+cal_contrasts.csv,7,A | EHR+ECG | composite | brier | Cox stack minus binary stack | negative | 30,excludes_zero,FALSE,TRUE
+cal_contrasts.csv,8,A | EHR+ECG | composite | ipa | Cox stack minus binary stack | positive | 30,excludes_zero,FALSE,TRUE
+cal_contrasts.csv,13,A | 3-mod | death | brier | Cox stack minus binary stack | negative | 30,excludes_zero,FALSE,TRUE
+cal_contrasts.csv,14,A | 3-mod | death | ipa | Cox stack minus binary stack | positive | 30,excludes_zero,FALSE,TRUE
+cal_contrasts.csv,19,A | 3-mod | composite | brier | Cox stack minus binary stack | negative | 30,excludes_zero,FALSE,TRUE
+cal_contrasts.csv,20,A | 3-mod | composite | ipa | Cox stack minus binary stack | positive | 30,excludes_zero,FALSE,TRUE
+cal_contrasts.csv,21,A | 3-mod | composite | ici | Cox stack minus binary stack | negative | 30,excludes_zero,TRUE,FALSE
+cal_contrasts.csv,28,"B | EHR+ECG | death | brier | Cox stack minus late fusion, recalibrated | negative | 30",excludes_zero,FALSE,TRUE
+cal_contrasts.csv,29,"B | EHR+ECG | death | ipa | Cox stack minus late fusion, recalibrated | positive | 30",excludes_zero,FALSE,TRUE
+cal_contrasts.csv,46,"B | 3-mod | death | brier | Cox stack minus late fusion, recalibrated | negative | 30",excludes_zero,FALSE,TRUE
+cal_contrasts.csv,47,"B | 3-mod | death | ipa | Cox stack minus late fusion, recalibrated | positive | 30",excludes_zero,FALSE,TRUE
+cal_contrasts.csv,51,B | 3-mod | death | ici | Cox stack minus binary stack | negative | 365,excludes_zero,TRUE,FALSE
+cal_contrasts.csv,55,B | 3-mod | composite | brier | Cox stack minus binary stack | negative | 30,excludes_zero,FALSE,TRUE
+cal_contrasts.csv,56,B | 3-mod | composite | ipa | Cox stack minus binary stack | positive | 30,excludes_zero,FALSE,TRUE
+cal_contrasts.csv,57,B | 3-mod | composite | ici | Cox stack minus binary stack | negative | 30,excludes_zero,TRUE,FALSE
+cal_contrasts.csv,58,B | 3-mod | composite | brier | Cox stack minus binary stack | negative | 365,excludes_zero,TRUE,FALSE
+cal_contrasts.csv,59,B | 3-mod | composite | ipa | Cox stack minus binary stack | positive | 365,excludes_zero,TRUE,FALSE
+eval_s1.csv,9,EHR+ECG | death | auc30 | contrast | fused: binary - Cox (AUROC weights),excludes_zero,TRUE,FALSE
+eval_s1.csv,10,EHR+ECG | death | auc30 | contrast | fused: binary - Cox (Uno C weights),excludes_zero,TRUE,FALSE
+eval_s1.csv,15,EHR+ECG | death | auc30 | contrast | EHR: binary - Cox,excludes_zero,TRUE,FALSE
+eval_s1.csv,16,EHR+ECG | death | auc30 | contrast | ECG: binary - Cox,excludes_zero,FALSE,TRUE
+eval_s1.csv,25,EHR+ECG | death | unoC | contrast | fused: binary - Cox (AUROC weights),excludes_zero,TRUE,FALSE
+eval_s1.csv,26,EHR+ECG | death | unoC | contrast | fused: binary - Cox (Uno C weights),excludes_zero,TRUE,FALSE
+eval_s1.csv,29,"EHR+ECG | death | unoC | contrast | fusion gain, Cox (fused - EHR)",excludes_zero,FALSE,TRUE
+eval_s1.csv,31,EHR+ECG | death | unoC | contrast | EHR: binary - Cox,excludes_zero,TRUE,FALSE
+eval_s1.csv,32,EHR+ECG | death | unoC | contrast | ECG: binary - Cox,excludes_zero,FALSE,TRUE
+eval_s1.csv,41,EHR+ECG | composite | auc30 | contrast | fused: binary - Cox (AUROC weights),excludes_zero,TRUE,FALSE
+eval_s1.csv,42,EHR+ECG | composite | auc30 | contrast | fused: binary - Cox (Uno C weights),excludes_zero,TRUE,FALSE
+eval_s1.csv,47,EHR+ECG | composite | auc30 | contrast | EHR: binary - Cox,excludes_zero,TRUE,FALSE
+eval_s1.csv,48,EHR+ECG | composite | auc30 | contrast | ECG: binary - Cox,excludes_zero,FALSE,TRUE
+eval_s1.csv,57,EHR+ECG | composite | unoC | contrast | fused: binary - Cox (AUROC weights),excludes_zero,TRUE,FALSE
+eval_s1.csv,58,EHR+ECG | composite | unoC | contrast | fused: binary - Cox (Uno C weights),excludes_zero,TRUE,FALSE
+eval_s1.csv,63,EHR+ECG | composite | unoC | contrast | EHR: binary - Cox,excludes_zero,TRUE,FALSE
+eval_s1.csv,64,EHR+ECG | composite | unoC | contrast | ECG: binary - Cox,excludes_zero,FALSE,TRUE
+eval_s1.csv,89,EHR+ECG | cv | unoC | contrast | fused: binary - Cox (AUROC weights),excludes_zero,TRUE,FALSE
+eval_s1.csv,90,EHR+ECG | cv | unoC | contrast | fused: binary - Cox (Uno C weights),excludes_zero,TRUE,FALSE
+eval_s1.csv,95,EHR+ECG | cv | unoC | contrast | EHR: binary - Cox,excludes_zero,TRUE,FALSE
+eval_s1.csv,96,EHR+ECG | cv | unoC | contrast | ECG: binary - Cox,excludes_zero,TRUE,FALSE
+eval_s1.csv,107,3-mod | death | auc30 | contrast | fused: binary - Cox (AUROC weights),excludes_zero,FALSE,TRUE
+eval_s1.csv,108,3-mod | death | auc30 | contrast | fused: binary - Cox (Uno C weights),excludes_zero,FALSE,TRUE
+eval_s1.csv,126,3-mod | death | unoC | contrast | fused: binary - Cox (AUROC weights),excludes_zero,FALSE,TRUE
+eval_s1.csv,127,3-mod | death | unoC | contrast | fused: binary - Cox (Uno C weights),excludes_zero,FALSE,TRUE
+eval_s1.csv,145,3-mod | composite | auc30 | contrast | fused: binary - Cox (AUROC weights),excludes_zero,FALSE,TRUE
+eval_s1.csv,146,3-mod | composite | auc30 | contrast | fused: binary - Cox (Uno C weights),excludes_zero,FALSE,TRUE
+eval_s1.csv,152,3-mod | composite | auc30 | contrast | ECG: binary - Cox,excludes_zero,FALSE,TRUE
+eval_s1.csv,164,3-mod | composite | unoC | contrast | fused: binary - Cox (AUROC weights),excludes_zero,FALSE,TRUE
+eval_s1.csv,165,3-mod | composite | unoC | contrast | fused: binary - Cox (Uno C weights),excludes_zero,FALSE,TRUE
+eval_s1.csv,171,3-mod | composite | unoC | contrast | ECG: binary - Cox,excludes_zero,FALSE,TRUE
+eval_s1.csv,190,3-mod | cv | auc30 | contrast | ECG: binary - Cox,excludes_zero,FALSE,TRUE
+eval_s1.csv,191,3-mod | cv | auc30 | contrast | CTPA: binary - Cox,excludes_zero,TRUE,FALSE
+eval_s1.csv,209,3-mod | cv | unoC | contrast | ECG: binary - Cox,excludes_zero,FALSE,TRUE
+eval_s1.csv,210,3-mod | cv | unoC | contrast | CTPA: binary - Cox,excludes_zero,TRUE,FALSE
+eval_s3.csv,29,EHR+ECG | contrast | fused: Cox - binary | 90,excludes_zero,FALSE,TRUE
+eval_s3.csv,32,EHR+ECG | contrast | EHR: Cox - binary | 90,excludes_zero,FALSE,TRUE
+eval_s3.csv,33,EHR+ECG | contrast | ECG: Cox - binary | 90,excludes_zero,FALSE,TRUE
+eval_s3.csv,51,EHR+ECG | contrast | fused: Cox - binary | 365,excludes_zero,FALSE,TRUE
+eval_s3.csv,95,3-mod | contrast | EHR: Cox - binary | 90,excludes_zero,FALSE,TRUE
+eval_s3.csv,106,3-mod | contrast | fused: Cox - binary | 180,excludes_zero,FALSE,TRUE
+eval_s3.csv,109,3-mod | contrast | EHR: Cox - binary | 180,excludes_zero,FALSE,TRUE
+eval_s3_weights.csv,12,EHR+ECG | contrast | ECG weight: 10 d - 180 d | 180,excludes_zero,FALSE,TRUE
+primary.csv,16,cox.zph ehr_z (unsplit model) | chi-square,note,p = 0.0464,p = 0.0009
+primary.csv,17,cox.zph ecg_z (unsplit model) | chi-square,note,p = 0.0162,p = 0.0312
+primary.csv,18,cox.zph GLOBAL (unsplit model) | chi-square,note,p = 0.0441,p = 0.0019
+s2_checks.csv,10,A | 3-mod | risk range (all seeds) | PASS,value,0.000044 to 0.882492,0.000044 to 0.620047
+s2_checks.csv,20,B | 3-mod | largest level-2 input after winsorising | INFO,value,6.55,6.28
+s2_contrasts.csv,32,A | 3-mod | auc_cond | F4 - F1 | Fine-Gray minus conditional binary (DISSERTATION) | positive | 10,excludes_zero,FALSE,TRUE
+s2_contrasts.csv,41,A | 3-mod | auc_cond | F3 - F1 | cause-specific Cox minus conditional binary (DISSERTATION) | positive | 30,excludes_zero,TRUE,FALSE
+s2_contrasts.csv,44,A | 3-mod | auc_cond | F4 - F1 | Fine-Gray minus conditional binary (DISSERTATION) | positive | 30,excludes_zero,TRUE,FALSE
+s2_contrasts.csv,67,B | EHR+ECG | auc_full | F4 - F1 | Fine-Gray minus conditional binary (DISSERTATION) | positive | 30,excludes_zero,TRUE,FALSE
+s2_contrasts.csv,70,B | EHR+ECG | auc_full | F4 - F3 | Fine-Gray minus cause-specific Cox | positive | 30,excludes_zero,TRUE,FALSE
+s2_contrasts.csv,71,B | EHR+ECG | auc_cond | F4 - F3 | Fine-Gray minus cause-specific Cox | positive | 30,excludes_zero,TRUE,FALSE
+s2_contrasts.csv,82,B | EHR+ECG | auc_full | F4 - F3 | Fine-Gray minus cause-specific Cox | positive | 90,excludes_zero,TRUE,FALSE
+s2_contrasts.csv,120,B | 3-mod | brier | F4 - F3 | Fine-Gray minus cause-specific Cox | negative | 10,excludes_zero,TRUE,FALSE
+s2_contrasts.csv,136,B | 3-mod | auc_full | F3 - F1 | cause-specific Cox minus conditional binary (DISSERTATION) | positive | 90,excludes_zero,FALSE,TRUE
+s2_contrasts.csv,148,B | 3-mod | auc_full | F3 - F1 | cause-specific Cox minus conditional binary (DISSERTATION) | positive | 180,excludes_zero,FALSE,TRUE
+s2_contrasts.csv,153,B | 3-mod | brier | F4 - F1 | Fine-Gray minus conditional binary (DISSERTATION) | negative | 180,excludes_zero,FALSE,TRUE
+s2_contrasts.csv,156,B | 3-mod | brier | F4 - F3 | Fine-Gray minus cause-specific Cox | negative | 180,excludes_zero,FALSE,TRUE
+s2_contrasts.csv,166,B | 3-mod | auc_full | F4 - F3 | Fine-Gray minus cause-specific Cox | positive | 365,excludes_zero,FALSE,TRUE

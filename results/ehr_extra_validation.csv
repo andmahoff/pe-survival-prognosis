@@ -1,0 +1,115 @@
+domain,window,clip,combine,feature,itemids,label,n_both,share_match,corr,ehr28_only,new_only
+vitals,subj,raw,pooled,hr,,,2868,0.9923,1.0,0.0,0.0
+vitals,subj,raw,pooled,sbp,,,3136,0.8186,0.9953,0.0,0.0
+vitals,subj,raw,pooled,dbp,,,3135,0.8089,0.9344,0.0,0.0
+vitals,subj,raw,pooled,rr,,,2864,0.9424,0.9986,0.0,0.0
+vitals,subj,raw,pooled,temp,,,2848,0.9575,0.8752,0.0,0.0
+vitals,subj,raw,mean_of_itemids,hr,,,2868,0.9923,1.0,0.0,0.0
+vitals,subj,raw,mean_of_itemids,sbp,,,3136,0.9946,1.0,0.0,0.0
+vitals,subj,raw,mean_of_itemids,dbp,,,3135,0.9841,0.9379,0.0,0.0
+vitals,subj,raw,mean_of_itemids,rr,,,2864,0.9424,0.9986,0.0,0.0
+vitals,subj,raw,mean_of_itemids,temp,,,2848,0.9522,0.8614,0.0,0.0
+vitals,subj,mean,pooled,hr,,,2868,0.9997,1.0,0.0,0.0
+vitals,subj,mean,pooled,sbp,,,3136,0.8202,0.9953,0.0,0.0
+vitals,subj,mean,pooled,dbp,,,3135,0.8172,0.994,0.0,0.0
+vitals,subj,mean,pooled,rr,,,2864,0.9997,1.0,0.0,0.0
+vitals,subj,mean,pooled,temp,,,2848,0.9614,0.9139,0.0,0.0
+vitals,subj,mean,mean_of_itemids,hr,,,2868,0.9997,1.0,0.0,0.0
+vitals,subj,mean,mean_of_itemids,sbp,,,3136,1.0,1.0,0.0,0.0
+vitals,subj,mean,mean_of_itemids,dbp,,,3135,0.9994,1.0,0.0,0.0
+vitals,subj,mean,mean_of_itemids,rr,,,2864,0.9997,1.0,0.0,0.0
+vitals,subj,mean,mean_of_itemids,temp,,,2848,0.9551,0.8839,0.0,0.0
+vitals,hadm,raw,pooled,hr,,,2674,0.6372,0.8547,194.0,0.0
+vitals,hadm,raw,pooled,sbp,,,2757,0.42,0.7767,379.0,0.0
+vitals,hadm,raw,pooled,dbp,,,2755,0.4123,0.7109,380.0,0.0
+vitals,hadm,raw,pooled,rr,,,2665,0.6293,0.8628,199.0,0.0
+vitals,hadm,raw,pooled,temp,,,2645,0.6503,0.7189,203.0,0.0
+vitals,hadm,raw,mean_of_itemids,hr,,,2674,0.6372,0.8547,194.0,0.0
+vitals,hadm,raw,mean_of_itemids,sbp,,,2757,0.5234,0.78,379.0,0.0
+vitals,hadm,raw,mean_of_itemids,dbp,,,2755,0.5136,0.7132,380.0,0.0
+vitals,hadm,raw,mean_of_itemids,rr,,,2665,0.6293,0.8628,199.0,0.0
+vitals,hadm,raw,mean_of_itemids,temp,,,2645,0.6461,0.7141,203.0,0.0
+vitals,hadm,mean,pooled,hr,,,2674,0.6432,0.8547,194.0,0.0
+vitals,hadm,mean,pooled,sbp,,,2757,0.4207,0.7768,379.0,0.0
+vitals,hadm,mean,pooled,dbp,,,2755,0.4196,0.7798,380.0,0.0
+vitals,hadm,mean,pooled,rr,,,2665,0.6679,0.8645,199.0,0.0
+vitals,hadm,mean,pooled,temp,,,2645,0.6529,0.787,203.0,0.0
+vitals,hadm,mean,mean_of_itemids,hr,,,2674,0.6432,0.8547,194.0,0.0
+vitals,hadm,mean,mean_of_itemids,sbp,,,2757,0.5277,0.7801,379.0,0.0
+vitals,hadm,mean,mean_of_itemids,dbp,,,2755,0.5274,0.784,380.0,0.0
+vitals,hadm,mean,mean_of_itemids,rr,,,2665,0.6679,0.8645,199.0,0.0
+vitals,hadm,mean,mean_of_itemids,temp,,,2645,0.6484,0.7705,203.0,0.0
+vitals,7d,raw,pooled,hr,,,2695,0.6438,0.8709,173.0,0.0
+vitals,7d,raw,pooled,sbp,,,2867,0.4182,0.7893,269.0,0.0
+vitals,7d,raw,pooled,dbp,,,2865,0.4119,0.7404,270.0,0.0
+vitals,7d,raw,pooled,rr,,,2687,0.636,0.8769,177.0,0.0
+vitals,7d,raw,pooled,temp,,,2667,0.6588,0.7227,181.0,0.0
+vitals,7d,raw,mean_of_itemids,hr,,,2695,0.6438,0.8709,173.0,0.0
+vitals,7d,raw,mean_of_itemids,sbp,,,2867,0.5194,0.7925,269.0,0.0
+vitals,7d,raw,mean_of_itemids,dbp,,,2865,0.511,0.7429,270.0,0.0
+vitals,7d,raw,mean_of_itemids,rr,,,2687,0.636,0.8769,177.0,0.0
+vitals,7d,raw,mean_of_itemids,temp,,,2667,0.655,0.7179,181.0,0.0
+vitals,7d,mean,pooled,hr,,,2695,0.6501,0.8709,173.0,0.0
+vitals,7d,mean,pooled,sbp,,,2867,0.4189,0.7894,269.0,0.0
+vitals,7d,mean,pooled,dbp,,,2865,0.4188,0.8082,270.0,0.0
+vitals,7d,mean,pooled,rr,,,2687,0.6744,0.8786,177.0,0.0
+vitals,7d,mean,pooled,temp,,,2667,0.6614,0.7904,181.0,0.0
+vitals,7d,mean,mean_of_itemids,hr,,,2695,0.6501,0.8709,173.0,0.0
+vitals,7d,mean,mean_of_itemids,sbp,,,2867,0.5235,0.7927,269.0,0.0
+vitals,7d,mean,mean_of_itemids,dbp,,,2865,0.5243,0.8125,270.0,0.0
+vitals,7d,mean,mean_of_itemids,rr,,,2687,0.6744,0.8786,177.0,0.0
+vitals,7d,mean,mean_of_itemids,temp,,,2667,0.6573,0.7738,181.0,0.0
+labs,subj,,,creatinine,50912,Creatinine | Blood,3389,0.1587,,,
+labs,subj,,,sodium,50983,Sodium | Blood,3382,0.2552,,,
+labs,subj,,,potassium,50971,Potassium | Blood,3383,0.1623,,,
+labs,subj,,,bun,51006,Urea Nitrogen | Blood,3386,0.1347,,,
+labs,subj,,,glucose,50931,Glucose | Blood,3374,0.1517,,,
+labs,subj,,,calcium,50893,"Calcium, Total | Blood",3196,0.3692,,,
+labs,subj,,,bicarb,50882,Bicarbonate | Blood,3380,0.1621,,,
+labs,subj,,,chloride,50902,Chloride | Blood,3381,0.2162,,,
+labs,subj,,,hct,51221,Hematocrit | Blood,3409,0.1285,,,
+labs,subj,,,plt,51265,Platelet Count | Blood,3405,0.1292,,,
+labs,subj,,,wbc,51301,White Blood Cells | Blood,3405,0.1251,,,
+labs,subj,,,hgb,51222,Hemoglobin | Blood,3405,0.1301,,,
+labs,subj,,,aniongap,50868,Anion Gap | Blood,3380,0.1592,,,
+labs,subj,,,rbc,51279,Red Blood Cells | Blood,3405,0.1304,,,
+labs,subj,,,mchc,51249,MCHC | Blood,3405,0.2088,,,
+labs,subj,,,mch,51248,MCH | Blood,3405,0.2264,,,
+labs,subj,,,mcv,51250,MCV | Blood,3405,0.242,,,
+labs,subj,,,rdw,51277,RDW | Blood,3405,0.1789,,,
+labs,hadm,,,creatinine,50912,Creatinine | Blood,3387,0.9965,,,
+labs,hadm,,,sodium,50983,Sodium | Blood,3378,0.9967,,,
+labs,hadm,,,potassium,50971,Potassium | Blood,3379,0.997,,,
+labs,hadm,,,bun,51006,Urea Nitrogen | Blood,3383,0.9965,,,
+labs,hadm,,,glucose,50931,Glucose | Blood,3371,0.9964,,,
+labs,hadm,,,calcium,50893,"Calcium, Total | Blood",3193,0.9966,,,
+labs,hadm,,,bicarb,50882,Bicarbonate | Blood,3377,0.9964,,,
+labs,hadm,,,chloride,50902,Chloride | Blood,3377,0.9967,,,
+labs,hadm,,,hct,51221,Hematocrit | Blood,3406,0.9962,,,
+labs,hadm,,,plt,51265,Platelet Count | Blood,3401,0.9962,,,
+labs,hadm,,,wbc,51301,White Blood Cells | Blood,3401,0.995,,,
+labs,hadm,,,hgb,51222,Hemoglobin | Blood,3401,0.9962,,,
+labs,hadm,,,aniongap,50868,Anion Gap | Blood,3377,0.9967,,,
+labs,hadm,,,rbc,51279,Red Blood Cells | Blood,3401,0.9962,,,
+labs,hadm,,,mchc,51249,MCHC | Blood,3401,0.9968,,,
+labs,hadm,,,mch,51248,MCH | Blood,3401,0.9976,,,
+labs,hadm,,,mcv,51250,MCV | Blood,3401,0.9965,,,
+labs,hadm,,,rdw,51277,RDW | Blood,3401,0.9968,,,
+labs,7d,,,creatinine,50912,Creatinine | Blood,3389,0.3157,,,
+labs,7d,,,sodium,50983,Sodium | Blood,3381,0.4339,,,
+labs,7d,,,potassium,50971,Potassium | Blood,3382,0.3034,,,
+labs,7d,,,bun,51006,Urea Nitrogen | Blood,3386,0.2634,,,
+labs,7d,,,glucose,50931,Glucose | Blood,3373,0.2935,,,
+labs,7d,,,calcium,50893,"Calcium, Total | Blood",3194,0.6844,,,
+labs,7d,,,bicarb,50882,Bicarbonate | Blood,3379,0.3028,,,
+labs,7d,,,chloride,50902,Chloride | Blood,3380,0.3749,,,
+labs,7d,,,hct,51221,Hematocrit | Blood,3408,0.2503,,,
+labs,7d,,,plt,51265,Platelet Count | Blood,3404,0.2482,,,
+labs,7d,,,wbc,51301,White Blood Cells | Blood,3404,0.2435,,,
+labs,7d,,,hgb,51222,Hemoglobin | Blood,3404,0.2538,,,
+labs,7d,,,aniongap,50868,Anion Gap | Blood,3379,0.2951,,,
+labs,7d,,,rbc,51279,Red Blood Cells | Blood,3404,0.2535,,,
+labs,7d,,,mchc,51249,MCHC | Blood,3404,0.3948,,,
+labs,7d,,,mch,51248,MCH | Blood,3404,0.4424,,,
+labs,7d,,,mcv,51250,MCV | Blood,3404,0.4633,,,
+labs,7d,,,rdw,51277,RDW | Blood,3404,0.366,,,

@@ -1,0 +1,9 @@
+item,value,status
+"A EHR+ECG: stage 18a, 18i, 18j and 18l files found","arch_preds_linear_A_ehrecg.csv, arch_preds_forest_A_ehrecg.csv, arch_preds_neural_A_ehrecg.csv, arch_preds_blockopt_A_ehrecg.csv",PASS
+A EHR+ECG: models / missing risks,11 / 0,PASS
+"A 3-mod: stage 18a, 18i, 18j and 18l files found","arch_preds_linear_A_3mod.csv, arch_preds_forest_A_3mod.csv, arch_preds_neural_A_3mod.csv, arch_preds_blockopt_A_3mod.csv",PASS
+A 3-mod: models / missing risks,29 / 0,PASS
+"B EHR+ECG: stage 18a, 18i, 18j and 18l files found","arch_preds_linear_B_ehrecg.csv, arch_preds_forest_B_ehrecg.csv, arch_preds_neural_B_ehrecg.csv, arch_preds_blockopt_B_ehrecg.csv",PASS
+B EHR+ECG: models / missing risks,11 / 0,PASS
+"B 3-mod: stage 18a, 18i, 18j and 18l files found","arch_preds_linear_B_3mod.csv, arch_preds_forest_B_3mod.csv, arch_preds_neural_B_3mod.csv, arch_preds_blockopt_B_3mod.csv",PASS
+B 3-mod: models / missing risks,29 / 0,PASS

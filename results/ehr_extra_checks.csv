@@ -1,0 +1,31 @@
+section,item,value,status
+input,ehr28 rows / unique admissions,3512 / 3512,INFO
+probe,query 'labs': GB to scan,5.59,INFO
+probe,query 'icu': GB to scan,15.23,INFO
+probe,query 'omr': GB to scan,0.31,INFO
+probe,query 'triage': GB to scan,0.07,INFO
+probe,query 'edvitals': GB to scan,0.10,INFO
+probe,query 'icu_first': GB to scan,11.75,INFO
+probe,query 'demo': GB to scan,0.07,INFO
+probe,query 'd_labitems': GB to scan,0.00,INFO
+probe,"total GB to scan (free tier: 1,000 GB/month)",33.1,INFO
+pull,query 'labs': rows,234181 (26 s),INFO
+pull,query 'icu': rows,11695 (3 s),INFO
+pull,query 'omr': rows,33045 (4 s),INFO
+pull,query 'triage': rows,6322 (2 s),INFO
+pull,query 'edvitals': rows,11239 (3 s),INFO
+pull,query 'icu_first': rows,76528 (8 s),INFO
+pull,query 'demo': rows,3512 (1 s),INFO
+pull,query 'd_labitems': rows,1650 (1 s),INFO
+vitals,"chosen definition (window, clip, combine)",subj / mean / mean_of_itemids,INFO
+vitals,share of ehr28 hr reproduced,0.9997,PASS
+vitals,share of ehr28 sbp reproduced,1.0,PASS
+labs,chosen window,hadm (index admission only),INFO
+labs,median share of ehr28 labs reproduced,0.9965,PASS
+new,labs with coverage >= 0.15: kept / excluded,53 / 21,INFO
+new,SpO2 (averaged like ehr28): coverage / median,0.814 / 97.0,PASS
+presentation,hr_first: coverage (triage/ED/ICU shares),0.733 (0.564/0.034/0.135),INFO
+presentation,sbp_first: coverage (triage/ED/ICU shares),0.732 (0.564/0.034/0.135),INFO
+presentation,spo2_first: coverage (triage/ED/ICU shares),0.733 (0.559/0.039/0.136),INFO
+new,female share / median prior admissions,0.518 / 1,INFO
+write,ehr_extra.csv rows / columns,3512 / 64,INFO

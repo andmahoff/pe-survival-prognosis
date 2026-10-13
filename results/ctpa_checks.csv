@@ -1,0 +1,24 @@
+item,value,status
+input files found,all,PASS
+features: CTPA 46 / CTPA 38 / EHR (MIMIC) / EHR (INSPECT),46 / 38 / 28 / 28,INFO
+A|CTPA 46: patients / features / rows with no record,1636 / 46 / 0,INFO
+B|CTPA 46: patients / features / rows with no record,1405 / 46 / 0,INFO
+B|CTPA 38: patients / features / rows with no record,1405 / 38 / 0,INFO
+B|EHR: patients / features / rows with no record,1405 / 28 / 0,INFO
+M|CTPA 46: patients / features / rows with no record,1490 / 46 / 0,INFO
+M|CTPA 38: patients / features / rows with no record,1490 / 38 / 0,INFO
+M|EHR: patients / features / rows with no record,1490 / 28 / 0,INFO
+I|CTPA 38: patients / features / rows with no record,3300 / 38 / 0,INFO
+I|EHR: patients / features / rows with no record,3300 / 28 / 0,INFO
+A|CTPA 46: penalty choices at the least / most penalised end,0.0% / 0.0%,PASS
+B|CTPA 46: penalty choices at the least / most penalised end,0.0% / 0.0%,PASS
+B|CTPA 38: penalty choices at the least / most penalised end,0.0% / 0.0%,PASS
+B|EHR: penalty choices at the least / most penalised end,0.0% / 0.0%,PASS
+M|CTPA 46: penalty choices at the least / most penalised end,0.0% / 0.0%,PASS
+M|CTPA 38: penalty choices at the least / most penalised end,0.0% / 0.0%,PASS
+M|EHR: penalty choices at the least / most penalised end,0.0% / 0.0%,PASS
+I|CTPA 38: penalty choices at the least / most penalised end,0.0% / 0.0%,PASS
+I|EHR: penalty choices at the least / most penalised end,0.0% / 0.0%,PASS
+Frame B EHR risks reproduce stage 18a's EHR alone PH (max |diff|),5.6e-16,PASS
+Frame A: stage 6a CTPA risks found / missing,1636 / 0,PASS
+Frame B: stage 6a CTPA risks found / missing,1405 / 0,PASS

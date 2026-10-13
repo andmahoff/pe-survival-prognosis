@@ -1,0 +1,35 @@
+cohort,type,horizon,name,estimate,lo,hi,excludes_zero
+EHR+ECG,weight,10,EHR weight,0.7,0.6,0.85,
+EHR+ECG,weight,10,ECG weight,0.3,0.15,0.4,
+EHR+ECG,weight,30,EHR weight,0.75,0.65,0.85,
+EHR+ECG,weight,30,ECG weight,0.25,0.15,0.35,
+EHR+ECG,weight,90,EHR weight,0.8,0.75,0.9,
+EHR+ECG,weight,90,ECG weight,0.2,0.1,0.25,
+EHR+ECG,weight,180,EHR weight,0.85,0.8,0.9,
+EHR+ECG,weight,180,ECG weight,0.15,0.1,0.2,
+EHR+ECG,weight,365,EHR weight,0.85,0.75,0.9,
+EHR+ECG,weight,365,ECG weight,0.15,0.1,0.25,
+EHR+ECG,contrast,90,ECG weight: 10 d - 90 d,0.1,0,0.25,FALSE
+EHR+ECG,contrast,180,ECG weight: 10 d - 180 d,0.15,0,0.3,FALSE
+EHR+ECG,contrast,365,ECG weight: 10 d - 365 d,0.15,0,0.25,FALSE
+3-mod,weight,10,EHR weight,0.6,0.3,0.85,
+3-mod,weight,10,ECG weight,0.25,0.05,0.45,
+3-mod,weight,10,CTPA weight,0.15,0,0.4,
+3-mod,weight,30,EHR weight,0.6,0.45,0.75,
+3-mod,weight,30,ECG weight,0.2,0.05,0.3,
+3-mod,weight,30,CTPA weight,0.2,0.1,0.3,
+3-mod,weight,90,EHR weight,0.75,0.6,0.85,
+3-mod,weight,90,ECG weight,0.1,0,0.2,
+3-mod,weight,90,CTPA weight,0.15,0.05,0.2,
+3-mod,weight,180,EHR weight,0.75,0.65,0.9,
+3-mod,weight,180,ECG weight,0.1,0,0.2,
+3-mod,weight,180,CTPA weight,0.15,0.05,0.2,
+3-mod,weight,365,EHR weight,0.75,0.65,0.85,
+3-mod,weight,365,ECG weight,0.1,0.05,0.2,
+3-mod,weight,365,CTPA weight,0.15,0.05,0.2,
+3-mod,contrast,90,ECG weight: 10 d - 90 d,0.15,-0.05,0.3,FALSE
+3-mod,contrast,180,ECG weight: 10 d - 180 d,0.15,-0.05,0.35,FALSE
+3-mod,contrast,365,ECG weight: 10 d - 365 d,0.15,-0.1,0.3,FALSE
+3-mod,contrast,90,CTPA weight: 10 d - 90 d,0,-0.15,0.25,FALSE
+3-mod,contrast,180,CTPA weight: 10 d - 180 d,0,-0.15,0.25,FALSE
+3-mod,contrast,365,CTPA weight: 10 d - 365 d,0,-0.15,0.25,FALSE

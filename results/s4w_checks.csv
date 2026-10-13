@@ -1,0 +1,18 @@
+item,value,status
+"A EHR+ECG: stage 6a, 6b and 6c files found","oof_linear_A_ehrecg.csv, oof_forest_A_ehrecg.csv, oof_forest_wide_A_ehrecg.csv",PASS
+"A EHR+ECG: seeds and rows aligned (6a, 6b, 6c, folds)","6 seeds, 3501 x 6 rows",PASS
+A EHR+ECG: missing scores or risks,0,PASS
+A EHR+ECG: survival endpoints / binary items with wide forests,"death, composite, cv / 16",INFO
+"A 3-mod: stage 6a, 6b and 6c files found","oof_linear_A_3mod.csv, oof_forest_A_3mod.csv, oof_forest_wide_A_3mod.csv",PASS
+"A 3-mod: seeds and rows aligned (6a, 6b, 6c, folds)","6 seeds, 1636 x 6 rows",PASS
+A 3-mod: missing scores or risks,0,PASS
+A 3-mod: survival endpoints / binary items with wide forests,"death, composite, cv / 24",INFO
+"B EHR+ECG: stage 6a, 6b and 6c files found","oof_linear_B_ehrecg.csv, oof_forest_B_ehrecg.csv, oof_forest_wide_B_ehrecg.csv",PASS
+"B EHR+ECG: seeds and rows aligned (6a, 6b, 6c, folds)","6 seeds, 2909 x 6 rows",PASS
+B EHR+ECG: missing scores or risks,0,PASS
+B EHR+ECG: survival endpoints / binary items with wide forests,"death, composite, cv / 40",INFO
+"B 3-mod: stage 6a, 6b and 6c files found","oof_linear_B_3mod.csv, oof_forest_B_3mod.csv, oof_forest_wide_B_3mod.csv",PASS
+"B 3-mod: seeds and rows aligned (6a, 6b, 6c, folds)","6 seeds, 1405 x 6 rows",PASS
+B 3-mod: missing scores or risks,0,PASS
+B 3-mod: survival endpoints / binary items with wide forests,"death, composite, cv / 60",INFO
+"S4 reproduction: registered RSF and ridge-Cox AUROCs (n, max)","98, 5.6e-16",PASS

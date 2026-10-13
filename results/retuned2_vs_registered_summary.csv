@@ -1,0 +1,14 @@
+file,rows,numeric_columns,cells_changed,max_abs_diff,text_cells_changed,compared
+cal_checks.csv,16,0,0,,4,TRUE
+cal_contrasts.csv,60,3,180,0.0199636451723993,6,TRUE
+cal_curves.csv,920,4,1628,0.203633301584046,0,TRUE
+cal_metrics.csv,92,23,1240,1.99491030064932,0,TRUE
+eval_s1.csv,210,4,630,0.0283566875311371,19,TRUE
+eval_s3.csv,125,4,375,0.0871304858082591,4,TRUE
+eval_s3_weights.csv,34,3,23,0.1,1,TRUE
+fusion_s1.csv,54,8,272,0.0766666666666664,0,TRUE
+fusion_s3.csv,20,15,237,0.0645554518103537,0,TRUE
+fusion_weights.csv,46,12,315,0.15,0,TRUE
+s2_checks.csv,24,0,0,,8,TRUE
+s2_contrasts.csv,168,3,504,0.112633109182532,30,TRUE
+s2_metrics.csv,56,20,896,0.19802510721805,0,TRUE

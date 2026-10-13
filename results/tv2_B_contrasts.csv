@@ -1,0 +1,841 @@
+outcome,cohort,period,set,contrast,horizon,measure,estimate,lo,hi,excludes_zero
+death,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",10,auc,-0.00998751560549305,-0.0175690494662856,-0.00251438185799357,TRUE
+death,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0601276155528958,-0.0984667527826696,-0.0212854062139366,TRUE
+death,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",30,auc,-0.00735118193128526,-0.0124698961359061,-0.0016900081761328,TRUE
+death,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",30,ipa,-0.0548868213025624,-0.0877095427572896,-0.0250180094778882,TRUE
+death,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",90,auc,-0.00273841203044745,-0.00690448867759565,0.001810347889731,FALSE
+death,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",90,ipa,-0.00895546382424739,-0.0252007142647391,0.00847335778173216,FALSE
+death,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",180,auc,-0.00266917728710048,-0.00679258237692101,0.00160322581945916,FALSE
+death,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",180,ipa,-0.0134893178821889,-0.027387492668893,0.00131134021420766,FALSE
+death,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",365,auc,-0.00107298763820329,-0.00529633545957702,0.00311644238515313,FALSE
+death,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",365,ipa,-0.00537130470067926,-0.0180938528181064,0.00782865584705518,FALSE
+death,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,0.00647338974430112,0.00201549011848779,0.0116229763395155,TRUE
+death,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,0.0116068032851271,-0.00643447782746725,0.0295738260074111,FALSE
+death,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,0.00291295817781612,-0.00200617310535429,0.00771132232922754,FALSE
+death,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,0.000748559707629992,-0.0202689383380479,0.02045513097209,FALSE
+death,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.00266415000928266,-0.000449610365079906,0.00579887594535286,FALSE
+death,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.0114788721847713,0.00143155293388759,0.021612724227372,TRUE
+death,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.00142701167980719,-0.00088250334756409,0.00377604128990788,FALSE
+death,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.00852409279735389,0.00130922598251519,0.0158786522682347,TRUE
+death,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.00278038431724537,0.000223662297401855,0.00546962007680693,TRUE
+death,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.0123847653021422,0.00464083433077071,0.0203384525491692,TRUE
+death,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",10,auc,0.00238636363636369,-0.00324869621192281,0.0105991661471321,FALSE
+death,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0433595489148114,-0.0876628623432137,0.0060408951627688,FALSE
+death,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",30,auc,-0.00493703302795889,-0.0109570002778085,0.000782398213688303,FALSE
+death,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",30,ipa,-0.022700119928032,-0.0677085504993063,0.0138808535149476,FALSE
+death,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",90,auc,-0.00166160860191422,-0.00805846886558234,0.00436286327742839,FALSE
+death,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",90,ipa,0.00453410772336316,-0.01569706354422,0.0253861429516934,FALSE
+death,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",180,auc,-0.00269833259523988,-0.00845510411656239,0.00265774628324625,FALSE
+death,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",180,ipa,-0.00438080651576378,-0.0216590977488525,0.0135132715054487,FALSE
+death,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",365,auc,-0.00128722719559993,-0.00737945927510581,0.00452088944621406,FALSE
+death,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",365,ipa,-0.00250038300946431,-0.019982461038345,0.0151536569888636,FALSE
+death,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,0.00147727272727283,-0.00268114953081643,0.00642419643672552,FALSE
+death,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,-0.00104235902834471,-0.0304434735663971,0.0301740818947083,FALSE
+death,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,0.00269292710615943,-0.00509216829085034,0.00971776634897233,FALSE
+death,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,-0.0121344279338139,-0.0362998777998028,0.0107203278650123,FALSE
+death,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.0021697037942352,-0.00286768266157651,0.00708436533498733,FALSE
+death,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.00774498542604174,-0.00706095729383204,0.0224472030973867,FALSE
+death,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.00043255713358803,-0.00356109617337417,0.00416939126791866,FALSE
+death,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.00380183457670003,-0.00724031993613045,0.0148402263159133,FALSE
+death,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.00155470297650395,-0.00277602094577092,0.00596832109397458,FALSE
+death,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.00708041505814627,-0.00476895734336004,0.0190531970378115,FALSE
+death,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",10,auc,-0.0196384039900249,-0.0316388248847927,-0.00849492144150038,TRUE
+death,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0719037310123243,-0.126434940753556,-0.0128641289234896,TRUE
+death,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",30,auc,-0.0108911973756151,-0.0203180726448758,-0.00215748570616636,TRUE
+death,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",30,ipa,-0.0819897608038886,-0.132776287689895,-0.0402555724258244,TRUE
+death,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",90,auc,-0.00331734837799713,-0.0101214270452785,0.00309229262226755,FALSE
+death,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0202267769526252,-0.0452307163658288,0.00358078291373366,FALSE
+death,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",180,auc,-0.00246766507828455,-0.0086002758983573,0.00377436690280416,FALSE
+death,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",180,ipa,-0.0219807098796833,-0.0433738744794352,-0.000747144605772773,TRUE
+death,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",365,auc,-0.00063750607622981,-0.00650813432174217,0.00553469235006535,FALSE
+death,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",365,ipa,-0.0081488854299514,-0.0278744679579239,0.0116907270122872,FALSE
+death,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,0.00903990024937651,0.00143354634725296,0.017799906270297,TRUE
+death,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,0.0204290828340226,-0.00208483224514876,0.0421096874383767,FALSE
+death,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,0.00266812465828326,-0.00447698734092253,0.0097630146229655,FALSE
+death,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,0.0115768721809907,-0.0210054799193002,0.0425989919116906,FALSE
+death,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.00309167842031033,-0.001122759465571,0.00745098086985632,FALSE
+death,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.0146243263768224,0.00114344381660596,0.0281287909283826,TRUE
+death,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.00212729748127971,-0.00083743672978307,0.00524517464241487,FALSE
+death,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.0129272642331556,0.00283840312212999,0.0225442515018317,TRUE
+death,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.00395253767262471,0.000707986251495291,0.00744129816131219,TRUE
+death,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.0175169249788469,0.00689572310865372,0.0276717501129949,TRUE
+comp,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",10,auc,-0.00402706185567003,-0.0123925276909185,0.00467298381755604,FALSE
+comp,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0475944568805818,-0.0725859309145117,-0.0242886681129087,TRUE
+comp,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",30,auc,-0.00372493318317058,-0.00936837189789947,0.00245495801595536,FALSE
+comp,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",30,ipa,-0.0501996597021832,-0.0767436707428281,-0.0247156251357171,TRUE
+comp,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",90,auc,-0.00489804347630884,-0.00941889073184123,-0.000135346971547666,TRUE
+comp,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0290022671890408,-0.0472941877486354,-0.0118128395634793,TRUE
+comp,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",180,auc,-0.00497922311181465,-0.00915565869135786,-0.000688503193645322,TRUE
+comp,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",180,ipa,-0.0250644203841011,-0.0411719827765818,-0.00894530062702303,TRUE
+comp,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",365,auc,-0.00350076563507418,-0.00757835758824739,0.000786042406673928,FALSE
+comp,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",365,ipa,-0.0154374052393834,-0.027850571093631,-0.00274441523953459,TRUE
+comp,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,0.00275389076130061,-0.00841250265551836,0.0143366131248832,FALSE
+comp,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,-0.017796882005382,-0.0455376474995765,0.00960841485825645,FALSE
+comp,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,0.00339883343699043,-0.00440243144736492,0.0111592643759546,FALSE
+comp,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,0.000630526324506886,-0.0203810293030268,0.021552247887185,FALSE
+comp,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.00291592964057075,-0.00148409459282778,0.00744070165945163,FALSE
+comp,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.0107660826320671,-0.00131229369679243,0.0232433903948195,FALSE
+comp,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,1.14158726293168e-05,-0.00398207184924232,0.00405987655376409,FALSE
+comp,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.00296143683277994,-0.00854246104150103,0.0145166225560148,FALSE
+comp,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.000831117021276584,-0.00296738812085574,0.00474485892701508,FALSE
+comp,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.00744913644880274,-0.0028943644068052,0.0180929601800785,FALSE
+comp,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",10,auc,0.00715473770361963,-0.00296099849056068,0.0178999806840884,FALSE
+comp,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0365624031610041,-0.0712329060203923,-0.00648743786121227,TRUE
+comp,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",30,auc,0.0017217630853994,-0.00665283853199336,0.0103492062083605,FALSE
+comp,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",30,ipa,-0.0361688547397645,-0.0743797776302898,-0.00358499614982732,TRUE
+comp,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",90,auc,0.00116125377643506,-0.00515228880246633,0.00772239848559574,FALSE
+comp,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0159142970016727,-0.0385087465062442,0.0060265314963127,FALSE
+comp,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",180,auc,0.00198290703394,-0.00392395064021064,0.00790914074290092,FALSE
+comp,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",180,ipa,-0.00173264984036392,-0.0215478700061059,0.0183058965343074,FALSE
+comp,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",365,auc,0.000100835590930104,-0.00562107647607003,0.00598892693958264,FALSE
+comp,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",365,ipa,-8.20179507506902e-05,-0.0170846779447323,0.0167792108515683,FALSE
+comp,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,0.0044618105974602,-0.0116453039710849,0.020091813446442,FALSE
+comp,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,-0.0260979459491597,-0.0676666768783162,0.0142002882197988,FALSE
+comp,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,0.00242481634527092,-0.00811271782579597,0.0129856173493148,FALSE
+comp,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,-0.0120763336978231,-0.042209286310116,0.014947250930902,FALSE
+comp,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.00281344410876139,-0.00412330545759718,0.00977680322206144,FALSE
+comp,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.00887166324970456,-0.00904314122472863,0.0263323422851619,FALSE
+comp,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.000222884899163778,-0.00587613294216363,0.00638893181772896,FALSE
+comp,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.00122122523630441,-0.0149864381189999,0.018207080356547,FALSE
+comp,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,-0.000114280336387607,-0.00581981578063368,0.00613408443017945,FALSE
+comp,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.00532722673431474,-0.00998823038782652,0.0213587095094512,FALSE
+comp,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",10,auc,-0.0133971291866029,-0.0266996295750585,-0.00060448132160564,TRUE
+comp,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",10,ipa,-0.057505089344582,-0.0970580707586123,-0.0222822043762584,TRUE
+comp,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",30,auc,-0.00838975007908893,-0.0176049364056544,0.000475937751287415,FALSE
+comp,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",30,ipa,-0.0627971779368953,-0.102048758534162,-0.0275284225417487,TRUE
+comp,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",90,auc,-0.0103966840230201,-0.0174698382938747,-0.00342058556634991,TRUE
+comp,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0410779023646178,-0.0696634385807977,-0.0153335791751595,TRUE
+comp,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",180,auc,-0.0114938197166115,-0.0184394246456928,-0.00517434122491796,TRUE
+comp,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",180,ipa,-0.0482795408011103,-0.0747410742286708,-0.0244895667109749,TRUE
+comp,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",365,auc,-0.00600973644451908,-0.0124297106402323,0.000169255535412935,FALSE
+comp,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",365,ipa,-0.0310093637858973,-0.0513900958718637,-0.0126861199312041,TRUE
+comp,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,0.00357101178667296,-0.0131367533904973,0.0208444903697824,FALSE
+comp,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,-0.0103569765187357,-0.047695034804798,0.0306719893929864,FALSE
+comp,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,0.00427712749130027,-0.00649904164900823,0.0152645912229379,FALSE
+comp,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,0.0120014613433849,-0.0169488424503839,0.0434125810793642,FALSE
+comp,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.00311729240887915,-0.00327168672859723,0.00958248683080949,FALSE
+comp,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.0125208224137169,-0.0041624760205034,0.0304909975692104,FALSE
+comp,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,6.02954476937034e-05,-0.00569697804036216,0.00534230846469063,FALSE
+comp,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.0046929878945583,-0.0107893521707445,0.0206877797109666,FALSE
+comp,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.00194728890381057,-0.00318457288459308,0.00689363533096926,FALSE
+comp,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.00960441007572477,-0.00357069855644535,0.0235105372404062,FALSE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",10,auc,-0.0102765062190781,-0.0301784600997507,0.00875769821317411,FALSE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0320075868003106,-0.0730945651150065,0.00126968461777049,FALSE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",10,auc_excl,-0.00941437571592207,-0.029078198239641,0.00899788449251462,FALSE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",30,auc,-0.0119957662001646,-0.0285375620078948,0.00435901977357347,FALSE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",30,ipa,-0.0351142621736617,-0.0730812014254054,-0.00266948186098071,TRUE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",30,auc_excl,-0.0112837541507425,-0.0274180388798522,0.00454103106520131,FALSE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",90,auc,-0.0132340152002117,-0.0266292891881365,1.12702469986454e-07,FALSE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0459179305146656,-0.0821485239647738,-0.0140463674448436,TRUE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",90,auc_excl,-0.0119439593055993,-0.0247917001058492,0.000374338859259629,FALSE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",180,auc,-0.0184873425614167,-0.0303492082543351,-0.0068327539112351,TRUE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",180,ipa,-0.0623571082739459,-0.0969055093560901,-0.0296529948605317,TRUE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",180,auc_excl,-0.0161344717533644,-0.0275597839692802,-0.00529932532928786,TRUE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",365,auc,-0.0174758709981168,-0.0279842701863719,-0.00645593814346098,TRUE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",365,ipa,-0.052034381823375,-0.0805238297531579,-0.0242669913864844,TRUE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",365,auc_excl,-0.0140033983451536,-0.0240646932211571,-0.00443518895152538,TRUE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,0.0074790770795764,-0.00455817537079337,0.0216399401666523,FALSE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,0.0110267713121817,-0.0103864336456947,0.035563047031882,FALSE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc_excl,0.00750525009545633,-0.00463179264678434,0.0214160103459371,FALSE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,0.00257556156650596,-0.00531582234600822,0.0110288316535221,FALSE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,0.0128689886925246,-0.00373245437505177,0.031404396784613,FALSE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc_excl,0.00226802831902762,-0.00563783036338064,0.0105163277080699,FALSE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.00476844674674304,-2.89075766151725e-05,0.0098937401866361,FALSE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.0175287842932043,0.00507441694376091,0.0311369799818006,TRUE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc_excl,0.0045332646185855,-0.000129192077619913,0.00935163236117344,FALSE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.00248368458244996,-0.00211681629723839,0.00719557589347875,FALSE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.0123190778945701,0.000259316736681939,0.0244666039066472,TRUE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc_excl,0.00224558286447529,-0.00201602507112373,0.006774354746165,FALSE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.00324564500941615,-0.00138048004487386,0.00778371026937545,FALSE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.0101779410028592,-0.000918988306189414,0.021228408189713,FALSE
+cv,EHR+ECG,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc_excl,0.00355718085106382,-0.000736369461407896,0.00772261426233615,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",10,auc,0.00481288233177402,-0.0184115012226284,0.0278227496664372,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",10,ipa,-0.00770046676808212,-0.0642231357300168,0.032079375619892,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",10,auc_excl,0.00605248567732397,-0.0162032021588838,0.0280159825948705,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",30,auc,-0.00619380619380616,-0.0250211851035077,0.0139000580914746,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",30,ipa,-0.0404321444412599,-0.100122842972372,0.00448388777306733,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",30,auc_excl,-0.00529773257045985,-0.0234381167470991,0.0134208785964303,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",90,auc,-0.00134048257372654,-0.0165482738754137,0.0144537386623934,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0385046563558024,-0.0913888230320717,0.00927472380561776,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",90,auc_excl,7.95038956908911e-05,-0.0140406652449592,0.0146822969758749,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",180,auc,-0.00610531315925511,-0.0195670167670013,0.00727838216233515,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",180,ipa,-0.0421162237344687,-0.0917616883531926,0.00215193791268956,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",180,auc_excl,-0.00408692185007975,-0.0162564395171353,0.00844325750789839,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",365,auc,-0.00300034665359739,-0.0154513922443555,0.00895816563801972,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",365,ipa,-0.0330665320161938,-0.0734608634619052,0.00363338231234517,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",365,auc_excl,-6.0783807193765e-05,-0.0111989371113806,0.0110159628825052,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,0.00602734796689464,-0.0079899717728665,0.0197035932916225,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,0.0104842168089722,-0.0162221873132099,0.0420770950149658,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc_excl,0.00572907041212345,-0.00810803723536808,0.0194988561107193,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,0.000174825174825255,-0.0113975240551005,0.012289442834176,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,0.00383774789925084,-0.0189400704097931,0.0296617411609815,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc_excl,-0.00098008052553511,-0.0123051939261053,0.0109999339607631,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.00414491322139132,-0.00259275503573749,0.0107857823740011,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.0134781249787779,-0.00339823200770945,0.0312020927104526,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc_excl,0.00343854348863093,-0.00313145724676375,0.00990957721349611,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.00254271623566227,-0.00384262433458444,0.00903585589203706,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.00459110763449677,-0.0117858132620645,0.0214398252551628,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc_excl,0.000913742690058506,-0.00504714177028995,0.00711882512225397,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.00209187515689069,-0.00401738042634897,0.00838774381729381,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.00621697437210422,-0.00952572006881607,0.0225020506654686,FALSE
+cv,EHR+ECG,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc_excl,0.000774993541720503,-0.00509978525922434,0.00671284010266034,FALSE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",10,auc,-0.02756092916984,-0.0611033149470244,0.000557088904842133,FALSE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0581108363603664,-0.140069969223193,-0.0083395507882301,TRUE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",10,auc_excl,-0.0271057568875284,-0.0605608176960928,0.000839642521248775,FALSE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",30,auc,-0.0178857092072521,-0.0436906252164235,0.00822887546659575,FALSE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",30,ipa,-0.0303249424826547,-0.0859542725088036,0.014964868121563,FALSE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",30,auc_excl,-0.0175505350772889,-0.0432933852426038,0.00833391052488834,FALSE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",90,auc,-0.0244172428729565,-0.0456700936026683,-0.00456134518961753,TRUE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0527719189641338,-0.106820644525894,-0.00968917211902403,TRUE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",90,auc_excl,-0.0230311489861887,-0.0429068848817706,-0.00409210856317291,TRUE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",180,auc,-0.0321033463890607,-0.0515348515156178,-0.0136266053040919,TRUE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",180,ipa,-0.0825590809881654,-0.134354602459476,-0.0381919517840713,TRUE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",180,auc_excl,-0.0298468556533072,-0.0483990665068102,-0.0118845335240436,TRUE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",365,auc,-0.0317364644790376,-0.0491960925811028,-0.0146562390586456,TRUE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",365,ipa,-0.0706956091147368,-0.113365207143353,-0.0335400536774986,TRUE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",365,auc_excl,-0.0285159899389148,-0.045778980213142,-0.0127813108752662,TRUE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,0.00752094440213258,-0.0130176672885006,0.0328865187045335,FALSE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,0.0116108306169629,-0.0244346741664217,0.0569421175902401,FALSE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc_excl,0.00794904710180699,-0.0124219645051764,0.033329405165823,FALSE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,0.00333274084607182,-0.00825369268672947,0.0160990371180366,FALSE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,0.0210245460709229,-0.0041422061335062,0.0535685286879745,FALSE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc_excl,0.00344827586206897,-0.00779222687260014,0.0159841446453408,FALSE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.00502141722683014,-0.00227141703995089,0.0132299850485709,FALSE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.0212717571920628,0.00351728957310178,0.0439482998795688,TRUE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc_excl,0.00527108433734935,-0.00149447863659282,0.0128007864684335,FALSE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.00160791589363019,-0.00552596620225796,0.00922051626166521,FALSE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.0200320279161729,0.000819364170191631,0.0429289163314687,TRUE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc_excl,0.00208536982730534,-0.00448175930240356,0.00893542411998001,FALSE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.00418439140866778,-0.00286902528729891,0.0118926796092577,FALSE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.0140748768261477,-0.00240640093635299,0.0337336894035167,FALSE
+cv,EHR+ECG,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc_excl,0.00538986704994615,-0.00123198328413918,0.0123721863071443,FALSE
+death,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",10,auc,-0.00828649661334491,-0.0240028905082429,0.00497717843685586,FALSE
+death,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",10,ipa,-0.101213963530862,-0.214080170263304,-0.020208956953544,TRUE
+death,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",30,auc,0.00122461170848265,-0.00738969599623222,0.011141470175092,FALSE
+death,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",30,ipa,-0.114574586768041,-0.239109284060201,-0.025582907571026,TRUE
+death,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",90,auc,-0.00234330035355057,-0.00899449200310754,0.00454476941975021,FALSE
+death,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0168963192972333,-0.0491901642279368,0.014480736538003,FALSE
+death,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",180,auc,2.20118864185936e-05,-0.00656827425051327,0.00637193538520036,FALSE
+death,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",180,ipa,-0.00737501415540531,-0.0345885863341747,0.0167270508120667,FALSE
+death,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",365,auc,-0.00355106999345856,-0.0104507760326566,0.00319765117106806,FALSE
+death,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",365,ipa,-0.0164254697583262,-0.0415528392464721,0.00633819930170042,FALSE
+death,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,0.00244992073785844,-0.00579360990593793,0.0110970600951146,FALSE
+death,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,0.00970090392126821,-0.0238033946938934,0.0537364088240583,FALSE
+death,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,0.00241935483870959,-0.00412789630987609,0.00874142403267802,FALSE
+death,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,0.0963439210485938,0.0490579332074113,0.158281871577504,TRUE
+death,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.00195960205004531,-0.00141095143972515,0.00535580573352845,FALSE
+death,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.0234474208949649,0.00888805268388214,0.0404020055275846,TRUE
+death,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.000495267444419967,-0.00106470605028976,0.00205565614110541,FALSE
+death,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.0113248574614409,0.00246738442720057,0.0213461144148662,TRUE
+death,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.000981216708718868,-0.000537221611873767,0.00265841456972949,FALSE
+death,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.00699033222134682,0.000280039206597799,0.0136581700284317,TRUE
+death,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",10,auc,-0.00605274535235634,-0.0208363182065357,0.00821595950500812,FALSE
+death,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0886131882320761,-0.180878551390563,0.00201124971704771,FALSE
+death,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",30,auc,0.00212066905615294,-0.00717691452652327,0.0117851193977762,FALSE
+death,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",30,ipa,-0.071726954666006,-0.164875540171888,-0.00797103238013117,TRUE
+death,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",90,auc,-0.00175404938745305,-0.00826278495796223,0.00499936056740148,FALSE
+death,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0135161311503869,-0.0430687260308572,0.01558073795325,FALSE
+death,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",180,auc,0.000748404138234626,-0.00570095939671949,0.00721350238813471,FALSE
+death,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",180,ipa,-0.00116657842093681,-0.0245453874784103,0.0201293511337309,FALSE
+death,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",365,auc,-0.000289692552097876,-0.00687905353581838,0.00617118587232025,FALSE
+death,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",365,ipa,-0.00669133785150067,-0.0279165286757848,0.0118591450662929,FALSE
+death,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,0.000792621415189432,-0.0100604605800037,0.0103711136958186,FALSE
+death,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,0.0253747330757083,-0.0279691973838094,0.120537861290016,FALSE
+death,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,-0.00116487455197134,-0.010232787188467,0.00758982882788856,FALSE
+death,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,0.140662586721817,0.0641662025018075,0.244778894557415,TRUE
+death,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.00116479842135564,-0.00207299663312618,0.00452382445610849,FALSE
+death,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.0214063745758923,0.00180418858385422,0.0433879332610143,TRUE
+death,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.00107858243451464,-0.00152099155259388,0.00374146697679454,FALSE
+death,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.0125256867924392,-0.000730105207728163,0.0273310147904825,FALSE
+death,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.0016073264180918,-0.00254029967520714,0.00571896478629374,FALSE
+death,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.00615857261459796,-0.00695185285928173,0.0202892228596119,FALSE
+death,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",10,auc,-0.00648508430609596,-0.0207181754477648,0.00761502048266753,FALSE
+death,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0929244603212308,-0.196242057714478,-0.00890695066990845,TRUE
+death,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",30,auc,0.0014635603345281,-0.00757693433107275,0.0115562313267546,FALSE
+death,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",30,ipa,-0.0863319330202826,-0.197792080501228,-0.00787084371133966,TRUE
+death,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",90,auc,-0.000712582563652808,-0.00697517927673212,0.0060158084099172,FALSE
+death,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0127574561378756,-0.0440822203421901,0.016903339265501,FALSE
+death,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",180,auc,0.00108958837772388,-0.00533140390617224,0.00755473443772019,FALSE
+death,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",180,ipa,-0.00267113690790388,-0.027911958350677,0.0200653138494622,FALSE
+death,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",365,auc,-0.00116811512942716,-0.00770587008179695,0.00529014882701697,FALSE
+death,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",365,ipa,-0.0106206104763774,-0.0333875154158368,0.00923374558364429,FALSE
+death,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,0.0033145986453379,-0.00915483761071993,0.0151163108237378,FALSE
+death,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,0.0247108127245119,-0.0279785385804346,0.102551524343917,FALSE
+death,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,0.00134408602150538,-0.0100372738640267,0.0128904936432507,FALSE
+death,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,0.131565867776228,0.0662320600696171,0.219519751591792,TRUE
+death,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.00379587250253521,-0.000806112503481018,0.0086916449672289,FALSE
+death,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.026932620198312,0.00781516126871936,0.0490139496889635,TRUE
+death,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.00233325996037859,-0.000923577698658073,0.00582395923447476,FALSE
+death,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.014961419027942,0.00164902656373169,0.029906343760063,TRUE
+death,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.00351369030931692,-0.000755202203252098,0.00804572925379862,FALSE
+death,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.0112952692724577,-0.00224787566652293,0.0252970423181397,FALSE
+death,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",10,auc,-0.00569665321623536,-0.0179700934193121,0.00485825558066151,FALSE
+death,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0802547471920124,-0.242349438670281,0.0430872151919571,FALSE
+death,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",30,auc,0.00878378378378375,-0.00221631205673767,0.0234197189501577,FALSE
+death,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",30,ipa,-0.0112358413804381,-0.172768399662975,0.0961696126879476,FALSE
+death,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",90,auc,0.00440176070428178,-0.00595386932274749,0.0150449388582367,FALSE
+death,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",90,ipa,0.00480956388340381,-0.0446001191909525,0.0459644148962056,FALSE
+death,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",180,auc,0.00178372352285394,-0.00754634401125161,0.0116939705120897,FALSE
+death,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",180,ipa,0.00703652663994625,-0.0303219165122879,0.0402062470425458,FALSE
+death,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",365,auc,-0.00560754604872249,-0.0154462265336909,0.00442170562224515,FALSE
+death,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",365,ipa,-0.0115907124831914,-0.0452859350834044,0.0186130918704102,FALSE
+death,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,-0.00284832660811774,-0.010966810966811,0.00504913708037133,FALSE
+death,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,-0.0324309286353144,-0.0738916609311332,0.0148427494359142,FALSE
+death,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,0.00371621621621621,-0.00307486631016041,0.0128378378378378,FALSE
+death,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,0.0317212851030847,-0.00854857754104811,0.0892671037051405,FALSE
+death,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.00154347453267023,-0.00274773537478953,0.00612143109232687,FALSE
+death,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.0120104994276368,-0.00465907651657845,0.0323012616079575,FALSE
+death,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.000445930880713541,-0.00178805908207671,0.00287365623403234,FALSE
+death,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.00384736444518796,-0.00651568190247378,0.0147599169957249,FALSE
+death,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.00155971479500894,-0.000929222462276583,0.00410231660231664,FALSE
+death,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.00519750943225483,-0.00419680107076264,0.0142419470156578,FALSE
+death,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",10,auc,-0.00617137431758841,-0.0176936792155788,0.00343303677949347,FALSE
+death,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",10,ipa,-0.106644836355486,-0.242561217886068,0.0347635368125877,FALSE
+death,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",30,auc,0.0100225225225226,0.000100918357049173,0.0224882888114596,TRUE
+death,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",30,ipa,0.00327927062346201,-0.107404865480902,0.0824322709190649,FALSE
+death,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",90,auc,0.00520208083233298,-0.00477345148111186,0.0157148033126295,FALSE
+death,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",90,ipa,0.00853923102628251,-0.0346939939943563,0.0456206026127033,FALSE
+death,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",180,auc,0.00352285395763652,-0.00474525033114639,0.0122115668107899,FALSE
+death,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",180,ipa,0.0110959327368134,-0.0197180465840047,0.0401780905014127,FALSE
+death,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",365,auc,7.4272133095632e-05,-0.0093291822773883,0.00937258407796469,FALSE
+death,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",365,ipa,0.00320153395402578,-0.0237667432162247,0.029384071264741,FALSE
+death,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,-0.00332304770947078,-0.0114583333333333,0.00295311923218899,FALSE
+death,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,-0.0595130702186184,-0.109641050906382,0.0273836083798247,FALSE
+death,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,0.00168918918918926,-0.0087805702043507,0.0155204520272606,FALSE
+death,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,0.0400633679340628,-0.0256081732305394,0.141381247400734,FALSE
+death,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.000743154404619029,-0.00446685319836037,0.00593028182893179,FALSE
+death,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.00867382516962589,-0.0129643263732802,0.0353950534968295,FALSE
+death,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.000891861761426971,-0.0030837927336883,0.00485063316396776,FALSE
+death,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.00578032380551941,-0.0089181655064877,0.0231180429878543,FALSE
+death,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.00427064765300056,-0.00220940955001269,0.0104909315888756,FALSE
+death,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.0100842644796376,-0.008071615878698,0.0302037735375768,FALSE
+death,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",10,auc,-0.00664609541894135,-0.0201900898751292,0.00526810570661322,FALSE
+death,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0930985733017279,-0.2433141415704,0.0424610040745452,FALSE
+death,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",30,auc,0.0100225225225226,-0.000268264063944548,0.0230926586339183,FALSE
+death,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",30,ipa,-0.00181040924923004,-0.144736545207594,0.0936084066676275,FALSE
+death,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",90,auc,0.00668838964157092,-0.00171971881472151,0.0157462260301918,FALSE
+death,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",90,ipa,0.00993448948253384,-0.0356512499588012,0.0484688695414038,FALSE
+death,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",180,auc,0.00423634336677814,-0.00355394668151143,0.0121233491749796,FALSE
+death,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",180,ipa,0.0125000319734976,-0.0202227548636172,0.0419002030650437,FALSE
+death,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",365,auc,-0.000816993464052285,-0.0104828482862182,0.00793925945397499,FALSE
+death,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",365,ipa,-0.00227593405876347,-0.0322069397910865,0.0232027875356833,FALSE
+death,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,-0.00403512936150019,-0.0132774979343466,0.00308583708226215,FALSE
+death,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,-0.0599007334479816,-0.112261545801338,0.00993423215595797,FALSE
+death,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,0.00439189189189193,-0.00803054805918134,0.0210086527459955,FALSE
+death,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,0.0340284117555553,-0.0188877710514926,0.10782626776102,FALSE
+death,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.00440176070428167,-0.00254626863311293,0.0119831912650117,FALSE
+death,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.0154736597523898,-0.00485524667608684,0.0394489645253419,FALSE
+death,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.00352285395763663,-0.00172311790483261,0.00899474657287158,FALSE
+death,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.00910765915718248,-0.00603924137599817,0.0258256204719277,FALSE
+death,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.00668449197860965,-0.000389054464703126,0.0135695698865774,FALSE
+death,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.016050323685007,-0.0017646965034314,0.0359093347573022,FALSE
+death,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",10,auc,-0.00920471281296031,-0.0403107096715871,0.0159914093293697,FALSE
+death,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",10,ipa,-0.134109879109561,-0.43606542565795,-0.0356507203469566,TRUE
+death,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",30,auc,-0.0043290043290044,-0.021108179419525,0.0108958859612572,FALSE
+death,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",30,ipa,-0.231777689702557,-0.48074600035539,-0.0976396362935409,TRUE
+death,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",90,auc,-0.00716392751790984,-0.0171462087534533,0.00192830493719687,FALSE
+death,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0369587338957603,-0.0884126971148835,0.00465981087781089,FALSE
+death,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",180,auc,-0.000391236306729215,-0.0110927092987334,0.0103584899271276,FALSE
+death,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",180,ipa,-0.0214600131788092,-0.0593734130282955,0.0134856481379059,FALSE
+death,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",365,auc,0.00135470760894107,-0.00872823092322102,0.0118258827220553,FALSE
+death,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",365,ipa,-0.0213385924607843,-0.055032416932127,0.011085730618745,FALSE
+death,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,0.0143593519882179,-0.00383730333532766,0.0343292176573426,FALSE
+death,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,0.0752496949292225,0.0178918438156605,0.224353641196064,TRUE
+death,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,0.00178253119429583,-0.0127411344995611,0.0144,FALSE
+death,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,0.16965131054543,0.0836326725833918,0.311176285096755,TRUE
+death,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.00316055625790135,-0.00168113653344202,0.00847271796304057,FALSE
+death,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.0340274678011894,0.0107504485685714,0.0623506125674456,TRUE
+death,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.000347765605981598,-0.00222223704098872,0.00294775254555193,FALSE
+death,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.0186334648605127,0.00461420889732551,0.0349428622243481,TRUE
+death,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.000865507639045693,-0.00195845716354183,0.00360110018409279,FALSE
+death,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.00881229799863037,-0.00105479748134377,0.0182591663862913,FALSE
+death,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",10,auc,-0.00625920471281294,-0.039002557544757,0.0252868318975385,FALSE
+death,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0608362297721106,-0.201634433780914,0.0254097886713778,FALSE
+death,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",30,auc,-0.00725744843391907,-0.0254429824561403,0.01018351982318,FALSE
+death,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",30,ipa,-0.156789516693817,-0.335499319323594,-0.0598329887425529,TRUE
+death,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",90,auc,-0.00705857564264645,-0.0180750706607417,0.00307453915039041,FALSE
+death,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0338992848051395,-0.0806293941719062,0.00638005862783404,FALSE
+death,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",180,auc,0.00047817770822467,-0.0113850336084403,0.012150440812777,FALSE
+death,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",180,ipa,-0.0131508719686229,-0.0474665341523504,0.0204224179202332,FALSE
+death,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",365,auc,0.00135470760894107,-0.00895679573381917,0.0120012331856962,FALSE
+death,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",365,ipa,-0.0167420603508781,-0.0472633755815494,0.0122407053433662,FALSE
+death,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,0.00552282768777612,-0.0128205128205128,0.0206879429797466,FALSE
+death,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,0.157460739004284,0.0559848872473499,0.548004343822833,TRUE
+death,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,-0.00649350649350655,-0.0229103682500802,0.00637435639172554,FALSE
+death,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,0.25477596684034,0.119694943920465,0.501428640228826,TRUE
+death,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.00105351875263382,-0.00348270634621142,0.00616448022215094,FALSE
+death,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.0331820475319721,0.00264360344885105,0.07253393655538,TRUE
+death,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.000956355416449339,-0.00272273942936944,0.00480693099961337,FALSE
+death,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.0191188669155968,-0.000219357945107959,0.0444565485153251,FALSE
+death,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,-0.0020696921803266,-0.00835875908153802,0.00440216502451117,FALSE
+death,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.00217106113163323,-0.0170124537389585,0.0240037578029447,FALSE
+death,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",10,auc,-0.00736377025036827,-0.0437750493249666,0.0215409857845091,FALSE
+death,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0929308867174682,-0.282071358551265,-0.0173652129447403,TRUE
+death,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",30,auc,-0.00802139037433158,-0.0261412374020156,0.00791661709230629,FALSE
+death,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",30,ipa,-0.182188821340795,-0.400133943935702,-0.0679657623562545,TRUE
+death,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",90,auc,-0.00663716814159288,-0.0181828778032927,0.00380325282437962,FALSE
+death,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0337282114650495,-0.0825574255505807,0.00761259163458329,FALSE
+death,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",180,auc,0.000869414014953884,-0.0107354646253078,0.0124056747878589,FALSE
+death,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",180,ipa,-0.0174981839489404,-0.0544026085802506,0.0165503312698951,FALSE
+death,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",365,auc,0.0016933845111764,-0.00929362267440217,0.0129054605891318,FALSE
+death,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",365,ipa,-0.0190988968485764,-0.0508153958421254,0.0107457200644269,FALSE
+death,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,0.0132547864506627,-0.0132561431007089,0.0365576498302257,FALSE
+death,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,0.156365226539273,0.067638291630685,0.464767024570908,TRUE
+death,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,-0.00585688820982944,-0.0275400067518335,0.0121782553543565,FALSE
+death,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,0.242203309513769,0.117958668871262,0.450920336778251,TRUE
+death,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.00279182469447958,-0.00358411152792185,0.0103003408149586,FALSE
+death,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.0375352014753505,0.0059275549875168,0.0769408744628527,TRUE
+death,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.00230394713962789,-0.00228586309523814,0.00756143045964603,FALSE
+death,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.0206834073571009,0.000331511218234018,0.0457125188555636,TRUE
+death,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.000225784601490253,-0.00608337774646737,0.00707830340520261,FALSE
+death,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.00646569119733109,-0.012972901431589,0.0280534592899524,FALSE
+comp,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",10,auc,-0.00477897252090798,-0.0200424510440568,0.0103077679441605,FALSE
+comp,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0761974359957489,-0.123515830570108,-0.0206843516039403,TRUE
+comp,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",30,auc,-0.00222540136703231,-0.0123567655614668,0.00858839084146058,FALSE
+comp,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",30,ipa,-0.0225721745531172,-0.0548672169010295,0.00723197453178572,FALSE
+comp,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",90,auc,-0.00362266187797133,-0.0112834893100329,0.00442089461514401,FALSE
+comp,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0284819652325944,-0.061245117057996,0.00125586899362615,FALSE
+comp,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",180,auc,-0.00305620305620302,-0.0107082071222884,0.0046643867443389,FALSE
+comp,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",180,ipa,-0.0242480300015466,-0.0563634302810475,0.0027110482584453,FALSE
+comp,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",365,auc,-0.00228285767349712,-0.00979291839605965,0.00477058532368201,FALSE
+comp,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",365,ipa,-0.0254654105590836,-0.0522422415992692,-0.00200542524177057,TRUE
+comp,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,0.000985663082437305,-0.0147914301856685,0.0177610528292245,FALSE
+comp,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,-0.029223801214296,-0.0517312944753978,-0.00365985720212884,TRUE
+comp,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,0.00626291527579082,-0.00497506010437696,0.0179996696041313,FALSE
+comp,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,0.0179274193898553,-0.0142839781516955,0.0537688955869984,FALSE
+comp,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.00538728227698304,-0.00107118029195103,0.0122617839640117,FALSE
+comp,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.0318776266578879,0.0120642342571674,0.0538729431041553,TRUE
+comp,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.00170076836743505,-0.0039058611702613,0.00765247638811371,FALSE
+comp,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.0224658076553252,0.00594289947228587,0.0408394407670706,TRUE
+comp,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.00485977836934315,-0.000715045652196414,0.0104534409715756,FALSE
+comp,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.0259475215066184,0.0112308384460824,0.041554189340882,TRUE
+comp,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",10,auc,-0.0111708482676225,-0.0312954535572831,0.00725463661693851,FALSE
+comp,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0731492934501313,-0.12351828963439,-0.015741978044393,TRUE
+comp,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",30,auc,-0.00505484024797331,-0.0153464682893186,0.0052012147242536,FALSE
+comp,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",30,ipa,-0.0258907178417889,-0.0577912373496082,0.00357174304312889,FALSE
+comp,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",90,auc,-0.00544956299694832,-0.0140445249967748,0.00341588151483384,FALSE
+comp,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0356871140370822,-0.070742284213383,-0.00396646661423296,TRUE
+comp,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",180,auc,-0.00308210308210299,-0.0111502309375254,0.00504234812465615,FALSE
+comp,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",180,ipa,-0.0271554070425605,-0.0591371082015267,0.00086164303992486,FALSE
+comp,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",365,auc,-0.00209713365938213,-0.0102063232767405,0.00555947647725054,FALSE
+comp,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",365,ipa,-0.0259311144433134,-0.0541678512437553,-0.00128124806753522,TRUE
+comp,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,-0.0107228195937873,-0.0235899044205495,0.00124387349219244,FALSE
+comp,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,-0.0222528986714403,-0.037641738121471,-0.00408805072341492,TRUE
+comp,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,-0.000890160546812902,-0.00273275570368393,0.00088207914773826,FALSE
+comp,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,0.0159909215328278,-0.00161652618538615,0.0381202370694274,FALSE
+comp,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,1.03801199941023e-05,-0.00112590277959716,0.00113737914561499,FALSE
+comp,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.0163442054394775,0.00627378600134611,0.0277662104711317,TRUE
+comp,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.000259000259000275,-0.00113256575037974,0.0018167013617833,FALSE
+comp,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.0137972720802763,0.00637855050367627,0.0227415082817784,TRUE
+comp,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.00112982108586635,-0.0024629359321201,0.00478299398875447,FALSE
+comp,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.00755339115280218,-0.00352980608209263,0.0194952674007703,FALSE
+comp,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",10,auc,-0.0102449223416966,-0.0276721154521818,0.00737175253132201,FALSE
+comp,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0695571107565284,-0.117171760612102,-0.0149219609965986,TRUE
+comp,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",30,auc,-0.00203465267842951,-0.0119499044414055,0.00849812119087587,FALSE
+comp,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",30,ipa,-0.0208922783462033,-0.0519433550356833,0.00784993625958499,FALSE
+comp,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",90,auc,-0.0034046793580933,-0.0109206736442751,0.00466342149109876,FALSE
+comp,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",90,ipa,-0.02804603638718,-0.0603648619916326,0.00140559548859875,FALSE
+comp,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",180,auc,-0.00197703531036864,-0.0094771146819495,0.00545725372364749,FALSE
+comp,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",180,ipa,-0.021837165398108,-0.0528952603411721,0.00517325486948561,FALSE
+comp,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",365,auc,-0.000711942054107628,-0.00787773132060037,0.00610716966719524,FALSE
+comp,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",365,ipa,-0.0216812078487909,-0.0478784128343543,0.00126677896247542,FALSE
+comp,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,-0.00394265232974911,-0.0212740360580855,0.0136740356400369,FALSE
+comp,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,-0.0227042908617994,-0.044468528726524,0.0013377222277158,FALSE
+comp,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,0.00634239389604197,-0.00421317401163871,0.0171090898480604,FALSE
+comp,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,0.0189615248040557,-0.0119593241226791,0.0547007348128366,FALSE
+comp,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.00515891963711102,-0.000964208599896749,0.0117954969019173,FALSE
+comp,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.0311079871674289,0.0117199286410038,0.0523942255918361,TRUE
+comp,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.00249503582836919,-0.00303395773157047,0.00838612159197628,FALSE
+comp,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.0230311145914804,0.00693411448768016,0.041917408502095,TRUE
+comp,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.00581935244227072,-0.000630356802416435,0.0125059597203601,FALSE
+comp,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.0271759041318638,0.00935716051248679,0.0459177653861796,TRUE
+comp,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",10,auc,0.0039032006245121,-0.0168513394965922,0.0249485471237601,FALSE
+comp,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0876972463367002,-0.154780150096282,-0.0160079648310919,TRUE
+comp,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",30,auc,0.000541907514450823,-0.0117461907349198,0.0132141250562303,FALSE
+comp,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",30,ipa,-0.00663270830200302,-0.0537394330900583,0.0373214907277323,FALSE
+comp,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",90,auc,0.00270392068499326,-0.0075768016663695,0.0132537775334885,FALSE
+comp,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0130947171109018,-0.0615039043229963,0.0297224439504268,FALSE
+comp,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",180,auc,0.00762599469496028,-0.00128134014776879,0.0168215189053889,FALSE
+comp,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",180,ipa,0.013691159793533,-0.0262051169030578,0.0503009339139768,FALSE
+comp,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",365,auc,0.00480884109916369,-0.00439571416323675,0.0147660913436007,FALSE
+comp,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",365,ipa,0.00611286983140535,-0.0264974008552478,0.0381052297506959,FALSE
+comp,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,0.000683060109289646,-0.021239223626337,0.023668357971997,FALSE
+comp,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,-0.0362626885300573,-0.0681050958381842,-0.0035489444050636,TRUE
+comp,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,0.00385356454720609,-0.0108616893962554,0.0200004498425551,FALSE
+comp,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,0.00456929037846721,-0.0380189771504312,0.0522878878327188,FALSE
+comp,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.00221229874226714,-0.00731475478858026,0.0120057930457052,FALSE
+comp,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.0239067591527148,-0.00501912023523449,0.056726751513497,FALSE
+comp,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.00165782493368705,-0.00627864431396761,0.00985934641356228,FALSE
+comp,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.0166739444270748,-0.00721643588488876,0.0428135991553205,FALSE
+comp,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.00570489844683397,-0.00294537232567941,0.0142923097017925,FALSE
+comp,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.0280353667844694,0.00588861215736242,0.0515721666896996,TRUE
+comp,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",10,auc,0.0104410616705699,-0.0118229256760653,0.0346689834865042,FALSE
+comp,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0865872561608708,-0.15705632508926,-0.0111192131784931,TRUE
+comp,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",30,auc,0.00523843930635837,-0.00902037272233056,0.0195018825277349,FALSE
+comp,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",30,ipa,-0.00228077922344416,-0.0466720412516665,0.0425229114440704,FALSE
+comp,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",90,auc,0.00364619607521821,-0.00829708644693635,0.0156450309765532,FALSE
+comp,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0203075717572807,-0.0723348228432686,0.0253604884551124,FALSE
+comp,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",180,auc,0.00812334217506627,-0.00172373573226177,0.0185612333667816,FALSE
+comp,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",180,ipa,0.011417113591529,-0.0297393361109261,0.0499178874486229,FALSE
+comp,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",365,auc,0.00555555555555565,-0.00371653090454247,0.0159399920255183,FALSE
+comp,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",365,ipa,0.00483318758217444,-0.0291832272862849,0.0377129454224863,FALSE
+comp,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,0.000292740046838436,-0.0160116673736502,0.0176214658888922,FALSE
+comp,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,-0.0277981191678923,-0.048660176771707,-0.00295978545036078,TRUE
+comp,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,0.000301059730250408,-0.00277078533680474,0.00331171595415777,FALSE
+comp,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,0.0120890487379924,-0.0100960354442665,0.0431453740815385,FALSE
+comp,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,8.19369904543343e-05,-0.00190056610985212,0.0020387030336054,FALSE
+comp,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.0132794232910961,0.000504504375621354,0.0281835776787375,TRUE
+comp,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.000431034482758608,-0.00165783853722724,0.00252569758424414,FALSE
+comp,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.0105425554383339,0.00128286259853063,0.0210092356514377,TRUE
+comp,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.00256869772998813,-0.00261145433205293,0.00768451315320894,FALSE
+comp,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.0117928259920188,-0.00387905827590444,0.028097893915288,FALSE
+comp,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",10,auc,0.00302498048399691,-0.0187567261016352,0.0255609141076074,FALSE
+comp,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0822610434204635,-0.149215114760082,-0.0104029302235412,TRUE
+comp,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",30,auc,0.0019267822736031,-0.0107188038043305,0.0144330054973852,FALSE
+comp,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",30,ipa,-0.00390216328394699,-0.0488238442974698,0.0391057382715182,FALSE
+comp,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",90,auc,0.00270392068499326,-0.00751708817834174,0.0131407247329242,FALSE
+comp,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0133481396390566,-0.0605890112012417,0.0296049364169185,FALSE
+comp,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",180,auc,0.00862068965517249,-7.17827176637625e-05,0.0177216625685803,FALSE
+comp,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",180,ipa,0.0150521606143618,-0.0224898608980029,0.0493668108856193,FALSE
+comp,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",365,auc,0.00845280764635603,0.000224799695315198,0.0178302387599639,TRUE
+comp,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",365,ipa,0.0118429479350245,-0.0188102434767925,0.0408236220136356,FALSE
+comp,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,0.0026346604215457,-0.0211721860440072,0.0257133280750608,FALSE
+comp,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,-0.0268827443571213,-0.0579032813744951,0.00679142359800058,FALSE
+comp,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,0.00469653179190743,-0.00921490485236737,0.0197747864078376,FALSE
+comp,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,0.0053389850361294,-0.0355425500430275,0.0524303123168625,FALSE
+comp,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.00221229874226714,-0.00715207615010432,0.0117728598875686,FALSE
+comp,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.0233821373460948,-0.00439138687442112,0.0557759624409753,FALSE
+comp,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.0031830238726791,-0.0048757116160698,0.0117361522576645,FALSE
+comp,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.0180669371841684,-0.00716017238578597,0.0450808612259383,FALSE
+comp,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.00943847072879334,-0.000591077921452413,0.0195265117063404,FALSE
+comp,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.0337897683032704,0.00559305030716131,0.061805691167961,TRUE
+comp,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",10,auc,-0.0217864923747276,-0.0414820781312928,-0.00356003557649297,TRUE
+comp,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0585370899171048,-0.125774507936614,0.0384760713692226,FALSE
+comp,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",30,auc,-0.00809388911371922,-0.0246825396825396,0.0102143723638114,FALSE
+comp,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",30,ipa,-0.0405012835804276,-0.0848303033102813,-0.000367892679816648,TRUE
+comp,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",90,auc,-0.00955628525721974,-0.0218968314716533,0.00353430155047719,FALSE
+comp,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0443397506176176,-0.0927418765579847,-0.00155083190198752,TRUE
+comp,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",180,auc,-0.0149291497975709,-0.0286005399405457,-0.00119363081126398,TRUE
+comp,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",180,ipa,-0.0657922914267891,-0.116071471087733,-0.0207267934034468,TRUE
+comp,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",365,auc,-0.00858175248419146,-0.0204279336727454,0.00353358763772916,FALSE
+comp,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",365,ipa,-0.0597701256857016,-0.103005906613551,-0.0199770993284666,TRUE
+comp,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,-0.00108932461873634,-0.0249018623570801,0.0271997109250398,FALSE
+comp,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,-0.0182482470777205,-0.0506225883345985,0.0236196884909914,FALSE
+comp,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,0.00607041683528931,-0.0111322859578614,0.0241303037299267,FALSE
+comp,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,0.0329517271868846,-0.0158541272636381,0.0932015349236669,FALSE
+comp,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.0089248126631305,-0.000888298578471139,0.0192117219224527,FALSE
+comp,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.0400959164540967,0.0113702426143491,0.072451258757022,TRUE
+comp,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.0011567379988433,-0.0073268316606993,0.0100821495192997,FALSE
+comp,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.0288676179957493,0.00696855487025253,0.0548036827019181,TRUE
+comp,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.00377468060394892,-0.00372372963234645,0.0115781514429238,FALSE
+comp,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.0237979014562857,0.00448322316593414,0.0433815869039124,TRUE
+comp,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",10,auc,-0.0409274821039527,-0.0747032874337048,-0.012282216389456,TRUE
+comp,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0523611597123526,-0.123582623824108,0.0471456553419201,FALSE
+comp,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",30,auc,-0.0130176716578984,-0.0295793421325625,0.00556573583933077,FALSE
+comp,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",30,ipa,-0.0524382430525572,-0.0992174137608748,-0.0101653347677321,TRUE
+comp,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",90,auc,-0.01372400437821,-0.0268826464948235,-0.000290161657923992,TRUE
+comp,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0515385076226258,-0.105108647226978,-0.00601775412733166,TRUE
+comp,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",180,auc,-0.0159412955465587,-0.0303999877109701,-0.0018213898025246,TRUE
+comp,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",180,ipa,-0.069401127603765,-0.121151153671453,-0.0235891676967942,TRUE
+comp,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",365,auc,-0.0112272551296942,-0.0246193550441018,0.00263199087180759,FALSE
+comp,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",365,ipa,-0.0593563850130036,-0.103366575765512,-0.017318376366792,TRUE
+comp,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,-0.0248988484282602,-0.0463108579792587,-0.00413193069211752,TRUE
+comp,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,-0.0135990505692892,-0.0325129926656328,0.0101412203123395,FALSE
+comp,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,-0.0015513287467962,-0.00446896185841997,0.00085607816475974,FALSE
+comp,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,0.0203930556554398,-0.00375119123119119,0.05316677093928,FALSE
+comp,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.000463079902332297,-0.00126071421981936,0.00225019448807301,FALSE
+comp,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.0195049983148706,0.00480159710285497,0.0375401714192316,TRUE
+comp,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,-0.000325332562174596,-0.0030632243413074,0.00253442673564654,FALSE
+comp,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.017398470516203,0.00571451943225858,0.0315265050790737,TRUE
+comp,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,-0.00200025809781912,-0.00752830940988843,0.00399417890282167,FALSE
+comp,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.00299497866878007,-0.0118709155187002,0.0203584897248882,FALSE
+comp,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",10,auc,-0.0337690631808278,-0.0599946382067828,-0.01027075147417,TRUE
+comp,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0499083431786634,-0.114064918014257,0.0448614245452575,FALSE
+comp,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",30,auc,-0.00802644003777142,-0.0237839761730077,0.00938490162586816,FALSE
+comp,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",30,ipa,-0.0399991847603309,-0.0822749426931691,-0.000727546902642117,TRUE
+comp,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",90,auc,-0.00905110718194835,-0.02144897532971,0.00388310035081415,FALSE
+comp,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0431935705729829,-0.0918493753990365,-0.000609162362047482,TRUE
+comp,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",180,auc,-0.0132301908617698,-0.0265297653544303,0.000225196720181729,FALSE
+comp,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",180,ipa,-0.0622262770632681,-0.112599636209679,-0.0183358669030768,TRUE
+comp,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",365,auc,-0.00880758807588078,-0.0212821862380177,0.00390067406819982,FALSE
+comp,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",365,ipa,-0.0580768468254667,-0.100872383104859,-0.017584469044315,TRUE
+comp,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,-0.0150949268596327,-0.0406179007035886,0.0108741918661675,FALSE
+comp,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,-0.0162399550871638,-0.0402909535723937,0.0140963824225716,FALSE
+comp,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,0.00580062053149877,-0.00996589957524805,0.0230238095238095,FALSE
+comp,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,0.0342840811015743,-0.0109995002469678,0.0924590187149677,FALSE
+comp,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.00879851814431254,-0.000527634856591003,0.0188250471102165,FALSE
+comp,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.0390736988607425,0.0109837409723727,0.0710877066099755,TRUE
+comp,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.00234962406015038,-0.0062214319771194,0.011345647174484,FALSE
+comp,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.0285300657177512,0.00678923830679299,0.0551074517501273,TRUE
+comp,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.00245192928119753,-0.00597153689163694,0.0119467963938537,FALSE
+comp,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.0201304124492433,-0.00272635076846594,0.046826334147696,FALSE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",10,auc,-0.0290381125226861,-0.0808360756555558,0.0190661606508028,FALSE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",10,ipa,-0.030764310877342,-0.0609661858050751,0.0128590875808698,FALSE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",10,auc_excl,-0.0337411939191694,-0.0851630494795065,0.0132231415542228,FALSE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",30,auc,-0.0159951988310197,-0.0458493581969516,0.0160549369412516,FALSE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",30,ipa,-0.0226238993147525,-0.0617980285168993,0.0233218560801063,FALSE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",30,auc_excl,-0.0192857928909431,-0.0495739608281103,0.0116744954381237,FALSE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",90,auc,-0.0238123993558776,-0.0486223958844572,0.00201210600037503,FALSE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0390060762917197,-0.0865742401962038,0.0023644505494236,FALSE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",90,auc_excl,-0.0277588478488029,-0.0524444256960283,-0.00321958787431935,TRUE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",180,auc,-0.0319582664526485,-0.0538309529609838,-0.00965909090909097,TRUE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",180,ipa,-0.0595973156555321,-0.110872585522764,-0.0145556548145719,TRUE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",180,auc_excl,-0.0350319676162373,-0.0559824678182684,-0.0146222835407158,TRUE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",365,auc,-0.0299691184727682,-0.0504058599754621,-0.00927918522355768,TRUE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",365,ipa,-0.0513142200907016,-0.0957154437230083,-0.0131874238744515,TRUE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Internal CV model",365,auc_excl,-0.0351816047507251,-0.0547724328807414,-0.0164736060905765,TRUE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,0.0051724137931034,-0.00815321707389029,0.017442305401021,FALSE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,0.00310734345830677,0.000588706004141298,0.00555092414911242,TRUE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc_excl,0.00579347423062659,-0.00734052872844302,0.0177512775574972,FALSE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,0.00461851581254558,-0.00567609485561283,0.0151829896027883,FALSE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,-0.000315047253751311,-0.0110155908774812,0.0104671737986753,FALSE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc_excl,0.00597006712886539,-0.00439259811662865,0.0164902264975207,FALSE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.00581723027375203,-5.74913207215227e-05,0.0119714851108834,FALSE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.00808150905339389,-0.00446390088216541,0.0232559076482075,FALSE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc_excl,0.00672391077188683,0.00113253196015256,0.0128104418148484,TRUE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.00304975922953443,-0.00294473983398858,0.00933827460401613,FALSE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.00601618585796671,-0.00750438243412606,0.0223869540936361,FALSE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc_excl,0.00459652706843727,-0.000880072311955682,0.010626663315182,FALSE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.00753790005614818,0.0010213732179663,0.0145781476760361,TRUE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.0127443464193479,-0.00138792850390676,0.0288021802781752,FALSE
+cv,3-mod,"test, pooled",EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc_excl,0.0103922110205772,0.00441792353274293,0.0173305871964727,TRUE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",10,auc,-0.0506805807622505,-0.11189263322884,0.00595227159235584,FALSE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0394736172104743,-0.0735906916244614,0.00808275791723619,FALSE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",10,auc_excl,-0.0561735261401558,-0.117887999970374,-0.00108222769875333,TRUE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",30,auc,-0.0246581776432522,-0.0585753344683566,0.0108065442020665,FALSE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",30,ipa,-0.0254897173857135,-0.0657534930886318,0.0203000866456116,FALSE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",30,auc_excl,-0.0288874215912843,-0.0625800363421006,0.00656692637719428,FALSE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",90,auc,-0.0288244766505636,-0.0571053983887628,-1.61776451700034e-05,TRUE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0513952738905001,-0.105812996705182,-0.00452593896627031,TRUE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",90,auc_excl,-0.0328926445867974,-0.0605928876175174,-0.00565763731958402,TRUE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",180,auc,-0.0352648475120385,-0.0595933935456631,-0.0100047367495953,TRUE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",180,ipa,-0.0695499870059847,-0.12793671900984,-0.0213699733772842,TRUE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",180,auc_excl,-0.0390988537055953,-0.0625101305765623,-0.0156976671151019,TRUE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",365,auc,-0.0347838293093767,-0.0576324363970827,-0.0115040027258674,TRUE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",365,ipa,-0.0629739751751357,-0.110841312173135,-0.020820829084049,TRUE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Internal CV model",365,auc_excl,-0.0421039911614418,-0.0642177167554363,-0.0204509010129717,TRUE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,-0.00744101633393834,-0.0162874621960457,0.00170121693457489,FALSE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,0.00136449169944675,-0.000224672183839914,0.00300510075264225,FALSE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc_excl,-0.00801816833518732,-0.0169457086618841,0.00122108255605691,FALSE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,-0.00276589082559231,-0.00561391170872738,0,FALSE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,-2.47956160507323e-05,-0.00289963716557224,0.0025605402574509,FALSE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc_excl,-0.00297127764938931,-0.00594103651166551,-0.000170850416980492,TRUE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,4.02576489533235e-05,-0.00201988294706373,0.00212169720798051,FALSE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,-0.00232244257249781,-0.0057150589481745,0.000757857715557949,FALSE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc_excl,-0.000227159147698774,-0.0021587953998229,0.00174584565227463,FALSE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,-0.000401284109149302,-0.00165457870556218,0.000875811857202351,FALSE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,-0.00124749366794896,-0.00326092873515125,0.000733257867568224,FALSE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc_excl,-0.000624219725343322,-0.00189504049075747,0.000583062770562777,FALSE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.000477259966311094,-0.000818862133678488,0.00184618867198884,FALSE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,-0.000706806399154325,-0.00292961221094457,0.00158893304533227,FALSE
+cv,3-mod,"test, pooled",EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc_excl,0.000466095843115522,-0.000849600435636727,0.00184551721462682,FALSE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",10,auc,-0.0530852994555354,-0.11717335567887,0.0031472202069533,FALSE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0352467402043869,-0.06772364101023,0.0103603912558706,FALSE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",10,auc_excl,-0.0585372636262513,-0.122125911840256,-0.00363050420684951,TRUE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",30,auc,-0.0247103642626031,-0.0590558162110761,0.00937948664593279,FALSE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",30,ipa,-0.0224712467224514,-0.0615080221350934,0.0228822585849579,FALSE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",30,auc_excl,-0.0285022559700672,-0.0623361083606286,0.00569948231014196,FALSE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",90,auc,-0.0272544283413849,-0.0538084120793517,0.000491428354125961,FALSE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0450542874731931,-0.0949398692238104,-0.00166907549635731,TRUE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",90,auc_excl,-0.0314842578710645,-0.0577689570374838,-0.0049686802568548,TRUE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",180,auc,-0.0337399678972713,-0.0567668498330828,-0.00993918969976466,TRUE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",180,ipa,-0.0622415042726972,-0.115101089644397,-0.0168159571871489,TRUE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",180,auc_excl,-0.0371316157833012,-0.0588819113274429,-0.0152167879132861,TRUE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",365,auc,-0.0320325659741719,-0.0534855060946517,-0.0102493262197085,TRUE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",365,ipa,-0.0547789351852979,-0.0996308879473004,-0.0152309887353657,TRUE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",365,auc_excl,-0.0378746029553929,-0.0583708408835422,-0.0181847956982608,TRUE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,-0.0118874773139747,-0.0307861330141796,0.00680515051498288,FALSE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,0.00475640229937357,-8.25145904958357e-05,0.00979726751499462,FALSE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc_excl,-0.0118186874304783,-0.0309349182649198,0.00672992918158322,FALSE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,-0.0024266777998122,-0.013782900046309,0.00928558403606365,FALSE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,-0.000891248187433913,-0.01143965820306,0.00965470768237883,FALSE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc_excl,-0.00162319797512933,-0.0131225238971682,0.0100601868566171,FALSE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.00380434782608696,-0.00142293016246,0.00894250850316421,FALSE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.00359455169060108,-0.00725595970864048,0.0155294540342141,FALSE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc_excl,0.00392985325519069,-0.00103610684546191,0.00882124621119492,FALSE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.00182985553772064,-0.00270083634279521,0.00665994644513892,FALSE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.00421850481922725,-0.00613319301856908,0.0164128825668815,FALSE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc_excl,0.00274278364166014,-0.00143819551856071,0.00736929781107421,FALSE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.00617630544637837,0.00125257155203124,0.0115058566136729,TRUE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.0107342886816917,0.000284359035682302,0.0229382861142089,TRUE
+cv,3-mod,"test, pooled",EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc_excl,0.00792362933296498,0.00325669728111102,0.0131077717700048,TRUE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",10,auc,0.000591016548463386,-0.0582486333577514,0.0587536182312318,FALSE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0375163575179959,-0.0829777880025045,0.0179665786943528,FALSE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",10,auc_excl,-0.00743776563448684,-0.0646774355877617,0.048584754145175,FALSE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",30,auc,-0.00253708040593292,-0.0318437362786476,0.0239071058263675,FALSE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",30,ipa,-0.0350578726751297,-0.0947989215066841,0.0291473092672643,FALSE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",30,auc_excl,-0.00784475639966975,-0.0359290410188613,0.0182646234813573,FALSE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",90,auc,-0.00465686274509802,-0.0270192307692308,0.0173409716216532,FALSE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0403361259463756,-0.12830075034698,0.0266756630239889,FALSE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",90,auc_excl,-0.010762664687326,-0.0320607937085248,0.00979440964755436,FALSE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",180,auc,-0.0136681117533719,-0.0325335224144834,0.00627065747364427,FALSE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",180,ipa,-0.0331442510898973,-0.109091139809753,0.0278168859765702,FALSE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",180,auc_excl,-0.0182471264367816,-0.0369366627630376,-0.00121186477738122,TRUE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",365,auc,-0.0142156862745098,-0.0337694601650183,0.00386246819397924,FALSE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",365,ipa,-0.0351035104141879,-0.0961023712531563,0.0208157930872709,FALSE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Internal CV model",365,auc_excl,-0.0204389574759946,-0.0386921580366511,-0.00475362000712603,TRUE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,0.00546690307328601,-0.0130561237522137,0.0236417506532288,FALSE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,0.00444218335863633,0.00110097269571723,0.00809441801201506,TRUE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc_excl,0.00576806314511236,-0.0125062342599688,0.023780147966114,FALSE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,-0.000585480093676871,-0.0153638992667513,0.0142701250734492,FALSE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,-0.00125156716662311,-0.0164233336668674,0.0138223914517807,FALSE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc_excl,0.00113542526837318,-0.0129984429885101,0.0158586243678888,FALSE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.00245098039215685,-0.00630356441609789,0.0115200791855204,FALSE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.00646914547269639,-0.0132654788433004,0.0302652349783705,FALSE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc_excl,0.00334013731675642,-0.0047552635536507,0.0117762344032785,FALSE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.0021676300578034,-0.00586434734620218,0.00987055176461949,FALSE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.00156011337065209,-0.0179976212078221,0.02333627587767,FALSE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc_excl,0.00416666666666665,-0.00322498139880957,0.011763346643005,FALSE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.00942265795206976,-0.000268731641377834,0.019328418553272,FALSE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.0102251429845738,-0.0114745860691251,0.0326965049372548,FALSE
+cv,3-mod,2014-2016,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc_excl,0.0128943758573388,0.00391910817340335,0.022492301551095,TRUE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",10,auc,-0.00975177304964536,-0.079409726550597,0.0582750584230848,FALSE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0434328692063113,-0.0902920156014727,0.0162553863982959,FALSE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",10,auc_excl,-0.0186703096539163,-0.0869193377364007,0.048784280606646,FALSE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",30,auc,-0.00273224043715847,-0.0366317858990639,0.0300309437808455,FALSE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",30,ipa,-0.0356396565621762,-0.0959395188423398,0.0280152423269231,FALSE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",30,auc_excl,-0.00918662262592906,-0.042540048497346,0.0239314976975007,FALSE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",90,auc,-0.00555555555555554,-0.0307493594028521,0.0204625094121288,FALSE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0490768802989086,-0.14994707746906,0.0253582612779822,FALSE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",90,auc_excl,-0.0123399517535721,-0.0369892063460024,0.0115527081285937,FALSE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",180,auc,-0.0152938342967245,-0.037573913149454,0.00628880839739798,FALSE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",180,ipa,-0.0366035794326624,-0.120538350328344,0.0319606931110995,FALSE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",180,auc_excl,-0.0213362068965518,-0.0421631709810715,-0.00185177284793329,TRUE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",365,auc,-0.0225490196078432,-0.0458733900320981,-0.000491054416301116,TRUE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",365,ipa,-0.044763414173281,-0.113148162382262,0.0133151446325955,FALSE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Internal CV model",365,auc_excl,-0.0310699588477367,-0.0537819846819847,-0.0115447638671855,TRUE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,0.000886524822695023,-0.0111577489891356,0.013150312616648,FALSE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,0.0027986567140218,0.000523306210936905,0.00508874519244364,TRUE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc_excl,0.00015179113539765,-0.0121819431376942,0.0121070025547094,FALSE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,9.75800156127749e-05,-0.00419764108962598,0.00424910873440294,FALSE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,0.00187309523877111,-0.00222235181912352,0.0057815089390041,FALSE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc_excl,0.000103220478942956,-0.00435322562918996,0.00447115771595994,FALSE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.00106209150326797,-0.00181697396403282,0.00453737948289806,FALSE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,-0.000504749707443963,-0.00555915292980298,0.00440600012840949,FALSE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc_excl,0.000649471144924863,-0.00211102995158713,0.00398237580354502,FALSE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.000361271676300512,-0.00192678227360299,0.0027593963332436,FALSE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,-0.000474931005923773,-0.00322994796111023,0.00240739260793907,FALSE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc_excl,0,-0.00236665821877257,0.00236953400147927,FALSE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.000708061002178684,-0.00179653213166144,0.00324739850705025,FALSE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.00047692104883823,-0.00286701197255277,0.00383881448711927,FALSE
+cv,3-mod,2014-2016,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc_excl,0.000891632373113849,-0.00138211627328833,0.00323533750913645,FALSE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",10,auc,-0.0112293144208038,-0.0829697882903741,0.0589078385135321,FALSE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0411101193827931,-0.0889135179728195,0.0155319288797838,FALSE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",10,auc_excl,-0.0197328476017,-0.0903757156310954,0.0482161357872771,FALSE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",30,auc,-0.00439110070257609,-0.0373579447689182,0.0263031241428627,FALSE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",30,ipa,-0.0345885210253868,-0.0948585364293857,0.0273617159832156,FALSE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",30,auc_excl,-0.009083402146986,-0.0411996076397962,0.0204868583381756,FALSE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",90,auc,-0.00653594771241828,-0.0316716358228965,0.019084675012994,FALSE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0462433151466726,-0.138695644669826,0.0227939242735023,FALSE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",90,auc_excl,-0.0125255149378363,-0.0364010859730881,0.0109827509784587,FALSE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",180,auc,-0.0171001926782274,-0.0375587895905454,0.00290228794926392,FALSE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",180,ipa,-0.0367478119730175,-0.11658641458985,0.0270549606829749,FALSE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",180,auc_excl,-0.0219109195402299,-0.0418195672733392,-0.00450835054764019,TRUE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",365,auc,-0.0178104575163399,-0.0378682486403792,0.00116998866518095,FALSE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",365,ipa,-0.039214478411388,-0.102177001760926,0.015689397084581,FALSE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",365,auc_excl,-0.0244170096021948,-0.0439330299827803,-0.00810190304328815,TRUE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,0.00265957446808507,-0.0228203320802005,0.0273727515695716,FALSE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,0.00879045259842604,0.00205745644796418,0.0161270850964472,TRUE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc_excl,0.00303582270795388,-0.0220453538197125,0.0277777777777777,FALSE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,-0.000780640124902421,-0.0158186162566662,0.015447038573218,FALSE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,0.00208449857500359,-0.0148869639030693,0.0178176226794431,FALSE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc_excl,0.00113542526837318,-0.0135307872173503,0.0175271723976538,FALSE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.00236928104575163,-0.00503651761442616,0.00989023886911207,FALSE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.00390288628184909,-0.0130787090878817,0.021947337106239,FALSE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc_excl,0.00259788457969945,-0.00458858291770771,0.0101979493631676,FALSE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,0.000662331406551031,-0.00546458146894121,0.00662336268385217,FALSE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.00111479156335514,-0.0138545132759462,0.0175223923834154,FALSE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc_excl,0.00165229885057472,-0.00415216843273214,0.00766344836892874,FALSE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.00735294117647056,-0.000301337027406634,0.0151891434946725,FALSE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.00919384716128302,-0.0066294443265314,0.0265322086103971,FALSE
+cv,3-mod,2014-2016,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc_excl,0.00919067215363512,0.00194646825315001,0.017310871709909,TRUE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",10,auc,-0.0802556818181819,-0.176626054358013,-0.0067461122772025,TRUE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0200987787260201,-0.0645069071735169,0.0666724507460221,FALSE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",10,auc_excl,-0.0827320827320828,-0.180840478997612,-0.0095928565717484,TRUE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",30,auc,-0.0314465408805031,-0.0907073941253179,0.0317469015003262,FALSE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",30,ipa,-0.00829780692133064,-0.0607814861366944,0.0580383831452494,FALSE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",30,auc_excl,-0.0335221907459867,-0.0913346963079017,0.0273084585169604,FALSE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",90,auc,-0.0442857142857143,-0.0873911480309627,0.000543595964343519,FALSE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0377120393509822,-0.0990066518210182,0.0142388056746298,FALSE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",90,auc_excl,-0.0464619492656876,-0.0894158241988223,-0.00276416276488676,TRUE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",180,auc,-0.0569794680997657,-0.102637685036561,-0.0141160336819001,TRUE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",180,ipa,-0.0900477110270843,-0.172534972671929,-0.0257492296037911,TRUE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",180,auc_excl,-0.0585686777920411,-0.100183567258915,-0.0178089738130722,TRUE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",365,auc,-0.0473043478260871,-0.0866163689274337,-0.00980147041998565,TRUE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",365,ipa,-0.0686372695444704,-0.13506371778884,-0.00891646417379484,TRUE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Internal CV model",365,auc_excl,-0.0519163763066202,-0.088252276074441,-0.0164466152897259,TRUE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,0,-0.025913517619293,0.0231367773870028,FALSE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,0.000981373582765288,-0.00222483779858817,0.00452518095893538,FALSE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc_excl,0.000240500240500152,-0.0260781612770176,0.0235602094240838,FALSE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,0.00628930817610063,-0.012065128269197,0.0241945765525887,FALSE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,0.000765277057952152,-0.0139903338647957,0.0152764773887371,FALSE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc_excl,0.00708215297450432,-0.0111436217941215,0.0253931073814567,FALSE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.00658730158730159,-0.00278649890625253,0.0162732743775561,FALSE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.00965204786915341,-0.00702671294440285,0.0299224670263431,FALSE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc_excl,0.0076546506453048,-0.00101804803557613,0.0168671423559526,FALSE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,6.88989940746954e-05,-0.00985938236229638,0.00980454170769121,FALSE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.0111385962123662,-0.00909998019701693,0.0353239092718749,FALSE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc_excl,0.001604621309371,-0.00783990854351285,0.0105272493413272,FALSE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.00342028985507237,-0.00746481013459185,0.0134513518073139,FALSE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.0154387748468422,-0.00341403225550738,0.0372022135344548,FALSE
+cv,3-mod,2017 onwards,EHR+ECG,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc_excl,0.00585365853658537,-0.0050620807343768,0.0159696339462275,FALSE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",10,auc,-0.114820075757576,-0.228706621503497,-0.0251273674242424,TRUE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0333453734511566,-0.0873495537319586,0.0620493561271691,FALSE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",10,auc_excl,-0.116642616642617,-0.231856792975875,-0.026733194709572,TRUE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",30,auc,-0.0461590296495957,-0.112340679334797,0.0203844856097175,FALSE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",30,ipa,-0.0138017549029369,-0.0684942686939665,0.0537732843835215,FALSE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",30,auc_excl,-0.0482766761095373,-0.112137224731002,0.0158918820638244,FALSE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",90,auc,-0.048888888888889,-0.0967917838244636,0.00215818470836039,FALSE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0536548443219837,-0.123956689459572,0.00187727868712806,FALSE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",90,auc_excl,-0.0507343124165554,-0.0970395031775405,-0.00173400102804783,TRUE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",180,auc,-0.0598043268568279,-0.108642642607174,-0.012868686868687,TRUE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",180,ipa,-0.107466775644365,-0.196682071475857,-0.035403310993237,TRUE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",180,auc_excl,-0.0620988446726573,-0.108322182867637,-0.0169597159069355,TRUE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",365,auc,-0.0474782608695652,-0.0888121330540615,-0.00653931373221722,TRUE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",365,ipa,-0.0824367414180102,-0.154213244607046,-0.0186246141006461,TRUE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Internal CV model",365,auc_excl,-0.0533797909407666,-0.0926329663444325,-0.0142723536748662,TRUE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,-0.0227272727272727,-0.0358065793688643,-0.0100748416810593,TRUE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,-0.000931256292721505,-0.00306679942998087,0.000338166256489997,FALSE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc_excl,-0.0233285233285233,-0.0364590371621622,-0.0107505376344086,TRUE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,-0.00707547169811329,-0.0127956275895686,-0.00213249160134378,TRUE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,-0.00221472768320974,-0.00649962083754643,0.00124003912891526,FALSE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc_excl,-0.00731822474032107,-0.0132545637210893,-0.00215380872655787,TRUE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,-0.000555555555555642,-0.00391159158514454,0.00302715997668831,FALSE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,-0.0040927598203071,-0.00860840607149489,-0.000198964060478549,TRUE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc_excl,-0.000801068090787727,-0.00392999151261729,0.0025734683712435,FALSE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,-0.00220476781039003,-0.00439394625568803,-6.59169225597536e-05,TRUE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,-0.00213593810639257,-0.00516015826233034,0.000700942741118287,FALSE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc_excl,-0.00208600770218226,-0.00424892190680903,-9.95418582026969e-05,TRUE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0,-0.00215232110690283,0.00232482820124715,FALSE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,-0.00197025204284917,-0.00549245417586622,0.00114791293470306,FALSE
+cv,3-mod,2017 onwards,EHR+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc_excl,0.000139372822299588,-0.00220029034420957,0.00264100926255495,FALSE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",10,auc,-0.118844696969697,-0.229242659758204,-0.0348825501784225,TRUE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",10,ipa,-0.0260350156451461,-0.0723869649586222,0.0606638977292615,FALSE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",10,auc_excl,-0.122174122174122,-0.233919510061242,-0.0375231071644265,TRUE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",30,auc,-0.0479559748427674,-0.116861416029893,0.0183222624798712,FALSE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",30,ipa,-0.00851044026061343,-0.0575827964569988,0.053987360100391,FALSE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",30,auc_excl,-0.0512275731822474,-0.118052861232701,0.0133131214370354,FALSE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",90,auc,-0.0488095238095237,-0.096366927592955,0.0011433014988725,FALSE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",90,ipa,-0.0438977911305182,-0.108830626923035,0.00782646970542369,FALSE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",90,auc_excl,-0.0513573653760571,-0.0971235536006951,-0.00360209629505077,TRUE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",180,auc,-0.0570483670938404,-0.104439455371217,-0.0104872825557451,TRUE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",180,ipa,-0.091595942490506,-0.173192508710831,-0.0259280954009139,TRUE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",180,auc_excl,-0.0591302952503209,-0.103403766364225,-0.0160027426699956,TRUE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",365,auc,-0.0485217391304348,-0.089228210935793,-0.00846456078308572,TRUE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",365,ipa,-0.0714141176303591,-0.138392125507219,-0.0111309284905881,TRUE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Internal CV model",365,auc_excl,-0.0533101045296167,-0.0912164299911069,-0.0159756497807969,TRUE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc,-0.0385890151515151,-0.0722395949291935,-0.00921066051976673,TRUE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,ipa,-0.0016957377847524,-0.00761935002800684,0.00221537119748773,FALSE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",10,auc_excl,-0.0394420394420395,-0.0738847093223255,-0.00977624831309043,TRUE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc,-0.00932165318957778,-0.0292651760623961,0.00914925476211409,FALSE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,ipa,-0.00432568536993894,-0.0187636039120791,0.00696390264555428,FALSE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",30,auc_excl,-0.0096789423984891,-0.0309646368161545,0.0101612875742354,FALSE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc,0.00253968253968251,-0.00593850083430891,0.011406871832956,FALSE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,ipa,0.00329438537727034,-0.0105232341719164,0.017937387229964,FALSE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",90,auc_excl,0.00293724966622155,-0.00544321955760249,0.0116206219318546,FALSE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc,-0.000413393964448172,-0.00794618427191004,0.00689637998056365,FALSE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,ipa,0.00778638031494938,-0.0076148639580174,0.0260670609314038,FALSE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",180,auc_excl,0.000882541720154118,-0.00655886264596581,0.00788910263031051,FALSE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc,0.00220289855072464,-0.00641797617492892,0.0101464676523409,FALSE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,ipa,0.0123833340622787,-0.00179641108683798,0.0285590481014236,FALSE
+cv,3-mod,2017 onwards,EHR+ECG+CTPA,"Super learner, recalibrated - Super learner-EHR, recalibrated",365,auc_excl,0.00425087108013933,-0.0044499157687954,0.0124040541618619,FALSE

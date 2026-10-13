@@ -1,0 +1,35 @@
+section,item,value,status
+check,rows / unique admissions / cohort,3501 / 3501 / 3501,PASS
+check,discharge dates that differ,0,PASS
+check,dod_days rows that disagree,0,PASS
+check,cv_days capped at 30: rows disagree,0,PASS
+info,latest anchor year group ends,2019,INFO
+info,anchor_year_group 2008 - 2010,1406,INFO
+info,anchor_year_group 2011 - 2013,849,INFO
+info,anchor_year_group 2014 - 2016,781,INFO
+info,anchor_year_group 2017 - 2019,465,INFO
+info,any later MACE admission (any time),843,INFO
+info,MACE admission dated inside stay,0,INFO
+info,last MIMIC discharge before index,0,INFO
+info,'DIED' location vs in-hospital death mismatch,<10,WARN
+frameB,CV readmission before discharge,0,INFO
+frameB,EHR+ECG cohort,2919,INFO
+frameB,EHR+ECG discharged to hospice,85,INFO
+frameB,3-mod cohort,1412,INFO
+frameB,3-mod discharged to hospice,39,INFO
+frameB,  location HOME,1119,INFO
+frameB,  location HOME HEALTH CARE,712,INFO
+frameB,  location SKILLED NURSING FACILITY,476,INFO
+frameB,  location CHRONIC/LONG TERM ACUTE CARE,184,INFO
+frameB,  location REHAB,154,INFO
+frameB,  location missing,109,INFO
+frameB,  location HOSPICE,85,INFO
+frameB,  location ACUTE HOSPITAL,44,INFO
+frameB,  location AGAINST ADVICE,17,INFO
+frameB,  location PSYCH FACILITY,<10,INFO
+frameB,  location OTHER FACILITY,<10,INFO
+frameB,  location ASSISTED LIVING,<10,INFO
+trunc,"Frame B, possibly in final year",533,INFO
+trunc,"Frame B, certainly in final year",<10,INFO
+trunc,possibly final year: n / 1y death / 1y CV,533 / 0.2139 / 0.1238,INFO
+trunc,earlier: n / 1y death / 1y CV,2386 / 0.2121 / 0.1538,INFO

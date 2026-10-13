@@ -1,0 +1,27 @@
+item,value,status
+forest fits that failed,0,PASS
+A EHR+ECG: rows / columns / missing cells,21006 / 30 / 0,PASS
+"A EHR+ECG: reproduces stage 6c (RSF) (columns, max |diff|)","6, 5.3e-14",PASS
+"A EHR+ECG: reproduces stage 6d (oblique RSF) (columns, max |diff|)","2, 6.4e-14",PASS
+A EHR+ECG: scores failing the per-fold rule (D2),0,PASS
+A 3-mod: rows / columns / missing cells,9816 / 45 / 0,PASS
+"A 3-mod: reproduces stage 6c (RSF) (columns, max |diff|)","9, 5.3e-14",PASS
+"A 3-mod: reproduces stage 6d (oblique RSF) (columns, max |diff|)","3, 5.3e-14",PASS
+A 3-mod: scores failing the per-fold rule (D2),0,PASS
+B EHR+ECG: rows / columns / missing cells,17454 / 60 / 0,PASS
+"B EHR+ECG: reproduces stage 6c (RSF) (columns, max |diff|)","12, 6.4e-14",PASS
+"B EHR+ECG: reproduces stage 6d (oblique RSF) (columns, max |diff|)","2, 5.7e-13",PASS
+B EHR+ECG: scores failing the per-fold rule (D2),0,PASS
+B 3-mod: rows / columns / missing cells,8430 / 90 / 0,PASS
+"B 3-mod: reproduces stage 6c (RSF) (columns, max |diff|)","18, 6.4e-14",PASS
+"B 3-mod: reproduces stage 6d (oblique RSF) (columns, max |diff|)","3, 5.3e-13",PASS
+B 3-mod: scores failing the per-fold rule (D2),0,PASS
+EHR: Brier and C choose different settings (RSF / oblique),59% / 49%,INFO
+EHR RSF (Brier): node size 5 / 160 share,0.72 / 0.00,WARN
+"EHR oblique RSF: largest mtry share, C / Brier",0.46 / 0.69,WARN
+ECG: Brier and C choose different settings (RSF / oblique),48% / 48%,INFO
+ECG RSF (Brier): node size 5 / 160 share,0.00 / 0.00,INFO
+"ECG oblique RSF: largest mtry share, C / Brier",0.40 / 0.25,INFO
+CTPA: Brier and C choose different settings (RSF / oblique),67% / 67%,INFO
+CTPA RSF (Brier): node size 5 / 160 share,0.12 / 0.00,INFO
+"CTPA oblique RSF: largest mtry share, C / Brier",0.28 / 0.48,INFO

@@ -1,0 +1,21 @@
+part,item,value
+"membership model (INSPECT vs MIMIC), out-of-fold AUROC",all features,0.995109619686801
+"membership model (INSPECT vs MIMIC), out-of-fold AUROC",all features + missing indicators,0.99581452104942
+"membership model (INSPECT vs MIMIC), out-of-fold AUROC",EHR features only,0.98204067520846
+"membership model (INSPECT vs MIMIC), out-of-fold AUROC",CTPA features only,0.905735611145007
+"fused score, MIMIC -> INSPECT",mean in source,0.0512783943470026
+"fused score, MIMIC -> INSPECT",SD in source,1.26343318427887
+"fused score, MIMIC -> INSPECT",mean in target,0.289359594386736
+"fused score, MIMIC -> INSPECT",SD in target,1.20009077587366
+"fused score, MIMIC -> INSPECT",mean difference in source SDs,0.188439881904497
+"fused score, MIMIC -> INSPECT",SD ratio target / source,0.949864853010518
+"fused score, INSPECT -> MIMIC",mean in source,-0.0421373332897467
+"fused score, INSPECT -> MIMIC",SD in source,1.08687909361793
+"fused score, INSPECT -> MIMIC",mean in target,-0.227282626641623
+"fused score, INSPECT -> MIMIC",SD in target,1.0390302658281
+"fused score, INSPECT -> MIMIC",mean difference in source SDs,-0.17034580427486
+"fused score, INSPECT -> MIMIC",SD ratio target / source,0.955975942429302
+INSPECT Kaplan-Meier mortality,30 days,0.0778927512988854
+INSPECT Kaplan-Meier mortality,365 days,0.174831460919462
+MIMIC Kaplan-Meier mortality,30 days,0.0885906040268465
+MIMIC Kaplan-Meier mortality,365 days,0.247651006711408

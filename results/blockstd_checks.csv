@@ -1,0 +1,30 @@
+item,value,status
+"A EHR+ECG: stage 18a predictions found, D11 version",arch_preds_linear_A_ehrecg.csv,PASS
+"A 3-mod: stage 18a predictions found, D11 version",arch_preds_linear_A_3mod.csv,PASS
+"B EHR+ECG: stage 18a predictions found, D11 version",arch_preds_linear_B_ehrecg.csv,PASS
+"B 3-mod: stage 18a predictions found, D11 version",arch_preds_linear_B_3mod.csv,PASS
+previous stage 18b prediction files (archive them to v1),0,PASS
+"A EHR+ECG: stage 18a plain concatenation reproduced (rows, max)","7002, 5.6e-16",PASS
+A EHR+ECG EHR+ECG: block scaling changes the model (rho at 30 d),0.9804,PASS
+A EHR+ECG: missing predictions,0,PASS
+A EHR+ECG: risks of exactly 0 or 1 (range),0 (7.23e-04 to 1.000000),PASS
+"A 3-mod: stage 18a plain concatenation reproduced (rows, max)","9816, 6.7e-16",PASS
+A 3-mod EHR+ECG: block scaling changes the model (rho at 30 d),0.9628,PASS
+A 3-mod EHR+CTPA: block scaling changes the model (rho at 30 d),0.9972,PASS
+A 3-mod EHR+ECG+CTPA: block scaling changes the model (rho at 30 d),0.8900,PASS
+A 3-mod: missing predictions,0,PASS
+A 3-mod: risks of exactly 0 or 1 (range),0 (8.50e-04 to 0.999843),PASS
+"B EHR+ECG: stage 18a plain concatenation reproduced (rows, max)","14545, 5.6e-16",PASS
+B EHR+ECG EHR+ECG: block scaling changes the model (rho at 365 d),0.9830,PASS
+B EHR+ECG: missing predictions,0,PASS
+B EHR+ECG: risks of exactly 0 or 1 (range),0 (3.69e-04 to 0.993038),PASS
+"B 3-mod: stage 18a plain concatenation reproduced (rows, max)","21075, 5.6e-16",PASS
+B 3-mod EHR+ECG: block scaling changes the model (rho at 365 d),0.9641,PASS
+B 3-mod EHR+CTPA: block scaling changes the model (rho at 365 d),0.9982,PASS
+B 3-mod EHR+ECG+CTPA: block scaling changes the model (rho at 365 d),0.9643,PASS
+B 3-mod: missing predictions,0,PASS
+B 3-mod: risks of exactly 0 or 1 (range),0 (6.39e-04 to 0.977825),PASS
+Early PH: choices at the least-penalised end,0.0%,PASS
+Early TV: choices at the least-penalised end,0.0%,PASS
+warnings from model fitting (see blockstd_warnings.csv),3,INFO
+glmnet tie-handling notices (harmless; Breslow ties throughout),1920,INFO

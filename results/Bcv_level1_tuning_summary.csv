@@ -1,0 +1,70 @@
+type,family,modality,setting,N,share
+chosen setting,RSF,ctpa,"node 15, mtry 4",9,0.3
+chosen setting,RSF,ctpa,"node 40, mtry 4",4,0.133
+chosen setting,RSF,ctpa,"node 40, mtry 7",4,0.133
+chosen setting,RSF,ctpa,"node 80, mtry 4",3,0.1
+chosen setting,RSF,ctpa,"node 80, mtry 21",2,0.067
+chosen setting,RSF,ctpa,"node 160, mtry 7",2,0.067
+chosen setting,RSF,ctpa,"node 160, mtry 21",2,0.067
+chosen setting,RSF,ctpa,"node 80, mtry 7",2,0.067
+chosen setting,RSF,ctpa,"node 160, mtry 4",1,0.033
+chosen setting,RSF,ctpa,"node 15, mtry 2",1,0.033
+chosen setting,RSF,ecg,"node 80, mtry 49",20,0.333
+chosen setting,RSF,ecg,"node 40, mtry 49",17,0.283
+chosen setting,RSF,ecg,"node 40, mtry 17",17,0.283
+chosen setting,RSF,ecg,"node 15, mtry 9",2,0.033
+chosen setting,RSF,ecg,"node 80, mtry 86",2,0.033
+chosen setting,RSF,ecg,"node 40, mtry 9",1,0.017
+chosen setting,RSF,ecg,"node 15, mtry 17",1,0.017
+chosen setting,RSF,ehr,"node 40, mtry 36",27,0.45
+chosen setting,RSF,ehr,"node 15, mtry 12",19,0.317
+chosen setting,RSF,ehr,"node 5, mtry 12",9,0.15
+chosen setting,RSF,ehr,"node 15, mtry 36",4,0.067
+chosen setting,RSF,ehr,"node 1, mtry 12",1,0.017
+chosen setting,oblique RSF,ctpa,"leaf 60, mtry 7",13,0.433
+chosen setting,oblique RSF,ctpa,"leaf 60, mtry 14",4,0.133
+chosen setting,oblique RSF,ctpa,"leaf 20, mtry 4",3,0.1
+chosen setting,oblique RSF,ctpa,"leaf 120, mtry 14",2,0.067
+chosen setting,oblique RSF,ctpa,"leaf 60, mtry 4",2,0.067
+chosen setting,oblique RSF,ctpa,"leaf 20, mtry 7",2,0.067
+chosen setting,oblique RSF,ctpa,"leaf 60, mtry 27",2,0.067
+chosen setting,oblique RSF,ctpa,"leaf 5, mtry 4",1,0.033
+chosen setting,oblique RSF,ctpa,"leaf 20, mtry 14",1,0.033
+chosen setting,oblique RSF,ecg,"leaf 60, mtry 9",20,0.333
+chosen setting,oblique RSF,ecg,"leaf 20, mtry 9",12,0.2
+chosen setting,oblique RSF,ecg,"leaf 60, mtry 33",9,0.15
+chosen setting,oblique RSF,ecg,"leaf 60, mtry 17",8,0.133
+chosen setting,oblique RSF,ecg,"leaf 120, mtry 17",3,0.05
+chosen setting,oblique RSF,ecg,"leaf 5, mtry 9",2,0.033
+chosen setting,oblique RSF,ecg,"leaf 120, mtry 33",2,0.033
+chosen setting,oblique RSF,ecg,"leaf 60, mtry 65",2,0.033
+chosen setting,oblique RSF,ecg,"leaf 20, mtry 17",1,0.017
+chosen setting,oblique RSF,ecg,"leaf 120, mtry 65",1,0.017
+chosen setting,oblique RSF,ehr,"leaf 60, mtry 24",15,0.25
+chosen setting,oblique RSF,ehr,"leaf 120, mtry 24",13,0.217
+chosen setting,oblique RSF,ehr,"leaf 60, mtry 48",12,0.2
+chosen setting,oblique RSF,ehr,"leaf 20, mtry 24",7,0.117
+chosen setting,oblique RSF,ehr,"leaf 120, mtry 48",3,0.05
+chosen setting,oblique RSF,ehr,"leaf 20, mtry 48",3,0.05
+chosen setting,oblique RSF,ehr,"leaf 20, mtry 84",2,0.033
+chosen setting,oblique RSF,ehr,"leaf 60, mtry 84",2,0.033
+chosen setting,oblique RSF,ehr,"leaf 240, mtry 48",1,0.017
+chosen setting,oblique RSF,ehr,"leaf 60, mtry 139",1,0.017
+chosen setting,oblique RSF,ehr,"leaf 20, mtry 12",1,0.017
+extensions,RSF,ehr,mtry up,31,0
+extensions,oblique RSF,ehr,leaf up,65,0.277
+extensions,RSF,ecg,mtry up,41,0.049
+extensions,oblique RSF,ecg,leaf up,51,0.118
+extensions,oblique RSF,ecg,mtry down,34,0
+extensions,oblique RSF,ehr,mtry up,29,0.207
+extensions,RSF,ecg,mtry down,3,0
+extensions,RSF,ehr,node down,11,0.182
+extensions,oblique RSF,ecg,leaf down,2,0
+extensions,RSF,ctpa,mtry down,19,0.053
+extensions,oblique RSF,ctpa,leaf up,25,0.08
+extensions,oblique RSF,ctpa,mtry down,6,0
+extensions,RSF,ctpa,mtry up,4,0
+extensions,oblique RSF,ecg,mtry up,3,0
+extensions,RSF,ctpa,node up,5,0
+extensions,oblique RSF,ctpa,leaf down,1,0
+extensions,oblique RSF,ctpa,mtry up,2,0

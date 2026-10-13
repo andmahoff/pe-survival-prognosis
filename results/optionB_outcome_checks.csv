@@ -1,0 +1,13 @@
+item,value,status
+input files found,all,PASS
+CV readmission times found (cv_days_all),843 admissions with a later CV admission,PASS
+Frame A's first events and times to day 30 reproduced,"CV 172 vs 172, death 375 vs 375",PASS
+EHR 79: registered / extra labs (excluded),"28 / 51 (lab_50825_temperature, lab_51009_vancomycin)",PASS
+"block 2, unused measurements found","8 of 8 (spo2, nlr, hr_first, sbp_first, spo2_first, sex_f, n_prior, n_codes)",PASS
+"block 3, discharge destination (home / other share)",38.3% / 6.4%,INFO
+"block 4, admissions with diagnosis codes",100.0%,PASS
+"block 4, Charlson / Elixhauser categories kept (1%-99%)",16 of 17 / 28 of 31,INFO
+"block 4, median Charlson / Elixhauser score",2 / 11,INFO
+"EHR+ rebuilt exactly as stage 6j (features, order)",139 vs 139,PASS
+ECG for Frame B: features (admissions),264 (2909),PASS
+CTPA for Frame B: features (admissions),46 (1405),PASS

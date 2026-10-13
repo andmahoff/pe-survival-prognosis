@@ -1,0 +1,62 @@
+section,frame,cohort,item,value,status
+check,A,EHR+ECG,death_30d rows that disagree,0,PASS
+check,A,EHR+ECG,cv_first rows that disagree,0,PASS
+check,A,EHR+ECG,death_first rows that disagree,0,PASS
+check,A,EHR+ECG,composite_30d rows that disagree,0,PASS
+check,A,EHR+ECG,first-event time after death time,0,PASS
+check,A,EHR+ECG,events <= 30.5 and censoring at 31.0,yes,PASS
+info,A,EHR+ECG,admissions,3501,INFO
+info,A,3-mod,admissions,1636,INFO
+check,B,both,cells differing from stage 3 (of 40),0,PASS
+check,B,EHR+ECG,events <= 365.5 and censoring at 366.0,yes,PASS
+excl,B,EHR+ECG,first admissions,3160,INFO
+excl,B,EHR+ECG,excluded: in-hospital death (deathtime),241,INFO
+excl,B,EHR+ECG,excluded: dod before discharge,0,INFO
+excl,B,EHR+ECG,excluded: discharge location DIED,0,INFO
+excl,B,EHR+ECG,excluded: ECG after discharge,10,INFO
+excl,B,EHR+ECG,Frame B cohort,2909,INFO
+excl,B,3-mod,Frame B cohort,1405,INFO
+flags,B,EHR+ECG,hospice discharges,85,INFO
+flags,B,EHR+ECG,index possibly in final year (>=2019),533,INFO
+flags,B,3-mod,hospice discharges,39,INFO
+flags,B,3-mod,index possibly in final year (>=2019),236,INFO
+info,B,EHR+ECG,same-day CV and death within a year (CV),<10,INFO
+check,-,-,whitelisted columns missing from matrix,0,PASS
+check,-,-,label or timing names among 338 features,0,PASS
+info,-,-,ehr feature columns,28,INFO
+info,-,-,ecg feature columns,264,INFO
+info,-,-,ctpa feature columns,46,INFO
+coverage,A,EHR+ECG,ehr: rows present / cells missing,1.0000 / 0.0511,PASS
+coverage,A,EHR+ECG,ecg: rows present / cells missing,1.0000 / 0.0350,PASS
+coverage,A,3-mod,ehr: rows present / cells missing,1.0000 / 0.0535,PASS
+coverage,A,3-mod,ecg: rows present / cells missing,1.0000 / 0.0336,PASS
+coverage,A,3-mod,ctpa: rows present / cells missing,1.0000 / 0.0000,PASS
+coverage,B,EHR+ECG,ehr: rows present / cells missing,1.0000 / 0.0491,PASS
+coverage,B,EHR+ECG,ecg: rows present / cells missing,1.0000 / 0.0344,PASS
+coverage,B,3-mod,ehr: rows present / cells missing,1.0000 / 0.0516,PASS
+coverage,B,3-mod,ecg: rows present / cells missing,1.0000 / 0.0341,PASS
+coverage,B,3-mod,ctpa: rows present / cells missing,1.0000 / 0.0000,PASS
+folds,A,EHR+ECG,"seed 42: one fold/patient; CV, death per fold","yes; 24-44, 54-85",PASS
+folds,A,EHR+ECG,"seed 7: one fold/patient; CV, death per fold","yes; 26-41, 68-83",PASS
+folds,A,EHR+ECG,"seed 13: one fold/patient; CV, death per fold","yes; 28-42, 69-84",PASS
+folds,A,EHR+ECG,"seed 1: one fold/patient; CV, death per fold","yes; 28-43, 61-81",PASS
+folds,A,EHR+ECG,"seed 2: one fold/patient; CV, death per fold","yes; 27-48, 59-94",PASS
+folds,A,EHR+ECG,"seed 3: one fold/patient; CV, death per fold","yes; 28-39, 65-80",PASS
+folds,A,3-mod,"seed 42: one fold/patient; CV, death per fold","yes; <10-22, 25-33",PASS
+folds,A,3-mod,"seed 7: one fold/patient; CV, death per fold","yes; 10-21, 19-34",PASS
+folds,A,3-mod,"seed 13: one fold/patient; CV, death per fold","yes; 13-19, 22-39",PASS
+folds,A,3-mod,"seed 1: one fold/patient; CV, death per fold","yes; 13-19, 22-34",PASS
+folds,A,3-mod,"seed 2: one fold/patient; CV, death per fold","yes; 13-19, 21-34",PASS
+folds,A,3-mod,"seed 3: one fold/patient; CV, death per fold","yes; 10-18, 24-36",PASS
+folds,B,EHR+ECG,"seed 42: one fold/patient; CV, death per fold","yes; 73-92, 88-100",PASS
+folds,B,EHR+ECG,"seed 7: one fold/patient; CV, death per fold","yes; 78-100, 84-110",PASS
+folds,B,EHR+ECG,"seed 13: one fold/patient; CV, death per fold","yes; 81-99, 85-105",PASS
+folds,B,EHR+ECG,"seed 1: one fold/patient; CV, death per fold","yes; 82-92, 91-99",PASS
+folds,B,EHR+ECG,"seed 2: one fold/patient; CV, death per fold","yes; 78-93, 81-106",PASS
+folds,B,EHR+ECG,"seed 3: one fold/patient; CV, death per fold","yes; 78-100, 90-104",PASS
+folds,B,3-mod,"seed 42: one fold/patient; CV, death per fold","yes; 30-43, 37-51",PASS
+folds,B,3-mod,"seed 7: one fold/patient; CV, death per fold","yes; 33-42, 41-49",PASS
+folds,B,3-mod,"seed 13: one fold/patient; CV, death per fold","yes; 33-43, 41-53",PASS
+folds,B,3-mod,"seed 1: one fold/patient; CV, death per fold","yes; 28-42, 34-52",PASS
+folds,B,3-mod,"seed 2: one fold/patient; CV, death per fold","yes; 31-46, 44-47",PASS
+folds,B,3-mod,"seed 3: one fold/patient; CV, death per fold","yes; 33-42, 40-51",PASS

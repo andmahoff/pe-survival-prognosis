@@ -1,0 +1,12 @@
+item,value,status
+input files found,all,PASS
+ehr_extra.csv keyed by hadm_id,TRUE,PASS
+extra labs used / excluded,"51 / lab_50825_temperature, lab_51009_vancomycin",PASS
+EHR+ECG: patients / median extra-lab coverage / indicators,2909 / 0.28 / 51,INFO
+EHR+ECG: stage 6d scores aligned with the folds,"6 seeds, 17454 rows",PASS
+3-mod: patients / median extra-lab coverage / indicators,1405 / 0.22 / 51,INFO
+3-mod: stage 6d scores aligned with the folds,"6 seeds, 8430 rows",PASS
+EHR+ECG: EHR 79 penalty at the least-penalised end,0.0%,PASS
+EHR+ECG: new EHR scores failing the per-fold rule (D2),0,PASS
+3-mod: EHR 79 penalty at the least-penalised end,0.0%,PASS
+3-mod: new EHR scores failing the per-fold rule (D2),0,PASS

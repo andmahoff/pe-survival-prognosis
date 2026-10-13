@@ -1,0 +1,6 @@
+frame,cohort,message,count
+A,3-mod,from glmnet C++ code (error code -80); Convergence for 80th lambda value not reached after maxit=100000 iterations; solutions for larger lambdas retur,12
+A,3-mod,from glmnet C++ code (error code -79); Convergence for 79th lambda value not reached after maxit=100000 iterations; solutions for larger lambdas retur,2
+B,3-mod,from glmnet C++ code (error code -80); Convergence for 80th lambda value not reached after maxit=100000 iterations; solutions for larger lambdas retur,3
+B,3-mod,from glmnet C++ code (error code -79); Convergence for 79th lambda value not reached after maxit=100000 iterations; solutions for larger lambdas retur,1
+B,3-mod,from glmnet C++ code (error code -77); Convergence for 77th lambda value not reached after maxit=100000 iterations; solutions for larger lambdas retur,1

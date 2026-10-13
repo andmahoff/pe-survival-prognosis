@@ -1,0 +1,12 @@
+item,value,status
+input files found,all,PASS
+"EHR+ECG: stage 6p seeds and rows aligned (main, sens)","6 seeds, 3501 x 6 rows",PASS
+"3-mod: stage 6p seeds and rows aligned (main, sens)","6 seeds, 1636 x 6 rows",PASS
+EHR+ECG: missing risks / range,0 / 0.00010 to 1.00000,PASS
+EHR+ECG: sPESI and PESI-10 present (missing),0,PASS
+EHR+ECG: Frame A v4 risks at 10 and 30 days (missing),0,PASS
+EHR+ECG: patients with presentation vital signs (D17),2577 of 3501,INFO
+3-mod: missing risks / range,0 / 0.00010 to 0.99998,PASS
+3-mod: sPESI and PESI-10 present (missing),0,PASS
+3-mod: Frame A v4 risks at 10 and 30 days (missing),0,PASS
+3-mod: patients with presentation vital signs (D17),1256 of 1636,INFO

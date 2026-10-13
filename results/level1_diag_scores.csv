@@ -1,0 +1,4 @@
+frame,cohort,column,target,n,events,value,ci_lo,ci_hi,seed_min,seed_max,verdict
+A,3-mod,ctpa.lr.cvc_h10,cvc_h10,1636,21,0.2835,0.2082,0.3642,0.3104,0.4405,BELOW chance: possible sign error
+A,3-mod,ctpa.lr.cvu_h10,cvu_h10,1636,21,0.3428,0.2341,0.4479,0.3226,0.4369,BELOW chance: possible sign error
+B,3-mod,ctpa.lr.cvc_h10,cvc_h10,1405,42,0.4998,0.3975,0.59,0.4728,0.5413,consistent with no signal

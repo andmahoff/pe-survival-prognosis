@@ -1,0 +1,8 @@
+item,value,status
+core inputs found,all 8,PASS
+optional inputs found (sections skipped if missing),all 25,PASS
+deaths by 30 and 365 days: stage 4r agrees with Table 1,397 / 971,PASS
+FAIL rows across the final stages' checks files,0,PASS
+counts from 1 to 9 written as numbers,0,PASS
+numbers recorded,1419,INFO
+source files read,47,INFO

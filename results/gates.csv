@@ -1,0 +1,37 @@
+gate,cohort,outcome,model,item,reference,value,status,note
+G1,-,-,ecg_logit,banned columns / feature count,0/71,0/71,PASS,
+G1,-,-,ecg_meas,banned columns / feature count,0/193,0/193,PASS,
+G1,-,-,ctpa,banned columns / feature count,0/46,0/46,PASS,
+G1,EHR+ECG,-,-,cohort rows,3501,3501,PASS,
+G1,3-mod,-,-,cohort rows,1636,1636,PASS,
+G2,ehr_ecg,death_30d,ecg_opt,mean AUROC over seeds,0.7301,0.7301,PASS,md5 ea0a7a30a8cbd0bfc717cbc6bbc91531
+G2,ehr_ecg,death_30d,ecg_opt,seed 42 AUROC (information),0.7317,0.7317,INFO,
+G2,ehr_ecg,composite_30d,ecg_opt,mean AUROC over seeds,0.7367,0.7367,PASS,md5 ea0a7a30a8cbd0bfc717cbc6bbc91531
+G2,ehr_ecg,composite_30d,ecg_opt,seed 42 AUROC (information),0.7348,0.7348,INFO,
+G2,ehr_ecg,cv_first,ecg_opt,mean AUROC over seeds,0.7439,0.7439,PASS,md5 ea0a7a30a8cbd0bfc717cbc6bbc91531
+G2,ehr_ecg,cv_first,ecg_opt,seed 42 AUROC (information),0.7403,0.7403,INFO,
+G2,ehr_ecg,death_30d_inhosp,ecg_opt,mean AUROC over seeds,0.7284,0.7284,PASS,md5 ea0a7a30a8cbd0bfc717cbc6bbc91531
+G2,ehr_ecg,death_30d_inhosp,ecg_opt,seed 42 AUROC (information),0.7309,0.7309,INFO,
+G2,3mod,death_30d,ecg_opt,mean AUROC over seeds,0.721,0.721,PASS,md5 ea0a7a30a8cbd0bfc717cbc6bbc91531
+G2,3mod,death_30d,ecg_opt,seed 42 AUROC (information),0.7239,0.7239,INFO,
+G2,3mod,death_30d,ctpa,mean AUROC over seeds,0.7899,0.7899,PASS,md5 ea0a7a30a8cbd0bfc717cbc6bbc91531
+G2,3mod,death_30d,ctpa,seed 42 AUROC (information),0.7917,0.7917,INFO,
+G2,3mod,composite_30d,ecg_opt,mean AUROC over seeds,0.7386,0.7386,PASS,md5 ea0a7a30a8cbd0bfc717cbc6bbc91531
+G2,3mod,composite_30d,ecg_opt,seed 42 AUROC (information),0.7397,0.7397,INFO,
+G2,3mod,composite_30d,ctpa,mean AUROC over seeds,0.7313,0.7313,PASS,md5 ea0a7a30a8cbd0bfc717cbc6bbc91531
+G2,3mod,composite_30d,ctpa,seed 42 AUROC (information),0.7265,0.7265,INFO,
+G2,3mod,cv_first,ecg_opt,mean AUROC over seeds,0.7151,0.7151,PASS,md5 ea0a7a30a8cbd0bfc717cbc6bbc91531
+G2,3mod,cv_first,ecg_opt,seed 42 AUROC (information),0.7123,0.7123,INFO,
+G2,3mod,cv_first,ctpa,mean AUROC over seeds,0.627,0.627,PASS,md5 ea0a7a30a8cbd0bfc717cbc6bbc91531
+G2,3mod,cv_first,ctpa,seed 42 AUROC (information),0.6234,0.6234,INFO,
+G2,3mod,death_30d_inhosp,ecg_opt,mean AUROC over seeds,0.7261,0.7261,PASS,md5 ea0a7a30a8cbd0bfc717cbc6bbc91531
+G2,3mod,death_30d_inhosp,ecg_opt,seed 42 AUROC (information),0.7315,0.7315,INFO,
+G2,3mod,death_30d_inhosp,ctpa,mean AUROC over seeds,0.7583,0.7583,PASS,md5 ea0a7a30a8cbd0bfc717cbc6bbc91531
+G2,3mod,death_30d_inhosp,ctpa,seed 42 AUROC (information),0.7315,0.7315,INFO,
+G3,EHR+ECG,death,ecg_opt,rows matched to Frame A,3501,3501,PASS,
+G3,EHR+ECG,death,ecg_opt,binary AUROC death by 30.5 d,-,0.732236,INFO,
+G3,EHR+ECG,death,ecg_opt,time-dependent AUC at 30.5 d,0.732236,0.732236,PASS,
+G4,EHR+ECG,death,ecg_opt,Harrell C,> 0.5,0.722237,PASS,
+G4,EHR+ECG,death,ecg_opt,C of negated score,0.277763,0.277763,PASS,
+G4,EHR+ECG,death,ecg_opt,mean C of 200 permutations,0.50+-0.01,0.499492,PASS,
+G5,EHR+ECG,death,ecg_opt,Uno C tau 31,0.722237,0.722237,PASS,

@@ -1,0 +1,49 @@
+column,index,category,rule,prev_strict,prev_main,kept
+hx_ch_mi,Charlson,mi,earlier admissions only,0.0537,0.0537,TRUE
+hx_ch_chf,Charlson,chf,earlier or index admission,0.0943,0.1962,TRUE
+hx_ch_pvd,Charlson,pvd,earlier or index admission,0.0477,0.08,TRUE
+hx_ch_cevd,Charlson,cevd,earlier admissions only,0.0623,0.0623,TRUE
+hx_ch_dementia,Charlson,dementia,earlier or index admission,0.0194,0.0408,TRUE
+hx_ch_cpd,Charlson,cpd,earlier or index admission,0.1577,0.2945,TRUE
+hx_ch_rheumd,Charlson,rheumd,earlier or index admission,0.0231,0.0403,TRUE
+hx_ch_pud,Charlson,pud,earlier admissions only,0.0214,0.0214,TRUE
+hx_ch_mld,Charlson,mld,earlier or index admission,0.0506,0.1043,TRUE
+hx_ch_diab,Charlson,diab,earlier or index admission,0.1171,0.1994,TRUE
+hx_ch_diabwc,Charlson,diabwc,earlier or index admission,0.0471,0.07,TRUE
+hx_ch_hp,Charlson,hp,earlier admissions only,0.0157,0.0157,TRUE
+hx_ch_rend,Charlson,rend,earlier or index admission,0.09,0.1562,TRUE
+hx_ch_canc,Charlson,canc,earlier or index admission,0.1768,0.2819,TRUE
+hx_ch_msld,Charlson,msld,earlier or index admission,0.0117,0.02,TRUE
+hx_ch_metacanc,Charlson,metacanc,earlier or index admission,0.1068,0.1865,TRUE
+hx_ch_aids,Charlson,aids,earlier or index admission,0.006,0.0094,FALSE
+hx_el_chf,Elixhauser,chf,earlier or index admission,0.0943,0.1962,TRUE
+hx_el_carit,Elixhauser,carit,earlier admissions only,0.1631,0.1631,TRUE
+hx_el_valv,Elixhauser,valv,earlier admissions only,0.046,0.046,TRUE
+hx_el_pcd,Elixhauser,pcd,earlier admissions only,0.1374,0.1374,TRUE
+hx_el_pvd,Elixhauser,pvd,earlier or index admission,0.0477,0.08,TRUE
+hx_el_hypunc,Elixhauser,hypunc,earlier or index admission,0.2988,0.5073,TRUE
+hx_el_hypc,Elixhauser,hypc,earlier or index admission,0.0883,0.164,TRUE
+hx_el_para,Elixhauser,para,earlier admissions only,0.0157,0.0157,TRUE
+hx_el_ond,Elixhauser,ond,earlier admissions only,0.0671,0.0671,TRUE
+hx_el_cpd,Elixhauser,cpd,earlier or index admission,0.1577,0.2945,TRUE
+hx_el_diabunc,Elixhauser,diabunc,earlier or index admission,0.1065,0.1802,TRUE
+hx_el_diabc,Elixhauser,diabc,earlier or index admission,0.0591,0.0934,TRUE
+hx_el_hypothy,Elixhauser,hypothy,earlier or index admission,0.07,0.1311,TRUE
+hx_el_rf,Elixhauser,rf,earlier or index admission,0.0894,0.1554,TRUE
+hx_el_ld,Elixhauser,ld,earlier or index admission,0.0531,0.1154,TRUE
+hx_el_pud,Elixhauser,pud,earlier admissions only,0.0131,0.0131,TRUE
+hx_el_aids,Elixhauser,aids,earlier or index admission,0.006,0.0094,FALSE
+hx_el_lymph,Elixhauser,lymph,earlier or index admission,0.0211,0.032,TRUE
+hx_el_metacanc,Elixhauser,metacanc,earlier or index admission,0.1068,0.1865,TRUE
+hx_el_solidtum,Elixhauser,solidtum,earlier or index admission,0.1522,0.2434,TRUE
+hx_el_rheumd,Elixhauser,rheumd,earlier or index admission,0.034,0.0571,TRUE
+hx_el_coag,Elixhauser,coag,earlier admissions only,0.0757,0.0757,TRUE
+hx_el_obes,Elixhauser,obes,earlier or index admission,0.1031,0.1845,TRUE
+hx_el_wloss,Elixhauser,wloss,earlier admissions only,0.0606,0.0606,TRUE
+hx_el_fed,Elixhauser,fed,earlier admissions only,0.2197,0.2197,TRUE
+hx_el_blane,Elixhauser,blane,earlier admissions only,0.014,0.014,TRUE
+hx_el_dane,Elixhauser,dane,earlier or index admission,0.0497,0.0894,TRUE
+hx_el_alcohol,Elixhauser,alcohol,earlier or index admission,0.0397,0.072,TRUE
+hx_el_drug,Elixhauser,drug,earlier or index admission,0.0443,0.0843,TRUE
+hx_el_psycho,Elixhauser,psycho,earlier or index admission,0.0151,0.0246,TRUE
+hx_el_depre,Elixhauser,depre,earlier or index admission,0.1402,0.2474,TRUE

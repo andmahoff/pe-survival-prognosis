@@ -1,0 +1,6 @@
+feature_1,feature_2,label
+hx_ch_metacanc,hx_el_metacanc,"Metastatic cancer (Charlson, Elixhauser)"
+hx_ch_cpd,hx_el_cpd,"Chronic lung disease (Charlson, Elixhauser)"
+hx_ch_chf,hx_el_chf,"Heart failure (Charlson, Elixhauser)"
+hx_ch_pvd,hx_el_pvd,"Peripheral vascular disease (Charlson, Elixhauser)"
+hx_ch_hp,hx_el_para,"Hemiplegia or paralysis (Charlson, Elixhauser)"

@@ -1,0 +1,45 @@
+index,category,type,prev_earlier_only,prev_index_codes,index_minus_earlier
+Charlson,mi,possibly acquired during the stay,0.0457,0.0773,0.0316
+Charlson,chf,chronic history,0.0794,0.1616,0.0822
+Charlson,pvd,chronic history,0.0399,0.0488,0.0089
+Charlson,cevd,possibly acquired during the stay,0.0519,0.0784,0.0265
+Charlson,dementia,chronic history,0.0148,0.0327,0.0179
+Charlson,cpd,chronic history,0.1317,0.2379,0.1062
+Charlson,rheumd,chronic history,0.0217,0.0351,0.0134
+Charlson,pud,chronic history,0.0172,0.0162,-0.001
+Charlson,mld,chronic history,0.0395,0.0684,0.0289
+Charlson,diab,chronic history,0.1038,0.1578,0.054
+Charlson,diabwc,chronic history,0.0385,0.0481,0.0096
+Charlson,hp,chronic history,0.0138,0.0278,0.0141
+Charlson,rend,chronic history,0.0784,0.1296,0.0512
+Charlson,canc,chronic history,0.1526,0.2238,0.0712
+Charlson,msld,chronic history,0.0086,0.0138,0.0052
+Charlson,metacanc,chronic history,0.0866,0.1488,0.0622
+Elixhauser,chf,chronic history,0.0794,0.1616,0.0822
+Elixhauser,carit,possibly acquired during the stay,0.1365,0.2554,0.1189
+Elixhauser,valv,chronic history,0.0375,0.0804,0.043
+Elixhauser,pvd,chronic history,0.0399,0.0488,0.0089
+Elixhauser,hypunc,chronic history,0.2664,0.4015,0.1351
+Elixhauser,hypc,chronic history,0.0756,0.1375,0.0619
+Elixhauser,para,possibly acquired during the stay,0.0138,0.0278,0.0141
+Elixhauser,ond,possibly acquired during the stay,0.0564,0.0993,0.043
+Elixhauser,cpd,chronic history,0.1317,0.2379,0.1062
+Elixhauser,diabunc,chronic history,0.0956,0.1348,0.0392
+Elixhauser,diabc,chronic history,0.0485,0.0626,0.0141
+Elixhauser,hypothy,chronic history,0.0595,0.1176,0.0581
+Elixhauser,rf,chronic history,0.0777,0.1293,0.0516
+Elixhauser,ld,chronic history,0.0409,0.0753,0.0344
+Elixhauser,lymph,chronic history,0.0186,0.0278,0.0093
+Elixhauser,metacanc,chronic history,0.0866,0.1488,0.0622
+Elixhauser,solidtum,chronic history,0.1306,0.186,0.0553
+Elixhauser,rheumd,chronic history,0.0316,0.0461,0.0144
+Elixhauser,coag,possibly acquired during the stay,0.0581,0.1176,0.0595
+Elixhauser,obes,chronic history,0.0877,0.1348,0.0471
+Elixhauser,wloss,possibly acquired during the stay,0.0471,0.0767,0.0296
+Elixhauser,fed,possibly acquired during the stay,0.1836,0.2482,0.0646
+Elixhauser,blane,possibly acquired during the stay,0.0103,0.0127,0.0024
+Elixhauser,dane,chronic history,0.0399,0.0526,0.0127
+Elixhauser,alcohol,chronic history,0.0327,0.0498,0.0172
+Elixhauser,drug,chronic history,0.034,0.056,0.022
+Elixhauser,psycho,chronic history,0.0127,0.0175,0.0048
+Elixhauser,depre,chronic history,0.1176,0.186,0.0684

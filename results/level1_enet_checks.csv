@@ -1,0 +1,25 @@
+item,value,status
+A EHR+ECG: rows / columns / missing cells,21006 / 8 / 0,PASS
+"A EHR+ECG: alpha-0 folds equal stage 6d ridge-Cox (rows, max)","33621, 5.3e-15",PASS
+A EHR+ECG: unchanged CoxBoost folds equal stage 6d (max),0.0e+00,PASS
+A EHR+ECG: scores failing the per-fold rule (D2),0,PASS
+A 3-mod: rows / columns / missing cells,9816 / 12 / 0,PASS
+"A 3-mod: alpha-0 folds equal stage 6d ridge-Cox (rows, max)","17005, 5.3e-15",PASS
+A 3-mod: unchanged CoxBoost folds equal stage 6d (max),0.0e+00,PASS
+A 3-mod: scores failing the per-fold rule (D2),0,PASS
+B EHR+ECG: rows / columns / missing cells,17454 / 14 / 0,PASS
+"B EHR+ECG: alpha-0 folds equal stage 6d ridge-Cox (rows, max)","19782, 5.3e-15",PASS
+B EHR+ECG: unchanged CoxBoost folds equal stage 6d (max),0.0e+00,PASS
+B EHR+ECG: scores failing the per-fold rule (D2),0,PASS
+B 3-mod: rows / columns / missing cells,8430 / 21 / 0,PASS
+"B 3-mod: alpha-0 folds equal stage 6d ridge-Cox (rows, max)","8430, 5.3e-15",PASS
+B 3-mod: unchanged CoxBoost folds equal stage 6d (max),0.0e+00,PASS
+B 3-mod: scores failing the per-fold rule (D2),0,PASS
+EHR elastic net: share of alpha 0 / .25 / .5 / .75 / 1,0.34 / 0.26 / 0.14 / 0.05 / 0.21,INFO
+EHR elastic net: median non-zero coefficients of p,21.5 of 28,INFO
+EHR CoxBoost: folds refitted / median steps / at 500,9 / 402 / 0%,PASS
+ECG elastic net: share of alpha 0 / .25 / .5 / .75 / 1,0.86 / 0.09 / 0.01 / 0.03 / 0.01,INFO
+ECG elastic net: median non-zero coefficients of p,263 of 264,INFO
+ECG CoxBoost: folds refitted / median steps / at 500,13 / 449 / 15%,PASS
+CTPA elastic net: share of alpha 0 / .25 / .5 / .75 / 1,0.33 / 0.42 / 0.10 / 0.07 / 0.08,INFO
+CTPA elastic net: median non-zero coefficients of p,21 of 45,INFO

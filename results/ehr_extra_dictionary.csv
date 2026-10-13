@@ -1,0 +1,83 @@
+column,itemids,label,fluid,category,coverage,status,p25,median,p75
+lab_50802_base_excess,50802,Base Excess,Blood,Blood Gas,0.2967,kept,-2.0,0.0,2.475
+lab_50804_calculated_total_co2,50804,Calculated Total CO2,Blood,Blood Gas,0.2973,kept,22.666666666666668,25.982758620689655,29.0
+lab_50808_free_calcium,50808,Free Calcium,Blood,Blood Gas,0.1817,kept,1.0765196078431372,1.1117026578073088,1.15
+lab_50813_lactate,50813,Lactate,Blood,Blood Gas,0.3562,kept,1.2707264957264957,1.6583333333333332,2.2125
+lab_50818_pco2,50818,pCO2,Blood,Blood Gas,0.2967,kept,35.0,40.24747474747475,46.0
+lab_50820_ph,50820,pH,Blood,Blood Gas,0.3121,kept,7.358510121457489,7.4,7.44
+lab_50821_po2,50821,pO2,Blood,Blood Gas,0.297,kept,64.03333333333333,90.5,123.25
+lab_50825_temperature,50825,Temperature,Blood,Blood Gas,0.1526,kept,36.68452380952381,37.0,37.47569444444444
+lab_50861_alanine_aminotransferase_alt,50861,Alanine Aminotransferase (ALT),Blood,Chemistry,0.4815,kept,15.660256410256409,25.153846153846153,50.0
+lab_50862_albumin,50862,Albumin,Blood,Chemistry,0.3838,kept,2.6,3.0,3.4375
+lab_50863_alkaline_phosphatase,50863,Alkaline Phosphatase,Blood,Chemistry,0.4775,kept,68.0,91.25,135.25
+,50868,Anion Gap,Blood,Chemistry,0.9616,excluded: the ehr28 source itemid,,,
+lab_50878_asparate_aminotransferase_as,50878,Asparate Aminotransferase (AST),Blood,Chemistry,0.4823,kept,19.735714285714288,30.0,51.25
+,50882,Bicarbonate,Blood,Chemistry,0.9616,excluded: the ehr28 source itemid,,,
+lab_50885_bilirubin_total,50885,"Bilirubin, Total",Blood,Chemistry,0.4829,kept,0.30000000000000004,0.5,0.8
+,50893,"Calcium, Total",Blood,Chemistry,0.9092,excluded: the ehr28 source itemid,,,
+,50902,Chloride,Blood,Chemistry,0.9616,excluded: the ehr28 source itemid,,,
+lab_50910_creatine_kinase_ck,50910,Creatine Kinase (CK),Blood,Chemistry,0.338,kept,37.875,72.0,156.25
+lab_50911_creatine_kinase_mb_isoenzyme,50911,"Creatine Kinase, MB Isoenzyme",Blood,Chemistry,0.334,kept,2.0,3.0,5.0
+,50912,Creatinine,Blood,Chemistry,0.9644,excluded: the ehr28 source itemid,,,
+lab_50924_ferritin,50924,Ferritin,Blood,Chemistry,0.1603,kept,126.25,323.0,737.5
+,50931,Glucose,Blood,Chemistry,0.9599,excluded: the ehr28 source itemid,,,
+,50934,H,Blood,Chemistry,0.2819,excluded: flag item,,,
+,50947,I,Blood,Chemistry,0.2819,excluded: flag item,,,
+lab_50952_iron,50952,Iron,Blood,Chemistry,0.1603,kept,19.0,29.0,50.0
+lab_50953_iron_binding_capacity_total,50953,"Iron Binding Capacity, Total",Blood,Chemistry,0.1575,kept,172.0,226.0,287.0
+lab_50954_lactate_dehydrogenase_ld,50954,Lactate Dehydrogenase (LD),Blood,Chemistry,0.3838,kept,218.0,284.0,390.0
+lab_50960_magnesium,50960,Magnesium,Blood,Chemistry,0.9146,kept,1.9,2.0166666666666666,2.15
+lab_50963_ntprobnp,50963,NTproBNP,Blood,Chemistry,0.1848,kept,199.0,872.0,2976.0
+lab_50970_phosphate,50970,Phosphate,Blood,Chemistry,0.9069,kept,3.069230769230769,3.5,3.9404761904761907
+,50971,Potassium,Blood,Chemistry,0.9621,excluded: the ehr28 source itemid,,,
+,50983,Sodium,Blood,Chemistry,0.9618,excluded: the ehr28 source itemid,,,
+lab_50993_thyroid_stimulating_hormone,50993,Thyroid Stimulating Hormone,Blood,Chemistry,0.156,kept,1.1,2.2,3.9
+lab_50998_transferrin,50998,Transferrin,Blood,Chemistry,0.1575,kept,132.0,174.0,221.0
+lab_51003_troponin_t,51003,Troponin T,Blood,Chemistry,0.254,kept,0.03,0.07,0.17208333333333334
+,51006,Urea Nitrogen,Blood,Chemistry,0.9633,excluded: the ehr28 source itemid,,,
+lab_51009_vancomycin,51009,Vancomycin,Blood,Chemistry,0.1757,kept,12.8,17.060000000000002,21.05454545454546
+lab_51082_creatinine_urine,51082,"Creatinine, Urine",Urine,Chemistry,0.1723,kept,51.0,82.33333333333333,130.0
+lab_51133_absolute_lymphocyte_count,51133,Absolute Lymphocyte Count,Blood,Hematology,0.1973,kept,0.88,1.38,1.95
+lab_51143_atypical_lymphocytes,51143,Atypical Lymphocytes,Blood,Hematology,0.1552,kept,0.0,0.0,0.5
+lab_51144_bands,51144,Bands,Blood,Hematology,0.1623,kept,0.0,1.0,3.5
+lab_51146_basophils,51146,Basophils,Blood,Hematology,0.4815,kept,0.13333333333333333,0.3,0.5
+lab_51200_eosinophils,51200,Eosinophils,Blood,Hematology,0.4815,kept,0.35,1.0333333333333332,2.3
+lab_51214_fibrinogen_functional,51214,"Fibrinogen, Functional",Blood,Hematology,0.1703,kept,249.75,358.16666666666663,496.0
+,51221,Hematocrit,Blood,Hematology,0.9698,excluded: the ehr28 source itemid,,,
+,51222,Hemoglobin,Blood,Hematology,0.9684,excluded: the ehr28 source itemid,,,
+lab_51237_inr_pt,51237,INR(PT),Blood,Hematology,0.9274,kept,1.15,1.2999999999999998,1.58
+lab_51244_lymphocytes,51244,Lymphocytes,Blood,Hematology,0.4815,kept,8.212499999999999,13.8,21.5
+,51248,MCH,Blood,Hematology,0.9684,excluded: the ehr28 source itemid,,,
+,51249,MCHC,Blood,Hematology,0.9684,excluded: the ehr28 source itemid,,,
+,51250,MCV,Blood,Hematology,0.9684,excluded: the ehr28 source itemid,,,
+lab_51251_metamyelocytes,51251,Metamyelocytes,Blood,Hematology,0.1555,kept,0.0,0.25,1.0
+lab_51254_monocytes,51254,Monocytes,Blood,Hematology,0.4815,kept,4.155,5.75,8.0
+lab_51255_myelocytes,51255,Myelocytes,Blood,Hematology,0.1552,kept,0.0,0.0,0.8333333333333334
+lab_51256_neutrophils,51256,Neutrophils,Blood,Hematology,0.4815,kept,66.90625,76.0,83.58333333333333
+,51265,Platelet Count,Blood,Hematology,0.9684,excluded: the ehr28 source itemid,,,
+lab_51274_pt,51274,PT,Blood,Hematology,0.9277,kept,12.735,14.3,17.273625
+lab_51275_ptt,51275,PTT,Blood,Hematology,0.9331,kept,40.449999999999996,62.25000000000001,77.74545454545454
+,51277,RDW,Blood,Hematology,0.9684,excluded: the ehr28 source itemid,,,
+,51279,Red Blood Cells,Blood,Hematology,0.9684,excluded: the ehr28 source itemid,,,
+,51301,White Blood Cells,Blood,Hematology,0.9684,excluded: the ehr28 source itemid,,,
+lab_51476_epithelial_cells,51476,Epithelial Cells,Urine,Hematology,0.2958,kept,0.0,0.0,1.0
+lab_51491_ph,51491,pH,Urine,Hematology,0.4345,kept,5.5,6.0,6.5
+lab_51492_protein,51492,Protein,Urine,Hematology,0.2432,kept,30.0,30.0,65.0
+lab_51493_rbc,51493,RBC,Urine,Hematology,0.3013,kept,1.6166666666666667,4.0,15.0
+lab_51498_specific_gravity,51498,Specific Gravity,Urine,Hematology,0.4194,kept,1.0125,1.018,1.024
+lab_51516_wbc,51516,WBC,Urine,Hematology,0.3032,kept,2.0,5.5,18.0
+,51678,L,Blood,Chemistry,0.2819,excluded: flag item,,,
+lab_52069_absolute_basophil_count,52069,Absolute Basophil Count,Blood,Hematology,0.1973,kept,0.015,0.03,0.05
+lab_52073_absolute_eosinophil_count,52073,Absolute Eosinophil Count,Blood,Hematology,0.1973,kept,0.03,0.1,0.2
+lab_52074_absolute_monocyte_count,52074,Absolute Monocyte Count,Blood,Hematology,0.1973,kept,0.5,0.73,1.03
+lab_52075_absolute_neutrophil_count,52075,Absolute Neutrophil Count,Blood,Hematology,0.1973,kept,4.895,7.42,11.03
+lab_52135_immature_granulocytes,52135,Immature Granulocytes,Blood,Hematology,0.1703,kept,0.4,0.6242857142857143,1.1
+lab_52172_rdw_sd,52172,RDW-SD,Blood,Hematology,0.3702,kept,44.146590909090904,48.279166666666676,54.105
+spo2,220277 + ED triage o2sat,"SpO2, averaged as ehr28 vitals",,,0.8144,kept,,97.0,
+nlr,51256/51244,neutrophil % / lymphocyte %,,,0.4809,kept,,5.502149613069648,
+hr_first,triage > ED vitals > ICU 24h,hr at presentation,,,0.7335,kept,,92.0,
+sbp_first,triage > ED vitals > ICU 24h,sbp at presentation,,,0.7323,kept,,129.0,
+spo2_first,triage > ED vitals > ICU 24h,spo2 at presentation,,,0.7332,kept,,98.0,
+sex_f,,female sex,,,1.0,kept,,1.0,
+n_prior,,admissions before the index,,,1.0,kept,,1.0,
+n_codes,,diagnosis codes on prior admissions,,,1.0,kept,,4.0,

@@ -1,0 +1,25 @@
+item,value,status
+forest fits that failed,0,PASS
+A EHR+ECG: missing / risk range,0 / 0.0000 to 0.9604,PASS
+A EHR+ECG: patients whose risk falls with the horizon,0,PASS
+A EHR+ECG: seed-level scores failing the per-fold rule (D2),0,PASS
+A 3-mod: missing / risk range,0 / 0.0000 to 0.7776,PASS
+A 3-mod: patients whose risk falls with the horizon,0,PASS
+A 3-mod: seed-level scores failing the per-fold rule (D2),0,PASS
+B EHR+ECG: missing / risk range,0 / 0.0000 to 0.8742,PASS
+B EHR+ECG: patients whose risk falls with the horizon,0,PASS
+B EHR+ECG: seed-level scores failing the per-fold rule (D2),0,PASS
+B 3-mod: missing / risk range,0 / 0.0000 to 0.8755,PASS
+B 3-mod: patients whose risk falls with the horizon,0,PASS
+B 3-mod: seed-level scores failing the per-fold rule (D2),0,PASS
+"Early RSF: node size 10 / 40, mtry factor 1 / 2 (shares)","0.86 / 0.14, 0.00 / 1.00",INFO
+Block forest EHR+CTPA: weights 0.25 (other modalities),38,INFO
+Block forest EHR+CTPA: weights 0.5 (other modalities),19,INFO
+Block forest EHR+CTPA: weights 1 (other modalities),3,INFO
+Block forest EHR+ECG: weights 0.25 (other modalities),64,INFO
+Block forest EHR+ECG: weights 0.5 (other modalities),34,INFO
+Block forest EHR+ECG: weights 1 (other modalities),22,INFO
+Block forest EHR+ECG+CTPA: weights 0.25/0.25 (other modalities),35,INFO
+Block forest EHR+ECG+CTPA: weights 0.25/1 (other modalities),19,INFO
+Block forest EHR+ECG+CTPA: weights 1/0.25 (other modalities),5,INFO
+Block forest EHR+ECG+CTPA: weights 1/1 (other modalities),1,INFO

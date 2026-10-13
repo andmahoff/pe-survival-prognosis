@@ -1,0 +1,5 @@
+frame,cohort,model,comparison,spearman,forest_top5,spline_top5
+B,EHR+ECG,"RSF, Brier-tuned",importance at the last horizon vs spline term SD,0.685823754789272,"cancer, age, sodium, rdw, heart_failure","cancer, age, sodium, rdw, bun"
+B,EHR+ECG,"oblique RSF, Brier-tuned",importance at the last horizon vs spline term SD,0.625615763546798,"cancer, age, rdw, hgb, sodium","cancer, age, sodium, rdw, bun"
+A,EHR+ECG,"RSF, Brier-tuned",importance at the last horizon vs spline term SD,0.748768472906404,"cancer, wbc, bicarb, bun, sodium","cancer, wbc, age, aniongap, glucose"
+A,EHR+ECG,"oblique RSF, Brier-tuned",importance at the last horizon vs spline term SD,0.511767925561029,"cancer, mcv, wbc, mch, aniongap","cancer, wbc, age, aniongap, glucose"

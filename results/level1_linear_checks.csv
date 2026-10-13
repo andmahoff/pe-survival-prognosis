@@ -1,0 +1,21 @@
+frame,cohort,item,value,status
+A,EHR+ECG,rows (admissions x seeds),21006 = 3501 x 6,PASS
+A,EHR+ECG,prediction columns / missing cells,32 / 0,PASS
+A,EHR+ECG,scores ranking no better than chance,0,PASS
+A,3-mod,rows (admissions x seeds),9816 = 1636 x 6,PASS
+A,3-mod,prediction columns / missing cells,48 / 0,PASS
+A,3-mod,scores ranking no better than chance,2,FAIL
+B,EHR+ECG,rows (admissions x seeds),17454 = 2909 x 6,PASS
+B,EHR+ECG,prediction columns / missing cells,68 / 0,PASS
+B,EHR+ECG,scores ranking no better than chance,0,PASS
+B,3-mod,rows (admissions x seeds),8430 = 1405 x 6,PASS
+B,3-mod,prediction columns / missing cells,102 / 0,PASS
+B,3-mod,scores ranking no better than chance,1,FAIL
+-,-,final fits that failed,0,PASS
+-,-,warnings during fitting,55743,INFO
+-,-,cox ehr: share at grid ends (first/last),0.03 / 0.00,INFO
+-,-,cox ecg: share at grid ends (first/last),0.00 / 0.08,INFO
+-,-,cox ctpa: share at grid ends (first/last),0.00 / 0.17,INFO
+-,-,lr ehr: share at grid ends (first/last),0.05 / 0.04,INFO
+-,-,lr ecg: share at grid ends (first/last),0.01 / 0.14,INFO
+-,-,lr ctpa: share at grid ends (first/last),0.02 / 0.28,INFO

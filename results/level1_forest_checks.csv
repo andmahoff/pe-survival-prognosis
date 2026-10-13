@@ -1,0 +1,26 @@
+frame,cohort,item,value,status
+A,EHR+ECG,rows (admissions x seeds),21006 = 3501 x 6,PASS
+A,EHR+ECG,prediction columns / missing cells,32 / 0,PASS
+A,EHR+ECG,scores failing the per-fold rule (D2),0,PASS
+A,3-mod,rows (admissions x seeds),9816 = 1636 x 6,PASS
+A,3-mod,prediction columns / missing cells,48 / 0,PASS
+A,3-mod,scores failing the per-fold rule (D2),0,PASS
+B,EHR+ECG,rows (admissions x seeds),17454 = 2909 x 6,PASS
+B,EHR+ECG,prediction columns / missing cells,68 / 0,PASS
+B,EHR+ECG,scores failing the per-fold rule (D2),0,PASS
+B,3-mod,rows (admissions x seeds),8430 = 1405 x 6,PASS
+B,3-mod,prediction columns / missing cells,102 / 0,PASS
+B,3-mod,scores failing the per-fold rule (D2),0,PASS
+-,-,fits that failed,0,PASS
+-,-,rsf ehr: node size 5 / 40 share,0.30 / 0.32,INFO
+-,-,rsf ehr: share at the larger mtry,0.10,INFO
+-,-,rsf ecg: node size 5 / 40 share,0.06 / 0.75,WARN
+-,-,rsf ecg: share at the larger mtry,0.09,INFO
+-,-,rsf ctpa: node size 5 / 40 share,0.07 / 0.70,WARN
+-,-,rsf ctpa: share at the larger mtry,0.11,INFO
+-,-,rf ehr: node size 5 / 40 share,0.16 / 0.58,WARN
+-,-,rf ehr: share at the larger mtry,0.15,INFO
+-,-,rf ecg: node size 5 / 40 share,0.12 / 0.63,WARN
+-,-,rf ecg: share at the larger mtry,0.22,INFO
+-,-,rf ctpa: node size 5 / 40 share,0.17 / 0.64,WARN
+-,-,rf ctpa: share at the larger mtry,0.19,INFO

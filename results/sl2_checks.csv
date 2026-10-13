@@ -1,0 +1,17 @@
+item,value,status
+"A EHR+ECG: stage 6a, 6b and 6d files found","oof_linear_A_ehrecg.csv, oof_forest_A_ehrecg.csv, oof_extra_A_ehrecg.csv",PASS
+"A EHR+ECG: seeds and rows aligned (6a, 6b, 6d, folds)","6 seeds, 3501 x 6 rows",PASS
+"A 3-mod: stage 6a, 6b and 6d files found","oof_linear_A_3mod.csv, oof_forest_A_3mod.csv, oof_extra_A_3mod.csv",PASS
+"A 3-mod: seeds and rows aligned (6a, 6b, 6d, folds)","6 seeds, 1636 x 6 rows",PASS
+"B EHR+ECG: stage 6a, 6b and 6d files found","oof_linear_B_ehrecg.csv, oof_forest_B_ehrecg.csv, oof_extra_B_ehrecg.csv",PASS
+"B EHR+ECG: seeds and rows aligned (6a, 6b, 6d, folds)","6 seeds, 2909 x 6 rows",PASS
+"B 3-mod: stage 6a, 6b and 6d files found","oof_linear_B_3mod.csv, oof_forest_B_3mod.csv, oof_extra_B_3mod.csv",PASS
+"B 3-mod: seeds and rows aligned (6a, 6b, 6d, folds)","6 seeds, 1405 x 6 rows",PASS
+A EHR+ECG: missing risks / range,0 / 0.00001 to 1.00000,PASS
+"A EHR+ECG: A14 candidates reproduced (n, max |diff|)","20, 6.7e-16",PASS
+A 3-mod: missing risks / range,0 / 0.00005 to 0.99892,PASS
+"A 3-mod: A14 candidates reproduced (n, max |diff|)","48, 5.6e-16",PASS
+B EHR+ECG: missing risks / range,0 / 0.00002 to 1.00000,PASS
+"B EHR+ECG: A14 candidates reproduced (n, max |diff|)","50, 6.7e-16",PASS
+B 3-mod: missing risks / range,0 / 0.00001 to 0.99999,PASS
+"B 3-mod: A14 candidates reproduced (n, max |diff|)","120, 6.7e-16",PASS

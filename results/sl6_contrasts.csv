@@ -1,0 +1,841 @@
+frame,cohort,set,contrast,horizon,measure,estimate,lo,hi,excludes_zero
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",10,auc,0.00467110203083798,-0.00381807492279474,0.0125849467128431,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",10,ipa,0.0220385880984789,-0.0030671481424968,0.0494018018143933,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",10,ll,0.0206920796715644,0.00154839035525529,0.0416253780377385,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",30,auc,0.011179492269896,0.00457692832368893,0.0176343088087017,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",30,ipa,0.0404359624634711,0.0193343129152719,0.0615780854553646,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",30,ll,0.0350416166495934,0.0193603064754387,0.0503362862801554,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",90,auc,0.00524136333362291,0.00106030377309367,0.00916610014902572,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",90,ipa,0.0238380747665887,0.00831220734685081,0.0392461008845245,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",90,ll,0.0196222511359172,0.00812100978539649,0.0308673602979941,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",180,auc,0.00425041070991639,0.000762294588296827,0.00765816306521748,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",180,ipa,0.0187159218487283,0.0065377436359588,0.0316073152524483,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",180,ll,0.0165478834799078,0.00731192255432305,0.0257517646103215,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",365,auc,0.00182781606279692,-0.00113878869656134,0.00473879783077903,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",365,ipa,0.010266508237105,0.000555892559572815,0.0197841866122088,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",365,ll,0.00960596553007653,0.00150210174559307,0.0173977174693242,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",10,auc,0.00826392163025824,-0.000264473916438052,0.0174131067459643,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",10,ipa,0.024464531537382,0.000174521501480432,0.0510936096935467,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",10,ll,0.0226948236611971,0.00389974983579901,0.0440685816210288,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",30,auc,0.00957060492509787,0.00360954145288735,0.0155549981722791,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",30,ipa,0.0357488663882323,0.0160845967063066,0.0567196486832193,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",30,ll,0.0272077873470386,0.0131821459196654,0.0423073960697382,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",90,auc,0.00611009758781456,0.00200741125950617,0.0101721294649541,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",90,ipa,0.0219160264689432,0.00747457956648794,0.0371126485996457,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",90,ll,0.0173337903823733,0.00704969691996737,0.0277720014680232,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",180,auc,0.00417351183194092,0.000690587152104558,0.00770994816097625,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",180,ipa,0.0158654007381085,0.00387160154747511,0.0283731823166281,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",180,ll,0.0121186919102275,0.00332719369173205,0.0215070092465267,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",365,auc,0.00156992065840844,-0.00144943853588541,0.00454245587857765,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",365,ipa,0.00605646451566644,-0.00341414544930254,0.0153846712009803,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",365,ll,0.00471299250235202,-0.00295490586010959,0.012331993968563,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Late PH",10,auc,0.0271535090016939,0.0130557126490981,0.0421635451487237,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Late PH",10,ipa,0.0592129403536043,0.0223151431881479,0.0958151041363546,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Late PH",10,ll,0.0710185780951209,0.0440866448424254,0.0994434371598829,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Late PH",30,auc,0.0254485445566668,0.0162663080683312,0.0355133368162448,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Late PH",30,ipa,0.0657378766443429,0.0403270711829188,0.0922559237510313,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Late PH",30,ll,0.0679398239570968,0.0469926326742462,0.0892690514720171,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Late PH",90,auc,0.0149010199831153,0.00825702484416175,0.0213100156238005,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Late PH",90,ipa,0.0548054830242171,0.0355248900957659,0.0742406392347912,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Late PH",90,ll,0.0511396723401142,0.0348194062385468,0.0677824525547692,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Late PH",180,auc,0.0140139466601419,0.00846901240695746,0.0199095371741072,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Late PH",180,ipa,0.0498445124797624,0.033339688572927,0.0672757589812022,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Late PH",180,ll,0.0502428137272319,0.0357076000998694,0.0651239865422099,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Late PH",365,auc,0.0117426964867037,0.00687676152840281,0.0167694049502725,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Late PH",365,ipa,0.0454784356591497,0.0310682189780613,0.059956772441969,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, recalibrated - Late PH",365,ll,0.0494008653022561,0.0358520516920408,0.0634114364172898,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v4, recalibrated - Late PH",10,auc,0.0224824069708559,0.0108483619151875,0.0357198413219772,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v4, recalibrated - Late PH",10,ipa,0.0371743522551253,0.00211377004941318,0.0695122455301494,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v4, recalibrated - Late PH",10,ll,0.0503264984235565,0.0268310030662339,0.0736644014491902,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v4, recalibrated - Late PH",30,auc,0.0142690522867708,0.00657516497612494,0.0222779663995755,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v4, recalibrated - Late PH",30,ipa,0.0253019141808718,0.00626788808854926,0.0432934588923054,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v4, recalibrated - Late PH",30,ll,0.0328982073075034,0.0174156410385678,0.0472655520678564,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v4, recalibrated - Late PH",90,auc,0.00965965664949242,0.00452828317750936,0.0146499620666366,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v4, recalibrated - Late PH",90,ipa,0.0309674082576283,0.0159162821665803,0.0463971963060932,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v4, recalibrated - Late PH",90,ll,0.031517421204197,0.0193290225671195,0.0440599316670984,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v4, recalibrated - Late PH",180,auc,0.0097635359502255,0.00501847136667464,0.0143899794752932,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v4, recalibrated - Late PH",180,ipa,0.0311285906310341,0.0174402165960462,0.0449715486319977,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v4, recalibrated - Late PH",180,ll,0.0336949302473242,0.0221949183009442,0.0450838268996977,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v4, recalibrated - Late PH",365,auc,0.00991488042390676,0.00580519873846966,0.0141428514236358,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v4, recalibrated - Late PH",365,ipa,0.0352119274220447,0.0240165043028033,0.0469506729562935,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v4, recalibrated - Late PH",365,ll,0.0397948997721795,0.0288780252906031,0.0512863088185684,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",10,auc,0.0041428746049208,-0.00501763508161491,0.0132643969749258,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",10,ipa,0.0282532158492773,0.00225315202528924,0.0573421187299457,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",10,ll,0.0183356426059096,-0.00305835090130637,0.0403075621572603,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",30,auc,0.0103647087045354,0.00212355166144591,0.0180999284944161,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",30,ipa,0.0389157387635807,0.0120374220517707,0.0664009979907685,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",30,ll,0.0316109005635844,0.0124192979691481,0.0511715974120582,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",90,auc,0.00588066264375886,0.00142548251744084,0.0101704134061302,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",90,ipa,0.0245741620609405,0.00832148811160041,0.0408882846734173,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",90,ll,0.0195595519056619,0.00790094597838712,0.0310082344615452,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",180,auc,0.00443916250131071,0.00104590507703305,0.00779679583744947,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",180,ipa,0.0191803491951993,0.00730200239956631,0.0315566371660041,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",180,ll,0.0168633915527942,0.00793786872226611,0.0260782745540179,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",365,auc,0.00182711143054448,-0.000715406332332289,0.00426744218050711,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",365,ipa,0.0102622028808651,0.00230136499186097,0.0178907617177284,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",365,ll,0.0100391280012437,0.00303131693731317,0.0166307279258671,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",10,auc,-0.00491557092217165,-0.00992399442941707,3.19750338935086e-07,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",10,ipa,0.00878123773432771,-0.00442270450443315,0.0232783213010112,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",10,ll,-0.00479218422108685,-0.0160081050461046,0.00679447191217107,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",30,auc,-0.00106500897502715,-0.00418886173572812,0.00198645492144716,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",30,ipa,-0.00222161678091648,-0.00801798254138741,0.0031905446680863,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",30,ll,-0.00334651130515318,-0.0083958395189433,0.00159637559682675,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",90,auc,0.000543515789802052,-0.000326074396102563,0.00141396352464212,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",90,ipa,0.00208331242680504,-0.000664147435415677,0.00495083914892288,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",90,ll,0.00118813114989769,-0.000844599537232535,0.00329910435839327,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",180,auc,0.000129329931140454,-0.000188847605921466,0.000439315996877276,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",180,ipa,0.000519695077482507,-0.000521153664915319,0.00150336260222887,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",180,ll,0.000404939668305571,-0.00038308643927055,0.00117604706651622,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",365,auc,-4.58010964077271e-05,-0.000527596912017184,0.000443051124085013,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",365,ipa,-0.000292342626732056,-0.001633987456445,0.000969503773292884,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",365,ll,-9.31384225805187e-05,-0.00123358656540222,0.00105611234576294,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",10,auc,-0.00127036513175127,-0.00570754673335807,0.00296024325072759,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",10,ipa,0.0108831902654257,-0.00355188583085282,0.0263638136429821,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",10,ll,-0.00268040028976047,-0.0148002982518731,0.00966459248635466,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",30,auc,-0.00187152062601847,-0.00358189523291196,-0.000118668634778353,TRUE
+B,EHR+ECG,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",30,ipa,-0.00288345087615838,-0.00750865832841801,0.00163287707202517,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",30,ll,-0.00318857288573915,-0.00677805252720397,0.00035894457000198,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",90,auc,0.000788543399958597,-8.45446890334972e-05,0.00164284951797651,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",90,ipa,0.00121637039952704,-0.00103138662361046,0.00368104987492642,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",90,ll,0.000835519523229689,-0.000991134193958876,0.00279066544445698,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",180,auc,0.000151176203292636,-0.000148771432965025,0.000451145930410124,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",180,ipa,0.000420176307206144,-0.000558931934135884,0.00140003189507024,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",180,ll,0.000303797075129508,-0.000444435614547084,0.00105172150214599,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",365,auc,-0.000324130836116598,-0.00074873285943661,7.41133950481944e-05,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",365,ipa,-0.000370331998927886,-0.0014549024325205,0.00062297930013864,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",365,ll,-0.000169613842939897,-0.00110475272457797,0.000690247740165666,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",10,auc,-0.000528227425917183,-0.0039347216404042,0.00271725117114242,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",10,ipa,0.0062146277507984,-0.00551301357757225,0.0187668721496452,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",10,ll,-0.0023564370656548,-0.0113684364270484,0.00669969951506268,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",30,auc,-0.000814783565360577,-0.00283309240726305,0.00108973176229184,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",30,ipa,-0.00152022369989047,-0.00987490438532191,0.00685631766057621,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",30,ll,-0.00343071608600898,-0.00899005961986785,0.00207154791293414,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",90,auc,0.000639299310135955,-0.000472110139382112,0.00178267540491952,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",90,ipa,0.000736087294351817,-0.00223568635553968,0.00372759470441517,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",90,ll,-6.26992302552587e-05,-0.00266094263887425,0.0025961981767866,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",180,auc,0.000188751791394326,-0.000164828288569671,0.000538224434622028,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",180,ipa,0.000464427346471008,-0.000738086125201798,0.00157289503962137,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",180,ll,0.000315508072886384,-0.000550898891765264,0.00119688961473296,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",365,auc,-7.04632252435111e-07,-0.0010550200211556,0.00106653741598316,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",365,ipa,-4.30535623985318e-06,-0.00315458436186198,0.00306502571274321,FALSE
+B,EHR+ECG,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",365,ll,0.000433162471167203,-0.00207036399333273,0.00282871056132183,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",10,auc,0.0200202559938533,-0.00122432937924196,0.0411324357816188,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",10,ipa,0.0386604837526672,0.00327493260610846,0.0748001967191483,TRUE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",10,ll,0.0440875693963391,0.0140907203362244,0.0754587538006758,TRUE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",30,auc,0.0177866838722486,0.00393119931495326,0.0311888203453088,TRUE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",30,ipa,0.062254261662522,0.0299191244407963,0.0956488291463478,TRUE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",30,ll,0.0498874490059655,0.026222358807496,0.0748833006745085,TRUE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",90,auc,0.0102376990570892,0.00119801825447305,0.0183351424965539,TRUE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",90,ipa,0.0493703284447827,0.0253410956761223,0.0739053496028921,TRUE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",90,ll,0.0369952088986237,0.0181587491601163,0.0560029466433847,TRUE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",180,auc,0.00557167324967667,-0.00194131404868819,0.0128283793506114,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",180,ipa,0.0362737769139035,0.0164522893759082,0.0565277965703122,TRUE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",180,ll,0.0265247013627259,0.00874373307799094,0.0438844138524943,TRUE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",365,auc,0.00186586620442786,-0.00509974588306311,0.00855208955715824,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",365,ipa,0.0244619441159603,0.00698345494105997,0.042070036498008,TRUE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",365,ll,0.0175895345424909,-0.000384637157135864,0.0359613154217852,FALSE
+B,EHR+ECG,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,10,auc,0.0108614036006776,-0.00865462948944607,0.0290787097603874,FALSE
+B,EHR+ECG,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,10,ipa,0.0407496728778818,0.00706560149418952,0.076824651088304,TRUE
+B,EHR+ECG,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,10,ll,0.0385962537631952,0.0108577677806504,0.0669452303150062,TRUE
+B,EHR+ECG,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,30,auc,0.0112353276918877,-0.00113867451532702,0.022811349929048,FALSE
+B,EHR+ECG,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,30,ipa,0.0598873957768376,0.0296020318840784,0.0913428362816723,TRUE
+B,EHR+ECG,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,30,ll,0.0441720394606545,0.021967192772226,0.0677780303287388,TRUE
+B,EHR+ECG,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,90,auc,0.00627716186746674,-0.00159278458372472,0.0135531418720492,FALSE
+B,EHR+ECG,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,90,ipa,0.0458821328045368,0.0234420200536451,0.0685562346907138,TRUE
+B,EHR+ECG,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,90,ll,0.032300525902366,0.0148940130240687,0.0496280547099732,TRUE
+B,EHR+ECG,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,180,auc,0.00381523296864628,-0.00286027606623663,0.010438644653363,FALSE
+B,EHR+ECG,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,180,ipa,0.0322095356424812,0.0132547492279364,0.050809660591567,TRUE
+B,EHR+ECG,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,180,ll,0.0224121781688309,0.00543516784401321,0.0386436107805721,TRUE
+B,EHR+ECG,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,365,auc,-8.52605025436493e-05,-0.00655181287681798,0.00609435410724885,FALSE
+B,EHR+ECG,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,365,ipa,0.0204742657539956,0.00409000013826434,0.0372661990518214,TRUE
+B,EHR+ECG,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,365,ll,0.0131488293782677,-0.00520929930134737,0.0309149613734737,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",10,auc,0.0112019138421778,-0.00323338793830358,0.0259017936569158,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",10,ipa,0.0108151792842233,-0.0189549605961643,0.0428742805737002,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",10,ll,0.0172303307271052,-0.00694297824905736,0.0433166025373152,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",30,auc,0.0116840790464137,0.00125737615834864,0.0225862302236365,TRUE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",30,ipa,0.0328467024167186,0.00772545220712801,0.0598921721920369,TRUE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",30,ll,0.0259207690711113,0.00659775306293317,0.0463520571906472,TRUE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",90,auc,0.00614351044374506,-0.000576764918759162,0.0128527211512628,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",90,ipa,0.0223566677038715,0.00330005339588958,0.0433775004494576,TRUE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",90,ll,0.0160051801921328,0.001407002335604,0.0313235051695982,TRUE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",180,auc,0.00220909504002242,-0.00374081841441378,0.00776112324678954,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",180,ipa,0.0152358606153681,-0.00107363830145553,0.0320655355662788,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",180,ll,0.0104359023890379,-0.00289835018941972,0.023621465687295,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",365,auc,-0.000961823024563491,-0.00633987522555528,0.00415685467260777,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",365,ipa,0.00522654245554199,-0.00862195886131322,0.0191043328712071,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",365,ll,0.00211838763135819,-0.0106787865313179,0.0143006934997333,FALSE
+B,EHR+ECG,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,10,auc,0.00752614944034091,-0.00546171717727172,0.0205639298946682,FALSE
+B,EHR+ECG,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,10,ipa,0.0116647080134846,-0.0166384593352971,0.0424471064780992,FALSE
+B,EHR+ECG,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,10,ll,0.0152727414633684,-0.00691005958165792,0.0393810017773965,FALSE
+B,EHR+ECG,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,30,auc,0.00897089113333505,-0.000416565847838035,0.0189883667290997,FALSE
+B,EHR+ECG,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,30,ipa,0.0330137768564326,0.00899168565766313,0.0582098847899865,TRUE
+B,EHR+ECG,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,30,ll,0.0234953545931754,0.00489672805243031,0.0420044069019726,TRUE
+B,EHR+ECG,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,90,auc,0.00495846782007847,-0.00113201605677032,0.0109144999092755,FALSE
+B,EHR+ECG,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,90,ipa,0.0212254003586614,0.00294538408876487,0.0407935758336546,TRUE
+B,EHR+ECG,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,90,ll,0.0141307426947654,0.000133883082588124,0.0286154153127482,TRUE
+B,EHR+ECG,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,180,auc,0.00180013282533475,-0.00349753956156928,0.00694634591819561,FALSE
+B,EHR+ECG,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,180,ipa,0.0132024221798801,-0.00235958816015661,0.0288821667818767,FALSE
+B,EHR+ECG,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,180,ll,0.00901328558685921,-0.00405011784706178,0.0218444970941512,FALSE
+B,EHR+ECG,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,365,auc,-0.00128383996392278,-0.00622942674774186,0.00349218904829847,FALSE
+B,EHR+ECG,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,365,ipa,0.00406383259216414,-0.00912754160861988,0.0172531512358674,FALSE
+B,EHR+ECG,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,365,ll,0.000799881569978789,-0.0121382082861351,0.0128202006369728,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",10,auc,0.0171783051321005,0.00273533597894665,0.0318967220966035,TRUE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",10,ipa,-0.0216079323330867,-0.0603313453405576,0.0166115877276386,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",10,ll,0.00592966763049863,-0.0252895415773612,0.0375831742726134,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",30,auc,0.00767220057737961,-0.00197184908482385,0.0181727854535058,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",30,ipa,0.0159182078715029,-0.0185852053926693,0.0523494171551216,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",30,ll,0.0139603910267052,-0.009469581518899,0.0392205192797653,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",90,auc,-0.00123627566942652,-0.00883318600117872,0.00625556686368321,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",90,ipa,0.00266058536322455,-0.024383116632728,0.0291595354265674,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",90,ll,0.000334800783690192,-0.0188477155296563,0.0197362416796992,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",180,auc,-0.00308556747876543,-0.00951849286942577,0.00357377333492091,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",180,ipa,-0.00834255286496655,-0.0305667342904542,0.0141001935392324,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",180,ll,-0.00651047721305087,-0.0239481307611936,0.0113504571338431,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",365,auc,-0.00442720444200173,-0.0102734760224888,0.00141706855236593,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",365,ipa,-0.012353652628083,-0.0305918016896016,0.00575715841817553,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",365,ll,-0.0114377000858463,-0.0287347357409292,0.00551711312923706,FALSE
+B,EHR+ECG,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",10,auc,0.017357291284684,0.00341943858666115,0.031503704879752,TRUE
+B,EHR+ECG,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",10,ipa,-0.0114112663589127,-0.0486235623681913,0.0251860901415454,FALSE
+B,EHR+ECG,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",10,ll,0.0118748780763777,-0.0171038693339291,0.0412245276520088,FALSE
+B,EHR+ECG,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",30,auc,0.0100731237230232,0.000844096549586693,0.0202159380350573,TRUE
+B,EHR+ECG,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",30,ipa,0.0201736499262326,-0.0119505041119505,0.0539757152589909,FALSE
+B,EHR+ECG,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",30,ll,0.0181532675773913,-0.00420559787714154,0.0421710755499814,FALSE
+B,EHR+ECG,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",90,auc,0.000938901251645641,-0.00647543971002702,0.00806077092397235,FALSE
+B,EHR+ECG,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",90,ipa,0.00642184023685144,-0.0194159600403806,0.0322301553748568,FALSE
+B,EHR+ECG,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",90,ll,0.00371407538285395,-0.0152273673137905,0.022288482666001,FALSE
+B,EHR+ECG,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",180,auc,-0.000574120032157732,-0.00670799696321954,0.00568149957976312,FALSE
+B,EHR+ECG,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",180,ipa,-0.00547293664087933,-0.0271291372214984,0.0169135870623767,FALSE
+B,EHR+ECG,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",180,ll,-0.0039052059364808,-0.0207740761676337,0.0133411243398946,FALSE
+B,EHR+ECG,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",365,auc,-0.00199340464211728,-0.00740389897605896,0.00360171476319511,FALSE
+B,EHR+ECG,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",365,ipa,-0.00804373288825921,-0.0260864376359214,0.0103502775452673,FALSE
+B,EHR+ECG,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",365,ll,-0.00859618850222843,-0.0257335504963842,0.00835806393851593,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",10,auc,0.0134763476347635,-0.00523836218753596,0.0327299373265008,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",10,ipa,0.0350868099012551,-0.000528649970718031,0.0748163704919802,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",10,ll,0.0356443417621906,0.00268625966808632,0.0701490223569952,TRUE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",30,auc,0.0135493957366554,0.001353882020137,0.0255064863202892,TRUE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",30,ipa,0.0575955446041687,0.0247473537328385,0.0930062135953658,TRUE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",30,ll,0.0431849834679898,0.0193862223848188,0.0693988483052266,TRUE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",90,auc,0.00374001234048149,-0.00430791048436055,0.0117431103041516,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",90,ipa,0.0257050524095441,0.00107064963513184,0.0509169461826908,TRUE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",90,ll,0.0197554618701365,0.00217824491628341,0.037904271526565,TRUE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",180,auc,0.000542661400258715,-0.00608469844495895,0.00745491289087848,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",180,ipa,0.0149182767640439,-0.00535151082077725,0.0380205921260474,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",180,ll,0.0116546603207011,-0.004137117136736,0.0287396753715684,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",365,auc,-0.00469073690440958,-0.0107196193447169,0.00138166684149115,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",365,ipa,0.000751869808407024,-0.0171604161024206,0.0188558692177572,FALSE
+B,EHR+ECG,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",365,ll,0.00120091555075097,-0.0137447215386427,0.0166275126219195,FALSE
+B,EHR+ECG,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",10,auc,0.00778808039534118,-0.00894293703200052,0.0250497851512206,FALSE
+B,EHR+ECG,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",10,ipa,0.0335637362572951,-0.00223587908728231,0.073147203014762,FALSE
+B,EHR+ECG,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",10,ll,0.0294701328799091,-0.00174444624096086,0.0619181911044712,FALSE
+B,EHR+ECG,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",30,auc,0.00996972479340896,-0.00119113075262313,0.0203359357520797,FALSE
+B,EHR+ECG,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",30,ipa,0.053783162519193,0.0216886411763103,0.087627411911774,TRUE
+B,EHR+ECG,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",30,ll,0.0376346287907414,0.0143618357891081,0.0617903189744366,TRUE
+B,EHR+ECG,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",90,auc,0.00247589262444625,-0.00485215230082782,0.00992721964275721,FALSE
+B,EHR+ECG,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",90,ipa,0.0227439988487342,-0.00047593526128735,0.0469142686655953,FALSE
+B,EHR+ECG,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",90,ll,0.0163699248083247,-0.00031496771538406,0.0336160791079592,FALSE
+B,EHR+ECG,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",180,auc,0.000442168548358879,-0.00610631532873097,0.00703540244769469,FALSE
+B,EHR+ECG,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",180,ipa,0.0110691527109389,-0.00869633506862024,0.0330111895131781,FALSE
+B,EHR+ECG,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",180,ll,0.00913281543233957,-0.00628175515788051,0.0252862726771767,FALSE
+B,EHR+ECG,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",365,auc,-0.00467382573035136,-0.0101862062536488,0.000918288261014875,FALSE
+B,EHR+ECG,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",365,ipa,-0.00313675761450127,-0.0201883184933564,0.0142182442122288,FALSE
+B,EHR+ECG,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",365,ll,-0.00124360513206012,-0.0164954412457741,0.0139082394602203,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",10,auc,0.00238613964104162,-0.0151279321676909,0.0171625825301293,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",10,ipa,0.0223630032241375,-0.00311552145522035,0.051535784949578,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",10,ll,0.0236956895480299,-0.0083693502359035,0.0547613586039189,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",30,auc,0.00108826393264228,-0.00574732457325927,0.00760918434827279,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",30,ipa,0.0155027172090805,-0.00383918463800864,0.0348303016347604,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",30,ll,0.0143969592720152,-0.000866561861701201,0.0291029969431505,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",90,auc,0.00319514300728174,-0.0013576591469906,0.00751496416248636,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",90,ipa,0.0156032446061259,-0.000339445769068272,0.0309707519706215,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",90,ll,0.0158088316773571,0.00362772481144381,0.0278109499044749,TRUE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",180,auc,0.00228557274426344,-0.00142297899305208,0.00587037138812393,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",180,ipa,0.00933389123377815,-0.00396230242720324,0.0221253335753648,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",180,ll,0.0114446767974381,0.00107917594278037,0.0215737963017856,TRUE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",365,auc,-0.000412312766926326,-0.00373600642554115,0.00280738807866705,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",365,ipa,0.00221625709695161,-0.00836308110922497,0.0124066904900721,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v4, recalibrated",365,ll,0.00566607443530298,-0.003260841117887,0.0151403873483484,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",10,auc,0.00601722170349628,-0.00261166912965323,0.0153130124617924,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",10,ipa,0.0145317635864934,-0.00650145850863677,0.0373076617899877,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",10,ll,0.0158415353555172,-0.00198414166215002,0.0351635750440681,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",30,auc,0.00401893961089794,-0.00184252404582088,0.0100788724992563,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",30,ipa,0.00411422730730293,-0.0122278359947059,0.0196123946768155,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",30,ll,0.00678389378961763,-0.00518854397295303,0.0189001131295914,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",90,auc,0.00478567675099473,0.000531614387787563,0.00875030433506554,TRUE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",90,ipa,0.0119359674783207,-0.0022924567316703,0.0251887666114434,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",90,ll,0.011352078968048,0.00113072369215777,0.0214863106409308,TRUE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",180,auc,0.00323507997628103,-0.000498686236286641,0.0068769297225772,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",180,ipa,0.0066082966541231,-0.00488450728684628,0.0185214599734325,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",180,ll,0.00683496339372169,-0.00234075436578181,0.0158986899687221,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",365,auc,0.000664623564597733,-0.00250121125668952,0.0036874871470546,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",365,ipa,-7.59922623503329e-05,-0.00936838283605267,0.00923812818525555,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Super learner v5, recalibrated",365,ll,0.00100226420741667,-0.00706478125607454,0.00905177841099291,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Late PH",10,auc,0.0129940865234983,-0.00411597233295942,0.0308126162453755,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Late PH",10,ipa,0.00622908932393262,-0.0440430981108401,0.0477778000737785,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Late PH",10,ll,0.034962203081088,-0.00584801888476206,0.0745752559027202,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Late PH",30,auc,0.00914523550413349,-0.00206724523660897,0.0216275988978608,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Late PH",30,ipa,0.017360116957701,-0.0116799995703112,0.0463176091254867,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Late PH",30,ll,0.0281617325100552,0.00370753397683378,0.0527514707322594,TRUE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Late PH",90,auc,0.0108616094887771,0.00317572311755868,0.0189411739335292,TRUE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Late PH",90,ipa,0.0252282371521385,0.00243787627969858,0.0470957585906244,TRUE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Late PH",90,ll,0.032893017357421,0.0147680957761197,0.0503510959110718,TRUE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Late PH",180,auc,0.0106059582517056,0.00352820524140373,0.0180922742757909,TRUE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Late PH",180,ipa,0.0274968415621223,0.00701395529661605,0.0476254716849878,TRUE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Late PH",180,ll,0.0356331019513592,0.0189055678748644,0.0534233188337231,TRUE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Late PH",365,auc,0.00975704316360826,0.0032028525059313,0.0165415757629365,TRUE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Late PH",365,ipa,0.031360134637233,0.0145594962627303,0.0499074300452411,TRUE
+B,3-mod,EHR+ECG,"Super learner v6, recalibrated - Late PH",365,ll,0.0424377869517253,0.0255871084512246,0.0607150835208907,TRUE
+B,3-mod,EHR+ECG,"Super learner v4, recalibrated - Late PH",10,auc,0.0106079468824567,-0.00633616527750868,0.0296982688698375,FALSE
+B,3-mod,EHR+ECG,"Super learner v4, recalibrated - Late PH",10,ipa,-0.0161339139002049,-0.0654060744284839,0.0196129403085646,FALSE
+B,3-mod,EHR+ECG,"Super learner v4, recalibrated - Late PH",10,ll,0.0112665135330581,-0.0231082465680015,0.0430207017348243,FALSE
+B,3-mod,EHR+ECG,"Super learner v4, recalibrated - Late PH",30,auc,0.00805697157149121,-0.00254778457632477,0.019381234101665,FALSE
+B,3-mod,EHR+ECG,"Super learner v4, recalibrated - Late PH",30,ipa,0.00185739974862054,-0.0229163080490327,0.0241529633625609,FALSE
+B,3-mod,EHR+ECG,"Super learner v4, recalibrated - Late PH",30,ll,0.0137647732380399,-0.00580195571211923,0.0333092042999926,FALSE
+B,3-mod,EHR+ECG,"Super learner v4, recalibrated - Late PH",90,auc,0.00766646648149538,0.00162734628860655,0.0139265094502212,TRUE
+B,3-mod,EHR+ECG,"Super learner v4, recalibrated - Late PH",90,ipa,0.00962499254601257,-0.00862977756031614,0.0278189458188891,FALSE
+B,3-mod,EHR+ECG,"Super learner v4, recalibrated - Late PH",90,ll,0.0170841856800639,0.00351906880378663,0.0308692068845106,TRUE
+B,3-mod,EHR+ECG,"Super learner v4, recalibrated - Late PH",180,auc,0.00832038550744219,0.00246106985787767,0.0146933319670154,TRUE
+B,3-mod,EHR+ECG,"Super learner v4, recalibrated - Late PH",180,ipa,0.0181629503283441,0.00207242906216854,0.0350570212992952,TRUE
+B,3-mod,EHR+ECG,"Super learner v4, recalibrated - Late PH",180,ll,0.0241884251539211,0.0110016900950623,0.0375791730900486,TRUE
+B,3-mod,EHR+ECG,"Super learner v4, recalibrated - Late PH",365,auc,0.0101693559305346,0.00444435423008261,0.01593063025347,TRUE
+B,3-mod,EHR+ECG,"Super learner v4, recalibrated - Late PH",365,ipa,0.0291438775402814,0.0156215607533469,0.043269061597356,TRUE
+B,3-mod,EHR+ECG,"Super learner v4, recalibrated - Late PH",365,ll,0.0367717125164223,0.0238452908036707,0.0503756006817375,TRUE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",10,auc,0.0028529930490715,-0.01774401333656,0.021553251715463,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",10,ipa,0.0117075566395869,-0.0234938060360588,0.0455225166563001,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",10,ll,0.0173441308516217,-0.0201912226378381,0.0551591172949529,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",30,auc,-0.00268247513221453,-0.0116980555470815,0.00563209661729493,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",30,ipa,0.00447085435620265,-0.0188091012607709,0.0267300065679494,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",30,ll,0.00557772581684612,-0.0136012444601322,0.0235798747017188,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",90,auc,0.00403498235868183,-0.00129917357789409,0.00914812223240846,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",90,ipa,0.015306880666189,-0.00452838089314996,0.0340772137634997,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",90,ll,0.0152484653737733,0.00131837763355397,0.0290986213195896,TRUE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",180,auc,0.00212794703776253,-0.00168886368753506,0.00578244487932817,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",180,ipa,0.00850001651007915,-0.00522126254965626,0.0217750565511483,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",180,ll,0.010588219741999,-0.000127630132986287,0.0211989535611904,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",365,auc,-0.000643084837967267,-0.00327692298373181,0.00200510358143839,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",365,ipa,0.00191330262360923,-0.00591383505412449,0.00981258333456961,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",365,ll,0.00531059200996442,-0.00191224556416469,0.0130890691099938,FALSE
+B,3-mod,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",10,auc,-0.0068990559186638,-0.0178713300935596,0.00201330485964032,FALSE
+B,3-mod,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",10,ipa,-0.00526965653066946,-0.0260954913717226,0.0167618733839836,FALSE
+B,3-mod,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",10,ll,-0.0137482666690518,-0.0325384290934029,0.00618383044938301,FALSE
+B,3-mod,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",30,auc,-0.00182331939591807,-0.00564193091624438,0.00212022401361229,FALSE
+B,3-mod,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",30,ipa,-0.0110596541151836,-0.0197503020598948,-0.0031981869324481,TRUE
+B,3-mod,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",30,ll,-0.00958205559784442,-0.0163450169047511,-0.00304787147922029,TRUE
+B,3-mod,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",90,auc,0.000258051197357556,-0.000930200549029564,0.00147812851536032,FALSE
+B,3-mod,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",90,ipa,0.000657358050408785,-0.00315957219772803,0.0045384248049687,FALSE
+B,3-mod,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",90,ll,6.15845135659709e-05,-0.00279066086431757,0.00295863959168714,FALSE
+B,3-mod,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",180,auc,0.00010133081132202,-0.000660823090864451,0.000873389681867675,FALSE
+B,3-mod,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",180,ipa,0.000722794434165563,-0.00111917773348653,0.00268591230731487,FALSE
+B,3-mod,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",180,ll,0.000752483313041674,-0.000834763642697905,0.00245376833324388,FALSE
+B,3-mod,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",365,auc,-0.000301542172826741,-0.00122292913986812,0.000659290950454752,FALSE
+B,3-mod,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",365,ipa,0.000458246569886356,-0.00211853219685234,0.00325939814118868,FALSE
+B,3-mod,EHR+ECG,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",365,ll,0.000799262265892886,-0.00145506776980779,0.00339244734410092,FALSE
+B,3-mod,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",10,auc,-0.0043832347753916,-0.0109762044198051,0.00154292449697853,FALSE
+B,3-mod,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",10,ipa,-0.00590256231250286,-0.0247661718769793,0.0134312983543897,FALSE
+B,3-mod,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",10,ll,-0.0120177845410322,-0.0269164975749426,0.00383895948472326,FALSE
+B,3-mod,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",30,auc,-0.00472535654963058,-0.00829464126200257,-0.00130267653758543,TRUE
+B,3-mod,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",30,ipa,-0.00645297041831328,-0.0144503763584847,0.00106198394395338,FALSE
+B,3-mod,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",30,ll,-0.00733507115050591,-0.0143697513324832,-0.0006309084465298,TRUE
+B,3-mod,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",90,auc,2.81510397117657e-05,-0.00109353314017847,0.00115741751044773,FALSE
+B,3-mod,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",90,ipa,-0.00145654460386513,-0.00470244736829683,0.00202686542703209,FALSE
+B,3-mod,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",90,ll,-0.00135034935510814,-0.00381528885204913,0.00125781243441556,FALSE
+B,3-mod,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",180,auc,0.000157625706500908,-0.000551503653692972,0.000930752918678662,FALSE
+B,3-mod,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",180,ipa,-0.000156350896784119,-0.00191059841322825,0.00162447643937806,FALSE
+B,3-mod,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",180,ll,-0.000287897097305812,-0.00182834657445564,0.00120776127405175,FALSE
+B,3-mod,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",365,auc,-0.000110770594099696,-0.000767713934294809,0.000505032330628243,FALSE
+B,3-mod,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",365,ipa,-0.000498583759706905,-0.00220236341418283,0.0012296983221867,FALSE
+B,3-mod,EHR+ECG,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",365,ll,-0.000728477979007214,-0.00222265411239552,0.000749895467764195,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",10,auc,0.000466853408029877,-0.0080861405352571,0.00982309178831697,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",10,ipa,-0.0106554465845506,-0.0315730302329488,0.0068510563735828,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",10,ll,-0.00635155869640824,-0.0245730304570639,0.0116742428497216,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",30,auc,-0.00377073906485681,-0.00788943889961707,-0.000127486057182847,TRUE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",30,ipa,-0.0110318628528778,-0.0205483725159241,-0.00294861102835316,TRUE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",30,ll,-0.00881923345516911,-0.0163880889764848,-0.00186924480827243,TRUE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",90,auc,0.000839839351400085,-0.00125137926504841,0.00294563133796178,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",90,ipa,-0.000296363939936928,-0.0064652194657887,0.00561771153414652,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",90,ll,-0.000560366303583804,-0.00547380340218093,0.0043578129545892,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",180,auc,-0.000157625706500908,-0.00092928672266856,0.000624026458920484,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",180,ipa,-0.000833874723699002,-0.00297703733539334,0.00128464035995765,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",180,ll,-0.00085645705543913,-0.00255465629084468,0.000760894731500782,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",365,auc,-0.000230772071040941,-0.00141941687134441,0.00103692774167622,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",365,ipa,-0.000302954473342387,-0.00410343305923488,0.00375221969604827,FALSE
+B,3-mod,EHR+ECG,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",365,ll,-0.00035548242533856,-0.00349826395847228,0.00300581757121627,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",10,auc,0.00549849569457406,-0.0302639047067805,0.0351359528853575,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",10,ipa,0.013312405084409,-0.0302790114940838,0.0521191887589958,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",10,ll,0.0190420235220857,-0.0307045167807218,0.0649541828020764,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",30,auc,0.00375164671516115,-0.0148679089443727,0.0215847273376578,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",30,ipa,0.0116546856558475,-0.0275897161971466,0.0527501911029699,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",30,ll,0.00839004254794362,-0.0233514733553742,0.0393745294423374,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",90,auc,0.00736149688461829,-0.00368302482091709,0.0176798796209221,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",90,ipa,0.0204468773196076,-0.013177727208581,0.0541768590509152,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",90,ll,0.0126643304336758,-0.0127218284120711,0.0372473219176297,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",180,auc,0.00128727660309103,-0.00831661357240466,0.0110947374007998,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",180,ipa,0.00716155271229102,-0.0209332083983216,0.0363866864518786,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",180,ll,-0.00124968548689897,-0.0251005126608769,0.0233162127531032,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",365,auc,-0.00480313603859739,-0.0143830221503249,0.00454651040952461,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",365,ipa,0.00154273289635121,-0.0224604660889312,0.0260047478585231,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, ridge-Cox retuned (EHR 79) - SL candidate: EHR alone, ridge-Cox retuned",365,ll,-0.00790203652518395,-0.0327374696690016,0.0184405268390479,FALSE
+B,3-mod,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,10,auc,0.00409793547048454,-0.0274167646766681,0.0309977760428327,FALSE
+B,3-mod,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,10,ipa,0.0136817961816649,-0.0275410756538271,0.05329270201116,FALSE
+B,3-mod,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,10,ll,0.0158804433201211,-0.0308684872298133,0.0593326439518616,FALSE
+B,3-mod,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,30,auc,0.00108826393264216,-0.0150816845411775,0.0169486655528075,FALSE
+B,3-mod,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,30,ipa,0.00935346377412449,-0.0290276131197195,0.0509192327529001,FALSE
+B,3-mod,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,30,ll,0.00563545485049166,-0.024418669204728,0.0351840453666979,FALSE
+B,3-mod,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,90,auc,0.00514225658734324,-0.00475160611431106,0.0145579703226811,FALSE
+B,3-mod,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,90,ipa,0.016538452639531,-0.0152985296760942,0.048122754620417,FALSE
+B,3-mod,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,90,ll,0.00997472074833172,-0.0144630234211169,0.0341091348046016,FALSE
+B,3-mod,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,180,auc,-0.000435347189383539,-0.00894431915137373,0.00851838286090321,FALSE
+B,3-mod,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,180,ipa,0.00315358295610935,-0.0230248679772517,0.0303395736980474,FALSE
+B,3-mod,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,180,ll,-0.00283236997692771,-0.0264584646578801,0.0207140408597787,FALSE
+B,3-mod,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,365,auc,-0.00585545668254384,-0.014569053465232,0.00277523224130026,FALSE
+B,3-mod,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,365,ipa,-0.00301468278328965,-0.0253279933579182,0.0203009015494861,FALSE
+B,3-mod,EHR+ECG,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,365,ll,-0.00920157259889642,-0.0339324187243878,0.0170607488041765,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",10,auc,0.00941487706193589,-0.0112878296916371,0.0299985172384738,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",10,ipa,0.00631107173492929,-0.0356033638826286,0.0470949052757905,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",10,ll,0.0103868527376741,-0.0290425868175058,0.0476800203653776,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",30,auc,-0.00636729862344154,-0.0251902728408079,0.0103125921076479,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",30,ipa,0.000581461180482523,-0.0379355404757521,0.039281417869053,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",30,ll,-0.0102982209133743,-0.0398896567312941,0.0199116244549787,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",90,auc,-0.00231776893626601,-0.0138522970852953,0.00827432791774655,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",90,ipa,0.00735730430445425,-0.0276493487505415,0.0420468472187234,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",90,ll,-0.00257099409900241,-0.0284403985695111,0.0215572089260584,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",180,auc,-0.00701434393929157,-0.0164296414041974,0.00243674022997298,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",180,ipa,-0.0136237152152124,-0.0415010290488118,0.0143562611188504,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",180,ll,-0.0161624445527179,-0.0400181951799008,0.00684351797090865,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",365,auc,-0.0089324176297555,-0.0178319852714967,-0.000279296036867932,TRUE
+B,3-mod,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",365,ipa,-0.0288244465734648,-0.0535610243255023,-0.00557077956181495,TRUE
+B,3-mod,EHR,"SL candidate: EHR alone, spline Cox (EHR 79) - SL candidate: EHR alone, spline Cox",365,ll,-0.0256011003794187,-0.0487787672913388,-0.00372962544790548,TRUE
+B,3-mod,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,10,auc,0.0106857557837949,-0.00886999494583259,0.0309749064653758,FALSE
+B,3-mod,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,10,ipa,0.00780874496312634,-0.0323213098234023,0.0460036257013143,FALSE
+B,3-mod,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,10,ll,0.0116201475056086,-0.0262646296471821,0.0472647178583796,FALSE
+B,3-mod,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,30,auc,-0.00545086583805865,-0.0217029570493901,0.00978377093976472,FALSE
+B,3-mod,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,30,ipa,0.00431530171318573,-0.0340212833734226,0.0428794666704924,FALSE
+B,3-mod,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,30,ll,-0.00757677211324259,-0.0355430057023548,0.0210691605178155,FALSE
+B,3-mod,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,90,auc,-0.00286671421064488,-0.013463241930906,0.00699078168907823,FALSE
+B,3-mod,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,90,ipa,0.00680512808925426,-0.025503408775071,0.0395991880044665,FALSE
+B,3-mod,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,90,ll,-0.00282268998729818,-0.027611103543028,0.0209201611977653,FALSE
+B,3-mod,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,180,auc,-0.00839919836069269,-0.0171011180715322,0.00054258280333474,FALSE
+B,3-mod,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,180,ipa,-0.0131328060751401,-0.0394806182510312,0.0132174691523128,FALSE
+B,3-mod,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,180,ll,-0.0166493097638151,-0.0395642798689599,0.00592669524999367,FALSE
+B,3-mod,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,365,auc,-0.00973242747603043,-0.0178293078246576,-0.00186270059273083,TRUE
+B,3-mod,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,365,ipa,-0.0265115411573948,-0.0500653166479123,-0.00447673527607777,TRUE
+B,3-mod,EHR+ECG,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,365,ll,-0.0249120863017077,-0.0478829018837534,-0.00305227094540544,TRUE
+B,3-mod,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",10,auc,0.0280630770826849,0.00198495030511529,0.0555308100030599,TRUE
+B,3-mod,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",10,ipa,0.0152685279566236,-0.0166286596862079,0.0467764110249279,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",10,ll,0.0397701317245385,0.000446946017109442,0.0827803232642635,TRUE
+B,3-mod,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",30,auc,0.0116940641884797,-0.0032089220645096,0.0269397565867264,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",30,ipa,0.00707766491546735,-0.0300050265751923,0.0438701177995726,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",30,ll,0.0109454282325501,-0.0166573412933836,0.0391563282012259,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",90,auc,0.0088488101493881,-0.00180128532199074,0.0196133191086186,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",90,ipa,0.0226557237521765,-0.0117868041786382,0.0587819873077606,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",90,ll,0.0173552022116017,-0.0070718057800598,0.0420526751498657,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",180,auc,0.00224804281414426,-0.0073303739960159,0.0119682040219583,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",180,ipa,-0.000944266169907393,-0.0313933628309278,0.0314428617443779,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",180,ll,0.00220340539357811,-0.020914612878512,0.0263581277975126,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",365,auc,-0.00395081785621976,-0.0121474135819839,0.00424644089429551,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",365,ipa,-0.0152788343672143,-0.0406443371439649,0.0104163781360986,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, RSF, Brier-tuned",365,ll,-0.010841638188048,-0.0319211352977568,0.0115011600860508,FALSE
+B,3-mod,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",10,auc,0.025080402531383,0.00100490688106029,0.050178634650485,TRUE
+B,3-mod,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",10,ipa,0.0131686796697059,-0.0211980365492356,0.0453604790015354,FALSE
+B,3-mod,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",10,ll,0.0353926750390184,-0.00251458471916027,0.0759697420275455,FALSE
+B,3-mod,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",30,auc,0.00926933577715416,-0.0045509315315163,0.0232832479560778,FALSE
+B,3-mod,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",30,ipa,0.00728391698508046,-0.0300659568438265,0.0440673391976122,FALSE
+B,3-mod,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",30,ll,0.00884385639167007,-0.0179354011259649,0.0365134627652199,FALSE
+B,3-mod,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",90,auc,0.00810749943697919,-0.00174312071764499,0.0180985881465697,FALSE
+B,3-mod,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",90,ipa,0.0207332471536411,-0.0121936185972145,0.0565302596234164,FALSE
+B,3-mod,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",90,ll,0.0149523037714416,-0.00921736889959427,0.0400903060423616,FALSE
+B,3-mod,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",180,auc,0.00346401255000861,-0.00514196167808249,0.012803337713233,FALSE
+B,3-mod,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",180,ipa,-0.00263658253529331,-0.032066352747014,0.0288730269417524,FALSE
+B,3-mod,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",180,ll,0.000460645387714509,-0.0231423688150332,0.0257315962190662,FALSE
+B,3-mod,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",365,auc,-0.00271080259449341,-0.0101009202781469,0.00504313060406853,FALSE
+B,3-mod,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",365,ipa,-0.0171286207514328,-0.0413066860282621,0.0071335751740098,FALSE
+B,3-mod,EHR+ECG,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",365,ll,-0.0118961884207244,-0.0338456997640914,0.0110897957544146,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",10,auc,0.0144465193484802,-0.0123781412380688,0.0394321283065177,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",10,ipa,0.0444213752973978,-0.00275205942436978,0.0983219844115266,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",10,ll,0.0475486591409412,-0.00166272392361211,0.0978141386659817,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",30,auc,0.0033602535464039,-0.0139094261764956,0.0197564152248023,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",30,ipa,0.00830740849348988,-0.0384658614366578,0.0554810175713713,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",30,ll,0.00858797519302668,-0.0250942690860852,0.0427267545738121,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",90,auc,0.005695893701674,-0.0061768619284915,0.0170492898001424,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",90,ipa,0.0114523575247562,-0.0232336697378264,0.0478004940643481,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",90,ll,0.00994868063744259,-0.015399555046367,0.0358989784771232,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",180,auc,0.000893212336838589,-0.00920336236455667,0.0107107551932276,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",180,ipa,-0.000495832290917875,-0.0306768314262531,0.0294513325338391,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",180,ll,-8.31500739442159e-05,-0.0232891454106353,0.0238965020213976,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",365,auc,-0.0060708439488486,-0.015491325793231,0.00317300882668974,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",365,ipa,-0.0118532082484887,-0.0374542288278824,0.0151507316274902,FALSE
+B,3-mod,EHR,"SL candidate: EHR alone, oblique RSF, Brier-tuned (EHR 79) - SL candidate: EHR alone, oblique RSF, Brier-tuned",365,ll,-0.0104865195164183,-0.0324860459176253,0.0130677671571779,FALSE
+B,3-mod,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",10,auc,0.0125012968150223,-0.0129015880873784,0.0364913291900561,FALSE
+B,3-mod,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",10,ipa,0.0469214048170579,-0.00101419751926956,0.100970193647513,FALSE
+B,3-mod,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",10,ll,0.0454811909095072,-0.00168097254788451,0.0937873027257132,FALSE
+B,3-mod,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",30,auc,0.00198560436832951,-0.0133313354162283,0.0169941014188713,FALSE
+B,3-mod,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",30,ipa,0.00657403897808762,-0.0381512633439528,0.0513051515626595,FALSE
+B,3-mod,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",30,ll,0.00654246283617788,-0.0256461374728263,0.0386831121451041,FALSE
+B,3-mod,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",90,auc,0.00466368891224378,-0.00616707921870579,0.014976554885277,FALSE
+B,3-mod,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",90,ipa,0.00815597352786912,-0.0260206529372714,0.0429781914986622,FALSE
+B,3-mod,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",90,ll,0.00791383861047501,-0.0164021844059805,0.0331664217252224,FALSE
+B,3-mod,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",180,auc,3.3776937107266e-05,-0.00911530967887394,0.00892575414894806,FALSE
+B,3-mod,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",180,ipa,-0.00373370166766029,-0.0324798073573885,0.0246263692383718,FALSE
+B,3-mod,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",180,ll,-0.00167908425360541,-0.0241364272400334,0.0216706701555475,FALSE
+B,3-mod,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",365,auc,-0.0066339278021883,-0.015381016825395,0.0020180472823744,FALSE
+B,3-mod,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",365,ipa,-0.0160421944175611,-0.0405291461783689,0.00875749018825063,FALSE
+B,3-mod,EHR+ECG,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",365,ll,-0.0122070932667572,-0.0340507065614799,0.0112329525772018,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",10,auc,0.00313829235397867,-0.0119919284149014,0.0146235330296432,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",10,ipa,0.0232920322890381,-0.00211247742835739,0.0496739144697307,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",10,ll,0.0221282448770258,-0.00552309888201794,0.0480666192044036,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",30,auc,0.0046871718502397,-0.00166953510868309,0.0110415264988025,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",30,ipa,0.0144103377490525,-0.0032346306302919,0.0322026481545411,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",30,ll,0.0141216070887146,0.000364416841917234,0.0269310166311112,TRUE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",90,auc,0.00554575482321151,0.000365895562237997,0.0106502688647724,TRUE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",90,ipa,0.0170951282238573,0.000466958545181134,0.0324090207677324,TRUE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",90,ll,0.0171969484880765,0.00496193103239071,0.0291963323339863,TRUE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",180,auc,0.0030737012767682,-0.000882185000916563,0.00695358350452828,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",180,ipa,0.00945099028281793,-0.00430135376098691,0.0229603021316369,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",180,ll,0.010373706901307,-0.000136208955564676,0.0212430879229772,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",365,auc,0.000120001476941245,-0.00321963096311085,0.00355010448629866,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",365,ipa,0.001934722687992,-0.00880853215355065,0.0124834232626705,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",365,ll,0.00453151999511403,-0.00456678702609922,0.0136166098828421,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",10,auc,0.00555036829546629,-0.00238645156531084,0.0137729707343399,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",10,ipa,0.020442695613439,-0.00424513865588961,0.0454678663481066,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",10,ll,0.0181932556830859,-0.00105492476650383,0.0393196413138026,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",30,auc,0.00361800026729298,-0.00228916253871623,0.00962537783676492,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",30,ipa,0.0098446457912732,-0.00695066447484672,0.0261026083619769,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",30,ll,0.00891490076666357,-0.0035511347362245,0.0214434113867781,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",90,auc,0.00560205690263504,0.000761551726769097,0.00991341544649424,TRUE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",90,ipa,0.0163648316746232,0.00103089441958857,0.0312884326088331,TRUE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",90,ll,0.0134675201342138,0.00214310357879497,0.0244227398387237,TRUE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",180,auc,0.00304367733267275,-0.00103205715568424,0.00697089912698294,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",180,ipa,0.00805096525129945,-0.0049867259893903,0.0210645252578386,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",180,ll,0.00676336131450717,-0.00327664649200593,0.0170923065309888,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",365,auc,-6.15392189440289e-06,-0.00359387458138769,0.00349037370490719,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",365,ipa,0.00128484933756945,-0.00938540237604702,0.011918311164739,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",365,ll,0.000441496395147789,-0.00856069307272555,0.00966617301274747,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Late PH",10,auc,0.00762527233115473,-0.00947968304232454,0.0248255410029256,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Late PH",10,ipa,0.0263616243162537,-0.0264254352864548,0.0696839035067107,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Late PH",10,ll,0.0362201673877447,-0.00989859722030851,0.0794003563666556,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Late PH",30,auc,0.00536495026442907,-0.00590565279091981,0.0169535763331025,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Late PH",30,ipa,0.0169762733377692,-0.0102214459554879,0.0426238172572393,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Late PH",30,ll,0.0189505937888848,-0.00354298772340364,0.0414645176896944,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Late PH",90,auc,0.0114433976428197,0.00370986896330728,0.0194405098717869,TRUE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Late PH",90,ipa,0.0264658720831312,0.00425840104394648,0.048593176792415,TRUE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Late PH",90,ll,0.0320766572545974,0.0142214507605806,0.0493491772479528,TRUE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Late PH",180,auc,0.010129328139191,0.00331033342035192,0.017330007337742,TRUE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Late PH",180,ipa,0.026059258694529,0.00658137377741838,0.0461298270927887,TRUE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Late PH",180,ll,0.0325431630258236,0.0157722757898483,0.0489918123259421,TRUE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Late PH",365,auc,0.00843087299535994,0.00140432220460357,0.0155951734015197,TRUE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Late PH",365,ipa,0.0233832550533314,0.0069434802228488,0.0413586824752689,TRUE
+B,3-mod,EHR+CTPA,"Super learner v6, recalibrated - Late PH",365,ll,0.036400033064152,0.0201026350891511,0.0539207378132558,TRUE
+B,3-mod,EHR+CTPA,"Super learner v4, recalibrated - Late PH",10,auc,0.00448697997717606,-0.0111632557993414,0.0187096689683323,FALSE
+B,3-mod,EHR+CTPA,"Super learner v4, recalibrated - Late PH",10,ipa,0.00306959202721557,-0.0414935218714121,0.0374980248884557,FALSE
+B,3-mod,EHR+CTPA,"Super learner v4, recalibrated - Late PH",10,ll,0.0140919225107189,-0.022913179142555,0.047685960526055,FALSE
+B,3-mod,EHR+CTPA,"Super learner v4, recalibrated - Late PH",30,auc,0.000677778414189367,-0.0102858062519157,0.0111582764672117,FALSE
+B,3-mod,EHR+CTPA,"Super learner v4, recalibrated - Late PH",30,ipa,0.00256593558871665,-0.0185966298133176,0.0233192233441278,FALSE
+B,3-mod,EHR+CTPA,"Super learner v4, recalibrated - Late PH",30,ll,0.00482898670017018,-0.015065936984315,0.0233738016495413,FALSE
+B,3-mod,EHR+CTPA,"Super learner v4, recalibrated - Late PH",90,auc,0.00589764281960814,0.000166078170095288,0.0118077236541428,TRUE
+B,3-mod,EHR+CTPA,"Super learner v4, recalibrated - Late PH",90,ipa,0.00937074385927394,-0.00803117622679235,0.0262865448498653,FALSE
+B,3-mod,EHR+CTPA,"Super learner v4, recalibrated - Late PH",90,ll,0.0148797087665209,0.00173933088392103,0.0279858638334324,TRUE
+B,3-mod,EHR+CTPA,"Super learner v4, recalibrated - Late PH",180,auc,0.00705562686242278,0.00155848604990678,0.0128280485635406,TRUE
+B,3-mod,EHR+CTPA,"Super learner v4, recalibrated - Late PH",180,ipa,0.016608268411711,0.00133039268344546,0.0322582267080206,TRUE
+B,3-mod,EHR+CTPA,"Super learner v4, recalibrated - Late PH",180,ll,0.0221694561245166,0.00976902090453375,0.0343223681006432,TRUE
+B,3-mod,EHR+CTPA,"Super learner v4, recalibrated - Late PH",365,auc,0.00831087151841869,0.0023368133148996,0.0142509032294698,TRUE
+B,3-mod,EHR+CTPA,"Super learner v4, recalibrated - Late PH",365,ipa,0.0214485323653394,0.00821764224764602,0.0351030688670651,TRUE
+B,3-mod,EHR+CTPA,"Super learner v4, recalibrated - Late PH",365,ll,0.0318685130690379,0.0183636548386687,0.0456339793473287,TRUE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",10,auc,0.00780682643427744,-0.00451008204791598,0.0202464809764131,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",10,ipa,0.00974106306410283,-0.0265480895867568,0.0421171516359879,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",10,ll,0.0217762475139988,-0.00816643055946411,0.053123169445048,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",30,auc,0.00297840655249448,-0.00354070874469524,0.00974304146572425,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",30,ipa,0.00233229815923941,-0.0193075723209214,0.0227683357163354,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",30,ll,0.00630186955320267,-0.00937051495786745,0.0209678850130788,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",90,auc,0.00547068538398021,-0.000297629212576919,0.0110419922221208,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",90,ipa,0.0179174590719919,-0.0021041313559862,0.0370528145157773,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",90,ll,0.0166779998336059,0.00215173344624814,0.0307184013538889,TRUE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",180,auc,0.00243944545775254,-0.00165077384397799,0.00631012746025031,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",180,ipa,0.00762026262311077,-0.00593301851474245,0.0205891756033328,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",180,ll,0.00870065041806289,-0.00204718837908095,0.019606083392346,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",365,auc,0.000320003938510061,-0.00234095349152818,0.00305796333104142,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",365,ipa,0.00148008381508113,-0.00647967905697113,0.00925620945004053,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",365,ll,0.00422242557767194,-0.00271441941094168,0.011431420659214,FALSE
+B,3-mod,EHR+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",10,auc,-0.00173773212988893,-0.00857190271657276,0.0054203650851008,FALSE
+B,3-mod,EHR+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",10,ipa,-0.0150548784332468,-0.0396349219370359,0.00729743087888305,FALSE
+B,3-mod,EHR+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",10,ll,-0.00922666479643519,-0.0293039951664774,0.0105964188197276,FALSE
+B,3-mod,EHR+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",30,auc,-0.00132691830383558,-0.004546229527767,0.00190668906568744,FALSE
+B,3-mod,EHR+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",30,ipa,-0.00814121015200053,-0.0166252451050671,-0.000336873545986399,TRUE
+B,3-mod,EHR+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",30,ll,-0.00582427573325139,-0.0120147508349108,0.000395150934255484,FALSE
+B,3-mod,EHR+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",90,auc,-0.000220516477741906,-0.00123559715276386,0.000780584002148043,FALSE
+B,3-mod,EHR+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",90,ipa,0.000216179304443842,-0.00263270378618098,0.00321957700565322,FALSE
+B,3-mod,EHR+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",90,ll,-0.000223974056656528,-0.00233057150478004,0.0019981873307954,FALSE
+B,3-mod,EHR+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",180,auc,-5.25419021669693e-05,-0.000749533762829466,0.000621468788907722,FALSE
+B,3-mod,EHR+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",180,ipa,3.73612828880043e-05,-0.00171046515095852,0.00169232535583851,FALSE
+B,3-mod,EHR+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",180,ll,-0.00016390591562554,-0.00158454589619209,0.00119198173843149,FALSE
+B,3-mod,EHR+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",365,auc,-7.38470627330568e-05,-0.000977963885175193,0.000777959038983925,FALSE
+B,3-mod,EHR+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",365,ipa,0.000689991717737315,-0.00185203890511237,0.00311947743128227,FALSE
+B,3-mod,EHR+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",365,ll,0.000593389454142557,-0.0016553752462721,0.00284876248645671,FALSE
+B,3-mod,EHR+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",10,auc,-0.00186741363211962,-0.0093143336851028,0.005271727552372,FALSE
+B,3-mod,EHR+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",10,ipa,-0.0185584886578122,-0.0399819698987077,0.000745019100177235,FALSE
+B,3-mod,EHR+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",10,ll,-0.0132591467944894,-0.0313336063007938,0.00375740462057998,FALSE
+B,3-mod,EHR+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",30,auc,-0.00298795272734209,-0.00546826495215048,-0.000767434309621287,TRUE
+B,3-mod,EHR+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",30,ipa,-0.00924873179173791,-0.01705736009877,-0.00187143383756747,TRUE
+B,3-mod,EHR+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",30,ll,-0.00699431906162429,-0.0121496177853878,-0.00173268806947438,TRUE
+B,3-mod,EHR+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",90,auc,7.50694392313012e-05,-0.000966242756849142,0.00113668498234483,FALSE
+B,3-mod,EHR+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",90,ipa,-0.00115249713928467,-0.00363836268485105,0.00152511916999979,FALSE
+B,3-mod,EHR+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",90,ll,-0.00151741233841252,-0.00359393157977029,0.000664750242691367,FALSE
+B,3-mod,EHR+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",180,auc,-0.000270215496858794,-0.000878876210285709,0.000307756471127066,FALSE
+B,3-mod,EHR+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",180,ipa,-0.00115720346151926,-0.00300378544065518,0.00049870411692732,FALSE
+B,3-mod,EHR+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",180,ll,-0.00136286889968995,-0.0029162841570282,3.44936118596415e-06,FALSE
+B,3-mod,EHR+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",365,auc,-0.000369235313665395,-0.0010406753037433,0.00028969223130984,FALSE
+B,3-mod,EHR+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",365,ipa,-0.00051938895961301,-0.00230981008876353,0.00121835123787336,FALSE
+B,3-mod,EHR+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",365,ll,-0.00148261546488704,-0.00327912572101221,0.00018419415418057,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",10,auc,0.00466853408029877,-0.00455005124583501,0.0147106336920684,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",10,ipa,-0.0135509692249353,-0.0350379710838386,0.00450683084372625,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",10,ll,-0.000351997363027046,-0.0193325677120314,0.0189777327539346,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",30,auc,-0.00170876529774522,-0.00455424731982663,0.000859871699410044,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",30,ipa,-0.0120780395898131,-0.0219387232955264,-0.00384054634259751,TRUE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",30,ll,-0.00781973753551191,-0.0144147471990743,-0.00211784685742687,TRUE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",90,auc,-7.50694392313012e-05,-0.00203238951672379,0.00196935794555383,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",90,ipa,0.000822330848134656,-0.00424367423635127,0.00582377006901004,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",90,ll,-0.000518948654470663,-0.00476938147850317,0.00373392059341795,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",180,auc,-0.000634255819015661,-0.00123854213832062,-3.83334603242781e-05,TRUE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",180,ipa,-0.00183072765970715,-0.00367631528104341,-3.5647437175386e-05,TRUE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",180,ll,-0.00167305648324412,-0.00307309550964406,-0.000257483362813321,TRUE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",365,auc,0.000200002461568816,-0.00103904562392335,0.00151201981651103,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",365,ipa,-0.000454638872910862,-0.00428818794290516,0.00358300071970107,FALSE
+B,3-mod,EHR+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",365,ll,-0.000309094417442091,-0.00364437866567082,0.00307189620093393,FALSE
+B,3-mod,EHR+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,10,auc,0.00246394854237986,-0.025091152122731,0.0260980472936476,FALSE
+B,3-mod,EHR+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,10,ipa,0.0106592354085786,-0.0329014698654837,0.0494947175351033,FALSE
+B,3-mod,EHR+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,10,ll,0.0123968735121373,-0.0322215294673805,0.0528942422707667,FALSE
+B,3-mod,EHR+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,30,auc,0.00362754644214058,-0.0111439360469095,0.0183007515113475,FALSE
+B,3-mod,EHR+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,30,ipa,0.00848137544812944,-0.0284828742889466,0.0457666511751434,FALSE
+B,3-mod,EHR+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,30,ll,0.00352701593403404,-0.0256445897468051,0.0313856841885577,FALSE
+B,3-mod,EHR+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,90,auc,0.00681724345019141,-0.00268401350684757,0.0160784728999971,FALSE
+B,3-mod,EHR+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,90,ipa,0.0182458317471057,-0.0107406123006992,0.0487832657412104,FALSE
+B,3-mod,EHR+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,90,ll,0.00865229980009053,-0.0147204932664457,0.0310524983064606,FALSE
+B,3-mod,EHR+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,180,auc,0.00156124509296163,-0.0064435135166346,0.00998252308364401,FALSE
+B,3-mod,EHR+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,180,ipa,0.00706344872352749,-0.0177251994518261,0.0328399838634383,FALSE
+B,3-mod,EHR+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,180,ll,-0.00324043249573913,-0.0259411516109754,0.0187806829510721,FALSE
+B,3-mod,EHR+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,365,auc,-0.00285541975901238,-0.0105014282669496,0.00505918018900745,FALSE
+B,3-mod,EHR+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,365,ipa,0.00292256565367233,-0.0177385360117648,0.0250283631648729,FALSE
+B,3-mod,EHR+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,365,ll,-0.00801403331061468,-0.0317769576030903,0.0163677473190195,FALSE
+B,3-mod,EHR+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,10,auc,0.0123975516132379,-0.00301372708315399,0.0285968740308131,FALSE
+B,3-mod,EHR+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,10,ipa,0.00783207563824573,-0.0323523216097845,0.0471731890076676,FALSE
+B,3-mod,EHR+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,10,ll,0.0137391276423624,-0.0212680463234425,0.0466292173055456,FALSE
+B,3-mod,EHR+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,30,auc,-5.72770490864238e-05,-0.0139673385096763,0.0129019847346678,FALSE
+B,3-mod,EHR+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,30,ipa,0.00367845743187634,-0.0324702900321532,0.0423054280850561,FALSE
+B,3-mod,EHR+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,30,ll,-0.00358183068370888,-0.0296084110860614,0.0233611220657728,FALSE
+B,3-mod,EHR+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,90,auc,0.000276818557165326,-0.00912354276962898,0.00937033763133105,FALSE
+B,3-mod,EHR+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,90,ipa,0.00927661477805197,-0.0204980251810025,0.0399965430346134,FALSE
+B,3-mod,EHR+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,90,ll,-0.000672194290918249,-0.0239402000118659,0.0211527732458286,FALSE
+B,3-mod,EHR+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,180,auc,-0.00511908246826842,-0.0129405536116149,0.00312249020006326,FALSE
+B,3-mod,EHR+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,180,ipa,-0.00835613468082741,-0.0338835727696316,0.017603556397354,FALSE
+B,3-mod,EHR+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,180,ll,-0.0144781493340652,-0.0368119642544471,0.00635121677443928,FALSE
+B,3-mod,EHR+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,365,auc,-0.00675392927912955,-0.0140741699375818,0.000513954856787454,FALSE
+B,3-mod,EHR+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,365,ipa,-0.0196137023557681,-0.0418129941098803,0.00150731215918862,FALSE
+B,3-mod,EHR+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,365,ll,-0.0242299820706992,-0.0459999956176739,-0.00347869700037784,TRUE
+B,3-mod,EHR+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",10,auc,0.0219421101774042,0.00169679206701903,0.042984236339199,TRUE
+B,3-mod,EHR+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",10,ipa,0.0244523851729728,-0.00454873069022038,0.0549370465361286,FALSE
+B,3-mod,EHR+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",10,ll,0.0416211839203268,0.00784168685942954,0.0782929083616003,TRUE
+B,3-mod,EHR+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",30,auc,0.00648185272161439,-0.00548722103847017,0.0187535340034977,FALSE
+B,3-mod,EHR+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",30,ipa,0.0164197151882094,-0.015962467922868,0.050125806056341,FALSE
+B,3-mod,EHR+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",30,ll,0.0152502384787213,-0.00830016784263767,0.0393528346162918,FALSE
+B,3-mod,EHR+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",90,auc,0.00559267322273105,-0.00363468637736825,0.0148378659760068,FALSE
+B,3-mod,EHR+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",90,ipa,0.0220895433200541,-0.00822599778302266,0.0531559450993755,FALSE
+B,3-mod,EHR+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",90,ll,0.0186895271741043,-0.00360764860319275,0.0410373223488315,FALSE
+B,3-mod,EHR+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",180,auc,-0.000386558280228488,-0.00879138979352831,0.00785686391959063,FALSE
+B,3-mod,EHR+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",180,ipa,0.00123245747403289,-0.0264303364201701,0.0289376570040798,FALSE
+B,3-mod,EHR+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",180,ll,0.00476714394696165,-0.0172129443263871,0.027154943749449,FALSE
+B,3-mod,EHR+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",365,auc,-0.00479082819480858,-0.0118899140999053,0.00226864814671388,FALSE
+B,3-mod,EHR+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",365,ipa,-0.0109629866291696,-0.0338044094337878,0.0113713963725425,FALSE
+B,3-mod,EHR+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",365,ll,-0.006772787912116,-0.0281406648290855,0.0146898621449641,FALSE
+B,3-mod,EHR+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",10,auc,0.0108154372860255,-0.0111049670235119,0.0311921818972506,FALSE
+B,3-mod,EHR+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",10,ipa,0.0412081805938947,-0.00356066482878384,0.0911670567805319,FALSE
+B,3-mod,EHR+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",10,ll,0.0417770601416068,7.90501424117548e-05,0.0843862451039997,TRUE
+B,3-mod,EHR+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",30,auc,0.00476354124902145,-0.00886420110043874,0.0185706243866064,FALSE
+B,3-mod,EHR+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",30,ipa,0.0101255826692946,-0.0327862106203037,0.0520716429098227,FALSE
+B,3-mod,EHR+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",30,ll,0.0101504373528575,-0.0191973721746094,0.039577513493887,FALSE
+B,3-mod,EHR+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",90,auc,0.00550352826364386,-0.00455432333497176,0.015408576482385,FALSE
+B,3-mod,EHR+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",90,ipa,0.0149890245645555,-0.016005188217294,0.047890991810544,FALSE
+B,3-mod,EHR+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",90,ll,0.0111829589572421,-0.0118089307683745,0.0346850768177006,FALSE
+B,3-mod,EHR+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",180,auc,0.00177891868765345,-0.00686997975140649,0.0102990439092261,FALSE
+B,3-mod,EHR+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",180,ipa,0.00394007871050084,-0.0226952206137158,0.0308474860588436,FALSE
+B,3-mod,EHR+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",180,ll,0.0017167451205905,-0.0195614326117923,0.0233935616519626,FALSE
+B,3-mod,EHR+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",365,auc,-0.00367081441002348,-0.0113389084086238,0.00438856612141952,FALSE
+B,3-mod,EHR+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",365,ipa,-0.00637605339571656,-0.0280294665296734,0.0168358542686714,FALSE
+B,3-mod,EHR+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",365,ll,-0.00754078909103051,-0.028450154721504,0.0141636046194698,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",10,auc,0.00204896773524221,-0.0118621470759701,0.0132816167273306,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",10,ipa,0.0201735497967547,-0.00302020030116912,0.0446182948889224,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",10,ll,0.0193411572103736,-0.00617400539894166,0.0447110343093787,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",30,auc,0.0037230081906181,-0.00208906583004294,0.0101170860341653,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",30,ipa,0.0128204449563911,-0.00316748793047173,0.0294167351648942,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",30,ll,0.0124876072013693,-3.82622998173736e-05,0.0249151817904209,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",90,auc,0.00506249530816005,0.00026336219225844,0.0098369216695902,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",90,ipa,0.0151397408072955,0.000159025814685143,0.0300359210074118,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",90,ll,0.0162928173117963,0.00459966295156671,0.0278182747715934,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",180,auc,0.00283350972400487,-0.000982825502553375,0.00656210092231052,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",180,ipa,0.00927008993294165,-0.0037101388415362,0.0218436308070179,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",180,ll,0.0108099992097123,0.000575717929969152,0.020886370369445,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",365,auc,-0.000181540695885496,-0.0033815975629975,0.00294063110916319,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",365,ipa,0.00142089481860053,-0.00862783735365132,0.0115749251335325,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v4, recalibrated",365,ll,0.00401823072138763,-0.00453420186145779,0.0129250961162709,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",10,auc,0.00544662309368194,-0.000470452896892271,0.0120994862989749,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",10,ipa,0.020002851336998,0.00060226063072415,0.0429908780633266,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",10,ll,0.0180483978488621,0.00154578626338522,0.0365467774185811,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",30,auc,0.0038184699390954,-0.000879570370883512,0.00852657321565263,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",30,ipa,0.00889885273362856,-0.00559656169723424,0.0231556266040671,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",30,ll,0.00819081090115803,-0.00253455388574557,0.0189599446010721,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",90,auc,0.00498742586892875,0.000586478987505032,0.00911777576076866,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",90,ipa,0.013686963840316,-0.000147887789224701,0.0270408521479866,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",90,ll,0.0124042689793042,0.00204510314788576,0.0224795944728117,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",180,auc,0.00285227468906446,-0.000859104904708291,0.00639657129540763,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",180,ipa,0.00680783095286575,-0.00527353469304263,0.0187449751342884,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",180,ll,0.00652701174290515,-0.00275611589672719,0.0158553837686295,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",365,auc,0.000553852970498037,-0.00269662139600071,0.00364347749646327,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",365,ipa,0.000619053790963386,-0.00912327231413046,0.0101571563238625,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Super learner v5, recalibrated",365,ll,0.000637087527495694,-0.00754688311956052,0.00901778622829389,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Late PH",10,auc,0.0139796659404503,-0.00224473601787962,0.0304303605708751,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Late PH",10,ipa,0.00952988932096999,-0.0457135677604345,0.0531943531176566,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Late PH",10,ll,0.0386467290184638,-0.00118676959283877,0.0742456315161256,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Late PH",30,auc,0.00536495026442907,-0.00615881448273084,0.017053058580473,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Late PH",30,ipa,0.0160210271282145,-0.0104636378858831,0.0416807153988848,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Late PH",30,ll,0.0210711509929327,-0.00299143702369773,0.0442814728745493,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Late PH",90,auc,0.0101249906163201,0.00253259385874077,0.0180337461015429,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Late PH",90,ipa,0.0219331501496641,0.000403129896995747,0.0429820904859507,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Late PH",90,ll,0.0304685419735041,0.0130073029292951,0.0473620692750965,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Late PH",180,auc,0.00878950963393299,0.00236913115136244,0.0156802618803128,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Late PH",180,ipa,0.0221242363528698,0.00241036707915223,0.0422935319762434,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Late PH",180,ll,0.0311221592093898,0.0146735675572292,0.0474248502518172,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Late PH",365,auc,0.00781548080591754,0.00115706844896035,0.0145234672350725,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Late PH",365,ipa,0.0238088708987171,0.00753341721585035,0.0413039121750416,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, recalibrated - Late PH",365,ll,0.037754662016552,0.0211121167245877,0.055246193869784,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, recalibrated - Late PH",10,auc,0.0119306982052081,-0.00669524202860265,0.0318267108827683,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, recalibrated - Late PH",10,ipa,-0.0106436604757847,-0.063067291589395,0.0282532329718114,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, recalibrated - Late PH",10,ll,0.0193055718080902,-0.0177868151954407,0.0525934490282387,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, recalibrated - Late PH",30,auc,0.00164194207381096,-0.0106212666445894,0.0134410389291546,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, recalibrated - Late PH",30,ipa,0.0032005821718234,-0.0206797852206966,0.0250664288248819,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, recalibrated - Late PH",30,ll,0.00858354379156334,-0.0131984331491479,0.030023089160492,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, recalibrated - Late PH",90,auc,0.00506249530816005,-0.000772765339194168,0.0110200470351601,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, recalibrated - Late PH",90,ipa,0.00679340934236861,-0.00987753155494639,0.0238542627002554,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, recalibrated - Late PH",90,ll,0.0141757246617078,0.0010677985325119,0.0276288230242674,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, recalibrated - Late PH",180,auc,0.00595599990992812,0.00070340612530318,0.0114819564999978,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, recalibrated - Late PH",180,ipa,0.0128541464199281,-0.00244593323924807,0.0280289950040869,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, recalibrated - Late PH",180,ll,0.0203121599996775,0.00782100016949312,0.0332415174781868,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, recalibrated - Late PH",365,auc,0.00799702150180304,0.0024952486690188,0.0136926762198109,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, recalibrated - Late PH",365,ipa,0.0223879760801166,0.00908602368976336,0.0363296171526571,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, recalibrated - Late PH",365,ll,0.0337364312951644,0.0196822917987767,0.0476415814676506,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",10,auc,5.18726008921222e-05,-0.0175740358316308,0.0144524400781899,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",10,ipa,0.00500420206978802,-0.0283069700682507,0.0372016097702061,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",10,ll,0.00843513926974293,-0.0259568961032399,0.0430316386822592,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",30,auc,0.00319796857399246,-0.00320300585596248,0.00978982711595106,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",30,ipa,0.00518051992454038,-0.0162400247340633,0.0250752103929034,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",30,ll,0.00801652629112526,-0.00780123036547587,0.0230960264512144,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",90,auc,0.00590233465956003,0.000627194173171777,0.01114643657157,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",90,ipa,0.0167536618564221,-0.00143137504687006,0.0350314037040625,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",90,ll,0.0162182051123154,0.00315466797195154,0.0294177991482644,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",180,auc,0.00254077626907456,-0.00116850798436508,0.00616609840869705,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",180,ipa,0.00822687060640148,-0.00436371833239155,0.0203547318919067,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",180,ll,0.0100785955907718,-2.2751991954753e-05,0.020104466090497,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",365,auc,-0.000203079422515962,-0.00269527268417368,0.00220514547736543,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",365,ipa,0.00130256127468631,-0.00593345175393831,0.00868519821463807,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v4, recalibrated",365,ll,0.0040266982160736,-0.00285395577456627,0.0110648909676403,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",10,auc,-0.00674343811598721,-0.0174607809787505,0.00298814204815023,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",10,ipa,-0.0192622726736077,-0.0465943489435107,0.00492400751794535,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",10,ll,-0.0169425147793596,-0.0384926536892295,0.00523011915616342,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",30,auc,-0.000668232239341648,-0.00447531299794723,0.00287346604610598,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",30,ipa,-0.00881034271523551,-0.0180448753975243,-0.000396638508330823,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",30,ll,-0.00573945425525146,-0.0128015726419086,0.00079268729388448,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",90,auc,0.000319045116732974,-0.00104278579989645,0.00168335879590331,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",90,ipa,0.000306614691197415,-0.00391620882816425,0.00447281535168688,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",90,ll,-0.000178953352021449,-0.00336861952249499,0.00284556767600485,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",180,auc,7.5059860238591e-05,-0.000632109034823924,0.000820420713468158,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",180,ipa,0.000641531862677458,-0.00105185003776374,0.00235309351166982,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",180,ll,0.000475276839173033,-0.000990856842275695,0.00192429354793518,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",365,auc,-0.000206156383463219,-0.0012785366173974,0.000863328083768719,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",365,ipa,0.000753763100560301,-0.00216779381503891,0.00382110504633544,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v4, per-horizon weights, recalibrated - Super learner v4, recalibrated",365,ll,0.000697930017500958,-0.00194846121665746,0.00354559892445989,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",10,auc,-0.0053947504927897,-0.0112616516267821,0.000751765907112678,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",10,ipa,-0.0197265039549287,-0.0438496289071836,-0.000851121995102315,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",10,ll,-0.0184721153234875,-0.0348295388510062,-0.00193978946580728,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",30,auc,-0.00186150409530905,-0.00434206862385561,0.000586215898296502,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",30,ipa,-0.00816369988493904,-0.0158650429993241,-0.000631748058728098,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",30,ll,-0.00605899035195889,-0.0111120585035537,-0.000552042178231849,TRUE
+B,3-mod,EHR+ECG+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",90,auc,0.000243975677501673,-0.00106341107376114,0.00166902488618548,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",90,ipa,2.15975172401794e-06,-0.00358834298658586,0.0037328342526331,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",90,ll,-0.000561481855203883,-0.0036747914418695,0.00254019951903392,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",180,auc,-0.000202661622644151,-0.000811563138895582,0.000408517089298613,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",180,ipa,-0.000145606267079379,-0.00167502484528271,0.00128121352661181,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",180,ll,-6.65956002160462e-05,-0.00140759929954733,0.00115610884355217,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",365,auc,3.07696094714593e-06,-0.000866871703203831,0.00084938065432352,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",365,ipa,-0.000115252936542576,-0.0023795578970147,0.00193450659088161,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v5, per-horizon weights, recalibrated - Super learner v5, recalibrated",365,ll,-0.000722369947308899,-0.00290520787838226,0.00125744920938408,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",10,auc,-0.00199709513435009,-0.0100105310065186,0.00615588061357689,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",10,ipa,-0.0151693477269667,-0.0357231321395967,0.00209960287026856,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",10,ll,-0.0109060179406306,-0.0295196030809295,0.00822910557621206,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",30,auc,-0.000525039616625644,-0.00329179254783479,0.00241957848644668,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",30,ipa,-0.00763992503185074,-0.0184600825672122,0.00190163105673792,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",30,ll,-0.00447108091024406,-0.0119561449447413,0.00232175573201847,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",90,auc,0.000839839351399974,-0.00168738577439881,0.00333414101078456,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",90,ipa,0.00161392104912661,-0.00398551349618616,0.00720426636410655,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",90,ll,-7.46121994809057e-05,-0.00507217638662847,0.00493851661781957,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",180,auc,-0.000292733454930305,-0.00094792489123004,0.000345542953167402,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",180,ipa,-0.00104321932654017,-0.00293252605346173,0.000786667907840591,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",180,ll,-0.000731403618940418,-0.00229714905208162,0.000762540112771525,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",365,auc,-2.15387266304656e-05,-0.00129543975740909,0.00132734358939998,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",365,ipa,-0.000118333543914217,-0.004118315012529,0.00405511915104228,FALSE
+B,3-mod,EHR+ECG+CTPA,"Super learner v6, per-horizon weights, recalibrated - Super learner v6, recalibrated",365,ll,8.46749468597086e-06,-0.00342199815258849,0.00364299020381156,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,10,auc,0.00181554103122727,-0.0209901526066902,0.0225058937051368,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,10,ipa,0.00984435021793506,-0.0325320816778389,0.0485004917857948,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,10,ll,0.00977911871689385,-0.0322919079424709,0.0487792794953617,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,30,auc,0.00147965710139952,-0.0117665911313438,0.0146366738759433,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,30,ipa,0.0074445496278871,-0.0284744697994259,0.0453507886101945,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,30,ll,0.00136558975580536,-0.0263771819834724,0.0280786629183123,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,90,auc,0.00566774266196235,-0.00272434418484222,0.0142690346190267,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,90,ipa,0.0159729165490993,-0.0118558393802426,0.0451723488181441,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,90,ll,0.0061801281800925,-0.0171174239660716,0.028620283526089,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,180,auc,0.000416582224323836,-0.0068008633503803,0.00810554052120115,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,180,ipa,0.00459172886114578,-0.0187909481340227,0.0290008492700189,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,180,ll,-0.00517150585452209,-0.028302168453512,0.0168984445798101,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,365,auc,-0.00414774335684132,-0.0113031763813637,0.00333277437905853,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,365,ipa,0.000122601109517784,-0.0195269527598555,0.0213572203146415,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: ridge-Cox retuned (EHR 79) PH - SL candidate: ridge-Cox retuned PH,365,ll,-0.0101624733090792,-0.0355908467214493,0.0135028622359065,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,10,auc,0.0112822906940554,-0.00388445391485701,0.0267556131912352,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,10,ipa,0.00657767705012724,-0.0320099019463419,0.0441415150153663,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,10,ll,0.0129333592459151,-0.0212837951272329,0.0446930756166838,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,30,auc,-0.000935525135078441,-0.0135604735533895,0.0109126346019646,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,30,ipa,0.00613614709510757,-0.0303607449823643,0.0433826657885107,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,30,ll,-0.00315841459969413,-0.0286242134124541,0.0223874585736619,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,90,auc,-0.000455108475339694,-0.00916231718930884,0.00798480759247246,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,90,ipa,0.00932887711013208,-0.0190973974170709,0.0384379730619812,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,90,ll,-0.0021587471773431,-0.0251595227513607,0.0198255349337834,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,180,auc,-0.00560697155981893,-0.0131204145054463,0.00220307659893775,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,180,ipa,-0.00829407816523298,-0.0319839549405376,0.0160442975070151,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,180,ll,-0.0161891644423477,-0.0390830244786268,0.00516030772978797,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,365,auc,-0.00715393420226707,-0.0141316941653967,-0.000274817170582934,TRUE
+B,3-mod,EHR+ECG+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,365,ipa,-0.0187389218347271,-0.0398570684197271,0.00114281434970739,FALSE
+B,3-mod,EHR+ECG+CTPA,SL candidate: spline Cox (EHR 79) PH - SL candidate: spline Cox PH,365,ll,-0.0252416971823148,-0.0489125475694042,-0.00388286838380543,TRUE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",10,auc,0.0220717916796348,0.0036457468800633,0.0424587297841578,TRUE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",10,ipa,0.0231478735062173,-0.00713022572749774,0.0538122053965346,FALSE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",10,ll,0.0380341854423319,0.00607894327998936,0.0729677140122375,TRUE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",30,auc,0.0057945281325773,-0.00510460984291562,0.0173882971537001,FALSE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",30,ipa,0.0159627871023971,-0.016458355033717,0.0487033477703102,FALSE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",30,ll,0.0135161985499664,-0.00958748976953928,0.037118804340094,FALSE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",90,auc,0.00616507769686958,-0.00258249417959564,0.0145923397934816,FALSE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",90,ipa,0.0202591461773364,-0.00946813869015882,0.051242512749431,FALSE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",90,ll,0.0165058652613007,-0.0053026193859297,0.0387006407402051,FALSE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",180,auc,0.000559195958777181,-0.00717165494571527,0.00821282375293873,FALSE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",180,ipa,-7.08869796383072e-05,-0.027083096542657,0.027091593866115,FALSE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",180,ll,0.00295333024159461,-0.018701720901641,0.0256975210028019,FALSE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",365,auc,-0.00390466344201168,-0.0104093911476566,0.00246967979792763,FALSE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",365,ipa,-0.0124208498107766,-0.0339909110083903,0.0083396933808517,FALSE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: RSF, Brier-tuned (EHR 79) PH - SL candidate: RSF, Brier-tuned PH",365,ll,-0.00805951097644986,-0.0298488614269473,0.0138548244508116,FALSE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",10,auc,0.0104263927793339,-0.010181606252117,0.029477512807695,FALSE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",10,ipa,0.0435117436845314,-0.00159694784452474,0.0937967999868238,FALSE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",10,ll,0.0404089490907344,-4.08055359595534e-05,0.0821362184394104,FALSE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",30,auc,0.00353208469366328,-0.00942674662728583,0.0160168705934419,FALSE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",30,ipa,0.00897229514028031,-0.0332467439143039,0.0503046340976153,FALSE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",30,ll,0.00855164548528709,-0.0199580905049234,0.0365631570480777,FALSE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",90,auc,0.00482321147061027,-0.00494966432936163,0.0140162610865567,FALSE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",90,ipa,0.0129006549853377,-0.0168272217617679,0.0446692966242565,FALSE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",90,ll,0.00938674620788882,-0.0130004587852075,0.0326921123240955,FALSE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",180,auc,0.00114090987562576,-0.00699525420664377,0.00920093398246071,FALSE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",180,ipa,0.00222444678013711,-0.0231826647849484,0.0283291044722421,FALSE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",180,ll,0.000407660737401838,-0.0205436092249567,0.0216838060159395,FALSE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",365,auc,-0.00428005267757137,-0.0114088274182089,0.00308048826267298,FALSE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",365,ipa,-0.00911778901050631,-0.0299919410373245,0.0130176615413853,FALSE
+B,3-mod,EHR+ECG+CTPA,"SL candidate: oblique RSF, Brier-tuned (EHR 79) PH - SL candidate: oblique RSF, Brier-tuned PH",365,ll,-0.00898079247414385,-0.0295588171521089,0.0128591781775882,FALSE
