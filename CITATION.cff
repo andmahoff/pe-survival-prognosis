@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Multimodal Prediction of Death and Readmission After Pulmonary Embolism: Development in MIMIC-IV and Bidirectional Transfer of Death Models With Stanford INSPECT"
+authors:
+  - family-names: "Machowski"
+    given-names: "Andrzej"
+version: 1.0.0
+date-released: 2026-10-13
+repository-code: "https://github.com/andmahoff/pe-survival-prognosis"
+license: MIT
+keywords:
+  - pulmonary embolism
+  - survival analysis
+  - super learner
+  - multimodal fusion
+  - MIMIC-IV
+  - INSPECT

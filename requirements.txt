@@ -1,0 +1,15 @@
+# Python packages for the scripts in scripts/
+# Pinned versions are those of the analysis environment (its constraints file).
+numpy==1.26.4
+pandas==2.0.3
+scipy==1.13.1
+scikit-learn==1.3.2
+# CPU build: pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1
+# also used (versions not recorded; releases compatible with the pins above)
+scikit-survival
+joblib
+openpyxl
+# BigQuery scripts (00r, 03 to 03e) only
+google-cloud-bigquery
+db-dtypes

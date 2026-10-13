@@ -1,0 +1,44 @@
+# patient-level data and derived files: never commit
+data/
+Datasets/
+*.parquet
+*.feather
+*.npy
+*.npz
+*.joblib
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+*.rds
+*.RData
+*.hea
+*.dat
+*.tsv
+*_preds*.csv
+oof_*.csv
+frame_*.csv
+folds*.csv
+# logs can print patient rows
+logs/
+*.log
+*_log.txt
+# superseded runs kept on the analysis computer only
+results/*_v[0-9]*/
+# environments, credentials and editor files
+venv/
+venv_*/
+.env
+*credentials*.json
+application_default_credentials.json
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.Rhistory
+.RData
+.Rproj.user/
+.positron/
+.vscode/
+# the aggregate tables are always kept, whatever their names match above
+!results/*.csv
