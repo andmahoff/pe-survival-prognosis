@@ -1,10 +1,14 @@
 # Multimodal Prediction of Death and Readmission After Pulmonary Embolism
 
-Development in MIMIC-IV and bidirectional transfer of death models with Stanford INSPECT. Post-dissertation project, 2026, and the third in a series:
+Development in MIMIC-IV and bidirectional transfer of death models with Stanford INSPECT. Post-dissertation project, 2026.
 
-1. [pe-multimodal-prognosis-msc](https://github.com/andmahoff/pe-multimodal-prognosis-msc): MSc Data Science dissertation, binary 30-day outcomes after acute pulmonary embolism (PE) from EHR, ECG and CTPA report features.
-2. [pe-fusion-transfer](https://github.com/andmahoff/pe-fusion-transfer): side project on fusion architectures and transfer between INSPECT and MIMIC-IV.
-3. **pe-survival-prognosis** (this repository): the same patients re-analysed as time-to-event data, at diagnosis and at discharge, for up to one year.
+**Part of a three-project series on prognosis after acute pulmonary embolism (PE):**
+
+| Part | Repository | Question |
+|---|---|---|
+| 1 | [pe-multimodal-prognosis-msc](https://github.com/andmahoff/pe-multimodal-prognosis-msc) | MSc dissertation. Does late fusion of EHR, ECG, CTPA report and CXR features improve the prediction of 30-day outcomes after PE? |
+| 2 | [pe-fusion-transfer](https://github.com/andmahoff/pe-fusion-transfer) | Which fusion methods still help when models move between hospitals, in both directions between Stanford INSPECT and MIMIC-IV? |
+| 3 | **pe-survival-prognosis** (this repository) | The MIMIC-IV cohort as time-to-event data: risk of death and readmission at any point up to one year, from diagnosis and from discharge. |
 
 This repository holds the analysis code, the registration documents, the aggregate result tables and the figures. It is research code shared for transparency and reproducibility, not a maintained software package. It contains no patient-level data.
 
@@ -64,7 +68,7 @@ All numbers below are copied from [`results/verified_results.md`](results/verifi
 
 ### Registered primary analysis (H1)
 
-Frame B (at discharge), EHR+ECG cohort, 2,909 discharges, death split at day 30. The ECG's early-to-late hazard ratio ratio was 1.26 (1.06 to 1.51), so H1 is supported. The EHR showed no such pattern (0.95, 0.83 to 1.13). The ratio stayed between 1.23 and 1.32 when the scores were winsorised or rank-normalised, when hospice discharges were excluded, and when the EHR score was retuned or enlarged. In the smaller three-modality cohort it was 1.25 (0.96 to 1.63), with an interval that includes 1.
+Frame B (at discharge), EHR+ECG cohort, 2,909 discharges, death split at day 30. The ratio of the ECG's early to late hazard ratio was 1.26 (1.06 to 1.51), so H1 is supported. The EHR showed no such pattern (0.95, 0.83 to 1.13). The ratio stayed between 1.23 and 1.32 when the scores were winsorised or rank-normalised, when hospice discharges were excluded, and when the EHR score was retuned or enlarged. In the smaller three-modality cohort it was 1.25 (0.96 to 1.63), with an interval that includes 1.
 
 <p align="center">
   <img src="figures/results_final/ecg_hr_early_late_B.png" width="760" alt="Hazard ratios of the ECG and EHR scores for death in days 0 to 30 and 31 to 365 after discharge">
