@@ -5,8 +5,8 @@
 # what the figure shows, direct labels instead of legends, Okabe-Ito
 # colours with shapes or line types as a second channel, faint gridlines,
 # Calibri where available, and no notes on the graphic (suggested captions
-# go to a CSV). Titles that make a claim are worded from the numbers, so
-# they stay true if the results change.
+# go to a CSV). As in the other PE projects, titles describe what each
+# figure shows and do not state its result.
 #
 # Each figure is saved as a PNG file:
 #   ecg_hr_early_late_B.png      the registered primary analysis (stage 7,
@@ -77,8 +77,20 @@ save_fig <- function(p, name, caption, w = 7, h = 4.5) {
   CAP[[length(CAP) + 1]] <<- data.table(file = name, caption = caption)
   cat("  saved", path, "\n")
 }
-# titles are written in Title Case here; this only wraps them
-ttl <- function(s, w = 62) paste(strwrap(s, w), collapse = "\n")
+# titles are written in Title Case here; this only wraps them, into lines
+# of similar length so no word is left on its own
+ttl <- function(s, w = 72) {
+  n <- length(strwrap(s, w))
+  if (n > 1) {
+    for (k in seq(ceiling(nchar(s) / n), w)) {
+      if (length(strwrap(s, k)) == n) {
+        w <- k
+        break
+      }
+    }
+  }
+  paste(strwrap(s, w), collapse = "\n")
+}
 hr_breaks <- function(lo, hi) {
   r <- range(c(lo, hi), na.rm = TRUE)
   ok <- function(b) b[b >= r[1] / 1.02 & b <= r[2] * 1.02]
@@ -138,13 +150,7 @@ if (file.exists(fp)) {
   xr <- range(c(hr$lo, hr$hi))
   kx <- exp(log(xr[1]) + c(0.00, 0.30) * diff(log(xr)))
   ky <- length(lv) + 0.6
-  t1 <- if (nrow(rat) && rat$lo > 1) {
-    "The ECG Predicts Death More Strongly in the First 30 Days After Discharge"
-  } else if (nrow(rat) && rat$hi < 1) {
-    "The ECG Predicts Death Less Strongly in the First 30 Days After Discharge"
-  } else {
-    "The ECG's Hazard Ratio for Death in Early and Late Follow-Up After Discharge"
-  }
+  t1 <- "Hazard Ratios of the ECG and EHR Scores for Death After Discharge"
   p <- ggplot(hr, aes(x = estimate, y = yy, colour = per, shape = per)) +
     annotate("segment", x = 1, xend = 1, y = 0.5, yend = length(lv) + 0.5,
              linetype = "dashed", colour = "grey50") +
@@ -230,12 +236,7 @@ if (file.exists(fp)) {
   kc <- c(primary = OI[5], sensitivity = OI[4])
   ks <- c(primary = 16, sensitivity = 17)
   xr <- range(c(S$lo, S$hi, 1))
-  t2 <- sprintf(paste("The ECG's Early to Late Hazard Ratio Stays Between",
-                      "%.2f and %.2f Across Sensitivity Analyses"),
-                min(S$estimate), max(S$estimate))
-  if (min(S$estimate) <= 1) {
-    t2 <- "The ECG's Early to Late Hazard Ratio Across Sensitivity Analyses"
-  }
+  t2 <- "ECG Early to Late Hazard Ratio Across Sensitivity Analyses"
   p <- ggplot(S, aes(x = estimate, y = yy, colour = kind, shape = kind)) +
     annotate("segment", x = 1, xend = 1, y = 0.5, yend = nrow(S) + 0.5,
              linetype = "dashed", colour = "grey50") +
@@ -296,26 +297,9 @@ for (fr in c("P", "B")) for (oc in c("death", "comp", "cv")) {
     lab[, ylab := spread(ob_c, 0.05 * lim)]
     lab[, txt := sprintf("%s days", hz)]
     get <- function(h, m) mt[horizon == h & measure == m]$estimate
-    close <- sapply(H2, function(h) {
-      oe <- get(h, "oe")
-      sl <- get(h, "slope")
-      length(oe) && length(sl) && oe >= 0.9 && oe <= 1.1 && sl >= 0.9 &&
-        sl <= 1.1
-    })
     cpart <- if (co == "3-mod") " in the Three-Modality Cohort" else ""
-    t3 <- if (all(close)) {
-      sprintf("%s Predictions of %s Agree Closely With Observed Risk at 30 and 365 Days%s",
-              FRT[[fr]], OCT[[oc]], cpart)
-    } else if (close[1]) {
-      sprintf("%s Predictions of %s Agree Closely With Observed Risk at 30 Days but Less at 365 Days%s",
-              FRT[[fr]], OCT[[oc]], cpart)
-    } else if (close[2]) {
-      sprintf("%s Predictions of %s Agree Closely With Observed Risk at 365 Days but Less at 30 Days%s",
-              FRT[[fr]], OCT[[oc]], cpart)
-    } else {
-      sprintf("%s Predictions of %s Depart From Observed Risk at 30 and 365 Days%s",
-              FRT[[fr]], OCT[[oc]], cpart)
-    }
+    t3 <- sprintf("Calibration of the %s Model for %s%s", FRT[[fr]],
+                  OCT[[oc]], cpart)
     p <- ggplot() +
       annotate("segment", x = 0, y = 0, xend = lim, yend = lim,
                linetype = "dashed", colour = "grey55") +
@@ -452,30 +436,8 @@ for (fr in c("P", "B")) for (oc in c("death", "comp", "cv")) {
     ylo <- -0.15 * prev
     yhi <- 1.05 * prev
     d[, strategy := factor(strategy, levels = names(SC))]
-    # where the model gives the most net benefit (thresholds of 1% or more)
-    w <- dcast(d, threshold ~ strategy, value.var = "net_benefit")
-    oth <- setdiff(names(w), c("threshold", "Model"))
-    best <- w$Model >= do.call(pmax, w[, ..oth]) - 1e-6 & w$threshold >= 0.01
-    r <- rle(best)
-    ends <- cumsum(r$lengths)
-    sts <- ends - r$lengths + 1
-    k <- which(r$values)
     hzs <- sprintf("%d-Day %s", h, OCT[[oc]])
-    if (length(k)) {
-      k <- k[which.max(r$lengths[k])]
-      a <- w$threshold[sts[k]]
-      b <- w$threshold[ends[k]]
-      t4 <- if (abs(b - xmax) < 1e-9 && a <= 0.0101) {
-        sprintf("The %s Model Gives the Most Net Benefit for %s at Every Threshold From %s to %s",
-                FRT[[fr]], hzs, pct(a), pct(b))
-      } else {
-        sprintf("The %s Model Gives the Most Net Benefit for %s at Thresholds From %s to %s",
-                FRT[[fr]], hzs, pct(a), pct(b))
-      }
-    } else {
-      t4 <- sprintf("The %s Model Does Not Give the Most Net Benefit for %s",
-                    FRT[[fr]], hzs)
-    }
+    t4 <- sprintf("Net Benefit of the %s Model for %s", FRT[[fr]], hzs)
     # direct labels where each is clearest (see place_labels)
     x1 <- xmax * (1 + XEXP)
     labs_txt <- SLAB[intersect(names(SLAB), as.character(unique(d$strategy)))]

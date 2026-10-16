@@ -133,8 +133,38 @@ save_fig <- function(p, name, caption, w = 7, h = 4.5) {
   cat("  saved", path, "\n")
 }
 safe <- function(s) gsub("[^A-Za-z0-9]+", "_", s)
-ttl <- function(s, w = 62) {
-  paste(strwrap(tools::toTitleCase(s), w), collapse = "\n")
+# Title Case as in the other PE projects: every word capitalised except
+# short articles, conjunctions and prepositions after the first; words that
+# already hold a capital (EHR, pH) are left as they are
+tc <- function(s) {
+  small <- c("a", "an", "the", "and", "but", "or", "nor", "for", "of",
+             "on", "in", "to", "by", "at", "per", "as", "via")
+  w <- strsplit(s, " ", fixed = TRUE)[[1]]
+  cap <- function(x) {
+    if (grepl("[A-Z]", x) || !grepl("^[a-z]", x)) return(x)
+    paste0(toupper(substring(x, 1, 1)), substring(x, 2))
+  }
+  for (i in seq_along(w)) {
+    if (i > 1 && w[i] %in% small) next
+    parts <- strsplit(w[i], "-", fixed = TRUE)[[1]]
+    w[i] <- paste(vapply(parts, cap, ""), collapse = "-")
+  }
+  paste(w, collapse = " ")
+}
+# Title Case, wrapped into lines of similar length so no word is left on
+# its own
+ttl <- function(s, w = 72) {
+  s <- tc(s)
+  n <- length(strwrap(s, w))
+  if (n > 1) {
+    for (k in seq(ceiling(nchar(s) / n), w)) {
+      if (length(strwrap(s, k)) == n) {
+        w <- k
+        break
+      }
+    }
+  }
+  paste(strwrap(s, w), collapse = "\n")
 }
 # lower-case the first letter for use mid-sentence, unless it starts a
 # proper noun or an abbreviation

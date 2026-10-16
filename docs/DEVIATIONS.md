@@ -395,3 +395,7 @@ are measured from ctpa_notes_index.csv's own admission times, which carry
 the clock time. Blood tests and vital signs are unaffected (stage 3e used
 MIMIC's admission times).
 D19 (replaces D18). The stage 0r audit recovered real ECG acquisition times from MIMIC-IV-ECG on BigQuery. Therefore, the at-diagnosis ECG is now the first ECG recorded from 24 hours before to 24 hours after admission, the same window as the labs and vital signs. D18’s date rule had dropped 1,806 ECGs dated the day after admission, and 55% of these were taken within 24 hours. ECG coverage rises from 90.9% to 96.6% of admissions. Where D18 averaged several ECGs from the first date, D19 uses the first ECG only.
+
+## D20. 16 October 2026: figure titles and the stage 20b figures (A38)
+
+A38 specified that titles making a claim are written from the numbers by fixed rules. However, the titles now describe what each figure shows without stating its result, as in the dissertation and side project figures. Therefore, stages 13d, 20b and 20q were rerun with new titles only, and Title Case now capitalises words such as Over and After, as in those projects. In addition, stage 20b's figures moved to the house style of stages 13d and 20q, with centred titles, readable feature names and no subtitles or notes on the graphic, so their captions are now written to results/interp_fig_captions.csv. This is a presentation change only, since no model was refitted and no value shown has changed.

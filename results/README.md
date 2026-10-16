@@ -114,6 +114,7 @@ In addition, terminal logs (`*_log.txt`), archived first runs of a few stages an
 | `19a_analysis_b.R` | `ab_checks.csv`, `ab_contrasts.csv`, `ab_ecg_ratio.csv`, `ab_metrics.csv` |
 | `19b_spline_cox.R` | `spline_checks.csv`, `spline_contrasts.csv`, `spline_metrics.csv` |
 | `20a_interpretability.R` | `interp_agreement.csv`, `interp_checks.csv`, `interp_shap_importance.csv`, `interp_spline_curves.csv`, `interp_spline_terms.csv` |
+| `20b_fig_interpretability.R` | `interp_fig_captions.csv` |
 | `20p_interpretability_P.R` | `interpP_agreement.csv`, `interpP_checks.csv`, `interpP_shap_domains.csv`, `interpP_shap_importance.csv`, `interpP_spline_curves.csv`, `interpP_spline_terms.csv` |
 | `20q_fig_interpretability_P.R` | `interpP_fig_captions.csv`, `interpP_fig_twins.csv` |
 | `21a_temporal.R` | `temporal_checks.csv`, `temporal_contrasts.csv`, `temporal_drift.csv`, `temporal_failures.csv`, `temporal_metrics.csv`, `temporal_weights.csv` |
